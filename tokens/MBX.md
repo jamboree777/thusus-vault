@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-16T01:19:44.876260Z
+updated: 2026-07-16T01:53:11.692845Z
 source: nightwatch-kg
 ---
 
@@ -62,7 +62,10 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:19:44.876260Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:53:11.692845Z_
+
+---
+_Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
 _Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/MBX.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
