@@ -17,6 +17,20 @@ This folder holds **community-submitted claims that have not yet been verified.*
 3. Set `observed_at` (when the change happened, UTC) and `contributor` (`@handle`).
 4. Open a pull request into this folder, or use the in-app submission form.
 
+See `EXAMPLE-2026-07-16-blast-dw.md.txt` in this folder for a fully worked claim (kept as `.txt` so tooling ignores it — copy `claims/TEMPLATE.md` as a real `.md`, don't rename the example).
+
+## What the pull request does
+
+When you open a PR that adds or edits a `claims/pending/*.md` file, a GitHub Action (**Validate claims**) runs automatically and checks each changed claim against the schema:
+
+- the YAML frontmatter parses;
+- `claim_type` is one of `dw_change | delist_notice | contract | team_event | liquidity | listing`;
+- `token`, `source_url` (an `http(s)` URL), `observed_at` (ISO-8601), and `contributor` are present and well-formed.
+
+If anything is off, the check **fails** with a readable, per-file list of exactly what to fix — correct it and push again to the same PR. When the schema is clean, the check passes with a **"schema OK — awaiting review"** summary. Passing schema is *not* verification: a maintainer / AI review still confirms the source actually says this, and (where possible) a machine probe confirms it against the exchange API, before it merges as fact. **Verified claims earn Cherry** — see the repo [[README]] and "What you earn" below.
+
+Once merged to `main`, the nightly sync bot forwards the claim to the NightWatch verification API and stamps a `synced_submission_id` into its frontmatter; that is the claim's durable id in the pipeline.
+
 ## The verification pipeline
 
 ```
