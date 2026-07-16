@@ -6,6 +6,8 @@ observed_at: 2026-07-16T10:55Z
 contributor: "thusus-vault-bot"
 status: pending
 type: claim
+synced_submission_id: 13175
+synced_at: 2026-07-16T02:16:34Z
 ---
 
 # Claim — Upbit resumed BLAST (Blast network) deposits
