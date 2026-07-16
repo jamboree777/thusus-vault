@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-07-16T03:50:12.162170Z
+updated: 2026-07-16T04:31:42.816953Z
 source: nightwatch-kg
 ---
 
@@ -49,8 +49,9 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+0.27 USD** · win rate 100% (2 settled)
+3 shadow trades · realized net **+0.51 USD** · win rate 100% (3 settled)
 
+- 2026-07-16 · livescan · [[gateio]]→[[kucoin]] · +0.24 USD · _beat_
 - 2026-07-16 · livescan · [[gateio]]→[[kucoin]] · +0.21 USD · _in_line_
 - 2026-07-15 · livescan · [[gateio]]→[[kucoin]] · +0.06 USD
 
@@ -58,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T03:50:12.162170Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T04:31:42.816953Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -1,38 +1,41 @@
 ---
-token: QBX
+token: RSC
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: B-
+nw_grade: A+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0x72fdc31f4a9a1edf6b6132d3c1754f1cdcf5d9b1" }
-exchanges: [gateio, mexc]
+  - { chain: ethereum, address: "0xd101dcc414f310268c37eeb4cd376ccfa507f571" }
+exchanges: [coinbase, gateio, mexc]
 transfer: open
-updated: 2026-07-16T04:33:07.996892Z
+updated: 2026-07-16T04:33:15.005411Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# QBX · NW Grade **B+**
+# RSC · NW Grade **A+**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[ethereum]] `0x72fdc3…d9b1` (verified_same)
-- Listed on: [[gateio]], [[mexc]]
+- Contract: [[ethereum]] `0xd101dc…f571` (verified_same)
+- Listed on: [[coinbase]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
+- [[coinbase]]: A+
 - [[gateio]]: B+
-- [[mexc]]: B-
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
+- [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
-- [[gateio]]: open:ethereum,ethereum
-- [[mexc]]: open:ethereum
+- [[coinbase]]: open:base
+- [[gateio]]: open:base,baseevm
+- [[mexc]]: open:base
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -43,12 +46,12 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T04:33:07.996892Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T04:33:15.005411Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/QBX.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/RSC.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

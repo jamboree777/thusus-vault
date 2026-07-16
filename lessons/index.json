@@ -1,0 +1,337 @@
+{
+  "repo": "jamboree777/thusus-vault",
+  "branch": "main",
+  "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
+  "lessons": [
+    {
+      "slug": "2026-07-16-woncarry-blind-instrumentation",
+      "date": "2026-07-16",
+      "trigger": "nw_woncarry_shadow — 0 rows across ~2156 passes; heartbeat shows opp_count 40, recheck_wait 37, entered 0 every pass",
+      "problem": "An engine that evaluates candidates every pass but persists nothing when they all reject is unauditable — the fund cannot tell a correctly-empty strategy from a silently-broken gate.",
+      "change": "NW_WC_CAND_LOG_SEC: (new) → 300 — added table nw_woncarry_candidates; top-10 candidates by |edge| persisted per throttled pass with the gate's own executable numbers + reject reason",
+      "expected_effect": "Within ~10–15 min the table holds rows; exec_net_pct should be NEGATIVE for the headline candidates, proving the executable gate is correctly refusing sub-cost basis, not malfunctioning.",
+      "review_after": "2026-07-23",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-16-woncarry-blind-instrumentation.md"
+    },
+    {
+      "slug": "2026-07-16-spread-drift-cap",
+      "date": "2026-07-16",
+      "trigger": "ROAM #7911 (kucoin→bitget, entry spread 7.03%, expected +$13.50 → realized −$8.61, a −$22.1 drift); ELIZAOS #7897 (gateio→bybit, spread 2.56%, expected +$8.32 → realized −$10.24). |drift| vs entry-spread correlation 0.485 across settled livescan trades.",
+      "problem": "Wide entry spread predicts adverse 5-minute drift — a large touch-to-touch gap is priced by the market's uncertainty about the name, and entries above a spread threshold carry uncompensated reversal risk regardless of token.",
+      "change": "Livescan NW_PAPER_MAX_SPREAD_PCT: off → 3.0. Sniper NW_BIGSPIKE_MAX_SPREAD_PCT: off → 10.0 (DELIBERATE deviation — see below).",
+      "expected_effect": "Livescan: 2-day sim of the 3% cap = +$7.6 net (fewer wide-spread reversal tails), no effect on the median grind. Sniper: near-zero effect at 10% (its edge lives at <1% spread), loose cap only trims pathological books.",
+      "review_after": "2026-07-23",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-16-spread-drift-cap.md"
+    },
+    {
+      "slug": "2026-07-16-narrative-cost-drag",
+      "date": "2026-07-16",
+      "trigger": "BRISE #7928 (gateio→kucoin, expected +$0.615 → realized +$0.012, a 1.9% capture ratio) was labelled by the post-trade narrative as a 'clean, in-line settlement'.",
+      "problem": "A post-trade narrative that classifies on sell-side price movement alone mislabels entry-side cost erosion as a clean fill — a settlement that captured 2% of its expected edge gets the same 'in-line' story as one that captured 95%, so the fund's public memory lies about why the edge vanished.",
+      "change": "Narrative logic (no env): add expectation capture = realized/expected; new cause 'cost_drag' (small sell move AND capture < 0.5 → entry-side VWAP/slippage/fees ate the edge); 'in_line' now requires capture ≥ 0.6; capture ratio is stated in the prose and exposed in narrative.factors.capture_ratio.",
+      "expected_effect": "Low-capture settlements with no adverse sell move are labelled 'cost_drag' with the capture % stated, instead of 'clean, in-line'. Every narrative now carries the capture number so no reader can mistake a 2% capture for a clean fill.",
+      "review_after": "2026-07-23",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-16-narrative-cost-drag.md"
+    },
+    {
+      "slug": "2026-07-16-bigspike-size-haircut",
+      "date": "2026-07-16",
+      "trigger": "FOXY #7903 (bigspike_sniper_v1, gateio→kucoin, entry spread 0.955%, expected +$1.42 → realized −$14.93). The single largest drift tail of day one, on a spike name, at the full quiet size.",
+      "problem": "On volatile spike names a full quiet-size position carries asymmetric 5-minute reversal risk — sizing to the footprint cap maximises exposure exactly in the regime where drift tails live, so the position is largest precisely where the hold is most dangerous.",
+      "change": "NW_BIGSPIKE_SIZE_FACTOR: 1.0 (implicit) → 0.5 — halve the chosen quiet size on the sniper, respecting the SIZE_MIN_USD floor.",
+      "expected_effect": "Roughly halves the magnitude of sniper reversal tails (a repeat of FOXY would settle near −$7.5, not −$14.9) at the cost of ~half the upside on winners. n=4 too small to tune precisely, so a conservative 0.5.",
+      "review_after": "2026-07-23",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-16-bigspike-size-haircut.md"
+    }
+  ],
+  "params": [
+    {
+      "name": "NW_PAPER_MIN_NET_PCT",
+      "current": "0.5",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_MAX_SPREAD_PCT",
+      "current": "3.0",
+      "lesson": "2026-07-16-spread-drift-cap"
+    },
+    {
+      "name": "NW_PAPER_REPEAT_HAIRCUT_PCT",
+      "current": "0.15",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_FOOTPRINT_MAX_PCT",
+      "current": "25",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_LEG_SLIP_CAP_PCT",
+      "current": "0.75",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_MAX_BUY_SLIP_PCT",
+      "current": "3.0",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_MARGIN_RETENTION",
+      "current": "0.7",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_SLIPPAGE_APPLY",
+      "current": "0.9",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_REBATE_SHARE",
+      "current": "0.5",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_DEFAULT_TAKER_PCT",
+      "current": "0.2",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_WD_FEE_FALLBACK_PCT",
+      "current": "0.1",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_WD_FEE_FALLBACK_USD",
+      "current": "0.10",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_SIZE_USD",
+      "current": "200",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_SIZE_MIN_USD",
+      "current": "20",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_SIZE_MAX_USD",
+      "current": "350",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_SIZE_STEP_USD",
+      "current": "10",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_COOLDOWN_MIN",
+      "current": "15",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_DAILY_BASE_CAP",
+      "current": "6",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_PREFILTER_SPREAD_PCT",
+      "current": "0.0",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_MAX_LIVE_SCANS",
+      "current": "15",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_SETTLE_DELAY_MIN",
+      "current": "5",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_SETTLE_MAX_MIN",
+      "current": "8",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_POLL_SEC",
+      "current": "45",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_BATCH_LIMIT",
+      "current": "500",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_FRESH_MIN",
+      "current": "10",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_BOOK_DEPTH",
+      "current": "50",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_BOOK_TICKER_TOL_BPS",
+      "current": "3.0",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_CCXT_TIMEOUT_MS",
+      "current": "9000",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_CURRENCIES_TTL_H",
+      "current": "1",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_TRANSFER_BLOCK_TTL_H",
+      "current": "24",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_TRANSFER_UNKNOWN_TTL_H",
+      "current": "1",
+      "lesson": null
+    },
+    {
+      "name": "NW_PAPER_DEBUG_REJECTS",
+      "current": "1",
+      "lesson": null
+    },
+    {
+      "name": "NW_TRANSFER_EXCLUDE_MAINNET_ONLY",
+      "current": "1",
+      "lesson": null
+    },
+    {
+      "name": "NW_BIGSPIKE_MAX_SPREAD_PCT",
+      "current": "10.0",
+      "lesson": "2026-07-16-spread-drift-cap"
+    },
+    {
+      "name": "NW_BIGSPIKE_SIZE_FACTOR",
+      "current": "0.5",
+      "lesson": "2026-07-16-bigspike-size-haircut"
+    },
+    {
+      "name": "NW_SNIPER_POLL_SEC",
+      "current": "20",
+      "lesson": null
+    },
+    {
+      "name": "NW_SNIPER_COOLDOWN_MIN",
+      "current": "10",
+      "lesson": null
+    },
+    {
+      "name": "NW_SNIPER_MAX_LIVE_SCANS",
+      "current": "24",
+      "lesson": null
+    },
+    {
+      "name": "NW_SNIPER_TELEGRAM",
+      "current": "0",
+      "lesson": null
+    },
+    {
+      "name": "NW_WC_CAND_LOG_SEC",
+      "current": "300",
+      "lesson": "2026-07-16-woncarry-blind-instrumentation"
+    },
+    {
+      "name": "NW_WONCARRY_MIN_NET_PCT",
+      "current": "0.5",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_MIN_NET_USD",
+      "current": "6",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_MAX_USD",
+      "current": "600",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_TRANSIT_MIN",
+      "current": "5",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_MAX_ENTRIES_PER_PASS",
+      "current": "2",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_COOLDOWN_MIN",
+      "current": "60",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_MAX_PROBES",
+      "current": "16",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_REJECT_COOLDOWN_MIN",
+      "current": "10",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_EDGE_IMPROVE_PP",
+      "current": "0.25",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_SETTLE_PROBES",
+      "current": "10",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_SIZE_GRID_MIN",
+      "current": "20",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_SIZE_GRID_STEP",
+      "current": "50",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_FUND_KRW_USD",
+      "current": "3000",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_FUND_ABROAD_USD",
+      "current": "7000",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_POLL_SEC",
+      "current": "30",
+      "lesson": null
+    },
+    {
+      "name": "NW_WONCARRY_API_TIMEOUT_SEC",
+      "current": "20",
+      "lesson": null
+    }
+  ]
+}

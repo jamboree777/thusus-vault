@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xd454b59f16d42667be2fa55292d16647e27f40c4" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-07-16T03:52:01.407181Z
+updated: 2026-07-16T04:33:43.010028Z
 source: nightwatch-kg
 ---
 
@@ -53,7 +53,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T03:52:01.407181Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T04:33:43.010028Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

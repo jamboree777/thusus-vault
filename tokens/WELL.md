@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0xa88594d404727625a9437c3f886c7643872296ae" }
 exchanges: [coinbase, gateio, kucoin]
 transfer: partial
-updated: 2026-07-16T03:51:58.984017Z
+updated: 2026-07-16T04:33:34.809184Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: [[coinbase]], [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[coinbase]]: A
+- [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: C+
 
@@ -64,7 +64,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T03:51:58.984017Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T04:33:34.809184Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
