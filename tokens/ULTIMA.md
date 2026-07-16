@@ -1,0 +1,51 @@
+---
+token: ULTIMA
+type: token
+tier: free
+nw_grade: null
+identity: partial
+contracts:
+  - { chain: binance-smart-chain, address: "0x5668a83b46016b494a30dd14066a451e5417a8b8" }
+exchanges: [gateio, kucoin, mexc]
+transfer: open
+updated: 2026-07-16T01:17:10.093878Z
+source: nightwatch-kg
+---
+
+<!-- nw:auto:begin -->
+# ULTIMA
+
+Binance-smart-chain-network token; transfer is open on at least one venue.
+
+## Identity
+- Contract: [[binance-smart-chain]] `0x5668a8…a8b8` (partial)
+- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+
+## Deposit / Withdrawal
+- [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
+- [[kucoin]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ✅ / withdraw ✅
+
+## Transfer map
+- [[gateio]]: open:ultima,ultima
+- [[htx]]: open:ultima1
+- [[kucoin]]: open:ultima
+- [[mexc]]: open:smart,ultima
+
+## Backers & Project
+_Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
+
+## Deep intelligence 🔒
+Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
+→ send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
+
+## Sources
+nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings)
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:17:10.093878Z_
+
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/ULTIMA.md`). Do not hand-edit inside these markers._
+<!-- nw:auto:end -->
+
+## Notes
+
