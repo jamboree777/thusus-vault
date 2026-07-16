@@ -2,24 +2,29 @@
 token: TRCL
 type: token
 tier: free
-nw_grade: null
+nw_grade: B+
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: klay-token, address: "0x4b91c67a89d4c4b2a4ed9fcde6130d7495330972" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-16T02:25:26.191080Z
+updated: 2026-07-16T03:51:45.786590Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# TRCL
+# TRCL · NW Grade **B+**
 
-Klay-token-network token; transfer is open on at least one venue.
+Klay-token-network token; NW grade B+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[klay-token]] `0x4b91c6…0972` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
+
+## Grade by exchange
+- [[gateio]]: C-
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -37,8 +42,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:25:26.191080Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:51:45.786590Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

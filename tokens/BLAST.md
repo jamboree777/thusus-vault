@@ -2,30 +2,36 @@
 token: BLAST
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: A
+nw_grade: A+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-16T02:23:58.866764Z
+updated: 2026-07-16T03:50:18.762837Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLAST · NW Grade **A**
+# BLAST · NW Grade **A+**
 
-Blast-network token; NW grade A liquidity; transfer is open on at least one venue.
+Blast-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[blast]] `0xb1a570…e2ad` (verified_same)
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
+- [[bitget]]: B+
 - [[bithumb]]: A
+- [[bybit]]: A+
+- [[coinbase]]: B+
 - [[gateio]]: A
+- [[kucoin]]: B+
+- [[mexc]]: B+
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -69,7 +75,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:23:58.866764Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:50:18.762837Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

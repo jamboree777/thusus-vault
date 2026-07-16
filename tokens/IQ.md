@@ -2,7 +2,7 @@
 token: IQ
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: D
 identity: verified_same
 contracts:
@@ -10,21 +10,23 @@ contracts:
 exchanges: [binance, bithumb, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-07-16T02:24:38.935128Z
+updated: 2026-07-16T03:50:58.893935Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# IQ · NW Grade **A**
+# IQ · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x579cea…b0c9` (verified_same)
 - Listed on: [[binance]], [[bithumb]], [[gateio]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
+- [[binance]]: A+
 - [[bithumb]]: A
+- [[gateio]]: A+
 - [[mexc]]: D
 - [[upbit]]: A
 
@@ -61,7 +63,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:24:38.935128Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:50:58.893935Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

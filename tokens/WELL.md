@@ -2,24 +2,30 @@
 token: WELL
 type: token
 tier: free
-nw_grade: null
+nw_grade: A+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: base, address: "0xa88594d404727625a9437c3f886c7643872296ae" }
 exchanges: [coinbase, gateio, kucoin]
 transfer: partial
-updated: 2026-07-16T02:25:39.778990Z
+updated: 2026-07-16T03:51:58.984017Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# WELL
+# WELL · NW Grade **A+**
 
-Base-network token; transfer is partial (some venues frozen).
+Base-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[base]] `0xa88594…96ae` (verified_same)
 - Listed on: [[coinbase]], [[gateio]], [[kucoin]]
+
+## Grade by exchange
+- [[coinbase]]: A
+- [[gateio]]: A+
+- [[kucoin]]: C+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -33,10 +39,10 @@ Base-network token; transfer is partial (some venues frozen).
 ## Events
 - 2026-07-16 · [[gateio]] [[glmr]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[gateio]] [[glmr]] deposit → open · [[event/dw-resume]]
-- 2026-07-15 · [[gateio]] [[glmr]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-15 · [[gateio]] [[glmr]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-15 · [[gateio]] [[glmr]] withdraw → open · [[event/dw-resume]]
-- 2026-07-15 · [[gateio]] [[glmr]] deposit → open · [[event/dw-resume]]
+- 2026-07-16 · [[gateio]] [[glmr]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-16 · [[gateio]] [[glmr]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-16 · [[gateio]] [[glmr]] withdraw → open · [[event/dw-resume]]
+- 2026-07-16 · [[gateio]] [[glmr]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
@@ -57,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:25:39.778990Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:51:58.984017Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,25 +2,36 @@
 token: VANA
 type: token
 tier: free
-nw_grade: null
+nw_grade: A+
+nw_grade_worst: C-
 identity: native
 contracts:
   - { chain: ethereum, address: "0x7ff7fa94b8b66ef313f7970d4eebd2cb3103a2c0" }
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-07-16T02:25:34.991378Z
+updated: 2026-07-16T03:51:54.585058Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# VANA
+# VANA · NW Grade **A+**
 
-Ethereum-network token; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x7ff7fa…a2c0` (native)
 - Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]], [[upbit]]
+
+## Grade by exchange
+- [[binance]]: A+
+- [[bitget]]: A+
+- [[bithumb]]: A+
+- [[bybit]]: A+
+- [[gateio]]: A+
+- [[kucoin]]: C-
+- [[mexc]]: A+
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ❌ / withdraw ❌
@@ -69,8 +80,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:25:34.991378Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:51:54.585058Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

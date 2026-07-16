@@ -2,28 +2,30 @@
 token: GNS
 type: token
 tier: free
-nw_grade: C
+nw_grade: A+
 nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [binance, gateio, mexc]
 transfer: partial
-updated: 2026-07-16T02:24:30.127252Z
+updated: 2026-07-16T03:50:50.096408Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GNS · NW Grade **C**
+# GNS · NW Grade **A+**
 
-Polygon-pos-network token; NW grade C liquidity; transfer is partial (some venues frozen).
+Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[polygon-pos]] `0xe5417a…7896` (verified_same)
 - Listed on: [[binance]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
+- [[binance]]: A+
 - [[gateio]]: C
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -59,7 +61,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:24:30.127252Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:50:50.096408Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

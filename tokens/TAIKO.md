@@ -2,7 +2,7 @@
 token: TAIKO
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -11,21 +11,24 @@ exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
 lifecycle: suspended
-updated: 2026-07-16T02:25:23.988804Z
+updated: 2026-07-16T03:51:43.580931Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# TAIKO · NW Grade **A**
+# TAIKO · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x10dea6…d800` (verified_same)
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
+- [[bitget]]: A+
 - [[bithumb]]: A
+- [[bybit]]: A+
+- [[gateio]]: B-
 - [[kucoin]]: F
 - [[mexc]]: F
 - [[upbit]]: A
@@ -68,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:25:23.988804Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:51:43.580931Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

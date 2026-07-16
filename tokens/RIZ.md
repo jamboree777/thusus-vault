@@ -2,24 +2,30 @@
 token: RIZ
 type: token
 tier: free
-nw_grade: null
+nw_grade: A+
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x058d411ab9911f90c74f471bdc9d2bb4cf9b309c" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-16T02:25:17.393592Z
+updated: 2026-07-16T03:51:36.714868Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# RIZ
+# RIZ · NW Grade **A+**
 
-Ethereum-network token; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x058d41…309c` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
+
+## Grade by exchange
+- [[gateio]]: D-
+- [[kucoin]]: A+
+- [[mexc]]: C+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -35,7 +41,6 @@ Ethereum-network token; transfer is partial (some venues frozen).
 - [[gateio]]: open:base,baseevm
 - [[kucoin]]: open:base
 - [[mexc]]: closed:base
-- Recently reopened (48h): [[kucoin]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -45,8 +50,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:25:17.393592Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:51:36.714868Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

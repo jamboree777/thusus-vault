@@ -2,28 +2,30 @@
 token: URANUS
 type: token
 tier: free
-nw_grade: C
+nw_grade: B-
 nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: solana, address: "bfgdzmktpdkkjetipv2njtdewhkxkgfuejqfjgt1jups" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-16T02:25:32.791400Z
+updated: 2026-07-16T03:51:52.550431Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# URANUS · NW Grade **C**
+# URANUS · NW Grade **B-**
 
-Solana-network token; NW grade C liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `bfgdzmkt…jups` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
+- [[gateio]]: C+
 - [[kucoin]]: C
+- [[mexc]]: B-
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -47,7 +49,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:25:32.791400Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:51:52.550431Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

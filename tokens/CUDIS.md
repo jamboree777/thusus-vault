@@ -2,7 +2,7 @@
 token: CUDIS
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B
 identity: verified_same
 contracts:
@@ -10,21 +10,24 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-16T02:24:08.128801Z
+updated: 2026-07-16T03:50:27.564476Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CUDIS · NW Grade **A**
+# CUDIS · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xc1353d…9cb1` (verified_same)
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
+- [[bitget]]: A+
 - [[bithumb]]: A
+- [[bybit]]: A+
+- [[gateio]]: B+
 - [[mexc]]: B
 
 ## Deposit / Withdrawal
@@ -63,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T02:24:08.128801Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T03:50:27.564476Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
