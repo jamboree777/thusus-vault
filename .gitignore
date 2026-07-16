@@ -1,0 +1,15 @@
+# Obsidian workspace / local state (not part of the shared vault)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+
+# Obsidian trash
+.trash/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
