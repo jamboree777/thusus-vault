@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "NightWatch Token",
+  "behavior": "create",
+  "noteNameFormat": "{{title}}",
+  "path": "tokens",
+  "noteContentFormat": "{{content}}\n\n[[Thusus]] · live: {{url}}",
+  "properties": [
+    {
+      "name": "type",
+      "value": "token",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "clipped",
+      "value": "{{date}}",
+      "type": "date"
+    },
+    {
+      "name": "tags",
+      "value": "nightwatch",
+      "type": "multitext"
+    }
+  ],
+  "triggers": [
+    "https://nightwatch-v1-frontend.onrender.com/token/",
+    "https://nightwatch-v1-api.onrender.com/kg/"
+  ]
+}

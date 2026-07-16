@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "NightWatch Claim",
+  "behavior": "create",
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}}-{{title}}",
+  "path": "claims/pending",
+  "noteContentFormat": "# Claim — {{title}}\n\n## What you observed\n\n<!-- State the single factual change you are claiming, plainly. One claim per note. -->\n\n## Source (mandatory)\n\nCaptured from `{{url}}` — quoted excerpt below:\n\n> {{content}}\n\n---\n\n**What happens next:** this claim lands in `claims/pending/` and is **never rendered as fact** until it clears the deterministic gate → AI review → machine probe. Set `claim_type`, `token`, and `contributor` above before opening a PR. See [[claims/pending/README]].",
+  "properties": [
+    {
+      "name": "claim_type",
+      "value": "REPLACE-ME",
+      "type": "text"
+    },
+    {
+      "name": "token",
+      "value": "REPLACE-ME",
+      "type": "text"
+    },
+    {
+      "name": "source_url",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "observed_at",
+      "value": "{{date}}",
+      "type": "date"
+    },
+    {
+      "name": "contributor",
+      "value": "@your-handle",
+      "type": "text"
+    },
+    {
+      "name": "status",
+      "value": "pending",
+      "type": "text"
+    },
+    {
+      "name": "type",
+      "value": "claim",
+      "type": "text"
+    }
+  ],
+  "triggers": []
+}

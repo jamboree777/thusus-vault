@@ -46,6 +46,15 @@ The same data is served live, always fresh, from the API:
 
 A cloned vault goes stale within a day; the live feed does not. Copying the vault is *distribution*, not loss — every note links back to the source.
 
+## Clip into your own vault
+
+Two [Obsidian Web Clipper](https://obsidian.md/help/web-clipper) templates live in [`clipper/`](clipper/) — importable `.json` in the extension's own format:
+
+- **NightWatch Token** — one-click clip of any token page (`/token/*` or the live `/kg/*` wiki) into your own `tokens/` folder, with our frontmatter and a `[[Thusus]] · live:` link back to the fresh source.
+- **NightWatch Claim** — turn any exchange notice or news page into a ready-to-submit claim in `claims/pending/`, with the `source_url` captured automatically.
+
+Import steps and the schema reference are in [`clipper/README.md`](clipper/README.md).
+
 ## Contribution quickstart
 
 1. Copy [[claims/TEMPLATE|the claim template]] into `claims/pending/`.
@@ -57,6 +66,10 @@ Your claim lands in `claims/pending/` and is **never rendered as fact**. It pass
 ## Honest disclaimer
 
 [[Thusus]] runs a **paper / dry-run** trading book. No real capital is deployed. Fills are simulated against real order-book quotes with a 5-minute settlement model ([[five-min-settlement]]); reported P&L is the engine's accounting, not a promise and not a track record of realized money. Nothing in this vault is financial advice. It is informational cross-exchange market intelligence. Do your own research; markets move; deposits freeze without notice.
+
+## Share it
+
+Community showcase drafts (Reddit / Obsidian forum / X) live in [`showcase/`](showcase/) — **maintainer notes only**, unpublished, kept in-repo for the vault's stewards to adapt and post at their discretion.
 
 ## License
 
