@@ -1,0 +1,44 @@
+---
+claim_type: dw_change
+token: BLAST
+source_url: https://upbit.com/service_center/notice?id=4321
+observed_at: 2026-07-16T09:00Z
+contributor: "@example_researcher"
+status: pending
+type: claim
+---
+
+# Claim — Upbit reopened BLAST (Blast network) deposits
+
+> This is a WORKED EXAMPLE, kept as a `.md.txt` on purpose so the sync bot and
+> the PR schema check both ignore it. To submit a real claim, copy
+> `claims/TEMPLATE.md` into this folder as a `.md`, fill it in, and open a PR.
+
+## What you observed
+
+Upbit reopened BLAST (Blast network) **deposits** at 2026-07-16 09:00 UTC.
+Withdrawals were already open; both doors are now open again.
+
+## Source (mandatory)
+
+`source_url` above points to Upbit's own notice. Quoted line:
+
+> "블라스트(BLAST) 입금 서비스가 정상화되었습니다." (BLAST deposit service has
+> been restored.)
+
+A primary source (the exchange's own notice) — this claim is machine-checkable:
+NightWatch can hit Upbit's coin API and confirm `dep=true` on the blastnet
+network, so it can merge as `[verified]` rather than `[community-reported]`.
+
+## Why it matters
+
+This flips [[transfer-feasibility]] on [[BLAST]] at [[upbit]] from blocked back
+to open, closing the [[mirage-arb]] window described in
+[[events/2026-07-13-blast-wallet-lockdown]]. The instant a stranded gap becomes
+real is the instant it is worth acting on.
+
+---
+
+**What happens next:** a real submission of this claim lands in
+`claims/pending/` and is never rendered as fact until it clears the
+deterministic gate → AI review → machine probe. See [[claims/pending/README]].
