@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-16T01:52:27.375031Z
+updated: 2026-07-16T02:23:58.866764Z
 source: nightwatch-kg
 ---
 
@@ -24,6 +24,7 @@ Blast-network token; NW grade A liquidity; transfer is open on at least one venu
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
+- [[bithumb]]: A
 - [[gateio]]: A
 
 ## Deposit / Withdrawal
@@ -61,9 +62,14 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Community intel
+_Sourced contributions from the vault claim intake. [verified] passed review; [community-reported, unverified] are pending and NOT facts._
+
+- [verified] **dw_change** · 2026-07-16 · [source](https://nightwatch-v1-api.onrender.com/kg/BLAST.md) · by thusus-vault-bot
+
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:52:27.375031Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T02:23:58.866764Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

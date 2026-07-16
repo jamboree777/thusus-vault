@@ -8,7 +8,7 @@ contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-16T01:52:56.092765Z
+updated: 2026-07-16T02:24:27.920460Z
 source: nightwatch-kg
 ---
 
@@ -37,7 +37,7 @@ Ethereum-network token; transfer is partial (some venues frozen).
 
 ## Transfer map
 - [[bitget]]: closed:glq
-- [[gateio]]: open:ethereum,ethereum,glq | closed:glq
+- [[gateio]]: open:ethereum,ethereum,glq,glq
 - [[kucoin]]: open:glq
 - [[mexc]]: closed:glq
 - Suspended now: [[bitget]], [[mexc]]
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:52:56.092765Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T02:24:27.920460Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

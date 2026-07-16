@@ -8,7 +8,7 @@ contracts:
   - { chain: klay-token, address: "0x4b91c67a89d4c4b2a4ed9fcde6130d7495330972" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-16T01:53:53.894621Z
+updated: 2026-07-16T02:25:26.191080Z
 source: nightwatch-kg
 ---
 
@@ -38,7 +38,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:53:53.894621Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T02:25:26.191080Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
