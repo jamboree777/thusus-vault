@@ -1,13 +1,21 @@
 ---
-claim_type: rumor
+claim_type: dw_change
 token: BLAST
-source_url: i-heard-it-somewhere
-observed_at: last tuesday
+source_url: https://upbit.com/service_center/notice?id=4321
+observed_at: 2026-07-16T09:00Z
+contributor: "@demo_researcher"
+status: pending
+type: claim
 ---
 
-# Claim — DEMO INVALID (exercises the schema check)
+# Claim — DEMO (now valid, proves the check passes)
 
-This file is intentionally malformed to prove the **Validate claims** Action
-fails a bad claim: `claim_type` is off-whitelist, `source_url` is not an
-http(s) URL, `observed_at` is not ISO-8601, and `contributor` is missing.
-It is fixed/removed in the same PR before merge.
+This file was intentionally malformed in the first commit of this PR to prove
+the **Validate claims** Action fails a bad claim. It is now corrected to a valid
+claim to prove the check passes, and is removed in the next commit so
+`claims/pending/` stays clean on merge.
+
+## Source
+
+`source_url` above points to Upbit's own notice that BLAST (blastnet) deposits
+reopened at 2026-07-16 09:00 UTC.
