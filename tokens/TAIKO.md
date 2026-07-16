@@ -11,7 +11,7 @@ exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
 lifecycle: suspended
-updated: 2026-07-16T01:17:05.687151Z
+updated: 2026-07-16T01:20:25.175845Z
 source: nightwatch-kg
 ---
 
@@ -67,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:17:05.687151Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:20:25.175845Z_
 
 _Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/TAIKO.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->

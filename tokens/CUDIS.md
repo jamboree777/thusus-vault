@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-16T01:15:48.318294Z
+updated: 2026-07-16T01:19:09.670960Z
 source: nightwatch-kg
 ---
 
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:15:48.318294Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:19:09.670960Z_
 
 _Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/CUDIS.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->

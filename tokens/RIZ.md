@@ -8,7 +8,7 @@ contracts:
   - { chain: ethereum, address: "0x058d411ab9911f90c74f471bdc9d2bb4cf9b309c" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-16T01:16:57.361141Z
+updated: 2026-07-16T01:20:18.577556Z
 source: nightwatch-kg
 ---
 
@@ -46,7 +46,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:16:57.361141Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:20:18.577556Z_
 
 _Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/RIZ.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->

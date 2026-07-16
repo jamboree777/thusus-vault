@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xa0246c9032bc3a600820415ae600c6388619a14d" }
 exchanges: [coinbase, gateio, mexc]
 transfer: partial
-updated: 2026-07-16T01:16:01.195660Z
+updated: 2026-07-16T01:19:20.671319Z
 source: nightwatch-kg
 ---
 
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:16:01.195660Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:19:20.671319Z_
 
 _Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/FARM.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->

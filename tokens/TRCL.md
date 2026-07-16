@@ -8,7 +8,7 @@ contracts:
   - { chain: klay-token, address: "0x4b91c67a89d4c4b2a4ed9fcde6130d7495330972" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-16T01:17:07.885204Z
+updated: 2026-07-16T01:20:27.375935Z
 source: nightwatch-kg
 ---
 
@@ -38,7 +38,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:17:07.885204Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:20:27.375935Z_
 
 _Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/TRCL.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->

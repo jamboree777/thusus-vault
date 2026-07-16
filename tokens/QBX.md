@@ -8,7 +8,7 @@ contracts:
   - { chain: ethereum, address: "0x72fdc31f4a9a1edf6b6132d3c1754f1cdcf5d9b1" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-16T01:16:55.152708Z
+updated: 2026-07-16T01:20:16.380049Z
 source: nightwatch-kg
 ---
 
@@ -38,7 +38,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:16:55.152708Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:20:16.380049Z_
 
 _Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/QBX.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->

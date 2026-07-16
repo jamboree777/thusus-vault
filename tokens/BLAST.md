@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-16T01:15:38.860382Z
+updated: 2026-07-16T01:19:00.875890Z
 source: nightwatch-kg
 ---
 
@@ -63,7 +63,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T01:15:38.860382Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-16T01:19:00.875890Z_
 
 _Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BLAST.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
