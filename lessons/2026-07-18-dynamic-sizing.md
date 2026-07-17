@@ -6,9 +6,15 @@ problem: "A single fund-wide size/threshold cannot express that capital is scarc
 change: "New shared layer nw_dynamic_sizing.py (NW_DYN_*). Per pass, per capital-consumption POINT (buy exchange for livescan/bigspike; KRW/abroad pool for woncarry; buy exchange AND hedge pool for hedged, taking the max), compute pressure = Σ(candidate target size at the point) ÷ available capital, then walk a 2-stage staircase: STAGE1 raises the net threshold 0.5→0.6→0.7→0.8%, and only once 0.8% is exhausted STAGE2 lowers max size $300→$270→$240→$210 (floor −30%, min $40 unchanged). Relaxation is the same ladder in reverse (restore size before dropping threshold); hysteresis is asymmetric — escalate fast to protect quality, relax one notch per pass behind a DOWN band. A slack point keeps base; only bottlenecked points tighten."
 expected_effect: "Higher risk-adjusted return per unit of the SAME $10k fund: the scarcest capital is spent on 0.8% A-grade edges instead of 0.5% marginal ones, and only over-subscribed A-grade points diversify into smaller tickets. Each trade stamps assumptions.dyn (threshold, max, pressure, stage, point, cap_source) so 7-day attribution can test whether the density regime actually lifted Sharpe. At the STAGE2 floor with pressure still >1 the overflow is skipped and logged as capital_short — direct evidence for a fund-size / rotation-speed increase. First live passes: gate-futures pool ($75) and the KRW pool ($19) hit the floor immediately while the bybit hedge pool ($300, pressure 4) held at 0.8%/$300 — the per-venue differentiation the design is for."
 review_after: 2026-07-25
-status: active
+status: superseded
 supersedes: null
+superseded_by: "[[2026-07-18-dynamic-sizing-simplified]]"
 ---
+
+> **SUPERSEDED 2026-07-18** by [[2026-07-18-dynamic-sizing-simplified]]: the
+> capital-pressure staircase never fired in the abundant-capital paper env and
+> was replaced with a single adaptive-threshold hill-climb on trade count. The
+> NW_DYN_T*/S*/UP/DOWN/step/size params below are RETIRED.
 
 # The fund wasn't out of money — one venue was
 

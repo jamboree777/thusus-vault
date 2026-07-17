@@ -4,6 +4,18 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
+      "slug": "2026-07-18-dynamic-sizing-simplified",
+      "date": "2026-07-18",
+      "trigger": "capital-pressure never fired in the abundant-capital paper env → replaced the whole density staircase with a single adaptive-threshold hill-climb on trade count.",
+      "problem": "The prior design coupled capital-pressure with an activity-count staircase, a 6-notch ladder, a size-reduction stage and hysteresis — many moving parts whose headline signal (pressure = Σsize ÷ capital) does not work in a paper fund where capital is either abundant or mis-accounted. Robin: radically simpler, one lever.",
+      "change": "Rewrote nw_dynamic_sizing.py to a single per-engine adaptive net threshold that hill-climbs on the engine's own ENTRY count. State persists in nw_dyn_threshold_state; read at pass start. Every NW_DYN_WINDOW_MIN (60m) compare entries trailing vs prior equal window: rose beyond ±DEADBAND → threshold += STEP (0.05%); fell → −= step; equal → hold. Bounded [base_gate .. base+MAX_LIFT(1.5%)], never below base (livescan 0.5, bigspike 3.0, woncarry 0.5, hedged 0.5). Effective net-gate = this one number; SIZE band fixed $40-300. Deleted capital-pressure, fund fetch, activity notches, size-reduction stage, per-point resolve, hysteresis. Every trade stamps assumptions.dyn = {threshold_pct, window_count, prev_window_count, direction, step, engine, base_gate, window_min, status}. All 4 engines.",
+      "expected_effect": "Self-limiting hurdle: more trades → net gate creeps up 0.05%/hr until count stops rising; fewer → creeps back toward base. Persisted across restarts. Also fixes the missing-stamp bug — assumptions.dyn populated on every new entry (verified on a fresh post-deploy trade) instead of silently null.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": "2026-07-18-dynamic-sizing",
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-dynamic-sizing-simplified.md"
+    },
+    {
       "slug": "2026-07-18-dynamic-sizing",
       "date": "2026-07-18",
       "trigger": "opportunity density > capital → per-venue adaptive sizing. Good opportunities concentrate on a few capital-consumption points (gateio/bithumb buys, the $19 KRW pool, the $75 gate-futures hedge pool) while the fund as a whole sits idle; a global average hides the local starvation.",
@@ -11,8 +23,9 @@
       "change": "New shared layer nw_dynamic_sizing.py (NW_DYN_*): per pass, per capital-consumption point, pressure = Σ(target size)÷available capital drives a 2-stage staircase — raise net threshold 0.5→0.8% first, then lower max size $300→$210 (floor −30%, min $40 fixed). Reverse-ladder relaxation; asymmetric hysteresis (fast escalate, slow relax). Only bottlenecked points tighten.",
       "expected_effect": "Higher risk-adjusted return per unit of the SAME $10k fund: scarce capital buys 0.8% A-grade edges, only over-subscribed A-grade points diversify smaller. assumptions.dyn stamps (threshold,max,pressure,stage,point,cap_source) for Sharpe-by-regime attribution; capital_short logs the fund-increase evidence. First live passes: $75 gate-futures + $19 KRW pools hit the floor while the $300 bybit pool (pressure 4) held at 0.8%/$300 — the per-venue differentiation the design is for.",
       "review_after": "2026-07-25",
-      "status": "active",
+      "status": "superseded",
       "supersedes": null,
+      "superseded_by": "2026-07-18-dynamic-sizing-simplified",
       "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-dynamic-sizing.md"
     },
     {

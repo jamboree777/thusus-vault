@@ -308,38 +308,33 @@ grid, repeat-haircut). Sniper-specific:
 | `NW_WONCARRY_API_TIMEOUT_SEC` | 20 | 20 | 5 – 60 | — | seed |
 | `NW_PAPER_REPEAT_HAIRCUT_PCT` | 0.15 | 0.15 | 0.05 – 0.5 | [[repeat-haircut]] | seed (shared) |
 
-## Dynamic sizing — density-adaptive layer (`nw_dynamic_sizing.py`, shared)
+## Dynamic sizing — adaptive net-threshold controller (`nw_dynamic_sizing.py`, shared)
 
-Opportunity-density-adaptive threshold/size, computed per capital-consumption
-POINT (buy exchange, or KRW/abroad/hedge pool) every pass — see
-[[2026-07-18-dynamic-sizing]] and docs/pm/DYNAMIC_SIZING.md. `pressure(point) =
-Σ(candidate target size at the point) ÷ available capital`; a 2-stage staircase
-raises the net threshold first (0.5→0.8%), then lowers max size ($300→$210). Only
-bottlenecked points tighten; slack points stay on base. Every trade stamps
-`assumptions.dyn` (threshold, max, pressure, stage, point, cap_source).
+**REWRITTEN 2026-07-18** (see [[2026-07-18-dynamic-sizing-simplified]] · supersedes
+[[2026-07-18-dynamic-sizing]] · docs/pm/DYNAMIC_SIZING.md). ONE lever: a single
+per-engine adaptive NET THRESHOLD that hill-climbs on the engine's own ENTRY
+count. Persisted in `nw_dyn_threshold_state`; read at pass start. Every
+`NW_DYN_WINDOW_MIN` compare entries in the trailing vs prior equal-length window:
+count rose (> prior + DEADBAND) → threshold += STEP; fell → −= STEP; ~equal →
+hold. Bounded `[base_gate .. base_gate + MAX_LIFT]`, never below the engine's base
+(livescan 0.5, bigspike 3.0, woncarry 0.5, hedged 0.5). Effective net-gate = this
+one number. SIZE band fixed $40-300 (untouched). Every trade stamps
+`assumptions.dyn` = {threshold_pct, window_count, prev_window_count, direction,
+step, engine, base_gate, window_min, status}.
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
 |---|---|---|---|---|---|
-| `NW_DYN_ENABLED` | 1 | 1 | 0 / 1 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_T1` | 1.0 | 1.0 | 1.0 – 2.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_T2` | 2.0 | 2.0 | 1.5 – 4.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_T3` | 3.0 | 3.0 | 2.0 – 6.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_S1` | 4.0 | 4.0 | 3.0 – 8.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_S2` | 6.0 | 6.0 | 4.0 – 12.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_S3` | 8.0 | 8.0 | 5.0 – 16.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_UP` | 1.1 | 1.1 | 1.0 – 1.5 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_DOWN` | 0.9 | 0.9 | 0.5 – 1.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_THRESH_STEP_PCT` | 0.1 | 0.1 | 0.05 – 0.2 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_THRESH_CAP_PCT` | 0.8 | 0.8 | 0.6 – 1.5 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_SIZE_STEP_FRAC` | 0.10 | 0.10 | 0.05 – 0.25 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_SIZE_FLOOR_FRAC` | 0.70 | 0.70 | 0.5 – 0.9 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
-| `NW_DYN_MAX_SIZE_USD` | 300 | 300 | module base (engines pass own) | [[quiet-size]] | 2026-07-18 |
-| `NW_DYN_MIN_SIZE_USD` | 40 | 40 | 10 – 50 | [[quiet-size]] | 2026-07-18 |
-| `NW_DYN_FUND_TTL_SEC` | 60 | 60 | 30 – 300 | — | 2026-07-18 |
+| `NW_DYN_ENABLED` | 1 | 1 | 0 / 1 | [[2026-07-18-dynamic-sizing-simplified]] | 2026-07-18 |
+| `NW_DYN_WINDOW_MIN` | 60 | 60 | 30 – 240 | [[2026-07-18-dynamic-sizing-simplified]] | 2026-07-18 |
+| `NW_DYN_STEP_PCT` | 0.05 | 0.05 | 0.02 – 0.2 | [[2026-07-18-dynamic-sizing-simplified]] | 2026-07-18 |
+| `NW_DYN_MAX_LIFT` | 1.5 | 1.5 | 0.5 – 3.0 | [[2026-07-18-dynamic-sizing-simplified]] | 2026-07-18 |
+| `NW_DYN_DEADBAND` | 1 | 1 | 0 – 5 | [[2026-07-18-dynamic-sizing-simplified]] | 2026-07-18 |
 
-Hedge-pool capital reuses the Quartermaster reservations (`NW_QM_HEDGE_HUB_USD`
-= $300 bybit UTA, `NW_QM_HEDGE_AUX_USD` = $75 gate futures) as each pool's
-denominator, so the engine (spend-thrift now) and the Quartermaster (refill over
-6h) cooperate on the SAME per-point pressure signal.
+RETIRED 2026-07-18 (old density staircase — no longer read by the code):
+`NW_DYN_T1/T2/T3`, `NW_DYN_S1/S2/S3`, `NW_DYN_UP`, `NW_DYN_DOWN`,
+`NW_DYN_THRESH_STEP_PCT`, `NW_DYN_THRESH_CAP_PCT`, `NW_DYN_SIZE_STEP_FRAC`,
+`NW_DYN_SIZE_FLOOR_FRAC`, `NW_DYN_MAX_SIZE_USD`, `NW_DYN_MIN_SIZE_USD`,
+`NW_DYN_FUND_TTL_SEC`, `NW_DYN_FUND_FAIL_TTL_SEC`, `NW_DYN_NOFUND_CAP_USD`.
+The activity-count variant (`NW_DYN_ACT_*`) was designed but never shipped.
 
 _Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[2026-07-17-woncarry-exit-policy-v2]] · [[2026-07-18-uniform-size-band-diversification]] · [[2026-07-18-per-chain-settle-delay]] · [[won-carry]] · [[Thusus]]_
