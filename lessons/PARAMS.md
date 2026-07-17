@@ -226,8 +226,8 @@ economics + the per-chain settle clock (`chain_settle_delay`) from `nw_paper_arb
 | `NW_PAPER_SLIPPAGE_APPLY` | 0.9 | 0.9 | 0.7 – 1.0 | [[five-min-settlement]] | seed |
 | `NW_PAPER_REBATE_SHARE` | 0.5 | 0.5 | 0.0 – 0.6 | [[executable-spread]] | seed |
 | `NW_PAPER_DEFAULT_TAKER_PCT` | 0.2 | 0.2 | 0.05 – 0.3 | — | seed |
-| `NW_PAPER_WD_FEE_FALLBACK_PCT` | 0.1 | 0.1 | 0.05 – 0.5 | [[transfer-feasibility]] | seed |
-| `NW_PAPER_WD_FEE_FALLBACK_USD` | 0.10 | 0.10 | 0.05 – 1.0 | [[transfer-feasibility]] | seed |
+| `NW_PAPER_WD_FEE_FALLBACK_PCT` | REMOVED | — | — | [[transfer-feasibility]] | 2026-07-18 (audit #3: %-of-size understated fee → removed) |
+| `NW_PAPER_WD_FEE_FALLBACK_USD` | 1.0 | 1.0 | 0.5 – 30 | [[transfer-feasibility]] | 2026-07-18 (audit #3: unknown wd-fee = conservative FLAT USD, not %-of-size) |
 | `NW_PAPER_SIZE_USD` | 200 | 200 | 50 – 350 | — | seed |
 | `NW_PAPER_SIZE_MIN_USD` | 40 | 40 | 10 – 50 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
 | `NW_PAPER_SIZE_MAX_USD` | 300 | 300 | 100 – 1000 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
@@ -255,6 +255,13 @@ economics + the per-chain settle clock (`chain_settle_delay`) from `nw_paper_arb
 | `NW_PAPER_TRANSFER_UNKNOWN_TTL_H` | 1 | 1 | 1 – 24 | [[transfer-feasibility]] | seed |
 | `NW_PAPER_DEBUG_REJECTS` | 1 | 1 | 0 / 1 | — | seed |
 | `NW_TRANSFER_EXCLUDE_MAINNET_ONLY` | 1 | 1 | 0 / 1 | [[transfer-feasibility]] | seed |
+
+## Dynamic sizing (`nw_dynamic_sizing.py`) — new guards (audit #9)
+
+| Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
+|---|---|---|---|---|---|
+| `NW_DYN_FUND_FAIL_TTL_SEC` | 10 | 10 | 5 – 30 | audit #9 (fund-blip: cache failures briefly, not 60s) | 2026-07-18 |
+| `NW_DYN_NOFUND_CAP_USD` | 40 (=MIN_SIZE) | MIN_SIZE_USD | 40 – 300 | audit #9 (no-fund: conservative TIGHTENED floor, not $300 headroom) | 2026-07-18 |
 
 ## Big-spike sniper (`nw_bigarb_sniper.py`)
 
@@ -291,8 +298,11 @@ grid, repeat-haircut). Sniper-specific:
 | `NW_WONCARRY_SETTLE_PROBES` | 10 | 10 | 5 – 20 | — | seed |
 | `NW_WONCARRY_SIZE_GRID_MIN` | 40 | 40 | 10 – 50 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
 | `NW_WONCARRY_SIZE_GRID_STEP` | 50 | 50 | 20 – 100 | — | seed |
-| `NW_WONCARRY_FUND_KRW_USD` | 3000 | 3000 | pool size | — | seed |
-| `NW_WONCARRY_FUND_ABROAD_USD` | 7000 | 7000 | pool size | — | seed |
+| `NW_WC_BITHUMB_USDT_ALLOC` | 1500 | 1500 | 1000 – 2000 | [[2026-07-18-woncarry-korea-usdt-capital-model]] | 2026-07-18 |
+| `NW_WONCARRY_FUND_KRW_USD` | 1500 | =BITHUMB_ALLOC | pool size | [[2026-07-18-woncarry-korea-usdt-capital-model]] | 2026-07-18 |
+| `NW_WONCARRY_FUND_ABROAD_USD` | 8500 | 8500 | pool size | [[2026-07-18-woncarry-korea-usdt-capital-model]] | 2026-07-18 |
+| `NW_WC_LEDGER_SINCE` | 2026-07-17T20:29:00Z | 2026-07-15T07:09:00Z | fund epoch / cutover | [[2026-07-18-woncarry-korea-usdt-capital-model]] | 2026-07-18 |
+| `NW_WC_RETENTION_DAYS` | 30 | 30 | 14 – 90 | [[2026-07-18-woncarry-korea-usdt-capital-model]] | 2026-07-18 |
 | `NW_WONCARRY_POLL_SEC` | 30 | 30 | 15 – 120 | — | seed |
 | `NW_WONCARRY_API_TIMEOUT_SEC` | 20 | 20 | 5 – 60 | — | seed |
 | `NW_PAPER_REPEAT_HAIRCUT_PCT` | 0.15 | 0.15 | 0.05 – 0.5 | [[repeat-haircut]] | seed (shared) |
