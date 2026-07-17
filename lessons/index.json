@@ -4,6 +4,18 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
+      "slug": "2026-07-18-dynamic-sizing",
+      "date": "2026-07-18",
+      "trigger": "opportunity density > capital → per-venue adaptive sizing. Good opportunities concentrate on a few capital-consumption points (gateio/bithumb buys, the $19 KRW pool, the $75 gate-futures hedge pool) while the fund as a whole sits idle; a global average hides the local starvation.",
+      "problem": "A single fund-wide size/threshold cannot express that capital is scarce at ONE venue and slack everywhere else; averaging pressure makes a real gateio/KRW/gate-futures bottleneck invisible and spends the scarcest capital on marginal 0.5% edges.",
+      "change": "New shared layer nw_dynamic_sizing.py (NW_DYN_*): per pass, per capital-consumption point, pressure = Σ(target size)÷available capital drives a 2-stage staircase — raise net threshold 0.5→0.8% first, then lower max size $300→$210 (floor −30%, min $40 fixed). Reverse-ladder relaxation; asymmetric hysteresis (fast escalate, slow relax). Only bottlenecked points tighten.",
+      "expected_effect": "Higher risk-adjusted return per unit of the SAME $10k fund: scarce capital buys 0.8% A-grade edges, only over-subscribed A-grade points diversify smaller. assumptions.dyn stamps (threshold,max,pressure,stage,point,cap_source) for Sharpe-by-regime attribution; capital_short logs the fund-increase evidence. First live passes: $75 gate-futures + $19 KRW pools hit the floor while the $300 bybit pool (pressure 4) held at 0.8%/$300 — the per-venue differentiation the design is for.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-dynamic-sizing.md"
+    },
+    {
       "slug": "2026-07-18-quartermaster-wallet-type-pools",
       "date": "2026-07-18",
       "trigger": "strategy #4 capital plan — wallet-type pools. Covered Arb needs more than spot working capital: it locks collateral for margin shorts and margin for perp hedges, and Robin is adding an external ₩7.5M Korean lending deposit. The Quartermaster Planner (shadow) modelled only one fungible spot pool per venue, so it could not tell locked hedge capital from transferable working capital, nor plan how that capital gets seated.",
@@ -502,6 +514,86 @@
       "name": "NW_CA_MAX_HOLD_H",
       "current": "24",
       "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_DYN_ENABLED",
+      "current": "1",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_T1",
+      "current": "1.0",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_T2",
+      "current": "2.0",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_T3",
+      "current": "3.0",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_S1",
+      "current": "4.0",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_S2",
+      "current": "6.0",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_S3",
+      "current": "8.0",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_UP",
+      "current": "1.1",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_DOWN",
+      "current": "0.9",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_THRESH_STEP_PCT",
+      "current": "0.1",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_THRESH_CAP_PCT",
+      "current": "0.8",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_SIZE_STEP_FRAC",
+      "current": "0.10",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_SIZE_FLOOR_FRAC",
+      "current": "0.70",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_MAX_SIZE_USD",
+      "current": "300",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_MIN_SIZE_USD",
+      "current": "40",
+      "lesson": "2026-07-18-dynamic-sizing"
+    },
+    {
+      "name": "NW_DYN_FUND_TTL_SEC",
+      "current": "60",
+      "lesson": "2026-07-18-dynamic-sizing"
     }
   ]
 }

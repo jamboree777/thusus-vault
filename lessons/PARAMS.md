@@ -150,6 +150,13 @@ default (server `.env` sets no override).
 | `NW_QM_UTA_VENUES` | (new) → **bybit,okx** (unified acct → no wallet move) | [[2026-07-18-quartermaster-wallet-type-pools]] |
 | reservations[]/wallet_moves[]/verification{} + route_verified per move (logic) | (no env) | [[2026-07-18-quartermaster-wallet-type-pools]] |
 
+
+## Cycle #7 changes (2026-07-18)
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `NW_DYN_*` (16 params) | (new / off) → **on, defaults** | [[2026-07-18-dynamic-sizing]] |
+
 ## Quartermaster (`nw_quartermaster_v0.py`)
 
 Paper-fund rebalance Planner shadow (W-QM-1/v0.2). No real money, no keys — produces
@@ -289,5 +296,39 @@ grid, repeat-haircut). Sniper-specific:
 | `NW_WONCARRY_POLL_SEC` | 30 | 30 | 15 – 120 | — | seed |
 | `NW_WONCARRY_API_TIMEOUT_SEC` | 20 | 20 | 5 – 60 | — | seed |
 | `NW_PAPER_REPEAT_HAIRCUT_PCT` | 0.15 | 0.15 | 0.05 – 0.5 | [[repeat-haircut]] | seed (shared) |
+
+## Dynamic sizing — density-adaptive layer (`nw_dynamic_sizing.py`, shared)
+
+Opportunity-density-adaptive threshold/size, computed per capital-consumption
+POINT (buy exchange, or KRW/abroad/hedge pool) every pass — see
+[[2026-07-18-dynamic-sizing]] and docs/pm/DYNAMIC_SIZING.md. `pressure(point) =
+Σ(candidate target size at the point) ÷ available capital`; a 2-stage staircase
+raises the net threshold first (0.5→0.8%), then lowers max size ($300→$210). Only
+bottlenecked points tighten; slack points stay on base. Every trade stamps
+`assumptions.dyn` (threshold, max, pressure, stage, point, cap_source).
+
+| Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
+|---|---|---|---|---|---|
+| `NW_DYN_ENABLED` | 1 | 1 | 0 / 1 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_T1` | 1.0 | 1.0 | 1.0 – 2.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_T2` | 2.0 | 2.0 | 1.5 – 4.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_T3` | 3.0 | 3.0 | 2.0 – 6.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_S1` | 4.0 | 4.0 | 3.0 – 8.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_S2` | 6.0 | 6.0 | 4.0 – 12.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_S3` | 8.0 | 8.0 | 5.0 – 16.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_UP` | 1.1 | 1.1 | 1.0 – 1.5 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_DOWN` | 0.9 | 0.9 | 0.5 – 1.0 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_THRESH_STEP_PCT` | 0.1 | 0.1 | 0.05 – 0.2 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_THRESH_CAP_PCT` | 0.8 | 0.8 | 0.6 – 1.5 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_SIZE_STEP_FRAC` | 0.10 | 0.10 | 0.05 – 0.25 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_SIZE_FLOOR_FRAC` | 0.70 | 0.70 | 0.5 – 0.9 | [[2026-07-18-dynamic-sizing]] | 2026-07-18 |
+| `NW_DYN_MAX_SIZE_USD` | 300 | 300 | module base (engines pass own) | [[quiet-size]] | 2026-07-18 |
+| `NW_DYN_MIN_SIZE_USD` | 40 | 40 | 10 – 50 | [[quiet-size]] | 2026-07-18 |
+| `NW_DYN_FUND_TTL_SEC` | 60 | 60 | 30 – 300 | — | 2026-07-18 |
+
+Hedge-pool capital reuses the Quartermaster reservations (`NW_QM_HEDGE_HUB_USD`
+= $300 bybit UTA, `NW_QM_HEDGE_AUX_USD` = $75 gate futures) as each pool's
+denominator, so the engine (spend-thrift now) and the Quartermaster (refill over
+6h) cooperate on the SAME per-point pressure signal.
 
 _Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[2026-07-17-woncarry-exit-policy-v2]] · [[2026-07-18-uniform-size-band-diversification]] · [[2026-07-18-per-chain-settle-delay]] · [[won-carry]] · [[Thusus]]_
