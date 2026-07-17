@@ -1,9 +1,9 @@
 ---
 concept: five-min-settlement
 type: concept
-aliases: [five-minute settlement, 5-min settlement, paper engine methodology, settlement model]
-related: [expectation-gap, executable-spread, quiet-size, orderbook-probing]
-updated: 2026-07-16
+aliases: [five-minute settlement, 5-min settlement, paper engine methodology, settlement model, per-chain settlement]
+related: [expectation-gap, executable-spread, quiet-size, orderbook-probing, 2026-07-18-per-chain-settle-delay]
+updated: 2026-07-18
 author: thusus
 source: nightwatch-kg
 ---
@@ -15,7 +15,7 @@ The **five-minute settlement** is the methodology behind [[Thusus]]'s paper-trad
 ## The method, step by step
 
 1. **Live VWAP entry.** The trade enters at the real, volume-weighted average price walked up (or down) the live order-book ladder at the moment of entry — the [[executable-spread]] price at size, not the mid. No idealized touch fill.
-2. **+5:00 settlement against the live book.** The position is not marked at entry. It is held and settled **five minutes later against the live order book** at that later moment — so any adverse price drift in those five minutes is charged to the trade. This is where optimistic paper P&L goes to die: a gap that looked good at entry has to *survive five minutes* to pay.
+2. **Delayed settlement against the live book (per-chain since 2026-07-18).** The position is not marked at entry. It is held and settled **against the live order book after the transfer completes** — so any adverse price drift in transit is charged to the trade. This is where optimistic paper P&L goes to die: a gap that looked good at entry has to *survive the hold* to pay. The delay was originally a flat five minutes for every route; as of [[2026-07-18-per-chain-settle-delay]] it is **per chain** — fast chains/L2s (and TRON) settle at +5min, **Ethereum mainnet at +15min** (its real 10-20min withdraw→confirm→credit flow), because a flat +5min let slow chains settle against a too-early book and overstated their P&L.
 3. **90% slippage applied.** Ninety percent of modelled slippage is applied to the fills — a deliberate haircut so the engine never flatters itself on execution quality.
 4. **50% fee rebate.** Fees are charged at the *effective* rate assuming recovery of about half of nominal trading fees (via maker rebates and self-referral), matching the real cost structure the live machine targets — not the full nominal fee, and not zero.
 

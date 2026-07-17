@@ -4,6 +4,18 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
+      "slug": "2026-07-18-per-chain-settle-delay",
+      "date": "2026-07-18",
+      "trigger": "flat +5min settle overstated ETH-route P&L (Robin: ETH deposit takes AT LEAST 5min, so the full withdraw->confirm->credit transfer is well over 5min, realistically 10-20min). The paper engine settled EVERY chain at a flat +5:00, so slow-chain rows were marked against a too-early tick.",
+      "problem": "The settle-timing model ignored per-chain transfer latency. Settling an Ethereum-mainnet route against the +5min book let it absorb LESS spread decay than the coins really experience in transit, so slow-chain realized P&L looked more profitable than reality. Ethereum is the #2 chain in the data (~10 trades), so the bug materially inflated ETH-route capture.",
+      "change": "Per-chain settle delay in nw_paper_arb.py (shared by big-spike): chain_settle_delay(route_chain) -> minutes. ETH mainnet 15min (NW_PAPER_SETTLE_DELAY_ETH_MIN=15, NOT instant); fast chains/L2s + TRON keep 5min (NW_PAPER_SETTLE_DELAY_MIN=5); unknown chains default 5 and are logged once. Acceptance window = delay + NW_PAPER_SETTLE_BUFFER_MIN (3), so fast=8min (unchanged), ETH=18min. Whole map overridable via NW_PAPER_SETTLE_DELAY_MAP (JSON). Per-row settle timing, the pending-settle loop, and the dynamic sleep all use the row's chain delay; big-spike inherits via import. Forward-only: historical rows untouched.",
+      "expected_effect": "ETH-route rows settle against the +15min tick, absorb more spread decay -> realized P&L drops to honest levels and more ETH routes fail the net gate. Fast-chain behaviour identical (5min/8min window). Capture ratio BY CHAIN becomes comparable, the calibration signal for tuning these initial-estimate delays with real latency data.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-per-chain-settle-delay.md"
+    },
+    {
       "slug": "2026-07-18-uniform-size-band-diversification",
       "date": "2026-07-18",
       "trigger": "~$500 Korean entries exploding + KRW pool overshoot: the won-carry KRW pool ran to 35.9% of the fund against a 30% cap, driven partly by oversized single entries (Korea's per-entry cap was $600 vs the global $350). Big trades were measured eroding their own capture 8-22% via footprint.",

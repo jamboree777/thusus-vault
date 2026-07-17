@@ -69,6 +69,25 @@ capture 8–22%). Applies to livescan, big-spike, and won-carry identically.
 | `NW_DIV_MAX_PER_PAIR` | (new) → **3** | [[2026-07-18-uniform-size-band-diversification]] |
 | breadth reorder (round-robin by base) | (no env — logic) | [[2026-07-18-uniform-size-band-diversification]] |
 
+## Cycle #4 changes (2026-07-18)
+
+Per-chain settle delay. The paper engine settled EVERY chain at a flat +5min, so
+slow chains (Ethereum mainnet, the #2 chain in the data) settled against a
+too-early tick and booked optimistic P&L. Settle timing is now modelled per chain:
+ETH mainnet **15min**, fast chains/L2s + TRON **5min** (unchanged), unknown chains
+default 5min and are logged for classification. Acceptance window = delay + **3min**
+buffer (fast 8min unchanged, ETH 18min). Forward-only — historical rows keep their
+old +5min settlement. Shared by livescan + big-spike.
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `NW_PAPER_SETTLE_DELAY_ETH_MIN` | (new) → **15** | [[2026-07-18-per-chain-settle-delay]] |
+| `NW_PAPER_SETTLE_BUFFER_MIN` | (new) → **3** | [[2026-07-18-per-chain-settle-delay]] |
+| `NW_PAPER_SETTLE_DELAY_MAP` | (new / off) → **JSON override** | [[2026-07-18-per-chain-settle-delay]] |
+| `NW_PAPER_SETTLE_DELAY_MIN` | 5 (flat, all chains) → **5 (fast-chain default only)** | [[2026-07-18-per-chain-settle-delay]] |
+| `NW_PAPER_SETTLE_MAX_MIN` | 8 (flat ceiling) → **legacy / superseded by buffer** | [[2026-07-18-per-chain-settle-delay]] |
+| `chain_settle_delay()` per-chain map (logic) | (no env — logic) | [[2026-07-18-per-chain-settle-delay]] |
+
 ## Livescan + shared economics (`nw_paper_arb.py`)
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
@@ -95,8 +114,11 @@ capture 8–22%). Applies to livescan, big-spike, and won-carry identically.
 | `NW_PAPER_DAILY_BASE_CAP` | 6 | 6 | 2 – 20 | — | seed |
 | `NW_PAPER_PREFILTER_SPREAD_PCT` | 0.0 | 0.0 | 0.0 – 1.0 | [[executable-spread]] | seed |
 | `NW_PAPER_MAX_LIVE_SCANS` | 15 | 15 | 5 – 40 | — | seed |
-| `NW_PAPER_SETTLE_DELAY_MIN` | 5 | 5 | 5 (fixed rule) | [[five-min-settlement]] | seed |
-| `NW_PAPER_SETTLE_MAX_MIN` | 8 | 8 | 6 – 15 | [[five-min-settlement]] | seed |
+| `NW_PAPER_SETTLE_DELAY_MIN` (fast-chain default) | 5 | 5 | 5 – 8 | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
+| `NW_PAPER_SETTLE_DELAY_ETH_MIN` | 15 | 15 | 10 – 20 | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
+| `NW_PAPER_SETTLE_BUFFER_MIN` | 3 | 3 | 2 – 6 | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
+| `NW_PAPER_SETTLE_DELAY_MAP` (JSON) | — | — | full-map override | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
+| `NW_PAPER_SETTLE_MAX_MIN` (legacy, superseded) | 8 | 8 | — | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
 | `NW_PAPER_POLL_SEC` | 45 | 45 | 15 – 120 | — | seed |
 | `NW_PAPER_BATCH_LIMIT` | 500 | 500 | 100 – 1000 | — | seed |
 | `NW_PAPER_FRESH_MIN` | 10 | 10 | 5 – 30 | — | seed |
@@ -150,4 +172,4 @@ grid, repeat-haircut). Sniper-specific:
 | `NW_WONCARRY_API_TIMEOUT_SEC` | 20 | 20 | 5 – 60 | — | seed |
 | `NW_PAPER_REPEAT_HAIRCUT_PCT` | 0.15 | 0.15 | 0.05 – 0.5 | [[repeat-haircut]] | seed (shared) |
 
-_Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[2026-07-17-woncarry-exit-policy-v2]] · [[2026-07-18-uniform-size-band-diversification]] · [[won-carry]] · [[Thusus]]_
+_Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[2026-07-17-woncarry-exit-policy-v2]] · [[2026-07-18-uniform-size-band-diversification]] · [[2026-07-18-per-chain-settle-delay]] · [[won-carry]] · [[Thusus]]_
