@@ -172,14 +172,47 @@ existing `EXCLUDE_MAINNET_ONLY` (BTC-mainnet routes stay excluded) — no new tu
 |---|---|---|
 | `route_chain` column + resolve/reject rule | (missing / chainless) → **resolved + recorded + displayed; reject if unresolvable** | [[2026-07-18-woncarry-per-trade-chain-resolution]] |
 
+## Cycle #9 changes (2026-07-18)
+
+Quartermaster v0.3 — the **capital-movement EXECUTOR** (paper). QM was planner-only:
+it produced rebalance plans but never MOVED the paper capital, so the fund was
+incoherent (bithumb Korea USDT drained to $0 with no replenishment, treasury $0).
+v0.3 adds an executor pass (`nw_quartermaster_v0.py` → `run_executor`) that writes
+ACTUAL (paper) rebalances to a new `nw_qm_transfers` table, and the
+`/arb/thusus/fund` reconstruction now **replays** those transfers so drained venues
+replenish and net fund value = spread capture − logistics cost. Deficits are
+replenished from offshore SURPLUS (Korea bithumb first), preferring arb-as-rebalance
+(earns spread, negative fee) over plain transfers; uncoverable deficits are logged
+`capital_short` (no fabricated move). Batches at most once per `NW_QM_EXEC_MIN`.
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `NW_QM_EXEC_MIN` | (new) → **60** (min minutes between executed batches) | [[2026-07-18-quartermaster-capital-movement-executor]] |
+| `NW_QM_MIN_TRANSFER_USD` | (new) → **25** (skip dust moves) | [[2026-07-18-quartermaster-capital-movement-executor]] |
+| `NW_QM_MAX_TRANSFER_USD` | (new) → **2500** (single-move cap) | [[2026-07-18-quartermaster-capital-movement-executor]] |
+| `NW_QM_DAILY_TRANSFER_CAP_USD` | (new) → **6000** (rolling-24h cap) | [[2026-07-18-quartermaster-capital-movement-executor]] |
+| `NW_QM_EXEC_ENABLED` | (new) → **1** (kill switch) | [[2026-07-18-quartermaster-capital-movement-executor]] |
+| `NW_QM_TRANSFER_RETENTION_DAYS` | (new) → **30** | [[2026-07-18-quartermaster-capital-movement-executor]] |
+| `nw_qm_transfers` table + fund-replay of transfers (logic) | (missing) → **executed moves recorded + replayed; invariant nets Σ fees** | [[2026-07-18-quartermaster-capital-movement-executor]] |
+| timer | 6h → **hourly** (:10 UTC; executor gated to `NW_QM_EXEC_MIN`) | [[2026-07-18-quartermaster-capital-movement-executor]] |
+
 ## Quartermaster (`nw_quartermaster_v0.py`)
 
-Paper-fund rebalance Planner shadow (W-QM-1/v0.2). No real money, no keys — produces
-a plan persisted to `nw_qm_plans`, surfaced via the `/arb/thusus/fund` quartermaster
-block. New envs' current values equal code defaults (server `.env` sets no override).
+Paper-fund rebalance Planner shadow + capital-movement Executor (W-QM-1/v0.3). No
+real money, no keys — the Planner produces a plan persisted to `nw_qm_plans`, the
+Executor writes actual paper rebalances to `nw_qm_transfers`; both surface via the
+`/arb/thusus/fund` block. New envs' current values equal code defaults (server
+`.env` sets no override).
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
 |---|---|---|---|---|---|
+| `NW_QM_EXEC_MIN` | 60 | 60 | 30 – 360 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
+| `NW_QM_MIN_TRANSFER_USD` | 25 | 25 | 10 – 100 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
+| `NW_QM_MAX_TRANSFER_USD` | 2500 | 2500 | 500 – 5000 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
+| `NW_QM_DAILY_TRANSFER_CAP_USD` | 6000 | 6000 | 2000 – 10000 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
+| `NW_QM_EXEC_ENABLED` | 1 | 1 | 0/1 kill switch | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
+| `NW_QM_TRANSFER_RETENTION_DAYS` | 30 | 30 | 7 – 90 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
+| `NW_WC_BITHUMB_USDT_ALLOC` (Korea floor; shared w/ fund) | 1500 | 1500 | 500 – 3000 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
 | `NW_QM_HEDGE_HUB_VENUE` | bybit | bybit | UTA venue | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
 | `NW_QM_HEDGE_HUB_USD` | 300 | 300 | 100 – 800 | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
 | `NW_QM_HEDGE_AUX_VENUE` | gateio | gateio | classic-acct futures venue | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
