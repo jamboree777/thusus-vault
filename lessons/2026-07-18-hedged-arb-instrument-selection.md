@@ -37,15 +37,17 @@ Capital model is **shadow-only** — nothing moves the $10k pools yet (that join
 
 Robin caught the entry gate admitting trivial-**NET** trades. `NW_HEDGE_MIN_EDGE_PCT=0.5` gates on the **gross** quoted edge, but the covered position pays cover cost (~0.1% interest/funding) + taker fees on all legs (~0.2%) + basis before it nets anything. A 0.5% *gross* trade nets only **~0.1–0.2%** — measured examples: **XCN net 0.09%**, **ARX net 0.22%**. That is not worth the 4-leg execution + margin-call/liquidation tail + exit-complexity risk. The old binding condition was even looser: the size loop accepted any size with `net_pct >= 0.0`, so anything barely positive booked.
 
-The fix mirrors **won-carry's** discipline (`MIN_NET_PCT` + `MIN_NET_USD`):
+The fix borrows **won-carry's** net-first discipline, with a single binding knob:
 
 - **Gross `MIN_EDGE_PCT` is now a cheap PREFILTER only** — candidates must clear it before we VWAP-walk any book (so we don't price every row), but it is *not* the binding gate.
-- **The BINDING gate is expected NET**: `NW_HEDGE_MIN_NET_PCT` (default **0.5**). A candidate is admitted only if some size gives `net_pct >= MIN_NET_PCT`. The net is the value `_entry_economics_for_size` already computes — `gross − cover_cost − buy taker − hedge/sell taker(s) − wd/basis` — the **SAME** routine whose expectation the settle realizes, so the gate and the settle agree by construction (no second formula).
-- **Absolute-$ floor** `NW_HEDGE_MIN_NET_USD` (default **1.0**): reject if `size_usd × net_pct/100 < this`, killing trivial-dollar trades at small size. Won-carry uses $6, but our band caps at $300 so $6 would demand 2% net — $1.0 is a light, env-tunable floor.
+- **The SOLE BINDING gate is expected NET%**: `NW_HEDGE_MIN_NET_PCT` (default **0.5**). A candidate is admitted only if some size gives `net_pct >= MIN_NET_PCT`. The net is the value `_entry_economics_for_size` already computes — `gross − cover_cost − buy taker − hedge/sell taker(s) − wd/basis` — the **SAME** routine whose expectation the settle realizes, so the gate and the settle agree by construction (no second formula).
+- **No absolute-$ floor.** An earlier draft added a `MIN_NET_USD` ($1) floor; Robin removed it — *"the $1 minimum is not important."* A small-size trade that clears 0.5% net still qualifies, which is the **diversification intent** (spread capital across many small positions rather than demand a dollar minimum that biases toward large size).
 
 Why 0.5% net is the right conservative default: hedged is **market-neutral** (no FX/cycle-lock risk, unlike won-carry), so 0.5% net is *conservative* and env-tunable — but the covered position still carries 4-leg execution slippage, the margin-call/liquidation tail (E4), contract-residual drift, and exit-mode tail costs (E3/E4/E6), so a real net floor is prudent. It can be **lowered later** once accumulated A/B shows those tail costs are benign.
 
-Instrumentation: each pass now logs `net_gate: pass=N drop=M(<0.5%/$1.0)` — a candidate is counted `drop` when it had a feasible positive-net size (the old `net>=0` gate would have entered) but no size cleared the floor. Existing booked rows stay (**forward-only**).
+**Retroactive purge (not forward-only).** The pre-fix code had booked trivial-net rows (XCN 0.101%, ARX 0.114%, CFG 0.143%, MET 0.442%, XVS 0.465%, KAITO 0.417%, SAPIEN 0.488%). Robin wanted them gone, so every already-booked `nw_hedged_shadow` row with `expected_net_pct < 0.5` was **DELETEd** (shadow table only — never `nw_paper_trades` or other engines). So both the A/B surface and the live gate now hold to the 0.5% net floor.
+
+Instrumentation: each pass now logs `net_gate: pass=N drop=M(<0.5%)` — a candidate is counted `drop` when it had a feasible positive-net size (the old `net>=0` gate would have entered) but no size cleared the floor.
 
 ## Review
 
