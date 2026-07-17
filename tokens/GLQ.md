@@ -2,36 +2,36 @@
 token: GLQ
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: C-
+nw_grade: A+
+nw_grade_worst: D+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-16T04:32:18.024467Z
+updated: 2026-07-17T03:51:24.973188Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GLQ · NW Grade **B+**
+# GLQ · NW Grade **A+**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x9f9c8e…4d24` (partial)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[kucoin]]: B-
-- [[mexc]]: C-
+- [[gateio]]: D+
+- [[kucoin]]: D+
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ❌
+- [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
 - 2026-07-16 · [[gateio]] [[glq]] withdraw → open · [[event/dw-resume]]
@@ -45,8 +45,8 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - [[bitget]]: closed:glq
 - [[gateio]]: open:ethereum,ethereum,glq,glq
 - [[kucoin]]: open:glq
-- [[mexc]]: closed:glq
-- Suspended now: [[bitget]], [[mexc]]
+- [[mexc]]: open:glq
+- Suspended now: [[bitget]]
 - Recently reopened (48h): [[gateio]]
 
 ## Backers & Project
@@ -67,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T04:32:18.024467Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-17T03:51:24.973188Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

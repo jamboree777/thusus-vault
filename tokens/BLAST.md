@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-16T04:31:49.420873Z
+updated: 2026-07-17T03:50:48.494230Z
 source: nightwatch-kg
 ---
 
@@ -75,7 +75,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T04:31:49.420873Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-17T03:50:48.494230Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

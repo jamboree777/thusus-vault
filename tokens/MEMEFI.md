@@ -2,29 +2,30 @@
 token: MEMEFI
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: F
+nw_grade: D+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x506a6fc25f1c7d52ceb06ea44a3114c9380f8e2029b4356019822f248b49e411::memefi::memefi" }
 exchanges: [kucoin, mexc]
 transfer: partial
-updated: 2026-07-16T04:32:45.120256Z
+lifecycle: delisted
+updated: 2026-07-17T03:51:59.379410Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MEMEFI · NW Grade **A**
+# MEMEFI · NW Grade **D+**
 
-Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x506a6f…mefi` (verified_same)
 - Listed on: [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[kucoin]]: A
-- [[mexc]]: F
+- [[kucoin]]: D+
+- [[mexc]]: D
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -32,15 +33,17 @@ Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen
 - [[gateio]]: deposit ❌ / withdraw ✅
 - [[htx]]: deposit ❌ / withdraw ❌
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-16 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[htx]] [[memefi]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[htx]] [[memefi]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bybit]] [[sui]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:sui
@@ -48,7 +51,7 @@ Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen
 - [[gateio]]: closed:sui,sui,suinew,suinew
 - [[htx]]: closed:memefi
 - [[kucoin]]: open:sui
-- [[mexc]]: open:sui
+- [[mexc]]: closed:sui
 - Suspended now: [[htx]]
 
 ## Backers & Project
@@ -68,8 +71,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-16T04:32:45.120256Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-17T03:51:59.379410Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
