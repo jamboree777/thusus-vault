@@ -11,8 +11,12 @@ source: nightwatch-kg
 Every environment-tunable parameter across the three shadow engines
 ([[Thusus]]'s livescan, big-spike sniper, and [[won-carry]] shadow). **Current
 value** is the value actually running on the Chuncheon worker; where the server
-`.env` sets no override, current = code default (as of 2026-07-16 the server
-overrides *none* of these, so every engine runs on defaults). Bounds are
+`.env` sets no override, current = code default. As of Cycle #3 (2026-07-18) the
+server `.env` sets explicit overrides for the uniform size band + diversification
+guards (`NW_PAPER_SIZE_MIN_USD=40`, `NW_PAPER_SIZE_MAX_USD=300`,
+`NW_WONCARRY_MAX_USD=300`, `NW_WONCARRY_SIZE_GRID_MIN=40`,
+`NW_DIV_MAX_PER_TOKEN_USD=300`, `NW_DIV_MAX_PER_PAIR=3`) — these match the new
+code defaults, so current = default regardless. Bounds are
 suggested guard-rails for the [[THUSUS_OPS_LOOP|ops loop]]'s Phase-2 auto-tuning,
 not hard limits. A linked lesson means the value has an evidenced rationale on
 file; `—` means it is a seed default not yet challenged by data.
@@ -46,6 +50,25 @@ force-exited past a dwell limit and marked to market so FX drift is separable.
 | `NW_WC_FORCED_EXIT_MAJORS` | (new) → **BTC,ETH,XRP,SOL** | [[2026-07-17-woncarry-exit-policy-v2]] |
 | accounting `fx_pnl` / `carry_pnl` / `dwell_h` | (no env — logic) | [[2026-07-17-woncarry-exit-policy-v2]] |
 
+## Cycle #3 changes (2026-07-18)
+
+Uniform per-trade size band + diversification guards. ~$500 Korean entries were
+exploding and the KRW pool overshot (30%→35.9%). Every engine now shares MIN **$40**
+.. MAX **$300**, and concentration is bounded per-token and per-route so capital
+spreads across many small positions (measured: big single trades erode their own
+capture 8–22%). Applies to livescan, big-spike, and won-carry identically.
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `NW_PAPER_SIZE_MIN_USD` | 20 → **40** | [[2026-07-18-uniform-size-band-diversification]] |
+| `NW_PAPER_SIZE_MAX_USD` | 350 → **300** | [[2026-07-18-uniform-size-band-diversification]] |
+| `NW_WONCARRY_MAX_USD` | 600 → **300** | [[2026-07-18-uniform-size-band-diversification]] |
+| `NW_WONCARRY_SIZE_GRID_MIN` | 20 → **40** | [[2026-07-18-uniform-size-band-diversification]] |
+| `NW_KIMCHI_ROUNDTURN_MAX_USD` (Render API) | 600 → **300** | [[2026-07-18-uniform-size-band-diversification]] |
+| `NW_DIV_MAX_PER_TOKEN_USD` | (new) → **300** | [[2026-07-18-uniform-size-band-diversification]] |
+| `NW_DIV_MAX_PER_PAIR` | (new) → **3** | [[2026-07-18-uniform-size-band-diversification]] |
+| breadth reorder (round-robin by base) | (no env — logic) | [[2026-07-18-uniform-size-band-diversification]] |
+
 ## Livescan + shared economics (`nw_paper_arb.py`)
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
@@ -63,9 +86,11 @@ force-exited past a dwell limit and marked to market so FX drift is separable.
 | `NW_PAPER_WD_FEE_FALLBACK_PCT` | 0.1 | 0.1 | 0.05 – 0.5 | [[transfer-feasibility]] | seed |
 | `NW_PAPER_WD_FEE_FALLBACK_USD` | 0.10 | 0.10 | 0.05 – 1.0 | [[transfer-feasibility]] | seed |
 | `NW_PAPER_SIZE_USD` | 200 | 200 | 50 – 350 | — | seed |
-| `NW_PAPER_SIZE_MIN_USD` | 20 | 20 | 10 – 50 | [[quiet-size]] | seed |
-| `NW_PAPER_SIZE_MAX_USD` | 350 | 350 | 100 – 1000 | [[quiet-size]] | seed |
+| `NW_PAPER_SIZE_MIN_USD` | 40 | 40 | 10 – 50 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
+| `NW_PAPER_SIZE_MAX_USD` | 300 | 300 | 100 – 1000 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
 | `NW_PAPER_SIZE_STEP_USD` | 10 | 10 | 5 – 50 | — | seed |
+| `NW_DIV_MAX_PER_TOKEN_USD` (shared) | 300 | 300 | 100 – 1000 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
+| `NW_DIV_MAX_PER_PAIR` (shared) | 3 | 3 | 1 – 10 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
 | `NW_PAPER_COOLDOWN_MIN` | 15 | 15 | 5 – 60 | — | seed |
 | `NW_PAPER_DAILY_BASE_CAP` | 6 | 6 | 2 – 20 | — | seed |
 | `NW_PAPER_PREFILTER_SPREAD_PCT` | 0.0 | 0.0 | 0.0 – 1.0 | [[executable-spread]] | seed |
@@ -109,7 +134,7 @@ grid, repeat-haircut). Sniper-specific:
 | `NW_WC_FORCED_EXIT_MAJORS` | BTC,ETH,XRP,SOL | BTC,ETH,XRP,SOL | liquid majors | [[2026-07-17-woncarry-exit-policy-v2]] | 2026-07-17 |
 | `NW_WONCARRY_MIN_NET_PCT` | 0.5 | 0.5 | 0.3 – 2.0 | [[executable-spread]] | seed |
 | `NW_WONCARRY_MIN_NET_USD` | 6 | 6 | 2 – 20 | [[executable-spread]] | seed |
-| `NW_WONCARRY_MAX_USD` | 600 | 600 | 100 – 2000 | [[quiet-size]] | seed |
+| `NW_WONCARRY_MAX_USD` | 300 | 300 | 100 – 2000 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
 | `NW_WONCARRY_TRANSIT_MIN` | 5 | 5 | 5 (fixed rule) | [[five-min-settlement]] | seed |
 | `NW_WONCARRY_MAX_ENTRIES_PER_PASS` | 2 | 2 | 1 – 5 | — | seed |
 | `NW_WONCARRY_COOLDOWN_MIN` | 60 | 60 | 15 – 180 | — | seed |
@@ -117,7 +142,7 @@ grid, repeat-haircut). Sniper-specific:
 | `NW_WONCARRY_REJECT_COOLDOWN_MIN` | 10 | 10 | 5 – 30 | [[orderbook-probing]] | seed |
 | `NW_WONCARRY_EDGE_IMPROVE_PP` | 0.25 | 0.25 | 0.1 – 1.0 | [[executable-spread]] | seed |
 | `NW_WONCARRY_SETTLE_PROBES` | 10 | 10 | 5 – 20 | — | seed |
-| `NW_WONCARRY_SIZE_GRID_MIN` | 20 | 20 | 10 – 50 | [[quiet-size]] | seed |
+| `NW_WONCARRY_SIZE_GRID_MIN` | 40 | 40 | 10 – 50 | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
 | `NW_WONCARRY_SIZE_GRID_STEP` | 50 | 50 | 20 – 100 | — | seed |
 | `NW_WONCARRY_FUND_KRW_USD` | 3000 | 3000 | pool size | — | seed |
 | `NW_WONCARRY_FUND_ABROAD_USD` | 7000 | 7000 | pool size | — | seed |
@@ -125,4 +150,4 @@ grid, repeat-haircut). Sniper-specific:
 | `NW_WONCARRY_API_TIMEOUT_SEC` | 20 | 20 | 5 – 60 | — | seed |
 | `NW_PAPER_REPEAT_HAIRCUT_PCT` | 0.15 | 0.15 | 0.05 – 0.5 | [[repeat-haircut]] | seed (shared) |
 
-_Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[2026-07-17-woncarry-exit-policy-v2]] · [[won-carry]] · [[Thusus]]_
+_Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[2026-07-17-woncarry-exit-policy-v2]] · [[2026-07-18-uniform-size-band-diversification]] · [[won-carry]] · [[Thusus]]_

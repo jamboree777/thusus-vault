@@ -4,6 +4,18 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
+      "slug": "2026-07-18-uniform-size-band-diversification",
+      "date": "2026-07-18",
+      "trigger": "~$500 Korean entries exploding + KRW pool overshoot: the won-carry KRW pool ran to 35.9% of the fund against a 30% cap, driven partly by oversized single entries (Korea's per-entry cap was $600 vs the global $350). Big trades were measured eroding their own capture 8-22% via footprint.",
+      "problem": "Oversized single entries + single-name/route concentration erode a stable realized return. Korea sized entries almost 2x the global standard, so capital rushed into the KRW pool in big chunks and overshot its cap; and any one token or one (buy_ex,sell_ex) route could absorb an outsized share of the fund.",
+      "change": "Uniform per-trade band across ALL engines: MIN $40, MAX $300 (NW_PAPER_SIZE_MIN_USD 20->40, NW_PAPER_SIZE_MAX_USD 350->300; NW_WONCARRY_MAX_USD 600->300, NW_WONCARRY_SIZE_GRID_MIN 20->40; Render API NW_KIMCHI_ROUNDTURN_MAX_USD 600->300; big-spike inherits the band and keeps SIZE_FACTOR=0.5). Plus diversification guards NW_DIV_MAX_PER_TOKEN_USD=300 (open exposure per base across venues; extra entries shrink to headroom or skip) and NW_DIV_MAX_PER_PAIR=3 (max concurrent open positions per route), applied to all three engines, plus a breadth reorder (round-robin by base).",
+      "expected_effect": "KRW inflow throttled to the global standard (no more ~$500 Korean chunks) so the KRW pool stops overshooting its 30% cap from oversized entries. Realized capture stabilises via breadth: no name holds more than $300 open and no route more than 3 concurrent positions, so big-footprint single trades are reduced. Matters more as parallel real-time scans surface more opportunities.",
+      "review_after": "2026-07-24",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-uniform-size-band-diversification.md"
+    },
+    {
       "slug": "2026-07-17-woncarry-exit-policy-v2",
       "date": "2026-07-17",
       "trigger": "Robin's directive (2026-07-17): won-carry accumulates KRW but never deliberately exits it. Parked KRW carries FX risk and misses global opportunities; the naive exit (repurchase USDT) pays the full stablecoin premium. Exit instead through the most undervalued token on the Korean venue whenever its edge covers costs.",
