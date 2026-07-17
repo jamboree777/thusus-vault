@@ -76,13 +76,17 @@ slow chains (Ethereum mainnet, the #2 chain in the data) settled against a
 too-early tick and booked optimistic P&L. Settle timing is now modelled per chain:
 ETH mainnet **15min**, fast chains/L2s + TRON **5min** (unchanged), unknown chains
 default 5min and are logged for classification. Acceptance window = delay + **3min**
-buffer (fast 8min unchanged, ETH 18min). Forward-only — historical rows keep their
-old +5min settlement. Shared by livescan + big-spike.
+buffer (fast 8min unchanged, ETH 18min). Plus **exposure-time-adjusted sizing**:
+ETH-mainnet routes are capped at **$150 max (half** of the $300 standard) because
+they stay open ~3x longer — MIN stays $40, others keep $300. Forward-only —
+historical rows keep their old +5min settlement. Shared by livescan + big-spike;
+woncarry untouched.
 
 | Env | Before → After | Lesson |
 |---|---|---|
 | `NW_PAPER_SETTLE_DELAY_ETH_MIN` | (new) → **15** | [[2026-07-18-per-chain-settle-delay]] |
 | `NW_PAPER_SETTLE_BUFFER_MIN` | (new) → **3** | [[2026-07-18-per-chain-settle-delay]] |
+| `NW_PAPER_SETTLE_ETH_MAX_SIZE_USD` | (new) → **150** (ETH-route MAX, half of $300) | [[2026-07-18-per-chain-settle-delay]] |
 | `NW_PAPER_SETTLE_DELAY_MAP` | (new / off) → **JSON override** | [[2026-07-18-per-chain-settle-delay]] |
 | `NW_PAPER_SETTLE_DELAY_MIN` | 5 (flat, all chains) → **5 (fast-chain default only)** | [[2026-07-18-per-chain-settle-delay]] |
 | `NW_PAPER_SETTLE_MAX_MIN` | 8 (flat ceiling) → **legacy / superseded by buffer** | [[2026-07-18-per-chain-settle-delay]] |
@@ -117,6 +121,7 @@ old +5min settlement. Shared by livescan + big-spike.
 | `NW_PAPER_SETTLE_DELAY_MIN` (fast-chain default) | 5 | 5 | 5 – 8 | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
 | `NW_PAPER_SETTLE_DELAY_ETH_MIN` | 15 | 15 | 10 – 20 | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
 | `NW_PAPER_SETTLE_BUFFER_MIN` | 3 | 3 | 2 – 6 | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
+| `NW_PAPER_SETTLE_ETH_MAX_SIZE_USD` (ETH-route MAX) | 150 | 150 | 100 – 300 | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
 | `NW_PAPER_SETTLE_DELAY_MAP` (JSON) | — | — | full-map override | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
 | `NW_PAPER_SETTLE_MAX_MIN` (legacy, superseded) | 8 | 8 | — | [[2026-07-18-per-chain-settle-delay]] | 2026-07-18 |
 | `NW_PAPER_POLL_SEC` | 45 | 45 | 15 – 120 | — | seed |
