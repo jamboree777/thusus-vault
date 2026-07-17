@@ -92,6 +92,56 @@ woncarry untouched.
 | `NW_PAPER_SETTLE_MAX_MIN` | 8 (flat ceiling) → **legacy / superseded by buffer** | [[2026-07-18-per-chain-settle-delay]] |
 | `chain_settle_delay()` per-chain map (logic) | (no env — logic) | [[2026-07-18-per-chain-settle-delay]] |
 
+## Cycle #5 changes (2026-07-18)
+
+Hedged-Arb ("Covered Arb", strategy #4) shadow engine — `nw_hedged_shadow.py`.
+Hedges the transit window at the RICH venue (margin short / perp short, chosen per
+trade by min incremental cost) so the ~61% edge decay livescan suffers is locked
+out at t=0. Records the A/B (hedged vs unhedged capture). Margin incremental cost =
+borrow interest ONLY (the spot sell fee is not incremental); gate borrow APR is
+LIVE, other venues assumed. Perp cost = 2× taker + funding (sign-aware, per-contract
+interval); perp contracts are quantized → coverage can be <100% and a perp under 70%
+coverage loses to margin. Capital model shadow-only (does not move the $10k pools).
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `NW_HEDGE_MIN_EDGE_PCT` | (new) → **0.5** | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_HEDGE_MIN_COVER_PCT` | (new) → **70** | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_HEDGE_MARGIN_PREF_PCT` | (new) → **0.10** | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_HEDGE_BORROW_APR_MAJOR` / `_ALT` | (new) → **5.0 / 20.0** | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_HEDGE_ETH_MAX_USD` | (new) → **300** (full band; hedge neutralises exposure-time) | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_HEDGE_PERP_VENUES` | (new) → **gate,bybit,binance** (never mexc/bitget) | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_CA_MAX_HOLD_H` (E5 timestop) | (new) → **24** | [[2026-07-18-hedged-arb-instrument-selection]] |
+| live gate borrow rate + perp quantization (logic) | (no env — logic) | [[2026-07-18-hedged-arb-instrument-selection]] |
+
+## Hedged-Arb / Covered Arb (`nw_hedged_shadow.py`)
+
+Shadow-only (does not move the $10k fund). Reuses the shared VWAP/slippage/rebate
+economics + the per-chain settle clock (`chain_settle_delay`) from `nw_paper_arb.py`.
+
+| Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
+|---|---|---|---|---|---|
+| `NW_HEDGE_MIN_EDGE_PCT` | 0.5 | 0.5 | 0.2 – 1.0 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_MIN_COVER_PCT` | 70 | 70 | 50 – 95 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_MARGIN_PREF_PCT` | 0.10 | 0.10 | 0.0 – 0.3 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_BORROW_APR_MAJOR` | 5.0 | 5.0 | 1 – 10 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_BORROW_APR_ALT` | 20.0 | 20.0 | 10 – 200 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_BORROW_FEE_PCT` | 0.0 | 0.0 | 0 – 0.2 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_PERP_TAKER_PCT` | 0.05 | 0.05 | 0.02 – 0.1 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_FUNDING_INTERVAL_H` (fallback) | 8 | 8 | 1 – 8 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_SIZE_MIN` / `_MAX` / `_STEP` | 40 / 300 / 50 | same | band | [[2026-07-18-uniform-size-band-diversification]] | 2026-07-18 |
+| `NW_HEDGE_ETH_MAX_USD` | 300 | 300 | 150 – 300 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_MAX_ENTRIES_PER_PASS` | 4 | 4 | 1 – 10 | — | seed |
+| `NW_HEDGE_COOLDOWN_MIN` | 30 | 30 | 10 – 120 | — | seed |
+| `NW_HEDGE_MAX_PROBES` | 24 | 24 | 8 – 48 | [[orderbook-probing]] | seed |
+| `NW_HEDGE_INSTRUMENT_CACHE_H` | 1 | 1 | 1 – 24 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_PERP_VENUES` | gate,bybit,binance | same | never mexc/bitget | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_MARGIN_VENUES` | binance,gate,kucoin,okx,bybit,htx | same | ex-bitget/mexc | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_CA_MARGIN_HEADROOM_PCT` | 30 | 30 | 10 – 50 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_CA_MAX_HOLD_H` (E5) | 24 | 24 | 12 – 72 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_CA_COST_ABORT_PCT` (E2) | 50 | 50 | 20 – 80 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_MONITOR_PROBES` | 6 | 6 | 2 – 16 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+
 ## Livescan + shared economics (`nw_paper_arb.py`)
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |

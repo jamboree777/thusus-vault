@@ -4,6 +4,18 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
+      "slug": "2026-07-18-hedged-arb-instrument-selection",
+      "date": "2026-07-18",
+      "trigger": "39% livescan capture + instrument-selection design — livescan keeps only ~39% of quoted edge because the 15-60min transit window is unhedged (measured 61% decay, 121-trade sample). Robin: hedge the arb at the RICH venue so the edge is locked at t=0, and pick the hedge instrument per trade.",
+      "problem": "An unhedged transfer arb carries its full price risk across the transit window so most quoted edge evaporates before arrival, and there was no per-trade choice of HOW to hedge (margin short vs perp short differ in cost + coverage, and the cheaper flips by token) nor any proof of how much hedging recovers.",
+      "change": "New shadow engine nw_hedged_shadow.py (strategy #4, Covered Arb). Picks a hedge at the RICH venue by min INCREMENTAL cost: margin short (interest only — spot sell fee is not incremental; gate APR live, others assumed; preference bonus) or perp short (2x taker + sign-aware funding, per-contract interval; never mexc/bitget); neither -> unhedged-comparable skip. Perp contract quantization -> hedge_coverage_pct (perp <100% or 0 below min contract; <70% loses to margin). Reuses /arb/board + /arb/kimchi_roundturn feeds and the per-chain settle clock. Records the A/B: capture_hedged vs capture_unhedged. Execution-protocol subset: T-0 entry stamps, in-flight invariant, exit modes E1/E2/E5 + E3/E4/E6 scenario costs. Own table nw_hedged_shadow; joined into /thusus as strategy 'hedged' + GET /arb/hedged_shadow. Capital model shadow-only.",
+      "expected_effect": "Hedged capture should sit far above the ~39% unhedged baseline (target >=85%); the per-trade A/B is the evidence. Cost hierarchy is NOT fixed (majors -> margin cheapest ~0.002%/4h; hot alts borrow-spike -> perp wins; bithumb daily-ceil priciest) so the comparison is live per trade. The $40-300 band makes perp min-contract/min-notional bite often on majors -> many perp candidates cover <70% and correctly lose to margin. First passes are thin; the A/B accumulates.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-hedged-arb-instrument-selection.md"
+    },
+    {
       "slug": "2026-07-18-per-chain-settle-delay",
       "date": "2026-07-18",
       "trigger": "flat +5min settle overstated ETH-route P&L (Robin: ETH deposit takes AT LEAST 5min, so the full withdraw->confirm->credit transfer is well over 5min, realistically 10-20min). The paper engine settled EVERY chain at a flat +5:00, so slow-chain rows were marked against a too-early tick.",
@@ -388,6 +400,46 @@
       "name": "NW_WONCARRY_API_TIMEOUT_SEC",
       "current": "20",
       "lesson": null
+    },
+    {
+      "name": "NW_HEDGE_MIN_EDGE_PCT",
+      "current": "0.5",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_MIN_COVER_PCT",
+      "current": "70",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_MARGIN_PREF_PCT",
+      "current": "0.10",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_BORROW_APR_MAJOR",
+      "current": "5.0",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_BORROW_APR_ALT",
+      "current": "20.0",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_ETH_MAX_USD",
+      "current": "300",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_PERP_VENUES",
+      "current": "gate,bybit,binance",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_CA_MAX_HOLD_H",
+      "current": "24",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
     }
   ]
 }
