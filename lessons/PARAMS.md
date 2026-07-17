@@ -270,6 +270,7 @@ grid, repeat-haircut). Sniper-specific:
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
 |---|---|---|---|---|---|
+| `NW_BIGSPIKE_MIN_NET_PCT` | 3.0 | 3.0 | 3.0 – 5.0 | [[2026-07-18-bigspike-min-spike-floor]] | 2026-07-18 |
 | `NW_BIGSPIKE_MAX_SPREAD_PCT` | 10.0 | 10.0 | 3.0 – 15.0 | [[2026-07-16-spread-drift-cap]] | 2026-07-16 |
 | `NW_BIGSPIKE_SIZE_FACTOR` | 0.5 | 0.5 | 0.3 – 1.0 | [[2026-07-16-bigspike-size-haircut]] | 2026-07-16 |
 | `NW_SNIPER_POLL_SEC` | 20 | 20 | 10 – 60 | — | seed |
