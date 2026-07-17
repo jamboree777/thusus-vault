@@ -4,6 +4,18 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
+      "slug": "2026-07-17-woncarry-exit-policy-v2",
+      "date": "2026-07-17",
+      "trigger": "Robin's directive (2026-07-17): won-carry accumulates KRW but never deliberately exits it. Parked KRW carries FX risk and misses global opportunities; the naive exit (repurchase USDT) pays the full stablecoin premium. Exit instead through the most undervalued token on the Korean venue whenever its edge covers costs.",
+      "problem": "KRW capital lock + USDT-premium exit cost class — the engine had in-legs (premium buys that accrue KRW) but no formalized out-leg. Repurchasing USDT to exit re-pays the stablecoin basis + fees, and idle KRW is unhedged FX exposure the accounting could not separate from carry P&L.",
+      "change": "Exit-policy v2 params: NW_WC_EXIT_EDGE_MIN_PCT=0.0 (KRW-funded discount out-legs execute when executable exit_edge >= this; standalone MIN_NET floors waived); NW_WC_KRW_POOL_CAP_PCT=30 (premium in-legs blocked once KRW share exceeds this); NW_WC_MAX_DWELL_H=72 with NW_WC_FORCED_EXIT_MAJORS=BTC,ETH,XRP,SOL (parked-too-long KRW force-exits via the lowest-relative-premium liquid major, even at negative edge, logged as forced_exit); fx_pnl marks the KRW pool at current usdt_krw each pass so carry_pnl vs FX exposure are separable.",
+      "expected_effect": "Out-legs execute only when covered (exit_edge >= 0 => at least as cheap as repurchasing USDT); in-legs stop over-parking KRW above 30%; forced exits bounded to the dwell window and liquid majors; fx_pnl separated from carry_pnl in every pass summary.",
+      "review_after": "2026-07-24",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-17-woncarry-exit-policy-v2.md"
+    },
+    {
       "slug": "2026-07-16-woncarry-blind-instrumentation",
       "date": "2026-07-16",
       "trigger": "nw_woncarry_shadow — 0 rows across ~2156 passes; heartbeat shows opp_count 40, recheck_wait 37, entered 0 every pass",
@@ -252,6 +264,26 @@
       "name": "NW_WC_CAND_LOG_SEC",
       "current": "300",
       "lesson": "2026-07-16-woncarry-blind-instrumentation"
+    },
+    {
+      "name": "NW_WC_KRW_POOL_CAP_PCT",
+      "current": "30",
+      "lesson": "2026-07-17-woncarry-exit-policy-v2"
+    },
+    {
+      "name": "NW_WC_EXIT_EDGE_MIN_PCT",
+      "current": "0.0",
+      "lesson": "2026-07-17-woncarry-exit-policy-v2"
+    },
+    {
+      "name": "NW_WC_MAX_DWELL_H",
+      "current": "72",
+      "lesson": "2026-07-17-woncarry-exit-policy-v2"
+    },
+    {
+      "name": "NW_WC_FORCED_EXIT_MAJORS",
+      "current": "BTC,ETH,XRP,SOL",
+      "lesson": "2026-07-17-woncarry-exit-policy-v2"
     },
     {
       "name": "NW_WONCARRY_MIN_NET_PCT",

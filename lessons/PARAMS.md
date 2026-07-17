@@ -31,6 +31,21 @@ file; `—` means it is a seed default not yet challenged by data.
 | `NW_WC_CAND_LOG_SEC` | (new) → **300** | [[2026-07-16-woncarry-blind-instrumentation]] |
 | narrative `capture` / `cost_drag` | (no env — logic) | [[2026-07-16-narrative-cost-drag]] |
 
+## Cycle #2 changes (2026-07-17)
+
+Won-carry EXIT POLICY v2 — the KRW pool must drain, not just accumulate. Out-legs
+(KRW→abroad) exit through the most undervalued token on the Korean venue whenever
+that is at least as cheap as repurchasing USDT; in-legs are capped; parked KRW is
+force-exited past a dwell limit and marked to market so FX drift is separable.
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `NW_WC_KRW_POOL_CAP_PCT` | (new) → **30** | [[2026-07-17-woncarry-exit-policy-v2]] |
+| `NW_WC_EXIT_EDGE_MIN_PCT` | (new) → **0.0** | [[2026-07-17-woncarry-exit-policy-v2]] |
+| `NW_WC_MAX_DWELL_H` | (new) → **72** | [[2026-07-17-woncarry-exit-policy-v2]] |
+| `NW_WC_FORCED_EXIT_MAJORS` | (new) → **BTC,ETH,XRP,SOL** | [[2026-07-17-woncarry-exit-policy-v2]] |
+| accounting `fx_pnl` / `carry_pnl` / `dwell_h` | (no env — logic) | [[2026-07-17-woncarry-exit-policy-v2]] |
+
 ## Livescan + shared economics (`nw_paper_arb.py`)
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
@@ -88,6 +103,10 @@ grid, repeat-haircut). Sniper-specific:
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
 |---|---|---|---|---|---|
 | `NW_WC_CAND_LOG_SEC` | 300 | 300 | 60 – 900 | [[2026-07-16-woncarry-blind-instrumentation]] | 2026-07-16 |
+| `NW_WC_KRW_POOL_CAP_PCT` | 30 | 30 | 10 – 60 | [[2026-07-17-woncarry-exit-policy-v2]] | 2026-07-17 |
+| `NW_WC_EXIT_EDGE_MIN_PCT` | 0.0 | 0.0 | −0.5 – 1.0 | [[2026-07-17-woncarry-exit-policy-v2]] | 2026-07-17 |
+| `NW_WC_MAX_DWELL_H` | 72 | 72 | 24 – 168 | [[2026-07-17-woncarry-exit-policy-v2]] | 2026-07-17 |
+| `NW_WC_FORCED_EXIT_MAJORS` | BTC,ETH,XRP,SOL | BTC,ETH,XRP,SOL | liquid majors | [[2026-07-17-woncarry-exit-policy-v2]] | 2026-07-17 |
 | `NW_WONCARRY_MIN_NET_PCT` | 0.5 | 0.5 | 0.3 – 2.0 | [[executable-spread]] | seed |
 | `NW_WONCARRY_MIN_NET_USD` | 6 | 6 | 2 – 20 | [[executable-spread]] | seed |
 | `NW_WONCARRY_MAX_USD` | 600 | 600 | 100 – 2000 | [[quiet-size]] | seed |
@@ -106,4 +125,4 @@ grid, repeat-haircut). Sniper-specific:
 | `NW_WONCARRY_API_TIMEOUT_SEC` | 20 | 20 | 5 – 60 | — | seed |
 | `NW_PAPER_REPEAT_HAIRCUT_PCT` | 0.15 | 0.15 | 0.05 – 0.5 | [[repeat-haircut]] | seed (shared) |
 
-_Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[Thusus]]_
+_Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[2026-07-17-woncarry-exit-policy-v2]] · [[won-carry]] · [[Thusus]]_
