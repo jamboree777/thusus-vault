@@ -114,6 +114,55 @@ coverage loses to margin. Capital model shadow-only (does not move the $10k pool
 | `NW_CA_MAX_HOLD_H` (E5 timestop) | (new) → **24** | [[2026-07-18-hedged-arb-instrument-selection]] |
 | live gate borrow rate + perp quantization (logic) | (no env — logic) | [[2026-07-18-hedged-arb-instrument-selection]] |
 
+## Cycle #6 changes (2026-07-18)
+
+Quartermaster v0.2 — wallet-type capital pools for strategy #4 (Covered Arb). The
+paper-fund Planner shadow (`nw_quartermaster_v0.py`) now separates transferable
+working capital from **locked** hedge capital and plans how each hedge pool is
+seated. Hedge reservations are subtracted from a venue's available working capital
+at the venue where the money is actually drawn (no double counting); the Korean
+lending collateral is EXTERNAL money, tracked separately and never carved from the
+$10k fund. All new envs' defaults equal the front-plan targets, so current =
+default (server `.env` sets no override).
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `NW_QM_HEDGE_HUB_VENUE` | (new) → **bybit** | [[2026-07-18-quartermaster-wallet-type-pools]] |
+| `NW_QM_HEDGE_HUB_USD` | (new) → **300** (UTA unified: margin-short collateral + perp margin) | [[2026-07-18-quartermaster-wallet-type-pools]] |
+| `NW_QM_HEDGE_AUX_VENUE` | (new) → **gateio** | [[2026-07-18-quartermaster-wallet-type-pools]] |
+| `NW_QM_HEDGE_AUX_USD` | (new) → **75** (futures float; internal spot→futures wallet_move) | [[2026-07-18-quartermaster-wallet-type-pools]] |
+| `NW_QM_HEDGE_AUX_FALLBACK_VENUE` | (new) → **binance** (aux perp fallback if gate unverified) | [[2026-07-18-quartermaster-wallet-type-pools]] |
+| `NW_QM_LENDING_COLLATERAL_KRW` | (new) → **7500000** (bithumb, EXTERNAL, funded=false) | [[2026-07-18-quartermaster-wallet-type-pools]] |
+| `NW_QM_LENDING_COLLATERAL_VENUE` | (new) → **bithumb** | [[2026-07-18-quartermaster-wallet-type-pools]] |
+| `NW_QM_UTA_VENUES` | (new) → **bybit,okx** (unified acct → no wallet move) | [[2026-07-18-quartermaster-wallet-type-pools]] |
+| reservations[]/wallet_moves[]/verification{} + route_verified per move (logic) | (no env) | [[2026-07-18-quartermaster-wallet-type-pools]] |
+
+## Quartermaster (`nw_quartermaster_v0.py`)
+
+Paper-fund rebalance Planner shadow (W-QM-1/v0.2). No real money, no keys — produces
+a plan persisted to `nw_qm_plans`, surfaced via the `/arb/thusus/fund` quartermaster
+block. New envs' current values equal code defaults (server `.env` sets no override).
+
+| Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
+|---|---|---|---|---|---|
+| `NW_QM_HEDGE_HUB_VENUE` | bybit | bybit | UTA venue | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_HEDGE_HUB_USD` | 300 | 300 | 100 – 800 | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_HEDGE_AUX_VENUE` | gateio | gateio | classic-acct futures venue | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_HEDGE_AUX_USD` | 75 | 75 | 50 – 200 | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_HEDGE_AUX_FALLBACK_VENUE` | binance | binance | verified futures venue | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_LENDING_COLLATERAL_KRW` | 7500000 | 7500000 | external deposit | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_LENDING_COLLATERAL_VENUE` | bithumb | bithumb | KR lending venue | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_FUNDING_SOURCE_VENUE` | — | — (auto: largest WC venue) | pin or auto | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_UTA_VENUES` | bybit,okx | bybit,okx | unified-acct venues | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_FX_USDKRW_FALLBACK` | 1380 | 1380 | fx fallback | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
+| `NW_QM_FLOOR_MULT` | 2.0 | 2.0 | 1.0 – 4.0 | — | seed |
+| `NW_QM_CAP_MULT` | 3.0 | 3.0 | 2.0 – 5.0 | — | seed |
+| `NW_QM_LOOKBACK_DAYS` | 7 | 7 | 3 – 30 | — | seed |
+| `NW_QM_MIN_FLOOR_USD` | 50 | 50 | 20 – 200 | — | seed |
+| `NW_QM_MIN_ARB_EXEC_USDT` | 10 | 10 | 5 – 50 | — | seed |
+| `NW_QM_TREASURY_MIN_USD` | 1.0 | 1.0 | 1 – 100 | — | seed |
+| `NW_QM_RETENTION_DAYS` | 30 | 30 | 7 – 90 | — | seed |
+
 ## Hedged-Arb / Covered Arb (`nw_hedged_shadow.py`)
 
 Shadow-only (does not move the $10k fund). Reuses the shared VWAP/slippage/rebate

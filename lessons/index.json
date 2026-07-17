@@ -4,6 +4,18 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
+      "slug": "2026-07-18-quartermaster-wallet-type-pools",
+      "date": "2026-07-18",
+      "trigger": "strategy #4 capital plan — wallet-type pools. Covered Arb needs more than spot working capital: it locks collateral for margin shorts and margin for perp hedges, and Robin is adding an external ₩7.5M Korean lending deposit. The Quartermaster Planner (shadow) modelled only one fungible spot pool per venue, so it could not tell locked hedge capital from transferable working capital, nor plan how that capital gets seated.",
+      "problem": "A single-pool-per-venue capital model double-counts locked capital: reserving $300 UTA collateral at bybit or $75 futures float at gate leaves that money unavailable for spot working capital, but the floor/cap planner still counted it as spendable. There was also no plan artifact for HOW a hedge pool is seated (bybit UTA has $0 → capital must move venues; gate is a classic account → an internal spot→futures wallet move) and no verification the hedge products exist or that the funding route's USDT dep/wd is open.",
+      "change": "Quartermaster v0.2 (nw_quartermaster_v0.py). Wallet-type reservations: hedge_uta (bybit UTA, unified margin-short collateral + perp margin, $300), hedge_futures (gate futures float $75 via internal spot→futures wallet_move), lending_collateral (bithumb ₩7.5M EXTERNAL, funded=false/source=external, not carved from the $10k). Floor interaction subtracts locked hedge USD from available working capital at the venue where it is drawn (gate charges itself $75; bybit has $0 so its $300 is seated by a verified cross-venue funding move from binance, which is charged) — no double counting. Product verification before reserving via live public APIs (plan.verification): bybit linear perps + spot-margin/UTA (marginTrading flag, verified_via=docs+instruments), gate futures + margin pairs; aux falls back to binance futures on failure. DW route verification annotates route_verified + chain on every inter-venue move from the USDT transfer map; bithumb inflow gets a fiat-wire note + USDT-rail alternate. Plan gains reservations[]/wallet_moves[]/verification{}/capital_model{}; version 0.1→0.2. Rides the existing /arb/thusus/fund passthrough; no stats.py change. Still shadow/paper.",
+      "expected_effect": "Effective working-capital balances = raw minus locked_by_venue ({binance:300, gate:75} in the first pass), so floor deficits/surpluses use money that can actually move. Each hedge pool carries a concrete seating plan + live product-verification stamp; the external ₩7.5M is a distinct locked pool that never inflates the fund. First live pass (2026-07-17 18:24 UTC): hub bybit verified (743 perps, 263 UTA-margin), aux gate verified (835 futures, 735 margin), 3 reservations, hedge_reserved_usd=375, external_collateral≈$5049 (fx 1485), 1 funding + 1 wallet move, route_verification all_verified=true. Reservation sizes get tuned from the hedged engine's measured concurrent-hedge pace.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-quartermaster-wallet-type-pools.md"
+    },
+    {
       "slug": "2026-07-18-hedged-arb-instrument-selection",
       "date": "2026-07-18",
       "trigger": "39% livescan capture + instrument-selection design — livescan keeps only ~39% of quoted edge because the 15-60min transit window is unhedged (measured 61% decay, 121-trade sample). Robin: hedge the arb at the RICH venue so the edge is locked at t=0, and pick the hedge instrument per trade.",
@@ -101,6 +113,56 @@
     }
   ],
   "params": [
+    {
+      "name": "NW_QM_HEDGE_HUB_VENUE",
+      "current": "bybit",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_HEDGE_HUB_USD",
+      "current": "300",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_HEDGE_AUX_VENUE",
+      "current": "gateio",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_HEDGE_AUX_USD",
+      "current": "75",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_HEDGE_AUX_FALLBACK_VENUE",
+      "current": "binance",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_LENDING_COLLATERAL_KRW",
+      "current": "7500000",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_LENDING_COLLATERAL_VENUE",
+      "current": "bithumb",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_UTA_VENUES",
+      "current": "bybit,okx",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_FUNDING_SOURCE_VENUE",
+      "current": "",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_FX_USDKRW_FALLBACK",
+      "current": "1380",
+      "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
     {
       "name": "NW_PAPER_MIN_NET_PCT",
       "current": "0.5",
