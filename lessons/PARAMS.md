@@ -157,6 +157,21 @@ default (server `.env` sets no override).
 |---|---|---|
 | `NW_DYN_*` (16 params) | (new / off) → **on, defaults** | [[2026-07-18-dynamic-sizing]] |
 
+## Cycle #8 changes (2026-07-18)
+
+Won-carry PER-TRADE CHAIN RESOLUTION — no env change; a **rule/schema** change.
+Every won-carry entry now resolves a specific OPEN shared transfer chain (reusing
+`_open_shared_chains` / `_token_wd_fee_pct`), records it in the new
+`nw_woncarry_shadow.route_chain` column + `assumptions.route_chain`, uses it for
+the real wd-fee, and **rejects with `no_resolvable_chain` when none resolves** (no
+more chainless bookings). Real per-chain rows are preferred over the coexisting
+`coin` sentinel. `/thusus` shows "via {chain}" per woncarry row. Governs via the
+existing `EXCLUDE_MAINNET_ONLY` (BTC-mainnet routes stay excluded) — no new tunable.
+
+| Env / lever | Before → After | Lesson |
+|---|---|---|
+| `route_chain` column + resolve/reject rule | (missing / chainless) → **resolved + recorded + displayed; reject if unresolvable** | [[2026-07-18-woncarry-per-trade-chain-resolution]] |
+
 ## Quartermaster (`nw_quartermaster_v0.py`)
 
 Paper-fund rebalance Planner shadow (W-QM-1/v0.2). No real money, no keys — produces
