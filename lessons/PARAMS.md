@@ -103,9 +103,20 @@ LIVE, other venues assumed. Perp cost = 2× taker + funding (sign-aware, per-con
 interval); perp contracts are quantized → coverage can be <100% and a perp under 70%
 coverage loses to margin. Capital model shadow-only (does not move the $10k pools).
 
+**Net-gate fix (2026-07-18, same cycle):** the entry gate admitted trivial-NET
+trades. `NW_HEDGE_MIN_EDGE_PCT` is the GROSS edge — after cover cost (~0.1%) +
+taker fees on all legs (~0.2%) + basis, a 0.5% gross trade nets only ~0.1–0.2%
+(XCN net 0.09%, ARX 0.22%), not worth the 4-leg + margin-call-tail + exit risk.
+Fix mirrors woncarry (`MIN_NET_PCT` + `MIN_NET_USD`): gross `MIN_EDGE_PCT` is now
+a cheap PREFILTER only; the BINDING gate is expected NET (gross − cover cost − all
+taker fees − wd/basis, the SAME net `_entry_economics_for_size` computes and the
+settle realizes). Per-pass log now reports `net_gate: pass/drop`.
+
 | Env | Before → After | Lesson |
 |---|---|---|
-| `NW_HEDGE_MIN_EDGE_PCT` | (new) → **0.5** | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_HEDGE_MIN_EDGE_PCT` | (new) → **0.5** (now GROSS PREFILTER only, not binding) | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_HEDGE_MIN_NET_PCT` | (new) → **0.5** (BINDING net gate — matches woncarry) | [[2026-07-18-hedged-arb-instrument-selection]] |
+| `NW_HEDGE_MIN_NET_USD` | (new) → **1.0** (absolute-$ floor; band caps at $300) | [[2026-07-18-hedged-arb-instrument-selection]] |
 | `NW_HEDGE_MIN_COVER_PCT` | (new) → **70** | [[2026-07-18-hedged-arb-instrument-selection]] |
 | `NW_HEDGE_MARGIN_PREF_PCT` | (new) → **0.10** | [[2026-07-18-hedged-arb-instrument-selection]] |
 | `NW_HEDGE_BORROW_APR_MAJOR` / `_ALT` | (new) → **5.0 / 20.0** | [[2026-07-18-hedged-arb-instrument-selection]] |
@@ -170,7 +181,9 @@ economics + the per-chain settle clock (`chain_settle_delay`) from `nw_paper_arb
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
 |---|---|---|---|---|---|
-| `NW_HEDGE_MIN_EDGE_PCT` | 0.5 | 0.5 | 0.2 – 1.0 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_MIN_EDGE_PCT` (gross PREFILTER only) | 0.5 | 0.5 | 0.2 – 1.0 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_MIN_NET_PCT` (BINDING gate) | 0.5 | 0.5 | 0.3 – 1.5 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
+| `NW_HEDGE_MIN_NET_USD` (abs-$ floor) | 1.0 | 1.0 | 1 – 6 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
 | `NW_HEDGE_MIN_COVER_PCT` | 70 | 70 | 50 – 95 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
 | `NW_HEDGE_MARGIN_PREF_PCT` | 0.10 | 0.10 | 0.0 – 0.3 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |
 | `NW_HEDGE_BORROW_APR_MAJOR` | 5.0 | 5.0 | 1 – 10 | [[2026-07-18-hedged-arb-instrument-selection]] | 2026-07-18 |

@@ -33,6 +33,20 @@ Futures trade in whole contracts (contract size / lot step / min order), so a pe
 
 Capital model is **shadow-only** — nothing moves the $10k pools yet (that joins after the A/B validates). The engine stamps the T-0 execution checklist (live VWAP re-check, instrument/dw checks, basis-adjusted premium truth, modeled +30% margin headroom), asserts the position invariant each pass (`qty_short == qty_in_flight ± dust`; a perp's intentional residual is *not* a violation, an over-hedge is and screams), and models exit modes E1/E2/E5 as events with E3/E4/E6 stamped as scenario tail costs. Every row carries its instrument decision, live rates, funding sign, coverage, and exit mode so any trade is fully attributable.
 
+## Net-gate fix — gate on NET, not GROSS (2026-07-18)
+
+Robin caught the entry gate admitting trivial-**NET** trades. `NW_HEDGE_MIN_EDGE_PCT=0.5` gates on the **gross** quoted edge, but the covered position pays cover cost (~0.1% interest/funding) + taker fees on all legs (~0.2%) + basis before it nets anything. A 0.5% *gross* trade nets only **~0.1–0.2%** — measured examples: **XCN net 0.09%**, **ARX net 0.22%**. That is not worth the 4-leg execution + margin-call/liquidation tail + exit-complexity risk. The old binding condition was even looser: the size loop accepted any size with `net_pct >= 0.0`, so anything barely positive booked.
+
+The fix mirrors **won-carry's** discipline (`MIN_NET_PCT` + `MIN_NET_USD`):
+
+- **Gross `MIN_EDGE_PCT` is now a cheap PREFILTER only** — candidates must clear it before we VWAP-walk any book (so we don't price every row), but it is *not* the binding gate.
+- **The BINDING gate is expected NET**: `NW_HEDGE_MIN_NET_PCT` (default **0.5**). A candidate is admitted only if some size gives `net_pct >= MIN_NET_PCT`. The net is the value `_entry_economics_for_size` already computes — `gross − cover_cost − buy taker − hedge/sell taker(s) − wd/basis` — the **SAME** routine whose expectation the settle realizes, so the gate and the settle agree by construction (no second formula).
+- **Absolute-$ floor** `NW_HEDGE_MIN_NET_USD` (default **1.0**): reject if `size_usd × net_pct/100 < this`, killing trivial-dollar trades at small size. Won-carry uses $6, but our band caps at $300 so $6 would demand 2% net — $1.0 is a light, env-tunable floor.
+
+Why 0.5% net is the right conservative default: hedged is **market-neutral** (no FX/cycle-lock risk, unlike won-carry), so 0.5% net is *conservative* and env-tunable — but the covered position still carries 4-leg execution slippage, the margin-call/liquidation tail (E4), contract-residual drift, and exit-mode tail costs (E3/E4/E6), so a real net floor is prudent. It can be **lowered later** once accumulated A/B shows those tail costs are benign.
+
+Instrumentation: each pass now logs `net_gate: pass=N drop=M(<0.5%/$1.0)` — a candidate is counted `drop` when it had a feasible positive-net size (the old `net>=0` gate would have entered) but no size cleared the floor. Existing booked rows stay (**forward-only**).
+
 ## Review
 
 By 2026-07-25: does `nw_hedged_shadow` show `capture_hedged` materially above `capture_unhedged` (target hedged retention ≥ ~0.85 vs the ~0.39 unhedged baseline)? What is the margin/perp/skip split, and how often does perp lose on coverage <70%? Is the live gate borrow rate diverging from the conservative default on hot alts (the signal that per-trade live pricing matters)? First passes will be thin — the value is the accumulating A/B.
