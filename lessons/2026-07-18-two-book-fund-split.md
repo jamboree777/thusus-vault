@@ -34,17 +34,20 @@ the sum (legacy top-level fields stay = combined for the old UI).
 
 | book | required | note |
 |---|---:|---|
-| KOREA | **$16,000** | bithumb 7k, gateio 3k, kucoin 2k, bybit 1k, binance 1k, okx 1k, hedge 1k |
+| KOREA | **$19,000** | bithumb 10k, gateio 3k, kucoin 2k, bybit 1k, binance 1k, okx 1k, hedge 1k |
 | GLOBAL | **$10,000** | gateio 4k, bybit 2k, binance 1k, kucoin 1k, mexc 1k, hedge 1k — matches provisional exactly |
 
-GLOBAL's honest back-solve == the provisional. KOREA did not: (a) won-carry
-**premium** legs buy at global venues (gateio/okx/kucoin) and need korea-book
-working capital there, separate from bithumb-origin; (b) the R1 conservation
-ledger is timestamped 07-17→07-18 only, while trades start 07-15, so bithumb
-genuinely drains to **−$6,318** before R1 refills it. The stateless
-reconstruction replays *actual* history, so the honest minimum is $16k. Written
-as the working number; re-interleaving the R1 ledger from epoch would shrink
-bithumb toward the $9k thesis (Robin's call, separate task).
+GLOBAL's honest back-solve == the provisional. KOREA did not, and it **drifts up
+with live trading**: (a) won-carry **premium** legs buy at global venues
+(gateio/okx/kucoin) and need korea-book working capital there, separate from
+bithumb-origin; (b) the R1 conservation ledger is timestamped 07-17→07-18 only,
+while trades start 07-15, so bithumb drains before R1 refills it; (c) KOREA is a
+**fast-draining R1 book** — bithumb's deepest deficit grew ~$2k/hour under live
+trading (06→08k in one hour). Sized bithumb $10k (deficit + headroom) → both
+books capital_short $0, but a STATIC back-solve re-shorts as the fund grows. The
+durable fix is periodic alloc refresh (`--write-alloc`) or a forward-R1 ledger
+interleaved to now (`--write-r1-ledger`, which also shrinks bithumb toward the
+~$3k R1 thesis). Robin's call.
 
 ## 3. Big-Spike retired + gate canonicalization + phantom purge
 
