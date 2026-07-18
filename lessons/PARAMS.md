@@ -235,6 +235,25 @@ Both books invariant_ok=true, capital_short $0.
 | `nw_fund_initial_alloc` | one flat book ($29k) → **two books: KOREA $16k + GLOBAL $10k** | [[2026-07-18-two-book-fund-split]] |
 | `NW_QM_GLOBAL_CIRCULATION_ENABLED` | (new) → **0** (global book static; MODE 4 off) | [[2026-07-18-two-book-fund-split]] |
 
+## Cycle #12 changes (2026-07-18) — full measured slippage on all legs
+
+Paper-fund honesty (Robin directive): every engine only charged itself
+`SLIPPAGE_APPLY` (90%) of the raw measured book-walk slip on each leg, on the
+assumption that refills/hidden liquidity absorb the rest. That is a flattering
+discount on a MEASURED cost, applied uniformly (buy leg, sell leg, AND the
+hedged engine's hedge/margin-perp leg — one shared constant via
+`_apply_buy_slip`/`_apply_sell_slip` in `nw_paper_arb.py`, consumed by
+livescan/big-spike, won-carry, and hedged identically). Now charges the FULL
+measured slip. Forward-only — no historical rows recomputed. **Nuance:**
+`SLIPPAGE_APPLY` is a live global re-read at settle time, so pending rows
+straddling the deploy will enter under 0.9 (per their `assumptions` stamp) and
+settle under 1.0 — see the lesson for detail.
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `NW_PAPER_SLIPPAGE_APPLY` | 0.9 → **1.0** (shared by all 3 engines incl. hedge leg) | [[2026-07-18-full-measured-slippage]] |
+| won-carry + hedged `assumptions.slippage_apply` stamp | (computed, not recorded) → **recorded per-trade** | [[2026-07-18-full-measured-slippage]] |
+
 ## Quartermaster (`nw_quartermaster_v0.py`)
 
 Paper-fund rebalance Planner shadow + capital-movement Executor (W-QM-1/v0.3). No
@@ -317,7 +336,7 @@ economics + the per-chain settle clock (`chain_settle_delay`) from `nw_paper_arb
 | `NW_PAPER_LEG_SLIP_CAP_PCT` | 0.75 | 0.75 | 0.3 – 1.5 | [[quiet-size]] | seed |
 | `NW_PAPER_MAX_BUY_SLIP_PCT` | 3.0 | 3.0 | 1.5 – 5.0 | — | seed |
 | `NW_PAPER_MARGIN_RETENTION` | 0.7 | 0.7 | 0.5 – 0.9 | [[quiet-size]] | seed |
-| `NW_PAPER_SLIPPAGE_APPLY` | 0.9 | 0.9 | 0.7 – 1.0 | [[five-min-settlement]] | seed |
+| `NW_PAPER_SLIPPAGE_APPLY` | 1.0 | 1.0 | 1.0 (fixed — full measured slip, no discount) | [[2026-07-18-full-measured-slippage]] | 2026-07-18 |
 | `NW_PAPER_REBATE_SHARE` | 0.5 | 0.5 | 0.0 – 0.6 | [[executable-spread]] | seed |
 | `NW_PAPER_DEFAULT_TAKER_PCT` | 0.2 | 0.2 | 0.05 – 0.3 | — | seed |
 | `NW_PAPER_WD_FEE_FALLBACK_PCT` | REMOVED | — | — | [[transfer-feasibility]] | 2026-07-18 (audit #3: %-of-size understated fee → removed) |
