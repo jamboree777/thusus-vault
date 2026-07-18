@@ -219,6 +219,22 @@ unified fund; `_venue_stats` un-blinded to woncarry + hedged buys.
 | `NW_FUND_DEDUP_WINDOW_MIN` | (new) → **10** (cross-engine dedup window) | [[2026-07-18-r1-reallocation-required-capital]] |
 | `_venue_stats` blind spot (logic) | nw_paper_trades only → **unions woncarry + hedged buys** | [[2026-07-18-r1-reallocation-required-capital]] |
 
+## Cycle #11 changes (2026-07-18) — W-FUND-3 two-book split
+
+Fund split into **KOREA book** (touches bithumb/upbit: all won-carry + hedged
+korea_discount; R1-circulated; **$16,000**) vs **GLOBAL book** (livescan +
+retired-bigspike + hedged global_global; **STATIC $10,000**, not circulated).
+`nw_fund_initial_alloc` + `nw_qm_transfers` gain a `book` column (alloc PK now
+`(venue,asset,book)`). QM MODE 4 working-floor global circulation OFF by default.
+Big-Spike retired (worker disabled; rows merge into livescan at display). Gate
+chain canonicalization fixed; 6 won-carry phantoms purged (2 kept via aliases).
+Both books invariant_ok=true, capital_short $0.
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `nw_fund_initial_alloc` | one flat book ($29k) → **two books: KOREA $16k + GLOBAL $10k** | [[2026-07-18-two-book-fund-split]] |
+| `NW_QM_GLOBAL_CIRCULATION_ENABLED` | (new) → **0** (global book static; MODE 4 off) | [[2026-07-18-two-book-fund-split]] |
+
 ## Quartermaster (`nw_quartermaster_v0.py`)
 
 Paper-fund rebalance Planner shadow + capital-movement Executor (W-QM-1/v0.3). No
@@ -241,6 +257,7 @@ Executor writes actual paper rebalances to `nw_qm_transfers`; both surface via t
 | `NW_QM_DAILY_TRANSFER_CAP_USD` | 6000 | 6000 | 2000 – 10000 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
 | `NW_QM_EXEC_ENABLED` | 1 | 1 | 0/1 kill switch | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
 | `NW_QM_TRANSFER_RETENTION_DAYS` | 30 | 30 | 7 – 90 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
+| `NW_QM_GLOBAL_CIRCULATION_ENABLED` | 0 | 0 | 0/1 (global book static) | [[2026-07-18-two-book-fund-split]] | 2026-07-18 |
 | `NW_WC_BITHUMB_USDT_ALLOC` (Korea floor; shared w/ fund) | 1500 | 1500 | 500 – 3000 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
 | `NW_QM_HEDGE_HUB_VENUE` | bybit | bybit | UTA venue | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
 | `NW_QM_HEDGE_HUB_USD` | 300 | 300 | 100 – 800 | [[2026-07-18-quartermaster-wallet-type-pools]] | 2026-07-18 |
