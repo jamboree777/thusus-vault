@@ -11,7 +11,7 @@ exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
 lifecycle: suspended
-updated: 2026-07-17T03:52:48.478652Z
+updated: 2026-07-18T03:53:51.490878Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A-
 - [[bybit]]: A+
 - [[gateio]]: B-
 - [[kucoin]]: F
@@ -44,17 +44,17 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-17 · [[bithumb]] [[taiko]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-13 · [[kucoin]] [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-07-12 · [[upbit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[taiko]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bithumb]] [[coin]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[upbit]] [[taiko]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[kucoin]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: open:ethereum
-- [[bithumb]]: closed:coin
+- [[bithumb]]: closed:coin,taiko
 - [[bybit]]: open:ethereum | closed:taiko
 - [[gateio]]: open:ethereum,ethereum,taiko,taikoeth
 - [[htx]]: open:taiko
@@ -71,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-07-17T03:52:48.478652Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-18T03:53:51.490878Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

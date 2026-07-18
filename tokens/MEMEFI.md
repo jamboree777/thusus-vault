@@ -2,29 +2,29 @@
 token: MEMEFI
 type: token
 tier: free
-nw_grade: D+
+nw_grade: C
 nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x506a6fc25f1c7d52ceb06ea44a3114c9380f8e2029b4356019822f248b49e411::memefi::memefi" }
 exchanges: [kucoin, mexc]
 transfer: partial
-lifecycle: delisted
-updated: 2026-07-17T03:51:59.379410Z
+lifecycle: suspended
+updated: 2026-07-18T03:52:32.789006Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MEMEFI · NW Grade **D+**
+# MEMEFI · NW Grade **C**
 
-Sui-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade C liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x506a6f…mefi` (verified_same)
 - Listed on: [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[kucoin]]: D+
+- [[kucoin]]: C
 - [[mexc]]: D
 
 ## Deposit / Withdrawal
@@ -42,7 +42,6 @@ Sui-network token; NW grade D+ liquidity; transfer is partial (some venues froze
 - 2026-07-12 · [[gateio]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[htx]] [[memefi]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[htx]] [[memefi]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -72,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-17T03:51:59.379410Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-18T03:52:32.789006Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

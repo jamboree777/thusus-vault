@@ -3,14 +3,13 @@ token: UNA
 type: token
 tier: free
 nw_grade: D
-nw_grade_worst: F
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9" }
 exchanges: [gateio, kucoin]
 transfer: open
-lifecycle: suspended
-updated: 2026-07-17T03:52:59.644699Z
+updated: 2026-07-18T03:54:10.667922Z
 source: nightwatch-kg
 ---
 
@@ -24,15 +23,12 @@ Ethereum-network token; NW grade D liquidity; transfer is open on at least one v
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: F
+- [[gateio]]: D-
 - [[kucoin]]: D
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-
-## Events
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:base,baseevm
@@ -46,8 +42,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-07-17T03:52:59.644699Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
+_Live from the NightWatch Knowledge Graph · 2026-07-18T03:54:10.667922Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-07-17T03:51:48.376945Z
+updated: 2026-07-18T03:51:57.602599Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[gateio]]: A+
 - [[mexc]]: D
 - [[upbit]]: A
@@ -40,17 +40,17 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-17 · [[binance]] [[eos]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-17 · [[binance]] [[eos]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[htx]] [[iq]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[htx]] [[iq]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:eos,ethereum
+- [[binance]]: open:ethereum | closed:eos
 - [[bitget]]: closed:ethereum
-- [[bithumb]]: open:coin
+- [[bithumb]]: open:coin,ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[htx]]: closed:iq
 - [[mexc]]: open:eos,ethereum
@@ -67,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-17T03:51:48.376945Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-18T03:51:57.602599Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

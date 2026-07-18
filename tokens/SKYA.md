@@ -3,13 +3,13 @@ token: SKYA
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: A-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x623cd3a3edf080057892aaf8d773bbb7a5c9b6e9" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-17T03:52:42.922645Z
+updated: 2026-07-18T03:53:32.899295Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +23,8 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[mexc]]: A-
+- [[gateio]]: B+
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-17T03:52:42.922645Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-18T03:53:32.899295Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

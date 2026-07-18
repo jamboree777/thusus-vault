@@ -3,15 +3,15 @@ token: FITFI
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: F
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x7588df009c3d82378be6ab81f2108fa963c10fc8" }
 exchanges: [bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-lifecycle: delisted
-updated: 2026-07-17T03:51:13.778319Z
+lifecycle: suspended
+updated: 2026-07-18T03:51:26.098091Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[bithumb]]: B+
 - [[gateio]]: B+
-- [[kucoin]]: F
+- [[kucoin]]: D
 - [[mexc]]: D+
 
 ## Deposit / Withdrawal
@@ -40,18 +40,17 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-17 · [[bithumb]] [[avax]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[mexc]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-13 · [[bybit]] [[step]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[step]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bithumb]] [[coin]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:avaxc-chain
-- [[bithumb]]: closed:coin
+- [[bithumb]]: closed:avax,coin
 - [[bybit]]: closed:avaxc,step
 - [[gateio]]: open:avaxc,avax_c,fitfi,fitfi
 - [[htx]]: closed:fitfi1
@@ -77,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-17T03:51:13.778319Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-18T03:51:26.098091Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

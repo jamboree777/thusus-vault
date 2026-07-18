@@ -2,30 +2,30 @@
 token: GLQ
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: D+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-17T03:51:24.973188Z
+updated: 2026-07-18T03:51:39.998555Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GLQ · NW Grade **A+**
+# GLQ · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x9f9c8e…4d24` (partial)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: D+
+- [[gateio]]: B-
 - [[kucoin]]: D+
-- [[mexc]]: A+
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
@@ -34,12 +34,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-17 · [[mexc]] [[glq]] withdraw → open · [[event/dw-resume]]
+- 2026-07-17 · [[mexc]] [[glq]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[gateio]] [[glq]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[gateio]] [[glq]] deposit → open · [[event/dw-resume]]
 - 2026-07-15 · [[gateio]] [[glq]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-15 · [[gateio]] [[glq]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-15 · [[mexc]] [[glq]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-15 · [[mexc]] [[glq]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:glq
@@ -47,7 +47,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[kucoin]]: open:glq
 - [[mexc]]: open:glq
 - Suspended now: [[bitget]]
-- Recently reopened (48h): [[gateio]]
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-17T03:51:24.973188Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-18T03:51:39.998555Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

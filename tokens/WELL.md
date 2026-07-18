@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0xa88594d404727625a9437c3f886c7643872296ae" }
 exchanges: [coinbase, gateio, kucoin]
 transfer: partial
-updated: 2026-07-17T03:53:08.442857Z
+updated: 2026-07-18T03:54:24.077745Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: [[coinbase]], [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[coinbase]]: A
+- [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: C+
 
@@ -37,12 +37,12 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-17 · [[gateio]] [[glmr]] withdraw → open · [[event/dw-resume]]
+- 2026-07-17 · [[gateio]] [[glmr]] deposit → open · [[event/dw-resume]]
 - 2026-07-17 · [[gateio]] [[glmr]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-17 · [[gateio]] [[glmr]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[gateio]] [[glmr]] withdraw → open · [[event/dw-resume]]
-- 2026-07-16 · [[gateio]] [[glmr]] deposit → open · [[event/dw-resume]]
-- 2026-07-16 · [[gateio]] [[glmr]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[gateio]] [[glmr]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-17 · [[gateio]] [[glmr]] withdraw → open · [[event/dw-resume]]
+- 2026-07-17 · [[gateio]] [[glmr]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
@@ -64,7 +64,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-17T03:53:08.442857Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-18T03:54:24.077745Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

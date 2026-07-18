@@ -4,85 +4,72 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
-      "slug": "2026-07-18-dynamic-sizing-simplified",
-      "date": "2026-07-18",
-      "trigger": "capital-pressure never fired in the abundant-capital paper env → replaced the whole density staircase with a single adaptive-threshold hill-climb on trade count.",
-      "problem": "The prior design coupled capital-pressure with an activity-count staircase, a 6-notch ladder, a size-reduction stage and hysteresis — many moving parts whose headline signal (pressure = Σsize ÷ capital) does not work in a paper fund where capital is either abundant or mis-accounted. Robin: radically simpler, one lever.",
-      "change": "Rewrote nw_dynamic_sizing.py to a single per-engine adaptive net threshold that hill-climbs on the engine's own ENTRY count. State persists in nw_dyn_threshold_state; read at pass start. Every NW_DYN_WINDOW_MIN (60m) compare entries trailing vs prior equal window: rose beyond ±DEADBAND → threshold += STEP (0.05%); fell → −= step; equal → hold. Bounded [base_gate .. base+MAX_LIFT(1.5%)], never below base (livescan 0.5, bigspike 3.0, woncarry 0.5, hedged 0.5). Effective net-gate = this one number; SIZE band fixed $40-300. Deleted capital-pressure, fund fetch, activity notches, size-reduction stage, per-point resolve, hysteresis. Every trade stamps assumptions.dyn = {threshold_pct, window_count, prev_window_count, direction, step, engine, base_gate, window_min, status}. All 4 engines.",
-      "expected_effect": "Self-limiting hurdle: more trades → net gate creeps up 0.05%/hr until count stops rising; fewer → creeps back toward base. Persisted across restarts. Also fixes the missing-stamp bug — assumptions.dyn populated on every new entry (verified on a fresh post-deploy trade) instead of silently null.",
-      "review_after": "2026-07-25",
-      "status": "active",
-      "supersedes": "2026-07-18-dynamic-sizing",
-      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-dynamic-sizing-simplified.md"
-    },
-    {
-      "slug": "2026-07-18-dynamic-sizing",
-      "date": "2026-07-18",
-      "trigger": "opportunity density > capital → per-venue adaptive sizing. Good opportunities concentrate on a few capital-consumption points (gateio/bithumb buys, the $19 KRW pool, the $75 gate-futures hedge pool) while the fund as a whole sits idle; a global average hides the local starvation.",
-      "problem": "A single fund-wide size/threshold cannot express that capital is scarce at ONE venue and slack everywhere else; averaging pressure makes a real gateio/KRW/gate-futures bottleneck invisible and spends the scarcest capital on marginal 0.5% edges.",
-      "change": "New shared layer nw_dynamic_sizing.py (NW_DYN_*): per pass, per capital-consumption point, pressure = Σ(target size)÷available capital drives a 2-stage staircase — raise net threshold 0.5→0.8% first, then lower max size $300→$210 (floor −30%, min $40 fixed). Reverse-ladder relaxation; asymmetric hysteresis (fast escalate, slow relax). Only bottlenecked points tighten.",
-      "expected_effect": "Higher risk-adjusted return per unit of the SAME $10k fund: scarce capital buys 0.8% A-grade edges, only over-subscribed A-grade points diversify smaller. assumptions.dyn stamps (threshold,max,pressure,stage,point,cap_source) for Sharpe-by-regime attribution; capital_short logs the fund-increase evidence. First live passes: $75 gate-futures + $19 KRW pools hit the floor while the $300 bybit pool (pressure 4) held at 0.8%/$300 — the per-venue differentiation the design is for.",
-      "review_after": "2026-07-25",
-      "status": "superseded",
-      "supersedes": null,
-      "superseded_by": "2026-07-18-dynamic-sizing-simplified",
-      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-dynamic-sizing.md"
-    },
-    {
-      "slug": "2026-07-18-quartermaster-wallet-type-pools",
-      "date": "2026-07-18",
-      "trigger": "strategy #4 capital plan — wallet-type pools. Covered Arb needs more than spot working capital: it locks collateral for margin shorts and margin for perp hedges, and Robin is adding an external ₩7.5M Korean lending deposit. The Quartermaster Planner (shadow) modelled only one fungible spot pool per venue, so it could not tell locked hedge capital from transferable working capital, nor plan how that capital gets seated.",
-      "problem": "A single-pool-per-venue capital model double-counts locked capital: reserving $300 UTA collateral at bybit or $75 futures float at gate leaves that money unavailable for spot working capital, but the floor/cap planner still counted it as spendable. There was also no plan artifact for HOW a hedge pool is seated (bybit UTA has $0 → capital must move venues; gate is a classic account → an internal spot→futures wallet move) and no verification the hedge products exist or that the funding route's USDT dep/wd is open.",
-      "change": "Quartermaster v0.2 (nw_quartermaster_v0.py). Wallet-type reservations: hedge_uta (bybit UTA, unified margin-short collateral + perp margin, $300), hedge_futures (gate futures float $75 via internal spot→futures wallet_move), lending_collateral (bithumb ₩7.5M EXTERNAL, funded=false/source=external, not carved from the $10k). Floor interaction subtracts locked hedge USD from available working capital at the venue where it is drawn (gate charges itself $75; bybit has $0 so its $300 is seated by a verified cross-venue funding move from binance, which is charged) — no double counting. Product verification before reserving via live public APIs (plan.verification): bybit linear perps + spot-margin/UTA (marginTrading flag, verified_via=docs+instruments), gate futures + margin pairs; aux falls back to binance futures on failure. DW route verification annotates route_verified + chain on every inter-venue move from the USDT transfer map; bithumb inflow gets a fiat-wire note + USDT-rail alternate. Plan gains reservations[]/wallet_moves[]/verification{}/capital_model{}; version 0.1→0.2. Rides the existing /arb/thusus/fund passthrough; no stats.py change. Still shadow/paper.",
-      "expected_effect": "Effective working-capital balances = raw minus locked_by_venue ({binance:300, gate:75} in the first pass), so floor deficits/surpluses use money that can actually move. Each hedge pool carries a concrete seating plan + live product-verification stamp; the external ₩7.5M is a distinct locked pool that never inflates the fund. First live pass (2026-07-17 18:24 UTC): hub bybit verified (743 perps, 263 UTA-margin), aux gate verified (835 futures, 735 margin), 3 reservations, hedge_reserved_usd=375, external_collateral≈$5049 (fx 1485), 1 funding + 1 wallet move, route_verification all_verified=true. Reservation sizes get tuned from the hedged engine's measured concurrent-hedge pace.",
-      "review_after": "2026-07-25",
-      "status": "active",
-      "supersedes": null,
-      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-quartermaster-wallet-type-pools.md"
-    },
-    {
-      "slug": "2026-07-18-hedged-arb-instrument-selection",
-      "date": "2026-07-18",
-      "trigger": "39% livescan capture + instrument-selection design — livescan keeps only ~39% of quoted edge because the 15-60min transit window is unhedged (measured 61% decay, 121-trade sample). Robin: hedge the arb at the RICH venue so the edge is locked at t=0, and pick the hedge instrument per trade.",
-      "problem": "An unhedged transfer arb carries its full price risk across the transit window so most quoted edge evaporates before arrival, and there was no per-trade choice of HOW to hedge (margin short vs perp short differ in cost + coverage, and the cheaper flips by token) nor any proof of how much hedging recovers.",
-      "change": "New shadow engine nw_hedged_shadow.py (strategy #4, Covered Arb). Picks a hedge at the RICH venue by min INCREMENTAL cost: margin short (interest only — spot sell fee is not incremental; gate APR live, others assumed; preference bonus) or perp short (2x taker + sign-aware funding, per-contract interval; never mexc/bitget); neither -> unhedged-comparable skip. Perp contract quantization -> hedge_coverage_pct (perp <100% or 0 below min contract; <70% loses to margin). Reuses /arb/board + /arb/kimchi_roundturn feeds and the per-chain settle clock. Records the A/B: capture_hedged vs capture_unhedged. Execution-protocol subset: T-0 entry stamps, in-flight invariant, exit modes E1/E2/E5 + E3/E4/E6 scenario costs. Own table nw_hedged_shadow; joined into /thusus as strategy 'hedged' + GET /arb/hedged_shadow. Capital model shadow-only.",
-      "expected_effect": "Hedged capture should sit far above the ~39% unhedged baseline (target >=85%); the per-trade A/B is the evidence. Cost hierarchy is NOT fixed (majors -> margin cheapest ~0.002%/4h; hot alts borrow-spike -> perp wins; bithumb daily-ceil priciest) so the comparison is live per trade. The $40-300 band makes perp min-contract/min-notional bite often on majors -> many perp candidates cover <70% and correctly lose to margin. First passes are thin; the A/B accumulates.",
-      "review_after": "2026-07-25",
-      "status": "active",
-      "supersedes": null,
-      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-hedged-arb-instrument-selection.md"
-    },
-    {
-      "slug": "2026-07-18-per-chain-settle-delay",
-      "date": "2026-07-18",
-      "trigger": "flat +5min settle overstated ETH-route P&L (Robin: ETH deposit takes AT LEAST 5min, so the full withdraw->confirm->credit transfer is well over 5min, realistically 10-20min). The paper engine settled EVERY chain at a flat +5:00, so slow-chain rows were marked against a too-early tick.",
-      "problem": "The settle-timing model ignored per-chain transfer latency. Settling an Ethereum-mainnet route against the +5min book let it absorb LESS spread decay than the coins really experience in transit, so slow-chain realized P&L looked more profitable than reality. Ethereum is the #2 chain in the data (~10 trades), so the bug materially inflated ETH-route capture.",
-      "change": "Per-chain settle delay in nw_paper_arb.py (shared by big-spike): chain_settle_delay(route_chain) -> minutes. ETH mainnet 15min (NW_PAPER_SETTLE_DELAY_ETH_MIN=15, NOT instant); fast chains/L2s + TRON keep 5min (NW_PAPER_SETTLE_DELAY_MIN=5); unknown chains default 5 and are logged once. Acceptance window = delay + NW_PAPER_SETTLE_BUFFER_MIN (3), so fast=8min (unchanged), ETH=18min. Whole map overridable via NW_PAPER_SETTLE_DELAY_MAP (JSON). Per-row settle timing, the pending-settle loop, and the dynamic sleep all use the row's chain delay; big-spike inherits via import. PLUS exposure-time-adjusted sizing: ETH-mainnet routes capped at $150 max (half) — exposure-time-adjusted sizing via NW_PAPER_SETTLE_ETH_MAX_SIZE_USD=150, clamped in the size search on the same ETH classifier (MIN stays $40; skip honestly if no feasible size >= $40). Livescan + big-spike; woncarry untouched. Forward-only: historical rows untouched.",
-      "expected_effect": "ETH-route rows settle against the +15min tick, absorb more spread decay -> realized P&L drops to honest levels and more ETH routes fail the net gate. ETH-route position risk halved to match ~3x settle window (max $150 vs $300). Fast-chain behaviour identical (5min/8min window, $300 max). Capture ratio BY CHAIN becomes comparable, the calibration signal for tuning these initial-estimate delays with real latency data.",
-      "review_after": "2026-07-25",
-      "status": "active",
-      "supersedes": null,
-      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-per-chain-settle-delay.md"
-    },
-    {
       "slug": "2026-07-18-uniform-size-band-diversification",
       "date": "2026-07-18",
-      "trigger": "~$500 Korean entries exploding + KRW pool overshoot: the won-carry KRW pool ran to 35.9% of the fund against a 30% cap, driven partly by oversized single entries (Korea's per-entry cap was $600 vs the global $350). Big trades were measured eroding their own capture 8-22% via footprint.",
-      "problem": "Oversized single entries + single-name/route concentration erode a stable realized return. Korea sized entries almost 2x the global standard, so capital rushed into the KRW pool in big chunks and overshot its cap; and any one token or one (buy_ex,sell_ex) route could absorb an outsized share of the fund.",
-      "change": "Uniform per-trade band across ALL engines: MIN $40, MAX $300 (NW_PAPER_SIZE_MIN_USD 20->40, NW_PAPER_SIZE_MAX_USD 350->300; NW_WONCARRY_MAX_USD 600->300, NW_WONCARRY_SIZE_GRID_MIN 20->40; Render API NW_KIMCHI_ROUNDTURN_MAX_USD 600->300; big-spike inherits the band and keeps SIZE_FACTOR=0.5). Plus diversification guards NW_DIV_MAX_PER_TOKEN_USD=300 (open exposure per base across venues; extra entries shrink to headroom or skip) and NW_DIV_MAX_PER_PAIR=3 (max concurrent open positions per route), applied to all three engines, plus a breadth reorder (round-robin by base).",
-      "expected_effect": "KRW inflow throttled to the global standard (no more ~$500 Korean chunks) so the KRW pool stops overshooting its 30% cap from oversized entries. Realized capture stabilises via breadth: no name holds more than $300 open and no route more than 3 concurrent positions, so big-footprint single trades are reduced. Matters more as parallel real-time scans surface more opportunities.",
+      "trigger": "~$500 Korean entries exploding + KRW pool overshoot: the won-carry KRW pool ran to 35.9% of the fund against a 30% cap, driven partly by oversized single entries (Korea's per-entry cap was $600 vs the global $350). Big trades were measured eroding their own capture 8–22% via footprint.",
+      "problem": "Oversized single entries + single-name/route concentration erode a stable realized return. Korea sized entries almost 2x the global standard, so capital rushed into the KRW pool in big chunks and overshot its cap; and any one token or one (buy_ex,sell_ex) route could absorb an outsized share of the fund, so realized return depended on a few large, high-footprint positions instead of many small ones.",
+      "change": "Uniform per-trade band across ALL engines (livescan, big-spike, won-carry): MIN $40, MAX $300 (NW_PAPER_SIZE_MIN_USD 20→40, NW_PAPER_SIZE_MAX_USD 350→300; NW_WONCARRY_MAX_USD 600→300, NW_WONCARRY_SIZE_GRID_MIN 20→40; Render API NW_KIMCHI_ROUNDTURN_MAX_USD 600→300; big-spike inherits the band via shared import and still applies SIZE_FACTOR=0.5 on top). Plus env-tunable diversification guards: NW_DIV_MAX_PER_TOKEN_USD=300 (total open exposure on one base across venues; extra entries shrink to headroom or skip) and NW_DIV_MAX_PER_PAIR=3 (max concurrent open positions on one (buy_ex,sell_ex) route), applied to all three engines, plus a deterministic breadth reorder (round-robin by base) so a limited scan/probe budget spreads across many names instead of stacking one.",
+      "expected_effect": "KRW inflow throttled to the global standard (no more ~$500 Korean chunks), so the KRW pool stops overshooting its 30% cap from oversized entries. Realized capture stabilises via breadth — no single name holds more than $300 open and no route holds more than 3 concurrent positions, so big-footprint single trades (the 8–22% self-erosion tail) are reduced and returns rest on many small positions. The guards matter more as parallel real-time scans surface MORE opportunities.",
       "review_after": "2026-07-24",
       "status": "active",
       "supersedes": null,
       "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-uniform-size-band-diversification.md"
     },
     {
+      "slug": "2026-07-18-quartermaster-wallet-type-pools",
+      "date": "2026-07-18",
+      "trigger": "strategy #4 capital plan — wallet-type pools. Covered Arb (strategy #4) needs more than spot working capital: it locks collateral for margin shorts and margin for perp hedges, and Robin is adding an external ₩7.5M Korean lending deposit. The Quartermaster Planner (shadow) was modelling only one fungible spot pool per venue, so it could not tell locked hedge capital from transferable working capital, nor plan how that capital gets seated at the hedge venues.",
+      "problem": "A single-pool-per-venue capital model double-counts locked capital. Reserving $300 of UTA collateral at bybit or $75 of futures float at gate leaves that money unavailable for spot working capital, but the floor/cap planner still counted it as spendable — so deficits looked smaller than they were and the plan could 'fund' a sink with dollars that are actually locked behind a hedge. There was also no plan artifact for HOW a hedge pool gets seated (bybit UTA has $0 in the paper fund → capital must move venues; gate is a classic account → an internal spot→futures wallet move), and no verification that the hedge products even exist or that the funding route's USDT deposit/withdraw is open.",
+      "change": "Quartermaster v0.2 (nw_quartermaster_v0.py). Adds wallet-type reservations to the paper-fund plan: hedge_uta (bybit UTA, unified pool serving BOTH margin-short collateral AND perp margin, NW_QM_HEDGE_HUB_USD=300), hedge_futures (gate futures float, NW_QM_HEDGE_AUX_USD=75, classic account → internal spot→futures wallet_move, instant/free), and lending_collateral (bithumb NW_QM_LENDING_COLLATERAL_KRW=7500000 — EXTERNAL planned money, recorded funded=false/source=external until the real deposit, NOT carved from the $10k fund). FLOOR INTERACTION: locked hedge USD is SUBTRACTED from available working capital at the venue where it is actually drawn (gate charges itself $75; bybit has $0 so its $300 is seated by a cross-venue funding move from the largest working-capital venue, binance, which is charged the $300) — no double counting. PRODUCT VERIFICATION before reserving (live public APIs, stored in plan.verification): bybit linear perps (instruments-info count) + spot-margin/UTA (per-symbol marginTrading flag → verified_via='docs+instruments', honest that UTA is account-level); gate futures contracts + margin pairs; aux falls back to binance futures (env) if gate fails, logged loudly. DW ROUTE VERIFICATION (Robin: 입출금 확인 필수): every inter-venue move (incl. the hedge funding move) is annotated route_verified + chain from the USDT transfer map (wd@source AND dep@dest on a shared chain); the bithumb collateral inflow carries a fiat-KRW-wire note plus a USDT-rail alternate. Plan output gains reservations[], wallet_moves[], verification{}, capital_model{}; version 0.1→0.2. Rides the existing /arb/thusus/fund quartermaster passthrough (whole plan JSONB) — no stats.py change. Still SHADOW/PAPER — no keys, no execution.",
+      "expected_effect": "The plan now separates transferable working capital from locked hedge capital: effective working-capital balances = raw balances minus locked_by_venue ({binance:300, gate:75} in the first live pass), so floor deficits/surpluses are computed on money that can actually move. The hedge pools each carry a concrete seating plan (bybit: verified binance→bybit USDT funding move; gate: internal spot→futures wallet move) and a live product-verification stamp, and the external ₩7.5M is tracked as a distinct locked collateral pool that never inflates the paper fund. First live pass (2026-07-17 18:24 UTC): hub bybit verified (743 perps, 263 UTA-margin symbols), aux gate verified (835 futures, 735 margin pairs), 3 reservations, hedge_reserved_usd=375, external_collateral_usd≈5049 (fx 1485), 1 funding + 1 wallet move, route_verification all_verified=true. As the hedged engine (strategy #4) accumulates its A/B, the reservation SIZES ($300/$75) get tuned from the measured concurrent-hedge pace rather than the seed guess.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-quartermaster-wallet-type-pools.md"
+    },
+    {
+      "slug": "2026-07-18-per-chain-settle-delay",
+      "date": "2026-07-18",
+      "trigger": "flat +5min settle overstated ETH-route P&L (Robin: '이더리움은 입금에 최소 5분 걸리는데' — ETH deposit takes AT LEAST 5min, so the full withdraw->confirm->credit transfer is well over 5min, realistically 10-20min). The paper engine settled EVERY chain at a flat +5:00, so slow-chain rows were marked against a too-early tick.",
+      "problem": "The settle-timing model ignored per-chain transfer latency. Settling an Ethereum-mainnet route against the +5min book let it absorb LESS spread decay than the coins really experience in transit, so slow-chain realized P&L looked more profitable than reality. Ethereum is the #2 chain in the data (~10 trades), so the bug materially inflated ETH-route capture.",
+      "change": "Per-chain settle delay model in nw_paper_arb.py (shared by big-spike): new chain_settle_delay(route_chain) -> minutes. ETH mainnet 15min (NW_PAPER_SETTLE_DELAY_ETH_MIN=15, a defensible 10-20min midpoint, NOT instant); fast chains/L2s + TRON keep 5min (NW_PAPER_SETTLE_DELAY_MIN=5); unknown chains default 5 and are LOGGED once for classification. Acceptance window = delay + NW_PAPER_SETTLE_BUFFER_MIN (3), so fast=8min (unchanged) and ETH=18min. Whole map overridable via NW_PAPER_SETTLE_DELAY_MAP (JSON). Per-row settle timing + the pending-settle loop + the dynamic sleep all use the row's chain delay; big-spike inherits it via import. PLUS exposure-time-adjusted sizing: ETH-mainnet routes capped at $150 max (half) via NW_PAPER_SETTLE_ETH_MAX_SIZE_USD=150 — clamped in the size search keyed on the same ETH classifier (MIN stays $40; if the clamp leaves no feasible size >= $40 the trade is skipped honestly). Applies to livescan AND big-spike; woncarry untouched. FORWARD-ONLY: already-settled historical rows are untouched.",
+      "expected_effect": "ETH-route rows now settle against the +15min tick, absorbing more spread decay -> realized P&L drops to honest levels and more ETH routes fail the net gate. ETH-route position risk halved to match ~3x settle window (max $150 vs $300). Fast-chain behaviour is identical to before (5min/8min window, $300 max). Capture ratio BY CHAIN becomes comparable, which is the calibration signal for tuning these initial-estimate delays with real transfer-latency data.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-per-chain-settle-delay.md"
+    },
+    {
+      "slug": "2026-07-18-hedged-arb-instrument-selection",
+      "date": "2026-07-18",
+      "trigger": "39% livescan capture + instrument-selection design — livescan keeps only ~39% of quoted edge because the 15-60min transit window is unhedged (the measured 61% decay, 121-trade sample). Robin: hedge the arb at the RICH venue so the edge is locked at t=0, and pick the hedge instrument per trade.",
+      "problem": "An unhedged transfer arb carries its full price risk across the transit window, so most of the quoted edge evaporates before the coins arrive to be sold. The engine had no way to (a) neutralise that window nor (b) prove, trade-by-trade, how much edge hedging actually recovers. There was also no honest per-trade choice of HOW to hedge — margin short vs perp short have different cost structures and coverage, and the cheaper one flips by token.",
+      "change": "New shadow engine nw_hedged_shadow.py (strategy #4, 'Covered Arb'). For each arb candidate (cheap venue buy → rich venue sell) it picks a hedge AT THE RICH VENUE by min INCREMENTAL effective cost: ① MARGIN SHORT (borrow+sell spot at t=0; transferred coin repays) — incremental cost = borrow interest × hold ONLY (the spot sell fee is NOT incremental: the unhedged baseline also pays a sell fee on arrival, margin just moves it to t=0), gate APR fetched LIVE (gate /margin/uni/estimate_rate), other venues conservative env tier; a preference bonus (NW_HEDGE_MARGIN_PREF_PCT) favours ① because it locks the venue premium itself; ② PERP SHORT (rich venue if listed else most-liquid of gate/bybit/binance — NEVER mexc[frozen order API]/bitget[Korea]) — incremental cost = 2× taker + expected funding (sign-aware: short RECEIVES when funding>0; rate+interval fetched PER CONTRACT, never hard-coded 8h); ③ NEITHER → recorded as unhedged-comparable skip. Candidates reuse the live feeds (/arb/board global-global incl. thin names above NW_HEDGE_MIN_EDGE_PCT=0.5, and /arb/kimchi_roundturn discount-mode = buy Korea cheap + hedge overseas, korea_leg tagged paper-only-realistic). PERP CONTRACT QUANTIZATION: hedge_qty = floor(spot_qty/step)×step respecting min qty/notional → hedge_coverage_pct (perp can be <100%, 0 if below min contract → perp not viable); coverage <NW_HEDGE_MIN_COVER_PCT=70 loses to margin or skips. Settle at the per-chain clock (chain_settle_delay imported from nw_paper_arb) records the A/B: realized_hedged vs realized_unhedged (same entry, no hedge, sold at arrival) → capture_hedged vs capture_unhedged. Execution protocol (COVERED_ARB_EXECUTION.md) subset: T-0 entry-check stamps (live VWAP re-check, instrument/dw check, basis-adjusted premium truth, modeled margin headroom), in-flight invariant (qty_short==qty_in_flight ± dust; perp residual is intentional not a violation), exit modes E1 normal / E2 early (pre-arrival premium collapse) / E5 timestop (max(chainETA×2,24h)), and E3/E4/E6 stamped as scenario tail costs. Own table nw_hedged_shadow; joined into /thusus book as strategy 'hedged' + additive GET /arb/hedged_shadow. Capital model SHADOW-ONLY — does NOT move the $10k pools yet.",
+      "expected_effect": "Hedged capture should sit far above the ~39% unhedged baseline (target ≥85% per GLOBAL_BORROW_MAP §6 gate) — the per-trade A/B (capture_hedged vs capture_unhedged) is the direct evidence. Cost hierarchy is NOT fixed and is resolved per trade: majors ~0.002%/4h incremental margin interest usually cheapest; hot alts whose borrow spikes 50-200% APR → perp wins; bithumb daily-ceil always priciest. Perp coverage is the honest catch: the $40-300 band makes min-contract/min-notional bite often on majors (BTC lots), so many perp candidates cover <70% and correctly lose to margin — a real advantage of margin shorts on small positions. First passes will be THIN; the passes accumulate the A/B table.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-hedged-arb-instrument-selection.md"
+    },
+    {
+      "slug": "2026-07-18-dynamic-sizing",
+      "date": "2026-07-18",
+      "trigger": "opportunity density > capital → per-venue adaptive sizing. Day-one shadow showed good opportunities concentrating on a few capital-consumption points (gateio/bithumb buys, the tiny KRW pool, the $75 gate-futures hedge pool) while the fund as a whole sat idle — a global average hid the local starvation the Quartermaster had already measured.",
+      "problem": "A single fund-wide size/threshold cannot express that capital is scarce at ONE venue and slack everywhere else. Deploying max size at the bare 0.5% floor on every candidate spends the scarcest capital on marginal edges; averaging pressure across all venues makes a real gateio/KRW bottleneck invisible. The fund needs to raise quality (and, only then, split smaller) exactly where opportunities out-number capital — and nowhere else.",
+      "change": "New shared layer nw_dynamic_sizing.py (NW_DYN_*). Per pass, per capital-consumption POINT (buy exchange for livescan/bigspike; KRW/abroad pool for woncarry; buy exchange AND hedge pool for hedged, taking the max), compute pressure = Σ(candidate target size at the point) ÷ available capital, then walk a 2-stage staircase: STAGE1 raises the net threshold 0.5→0.6→0.7→0.8%, and only once 0.8% is exhausted STAGE2 lowers max size $300→$270→$240→$210 (floor −30%, min $40 unchanged). Relaxation is the same ladder in reverse (restore size before dropping threshold); hysteresis is asymmetric — escalate fast to protect quality, relax one notch per pass behind a DOWN band. A slack point keeps base; only bottlenecked points tighten.",
+      "expected_effect": "Higher risk-adjusted return per unit of the SAME $10k fund: the scarcest capital is spent on 0.8% A-grade edges instead of 0.5% marginal ones, and only over-subscribed A-grade points diversify into smaller tickets. Each trade stamps assumptions.dyn (threshold, max, pressure, stage, point, cap_source) so 7-day attribution can test whether the density regime actually lifted Sharpe. At the STAGE2 floor with pressure still >1 the overflow is skipped and logged as capital_short — direct evidence for a fund-size / rotation-speed increase. First live passes: gate-futures pool ($75) and the KRW pool ($19) hit the floor immediately while the bybit hedge pool ($300, pressure 4) held at 0.8%/$300 — the per-venue differentiation the design is for.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-dynamic-sizing.md"
+    },
+    {
       "slug": "2026-07-17-woncarry-exit-policy-v2",
       "date": "2026-07-17",
       "trigger": "Robin's directive (2026-07-17): won-carry accumulates KRW but never deliberately exits it. Parked KRW carries FX risk and misses global opportunities; the naive exit (repurchase USDT) pays the full stablecoin premium. Exit instead through the most undervalued token on the Korean venue whenever its edge covers costs.",
-      "problem": "KRW capital lock + USDT-premium exit cost class — the engine had in-legs (premium buys that accrue KRW) but no formalized out-leg. Repurchasing USDT to exit re-pays the stablecoin basis + fees, and idle KRW is unhedged FX exposure the accounting could not separate from carry P&L.",
-      "change": "Exit-policy v2 params: NW_WC_EXIT_EDGE_MIN_PCT=0.0 (KRW-funded discount out-legs execute when executable exit_edge >= this; standalone MIN_NET floors waived); NW_WC_KRW_POOL_CAP_PCT=30 (premium in-legs blocked once KRW share exceeds this); NW_WC_MAX_DWELL_H=72 with NW_WC_FORCED_EXIT_MAJORS=BTC,ETH,XRP,SOL (parked-too-long KRW force-exits via the lowest-relative-premium liquid major, even at negative edge, logged as forced_exit); fx_pnl marks the KRW pool at current usdt_krw each pass so carry_pnl vs FX exposure are separable.",
-      "expected_effect": "Out-legs execute only when covered (exit_edge >= 0 => at least as cheap as repurchasing USDT); in-legs stop over-parking KRW above 30%; forced exits bounded to the dwell window and liquid majors; fx_pnl separated from carry_pnl in every pass summary.",
+      "problem": "KRW capital lock + USDT-premium exit cost class — the engine had in-legs (premium buys that accrue KRW) but no formalized out-leg. Capital that flowed into Korea to capture the basis had no disciplined way back out; repurchasing USDT to exit re-pays the stablecoin basis + fees, and idle KRW is unhedged FX exposure the accounting could not separate from carry P&L.",
+      "change": "Exit-policy v2 params: NW_WC_EXIT_EDGE_MIN_PCT=0.0 (KRW-funded discount out-legs execute when executable exit_edge ≥ this — the token need NOT be discounted, only relative-premium-below-basis; MIN_NET_PCT/MIN_NET_USD floors waived for exits); NW_WC_KRW_POOL_CAP_PCT=30 (premium in-legs blocked once KRW share of the fund exceeds this); NW_WC_MAX_DWELL_H=72 (KRW parked longer force-exits via the lowest-relative-premium liquid major NW_WC_FORCED_EXIT_MAJORS=BTC,ETH,XRP,SOL, even at negative edge, logged as forced_exit with cost paid); fx_pnl marks the KRW pool at current usdt_krw each pass so carry_pnl vs FX exposure are separable in the accounting output.",
+      "expected_effect": "Out-legs execute only when covered (exit_edge ≥ 0 ⇒ at least as cheap as repurchasing USDT); in-legs stop over-parking KRW above 30%; forced exits are bounded to the dwell window and to liquid majors; fx_pnl is separated from carry_pnl in every pass summary so FX drift never masquerades as carry alpha.",
       "review_after": "2026-07-24",
       "status": "active",
       "supersedes": null,
@@ -174,19 +161,159 @@
       "lesson": "2026-07-18-quartermaster-wallet-type-pools"
     },
     {
-      "name": "NW_QM_UTA_VENUES",
-      "current": "bybit,okx",
+      "name": "NW_QM_FUNDING_SOURCE_VENUE",
+      "current": "—",
       "lesson": "2026-07-18-quartermaster-wallet-type-pools"
     },
     {
-      "name": "NW_QM_FUNDING_SOURCE_VENUE",
-      "current": "",
+      "name": "NW_QM_UTA_VENUES",
+      "current": "bybit,okx",
       "lesson": "2026-07-18-quartermaster-wallet-type-pools"
     },
     {
       "name": "NW_QM_FX_USDKRW_FALLBACK",
       "current": "1380",
       "lesson": "2026-07-18-quartermaster-wallet-type-pools"
+    },
+    {
+      "name": "NW_QM_FLOOR_MULT",
+      "current": "2.0",
+      "lesson": null
+    },
+    {
+      "name": "NW_QM_CAP_MULT",
+      "current": "3.0",
+      "lesson": null
+    },
+    {
+      "name": "NW_QM_LOOKBACK_DAYS",
+      "current": "7",
+      "lesson": null
+    },
+    {
+      "name": "NW_QM_MIN_FLOOR_USD",
+      "current": "50",
+      "lesson": null
+    },
+    {
+      "name": "NW_QM_MIN_ARB_EXEC_USDT",
+      "current": "10",
+      "lesson": null
+    },
+    {
+      "name": "NW_QM_TREASURY_MIN_USD",
+      "current": "1.0",
+      "lesson": null
+    },
+    {
+      "name": "NW_QM_RETENTION_DAYS",
+      "current": "30",
+      "lesson": null
+    },
+    {
+      "name": "NW_HEDGE_MIN_EDGE_PCT` (gross PREFILTER only)",
+      "current": "0.5",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_MIN_NET_PCT` (SOLE binding gate)",
+      "current": "0.5",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_MIN_COVER_PCT",
+      "current": "70",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_MARGIN_PREF_PCT",
+      "current": "0.10",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_BORROW_APR_MAJOR",
+      "current": "5.0",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_BORROW_APR_ALT",
+      "current": "20.0",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_BORROW_FEE_PCT",
+      "current": "0.0",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_PERP_TAKER_PCT",
+      "current": "0.05",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_FUNDING_INTERVAL_H` (fallback)",
+      "current": "8",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_SIZE_MIN` / `_MAX` / `_STEP",
+      "current": "40 / 300 / 50",
+      "lesson": "2026-07-18-uniform-size-band-diversification"
+    },
+    {
+      "name": "NW_HEDGE_ETH_MAX_USD",
+      "current": "300",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_MAX_ENTRIES_PER_PASS",
+      "current": "4",
+      "lesson": null
+    },
+    {
+      "name": "NW_HEDGE_COOLDOWN_MIN",
+      "current": "30",
+      "lesson": null
+    },
+    {
+      "name": "NW_HEDGE_MAX_PROBES",
+      "current": "24",
+      "lesson": null
+    },
+    {
+      "name": "NW_HEDGE_INSTRUMENT_CACHE_H",
+      "current": "1",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_PERP_VENUES",
+      "current": "gate,bybit,binance",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_MARGIN_VENUES",
+      "current": "binance,gate,kucoin,okx,bybit,htx",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_CA_MARGIN_HEADROOM_PCT",
+      "current": "30",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_CA_MAX_HOLD_H` (E5)",
+      "current": "24",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_CA_COST_ABORT_PCT` (E2)",
+      "current": "50",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
+    },
+    {
+      "name": "NW_HEDGE_MONITOR_PROBES",
+      "current": "6",
+      "lesson": "2026-07-18-hedged-arb-instrument-selection"
     },
     {
       "name": "NW_PAPER_MIN_NET_PCT",
@@ -255,18 +382,28 @@
     },
     {
       "name": "NW_PAPER_SIZE_MIN_USD",
-      "current": "20",
-      "lesson": null
+      "current": "40",
+      "lesson": "2026-07-18-uniform-size-band-diversification"
     },
     {
       "name": "NW_PAPER_SIZE_MAX_USD",
-      "current": "350",
-      "lesson": null
+      "current": "300",
+      "lesson": "2026-07-18-uniform-size-band-diversification"
     },
     {
       "name": "NW_PAPER_SIZE_STEP_USD",
       "current": "10",
       "lesson": null
+    },
+    {
+      "name": "NW_DIV_MAX_PER_TOKEN_USD` (shared)",
+      "current": "300",
+      "lesson": "2026-07-18-uniform-size-band-diversification"
+    },
+    {
+      "name": "NW_DIV_MAX_PER_PAIR` (shared)",
+      "current": "3",
+      "lesson": "2026-07-18-uniform-size-band-diversification"
     },
     {
       "name": "NW_PAPER_COOLDOWN_MIN",
@@ -289,14 +426,34 @@
       "lesson": null
     },
     {
-      "name": "NW_PAPER_SETTLE_DELAY_MIN",
+      "name": "NW_PAPER_SETTLE_DELAY_MIN` (fast-chain default)",
       "current": "5",
-      "lesson": null
+      "lesson": "2026-07-18-per-chain-settle-delay"
     },
     {
-      "name": "NW_PAPER_SETTLE_MAX_MIN",
+      "name": "NW_PAPER_SETTLE_DELAY_ETH_MIN",
+      "current": "15",
+      "lesson": "2026-07-18-per-chain-settle-delay"
+    },
+    {
+      "name": "NW_PAPER_SETTLE_BUFFER_MIN",
+      "current": "3",
+      "lesson": "2026-07-18-per-chain-settle-delay"
+    },
+    {
+      "name": "NW_PAPER_SETTLE_ETH_MAX_SIZE_USD` (ETH-route MAX)",
+      "current": "150",
+      "lesson": "2026-07-18-per-chain-settle-delay"
+    },
+    {
+      "name": "NW_PAPER_SETTLE_DELAY_MAP` (JSON)",
+      "current": "—",
+      "lesson": "2026-07-18-per-chain-settle-delay"
+    },
+    {
+      "name": "NW_PAPER_SETTLE_MAX_MIN` (legacy, superseded)",
       "current": "8",
-      "lesson": null
+      "lesson": "2026-07-18-per-chain-settle-delay"
     },
     {
       "name": "NW_PAPER_POLL_SEC",
@@ -420,8 +577,8 @@
     },
     {
       "name": "NW_WONCARRY_MAX_USD",
-      "current": "600",
-      "lesson": null
+      "current": "300",
+      "lesson": "2026-07-18-uniform-size-band-diversification"
     },
     {
       "name": "NW_WONCARRY_TRANSIT_MIN",
@@ -460,8 +617,8 @@
     },
     {
       "name": "NW_WONCARRY_SIZE_GRID_MIN",
-      "current": "20",
-      "lesson": null
+      "current": "40",
+      "lesson": "2026-07-18-uniform-size-band-diversification"
     },
     {
       "name": "NW_WONCARRY_SIZE_GRID_STEP",
@@ -487,46 +644,6 @@
       "name": "NW_WONCARRY_API_TIMEOUT_SEC",
       "current": "20",
       "lesson": null
-    },
-    {
-      "name": "NW_HEDGE_MIN_EDGE_PCT",
-      "current": "0.5",
-      "lesson": "2026-07-18-hedged-arb-instrument-selection"
-    },
-    {
-      "name": "NW_HEDGE_MIN_COVER_PCT",
-      "current": "70",
-      "lesson": "2026-07-18-hedged-arb-instrument-selection"
-    },
-    {
-      "name": "NW_HEDGE_MARGIN_PREF_PCT",
-      "current": "0.10",
-      "lesson": "2026-07-18-hedged-arb-instrument-selection"
-    },
-    {
-      "name": "NW_HEDGE_BORROW_APR_MAJOR",
-      "current": "5.0",
-      "lesson": "2026-07-18-hedged-arb-instrument-selection"
-    },
-    {
-      "name": "NW_HEDGE_BORROW_APR_ALT",
-      "current": "20.0",
-      "lesson": "2026-07-18-hedged-arb-instrument-selection"
-    },
-    {
-      "name": "NW_HEDGE_ETH_MAX_USD",
-      "current": "300",
-      "lesson": "2026-07-18-hedged-arb-instrument-selection"
-    },
-    {
-      "name": "NW_HEDGE_PERP_VENUES",
-      "current": "gate,bybit,binance",
-      "lesson": "2026-07-18-hedged-arb-instrument-selection"
-    },
-    {
-      "name": "NW_CA_MAX_HOLD_H",
-      "current": "24",
-      "lesson": "2026-07-18-hedged-arb-instrument-selection"
     },
     {
       "name": "NW_DYN_ENABLED",
@@ -596,17 +713,17 @@
     {
       "name": "NW_DYN_MAX_SIZE_USD",
       "current": "300",
-      "lesson": "2026-07-18-dynamic-sizing"
+      "lesson": null
     },
     {
       "name": "NW_DYN_MIN_SIZE_USD",
       "current": "40",
-      "lesson": "2026-07-18-dynamic-sizing"
+      "lesson": null
     },
     {
       "name": "NW_DYN_FUND_TTL_SEC",
       "current": "60",
-      "lesson": "2026-07-18-dynamic-sizing"
+      "lesson": null
     }
   ]
 }
