@@ -196,6 +196,29 @@ replenished from offshore SURPLUS (Korea bithumb first), preferring arb-as-rebal
 | `nw_qm_transfers` table + fund-replay of transfers (logic) | (missing) → **executed moves recorded + replayed; invariant nets Σ fees** | [[2026-07-18-quartermaster-capital-movement-executor]] |
 | timer | 6h → **hourly** (:10 UTC; executor gated to `NW_QM_EXEC_MIN`) | [[2026-07-18-quartermaster-capital-movement-executor]] |
 
+## Cycle #10 changes (2026-07-18) — W-FUND-2 R1 reallocation
+
+Fund required capital re-sized UNDER the **R1 reallocation** the QM now executes
+(bithumb-origin conservation, $500 trigger, NO 50% clause): **$44k fully-static →
+$29k with R1 running** (bithumb $21k → $3k). `nw_fund_initial_alloc` set to the
+R1 numbers; `nw_qm_transfers` seeded with the R1 conservation LEDGER (net-zero
+returns at real trigger times) so the reconstruction is coherent (capital_short
+$17,156 → $0). Cross-engine opportunity **dedup** added to the back-solve AND the
+reconstruction (1 duplicate in current data — engines ran disjoint sets). QM
+executor rewritten to 3 modes (R1 batching / pre-emptive / immediate) on the
+unified fund; `_venue_stats` un-blinded to woncarry + hedged buys.
+
+| Env | Before → After | Lesson |
+|---|---|---|
+| `nw_fund_initial_alloc` | static back-solve ($44k) → **R1-optimized ($29k)** | [[2026-07-18-r1-reallocation-required-capital]] |
+| `NW_QM_R1_TRIGGER_USD` | (new) → **500** (bithumb-origin accum → batch return) | [[2026-07-18-r1-reallocation-required-capital]] |
+| `NW_QM_NEXT_TRADE_FLOOR_USD` | (new) → **40** (immediate safety top-up floor) | [[2026-07-18-r1-reallocation-required-capital]] |
+| `NW_QM_PREEMPTIVE_ENABLED` | (new) → **1** | [[2026-07-18-r1-reallocation-required-capital]] |
+| `NW_QM_PREEMPTIVE_LOOKBACK_DAYS` | (new) → **3** (draw-rate window) | [[2026-07-18-r1-reallocation-required-capital]] |
+| `NW_QM_PREEMPTIVE_COVER_DAYS` | (new) → **1.0** (days of draw to pre-fund) | [[2026-07-18-r1-reallocation-required-capital]] |
+| `NW_FUND_DEDUP_WINDOW_MIN` | (new) → **10** (cross-engine dedup window) | [[2026-07-18-r1-reallocation-required-capital]] |
+| `_venue_stats` blind spot (logic) | nw_paper_trades only → **unions woncarry + hedged buys** | [[2026-07-18-r1-reallocation-required-capital]] |
+
 ## Quartermaster (`nw_quartermaster_v0.py`)
 
 Paper-fund rebalance Planner shadow + capital-movement Executor (W-QM-1/v0.3). No
@@ -206,6 +229,12 @@ Executor writes actual paper rebalances to `nw_qm_transfers`; both surface via t
 
 | Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
 |---|---|---|---|---|---|
+| `NW_QM_R1_TRIGGER_USD` | 500 | 500 | 200 – 2000 | [[2026-07-18-r1-reallocation-required-capital]] | 2026-07-18 |
+| `NW_QM_NEXT_TRADE_FLOOR_USD` | 40 | 40 | 20 – 100 | [[2026-07-18-r1-reallocation-required-capital]] | 2026-07-18 |
+| `NW_QM_PREEMPTIVE_ENABLED` | 1 | 1 | 0/1 | [[2026-07-18-r1-reallocation-required-capital]] | 2026-07-18 |
+| `NW_QM_PREEMPTIVE_LOOKBACK_DAYS` | 3 | 3 | 1 – 14 | [[2026-07-18-r1-reallocation-required-capital]] | 2026-07-18 |
+| `NW_QM_PREEMPTIVE_COVER_DAYS` | 1.0 | 1.0 | 0.5 – 3.0 | [[2026-07-18-r1-reallocation-required-capital]] | 2026-07-18 |
+| `NW_FUND_DEDUP_WINDOW_MIN` | 10 | 10 | 5 – 30 | [[2026-07-18-r1-reallocation-required-capital]] | 2026-07-18 |
 | `NW_QM_EXEC_MIN` | 60 | 60 | 30 – 360 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
 | `NW_QM_MIN_TRANSFER_USD` | 25 | 25 | 10 – 100 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
 | `NW_QM_MAX_TRANSFER_USD` | 2500 | 2500 | 500 – 5000 | [[2026-07-18-quartermaster-capital-movement-executor]] | 2026-07-18 |
