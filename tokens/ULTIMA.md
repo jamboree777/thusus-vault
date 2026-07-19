@@ -2,40 +2,38 @@
 token: ULTIMA
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x5668a83b46016b494a30dd14066a451e5417a8b8" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-18T03:54:02.599155Z
+updated: 2026-07-19T03:57:09.794232Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ULTIMA · NW Grade **A+**
+# ULTIMA · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x5668a8…a8b8` (partial)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A+
+- [[gateio]]: A
 - [[kucoin]]: B+
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
 - [[gateio]]: open:ultima,ultima
-- [[htx]]: open:ultima1
 - [[kucoin]]: open:ultima
 - [[mexc]]: open:smart,ultima
 
@@ -48,7 +46,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:54:02.599155Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:09.794232Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

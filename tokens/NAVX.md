@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::navx" }
 exchanges: [bybit, gateio, kucoin, mexc, okx]
 transfer: partial
-updated: 2026-07-18T03:52:42.302215Z
+updated: 2026-07-19T03:55:20.629737Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 
 ## Grade by exchange
 - [[bybit]]: A+
-- [[gateio]]: C+
+- [[gateio]]: B-
 - [[kucoin]]: F
 - [[mexc]]: A
 - [[okx]]: A+
@@ -33,7 +33,6 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ❌ / withdraw ❌
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
@@ -49,11 +48,9 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 - [[bitget]]: closed:sui
 - [[bybit]]: open:sui
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
-- [[htx]]: closed:navx
 - [[kucoin]]: open:sui
 - [[mexc]]: open:sui
 - [[okx]]: open:sui
-- Suspended now: [[htx]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -63,15 +60,16 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+12.29 USD** · win rate 100% (1 settled)
+2 shadow trades · realized net **+13.08 USD** · win rate 100% (2 settled)
 
+- 2026-07-18 · livescan · [[bybit]]→[[okx]] · +0.79 USD · _depth_shrink_
 - 2026-07-16 · livescan · [[bybit]]→[[okx]] · +12.29 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:52:42.302215Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:55:20.629737Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

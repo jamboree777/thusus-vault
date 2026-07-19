@@ -11,7 +11,7 @@ exchanges: [bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
 lifecycle: suspended
-updated: 2026-07-18T03:54:28.659683Z
+updated: 2026-07-19T03:57:30.999411Z
 source: nightwatch-kg
 ---
 
@@ -37,7 +37,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -45,11 +44,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[bithumb]]: open:coin,ethereum
+- [[bithumb]]: open:ethereum
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
-- [[htx]]: open:xan
 - [[kucoin]]: open:ethereum
 - [[mexc]]: open:bsc,ethereum
 
@@ -69,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:54:28.659683Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:30.999411Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

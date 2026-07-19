@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35" }
 exchanges: [bitget, gateio, kucoin, mexc]
-transfer: partial
-updated: 2026-07-18T03:53:42.401635Z
+transfer: blocked
+updated: 2026-07-19T03:56:42.377609Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # SWEAT · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[ethereum]] `0xb4b9dc…3a35` (verified_same)
@@ -32,7 +32,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ❌ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ❌ / withdraw ✅
 
@@ -49,7 +48,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bitget]]: closed:nearprotocol
 - [[bybit]]: closed:ethereum,near
 - [[gateio]]: closed:ethereum,ethereum,near,near
-- [[htx]]: open:nearsweat
 - [[kucoin]]: closed:ethereum,near
 - [[mexc]]: closed:ethereum,near
 - Suspended now: [[kucoin]]
@@ -63,7 +61,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:53:42.401635Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:56:42.377609Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, coinbase, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-07-18T03:53:55.999794Z
+updated: 2026-07-19T03:57:02.404892Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bithumb]], [[coinbase]], [[kucoin]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[coinbase]]: A+
 - [[kucoin]]: A+
 - [[mexc]]: A
@@ -35,7 +35,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
@@ -45,10 +44,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
-- [[bithumb]]: open:coin,ethereum
+- [[bithumb]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum
-- [[htx]]: open:trac
 - [[kucoin]]: open:ethereum
 - [[mexc]]: open:ethereum
 - [[upbit]]: open:ethereum
@@ -69,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:53:55.999794Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:02.404892Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

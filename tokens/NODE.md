@@ -10,7 +10,7 @@ contracts:
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-07-18T03:52:46.705126Z
+updated: 2026-07-19T03:55:27.195720Z
 source: nightwatch-kg
 ---
 
@@ -55,7 +55,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:52:46.705126Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:55:27.195720Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

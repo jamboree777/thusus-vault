@@ -9,7 +9,8 @@ contracts:
   - { chain: binance-smart-chain, address: "0xa8d3dee6671c4fdac4743a1eb1f276eabd4ba302" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-07-18T03:54:47.189173Z
+lifecycle: suspended
+updated: 2026-07-19T03:57:55.905786Z
 source: nightwatch-kg
 ---
 
@@ -34,12 +35,13 @@ Binance-smart-chain-network token; NW grade F liquidity; transfer is partial (so
 
 ## Events
 - 2026-07-18 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-07-17 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-17 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-07-17 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-17 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-07-18 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-18 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-07-18 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-18 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-07-17 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: delist scheduled (1784689200) · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc
@@ -58,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:54:47.189173Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:55.905786Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

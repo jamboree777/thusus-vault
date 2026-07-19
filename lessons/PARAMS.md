@@ -451,3 +451,22 @@ RETIRED 2026-07-18 (old density staircase — no longer read by the code):
 The activity-count variant (`NW_DYN_ACT_*`) was designed but never shipped.
 
 _Related: [[THUSUS_OPS_LOOP]] · [[quiet-size]] · [[executable-spread]] · [[five-min-settlement]] · [[repeat-haircut]] · [[expectation-gap]] · [[2026-07-17-woncarry-exit-policy-v2]] · [[2026-07-18-uniform-size-band-diversification]] · [[2026-07-18-per-chain-settle-delay]] · [[won-carry]] · [[Thusus]]_
+
+## Quartermaster R1 — two-book KOREA optimization (`nw_quartermaster_v0.py`, `nw_realloc_backtest.py`)
+
+**2026-07-18** (see [[2026-07-18-r1-optimization-korea-capital]] · docs/pm/FUND_SETUP_AND_QM.md
+W-FUND-4). R1 = bithumb-origin USDT conservation, KOREA book only. `--r1-sweep`
+grids trigger x cadence; **cadence is the dominant lever** (60m bithumb $9k, 30m $6k,
+15m $5k), trigger barely moves capital. Chosen $500/30m → KOREA $19k→$15k, bithumb
+$10k→$6k, capital_short→$0. R1 is EXEMPT from the daily transfer cap (net-zero);
+pre-emptive/immediate stay capped.
+
+| Env | Current | Default | Bounds (suggested) | Lesson | Last changed |
+|---|---|---|---|---|---|
+| `NW_QM_R1_TRIGGER_USD` | 500 | 500 | 250 – 1000 | [[2026-07-18-r1-optimization-korea-capital]] | 2026-07-18 |
+| `NW_QM_EXEC_MIN` | 30 | 60 | 15 – 60 | [[2026-07-18-r1-optimization-korea-capital]] | 2026-07-18 |
+
+- `NW_QM_EXEC_MIN=30` also requires the systemd timer at 30m (`OnCalendar=*:10/30`).
+  15m = bithumb $5k (−$1k lever, tighter jitter buffer, 96 runs/day vs 48).
+- R1 daily-cap exemption is a code property (`do_move(cap_exempt=True)` + daily_used
+  SQL excludes `'R1-batch%'`), not an env — documented here so it is not re-capped.

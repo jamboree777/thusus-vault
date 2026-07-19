@@ -4,6 +4,42 @@
   "params_url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/PARAMS.md",
   "lessons": [
     {
+      "slug": "2026-07-19-final-unified-backsolve",
+      "date": "2026-07-19",
+      "trigger": "Pipeline unification went LIVE (triggers = livescan + woncarry only; hedge = step-3 attachment; hedged engine retired; woncarry private ledger retired -> book-gating; upbit activated with $2,000 seed). Robin ordered the definitive 2-Book capital back-solve on the clean single-ledger structure as the investor-negotiation candidate numbers.",
+      "problem": "Yesterday's korea number ($15k R1-optimized) was computed on a smaller history. Re-running on the full clean history returned KOREA $24k (+$2k upbit seed) -- capital went UP, which looks like a regression unless honestly explained.",
+      "change": "Ran tools/nw_realloc_backtest.py --apply-r1 --write-alloc --write-r1-ledger at the LIVE config ($500 trigger x 30m cadence, cap-exempt R1, cross-engine dedup, static global book). Re-seeded the upbit $2,000 forward-looking FLOOR after the solver run (no history -> solver deletes it). Stamped notes 'final-unified-backsolve 2026-07-19, provisional'. Fixed global capital_short $104.40 (livescan HOME binance buy breached the $1,000 line) by bumping global binance to $2,000. Full-row backups to Chuncheon audit_logs before every write.",
+      "expected_effect": "Live /arb/thusus/fund: TOTAL $37,000 (korea $26k + global $11k), both books invariant_ok, books_reconcile_ok, capital_short $0. Realized to date $441.02 -> implied realized ROI 1.19% on the back-solved initials.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": "lessons/2026-07-18-r1-optimization-korea-capital.md",
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-19-final-unified-backsolve.md"
+    },
+    {
+      "slug": "2026-07-18-woncarry-per-trade-chain-resolution",
+      "date": "2026-07-18",
+      "trigger": "Robin flagged (2026-07-18): the won-carry engine booked trades — especially bithumb — WITHOUT resolving or recording WHICH transfer chain the token moves on. A chainless trade cannot be executed: unknown route, unknown withdrawal fee, unknown per-chain deposit/withdraw status. Meanwhile the data had arrived — the auth-wallet collector now writes 512 real per-network rows for bithumb (ethereum, solana, base, bsc, arbitrum, kaia, tron, ...) into nw_exchange_contracts — but the engine never picked a specific chain per trade nor stored one (SELECT route_chain errored; the column did not exist).",
+      "problem": "Chainless bookings. The engine priced an edge and booked a round-turn without committing to a specific, open, shared transfer chain — so a booked trade was not actually executable and its withdrawal fee was a size-fraction estimate, not a real per-chain fee.",
+      "change": "Resolve a SPECIFIC transfer chain per trade at entry by intersecting the buy-venue's OPEN (wd_enabled) chains with the sell-venue's OPEN (dep_enabled) chains for that base, canonicalized with the same _canon_chain the roundturn resolver uses, and picking the cheapest open shared chain — REUSING the existing _open_shared_chains / _token_wd_fee_pct resolver (svc/worker/nw_woncarry_shadow.py:1405 / :1541); the resolved chain also drives the real per-chain wd-fee. If no open shared chain resolves → REJECT (log 'no_resolvable_chain'), no booking (both the main entry loop and the forced-exit path). Record the chain: idempotent route_chain TEXT column on nw_woncarry_shadow, populated on every entry + stamped into assumptions.route_chain. Prefer real per-chain rows over the coexisting 'coin' sentinel: drop the coin sentinel from a venue's set when it also has real chains (bithumb writes both 500 coin sentinels + 512 real rows), so real chains win and a fake coin<->coin match can never book. Display: /thusus shows 'via {chain}' on the woncarry trade row and in the expanded TimelineStrip; null route_chain (old rows) shows nothing. API: /arb/thusus/book passes route_chain through (column-guarded).",
+      "expected_effect": "No more chainless woncarry bookings — every new entry carries a concrete open shared transfer chain (recorded + displayed). Some bithumb trades correctly drop as 'no_resolvable_chain' until their chains line up on both venues (honest). Withdrawal fees are priced on the actual resolved chain, tightening the fee model. Robin can SEE the chain each trade uses in the trade log.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-woncarry-per-trade-chain-resolution.md"
+    },
+    {
+      "slug": "2026-07-18-woncarry-korea-usdt-capital-model",
+      "date": "2026-07-18",
+      "trigger": "Code audit + Robin's definitive correction (2026-07-18): the won-carry engine ran on an env-seeded krw_pool ($3,000) that represented KRW cash the fund does NOT hold at any Korean exchange (bithumb Fund Wallet showed $0). 'discount' trades assumed that phantom KRW as their capital source, so the derived pools and reported P&L were funded by capital that did not exist. Separately, _derive_fund_state summed the ENTIRE nw_woncarry_shadow table with no time/ruleset window and the table had no retention DELETE, so stale/old-ruleset rows permanently poisoned the pools.",
+      "problem": "Phantom capital source + unbounded ledger. (a) Korea working capital was never allocated — modeling it as a phantom KRW seed made discount trades non-real. (b) The fund-state derivation had no epoch window and no retention, so pre-ruleset rows corrupted the pools every pass.",
+      "change": "Korea working capital is now a REAL USDT balance PRE-POSITIONED at bithumb (held as USDT → no FX risk, converted to KRW only at trade time): NW_WC_BITHUMB_USDT_ALLOC=1500 (drawn from the $10k fund; replaces the phantom NW_WONCARRY_FUND_KRW_USD=3000, now defaulted to the alloc; NW_WONCARRY_FUND_ABROAD_USD 7000→8500 so total stays $10k). Discount is a real, single-transfer-leg, USDT-funded round-trip capped by the bithumb-USDT balance; when exhausted the engine logs capital_short (replenishment is a Quartermaster batch USDT top-up abroad→bithumb) instead of a per-trade bridge. The bithumb-USDT balance is surfaced in /arb/thusus/fund so the Fund Wallet shows bithumb holding USDT. Ledger honesty: NW_WC_LEDGER_SINCE (default = Thusus fund epoch 2026-07-15T07:09Z; set to the 2026-07-18 cutover on Chuncheon so pre-model rows do not poison the new pools) windows _derive_fund_state; NW_WC_RETENTION_DAYS=30 adds an hourly retention DELETE mirroring the candidates table.",
+      "expected_effect": "Reported woncarry pools reflect only real, allocated capital ($1,500 bithumb USDT + $8,500 offshore = $10k). Discount trades are executable and honestly funded (no phantom KRW); when Korea USDT runs out the engine emits capital_short so QM/Robin see Korea needs a top-up rather than silently trading against capital that isn't there. Stale/pre-epoch rows can no longer corrupt the derived pools.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": "[[2026-07-16-woncarry-blind-instrumentation]]",
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-woncarry-korea-usdt-capital-model.md"
+    },
+    {
       "slug": "2026-07-18-uniform-size-band-diversification",
       "date": "2026-07-18",
       "trigger": "~$500 Korean entries exploding + KRW pool overshoot: the won-carry KRW pool ran to 35.9% of the fund against a 30% cap, driven partly by oversized single entries (Korea's per-entry cap was $600 vs the global $350). Big trades were measured eroding their own capture 8–22% via footprint.",
@@ -16,6 +52,42 @@
       "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-uniform-size-band-diversification.md"
     },
     {
+      "slug": "2026-07-18-two-book-fund-split",
+      "date": "2026-07-18",
+      "trigger": "Robin (W-FUND-3): split the paper fund into TWO separate books — KOREA (any trade touching a Korean venue) vs GLOBAL — keeping capital+operation separate going forward. Plus: kill Big-Spike (unneeded watchlist trigger, merge its rows into livescan at display level), fix chain canonicalization in the transfer gate, and re-verdict the flagged legacy won-carry rows.",
+      "problem": "The fund was reconstructed as ONE flat book. But the KOREA flows (won-carry + hedged korea_discount, R1 bithumb-origin conservation circulates them) and the GLOBAL flows (livescan + hedged global_global) have opposite capital dynamics: floor/refill churn HELPS Korea (R1 recycles bithumb capital) but HURTS the global book ($14k churned vs $10k static, measured). One book hid this. Separately: the transfer gate matched shared chains on RAW chain strings, so venues spelling the same chain differently (ERC20 vs ethereum, gobob vs bob, merlin network vs merlin) were falsely rejected as no_common_network — which had also let some closed-route won-carry rows book phantom P&L.",
+      "change": "1) /arb/thusus/fund reconstructs TWO books with per-(book,venue) sub-balances (binance holds korea bithumb-origin USDT AND global USDT as separate lines; R1 transfers touch only korea sub-balances), per-book invariant + capital_short, plus top-level `books`+`combined` blocks; legacy fields = combined. nw_fund_initial_alloc + nw_qm_transfers gain a `book` column. 2) QM scoped: R1+pre-emptive+immediate-korea = korea (the only circulated book); global gets ONLY the $40 immediate emergency floor; MODE 4 working-floor global circulation OFF by default (NW_QM_GLOBAL_CIRCULATION_ENABLED), legacy working-floor rows backfilled book='retired' (not replayed). 3) evaluate_transfer_gate canonicalizes chains on BOTH sides via _canon_chain + a conservative gate alias table before matching; missing aliases (gobob->bob, merlin network->merlin, nearprotocol->near) added to the shared _CHAIN_ALIASES source of truth. 4) Big-Spike worker (nw-bigarb-sniper + watchlist) stopped+disabled on Chuncheon; its 9 rows keep their DB tag but merge into livescan at the API display layer. 5) Re-ran the won-carry resolver (canon-aware) on the 8 flagged rows: 6 still hard-fail (closed route) → phantom purge (backed up first), 2 (MERL, BOB) become PASS via aliases → kept.",
+      "expected_effect": "Live /arb/thusus/fund: books.korea invariant_ok=true capital_short=$0 ($16,000), books.global invariant_ok=true capital_short=$0 ($10,000), combined invariant_ok=true ($26,000). /arb/thusus/book: no 'bigspike' strategy anywhere (by_strategy/trades/days), engines.bigspike={retired:true}. Gate: livescan+hedged pass clean in journalctl after canon deploy; won-carry MERL/BOB now route (merlin/bob), 6 phantoms (BFC×3, G, PUMPBTC×2) removed. KOREA back-solve came out $16k not the provisional $9k (won-carry premium legs need working capital at global venues + R1 ledger only timestamped from 07-17 so bithumb drains to -$6.3k first) — honest number written; Robin may re-interleave R1 from epoch to shrink it toward $9k.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-two-book-fund-split.md"
+    },
+    {
+      "slug": "2026-07-18-r1-reallocation-required-capital",
+      "date": "2026-07-18",
+      "trigger": "W-FUND-2 (Robin): optimize the fund's required capital under the R1 reallocation and make the Quartermaster actually execute it. Plus Robin's honesty correction — DEDUPLICATE cross-engine duplicate opportunities in the back-solve so one gap = one capital draw, not two.",
+      "problem": "The honest back-solved fund (W-FUND-1) sized each venue at its deepest cumulative deficit assuming NO reallocation — bithumb dominated (~$21k) because hedged + woncarry-discount buy at bithumb and ship offshore, and the drained USDT never came back. Fully-static required capital had grown to ~$44k. The QM executor existed but only did a flat bithumb top-up + stats-floor refills, was BLIND to the woncarry/hedged Korea-leg buys (only read nw_paper_trades), and did not implement Robin's chosen R1 conservation policy.",
+      "change": "Part 1 — set the OPTIMIZED initial allocation to the R1 back-solve (bithumb-origin conservation, $500 trigger, NO 50% clause): inject R1's transfers into the replay, ceil each venue's deepest deficit to $1k. Cross-engine opportunity DEDUP added (group by base+buy_ex+sell_ex within ~10min, keep the covered/hedged execution) and applied IDENTICALLY in the /arb/thusus/fund reconstruction so the live replay can never double-draw. To make the R1-sized allocation coherent in a chronological replay, populated nw_qm_transfers with the R1 conservation LEDGER — net-zero capital returns of genuinely-accumulated bithumb-origin USDT at the real trigger timestamps (tools/nw_realloc_backtest.py --apply-r1 --write-alloc --write-r1-ledger). Part 2 — QM executor now runs R1 in 3 modes on the unified fund: R1 BATCHING (event, ≥$500 → netted return to bithumb), PRE-EMPTIVE (once/UTC-day, forecast-driven Korea top-up from offshore surplus), IMMEDIATE ($40 next-trade floor safety). Fixed the blind spot: _venue_stats now unions buy-venue consumption across all four engines. Prefers arb-as-rebalance.",
+      "expected_effect": "Required capital: $44k fully-static → $29k with R1 running (−$14k, ~33%), bithumb $21k → $3k. Live /arb/thusus/fund: initial_fund_total $29,000, invariant_ok=true, capital_short $17,156 → $0 (R1 ledger keeps bithumb funded, reconstructed $3,695), recent_transfers reflect R1 batching. QM going forward: R1 correctly fires only on ≥$500 fresh bithumb-origin accumulation (observed $291<trigger → no fire); pre-emptive recycles idle gateio surplus into bithumb runway (observed $2,500 gateio→bithumb); immediate armed and quiescent (no venue below $40 = healthy). capital_short only surfaces when genuinely uncoverable — never fabricated.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-r1-reallocation-required-capital.md"
+    },
+    {
+      "slug": "2026-07-18-r1-optimization-korea-capital",
+      "date": "2026-07-18",
+      "trigger": "Robin directive: '최초 펀드가 작을수록 수익률이 높아지기 때문에 R1을 잘 만들어 줘야해' — smaller initial fund = higher ROI; R1 (bithumb-origin USDT conservation) is the only lever. The two-book KOREA book carried bithumb $10,000 with a live capital_short of $1,868.78 because the R1 conservation ledger in nw_qm_transfers stopped at the 07-18 backfill while trades kept draining bithumb, and the QM ran on a ~60min (hourly timer) cadence so returns lagged.",
+      "problem": "KOREA required capital was oversized and still short. (a) Cadence: the QM executor effectively ran hourly, so R1 returns landed up to ~60min after bithumb-origin USDT accrued — bithumb was sized for the full lag. (b) Truncated ledger: the static back-solve required extra bithumb capital to bridge the gap the truncated R1 ledger left, yet still went short as live trades grew. (c) Back-solve artifact: R1 returns were distributed proportional to seeded balance, so in the zero-start book back-solve a venue could 'send' more than it received (binance showed a $3,976 phantom deficit), and historical pre-emptive/immediate global->bithumb top-ups were double-counted (R1 returned USDT those moves had already conserved).",
+      "change": "R1 is now KOREA-book aware and cadence-aware. tools/nw_realloc_backtest.py --r1-sweep grids trigger($250/$500/$1000) x cadence(15/30/60m) on the korea trade subset with a forward-interleaved R1 ledger. Three corrections make the zero-start book back-solve honest: (1) each global venue returns EXACTLY its own accumulated bithumb-origin USDT (accum[venue]); (2) returns fire only at UTC-aligned cadence checkpoints (QM runs once per NW_QM_EXEC_MIN); (3) a historical pre-emptive/immediate global->bithumb move CONSUMES the source accumulator so R1 does not double-return it. Chosen config: NW_QM_R1_TRIGGER_USD=500 + NW_QM_EXEC_MIN=30 (timer *:10/30). Applied: korea nw_fund_initial_alloc rewritten to $15,000 (book='korea' only, global untouched), 57-row forward R1 conservation ledger written (book='korea', 'r1-sim backfill', net-zero, fee $9.30). QM MODE 1 R1 batching made EXEMPT from the daily transfer cap (net-zero conservation; pre-emptive/immediate stay capped; single-move MAX_TRANSFER_USD rail retained). Prior korea alloc rows and R1 backfill rows backed up to audit_logs before delete.",
+      "expected_effect": "KOREA required capital $19,000 -> $15,000, bithumb $10,000 -> $6,000, capital_short $1,868.78 -> $0, invariant_ok true; GLOBAL book untouched ($10,000). Fee drag $9.30 = 3.2% of korea realized (<< 10%). Cadence is the dominant lever (60m bithumb $9k, 30m $6k, 15m $5k); trigger barely moves capital. The residual ~$8k offshore korea capital is the seed that pre-emptive/immediate top-ups fronted before accrual — it compresses as forward R1 runs; netting those historical moves out (not done — avoids rewriting executor history) would reach a theoretical ~$11k floor.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": "[[2026-07-18-two-book-fund-split]]",
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-r1-optimization-korea-capital.md"
+    },
+    {
       "slug": "2026-07-18-quartermaster-wallet-type-pools",
       "date": "2026-07-18",
       "trigger": "strategy #4 capital plan — wallet-type pools. Covered Arb (strategy #4) needs more than spot working capital: it locks collateral for margin shorts and margin for perp hedges, and Robin is adding an external ₩7.5M Korean lending deposit. The Quartermaster Planner (shadow) was modelling only one fungible spot pool per venue, so it could not tell locked hedge capital from transferable working capital, nor plan how that capital gets seated at the hedge venues.",
@@ -26,6 +98,18 @@
       "status": "active",
       "supersedes": null,
       "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-quartermaster-wallet-type-pools.md"
+    },
+    {
+      "slug": "2026-07-18-quartermaster-capital-movement-executor",
+      "date": "2026-07-18",
+      "trigger": "Robin: without simulating capital logistics (moving USDT to replenish exchanges as trades drain them), the fund is incoherent and the site is just an arb-info provider, not a fund. Live evidence: /arb/thusus/fund showed treasury_remaining=$0, bithumb (Korea) drained to $0 (venue_net_flow −$4,757) with NO replenishment, while binance hoarded a $4,280 surplus (net_flow +$3,475). The Quartermaster was a PLANNER only (W-QM-1): it produced rebalance plans but never MOVED the paper capital.",
+      "problem": "A planner that never executes cannot make the fund coherent. Balances only ever moved via trades (buy drains a venue, sell credits another) and an automatic per-trade treasury topup; once the treasury hit $0 there was no mechanism to replenish a drained venue, so Korea's bithumb USDT allocation bled to zero and stayed there and the fund's distribution drifted into an incoherent state that no plan could fix. Net fund value did not reflect the cost of the capital logistics that a real fund must pay, so the shadow fund was indistinguishable from an arb-info feed.",
+      "change": "Quartermaster v0.3 (nw_quartermaster_v0.py) adds a capital-movement EXECUTOR (paper) + a new nw_qm_transfers table, and the /arb/thusus/fund reconstruction (stats.py) now replays those transfers. (1) nw_qm_transfers(id, ts, from_venue, to_venue, amount_usd, chain, fee_usd, method['transfer'|'arb'], reason, epoch), 30d retention — the record of ACTUAL paper capital moves. (2) run_executor: reads the current reconstructed balances, finds deficits (below working floor; SPECIAL-CASE bithumb Korea USDT below NW_WC_BITHUMB_USDT_ALLOC, replenished FIRST) and surpluses (above cap), then EXECUTES rebalances — PREFER arb-as-rebalance when a live counter-direction arb is aligned (source=cheap/buy, deficit=rich/sell; reuses the v0.1 arb index; method='arb', fee_usd NEGATIVE = net gain), ELSE a plain USDT transfer on the cheapest OPEN chain from the transfer map (method='transfer', real fee). Netting/min-size ($25) amortizes fixed fees; single-move cap $2,500, rolling-24h cap $6,000; batches at most once per NW_QM_EXEC_MIN=60m (cadence-gated on max(ts) in nw_qm_transfers so it decouples from the planner cadence). Honest: a deficit surplus (+ treasury) can't cover is logged capital_short — NO fabricated transfer. (3) Fund reconstruction interleaves nw_qm_transfers as a 3rd event kind (rank 2) in the chronological replay: a transfer at T moves amount from→to and charges fee out of the destination, clamped so no venue/treasury goes impossibly negative (short moves apply pro-rata). Invariant updated to treasury + Σbalances + in_flight == 10000 + realized − Σ(applied transfer fees). accounting gains quartermaster_logistics{} + net_fund_value_usd = gross capture − logistics; response gains recent_transfers[] (newest-first executed moves for the frontend log) + a dedicated /arb/thusus/transfers history endpoint. Timer 6h→hourly. Still SHADOW/PAPER — no keys, no execution.",
+      "expected_effect": "Drained venues actually replenish in the paper model and the fund stays coherent. First live executor pass moves capital from the binance surplus to the starved venues, Korea bithumb FIRST: binance→bithumb $1,500 (Korea USDT floor restored from $0), then the highest missed-opportunity floor deficit (bybit, 12 live opps in 24h) funded from remaining binance + bitget surplus (~$858), with bybit's remainder + gateio + mexc honestly logged capital_short (surplus exhausted — the fund is genuinely capital-constrained until Robin's ₩7.5M / more treasury lands). After replay, /arb/thusus/fund shows bithumb and bybit balances reflecting the transfers, invariant_ok=true (now netting the logistics fee), and net_fund_value_usd = capture − logistics. As the executor runs hourly, subsequent Korea trades draw from the rebalanced capital instead of the empty treasury, so required_capital (treasury topups) falls over time — logistics becomes the measurable second profit source. The caps (NW_QM_EXEC_MIN, single/daily) and MIN_TRANSFER are seed values to be tuned from the observed replenish cadence and fee drag.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-quartermaster-capital-movement-executor.md"
     },
     {
       "slug": "2026-07-18-per-chain-settle-delay",
@@ -52,6 +136,30 @@
       "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-hedged-arb-instrument-selection.md"
     },
     {
+      "slug": "2026-07-18-full-measured-slippage",
+      "date": "2026-07-18",
+      "trigger": "Robin directive (paper fund honesty, 2026-07-18): apply measured slippage at 100%, not 90%, in ALL paper engines — including the hedge legs of the covered engine.",
+      "problem": "Every paper engine (livescan/big-spike, won-carry, hedged/covered-arb) discounted the raw book-walk slip it charged itself: only SLIPPAGE_APPLY (90%) of the measured slip was actually applied to each fill, on the theory that refills / hidden liquidity absorb the rest. That is an assumption, not a measurement — and it is the SAME assumption on every leg of every engine, including the hedge/margin-perp entry fill in the covered engine, which had never been separately re-examined. Charging less than the full measured slip flatters every engine's paper capture by construction.",
+      "change": "SLIPPAGE_APPLY (env NW_PAPER_SLIPPAGE_APPLY, defined once in nw_paper_arb.py) default changed 0.9 -> 1.0. All three engines share this single constant via the imported _apply_buy_slip / _apply_sell_slip helpers, so the change is uniform: livescan/big-spike buy+sell legs, won-carry buy+sell legs (incl. the v2 size-search grid, which reuses the SAME constant/functions — the '80% of the measured slip' language in its docstrings was stale prose describing the same SLIPPAGE_APPLY, not a second independent factor), and the hedged engine's buy leg AND hedge leg (margin short / perp short entry fill) via _apply_buy_slip / _apply_sell_slip on hedge_bids. Chuncheon .env now sets NW_PAPER_SLIPPAGE_APPLY=1.0 explicitly (defense-in-depth alongside the code default). Every engine's per-trade assumptions JSONB now also stamps slippage_apply (won-carry and hedged previously computed with the constant but never recorded it; livescan already did) so any row is attributable to which value was live at its entry.",
+      "expected_effect": "Fewer marginal entries clear the net gate (a wider effective slip cost eats into thin-margin trades first), and realized vs. expected capture on trades that DO enter becomes more honest — no more crediting 10% of measured slip back to the fund for free. Should show as a modest ENTRY RATE drop across all three engines with no change in win/loss classification logic, and (for engines whose fill quality was previously flattered) a downward shift in realized net% distribution toward the true economics.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-full-measured-slippage.md"
+    },
+    {
+      "slug": "2026-07-18-dynamic-sizing-simplified",
+      "date": "2026-07-18",
+      "trigger": "capital-pressure never fired in the abundant-capital paper env → replaced the whole density staircase with a single adaptive-threshold hill-climb on trade count. Live logs showed the pressure ratio was either ≤1 for hours (idle $10k treasury) or, once the fund accounting drained, pinned at stage 6 / 0.8% blocking every entry — an erratic, capital-coupled signal that never expressed the simple intent 'if we're trading a lot, ask for more edge.'",
+      "problem": "The prior design had two coupled dimensions (capital pressure + activity-count staircase), a 6-notch ladder, a size-reduction stage, and asymmetric hysteresis — a lot of moving parts whose headline signal (pressure = Σsize ÷ capital) does not work in a paper fund where capital is either abundant or mis-accounted. Robin: radically simpler. One lever.",
+      "change": "Rewrote nw_dynamic_sizing.py to a single per-engine ADAPTIVE NET THRESHOLD that hill-climbs on the engine's own ENTRY count. State persists in a new table nw_dyn_threshold_state(engine, threshold_pct, …); read at pass start. Every NW_DYN_WINDOW_MIN (60) min compare entries in the trailing window vs the prior equal-length window: count rose beyond ±NW_DYN_DEADBAND (1) → threshold += NW_DYN_STEP_PCT (0.05%); count fell → −= step; ~equal → hold. Bounded [engine_base_gate .. base + NW_DYN_MAX_LIFT (1.5%)], never below base (livescan 0.5, bigspike 3.0, woncarry 0.5, hedged 0.5). The effective entry net-gate = this one adaptive number. SIZE band stays fixed $40-300 — untouched. DELETED: capital-pressure, the fund fetch, activity notches, the size-reduction stage, per-point resolve, hysteresis. Every trade stamps assumptions.dyn = {threshold_pct, window_count, prev_window_count, direction, step, engine, base_gate, window_min, status}. Applied to all 4 engines, each with its own row + base floor.",
+      "expected_effect": "Self-limiting hurdle: more trades → the net gate creeps up 0.05%/hr until the trade count stops rising; fewer trades → it creeps back toward base. One number, one step, persisted across restarts. Also fixes the missing-stamp bug — assumptions.dyn is now populated on every new entry (verified on a fresh trade post-deploy) instead of silently null. 7-day review: did the hill-climb hold trade count near a stable band without starving good edges, and is the stamped threshold moving sensibly with activity?",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": "[[2026-07-18-dynamic-sizing]]",
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-dynamic-sizing-simplified.md"
+    },
+    {
       "slug": "2026-07-18-dynamic-sizing",
       "date": "2026-07-18",
       "trigger": "opportunity density > capital → per-venue adaptive sizing. Day-one shadow showed good opportunities concentrating on a few capital-consumption points (gateio/bithumb buys, the tiny KRW pool, the $75 gate-futures hedge pool) while the fund as a whole sat idle — a global average hid the local starvation the Quartermaster had already measured.",
@@ -59,9 +167,21 @@
       "change": "New shared layer nw_dynamic_sizing.py (NW_DYN_*). Per pass, per capital-consumption POINT (buy exchange for livescan/bigspike; KRW/abroad pool for woncarry; buy exchange AND hedge pool for hedged, taking the max), compute pressure = Σ(candidate target size at the point) ÷ available capital, then walk a 2-stage staircase: STAGE1 raises the net threshold 0.5→0.6→0.7→0.8%, and only once 0.8% is exhausted STAGE2 lowers max size $300→$270→$240→$210 (floor −30%, min $40 unchanged). Relaxation is the same ladder in reverse (restore size before dropping threshold); hysteresis is asymmetric — escalate fast to protect quality, relax one notch per pass behind a DOWN band. A slack point keeps base; only bottlenecked points tighten.",
       "expected_effect": "Higher risk-adjusted return per unit of the SAME $10k fund: the scarcest capital is spent on 0.8% A-grade edges instead of 0.5% marginal ones, and only over-subscribed A-grade points diversify into smaller tickets. Each trade stamps assumptions.dyn (threshold, max, pressure, stage, point, cap_source) so 7-day attribution can test whether the density regime actually lifted Sharpe. At the STAGE2 floor with pressure still >1 the overflow is skipped and logged as capital_short — direct evidence for a fund-size / rotation-speed increase. First live passes: gate-futures pool ($75) and the KRW pool ($19) hit the floor immediately while the bybit hedge pool ($300, pressure 4) held at 0.8%/$300 — the per-venue differentiation the design is for.",
       "review_after": "2026-07-25",
-      "status": "active",
+      "status": "superseded",
       "supersedes": null,
       "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-dynamic-sizing.md"
+    },
+    {
+      "slug": "2026-07-18-bigspike-min-spike-floor",
+      "date": "2026-07-18",
+      "trigger": "bigspike degenerated into a livescan clone — no minimum-spike gate; it entered at the same 0.5% net gate as livescan (imports MIN_NET_PCT) with only a loose MAX spread cap (10%) and no MINIMUM, so it fired on small gaps instead of rare large dislocations.",
+      "problem": "Strategy-identity collapse — an engine whose defining purpose (patiently watch, enter ONLY on rare LARGE cross-venue dislocations) was never actually implemented, so it produced the same trades as livescan and added no distinct edge.",
+      "change": "New env NW_BIGSPIKE_MIN_NET_PCT=3.0. bigspike's effective net gate is now max(NW_BIGSPIKE_MIN_NET_PCT, MIN_NET_PCT+repeat_haircut, dynamic_threshold) — it enters ONLY when expected NET ≥ 3% (dynamic sizing may raise it further under pressure, never lower it below 3%). Distinct 'below_min_spike' reject outcome + per-pass skipped_min_spike counter (logged in the [sniper pass] line + heartbeat). Everything else unchanged: watchlist source, 10% MAX spread cap, 0.5 size factor, dynamic sizing, per-chain settle, corrected flat-USD wd-fee. Retroactive: TODAY's (UTC-day) bigspike log recomputed at the 3% floor — 5 of 6 removed (entered 1.3–2.65% net, i.e. livescan-clone gaps), 1 survivor ≥3%.",
+      "expected_effect": "bigspike becomes genuinely distinct: rare, large, high-conviction entries. Most passes now enter nothing (correct — big spikes are rare); the skipped_min_spike counter makes the selectivity visible. Kept trades are only the ≥3% dislocations.",
+      "review_after": "2026-07-25",
+      "status": "active",
+      "supersedes": null,
+      "url": "https://github.com/jamboree777/thusus-vault/blob/main/lessons/2026-07-18-bigspike-min-spike-floor.md"
     },
     {
       "slug": "2026-07-17-woncarry-exit-policy-v2",
@@ -125,6 +245,76 @@
     }
   ],
   "params": [
+    {
+      "name": "NW_QM_R1_TRIGGER_USD",
+      "current": "500",
+      "lesson": "2026-07-18-r1-reallocation-required-capital"
+    },
+    {
+      "name": "NW_QM_NEXT_TRADE_FLOOR_USD",
+      "current": "40",
+      "lesson": "2026-07-18-r1-reallocation-required-capital"
+    },
+    {
+      "name": "NW_QM_PREEMPTIVE_ENABLED",
+      "current": "1",
+      "lesson": "2026-07-18-r1-reallocation-required-capital"
+    },
+    {
+      "name": "NW_QM_PREEMPTIVE_LOOKBACK_DAYS",
+      "current": "3",
+      "lesson": "2026-07-18-r1-reallocation-required-capital"
+    },
+    {
+      "name": "NW_QM_PREEMPTIVE_COVER_DAYS",
+      "current": "1.0",
+      "lesson": "2026-07-18-r1-reallocation-required-capital"
+    },
+    {
+      "name": "NW_FUND_DEDUP_WINDOW_MIN",
+      "current": "10",
+      "lesson": "2026-07-18-r1-reallocation-required-capital"
+    },
+    {
+      "name": "NW_QM_EXEC_MIN",
+      "current": "60",
+      "lesson": "2026-07-18-quartermaster-capital-movement-executor"
+    },
+    {
+      "name": "NW_QM_MIN_TRANSFER_USD",
+      "current": "25",
+      "lesson": "2026-07-18-quartermaster-capital-movement-executor"
+    },
+    {
+      "name": "NW_QM_MAX_TRANSFER_USD",
+      "current": "2500",
+      "lesson": "2026-07-18-quartermaster-capital-movement-executor"
+    },
+    {
+      "name": "NW_QM_DAILY_TRANSFER_CAP_USD",
+      "current": "6000",
+      "lesson": "2026-07-18-quartermaster-capital-movement-executor"
+    },
+    {
+      "name": "NW_QM_EXEC_ENABLED",
+      "current": "1",
+      "lesson": "2026-07-18-quartermaster-capital-movement-executor"
+    },
+    {
+      "name": "NW_QM_TRANSFER_RETENTION_DAYS",
+      "current": "30",
+      "lesson": "2026-07-18-quartermaster-capital-movement-executor"
+    },
+    {
+      "name": "NW_QM_GLOBAL_CIRCULATION_ENABLED",
+      "current": "0",
+      "lesson": "2026-07-18-two-book-fund-split"
+    },
+    {
+      "name": "NW_WC_BITHUMB_USDT_ALLOC` (Korea floor; shared w/ fund)",
+      "current": "1500",
+      "lesson": "2026-07-18-quartermaster-capital-movement-executor"
+    },
     {
       "name": "NW_QM_HEDGE_HUB_VENUE",
       "current": "bybit",
@@ -352,8 +542,8 @@
     },
     {
       "name": "NW_PAPER_SLIPPAGE_APPLY",
-      "current": "0.9",
-      "lesson": null
+      "current": "1.0",
+      "lesson": "2026-07-18-full-measured-slippage"
     },
     {
       "name": "NW_PAPER_REBATE_SHARE",
@@ -367,12 +557,12 @@
     },
     {
       "name": "NW_PAPER_WD_FEE_FALLBACK_PCT",
-      "current": "0.1",
+      "current": "REMOVED",
       "lesson": null
     },
     {
       "name": "NW_PAPER_WD_FEE_FALLBACK_USD",
-      "current": "0.10",
+      "current": "1.0",
       "lesson": null
     },
     {
@@ -511,6 +701,21 @@
       "lesson": null
     },
     {
+      "name": "NW_DYN_FUND_FAIL_TTL_SEC",
+      "current": "10",
+      "lesson": null
+    },
+    {
+      "name": "NW_DYN_NOFUND_CAP_USD",
+      "current": "40 (=MIN_SIZE)",
+      "lesson": null
+    },
+    {
+      "name": "NW_BIGSPIKE_MIN_NET_PCT",
+      "current": "3.0",
+      "lesson": "2026-07-18-bigspike-min-spike-floor"
+    },
+    {
       "name": "NW_BIGSPIKE_MAX_SPREAD_PCT",
       "current": "10.0",
       "lesson": "2026-07-16-spread-drift-cap"
@@ -626,14 +831,29 @@
       "lesson": null
     },
     {
+      "name": "NW_WC_BITHUMB_USDT_ALLOC",
+      "current": "1500",
+      "lesson": "2026-07-18-woncarry-korea-usdt-capital-model"
+    },
+    {
       "name": "NW_WONCARRY_FUND_KRW_USD",
-      "current": "3000",
-      "lesson": null
+      "current": "1500",
+      "lesson": "2026-07-18-woncarry-korea-usdt-capital-model"
     },
     {
       "name": "NW_WONCARRY_FUND_ABROAD_USD",
-      "current": "7000",
-      "lesson": null
+      "current": "8500",
+      "lesson": "2026-07-18-woncarry-korea-usdt-capital-model"
+    },
+    {
+      "name": "NW_WC_LEDGER_SINCE",
+      "current": "2026-07-17T20:29:00Z",
+      "lesson": "2026-07-18-woncarry-korea-usdt-capital-model"
+    },
+    {
+      "name": "NW_WC_RETENTION_DAYS",
+      "current": "30",
+      "lesson": "2026-07-18-woncarry-korea-usdt-capital-model"
     },
     {
       "name": "NW_WONCARRY_POLL_SEC",
@@ -648,82 +868,27 @@
     {
       "name": "NW_DYN_ENABLED",
       "current": "1",
-      "lesson": "2026-07-18-dynamic-sizing"
+      "lesson": "2026-07-18-dynamic-sizing-simplified"
     },
     {
-      "name": "NW_DYN_T1",
-      "current": "1.0",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_T2",
-      "current": "2.0",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_T3",
-      "current": "3.0",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_S1",
-      "current": "4.0",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_S2",
-      "current": "6.0",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_S3",
-      "current": "8.0",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_UP",
-      "current": "1.1",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_DOWN",
-      "current": "0.9",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_THRESH_STEP_PCT",
-      "current": "0.1",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_THRESH_CAP_PCT",
-      "current": "0.8",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_SIZE_STEP_FRAC",
-      "current": "0.10",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_SIZE_FLOOR_FRAC",
-      "current": "0.70",
-      "lesson": "2026-07-18-dynamic-sizing"
-    },
-    {
-      "name": "NW_DYN_MAX_SIZE_USD",
-      "current": "300",
-      "lesson": null
-    },
-    {
-      "name": "NW_DYN_MIN_SIZE_USD",
-      "current": "40",
-      "lesson": null
-    },
-    {
-      "name": "NW_DYN_FUND_TTL_SEC",
+      "name": "NW_DYN_WINDOW_MIN",
       "current": "60",
-      "lesson": null
+      "lesson": "2026-07-18-dynamic-sizing-simplified"
+    },
+    {
+      "name": "NW_DYN_STEP_PCT",
+      "current": "0.05",
+      "lesson": "2026-07-18-dynamic-sizing-simplified"
+    },
+    {
+      "name": "NW_DYN_MAX_LIFT",
+      "current": "1.5",
+      "lesson": "2026-07-18-dynamic-sizing-simplified"
+    },
+    {
+      "name": "NW_DYN_DEADBAND",
+      "current": "1",
+      "lesson": "2026-07-18-dynamic-sizing-simplified"
     }
   ]
 }

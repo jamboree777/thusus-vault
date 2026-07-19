@@ -3,13 +3,13 @@ token: XPRT
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: B
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xd454b59f16d42667be2fa55292d16647e27f40c4" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-07-18T03:54:32.991740Z
+updated: 2026-07-19T03:57:35.404944Z
 source: nightwatch-kg
 ---
 
@@ -24,11 +24,10 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: B+
-- [[kucoin]]: B
+- [[kucoin]]: B+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ❌
 
@@ -39,7 +38,6 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - [[gateio]]: open:xprt,xprt
-- [[htx]]: closed:xprt
 - [[kucoin]]: open:xprt
 - [[mexc]]: closed:xprt
 - Suspended now: [[mexc]]
@@ -53,7 +51,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:54:32.991740Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:35.404944Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

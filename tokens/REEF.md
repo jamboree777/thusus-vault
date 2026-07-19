@@ -2,21 +2,21 @@
 token: REEF
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: B+
+nw_grade: A-
+nw_grade_worst: C
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xfe3e6a25e6b192a42a44ecddcd13796471735acf" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-18T03:53:21.570346Z
+updated: 2026-07-19T03:56:14.090789Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# REEF · NW Grade **B+**
+# REEF · NW Grade **A-**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xfe3e6a…5acf` (partial)
@@ -24,13 +24,12 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: B+
-- [[kucoin]]: B+
-- [[mexc]]: B+
+- [[kucoin]]: C
+- [[mexc]]: A-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -42,7 +41,6 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 ## Transfer map
 - [[bitget]]: closed:ethereum,reef
 - [[gateio]]: open:reef,reef
-- [[htx]]: open:reef1
 - [[kucoin]]: open:reef
 - [[mexc]]: open:reef
 
@@ -62,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:53:21.570346Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:56:14.090789Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

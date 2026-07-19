@@ -2,29 +2,29 @@
 token: QBX
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B
+nw_grade: C
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x72fdc31f4a9a1edf6b6132d3c1754f1cdcf5d9b1" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-18T03:53:17.163060Z
+updated: 2026-07-19T03:56:06.703784Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# QBX · NW Grade **A+**
+# QBX · NW Grade **C**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade C liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x72fdc3…d9b1` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A+
-- [[mexc]]: B
+- [[gateio]]: C
+- [[mexc]]: D+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -43,7 +43,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:53:17.163060Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:56:06.703784Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

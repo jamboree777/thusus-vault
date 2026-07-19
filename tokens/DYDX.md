@@ -3,7 +3,7 @@ token: DYDX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A-
 identity: partial
 contracts:
   - { chain: cosmos, address: "ibc/831f0b1bbb1d08a2b75311892876d71565478c532967545476df4c2d7492e48c" }
@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-18T03:51:17.000458Z
+updated: 2026-07-19T03:53:08.128027Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is open on at lea
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A-
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[kucoin]]: A
@@ -41,7 +41,6 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is open on at lea
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
@@ -55,10 +54,9 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is open on at lea
 ## Transfer map
 - [[binance]]: open:dydx
 - [[bitget]]: open:dydx
-- [[bithumb]]: open:coin,dydx
+- [[bithumb]]: open:dydx
 - [[bybit]]: open:dydx
 - [[gateio]]: open:dydx,dydx | closed:ethereum,ethereum
-- [[htx]]: open:dydx1
 - [[kucoin]]: open:dydx
 - [[mexc]]: open:dydx
 - [[okx]]: open:dydx
@@ -79,7 +77,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:51:17.000458Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:53:08.128027Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

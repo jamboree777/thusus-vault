@@ -3,7 +3,7 @@ token: FITFI
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: D
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x7588df009c3d82378be6ab81f2108fa963c10fc8" }
@@ -11,7 +11,7 @@ exchanges: [bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
 lifecycle: suspended
-updated: 2026-07-18T03:51:26.098091Z
+updated: 2026-07-19T03:53:27.928376Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[bithumb]]: B+
 - [[gateio]]: B+
-- [[kucoin]]: D
+- [[kucoin]]: F
 - [[mexc]]: D+
 
 ## Deposit / Withdrawal
@@ -35,7 +35,6 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - [[bithumb]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
@@ -50,10 +49,9 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 
 ## Transfer map
 - [[bitget]]: closed:avaxc-chain
-- [[bithumb]]: closed:avax,coin
+- [[bithumb]]: closed:avax
 - [[bybit]]: closed:avaxc,step
 - [[gateio]]: open:avaxc,avax_c,fitfi,fitfi
-- [[htx]]: closed:fitfi1
 - [[kucoin]]: open:avax c-chain
 - [[mexc]]: closed:avaxc
 - Suspended now: [[bybit]]
@@ -76,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:51:26.098091Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:53:27.928376Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

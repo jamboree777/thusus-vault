@@ -2,7 +2,7 @@
 token: MEMEFI
 type: token
 tier: free
-nw_grade: C
+nw_grade: C-
 nw_grade_worst: D
 identity: verified_same
 contracts:
@@ -10,28 +10,27 @@ contracts:
 exchanges: [kucoin, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-07-18T03:52:32.789006Z
+updated: 2026-07-19T03:55:03.932912Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MEMEFI · NW Grade **C**
+# MEMEFI · NW Grade **C-**
 
-Sui-network token; NW grade C liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x506a6f…mefi` (verified_same)
 - Listed on: [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[kucoin]]: C
+- [[kucoin]]: C-
 - [[mexc]]: D
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ❌ / withdraw ✅
-- [[htx]]: deposit ❌ / withdraw ❌
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
@@ -48,10 +47,8 @@ Sui-network token; NW grade C liquidity; transfer is partial (some venues frozen
 - [[bitget]]: closed:sui
 - [[bybit]]: closed:sui
 - [[gateio]]: closed:sui,sui,suinew,suinew
-- [[htx]]: closed:memefi
 - [[kucoin]]: open:sui
 - [[mexc]]: closed:sui
-- Suspended now: [[htx]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:52:32.789006Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:55:03.932912Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

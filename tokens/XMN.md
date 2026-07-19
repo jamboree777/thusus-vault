@@ -3,31 +3,30 @@ token: XMN
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x97c7571f4406cdd7a95f3027075ab80d3e9c937c2a567690d31e14ab1872ccee::xmn::xmn" }
 exchanges: [kucoin, mexc]
-transfer: partial
-updated: 2026-07-18T03:54:30.848881Z
+transfer: open
+updated: 2026-07-19T03:57:33.204990Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # XMN · NW Grade **A**
 
-Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[sui]] `0x97c757…:xmn` (verified_same)
 - Listed on: [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[kucoin]]: B-
+- [[kucoin]]: A
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
-- [[htx]]: deposit ❌ / withdraw ❌
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -36,10 +35,8 @@ Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen
 - 2026-07-12 · [[htx]] [[xmn]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[htx]]: closed:xmn
 - [[kucoin]]: open:sui
 - [[mexc]]: open:sui
-- Suspended now: [[htx]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -57,7 +54,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:54:30.848881Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:33.204990Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

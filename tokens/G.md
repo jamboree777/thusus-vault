@@ -3,7 +3,7 @@ token: G
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x9c7beba8f6ef6643abd725e45a4e8387ef260649" }
@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-18T03:51:32.695176Z
+updated: 2026-07-19T03:53:36.304356Z
 source: nightwatch-kg
 ---
 
@@ -28,11 +28,11 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: D
+- [[kucoin]]: B+
 - [[mexc]]: C
 - [[okx]]: A+
 - [[upbit]]: A+
@@ -44,7 +44,6 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
@@ -60,16 +59,14 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
 - [[bitget]]: open:ethereum,gravity
-- [[bithumb]]: open:coin,g
+- [[bithumb]]: open:g
 - [[bybit]]: open:bsc,ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum,g,g
-- [[htx]]: open:g
 - [[kucoin]]: open:ethereum | closed:gravity
 - [[mexc]]: open:ethereum,gravity
 - [[okx]]: open:ethereum,gravity alpha mainnet
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,16 +75,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-1 shadow trade · realized net **+6.09 USD** · win rate 100% (1 settled)
-
-- 2026-07-17 · woncarry · [[bithumb]]→[[binance]] · +6.09 USD · _held_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:51:32.695176Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:53:36.304356Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

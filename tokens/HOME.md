@@ -3,14 +3,14 @@ token: HOME
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-18T03:51:53.200086Z
+updated: 2026-07-19T03:54:10.435360Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: A+
+- [[kucoin]]: A
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
@@ -40,7 +40,6 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -53,11 +52,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 ## Transfer map
 - [[binance]]: open:base,bsc,solana
 - [[bitget]]: open:bsc | closed:base,solana
-- [[bithumb]]: open:base,coin
+- [[bithumb]]: open:base
 - [[bybit]]: open:solana | closed:base,bsc
 - [[coinbase]]: open:base
 - [[gateio]]: open:base,baseevm,bsc,bsc
-- [[htx]]: open:home
 - [[kucoin]]: open:base
 - [[mexc]]: open:base,bsc
 
@@ -69,17 +67,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-5 shadow trades · realized net **-4.50 USD** · win rate 40% (5 settled)
+7 shadow trades · realized net **+3.67 USD** · win rate 57.1% (7 settled)
 
+- 2026-07-18 · livescan · [[gateio]]→[[bybit]] · +3.86 USD · _depth_shrink_
+- 2026-07-18 · livescan · [[binance]]→[[bybit]] · +4.31 USD · _beat_
 - 2026-07-17 · livescan · [[bybit]]→[[gateio]] · -1.68 USD · _price_drift_
-- 2026-07-17 · livescan · [[bybit]]→[[binance]] · -4.40 USD · _price_drift_
-- 2026-07-17 · livescan · [[gateio]]→[[kucoin]] · -3.80 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-18T03:51:53.200086Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-19T03:54:10.435360Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
