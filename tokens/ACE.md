@@ -3,14 +3,14 @@ token: ACE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [binance, bitget, bithumb, gateio, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-19T03:51:41.872141Z
+updated: 2026-07-20T03:51:39.067575Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A+
+- [[bithumb]]: B+
 - [[gateio]]: A-
 - [[mexc]]: A+
 - [[okx]]: A+
@@ -72,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:51:41.872141Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:51:39.067575Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

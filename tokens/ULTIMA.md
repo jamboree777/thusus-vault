@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x5668a83b46016b494a30dd14066a451e5417a8b8" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-19T03:57:09.794232Z
+updated: 2026-07-20T03:57:39.654832Z
 source: nightwatch-kg
 ---
 
@@ -46,7 +46,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:09.794232Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:57:39.654832Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

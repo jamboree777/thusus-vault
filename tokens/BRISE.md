@@ -3,13 +3,13 @@ token: BRISE
 type: token
 tier: free
 nw_grade: A-
-nw_grade_worst: B-
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf2b2f7b47715256ce4ea43363a867fdce9353e3a" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-19T03:52:32.894908Z
+updated: 2026-07-20T03:52:41.363661Z
 source: nightwatch-kg
 ---
 
@@ -23,9 +23,9 @@ Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues 
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A-
+- [[gateio]]: B+
 - [[kucoin]]: A-
-- [[mexc]]: B-
+- [[mexc]]: F
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -59,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:52:32.894908Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:52:41.363661Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

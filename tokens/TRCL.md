@@ -2,28 +2,28 @@
 token: TRCL
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: B+
+nw_grade: B+
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: klay-token, address: "0x4b91c67a89d4c4b2a4ed9fcde6130d7495330972" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-19T03:57:04.604909Z
+updated: 2026-07-20T03:57:30.593674Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# TRCL · NW Grade **A-**
+# TRCL · NW Grade **B+**
 
-Klay-token-network token; NW grade A- liquidity; transfer is open on at least one venue.
+Klay-token-network token; NW grade B+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[klay-token]] `0x4b91c6…0972` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A-
+- [[gateio]]: C-
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:04.604909Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:57:30.593674Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

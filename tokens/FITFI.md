@@ -2,7 +2,7 @@
 token: FITFI
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A-
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,23 +10,23 @@ contracts:
 exchanges: [bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-lifecycle: suspended
-updated: 2026-07-19T03:53:27.928376Z
+lifecycle: delisted
+updated: 2026-07-20T03:53:39.260544Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FITFI · NW Grade **B+**
+# FITFI · NW Grade **A-**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x7588df…0fc8` (verified_same)
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: B+
-- [[gateio]]: B+
+- [[bithumb]]: A-
+- [[gateio]]: D-
 - [[kucoin]]: F
 - [[mexc]]: D+
 
@@ -45,6 +45,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - 2026-07-12 · [[bybit]] [[step]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -74,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:53:27.928376Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:53:39.260544Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

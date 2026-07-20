@@ -2,7 +2,7 @@
 token: SWELL
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: C
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-19T03:56:44.580513Z
+updated: 2026-07-20T03:57:10.793834Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# SWELL · NW Grade **A+**
+# SWELL · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x0a6e7b…5676` (verified_same)
@@ -25,8 +25,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 
 ## Grade by exchange
 - [[bitget]]: B+
-- [[bithumb]]: A-
-- [[bybit]]: A+
+- [[bithumb]]: B+
+- [[bybit]]: A
 - [[coinbase]]: B+
 - [[gateio]]: B
 - [[kucoin]]: C
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:56:44.580513Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:57:10.793834Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

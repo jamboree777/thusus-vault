@@ -3,13 +3,13 @@ token: OBOL
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: B-
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0b010000b7624eb9b3dfbc279673c76e9d29d5f7" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-07-19T03:55:31.594089Z
+updated: 2026-07-20T03:55:43.862373Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: B+
-- [[mexc]]: B-
+- [[mexc]]: B
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -51,7 +51,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:55:31.594089Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:55:43.862373Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

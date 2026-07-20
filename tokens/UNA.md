@@ -2,29 +2,29 @@
 token: UNA
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: C+
+nw_grade: A
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0b6f3ea2814f3fff804ba5d5c237aebbc364fba9" }
 exchanges: [gateio, kucoin]
 transfer: open
-updated: 2026-07-19T03:57:11.992868Z
+updated: 2026-07-20T03:57:41.858857Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# UNA · NW Grade **B-**
+# UNA · NW Grade **A**
 
-Ethereum-network token; NW grade B- liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x0b6f3e…fba9` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: C+
-- [[kucoin]]: B-
+- [[gateio]]: C
+- [[kucoin]]: A
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -43,7 +43,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:11.992868Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:57:41.858857Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

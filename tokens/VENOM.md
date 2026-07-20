@@ -2,29 +2,29 @@
 token: VENOM
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: A-
+nw_grade: A+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x46f84dc6564cdd93922f7bfb88b03d35308d87c9" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-19T03:57:18.641901Z
+updated: 2026-07-20T03:57:49.198298Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# VENOM · NW Grade **A**
+# VENOM · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x46f84d…87c9` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[kucoin]]: A-
+- [[gateio]]: A+
+- [[kucoin]]: D+
 - [[mexc]]: A-
 
 ## Deposit / Withdrawal
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-19T03:57:18.641901Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-20T03:57:49.198298Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
