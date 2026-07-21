@@ -2,29 +2,29 @@
 token: FOXY
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: B
-identity: verified_same
+nw_grade: A
+nw_grade_worst: D-
+identity: partial
 contracts:
   - { chain: linea, address: "0x5fbdf89403270a1846f5ae7d113a989f850d1566" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-07-20T03:53:43.660363Z
+updated: 2026-07-21T03:52:52.690615Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FOXY · NW Grade **B+**
+# FOXY · NW Grade **A**
 
-Linea-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Linea-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[linea]] `0x5fbdf8…1566` (verified_same)
+- Contract: [[linea]] `0x5fbdf8…1566` (partial)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[kucoin]]: B
+- [[gateio]]: A
+- [[kucoin]]: D-
 
 ## Deposit / Withdrawal
 - [[bybit]]: deposit ❌ / withdraw ✅
@@ -57,7 +57,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:53:43.660363Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:52:52.690615Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

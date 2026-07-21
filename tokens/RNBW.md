@@ -4,12 +4,12 @@ type: token
 tier: free
 nw_grade: A+
 nw_grade_worst: C-
-identity: verified_same
+identity: partial
 contracts:
   - { chain: base, address: "0xa53887f7e7c1bf5010b8627f1c1ba94fe7a5d6e0" }
 exchanges: [coinbase, gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-20T03:56:32.099247Z
+updated: 2026-07-21T03:55:58.507167Z
 source: nightwatch-kg
 ---
 
@@ -19,7 +19,7 @@ source: nightwatch-kg
 Base-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[base]] `0xa53887…d6e0` (verified_same)
+- Contract: [[base]] `0xa53887…d6e0` (partial)
 - Listed on: [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
@@ -49,7 +49,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:56:32.099247Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:55:58.507167Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

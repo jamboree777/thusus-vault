@@ -2,39 +2,38 @@
 token: FITFI
 type: token
 tier: free
-nw_grade: A-
+nw_grade: B+
 nw_grade_worst: F
-identity: verified_same
+identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x7588df009c3d82378be6ab81f2108fa963c10fc8" }
-exchanges: [bithumb, gateio, kucoin, mexc]
+exchanges: [bithumb, gateio, kucoin]
 korean_exchanges: [bithumb]
 transfer: partial
-lifecycle: delisted
-updated: 2026-07-20T03:53:39.260544Z
+updated: 2026-07-21T03:52:46.091019Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FITFI · NW Grade **A-**
+# FITFI · NW Grade **B+**
 
-Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[binance-smart-chain]] `0x7588df…0fc8` (verified_same)
-- Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
+- Contract: [[binance-smart-chain]] `0x7588df…0fc8` (partial)
+- Listed on: [[bithumb]], [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[bithumb]]: A-
-- [[gateio]]: D-
+- [[bithumb]]: B+
+- [[gateio]]: F
 - [[kucoin]]: F
-- [[mexc]]: D+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bithumb]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
@@ -45,14 +44,13 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (s
 - 2026-07-12 · [[bybit]] [[step]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:avaxc-chain
 - [[bithumb]]: closed:avax
 - [[bybit]]: closed:avaxc,step
 - [[gateio]]: open:avaxc,avax_c,fitfi,fitfi
+- [[htx]]: closed:fitfi1
 - [[kucoin]]: open:avax c-chain
 - [[mexc]]: closed:avaxc
 - Suspended now: [[bybit]]
@@ -74,8 +72,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:53:39.260544Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:52:46.091019Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

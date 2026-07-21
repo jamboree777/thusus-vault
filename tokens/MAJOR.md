@@ -3,13 +3,13 @@ token: MAJOR
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: solana, address: "cnymarr4krm1yaxfcvpxevnmarzzzk7srqkwx68ucejk" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-20T03:54:55.502927Z
+updated: 2026-07-21T03:54:09.313234Z
 source: nightwatch-kg
 ---
 
@@ -25,8 +25,8 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 ## Grade by exchange
 - [[bybit]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: A+
-- [[mexc]]: B-
+- [[kucoin]]: A
+- [[mexc]]: C+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -58,16 +58,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+0.63 USD** · win rate 100% (2 settled)
+5 shadow trades · realized net **+0.98 USD** · win rate 80% (5 settled)
 
-- 2026-07-19 · livescan · [[bybit]]→[[gateio]] · +0.63 USD · _in_line_
-- 2026-07-18 · livescan · [[bybit]]→[[kucoin]] · +0.00 USD · _cost_drag_
+- 2026-07-20 · livescan · [[bybit]]→[[mexc]] · -0.36 USD · _cost_drag_
+- 2026-07-20 · livescan · [[bybit]]→[[gateio]] · +0.50 USD · _depth_shrink_
+- 2026-07-20 · livescan · [[bybit]]→[[gateio]] · +0.21 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:54:55.502927Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:54:09.313234Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

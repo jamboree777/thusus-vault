@@ -3,13 +3,13 @@ token: RIZ
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
-identity: verified_same
+nw_grade_worst: D
+identity: partial
 contracts:
   - { chain: ethereum, address: "0x058d411ab9911f90c74f471bdc9d2bb4cf9b309c" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-20T03:56:29.887856Z
+updated: 2026-07-21T03:55:56.307506Z
 source: nightwatch-kg
 ---
 
@@ -19,11 +19,11 @@ source: nightwatch-kg
 Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[ethereum]] `0x058d41…309c` (verified_same)
+- Contract: [[ethereum]] `0x058d41…309c` (partial)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: F
+- [[gateio]]: D
 - [[kucoin]]: A+
 - [[mexc]]: C+
 
@@ -51,7 +51,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:56:29.887856Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:55:56.307506Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

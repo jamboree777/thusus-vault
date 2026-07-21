@@ -2,22 +2,22 @@
 token: SWELL
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0a6e7ba5042b38349e437ec6db6214aec7b35676" }
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-07-20T03:57:10.793834Z
+transfer: partial
+updated: 2026-07-21T03:56:33.672670Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# SWELL · NW Grade **A**
+# SWELL · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x0a6e7b…5676` (verified_same)
@@ -26,28 +26,33 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 ## Grade by exchange
 - [[bitget]]: B+
 - [[bithumb]]: B+
-- [[bybit]]: A
+- [[bybit]]: A+
 - [[coinbase]]: B+
 - [[gateio]]: B
 - [[kucoin]]: C
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 
+## Events
+- 2026-07-20 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
+
 ## Transfer map
-- [[bitget]]: open:ethereum
+- [[bitget]]: closed:ethereum
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: open:swell
 - [[kucoin]]: open:ethereum
 - [[mexc]]: open:ethereum
 - [[upbit]]: open:ethereum
@@ -67,8 +72,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:57:10.793834Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:56:33.672670Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

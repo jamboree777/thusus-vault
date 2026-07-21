@@ -2,31 +2,31 @@
 token: CESS
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: D-
+nw_grade: A+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c78d4605c2972e5f989de9019de1fb00c5d3462" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-20T03:52:50.161361Z
+updated: 2026-07-21T03:51:54.805062Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CESS · NW Grade **B+**
+# CESS · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x0c78d4…3462` (verified_same)
 - Listed on: [[bitget]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B+
-- [[gateio]]: D
-- [[kucoin]]: C+
-- [[mexc]]: D-
+- [[bitget]]: A
+- [[gateio]]: B-
+- [[kucoin]]: A+
+- [[mexc]]: F
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -48,16 +48,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **-5.06 USD** · win rate 50% (2 settled)
+6 shadow trades · realized net **-11.67 USD** · win rate 66.7% (6 settled)
 
-- 2026-07-20 · livescan · [[gateio]]→[[kucoin]] · -5.82 USD · _mixed_
-- 2026-07-19 · livescan · [[bitget]]→[[kucoin]] · +0.77 USD · _in_line_
+- 2026-07-21 · livescan · [[gateio]]→[[kucoin]] · +0.63 USD · _beat_
+- 2026-07-20 · livescan · [[bitget]]→[[kucoin]] · +0.22 USD · _in_line_
+- 2026-07-20 · livescan · [[bitget]]→[[kucoin]] · +1.83 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:52:50.161361Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:51:54.805062Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

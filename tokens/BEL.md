@@ -4,13 +4,13 @@ type: token
 tier: free
 nw_grade: A+
 nw_grade_worst: A-
-identity: verified_same
+identity: partial
 contracts:
   - { chain: ethereum, address: "0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14" }
 exchanges: [binance, bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-20T03:52:12.062980Z
+updated: 2026-07-21T03:51:12.288852Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +20,7 @@ source: nightwatch-kg
 Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[ethereum]] `0xa91ac6…7e14` (verified_same)
+- Contract: [[ethereum]] `0xa91ac6…7e14` (partial)
 - Listed on: [[binance]], [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
@@ -36,6 +36,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
@@ -52,7 +53,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:bsc | closed:ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: closed:bel
 - [[mexc]]: open:ethereum
+- Suspended now: [[htx]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -63,7 +66,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:52:12.062980Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:51:12.288852Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

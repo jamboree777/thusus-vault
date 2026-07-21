@@ -3,14 +3,14 @@ token: SKR
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "skrbvo6gf7gondit3bbtfurdpqlwei4j2qy2npgzhw3" }
 exchanges: [bitget, bithumb, bybit, coinbase, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-20T03:56:46.163148Z
+updated: 2026-07-21T03:56:07.309897Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[mexc]]: A
-- [[upbit]]: A
+- [[upbit]]: B+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -37,6 +37,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
@@ -47,6 +48,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
 - [[gateio]]: open:solana,solana
+- [[htx]]: open:skr
 - [[kucoin]]: open:solana
 - [[mexc]]: open:solana
 - [[upbit]]: open:solana
@@ -67,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:56:46.163148Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:56:07.309897Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

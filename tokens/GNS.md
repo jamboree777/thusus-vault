@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [binance, gateio, mexc]
 transfer: partial
-updated: 2026-07-20T03:53:55.397543Z
+updated: 2026-07-21T03:53:04.788144Z
 source: nightwatch-kg
 ---
 
@@ -25,12 +25,13 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 ## Grade by exchange
 - [[binance]]: A+
 - [[gateio]]: C
-- [[mexc]]: A+
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -46,6 +47,7 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - [[binance]]: open:arbone,polygon
 - [[bitget]]: closed:polygon
 - [[gateio]]: open:arbevm,arbone,polygon,polygon
+- [[htx]]: closed:polygns
 - [[kucoin]]: closed:arbitrum,polygon
 - [[mexc]]: open:arbitrum,polygon
 - Suspended now: [[kucoin]]
@@ -59,7 +61,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:53:55.397543Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:53:04.788144Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

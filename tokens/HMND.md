@@ -2,29 +2,29 @@
 token: HMND
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: A
+nw_grade: B+
+nw_grade_worst: B-
 identity: native
 contracts:
   - { chain: humanode, address: "hmnd" }
 exchanges: [kucoin, mexc]
 transfer: open
-updated: 2026-07-20T03:54:12.999191Z
+updated: 2026-07-21T03:53:23.375261Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# HMND · NW Grade **A**
+# HMND · NW Grade **B+**
 
-Humanode-network token; NW grade A liquidity; transfer is open on at least one venue.
+Humanode-network token; NW grade B+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[humanode]] `hmnd` (native)
 - Listed on: [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[kucoin]]: A
-- [[mexc]]: A
+- [[kucoin]]: B+
+- [[mexc]]: B-
 
 ## Deposit / Withdrawal
 - [[kucoin]]: deposit ✅ / withdraw ✅
@@ -52,7 +52,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:54:12.999191Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:53:23.375261Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

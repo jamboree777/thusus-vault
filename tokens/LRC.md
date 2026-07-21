@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd" }
 exchanges: [bybit, coinbase, gateio, kucoin, mexc, okx]
 transfer: partial
-updated: 2026-07-20T03:54:48.907196Z
+updated: 2026-07-21T03:54:02.713580Z
 source: nightwatch-kg
 ---
 
@@ -35,6 +35,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
@@ -48,6 +49,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: open:lrc
 - [[kucoin]]: open:ethereum
 - [[mexc]]: closed:ethereum
 - [[okx]]: open:ethereum
@@ -70,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:54:48.907196Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:54:02.713580Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

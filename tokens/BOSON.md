@@ -3,20 +3,20 @@ token: BOSON
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc477d038d5420c6a9e0b031712f61c5120090de9" }
 exchanges: [gateio, kucoin, mexc]
-transfer: open
-updated: 2026-07-20T03:52:30.891896Z
+transfer: partial
+updated: 2026-07-21T03:51:35.373412Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BOSON · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xc477d0…0de9` (verified_same)
@@ -25,10 +25,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - [[gateio]]: A+
 - [[kucoin]]: A+
-- [[mexc]]: A+
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -37,6 +38,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 
 ## Transfer map
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: closed:boson
 - [[kucoin]]: open:ethereum
 - [[mexc]]: open:ethereum
 
@@ -49,7 +51,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:52:30.891896Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:51:35.373412Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

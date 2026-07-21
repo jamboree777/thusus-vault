@@ -3,13 +3,13 @@ token: MCRT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x4b8285ab433d8f69cb48d5ad62b415ed1a221e4f" }
 exchanges: [bybit, mexc]
 transfer: partial
-updated: 2026-07-20T03:55:06.499390Z
+updated: 2026-07-21T03:54:21.277081Z
 source: nightwatch-kg
 ---
 
@@ -23,13 +23,14 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - Listed on: [[bybit]], [[mexc]]
 
 ## Grade by exchange
-- [[bybit]]: A+
+- [[bybit]]: A
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ❌ / withdraw ✅
+- [[htx]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
@@ -41,6 +42,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bitget]]: closed:bsc
 - [[bybit]]: open:bsc
 - [[gateio]]: closed:bsc,bsc
+- [[htx]]: closed:mcrt
 - [[mexc]]: open:bsc
 
 ## Backers & Project
@@ -59,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:55:06.499390Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:54:21.277081Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

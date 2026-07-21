@@ -3,14 +3,14 @@ token: SUNDOG
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: tron, address: "txl6rjbvmjd46zen1jssfgxvso99qc8mrt" }
 exchanges: [bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-20T03:57:04.187447Z
+updated: 2026-07-21T03:56:24.798196Z
 source: nightwatch-kg
 ---
 
@@ -24,8 +24,8 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[bybit]]: C+
+- [[bithumb]]: A+
+- [[bybit]]: A+
 - [[gateio]]: B+
 - [[kucoin]]: A+
 - [[mexc]]: B+
@@ -35,6 +35,7 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -46,6 +47,7 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[bithumb]]: open:tron
 - [[bybit]]: open:tron
 - [[gateio]]: open:tron,tron
+- [[htx]]: open:sundog
 - [[kucoin]]: open:tron
 - [[mexc]]: open:tron
 
@@ -66,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:57:04.187447Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:56:24.798196Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

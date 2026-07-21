@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x888888848b652b3e3a0f34c96e00eec0f3a23f72" }
 exchanges: [binance, bitget, gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-20T03:57:21.785563Z
+updated: 2026-07-21T03:56:46.483608Z
 source: nightwatch-kg
 ---
 
@@ -33,6 +33,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[binance]]: deposit ✅ / withdraw ✅
 - [[bitget]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -48,6 +49,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[binance]]: open:ethereum | closed:bsc
 - [[bitget]]: closed:bsc,ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: open:tlm
 - [[kucoin]]: closed:bsc,ethereum
 - [[mexc]]: open:ethereum
 
@@ -67,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:57:21.785563Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:56:46.483608Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

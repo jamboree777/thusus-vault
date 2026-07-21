@@ -3,13 +3,13 @@ token: FLT
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: A
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x236501327e701692a281934230af0b6be8df3353" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-07-20T03:53:41.458000Z
+updated: 2026-07-21T03:52:48.321384Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
+- [[gateio]]: D+
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -55,7 +55,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:53:41.458000Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:52:48.321384Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

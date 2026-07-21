@@ -3,14 +3,14 @@ token: ACE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [binance, bitget, bithumb, gateio, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-20T03:51:39.067575Z
+updated: 2026-07-21T03:50:33.089093Z
 source: nightwatch-kg
 ---
 
@@ -26,21 +26,23 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: B+
+- [[bithumb]]: A
 - [[gateio]]: A-
 - [[mexc]]: A+
 - [[okx]]: A+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-20 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[esc]] withdraw → closed · [[event/dw-freeze]]
@@ -48,9 +50,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Transfer map
 - [[binance]]: open:bsc,endurance
-- [[bitget]]: open:bsc | closed:esc
+- [[bitget]]: closed:bsc,esc
 - [[bithumb]]: open:bsc
 - [[gateio]]: open:bsc,bsc
+- [[htx]]: open:ace
 - [[kucoin]]: closed:ethereum
 - [[mexc]]: open:bsc
 - [[okx]]: open:endurance smart chain
@@ -64,15 +67,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+5.98 USD** · win rate 100% (1 settled)
+3 shadow trades · realized net **+16.67 USD** · win rate 100% (3 settled)
 
+- 2026-07-20 · woncarry · [[bithumb]]→[[binance]] · +3.31 USD · _held_
+- 2026-07-20 · woncarry · [[bithumb]]→[[binance]] · +7.39 USD
 - 2026-07-18 · woncarry · [[bithumb]]→[[binance]] · +5.98 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:51:39.067575Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:50:33.089093Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

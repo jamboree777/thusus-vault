@@ -4,13 +4,13 @@ type: token
 tier: free
 nw_grade: A+
 nw_grade_worst: A
-identity: verified_same
+identity: partial
 contracts:
   - { chain: manta-pacific, address: "0x95cef13441be50d20ca4558cc0a27b601ac544e5" }
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-20T03:54:59.902849Z
+updated: 2026-07-21T03:54:13.706604Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +20,7 @@ source: nightwatch-kg
 Manta-pacific-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[manta-pacific]] `0x95cef1…44e5` (verified_same)
+- Contract: [[manta-pacific]] `0x95cef1…44e5` (partial)
 - Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
@@ -38,6 +38,7 @@ Manta-pacific-network token; NW grade A+ liquidity; transfer is open on at least
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -47,6 +48,7 @@ Manta-pacific-network token; NW grade A+ liquidity; transfer is open on at least
 - [[bithumb]]: open:manta
 - [[bybit]]: open:manta
 - [[gateio]]: open:mantaeth,mantaeth
+- [[htx]]: open:manta
 - [[kucoin]]: open:manta
 - [[mexc]]: open:manta
 
@@ -68,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-20T03:54:59.902849Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-21T03:54:13.706604Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
