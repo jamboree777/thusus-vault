@@ -2,7 +2,7 @@
 token: BFC
 type: token
 tier: free
-nw_grade: A+
+nw_grade: B+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,28 +10,27 @@ contracts:
 exchanges: [bithumb, gateio, kucoin]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-21T03:51:14.480233Z
+updated: 2026-07-22T03:52:32.386374Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BFC · NW Grade **A+**
+# BFC · NW Grade **B+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x0c7d5a…ab9c` (verified_same)
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
+- [[bithumb]]: B+
 - [[gateio]]: B+
 - [[kucoin]]: F
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
@@ -42,7 +41,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Transfer map
 - [[bithumb]]: open:bfc
 - [[gateio]]: open:ethereum,ethereum
-- [[htx]]: open:bfc1
 - [[kucoin]]: open:ethereum
 - [[mexc]]: closed:solana
 - [[upbit]]: open:bfc
@@ -56,7 +54,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:51:14.480233Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:52:32.386374Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

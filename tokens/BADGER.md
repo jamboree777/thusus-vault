@@ -2,37 +2,36 @@
 token: BADGER
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: C
+nw_grade: A-
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x3472a5a71965499acd81997a54bba8d852c6e53d" }
 exchanges: [coinbase, gateio, mexc]
 transfer: partial
-updated: 2026-07-21T03:51:03.491826Z
+updated: 2026-07-22T03:52:20.992507Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BADGER · NW Grade **A**
+# BADGER · NW Grade **A-**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x3472a5…e53d` (verified_same)
 - Listed on: [[coinbase]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[coinbase]]: A
+- [[coinbase]]: A-
 - [[gateio]]: C+
-- [[mexc]]: C
+- [[mexc]]: D+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ❌ / withdraw ❌
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -48,7 +47,6 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - [[bitget]]: closed:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
-- [[htx]]: open:badger
 - [[kucoin]]: closed:ethereum
 - [[mexc]]: open:ethereum
 - Suspended now: [[binance]], [[kucoin]]
@@ -69,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:51:03.491826Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:52:20.992507Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

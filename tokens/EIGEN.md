@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-21T03:52:25.472334Z
+updated: 2026-07-22T03:53:52.594563Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bitget]]: A
 - [[bithumb]]: A
 - [[bybit]]: A+
-- [[coinbase]]: A+
+- [[coinbase]]: A
 - [[gateio]]: A
 - [[kucoin]]: A+
 - [[mexc]]: A+
@@ -41,7 +41,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
@@ -59,7 +58,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
-- [[htx]]: open:eigen
 - [[kucoin]]: open:ethereum
 - [[mexc]]: open:ethereum
 - [[okx]]: open:ethereum
@@ -73,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:52:25.472334Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:53:52.594563Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

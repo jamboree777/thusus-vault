@@ -2,7 +2,7 @@
 token: CUDIS
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-21T03:52:05.794280Z
+updated: 2026-07-22T03:53:27.288441Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CUDIS · NW Grade **A**
+# CUDIS · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xc1353d…9cb1` (verified_same)
@@ -25,8 +25,8 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 
 ## Grade by exchange
 - [[bitget]]: A
-- [[bithumb]]: B+
-- [[bybit]]: B+
+- [[bithumb]]: A+
+- [[bybit]]: A
 - [[gateio]]: D+
 - [[mexc]]: F
 
@@ -35,7 +35,6 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 - [[bithumb]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
@@ -49,7 +48,6 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 - [[bithumb]]: closed:solana
 - [[bybit]]: open:bsc,solana
 - [[gateio]]: open:bsc,bsc,solana,solana
-- [[htx]]: open:solcudis
 - [[mexc]]: open:bsc,solana
 
 ## Backers & Project
@@ -60,17 +58,16 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-7 shadow trades · realized net **-12.13 USD** · win rate 42.9% (7 settled)
+2 shadow trades · realized net **-2.29 USD** · win rate 0% (2 settled)
 
-- 2026-07-17 · livescan · [[bybit]]→[[gateio]] · -6.17 USD · _price_drift_
-- 2026-07-17 · livescan · [[mexc]]→[[bybit]] · -5.21 USD · _mixed_
-- 2026-07-17 · livescan · [[bybit]]→[[gateio]] · +0.01 USD · _price_drift_
+- 2026-07-16 · livescan · [[bybit]]→[[mexc]] · -2.25 USD · _mixed_
+- 2026-07-15 · livescan · [[bybit]]→[[gateio]] · -0.04 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:52:05.794280Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:53:27.288441Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

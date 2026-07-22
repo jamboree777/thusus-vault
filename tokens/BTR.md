@@ -3,14 +3,14 @@ token: BTR
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x6c76de483f1752ac8473e2b4983a873991e70da7" }
 exchanges: [bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-21T03:51:43.782225Z
+updated: 2026-07-22T03:53:01.295882Z
 source: nightwatch-kg
 ---
 
@@ -24,10 +24,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bitget]], [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B+
+- [[bitget]]: F
 - [[bithumb]]: A+
 - [[gateio]]: B
-- [[kucoin]]: A+
+- [[kucoin]]: A-
 - [[mexc]]: B
 
 ## Deposit / Withdrawal
@@ -56,7 +56,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:51:43.782225Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:53:01.295882Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,13 +3,13 @@ token: BAY
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xa7bef5abd9265ab97ee43d2fc4a56e0ba25aca25" }
 exchanges: [bitget, mexc]
 transfer: open
-updated: 2026-07-21T03:51:07.884622Z
+updated: 2026-07-22T03:52:25.395970Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - Listed on: [[bitget]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B+
+- [[bitget]]: A
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
@@ -42,17 +42,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-6 shadow trades · realized net **-1.78 USD** · win rate 50% (6 settled)
+1 shadow trade · realized net **-0.33 USD** · win rate 0% (1 settled)
 
-- 2026-07-20 · livescan · [[mexc]]→[[bitget]] · -0.65 USD · _price_drift_
-- 2026-07-19 · livescan · [[mexc]]→[[bitget]] · +0.53 USD · _price_drift_
-- 2026-07-19 · livescan · [[bitget]]→[[mexc]] · +0.43 USD · _in_line_
+- 2026-07-19 · livescan · [[bitget]]→[[mexc]] · -0.33 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:51:07.884622Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:52:25.395970Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

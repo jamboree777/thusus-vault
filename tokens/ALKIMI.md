@@ -7,9 +7,10 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
-exchanges: [gateio, kucoin]
+exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-21T03:50:45.889774Z
+lifecycle: delisted
+updated: 2026-07-22T03:52:03.395289Z
 source: nightwatch-kg
 ---
 
@@ -20,11 +21,12 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 
 ## Identity
 - Contract: [[sui]] `0x1a8f4b…kimi` (verified_same)
-- Listed on: [[gateio]], [[kucoin]]
+- Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
 - [[gateio]]: A+
-- [[kucoin]]: A
+- [[kucoin]]: A+
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -35,6 +37,7 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 - 2026-07-12 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
@@ -49,17 +52,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-15 shadow trades · realized net **+1.89 USD** · win rate 86.7% (15 settled)
+12 shadow trades · realized net **+0.04 USD** · win rate 91.7% (12 settled)
 
 - 2026-07-20 · livescan · [[gateio]]→[[kucoin]] · -6.07 USD · _mixed_
-- 2026-07-19 · livescan · [[gateio]]→[[kucoin]] · -1.69 USD · _mixed_
 - 2026-07-19 · livescan · [[gateio]]→[[kucoin]] · +0.57 USD · _cost_drag_
+- 2026-07-19 · livescan · [[kucoin]]→[[gateio]] · +2.16 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:50:45.889774Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:52:03.395289Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

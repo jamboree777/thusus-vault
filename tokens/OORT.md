@@ -2,30 +2,30 @@
 token: OORT
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: C
+nw_grade: C-
+nw_grade_worst: F
 identity: native
 contracts:
   - { chain: ethereum, address: "0x5651fa7a726b9ec0cad00ee140179912b6e73599" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-21T03:55:02.815556Z
+updated: 2026-07-22T03:56:38.243112Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# OORT · NW Grade **A+**
+# OORT · NW Grade **C-**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x5651fa…3599` (native)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A+
-- [[kucoin]]: A+
-- [[mexc]]: C
+- [[gateio]]: F
+- [[kucoin]]: C-
+- [[mexc]]: D-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:55:02.815556Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:56:38.243112Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-21T03:55:40.887042Z
+updated: 2026-07-22T03:57:18.742638Z
 source: nightwatch-kg
 ---
 
@@ -42,7 +42,6 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
@@ -55,7 +54,6 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
 - [[gateio]]: open:solana,solana
-- [[htx]]: open:pyth
 - [[kucoin]]: open:solana
 - [[mexc]]: open:solana
 - [[okx]]: open:solana
@@ -77,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-21T03:55:40.887042Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-22T03:57:18.742638Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
