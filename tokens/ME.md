@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-22T03:55:59.782466Z
+updated: 2026-07-23T03:55:09.794214Z
 source: nightwatch-kg
 ---
 
@@ -32,7 +32,7 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
-- [[kucoin]]: A
+- [[kucoin]]: A+
 - [[mexc]]: A+
 - [[okx]]: A+
 - [[upbit]]: A+
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:55:59.782466Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:09.794214Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

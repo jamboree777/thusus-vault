@@ -2,30 +2,30 @@
 token: NATIX
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: B+
+nw_grade: A
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: solana, address: "frysi8lpkubyb7vpsccggxpewfueejiwegrkkuhwpkcx" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-22T03:56:19.568628Z
+updated: 2026-07-23T03:55:32.910502Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# NATIX · NW Grade **A-**
+# NATIX · NW Grade **A**
 
-Solana-network token; NW grade A- liquidity; transfer is open on at least one venue.
+Solana-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[solana]] `frysi8lp…pkcx` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A-
+- [[gateio]]: A
 - [[kucoin]]: B+
-- [[mexc]]: B+
+- [[mexc]]: D
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -53,7 +53,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:56:19.568628Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:32.910502Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

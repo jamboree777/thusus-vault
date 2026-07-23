@@ -2,7 +2,7 @@
 token: ORBS
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,25 +10,25 @@ contracts:
 exchanges: [bitget, bithumb, gateio, kucoin, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-22T03:56:40.443466Z
+updated: 2026-07-23T03:55:56.493673Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ORBS · NW Grade **A**
+# ORBS · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xff56cc…b0fa` (verified_same)
 - Listed on: [[bitget]], [[bithumb]], [[gateio]], [[kucoin]], [[okx]], [[upbit]]
 
 ## Grade by exchange
-- [[bitget]]: A
+- [[bitget]]: A+
 - [[bithumb]]: A
 - [[gateio]]: B+
 - [[kucoin]]: F
-- [[okx]]: A
+- [[okx]]: A+
 - [[upbit]]: A
 
 ## Deposit / Withdrawal
@@ -56,7 +56,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:56:40.443466Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:56.493673Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,13 @@ token: ALKIMI
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [gateio, kucoin]
 transfer: partial
-lifecycle: delisted
-updated: 2026-07-22T03:52:03.395289Z
+updated: 2026-07-23T03:51:01.530838Z
 source: nightwatch-kg
 ---
 
@@ -21,12 +20,11 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 
 ## Identity
 - Contract: [[sui]] `0x1a8f4b…kimi` (verified_same)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
 - [[gateio]]: A+
-- [[kucoin]]: A+
-- [[mexc]]: A
+- [[kucoin]]: D
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -37,7 +35,6 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 - 2026-07-12 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
@@ -61,8 +58,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:52:03.395289Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:51:01.530838Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

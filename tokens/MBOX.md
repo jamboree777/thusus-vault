@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377" }
 exchanges: [bybit, gateio, mexc]
 transfer: partial
-updated: 2026-07-22T03:55:53.171009Z
+updated: 2026-07-23T03:55:03.196765Z
 source: nightwatch-kg
 ---
 
@@ -36,12 +36,12 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-22 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-22 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-07-15 · [[bybit]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-14 · [[binance]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[bep20]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bitget]] [[bep20]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: closed:bsc
@@ -51,6 +51,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - [[kucoin]]: closed:bsc
 - [[mexc]]: open:bsc
 - Suspended now: [[kucoin]]
+- Recently reopened (48h): [[gateio]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +62,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:55:53.171009Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:03.196765Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

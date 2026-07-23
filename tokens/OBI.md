@@ -2,7 +2,7 @@
 token: OBI
 type: token
 tier: free
-nw_grade: B-
+nw_grade: B+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -11,14 +11,14 @@ contracts:
 exchanges: [gateio, kucoin, mexc]
 transfer: open
 lifecycle: suspended
-updated: 2026-07-22T03:56:33.840193Z
+updated: 2026-07-23T03:55:49.764793Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# OBI · NW Grade **B-**
+# OBI · NW Grade **B+**
 
-Ethereum-network token; NW grade B- liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xbb3a8f…1873` (verified_same)
@@ -26,8 +26,8 @@ Ethereum-network token; NW grade B- liquidity; transfer is open on at least one 
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B-
-- [[kucoin]]: F
+- [[gateio]]: C
+- [[kucoin]]: B+
 - [[mexc]]: F
 
 ## Deposit / Withdrawal
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:56:33.840193Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:49.764793Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

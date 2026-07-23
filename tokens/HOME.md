@@ -3,14 +3,14 @@ token: HOME
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-22T03:54:57.471906Z
+updated: 2026-07-23T03:54:00.213205Z
 source: nightwatch-kg
 ---
 
@@ -28,10 +28,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - [[bitget]]: A+
 - [[bithumb]]: A+
 - [[bybit]]: A+
-- [[coinbase]]: A
+- [[coinbase]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: A+
-- [[mexc]]: A+
+- [[kucoin]]: A
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -44,23 +44,23 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-22 · [[bybit]] [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-07-22 · [[bybit]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-07-21 · [[binance]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-07-21 · [[binance]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-20 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-20 · [[bitget]] [[sol]] withdraw → open · [[event/dw-resume]]
-- 2026-07-17 · [[bybit]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-17 · [[bybit]] [[base]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:base,bsc,solana
 - [[bitget]]: open:solana | closed:base,bsc
 - [[bithumb]]: open:base
-- [[bybit]]: open:solana | closed:base,bsc
+- [[bybit]]: open:base,bsc,solana
 - [[coinbase]]: open:base
 - [[gateio]]: open:base,baseevm,bsc,bsc
 - [[kucoin]]: open:base
 - [[mexc]]: open:base,bsc
-- Recently reopened (48h): [[binance]], [[bitget]]
+- Recently reopened (48h): [[binance]], [[bybit]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:54:57.471906Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:54:00.213205Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

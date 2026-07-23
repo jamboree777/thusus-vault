@@ -3,13 +3,13 @@ token: PIN
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: A-
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x2e44f3f609ff5aa4819b323fd74690f07c3607c4" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-22T03:56:57.672302Z
+updated: 2026-07-23T03:56:09.898899Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 
 ## Grade by exchange
 - [[gateio]]: A
-- [[kucoin]]: A-
+- [[kucoin]]: D+
 - [[mexc]]: A-
 
 ## Deposit / Withdrawal
@@ -53,7 +53,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:56:57.672302Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:56:09.898899Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

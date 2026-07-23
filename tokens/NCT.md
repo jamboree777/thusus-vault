@@ -2,7 +2,7 @@
 token: NCT
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A-
 nw_grade_worst: D
 identity: verified_same
 contracts:
@@ -10,23 +10,23 @@ contracts:
 exchanges: [bithumb, coinbase, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-22T03:56:25.050122Z
+updated: 2026-07-23T03:55:37.322471Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# NCT · NW Grade **A+**
+# NCT · NW Grade **A-**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A- liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x9e46a3…33d1` (verified_same)
 - Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: A
+- [[bithumb]]: B+
+- [[coinbase]]: A-
+- [[gateio]]: C+
 - [[mexc]]: D
 
 ## Deposit / Withdrawal
@@ -59,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-22T03:56:25.050122Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:37.322471Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
