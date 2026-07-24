@@ -9,7 +9,8 @@ contracts:
   - { chain: ethereum, address: "0x0b010000b7624eb9b3dfbc279673c76e9d29d5f7" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-07-23T03:55:52.091400Z
+lifecycle: delisted
+updated: 2026-07-24T03:56:18.316316Z
 source: nightwatch-kg
 ---
 
@@ -30,17 +31,19 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-23 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
 - [[bybit]]: closed:ethereum
 - [[gateio]]: open:ethereum,ethereum
-- [[mexc]]: open:ethereum
+- [[mexc]]: closed:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -50,8 +53,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:52.091400Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
+_Live from the NightWatch Knowledge Graph · 2026-07-24T03:56:18.316316Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,29 +2,29 @@
 token: MANYU
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: B-
+nw_grade: B+
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x95af4af910c28e8ece4512bfe46f1f33687424ce" }
 exchanges: [kucoin, mexc]
 transfer: open
-updated: 2026-07-23T03:55:00.989373Z
+updated: 2026-07-24T03:55:27.199734Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MANYU · NW Grade **A**
+# MANYU · NW Grade **B+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x95af4a…24ce` (partial)
 - Listed on: [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[kucoin]]: B-
-- [[mexc]]: A
+- [[kucoin]]: B+
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[kucoin]]: deposit ✅ / withdraw ✅
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:00.989373Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-24T03:55:27.199734Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

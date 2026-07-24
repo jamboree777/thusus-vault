@@ -2,22 +2,22 @@
 token: MAN
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: D+
+nw_grade: C-
+nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x3c3a81e81dc49a522a592e7622a7e711c06bf354" }
   - { chain: the-open-network, address: "eqb6ql1je7hq0juroplyschcu-wnt2vmmwf2-8memrk68njn" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-23T03:54:56.390561Z
+updated: 2026-07-24T03:55:22.618368Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MAN · NW Grade **A+**
+# MAN · NW Grade **C-**
 
-Ethereum/the-open-network-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum/the-open-network-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x3c3a81…f354` (partial)
@@ -25,9 +25,9 @@ Ethereum/the-open-network-network token; NW grade A+ liquidity; transfer is part
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: D+
-- [[kucoin]]: A+
-- [[mexc]]: C+
+- [[gateio]]: F
+- [[kucoin]]: C-
+- [[mexc]]: C-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
@@ -49,7 +49,6 @@ Ethereum/the-open-network-network token; NW grade A+ liquidity; transfer is part
 - [[kucoin]]: open:man
 - [[mexc]]: open:man
 - Suspended now: [[bitget]]
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-23T03:54:56.390561Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-24T03:55:22.618368Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,7 +2,7 @@
 token: BOBA
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
@@ -10,25 +10,25 @@ contracts:
 exchanges: [bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-23T03:51:48.825557Z
+updated: 2026-07-24T03:52:05.535134Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BOBA · NW Grade **A**
+# BOBA · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x42bbfa…efbc` (verified_same)
 - Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[bybit]]: A
-- [[coinbase]]: A
+- [[bithumb]]: A+
+- [[bybit]]: A+
+- [[coinbase]]: A-
 - [[gateio]]: A
-- [[kucoin]]: B+
+- [[kucoin]]: A
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-23T03:51:48.825557Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-24T03:52:05.535134Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

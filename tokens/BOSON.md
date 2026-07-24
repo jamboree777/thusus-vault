@@ -3,13 +3,13 @@ token: BOSON
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc477d038d5420c6a9e0b031712f61c5120090de9" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-23T03:51:51.020455Z
+updated: 2026-07-24T03:52:07.754494Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - [[gateio]]: A+
 - [[kucoin]]: A+
-- [[mexc]]: A-
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -49,7 +49,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-23T03:51:51.020455Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-24T03:52:07.754494Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

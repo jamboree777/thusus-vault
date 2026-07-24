@@ -3,13 +3,13 @@ token: MLC
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xe8db8733c5badf634f86d6ef894ffdbf0e85b7c2" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-23T03:55:26.903086Z
+updated: 2026-07-24T03:55:51.403630Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is open on at 
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
+- [[gateio]]: D
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -43,7 +43,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:26.903086Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-24T03:55:51.403630Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,30 +2,29 @@
 token: MBOX
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: F
+nw_grade: C+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377" }
-exchanges: [bybit, gateio, mexc]
+exchanges: [bybit, mexc]
 transfer: partial
-updated: 2026-07-23T03:55:03.196765Z
+updated: 2026-07-24T03:55:29.401774Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MBOX · NW Grade **B+**
+# MBOX · NW Grade **C+**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x3203c9…2377` (verified_same)
-- Listed on: [[bybit]], [[gateio]], [[mexc]]
+- Listed on: [[bybit]], [[mexc]]
 
 ## Grade by exchange
 - [[bybit]]: C+
-- [[gateio]]: F
-- [[mexc]]: B+
+- [[mexc]]: C
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ❌ / withdraw ✅
@@ -62,7 +61,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-23T03:55:03.196765Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-24T03:55:29.401774Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

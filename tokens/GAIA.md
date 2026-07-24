@@ -2,50 +2,52 @@
 token: GAIA
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: D-
+nw_grade: B+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x2ee7097bfdd98fce2ac08a1896038a7cd9aaed81" }
 exchanges: [bitget, kucoin, mexc]
 transfer: partial
-updated: 2026-07-23T03:53:28.907045Z
+lifecycle: delisted
+updated: 2026-07-24T03:53:48.885929Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GAIA · NW Grade **B-**
+# GAIA · NW Grade **B+**
 
-Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x2ee709…ed81` (verified_same)
 - Listed on: [[bitget]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B-
-- [[kucoin]]: D-
+- [[bitget]]: B+
+- [[kucoin]]: B+
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-23 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-23 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-22 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-18 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-07-12 · [[mexc]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[mexc]] [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[polygon]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: open:ethereum
 - [[gateio]]: closed:polygon,polygon
 - [[kucoin]]: open:ethereum
-- [[mexc]]: open:ethereum | closed:base,bsc
+- [[mexc]]: closed:base,bsc,ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -63,8 +65,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-23T03:53:28.907045Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-24T03:53:48.885929Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
