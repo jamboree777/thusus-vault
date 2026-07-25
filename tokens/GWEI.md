@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, coinbase, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-24T03:54:10.144130Z
+updated: 2026-07-25T03:55:02.796964Z
 source: nightwatch-kg
 ---
 
@@ -39,6 +39,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-24 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-23 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
@@ -48,7 +49,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[kucoin]]: open:ethereum
-- [[mexc]]: open:bsc,ethereum
+- [[mexc]]: open:bsc | closed:ethereum
 - Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
@@ -69,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-24T03:54:10.144130Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-25T03:55:02.796964Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

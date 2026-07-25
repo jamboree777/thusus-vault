@@ -9,8 +9,7 @@ contracts:
   - { chain: hedera-hashgraph, address: "0.0.4794920" }
 exchanges: [gateio, mexc]
 transfer: partial
-lifecycle: delisted
-updated: 2026-07-24T03:56:29.499320Z
+updated: 2026-07-25T03:57:28.772724Z
 source: nightwatch-kg
 ---
 
@@ -35,7 +34,6 @@ Hedera-hashgraph-network token; NW grade A liquidity; transfer is partial (some 
 ## Events
 - 2026-07-23 · [[mexc]] [[hbar]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[hbar]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:hbar
@@ -57,8 +55,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-24T03:56:29.499320Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-25T03:57:28.772724Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

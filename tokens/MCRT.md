@@ -9,8 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x4b8285ab433d8f69cb48d5ad62b415ed1a221e4f" }
 exchanges: [bybit, mexc]
 transfer: partial
-lifecycle: delisted
-updated: 2026-07-24T03:55:33.802209Z
+updated: 2026-07-25T03:56:24.893722Z
 source: nightwatch-kg
 ---
 
@@ -38,7 +37,6 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - 2026-07-12 · [[htx]] [[mcrt]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc
@@ -61,8 +59,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-24T03:55:33.802209Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-25T03:56:24.893722Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

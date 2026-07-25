@@ -1,41 +1,38 @@
 ---
-token: PIN
+token: OTK
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: B+
+nw_grade: A+
+nw_grade_worst: A+
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0x2e44f3f609ff5aa4819b323fd74690f07c3607c4" }
-exchanges: [gateio, kucoin, mexc]
+  - { chain: solana, address: "octo82drbedm8csdaekbymvn86tbtgmpnddme64ptqj" }
+exchanges: [kucoin, mexc]
 transfer: open
-updated: 2026-07-25T03:57:37.503277Z
+updated: 2026-07-25T03:57:22.203876Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# PIN · NW Grade **A**
+# OTK · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Solana-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[ethereum]] `0x2e44f3…07c4` (verified_same)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Contract: [[solana]] `octo82dr…ptqj` (verified_same)
+- Listed on: [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[kucoin]]: A-
-- [[mexc]]: B+
+- [[kucoin]]: A+
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
-- [[gateio]]: open:ethereum,ethereum
-- [[kucoin]]: open:ethereum
-- [[mexc]]: open:ethereum
+- [[kucoin]]: open:solana
+- [[mexc]]: open:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -45,20 +42,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **-0.42 USD** · win rate 0% (1 settled)
+1 shadow trade · realized net **-0.35 USD** · win rate 0% (1 settled)
 
-- 2026-07-16 · livescan · [[gateio]]→[[mexc]] · -0.42 USD · _price_drift_
+- 2026-07-24 · livescan · [[kucoin]]→[[mexc]] · -0.35 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-25T03:57:37.503277Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-25T03:57:22.203876Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/PIN.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/OTK.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes
