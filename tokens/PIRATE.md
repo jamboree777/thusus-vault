@@ -3,13 +3,13 @@ token: PIRATE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x7613c48e0cd50e42dd9bf0f6c235063145f6f8dc" }
 exchanges: [bybit, coinbase, gateio]
 transfer: partial
-updated: 2026-07-25T03:57:39.698122Z
+updated: 2026-07-26T03:56:38.271234Z
 source: nightwatch-kg
 ---
 
@@ -23,9 +23,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bybit]], [[coinbase]], [[gateio]]
 
 ## Grade by exchange
-- [[bybit]]: A
+- [[bybit]]: A+
 - [[coinbase]]: A+
-- [[gateio]]: A-
+- [[gateio]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-25T03:57:39.698122Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-26T03:56:38.271234Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,13 +3,13 @@ token: OVR
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-25T03:57:24.396026Z
+updated: 2026-07-26T03:56:25.075699Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B-
+- [[gateio]]: F
 - [[kucoin]]: B+
 - [[mexc]]: A+
 
@@ -53,7 +53,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-25T03:57:24.396026Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-26T03:56:25.075699Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
