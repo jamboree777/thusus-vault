@@ -3,14 +3,14 @@ token: AGLD
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x32353a6c91143bfd6c7d363b546e62a9a2489a20" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-26T03:50:36.787353Z
+updated: 2026-07-27T03:52:05.137362Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
-- [[kucoin]]: B+
+- [[kucoin]]: D+
 - [[mexc]]: A+
 - [[okx]]: A+
 - [[upbit]]: A+
@@ -82,7 +82,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-26T03:50:36.787353Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-27T03:52:05.137362Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

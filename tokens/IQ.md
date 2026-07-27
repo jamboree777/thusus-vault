@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-07-26T03:54:16.371511Z
+updated: 2026-07-27T03:55:45.570982Z
 source: nightwatch-kg
 ---
 
@@ -25,10 +25,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bithumb]]: A-
+- [[bithumb]]: A
 - [[gateio]]: A+
 - [[mexc]]: D
-- [[upbit]]: A
+- [[upbit]]: B+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -63,7 +63,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-26T03:54:16.371511Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-27T03:55:45.570982Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

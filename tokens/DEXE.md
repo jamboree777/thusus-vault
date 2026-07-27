@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0xde4ee8057785a7e8e800db58f9784845a5c2cbd6" }
 exchanges: [binance, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: partial
-updated: 2026-07-26T03:52:34.788453Z
+transfer: open
+updated: 2026-07-27T03:54:03.135805Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # DEXE · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xde4ee8…cbd6` (verified_same)
@@ -35,22 +35,23 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ❌
+- [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-26 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-07-26 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-07-26 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-25 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-24 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-24 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-22 · [[mexc]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-07-21 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-07-21 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:bsc | closed:ethereum
+- [[binance]]: open:bsc,ethereum
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[kucoin]]: open:bsc,ethereum
-- [[mexc]]: closed:ethereum
+- [[mexc]]: open:ethereum
+- Recently reopened (48h): [[binance]], [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,17 +61,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-23 shadow trades · realized net **+81.84 USD** · win rate 73.9% (23 settled)
+24 shadow trades · realized net **+102.92 USD** · win rate 75% (24 settled)
 
+- 2026-07-26 · woncarry · [[binance]]→[[bithumb]] · +21.08 USD · _held_
 - 2026-07-25 · woncarry · [[bithumb]]→[[binance]] · -1.64 USD · _held_
 - 2026-07-25 · woncarry · [[bithumb]]→[[binance]] · +5.60 USD
-- 2026-07-25 · woncarry · [[bithumb]]→[[binance]] · +7.57 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-26T03:52:34.788453Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-27T03:54:03.135805Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
