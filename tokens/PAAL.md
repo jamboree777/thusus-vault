@@ -3,13 +3,13 @@ token: PAAL
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D-
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x14fee680690900ba0cccfc76ad70fd1b95d10e16" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-27T03:57:56.943995Z
+updated: 2026-07-28T03:56:22.737398Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bybit]]: B-
 - [[gateio]]: A+
 - [[kucoin]]: B+
-- [[mexc]]: D-
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[bybit]]: deposit ❌ / withdraw ✅
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-27T03:57:56.943995Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-28T03:56:22.737398Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
