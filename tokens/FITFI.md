@@ -10,7 +10,8 @@ contracts:
 exchanges: [bithumb, gateio, kucoin]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-28T03:53:02.232797Z
+lifecycle: suspended
+updated: 2026-07-29T03:53:57.806408Z
 source: nightwatch-kg
 ---
 
@@ -43,6 +44,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - 2026-07-12 · [[bybit]] [[step]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:avaxc-chain
@@ -70,8 +72,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-28T03:53:02.232797Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-29T03:53:57.806408Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

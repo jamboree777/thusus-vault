@@ -9,7 +9,8 @@ contracts:
   - { chain: solana, address: "c29ebrgyjyojpmgpnpsgy1q3mmgk4idsqnqeqqa7moon" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-07-28T03:55:51.210218Z
+lifecycle: suspended
+updated: 2026-07-29T03:56:48.259173Z
 source: nightwatch-kg
 ---
 
@@ -32,6 +33,9 @@ Solana-network token; NW grade A liquidity; transfer is open on at least one ven
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
+## Events
+- Lifecycle: trading **suspended** · [[event/suspension]]
+
 ## Transfer map
 - [[gateio]]: open:solana,solana
 - [[kucoin]]: open:solana
@@ -52,8 +56,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-28T03:55:51.210218Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-29T03:56:48.259173Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -11,7 +11,7 @@ contracts:
 exchanges: [bithumb, bybit, coinbase, gateio]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-07-28T03:55:37.972856Z
+updated: 2026-07-29T03:56:34.689011Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is par
 - Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[gateio]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
+- [[bithumb]]: B+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: D
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-28T03:55:37.972856Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-29T03:56:34.689011Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

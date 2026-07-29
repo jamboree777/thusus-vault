@@ -3,13 +3,13 @@ token: NAVX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: sui, address: "0xa99b8952d4f7d947ea77fe0ecdcc9e5fc0bcab2841d6e2a5aa00c3044e5544b5::navx::navx" }
 exchanges: [bybit, gateio, kucoin, mexc, okx]
 transfer: partial
-updated: 2026-07-28T03:55:44.579089Z
+updated: 2026-07-29T03:56:41.407139Z
 source: nightwatch-kg
 ---
 
@@ -24,8 +24,8 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 
 ## Grade by exchange
 - [[bybit]]: A+
-- [[gateio]]: A
-- [[kucoin]]: A
+- [[gateio]]: D+
+- [[kucoin]]: B+
 - [[mexc]]: C+
 - [[okx]]: A-
 
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-28T03:55:44.579089Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-29T03:56:41.407139Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

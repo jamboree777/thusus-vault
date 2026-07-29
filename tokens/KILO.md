@@ -1,42 +1,49 @@
 ---
-token: BRN
+token: KILO
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B+
+nw_grade: A
+nw_grade_worst: C-
 identity: verified_same
 contracts:
-  - { chain: binance-smart-chain, address: "0x926ecc7687fcfb296e97a2b4501f41a6f5f8c214" }
-exchanges: [gateio, mexc]
+  - { chain: binance-smart-chain, address: "0x503fa24b7972677f00c4618e5fbe237780c1df53" }
+exchanges: [bybit, gateio, mexc]
 transfer: partial
-updated: 2026-07-29T03:52:23.580606Z
+updated: 2026-07-29T03:55:16.188264Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BRN · NW Grade **A+**
+# KILO · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[binance-smart-chain]] `0x926ecc…c214` (verified_same)
-- Listed on: [[gateio]], [[mexc]]
+- Contract: [[binance-smart-chain]] `0x503fa2…df53` (verified_same)
+- Listed on: [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A+
-- [[mexc]]: B+
+- [[bybit]]: A
+- [[gateio]]: B+
+- [[mexc]]: C-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
+- [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[kucoin]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-12 · [[kucoin]] [[bep20]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[bybit]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[bep20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc
+- [[bybit]]: closed:bsc
 - [[gateio]]: open:bsc,bsc
+- [[kucoin]]: closed:bsc
 - [[mexc]]: open:bsc
 
 ## Backers & Project
@@ -47,20 +54,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+0.14 USD** · win rate 100% (1 settled)
+1 shadow trade · realized net **+0.72 USD** · win rate 100% (1 settled)
 
-- 2026-07-23 · livescan · [[mexc]]→[[gateio]] · +0.14 USD · _cost_drag_
+- 2026-07-28 · livescan · [[mexc]]→[[gateio]] · +0.72 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-29T03:52:23.580606Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-29T03:55:16.188264Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BRN.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/KILO.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

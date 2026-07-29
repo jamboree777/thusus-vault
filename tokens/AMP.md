@@ -1,69 +1,63 @@
 ---
-token: BARD
+token: AMP
 type: token
 tier: free
 nw_grade: A+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754" }
-exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
-korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-07-29T03:51:42.959041Z
+  - { chain: ethereum, address: "0xff20817765cb7f73d4bde2e66e067e58d11095c2" }
+exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
+korean_exchanges: [bithumb]
+transfer: partial
+lifecycle: suspended
+updated: 2026-07-29T03:51:17.318706Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BARD · NW Grade **A+**
+# AMP · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[ethereum]] `0xf0db65…9754` (verified_same)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]], [[upbit]]
+- Contract: [[ethereum]] `0xff2081…95c2` (verified_same)
+- Listed on: [[binance]], [[bitget]], [[bithumb]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bitget]]: A+
-- [[bithumb]]: A-
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: A
+- [[bitget]]: B+
+- [[bithumb]]: A+
+- [[coinbase]]: B+
+- [[gateio]]: A+
 - [[kucoin]]: B+
-- [[mexc]]: A+
-- [[okx]]: A+
-- [[upbit]]: A
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[binance]]: open:bsc,ethereum
-- [[bitget]]: open:ethereum
+- [[binance]]: open:ethereum
+- [[bitget]]: closed:ethereum
 - [[bithumb]]: open:ethereum
-- [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[kucoin]]: open:ethereum
-- [[mexc]]: open:bsc,ethereum
-- [[okx]]: open:ethereum
-- [[upbit]]: open:ethereum
+- [[mexc]]: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,21 +67,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+4.82 USD** · win rate 100% (2 settled)
+1 shadow trade · realized net **+7.42 USD** · win rate 100% (1 settled)
 
-- 2026-07-23 · woncarry · [[bithumb]]→[[binance]] · +0.73 USD · _decayed_
-- 2026-07-23 · woncarry · [[bithumb]]→[[binance]] · +4.09 USD · _held_
+- 2026-07-28 · woncarry · [[bithumb]]→[[binance]] · +7.42 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-29T03:51:42.959041Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-29T03:51:17.318706Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BARD.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/AMP.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes
