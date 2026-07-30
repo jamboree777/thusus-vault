@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "cnymarr4krm1yaxfcvpxevnmarzzzk7srqkwx68ucejk" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-29T03:55:50.110205Z
+updated: 2026-07-30T03:56:34.354511Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 ## Grade by exchange
 - [[bybit]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: A
+- [[kucoin]]: A+
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
@@ -36,12 +36,12 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-29 · [[mexc]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-07-29 · [[mexc]] [[ton]] deposit → open · [[event/dw-resume]]
+- 2026-07-29 · [[mexc]] [[ton]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-29 · [[mexc]] [[ton]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-13 · [[bybit]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-07-13 · [[bybit]] [[ton]] deposit → open · [[event/dw-resume]]
-- 2026-07-13 · [[mexc]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-07-13 · [[mexc]] [[ton]] deposit → open · [[event/dw-resume]]
-- 2026-07-13 · [[bybit]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-13 · [[bybit]] [[ton]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:ton
@@ -49,6 +49,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - [[gateio]]: open:ton,ton
 - [[kucoin]]: closed:ton
 - [[mexc]]: open:ton
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,17 +59,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-7 shadow trades · realized net **+1.45 USD** · win rate 85.7% (7 settled)
+8 shadow trades · realized net **-0.52 USD** · win rate 75% (8 settled)
 
+- 2026-07-29 · livescan · [[gateio]]→[[bybit]] · -1.97 USD · _price_drift_
 - 2026-07-28 · livescan · [[bybit]]→[[kucoin]] · +0.16 USD · _cost_drag_
 - 2026-07-27 · livescan · [[bybit]]→[[kucoin]] · +0.30 USD · _cost_drag_
-- 2026-07-20 · livescan · [[bybit]]→[[mexc]] · -0.36 USD · _cost_drag_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-29T03:55:50.110205Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-30T03:56:34.354511Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

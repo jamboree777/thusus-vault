@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, coinbase, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-29T03:53:43.309448Z
+updated: 2026-07-30T03:54:18.290886Z
 source: nightwatch-kg
 ---
 
@@ -39,12 +39,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-30 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-27 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-27 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-26 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-26 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:arbone,ethereum
@@ -52,9 +52,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:arbevm,arbone,ethereum,ethereum
 - [[kucoin]]: open:ethereum
-- [[mexc]]: open:arbitrum,ethereum
+- [[mexc]]: open:arbitrum | closed:ethereum
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-29T03:53:43.309448Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-30T03:54:18.290886Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

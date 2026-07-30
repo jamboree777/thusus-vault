@@ -1,36 +1,43 @@
 ---
-token: BST
+token: AVL
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: C
-identity: verified_same
+nw_grade: A+
+nw_grade_worst: B-
+identity: partial
 contracts:
-  - { chain: ethereum, address: "0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a" }
-exchanges: [gateio, mexc]
+  - { chain: ethereum, address: "0x5c8d0c48810fd37a0a824d074ee290e64f7a8fa2" }
+exchanges: [bithumb, bybit, gateio, mexc]
+korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-30T03:53:00.490658Z
+updated: 2026-07-30T03:52:08.976726Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BST · NW Grade **A-**
+# AVL · NW Grade **A+**
 
-Ethereum-network token; NW grade A- liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[ethereum]] `0x509a38…7f4a` (verified_same)
-- Listed on: [[gateio]], [[mexc]]
+- Contract: [[ethereum]] `0x5c8d0c…8fa2` (partial)
+- Listed on: [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A-
-- [[mexc]]: C
+- [[bithumb]]: A-
+- [[bybit]]: A+
+- [[gateio]]: A
+- [[mexc]]: B-
 
 ## Deposit / Withdrawal
+- [[bithumb]]: deposit ✅ / withdraw ✅
+- [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
+- [[bithumb]]: open:ethereum
+- [[bybit]]: open:bsc,ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[mexc]]: open:ethereum
 
@@ -42,20 +49,21 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+2.91 USD** · win rate 100% (1 settled)
+2 shadow trades · realized net **+9.92 USD** · win rate 100% (2 settled)
 
-- 2026-07-28 · livescan · [[mexc]]→[[gateio]] · +2.91 USD · _beat_
+- 2026-07-29 · woncarry · [[bithumb]]→[[bybit]] · +3.69 USD · _held_
+- 2026-07-29 · woncarry · [[bithumb]]→[[bybit]] · +6.23 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-30T03:53:00.490658Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-30T03:52:08.976726Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BST.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/AVL.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

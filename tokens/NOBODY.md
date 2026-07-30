@@ -2,39 +2,35 @@
 token: NOBODY
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: F
+nw_grade: A+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: solana, address: "c29ebrgyjyojpmgpnpsgy1q3mmgk4idsqnqeqqa7moon" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-lifecycle: suspended
-updated: 2026-07-29T03:56:48.259173Z
+updated: 2026-07-30T03:57:32.215746Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# NOBODY · NW Grade **A**
+# NOBODY · NW Grade **A+**
 
-Solana-network token; NW grade A liquidity; transfer is open on at least one venue.
+Solana-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[solana]] `c29ebrgy…moon` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: F
-- [[kucoin]]: C+
-- [[mexc]]: A
+- [[gateio]]: A-
+- [[kucoin]]: B
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
-
-## Events
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:solana,solana
@@ -56,8 +52,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-29T03:56:48.259173Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-07-30T03:57:32.215746Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,30 +2,30 @@
 token: GLQ
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: B+
+nw_grade: B+
+nw_grade_worst: D-
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-29T03:54:21.583557Z
+updated: 2026-07-30T03:54:59.969989Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GLQ · NW Grade **A**
+# GLQ · NW Grade **B+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x9f9c8e…4d24` (partial)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[kucoin]]: B+
-- [[mexc]]: A
+- [[gateio]]: B+
+- [[kucoin]]: D-
+- [[mexc]]: B
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
@@ -56,17 +56,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-3 shadow trades · realized net **+6.38 USD** · win rate 100% (3 settled)
+5 shadow trades · realized net **+9.44 USD** · win rate 100% (5 settled)
 
+- 2026-07-30 · livescan · [[mexc]]→[[kucoin]] · +1.73 USD · _in_line_
+- 2026-07-29 · livescan · [[mexc]]→[[kucoin]] · +1.32 USD · _beat_
 - 2026-07-28 · livescan · [[mexc]]→[[kucoin]] · +0.69 USD · _in_line_
-- 2026-07-15 · livescan · [[kucoin]]→[[gateio]] · +0.15 USD
-- 2026-07-15 · livescan · [[kucoin]]→[[gateio]] · +5.54 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-29T03:54:21.583557Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-30T03:54:59.969989Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

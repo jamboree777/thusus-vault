@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0xe8db8733c5badf634f86d6ef894ffdbf0e85b7c2" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-29T03:56:30.277649Z
+updated: 2026-07-30T03:57:09.379657Z
 source: nightwatch-kg
 ---
 
@@ -30,9 +30,16 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is open on at
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
+## Events
+- 2026-07-29 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-07-29 · [[mexc]] [[polygon]] deposit → open · [[event/dw-resume]]
+- 2026-07-29 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-29 · [[mexc]] [[polygon]] deposit → closed · [[event/dw-freeze]]
+
 ## Transfer map
 - [[gateio]]: open:polygon,polygon
 - [[mexc]]: open:polygon
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -42,8 +49,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-07-29T03:56:30.277649Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-07-30T03:57:09.379657Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
