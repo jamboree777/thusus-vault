@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0x311434160d7537be358930def317afb606c0d737" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-30T03:57:15.982395Z
+updated: 2026-07-31T03:56:14.535572Z
 source: nightwatch-kg
 ---
 
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-30T03:57:15.982395Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-31T03:56:14.535572Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

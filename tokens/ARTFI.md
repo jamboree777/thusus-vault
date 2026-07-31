@@ -2,29 +2,29 @@
 token: ARTFI
 type: token
 tier: free
-nw_grade: C+
-nw_grade_worst: C
+nw_grade: C-
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::artfi" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-07-30T03:51:55.772620Z
+updated: 2026-07-31T03:50:49.542129Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ARTFI · NW Grade **C+**
+# ARTFI · NW Grade **C-**
 
-Sui-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x706fa7…rtfi` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: C+
-- [[kucoin]]: C
+- [[gateio]]: F
+- [[kucoin]]: C-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -33,6 +33,8 @@ Sui-network token; NW grade C+ liquidity; transfer is partial (some venues froze
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-31 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
+- 2026-07-31 · [[mexc]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] withdraw → closed · [[event/dw-freeze]]
@@ -43,6 +45,7 @@ Sui-network token; NW grade C+ liquidity; transfer is partial (some venues froze
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
 - [[kucoin]]: open:sui
 - [[mexc]]: closed:sui
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-30T03:51:55.772620Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-31T03:50:49.542129Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

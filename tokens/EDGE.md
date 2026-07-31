@@ -1,48 +1,59 @@
 ---
-token: AGI
+token: EDGE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: C
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0x7da2641000cbb407c329310c461b2cb9c70c3046" }
-exchanges: [bithumb, bybit, gateio, kucoin, mexc]
-korean_exchanges: [bithumb]
+  - { chain: base, address: "0xed6e000def95780fb89734c07ee2ce9f6dcaf110" }
+exchanges: [bitget, bithumb, bybit, coinbase, gateio, mexc, okx, upbit]
+korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-07-31T03:50:34.153082Z
+updated: 2026-07-31T03:53:01.050392Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AGI · NW Grade **A+**
+# EDGE · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[ethereum]] `0x7da264…3046` (verified_same)
-- Listed on: [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
+- Contract: [[base]] `0xed6e00…f110` (verified_same)
+- Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[mexc]], [[okx]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bitget]]: A+
+- [[bithumb]]: A+
 - [[bybit]]: A+
-- [[gateio]]: A
-- [[kucoin]]: A-
-- [[mexc]]: A
+- [[coinbase]]: A-
+- [[gateio]]: B+
+- [[mexc]]: C
+- [[okx]]: A+
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
+- [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
+- [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[okx]]: deposit ✅ / withdraw ✅
+- [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
-- [[bithumb]]: open:ethereum
+- [[bitget]]: open:ethereum
+- [[bithumb]]: open:base
 - [[bybit]]: open:ethereum
-- [[gateio]]: open:bsc,bsc,ethereum,ethereum
+- [[coinbase]]: open:base
+- [[gateio]]: open:base,baseevm
 - [[kucoin]]: open:ethereum
 - [[mexc]]: open:ethereum
+- [[okx]]: open:ethereum
+- [[upbit]]: open:base,base
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -52,20 +63,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+0.26 USD** · win rate 100% (1 settled)
+1 shadow trade · realized net **+0.38 USD** · win rate 100% (1 settled)
 
-- 2026-07-21 · livescan · [[bybit]]→[[kucoin]] · +0.26 USD · _price_drift_
+- 2026-07-30 · woncarry · [[bithumb]]→[[gateio]] · +0.38 USD · _flipped_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-31T03:50:34.153082Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-31T03:53:01.050392Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/AGI.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/EDGE.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

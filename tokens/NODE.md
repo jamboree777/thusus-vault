@@ -3,14 +3,13 @@ token: NODE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x2f714d7b9a035d4ce24af8d9b6091c07e37f43fb" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-lifecycle: suspended
-updated: 2026-07-30T03:57:34.445312Z
+updated: 2026-07-31T03:56:34.880235Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +24,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: B+
-- [[kucoin]]: A+
+- [[kucoin]]: F
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
@@ -38,7 +37,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-07-12 · [[mexc]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-07-12 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
@@ -54,8 +52,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-07-30T03:57:34.445312Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-07-31T03:56:34.880235Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

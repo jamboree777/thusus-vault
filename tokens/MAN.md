@@ -2,22 +2,22 @@
 token: MAN
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: D+
+nw_grade: B+
+nw_grade_worst: B
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x3c3a81e81dc49a522a592e7622a7e711c06bf354" }
   - { chain: the-open-network, address: "eqb6ql1je7hq0juroplyschcu-wnt2vmmwf2-8memrk68njn" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-07-30T03:56:36.540059Z
+updated: 2026-07-31T03:55:36.999816Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MAN · NW Grade **B-**
+# MAN · NW Grade **B+**
 
-Ethereum/the-open-network-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Ethereum/the-open-network-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x3c3a81…f354` (partial)
@@ -25,9 +25,9 @@ Ethereum/the-open-network-network token; NW grade B- liquidity; transfer is part
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: D+
-- [[kucoin]]: C+
-- [[mexc]]: B-
+- [[gateio]]: B+
+- [[kucoin]]: B+
+- [[mexc]]: B
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
@@ -36,12 +36,12 @@ Ethereum/the-open-network-network token; NW grade B- liquidity; transfer is part
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-07-30 · [[gateio]] [[man]] withdraw → open · [[event/dw-resume]]
+- 2026-07-30 · [[gateio]] [[man]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-30 · [[gateio]] [[man]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[gateio]] [[man]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-29 · [[gateio]] [[man]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[gateio]] [[man]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-21 · [[mexc]] [[man]] withdraw → open · [[event/dw-resume]]
-- 2026-07-21 · [[mexc]] [[man]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc
@@ -59,17 +59,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-6 shadow trades · realized net **+9.14 USD** · win rate 100% (6 settled)
+7 shadow trades · realized net **+9.52 USD** · win rate 100% (7 settled)
 
+- 2026-07-31 · livescan · [[gateio]]→[[mexc]] · +0.38 USD · _in_line_
 - 2026-07-29 · livescan · [[gateio]]→[[mexc]] · +0.85 USD · _in_line_
 - 2026-07-26 · livescan · [[gateio]]→[[mexc]] · +2.72 USD · _in_line_
-- 2026-07-21 · livescan · [[mexc]]→[[gateio]] · +2.35 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-30T03:56:36.540059Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-31T03:55:36.999816Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

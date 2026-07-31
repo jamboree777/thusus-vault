@@ -3,7 +3,7 @@ token: AMP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xff20817765cb7f73d4bde2e66e067e58d11095c2" }
@@ -11,7 +11,7 @@ exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
 lifecycle: suspended
-updated: 2026-07-30T03:51:49.831796Z
+updated: 2026-07-31T03:50:45.139656Z
 source: nightwatch-kg
 ---
 
@@ -27,10 +27,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: B+
-- [[bithumb]]: A
+- [[bithumb]]: B+
 - [[coinbase]]: B+
 - [[gateio]]: A+
-- [[kucoin]]: B-
+- [[kucoin]]: B+
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -75,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-30T03:51:49.831796Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-31T03:50:45.139656Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

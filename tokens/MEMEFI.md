@@ -2,28 +2,28 @@
 token: MEMEFI
 type: token
 tier: free
-nw_grade: C-
-nw_grade_worst: C-
+nw_grade: B
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x506a6fc25f1c7d52ceb06ea44a3114c9380f8e2029b4356019822f248b49e411::memefi::memefi" }
 exchanges: [kucoin]
 transfer: partial
-updated: 2026-07-30T03:56:52.718277Z
+updated: 2026-07-31T03:55:52.386062Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MEMEFI · NW Grade **C-**
+# MEMEFI · NW Grade **B**
 
-Sui-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade B liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x506a6f…mefi` (verified_same)
 - Listed on: [[kucoin]]
 
 ## Grade by exchange
-- [[kucoin]]: C-
+- [[kucoin]]: B
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -33,12 +33,12 @@ Sui-network token; NW grade C- liquidity; transfer is partial (some venues froze
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-31 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
+- 2026-07-31 · [[mexc]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-20 · [[htx]] [[memefi]] withdraw → open · [[event/dw-resume]]
 - 2026-07-20 · [[htx]] [[memefi]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[suinew]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[sui]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:sui
@@ -46,6 +46,7 @@ Sui-network token; NW grade C- liquidity; transfer is partial (some venues froze
 - [[gateio]]: closed:sui,sui,suinew,suinew
 - [[kucoin]]: open:sui
 - [[mexc]]: closed:sui
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-30T03:56:52.718277Z_
+_Live from the NightWatch Knowledge Graph · 2026-07-31T03:55:52.386062Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
