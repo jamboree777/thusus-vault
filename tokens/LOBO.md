@@ -2,29 +2,29 @@
 token: LOBO
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: D
+nw_grade: C+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ordinals, address: "840000:35" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-31T03:55:16.637824Z
+updated: 2026-08-01T03:56:33.282577Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# LOBO · NW Grade **A**
+# LOBO · NW Grade **C+**
 
-Ordinals-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ordinals-network token; NW grade C+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ordinals]] `840000:35` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[mexc]]: D
+- [[gateio]]: F
+- [[mexc]]: C+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -52,7 +52,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-31T03:55:16.637824Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-01T03:56:33.282577Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,29 +2,29 @@
 token: MLC
 type: token
 tier: free
-nw_grade: C-
-nw_grade_worst: C-
+nw_grade: A
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xe8db8733c5badf634f86d6ef894ffdbf0e85b7c2" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-07-31T03:56:07.783561Z
+updated: 2026-08-01T03:57:23.584740Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MLC · NW Grade **C-**
+# MLC · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade C- liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xe8db87…b7c2` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C-
-- [[mexc]]: C-
+- [[gateio]]: A
+- [[mexc]]: F
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -39,7 +39,6 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is open on at
 ## Transfer map
 - [[gateio]]: open:polygon,polygon
 - [[mexc]]: open:polygon
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -50,7 +49,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-07-31T03:56:07.783561Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-01T03:57:23.584740Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

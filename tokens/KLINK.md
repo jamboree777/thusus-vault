@@ -2,29 +2,29 @@
 token: KLINK
 type: token
 tier: free
-nw_grade: C+
-nw_grade_worst: D+
+nw_grade: B-
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x76e9b54b49739837be8ad10c3687fc6b543de852" }
 exchanges: [gateio, kucoin]
 transfer: open
-updated: 2026-07-31T03:54:56.241737Z
+updated: 2026-08-01T03:56:12.478542Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# KLINK · NW Grade **C+**
+# KLINK · NW Grade **B-**
 
-Binance-smart-chain-network token; NW grade C+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade B- liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x76e9b5…e852` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: C+
-- [[kucoin]]: D+
+- [[gateio]]: B-
+- [[kucoin]]: D-
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -42,8 +42,9 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+5.79 USD** · win rate 100% (2 settled)
+3 shadow trades · realized net **+6.13 USD** · win rate 100% (3 settled)
 
+- 2026-07-31 · livescan · [[gateio]]→[[kucoin]] · +0.34 USD · _cost_drag_
 - 2026-07-20 · livescan · [[gateio]]→[[kucoin]] · +0.16 USD · _depth_shrink_
 - 2026-07-20 · livescan · [[gateio]]→[[kucoin]] · +5.62 USD · _beat_
 
@@ -51,7 +52,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-31T03:54:56.241737Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-01T03:56:12.478542Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

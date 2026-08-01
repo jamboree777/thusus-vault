@@ -2,21 +2,21 @@
 token: BCUT
 type: token
 tier: free
-nw_grade: D-
-nw_grade_worst: F
+nw_grade: B+
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-07-31T03:51:15.940612Z
+updated: 2026-08-01T03:52:23.793609Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BCUT · NW Grade **D-**
+# BCUT · NW Grade **B+**
 
-Ethereum-network token; NW grade D- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xbef26b…c406` (verified_same)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade D- liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: D-
-- [[kucoin]]: F
+- [[kucoin]]: B+
 
 ## Deposit / Withdrawal
 - [[bybit]]: deposit ❌ / withdraw ✅
@@ -45,7 +45,6 @@ Ethereum-network token; NW grade D- liquidity; transfer is partial (some venues 
 - [[gateio]]: open:ethereum,ethereum,polygon | closed:polygon
 - [[kucoin]]: open:ethereum
 - [[mexc]]: closed:polygon
-- Recently reopened (48h): [[bybit]], [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-31T03:51:15.940612Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-01T03:52:23.793609Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

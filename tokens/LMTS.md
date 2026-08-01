@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0x9eadbe35f3ee3bf3e28180070c429298a1b02f93" }
 exchanges: [coinbase, gateio, hyperliquid, kucoin, mexc]
 transfer: open
-updated: 2026-07-31T03:55:12.241727Z
+updated: 2026-08-01T03:56:27.889600Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 ## Grade by exchange
 - [[coinbase]]: A
 - [[gateio]]: A
-- [[hyperliquid]]: A+
+- [[hyperliquid]]: A
 - [[kucoin]]: A+
 - [[mexc]]: D
 
@@ -57,7 +57,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-31T03:55:12.241727Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-01T03:56:27.889600Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,14 @@ token: CAMP
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: D+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-07-31T03:52:00.948786Z
+updated: 2026-08-01T03:53:10.002582Z
 source: nightwatch-kg
 ---
 
@@ -24,12 +24,12 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: D+
-- [[bithumb]]: A-
+- [[bitget]]: B+
+- [[bithumb]]: A
 - [[bybit]]: A
-- [[gateio]]: D+
+- [[gateio]]: C
 - [[kucoin]]: A
-- [[mexc]]: C-
+- [[mexc]]: B-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -58,17 +58,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-7 shadow trades · realized net **+1.89 USD** · win rate 71.4% (7 settled)
+8 shadow trades · realized net **+2.26 USD** · win rate 75% (8 settled)
 
+- 2026-07-31 · livescan · [[bybit]]→[[bitget]] · +0.38 USD · _cost_drag_
 - 2026-07-30 · woncarry · [[bithumb]]→[[bybit]] · +5.89 USD · _held_
 - 2026-07-29 · livescan · [[bybit]]→[[gateio]] · +1.49 USD
-- 2026-07-28 · woncarry · [[bithumb]]→[[bybit]] · +7.49 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-07-31T03:52:00.948786Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-01T03:53:10.002582Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
