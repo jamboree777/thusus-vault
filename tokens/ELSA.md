@@ -3,14 +3,14 @@ token: ELSA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x29cc30f9d113b356ce408667aa6433589cecbdca" }
 exchanges: [bithumb, bybit, coinbase, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-01T03:54:20.543477Z
+updated: 2026-08-02T03:54:13.793617Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[upbit]]: A+
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-01T03:54:20.543477Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-02T03:54:13.793617Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

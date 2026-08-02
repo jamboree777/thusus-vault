@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-08-01T03:52:48.294073Z
+updated: 2026-08-02T03:52:34.713102Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: B+
+- [[bithumb]]: A
 - [[gateio]]: A
 - [[kucoin]]: B+
 - [[mexc]]: B-
@@ -36,18 +36,18 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-01 · [[mexc]] [[bob]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-01 · [[mexc]] [[bob]] withdraw → open · [[event/dw-resume]]
 - 2026-07-30 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-07-28 · [[mexc]] [[bob]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-26 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-18 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-07-16 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bithumb]]: open:bob
 - [[gateio]]: open:bob,bob
 - [[kucoin]]: open:gobob
-- [[mexc]]: open:bob,bsc
+- [[mexc]]: open:bsc | closed:bob
 - Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-01T03:52:48.294073Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-02T03:52:34.713102Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
