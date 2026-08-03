@@ -3,14 +3,14 @@ token: DEVVE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x8248270620aa532e4d64316017be5e873e37cc09" }
 exchanges: [gateio, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-02T03:53:45.704951Z
+updated: 2026-08-03T03:53:49.289556Z
 source: nightwatch-kg
 ---
 
@@ -25,14 +25,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: A+
-- [[mexc]]: F
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-03 · [[gateio]] [[eth]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-29 · [[gateio]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: delist scheduled (1785898800) · [[event/delisting]]
@@ -40,7 +41,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
-- [[gateio]]: open:ethereum | closed:ethereum
+- [[gateio]]: closed:ethereum,ethereum
 - [[mexc]]: open:ethereum
 
 ## Backers & Project
@@ -50,9 +51,18 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+5 shadow trades · realized net **+4.98 USD** · win rate 100% (5 settled)
+
+- 2026-08-03 · livescan · [[mexc]]→[[gateio]] · +1.03 USD · _beat_
+- 2026-08-02 · livescan · [[mexc]]→[[gateio]] · +0.99 USD · _in_line_
+- 2026-08-02 · livescan · [[mexc]]→[[gateio]] · +0.99 USD · _beat_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-08-02T03:53:45.704951Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-03T03:53:49.289556Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

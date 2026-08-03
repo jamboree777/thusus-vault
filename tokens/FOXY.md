@@ -9,7 +9,7 @@ contracts:
   - { chain: linea, address: "0x5fbdf89403270a1846f5ae7d113a989f850d1566" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-08-02T03:54:45.808803Z
+updated: 2026-08-03T03:54:51.227029Z
 source: nightwatch-kg
 ---
 
@@ -29,15 +29,16 @@ Linea-network token; NW grade B- liquidity; transfer is partial (some venues fro
 ## Deposit / Withdrawal
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
+- [[kucoin]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-03 · [[kucoin]] [[linea]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[linea]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bybit]]: closed:linea
 - [[gateio]]: open:linea,lineaeth
-- [[kucoin]]: open:linea
+- [[kucoin]]: closed:linea
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -57,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-02T03:54:45.808803Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-03T03:54:51.227029Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

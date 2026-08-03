@@ -7,9 +7,10 @@ nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
-exchanges: [coinbase, gateio, mexc]
+exchanges: [bithumb, coinbase, gateio, mexc, upbit]
+korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-02T03:54:56.491875Z
+updated: 2026-08-03T03:54:59.864011Z
 source: nightwatch-kg
 ---
 
@@ -20,12 +21,14 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 
 ## Identity
 - Contract: [[polygon-pos]] `0xac0f66…9adb` (verified_same)
-- Listed on: [[coinbase]], [[gateio]], [[mexc]]
+- Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
+- [[bithumb]]: A
 - [[coinbase]]: A+
 - [[gateio]]: A-
 - [[mexc]]: A-
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -65,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-02T03:54:56.491875Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-03T03:54:59.864011Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

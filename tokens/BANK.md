@@ -7,9 +7,10 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x3aee7602b612de36088f3ffed8c8f10e86ebf2bf" }
-exchanges: [binance, bitget, gateio, mexc]
+exchanges: [binance, bitget, bithumb, gateio, mexc]
+korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-08-02T03:52:04.221840Z
+updated: 2026-08-03T03:52:13.292887Z
 source: nightwatch-kg
 ---
 
@@ -20,11 +21,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x3aee76…f2bf` (verified_same)
-- Listed on: [[binance]], [[bitget]], [[gateio]], [[mexc]]
+- Listed on: [[binance]], [[bitget]], [[bithumb]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: B+
+- [[bithumb]]: A+
 - [[gateio]]: A+
 - [[mexc]]: A+
 
@@ -68,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-02T03:52:04.221840Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-03T03:52:13.292887Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

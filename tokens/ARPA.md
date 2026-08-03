@@ -3,14 +3,14 @@ token: ARPA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xba50933c268f567bdc86e1ac131be072c6b0b71a" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-08-02T03:51:41.216415Z
+updated: 2026-08-03T03:51:51.278987Z
 source: nightwatch-kg
 ---
 
@@ -26,10 +26,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[coinbase]]: A-
 - [[gateio]]: A+
-- [[kucoin]]: A
+- [[kucoin]]: B+
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -67,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-02T03:51:41.216415Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-03T03:51:51.278987Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

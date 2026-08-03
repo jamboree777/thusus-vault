@@ -3,14 +3,13 @@ token: KILO
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: F
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x503fa24b7972677f00c4618e5fbe237780c1df53" }
-exchanges: [bybit, gateio, mexc]
+exchanges: [bybit, gateio]
 transfer: partial
-lifecycle: delisted
-updated: 2026-08-02T03:56:01.002062Z
+updated: 2026-08-03T03:56:06.566214Z
 source: nightwatch-kg
 ---
 
@@ -21,12 +20,11 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x503fa2…df53` (verified_same)
-- Listed on: [[bybit]], [[gateio]], [[mexc]]
+- Listed on: [[bybit]], [[gateio]]
 
 ## Grade by exchange
 - [[bybit]]: A
 - [[gateio]]: B+
-- [[mexc]]: F
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -40,7 +38,6 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 - 2026-07-12 · [[kucoin]] [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[bep20]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc
@@ -64,8 +61,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-02T03:56:01.002062Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-03T03:56:06.566214Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
