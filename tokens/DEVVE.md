@@ -3,14 +3,14 @@ token: DEVVE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x8248270620aa532e4d64316017be5e873e37cc09" }
 exchanges: [gateio, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-03T03:53:49.289556Z
+updated: 2026-08-04T03:52:51.743623Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: A+
-- [[mexc]]: B+
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-03T03:53:49.289556Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-04T03:52:51.743623Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

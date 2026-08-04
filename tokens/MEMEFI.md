@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0x506a6fc25f1c7d52ceb06ea44a3114c9380f8e2029b4356019822f248b49e411::memefi::memefi" }
 exchanges: [kucoin]
 transfer: partial
-updated: 2026-08-03T03:57:08.197763Z
+updated: 2026-08-04T03:56:21.475141Z
 source: nightwatch-kg
 ---
 
@@ -65,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-03T03:57:08.197763Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-04T03:56:21.475141Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

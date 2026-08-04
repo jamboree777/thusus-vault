@@ -3,14 +3,14 @@ token: BLUR
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x5283d291dbcf85356a21ba090e6db59121208b44" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-03T03:52:42.774064Z
+updated: 2026-08-04T03:51:45.045220Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bitget]]: A+
 - [[bithumb]]: A+
 - [[bybit]]: A+
-- [[coinbase]]: B+
+- [[coinbase]]: A
 - [[gateio]]: A+
 - [[kucoin]]: A+
 - [[mexc]]: A
@@ -74,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-03T03:52:42.774064Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-04T03:51:45.045220Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,22 +2,22 @@
 token: FITFI
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: D
+nw_grade: A+
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x7588df009c3d82378be6ab81f2108fa963c10fc8" }
 exchanges: [bithumb, gateio]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-03T03:54:42.264266Z
+updated: 2026-08-04T03:53:45.250188Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FITFI · NW Grade **B+**
+# FITFI · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x7588df…0fc8` (partial)
@@ -25,7 +25,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - [[bithumb]]: B+
-- [[gateio]]: D
+- [[gateio]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-03T03:54:42.264266Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-04T03:53:45.250188Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

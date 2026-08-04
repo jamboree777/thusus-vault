@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-03T03:52:34.736737Z
+updated: 2026-08-04T03:51:36.957927Z
 source: nightwatch-kg
 ---
 
@@ -24,14 +24,14 @@ Blast-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
-- [[bitget]]: B+
+- [[bitget]]: B
 - [[bithumb]]: A
 - [[bybit]]: A+
 - [[coinbase]]: B+
 - [[gateio]]: A
 - [[kucoin]]: B+
 - [[mexc]]: D
-- [[upbit]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -73,7 +73,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-03T03:52:34.736737Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-04T03:51:36.957927Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

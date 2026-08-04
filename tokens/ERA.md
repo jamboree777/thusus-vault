@@ -3,14 +3,14 @@ token: ERA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xe2ad0bf751834f2fbdc62a41014f84d67ca1de2a" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-03T03:54:18.163368Z
+updated: 2026-08-04T03:53:21.249223Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bitget]]: A-
+- [[bitget]]: A
 - [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
@@ -82,7 +82,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-03T03:54:18.163368Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-04T03:53:21.249223Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

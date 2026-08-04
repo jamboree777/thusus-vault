@@ -4,13 +4,13 @@ type: token
 tier: free
 nw_grade: A+
 nw_grade_worst: A-
-identity: verified_same
+identity: partial
 contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
 exchanges: [bithumb, coinbase, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-03T03:54:59.864011Z
+updated: 2026-08-04T03:54:04.061915Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +20,7 @@ source: nightwatch-kg
 Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[polygon-pos]] `0xac0f66…9adb` (verified_same)
+- Contract: [[polygon-pos]] `0xac0f66…9adb` (partial)
 - Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-03T03:54:59.864011Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-04T03:54:04.061915Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -1,38 +1,41 @@
 ---
-token: BAY
+token: EYWA
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: A+
-identity: verified_same
+nw_grade: A
+nw_grade_worst: D-
+identity: partial
 contracts:
-  - { chain: binance-smart-chain, address: "0xa7bef5abd9265ab97ee43d2fc4a56e0ba25aca25" }
-exchanges: [bitget, mexc]
+  - { chain: ethereum, address: "0x8cb8c4263eb26b2349d74ea2cb1b27bc40709e12" }
+exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-08-04T03:51:19.480369Z
+updated: 2026-08-04T03:53:37.164611Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BAY · NW Grade **A+**
+# EYWA · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[binance-smart-chain]] `0xa7bef5…ca25` (verified_same)
-- Listed on: [[bitget]], [[mexc]]
+- Contract: [[ethereum]] `0x8cb8c4…9e12` (partial)
+- Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A+
-- [[mexc]]: A+
+- [[gateio]]: C+
+- [[kucoin]]: D-
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ✅ / withdraw ✅
+- [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
-- [[bitget]]: open:bsc
-- [[mexc]]: open:bsc
+- [[gateio]]: open:arbevm,arbone
+- [[kucoin]]: open:arbitrum
+- [[mexc]]: open:arbitrum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -42,20 +45,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **-0.33 USD** · win rate 0% (1 settled)
+1 shadow trade · realized net **-2.06 USD** · win rate 0% (1 settled)
 
-- 2026-07-19 · livescan · [[bitget]]→[[mexc]] · -0.33 USD · _price_drift_
+- 2026-08-03 · livescan · [[kucoin]]→[[mexc]] · -2.06 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-04T03:51:19.480369Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-04T03:53:37.164611Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BAY.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/EYWA.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes
