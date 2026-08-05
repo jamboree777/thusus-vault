@@ -2,29 +2,28 @@
 token: LVVA
 type: token
 tier: free
-nw_grade: D+
+nw_grade: C
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x6243558a24cc6116abe751f27e6d7ede50abfc76" }
 exchanges: [gateio, kucoin]
 transfer: partial
-lifecycle: suspended
-updated: 2026-08-04T03:55:55.873911Z
+updated: 2026-08-05T03:55:33.021815Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# LVVA · NW Grade **D+**
+# LVVA · NW Grade **C**
 
-Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x624355…fc76` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: D+
+- [[gateio]]: C
 - [[kucoin]]: F
 
 ## Deposit / Withdrawal
@@ -36,7 +35,6 @@ Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues 
 ## Events
 - 2026-07-16 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
@@ -59,8 +57,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-04T03:55:55.873911Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-05T03:55:33.021815Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

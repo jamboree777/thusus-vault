@@ -3,13 +3,13 @@ token: ELIZAOS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-04T03:53:16.840279Z
+updated: 2026-08-05T03:53:02.757045Z
 source: nightwatch-kg
 ---
 
@@ -23,9 +23,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bybit]]: A+
+- [[bybit]]: A
 - [[gateio]]: A+
-- [[kucoin]]: A
+- [[kucoin]]: C+
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -36,6 +36,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-08-05 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[sol]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
@@ -43,7 +46,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bybit]]: open:solana
 - [[gateio]]: open:solana,solana
 - [[kucoin]]: open:solana
-- [[mexc]]: open:bsc,solana
+- [[mexc]]: open:bsc | closed:solana
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-04T03:53:16.840279Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-05T03:53:02.757045Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

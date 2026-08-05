@@ -3,14 +3,14 @@ token: MLK
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c" }
 exchanges: [bithumb, gateio, kucoin, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-04T03:56:44.971394Z
+updated: 2026-08-05T03:56:22.288571Z
 source: nightwatch-kg
 ---
 
@@ -24,9 +24,9 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: B+
-- [[gateio]]: A+
-- [[kucoin]]: B+
+- [[bithumb]]: A+
+- [[gateio]]: D-
+- [[kucoin]]: A-
 - [[upbit]]: A
 
 ## Deposit / Withdrawal
@@ -62,8 +62,9 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+13.79 USD** · win rate 100% (2 settled)
+3 shadow trades · realized net **+19.84 USD** · win rate 100% (3 settled)
 
+- 2026-08-04 · woncarry · [[bithumb]]→[[kucoin]] · +6.05 USD · _held_
 - 2026-07-29 · woncarry · [[bithumb]]→[[kucoin]] · +6.84 USD · _held_
 - 2026-07-27 · woncarry · [[bithumb]]→[[kucoin]] · +6.95 USD · _decayed_
 
@@ -71,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-04T03:56:44.971394Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-05T03:56:22.288571Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
