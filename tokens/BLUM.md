@@ -2,30 +2,30 @@
 token: BLUM
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: B-
+nw_grade: A
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xfdc8cd47848c0c67df66f7120f4e3371181cfa5e" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-05T03:51:28.326575Z
+updated: 2026-08-06T03:52:09.685012Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLUM · NW Grade **A-**
+# BLUM · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xfdc8cd…fa5e` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
+- [[gateio]]: A
 - [[kucoin]]: A-
-- [[mexc]]: B-
+- [[mexc]]: C
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:51:28.326575Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:52:09.685012Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

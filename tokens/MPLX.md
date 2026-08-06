@@ -11,7 +11,7 @@ contracts:
 exchanges: [bithumb, bybit, coinbase, gateio]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-05T03:56:26.523608Z
+updated: 2026-08-06T03:57:23.502553Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is par
 - Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[gateio]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: B+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: D
@@ -36,11 +36,15 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is par
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[sol]] deposit → closed · [[event/dw-freeze]]
@@ -50,8 +54,11 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is par
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
 - [[gateio]]: open:solana,solana
+- [[htx]]: open:mplx
 - [[kucoin]]: closed:solana
+- [[lbank]]: closed:solana
 - [[mexc]]: closed:solana
+- [[toobit]]: open:solana
 - [[upbit]]: open:solana
 - Suspended now: [[kucoin]]
 
@@ -72,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:56:26.523608Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:57:23.502553Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

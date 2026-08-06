@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-08-05T03:51:03.401055Z
+transfer: partial
+updated: 2026-08-06T03:51:45.979694Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BARD · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xf0db65…9754` (verified_same)
@@ -42,12 +42,18 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[bep20(bsc)]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
@@ -60,9 +66,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: open:bard
 - [[kucoin]]: open:ethereum
+- [[lbank]]: closed:bep20(bsc),ethereum
 - [[mexc]]: open:bsc,ethereum
 - [[okx]]: open:ethereum
+- [[orangex]]: open:ethereum
+- [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
 
 ## Backers & Project
@@ -82,7 +92,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:51:03.401055Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:51:45.979694Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,15 +10,15 @@ contracts:
   - { chain: ethereum, address: "0x92d6c1e31e14520e676a687f0a93788b716beff5" }
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-05T03:52:51.786674Z
+transfer: partial
+updated: 2026-08-06T03:53:39.845567Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # DYDX · NW Grade **A+**
 
-Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[cosmos]] `ibc/831f…e48c` (partial)
@@ -41,11 +41,16 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is open on at lea
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
+- [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[dydx]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[eth]] withdraw → closed · [[event/dw-freeze]]
@@ -57,9 +62,13 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is open on at lea
 - [[bithumb]]: open:dydx
 - [[bybit]]: open:dydx
 - [[gateio]]: open:dydx,dydx | closed:ethereum,ethereum
+- [[htx]]: open:dydx1
 - [[kucoin]]: open:dydx
+- [[lbank]]: closed:dydx
 - [[mexc]]: open:dydx
 - [[okx]]: open:dydx
+- [[toobit]]: open:dydx
+- [[woox]]: open:dydx
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -77,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:52:51.786674Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:53:39.845567Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

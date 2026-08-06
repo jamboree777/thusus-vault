@@ -9,15 +9,15 @@ contracts:
   - { chain: solana, address: "mew1gqwj3nexg2qgeriku7fafj79phvqvrequzscpp5" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-08-05T03:56:11.126094Z
+transfer: partial
+updated: 2026-08-06T03:57:08.109434Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # MEW · NW Grade **A+**
 
-Solana-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `mew1gqwj…cpp5` (verified_same)
@@ -38,19 +38,30 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
+
+## Events
+- 2026-08-05 · [[lbank]] [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:solana
 - [[bithumb]]: open:solana
 - [[bybit]]: open:solana
 - [[gateio]]: open:solana,solana
+- [[htx]]: open:mew
 - [[kucoin]]: open:solana
+- [[lbank]]: closed:solana
 - [[mexc]]: open:solana
 - [[okx]]: open:solana
+- [[orangex]]: open:solana
+- [[toobit]]: open:solana
 - [[upbit]]: open:solana
 
 ## Backers & Project
@@ -69,8 +80,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:56:11.126094Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:57:08.109434Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

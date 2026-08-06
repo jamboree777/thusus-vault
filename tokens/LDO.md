@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0x5a98fcbea516cf06857215779fd812ca3bef1b32" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-05T03:55:15.419405Z
+transfer: partial
+updated: 2026-08-06T03:55:57.588323Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # LDO · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x5a98fc…1b32` (verified_same)
@@ -41,12 +41,18 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
+- [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
@@ -59,10 +65,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: open:ldo
 - [[kucoin]]: open:ethereum
+- [[lbank]]: closed:ethereum
 - [[mexc]]: open:ethereum
 - [[okx]]: open:ethereum
+- [[orangex]]: open:ethereum
+- [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
+- [[woox]]: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +84,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:55:15.419405Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:55:57.588323Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

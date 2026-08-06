@@ -3,21 +3,21 @@ token: ARPA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xba50933c268f567bdc86e1ac131be072c6b0b71a" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-05T03:50:39.200015Z
+transfer: partial
+updated: 2026-08-06T03:51:20.580756Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ARPA · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xba5093…b71a` (verified_same)
@@ -29,7 +29,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bithumb]]: A+
 - [[coinbase]]: A-
 - [[gateio]]: A+
-- [[kucoin]]: B+
+- [[kucoin]]: A
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -39,10 +39,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
@@ -55,7 +58,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,ethereum,ethereum
 - [[kucoin]]: open:ethereum
+- [[lbank]]: closed:ethereum
 - [[mexc]]: open:ethereum
+- [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
 
 ## Backers & Project
@@ -67,7 +72,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:50:39.200015Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:51:20.580756Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

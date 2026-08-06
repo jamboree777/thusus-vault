@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0xac51066d7bec65dc4589368da368b212745d63e8" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-05T03:50:32.783703Z
+transfer: partial
+updated: 2026-08-06T03:51:14.164751Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ALICE · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xac5106…63e8` (verified_same)
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A-
 - [[coinbase]]: A
 - [[gateio]]: B
 - [[kucoin]]: A-
@@ -38,10 +38,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[bep20(bsc)]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
@@ -53,8 +58,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bithumb]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,ethereum,ethereum
+- [[htx]]: open:alice
 - [[kucoin]]: open:bsc,ethereum
+- [[lbank]]: closed:bep20(bsc),ethereum
 - [[mexc]]: open:bsc,ethereum
+- [[toobit]]: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:50:32.783703Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:51:14.164751Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,14 @@ token: AVL
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: A-
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x5c8d0c48810fd37a0a824d074ee290e64f7a8fa2" }
 exchanges: [bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-08-05T03:50:54.620779Z
+updated: 2026-08-06T03:51:37.179175Z
 source: nightwatch-kg
 ---
 
@@ -24,22 +24,26 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - Listed on: [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[gateio]]: A+
-- [[mexc]]: C
+- [[mexc]]: A-
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:bsc,ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: open:avl
 - [[mexc]]: open:ethereum
+- [[toobit]]: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:50:54.620779Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:51:37.179175Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

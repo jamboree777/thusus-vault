@@ -3,14 +3,14 @@ token: CAMP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-08-05T03:51:52.511844Z
+updated: 2026-08-06T03:52:41.949434Z
 source: nightwatch-kg
 ---
 
@@ -27,17 +27,19 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bitget]]: C
 - [[bithumb]]: A
 - [[bybit]]: A+
-- [[gateio]]: C
-- [[kucoin]]: B+
-- [[mexc]]: C
+- [[gateio]]: B+
+- [[kucoin]]: A+
+- [[mexc]]: F
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
 - 2026-07-12 · [[kucoin]] [[camp]] withdraw → closed · [[event/dw-freeze]]
@@ -47,8 +49,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:camp,ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: open:camp
 - [[kucoin]]: open:ethereum | closed:camp
 - [[mexc]]: open:camp,ethereum
+- [[toobit]]: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:51:52.511844Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:52:41.949434Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

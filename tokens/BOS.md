@@ -1,52 +1,48 @@
 ---
-token: GODS
+token: BOS
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: A
+nw_grade: A-
+nw_grade_worst: B-
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97" }
-exchanges: [bybit, coinbase, kucoin, mexc, okx]
+  - { chain: ethereum, address: "0x13239c268beddd88ad0cb02050d3ff6a9d00de6d" }
+exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-08-06T03:54:50.892681Z
+updated: 2026-08-06T03:52:24.348986Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GODS · NW Grade **A+**
+# BOS · NW Grade **A-**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[ethereum]] `0xccc8cb…fd97` (verified_same)
-- Listed on: [[bybit]], [[coinbase]], [[kucoin]], [[mexc]], [[okx]]
+- Contract: [[ethereum]] `0x13239c…de6d` (verified_same)
+- Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[kucoin]]: A+
-- [[mexc]]: A
-- [[okx]]: A+
+- [[gateio]]: A-
+- [[kucoin]]: B-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-07-23 · [[gateio]] [[ada]] withdraw → open · [[event/dw-resume]]
+- 2026-07-12 · [[gateio]] [[ada]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
-- [[bybit]]: open:ethereum
-- [[coinbase]]: open:ethereum
+- [[gateio]]: open:ada,ada,ethereum,ethereum
 - [[kucoin]]: open:ethereum
-- [[mexc]]: open:ethereum
-- [[okx]]: open:ethereum
+- [[mexc]]: closed:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -56,21 +52,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **-2.32 USD** · win rate 50% (2 settled)
+1 shadow trade · realized net **-1.40 USD** · win rate 0% (1 settled)
 
-- 2026-08-01 · livescan · [[bybit]]→[[okx]] · -2.42 USD · _price_drift_
-- 2026-07-31 · livescan · [[okx]]→[[bybit]] · +0.10 USD · _price_drift_
+- 2026-08-05 · livescan · [[kucoin]]→[[gateio]] · -1.40 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-06T03:54:50.892681Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:52:24.348986Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/GODS.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BOS.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

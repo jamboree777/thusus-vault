@@ -3,14 +3,14 @@ token: ACE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [binance, bitget, bithumb, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-05T03:50:19.487288Z
+updated: 2026-08-06T03:51:02.982660Z
 source: nightwatch-kg
 ---
 
@@ -26,9 +26,9 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: B+
+- [[bithumb]]: A+
 - [[gateio]]: A-
-- [[kucoin]]: A
+- [[kucoin]]: A-
 - [[mexc]]: A+
 - [[okx]]: A+
 
@@ -37,26 +37,32 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[bep20(bsc)]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-31 · [[binance]] [[endurance]] withdraw → open · [[event/dw-resume]]
 - 2026-07-31 · [[binance]] [[endurance]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-27 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-21 · [[bitget]] [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-07-20 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[kucoin]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,endurance
 - [[bitget]]: closed:bsc,esc
 - [[bithumb]]: open:bsc
 - [[gateio]]: open:bsc,bsc
+- [[htx]]: open:ace
 - [[kucoin]]: closed:ethereum
+- [[lbank]]: closed:bep20(bsc)
 - [[mexc]]: open:bsc
 - [[okx]]: open:endurance smart chain
+- [[toobit]]: open:bsc
 - Suspended now: [[kucoin]]
 
 ## Backers & Project
@@ -77,7 +83,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:50:19.487288Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:51:02.982660Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

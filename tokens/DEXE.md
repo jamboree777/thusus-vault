@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0xde4ee8057785a7e8e800db58f9784845a5c2cbd6" }
 exchanges: [binance, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-05T03:52:40.752455Z
+transfer: partial
+updated: 2026-08-06T03:53:28.843837Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # DEXE · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xde4ee8…cbd6` (verified_same)
@@ -34,22 +34,26 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[binance]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ❌
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[bep20(bsc)]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-26 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-26 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-26 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-25 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-24 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-07-24 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: closed:dexe
 - [[kucoin]]: open:bsc,ethereum
+- [[lbank]]: closed:bep20(bsc),ethereum
 - [[mexc]]: open:ethereum
 
 ## Backers & Project
@@ -70,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:52:40.752455Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:53:28.843837Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

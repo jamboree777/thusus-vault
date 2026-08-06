@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0xa0c56a8c0692bd10b3fa8f8ba79cf5332b7107f9" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-05T03:56:06.725057Z
+transfer: partial
+updated: 2026-08-06T03:57:03.703475Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # MERL · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xa0c56a…07f9` (verified_same)
@@ -37,18 +37,29 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[woox]]: deposit ✅ / withdraw ✅
+
+## Events
+- 2026-08-05 · [[lbank]] [[merlinchain]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:merlin
 - [[bithumb]]: open:merlin
 - [[bybit]]: open:merlin
 - [[gateio]]: open:merlbtc,merlbtc
+- [[htx]]: open:merl
 - [[kucoin]]: open:merlin
+- [[lbank]]: closed:merlinchain
 - [[mexc]]: open:merlin
 - [[okx]]: open:merlin,merlin network
+- [[orangex]]: open:merlin
+- [[woox]]: open:merlin
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,8 +77,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:56:06.725057Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:57:03.703475Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

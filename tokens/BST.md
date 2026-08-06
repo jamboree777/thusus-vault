@@ -2,28 +2,28 @@
 token: BST
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A+
 nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-08-05T03:51:45.895683Z
+updated: 2026-08-06T03:52:35.344846Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BST · NW Grade **B+**
+# BST · NW Grade **A+**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x509a38…7f4a` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
+- [[gateio]]: A+
 - [[mexc]]: C
 
 ## Deposit / Withdrawal
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:51:45.895683Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:52:35.344846Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

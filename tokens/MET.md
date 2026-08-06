@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-08-05T03:56:08.921015Z
+updated: 2026-08-06T03:57:05.899325Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
@@ -41,9 +41,12 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
 - [[binance]]: open:solana
@@ -52,9 +55,12 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
 - [[gateio]]: open:solana,solana
+- [[htx]]: open:met
 - [[kucoin]]: open:solana
 - [[mexc]]: open:solana
 - [[okx]]: open:solana
+- [[orangex]]: open:solana
+- [[toobit]]: open:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:56:08.921015Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:57:05.899325Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

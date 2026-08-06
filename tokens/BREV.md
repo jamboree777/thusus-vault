@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0x086f405146ce90135750bbec9a063a8b20a8bffb" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-08-05T03:51:39.297267Z
+transfer: partial
+updated: 2026-08-06T03:52:28.747070Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BREV · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x086f40…bffb` (verified_same)
@@ -31,7 +31,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[coinbase]]: A+
 - [[mexc]]: A-
 - [[okx]]: A+
-- [[upbit]]: A
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -40,16 +40,22 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[base mainnet]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[bep20(bsc)]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:base,bsc,ethereum
@@ -58,9 +64,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,ethereum,ethereum
+- [[htx]]: open:erc20brev
 - [[kucoin]]: open:ethereum
+- [[lbank]]: closed:base mainnet,bep20(bsc),ethereum
 - [[mexc]]: open:base,bsc,ethereum
 - [[okx]]: open:ethereum
+- [[orangex]]: open:base,bsc,ethereum
+- [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
 
 ## Backers & Project
@@ -72,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:51:39.297267Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:52:28.747070Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

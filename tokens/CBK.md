@@ -2,7 +2,7 @@
 token: CBK
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-05T03:51:58.276291Z
+updated: 2026-08-06T03:52:46.350552Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CBK · NW Grade **A**
+# CBK · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xd85a6a…f7fd` (verified_same)
@@ -29,29 +29,33 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - [[bybit]]: A
 - [[gateio]]: C-
 - [[mexc]]: A
-- [[upbit]]: B+
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[polygon]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-29 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[mexc]] [[polygon]] deposit → open · [[event/dw-resume]]
 - 2026-07-29 · [[bybit]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[bybit]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-29 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-29 · [[mexc]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:ethereum,polygon
 - [[bithumb]]: open:ethereum
 - [[bybit]]: closed:polygon
 - [[gateio]]: open:ethereum,ethereum,polygon,polygon
+- [[htx]]: open:cbk
+- [[lbank]]: closed:ethereum,polygon
 - [[mexc]]: open:ethereum,polygon
 - [[upbit]]: open:ethereum
 
@@ -71,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:51:58.276291Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:52:46.350552Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

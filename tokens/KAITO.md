@@ -9,15 +9,15 @@ contracts:
   - { chain: base, address: "0x98d0baa52b2d063e780de12f615f963fe8537553" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-08-05T03:54:47.895017Z
+transfer: partial
+updated: 2026-08-06T03:55:37.865485Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # KAITO · NW Grade **A+**
 
-Base-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[base]] `0x98d0ba…7553` (verified_same)
@@ -40,10 +40,18 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
+
+## Events
+- 2026-08-05 · [[lbank]] [[base mainnet]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[base mainnet]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:base
@@ -51,10 +59,15 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[bithumb]]: open:base
 - [[coinbase]]: open:base
 - [[gateio]]: open:base,baseevm
+- [[htx]]: open:kaito
 - [[kucoin]]: open:base
+- [[lbank]]: closed:base mainnet
 - [[mexc]]: open:base
 - [[okx]]: open:base
+- [[orangex]]: open:base
+- [[toobit]]: open:base
 - [[upbit]]: open:base,base
+- Suspended now: [[lbank]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,8 +84,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:54:47.895017Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:55:37.865485Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

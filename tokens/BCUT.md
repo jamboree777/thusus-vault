@@ -2,29 +2,29 @@
 token: BCUT
 type: token
 tier: free
-nw_grade: D+
-nw_grade_worst: D
+nw_grade: A+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-08-05T03:51:12.200185Z
+updated: 2026-08-06T03:51:50.382327Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BCUT · NW Grade **D+**
+# BCUT · NW Grade **A+**
 
-Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xbef26b…c406` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: D+
-- [[kucoin]]: D
+- [[gateio]]: A+
+- [[kucoin]]: B
 
 ## Deposit / Withdrawal
 - [[bybit]]: deposit ❌ / withdraw ✅
@@ -33,18 +33,19 @@ Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[gateio]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-08-04 · [[gateio]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-03 · [[gateio]] [[matic]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-30 · [[gateio]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-29 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[bybit]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-07-29 · [[bybit]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bybit]]: closed:ethereum,polygon
 - [[gateio]]: open:ethereum,ethereum | closed:polygon,polygon
 - [[kucoin]]: open:ethereum
 - [[mexc]]: closed:polygon
+- Recently reopened (48h): [[gateio]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:51:12.200185Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:51:50.382327Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0x61fac5f038515572d6f42d4bcb6b581642753d50" }
 exchanges: [bitget, bithumb, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-08-05T03:54:39.088420Z
+transfer: partial
+updated: 2026-08-06T03:55:26.880356Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # IN · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x61fac5…3d50` (verified_same)
@@ -36,16 +36,29 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
+
+## Events
+- 2026-08-05 · [[orangex]] [[bnb]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[orangex]] [[bnb]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:ethereum
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[kucoin]]: open:ethereum
+- [[lbank]]: closed:ethereum
 - [[mexc]]: open:bsc,ethereum
+- [[orangex]]: open:ethereum | closed:bsc
+- [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
+- Suspended now: [[lbank]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -55,8 +68,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:54:39.088420Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:55:26.880356Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

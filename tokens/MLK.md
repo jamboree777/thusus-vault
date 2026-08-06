@@ -2,7 +2,7 @@
 token: MLK
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: D-
 identity: verified_same
 contracts:
@@ -10,29 +10,30 @@ contracts:
 exchanges: [bithumb, gateio, kucoin, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-05T03:56:22.288571Z
+updated: 2026-08-06T03:57:19.102610Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MLK · NW Grade **A+**
+# MLK · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x374c5f…d43c` (verified_same)
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
-- [[gateio]]: D-
-- [[kucoin]]: A-
-- [[upbit]]: A
+- [[bithumb]]: B+
+- [[gateio]]: A
+- [[kucoin]]: D-
+- [[upbit]]: A-
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
@@ -49,6 +50,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bithumb]]: open:arbitrum
 - [[bybit]]: closed:luk
 - [[gateio]]: open:arbevm,arbone
+- [[htx]]: open:arbimlk
 - [[kucoin]]: open:arbitrum | closed:luk
 - [[mexc]]: closed:arbitrum,bsc
 - [[upbit]]: open:arbitrum
@@ -72,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:56:22.288571Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:57:19.102610Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

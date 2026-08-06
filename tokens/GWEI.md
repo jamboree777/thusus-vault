@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0x2798b1cc5a993085e8a9d46e80499f1b63f42204" }
 exchanges: [bitget, bithumb, coinbase, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-05T03:54:15.507480Z
+transfer: partial
+updated: 2026-08-06T03:55:01.887217Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # GWEI · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x2798b1…2204` (verified_same)
@@ -35,10 +35,14 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-04 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-24 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-23 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
@@ -49,8 +53,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[bithumb]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
+- [[htx]]: open:gwei
 - [[kucoin]]: open:ethereum
+- [[lbank]]: closed:ethereum
 - [[mexc]]: open:bsc,ethereum
+- [[toobit]]: open:ethereum
 - Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
@@ -71,7 +78,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:54:15.507480Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:55:01.887217Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

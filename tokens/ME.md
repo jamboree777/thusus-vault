@@ -3,22 +3,22 @@ token: ME
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x22b1458e780f8fa71e2f84502cee8b5a3cc731fa" }
   - { chain: solana, address: "mefnbxixkebait3xn9bkm8wsjzxtvsajen4c8sam21u" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-08-05T03:55:57.107566Z
+transfer: partial
+updated: 2026-08-06T03:56:59.299581Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ME · NW Grade **A+**
 
-Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x22b145…31fa` (verified_same)
@@ -28,11 +28,11 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
-- [[kucoin]]: A-
+- [[kucoin]]: A
 - [[mexc]]: A+
 - [[okx]]: A+
 - [[upbit]]: A+
@@ -44,10 +44,17 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
+
+## Events
+- 2026-08-05 · [[lbank]] [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:solana
@@ -56,9 +63,13 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
 - [[gateio]]: open:solana,solana
+- [[htx]]: open:me
 - [[kucoin]]: open:solana
+- [[lbank]]: closed:solana
 - [[mexc]]: open:solana
 - [[okx]]: open:solana
+- [[orangex]]: open:solana
+- [[toobit]]: open:solana
 - [[upbit]]: open:solana
 
 ## Backers & Project
@@ -76,8 +87,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:55:57.107566Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:56:59.299581Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

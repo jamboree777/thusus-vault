@@ -3,14 +3,14 @@ token: CUDIS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1" }
 exchanges: [bitget, bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-05T03:52:24.000553Z
+updated: 2026-08-06T03:53:07.814419Z
 source: nightwatch-kg
 ---
 
@@ -25,9 +25,9 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - [[bitget]]: A+
-- [[bithumb]]: A
-- [[bybit]]: B+
-- [[gateio]]: C
+- [[bithumb]]: A+
+- [[bybit]]: B-
+- [[gateio]]: D
 - [[mexc]]: C
 
 ## Deposit / Withdrawal
@@ -35,7 +35,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bithumb]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
+- [[htx]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ✅
+- [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
 - 2026-07-17 · [[bithumb]] [[solana]] deposit → closed · [[event/dw-freeze]]
@@ -48,7 +51,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bithumb]]: closed:solana
 - [[bybit]]: open:bsc,solana
 - [[gateio]]: open:bsc,bsc,solana,solana
+- [[htx]]: open:solcudis
 - [[mexc]]: open:bsc,solana
+- [[orangex]]: open:solana
+- [[toobit]]: open:bsc
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-05T03:52:24.000553Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-06T03:53:07.814419Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
