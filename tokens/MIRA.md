@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-06T03:57:12.522327Z
+updated: 2026-08-07T03:57:04.313814Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: B+
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[gateio]]: A
 - [[kucoin]]: B+
 - [[mexc]]: A
@@ -79,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-06T03:57:12.522327Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-07T03:57:04.313814Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

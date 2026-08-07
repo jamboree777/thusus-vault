@@ -3,13 +3,13 @@ token: ECHO
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x06238c1b8e618abedf17669228dc95fb2d2e210b" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-08-06T03:53:42.048876Z
+updated: 2026-08-07T03:53:40.585037Z
 source: nightwatch-kg
 ---
 
@@ -23,9 +23,9 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C+
+- [[gateio]]: D
 - [[kucoin]]: A+
-- [[mexc]]: A
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -57,7 +57,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-06T03:53:42.048876Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-07T03:53:40.585037Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,13 +3,13 @@ token: DOG
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: solana, address: "dog1viwbb2vwdper5frj4yfg6gq6xuyfohue9txn65u" }
 exchanges: [bitget, gateio, mexc]
 transfer: open
-updated: 2026-08-06T03:53:33.247483Z
+updated: 2026-08-07T03:53:20.582179Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Solana-network token; NW grade A liquidity; transfer is open on at least one ven
 ## Grade by exchange
 - [[bitget]]: A
 - [[gateio]]: A
-- [[mexc]]: B+
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -56,7 +56,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-06T03:53:33.247483Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-07T03:53:20.582179Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

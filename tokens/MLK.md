@@ -2,22 +2,22 @@
 token: MLK
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: D-
+nw_grade: A+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x374c5fb7979d5fdbaad2d95409e235e5cbdfd43c" }
 exchanges: [bithumb, gateio, kucoin, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-06T03:57:19.102610Z
+updated: 2026-08-07T03:57:11.752315Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MLK · NW Grade **A**
+# MLK · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x374c5f…d43c` (verified_same)
@@ -26,8 +26,8 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 ## Grade by exchange
 - [[bithumb]]: B+
 - [[gateio]]: A
-- [[kucoin]]: D-
-- [[upbit]]: A-
+- [[kucoin]]: A-
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -74,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-06T03:57:19.102610Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-07T03:57:11.752315Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

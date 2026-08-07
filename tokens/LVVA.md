@@ -2,28 +2,28 @@
 token: LVVA
 type: token
 tier: free
-nw_grade: D+
+nw_grade: D
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x6243558a24cc6116abe751f27e6d7ede50abfc76" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-08-06T03:56:29.002104Z
+updated: 2026-08-07T03:56:22.651884Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# LVVA · NW Grade **D+**
+# LVVA · NW Grade **D**
 
-Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade D liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x624355…fc76` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: D+
+- [[gateio]]: D
 - [[kucoin]]: F
 
 ## Deposit / Withdrawal
@@ -58,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-06T03:56:29.002104Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-07T03:56:22.651884Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
