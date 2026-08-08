@@ -3,13 +3,13 @@ token: BOS
 type: token
 tier: free
 nw_grade: D+
-nw_grade_worst: D
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x13239c268beddd88ad0cb02050d3ff6a9d00de6d" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-08-07T03:52:07.284024Z
+updated: 2026-08-08T03:53:38.683148Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: D+
-- [[kucoin]]: D
+- [[kucoin]]: F
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-07T03:52:07.284024Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-08T03:53:38.683148Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

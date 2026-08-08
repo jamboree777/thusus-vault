@@ -2,21 +2,21 @@
 token: HSK
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xe7c6bf469e97eeb0bfb74c8dbff5bd47d4c1c98a" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-08-07T03:55:22.553228Z
+updated: 2026-08-08T03:56:45.580095Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# HSK · NW Grade **A**
+# HSK · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xe7c6bf…c98a` (verified_same)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 
 ## Grade by exchange
 - [[gateio]]: A
-- [[kucoin]]: A
+- [[kucoin]]: A+
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -33,6 +33,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-07 · [[mexc]] [[hashkey]] withdraw → open · [[event/dw-resume]]
 - 2026-08-06 · [[mexc]] [[hashkey]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[mexc]] [[hashkey]] deposit → open · [[event/dw-resume]]
 - 2026-08-05 · [[mexc]] [[hashkey]] withdraw → open · [[event/dw-resume]]
@@ -42,7 +43,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 ## Transfer map
 - [[gateio]]: open:ethereum,ethereum,hsk,hsk
 - [[kucoin]]: open:ethereum,hashkey
-- [[mexc]]: open:ethereum | closed:hashkey
+- [[mexc]]: open:ethereum,hashkey
 - Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
@@ -61,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-07T03:55:22.553228Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-08T03:56:45.580095Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

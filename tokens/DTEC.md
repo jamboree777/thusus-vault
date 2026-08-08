@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [bitget, gateio, mexc]
 transfer: open
-updated: 2026-08-07T03:53:24.983749Z
+updated: 2026-08-08T03:54:56.387460Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Polygon-pos-network token; NW grade A liquidity; transfer is open on at least on
 - Listed on: [[bitget]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A
+- [[bitget]]: B+
 - [[gateio]]: B+
 - [[mexc]]: A
 
@@ -51,17 +51,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-6 shadow trades · realized net **+2.21 USD** · win rate 100% (6 settled)
+8 shadow trades · realized net **+3.44 USD** · win rate 100% (8 settled)
 
+- 2026-08-07 · livescan · [[mexc]]→[[gateio]] · +0.62 USD · _beat_
+- 2026-08-07 · livescan · [[mexc]]→[[bitget]] · +0.61 USD · _in_line_
 - 2026-07-17 · livescan · [[mexc]]→[[gateio]] · +0.27 USD · _in_line_
-- 2026-07-16 · livescan · [[mexc]]→[[gateio]] · +0.13 USD · _in_line_
-- 2026-07-16 · livescan · [[mexc]]→[[gateio]] · +0.69 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-07T03:53:24.983749Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-08T03:54:56.387460Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

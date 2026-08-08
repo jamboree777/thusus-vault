@@ -2,21 +2,21 @@
 token: DENT
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: C-
+nw_grade: A-
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x3597bfd533a99c9aa083587b074434e61eb0a258" }
 exchanges: [binance, gateio, kucoin]
 transfer: partial
-updated: 2026-08-07T03:53:11.786804Z
+updated: 2026-08-08T03:54:43.334182Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DENT · NW Grade **A+**
+# DENT · NW Grade **A-**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x3597bf…a258` (verified_same)
@@ -24,8 +24,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[binance]]: B+
-- [[gateio]]: A+
-- [[kucoin]]: C-
+- [[gateio]]: A-
+- [[kucoin]]: D-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -58,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-07T03:53:11.786804Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-08T03:54:43.334182Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
