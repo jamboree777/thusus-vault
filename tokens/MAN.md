@@ -10,7 +10,7 @@ contracts:
   - { chain: the-open-network, address: "eqb6ql1je7hq0juroplyschcu-wnt2vmmwf2-8memrk68njn" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-08T03:57:53.584613Z
+updated: 2026-08-09T03:57:18.386106Z
 source: nightwatch-kg
 ---
 
@@ -33,22 +33,23 @@ Ethereum/the-open-network-network token; NW grade A+ liquidity; transfer is part
 - [[bitget]]: deposit ❌ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ❌
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ❌
+- [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-08 · [[mexc]] [[man]] withdraw → open · [[event/dw-resume]]
+- 2026-08-08 · [[mexc]] [[man]] deposit → open · [[event/dw-resume]]
 - 2026-08-08 · [[mexc]] [[man]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-08 · [[mexc]] [[man]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-03 · [[gateio]] [[man]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-03 · [[gateio]] [[man]] withdraw → open · [[event/dw-resume]]
-- 2026-08-03 · [[gateio]] [[man]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-02 · [[mexc]] [[man]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc
 - [[gateio]]: closed:ethereum,ethereum,man,man
 - [[kucoin]]: open:man
-- [[mexc]]: closed:man
-- Suspended now: [[bitget]], [[mexc]]
+- [[mexc]]: open:man
+- Suspended now: [[bitget]]
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-08T03:57:53.584613Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-09T03:57:18.386106Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
