@@ -2,22 +2,22 @@
 token: FITFI
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: C-
+nw_grade: A
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x7588df009c3d82378be6ab81f2108fa963c10fc8" }
 exchanges: [bithumb, gateio]
 korean_exchanges: [bithumb]
-transfer: partial
-updated: 2026-08-09T03:54:56.200416Z
+transfer: blocked
+updated: 2026-08-10T03:55:04.468996Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FITFI · NW Grade **B+**
+# FITFI · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x7588df…0fc8` (partial)
@@ -25,29 +25,29 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - [[bithumb]]: B+
-- [[gateio]]: C-
+- [[gateio]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bithumb]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ❌
-- [[gateio]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-10 · [[gateio]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-10 · [[gateio]] [[fitfi]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-03 · [[kucoin]] [[avax c-chain]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-17 · [[bithumb]] [[avax]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-16 · [[mexc]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-13 · [[bybit]] [[step]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bybit]] [[step]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bybit]] [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:avaxc-chain
 - [[bithumb]]: closed:avax
 - [[bybit]]: closed:avaxc,step
-- [[gateio]]: open:avaxc,avax_c,fitfi,fitfi
+- [[gateio]]: closed:avaxc,avax_c,fitfi,fitfi
 - [[kucoin]]: closed:avax c-chain
 - [[mexc]]: closed:avaxc
 - Suspended now: [[bybit]]
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-09T03:54:56.200416Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-10T03:55:04.468996Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

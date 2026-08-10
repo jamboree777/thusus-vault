@@ -3,7 +3,7 @@ type: contributor
 label: "thusus-vault-bot"
 first_verified: 2026-07-16
 claims_verified: 1
-updated: 2026-08-09
+updated: 2026-08-10
 source: nightwatch-kg
 ---
 
