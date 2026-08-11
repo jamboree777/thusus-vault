@@ -3,14 +3,14 @@ token: KAITO
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x98d0baa52b2d063e780de12f615f963fe8537553" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-10T03:56:44.620602Z
+updated: 2026-08-11T03:57:27.680243Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[bithumb]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
-- [[kucoin]]: A
+- [[kucoin]]: B+
 - [[mexc]]: A+
 - [[okx]]: A+
 - [[upbit]]: A+
@@ -85,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-10T03:56:44.620602Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-11T03:57:27.680243Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

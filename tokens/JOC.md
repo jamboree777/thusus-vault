@@ -2,29 +2,29 @@
 token: JOC
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: C-
+nw_grade: D+
+nw_grade_worst: D-
 identity: native
 contracts:
   - { chain: harmony-shard-0, address: "0x22fb638a010e922d53fd2671a598a3334c228b62" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-08-10T03:56:42.401573Z
+updated: 2026-08-11T03:57:25.408541Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# JOC · NW Grade **B+**
+# JOC · NW Grade **D+**
 
-Harmony-shard-0-network token; NW grade B+ liquidity; transfer is open on at least one venue.
+Harmony-shard-0-network token; NW grade D+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[harmony-shard-0]] `0x22fb63…8b62` (native)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C-
-- [[mexc]]: B+
+- [[gateio]]: D+
+- [[mexc]]: D-
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -52,7 +52,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-10T03:56:42.401573Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-11T03:57:25.408541Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
