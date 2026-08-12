@@ -2,22 +2,22 @@
 token: MAN
 type: token
 tier: free
-nw_grade: C
-nw_grade_worst: F
+nw_grade: D+
+nw_grade_worst: D
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x3c3a81e81dc49a522a592e7622a7e711c06bf354" }
   - { chain: the-open-network, address: "eqb6ql1je7hq0juroplyschcu-wnt2vmmwf2-8memrk68njn" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-11T03:58:37.189545Z
+updated: 2026-08-12T03:58:02.805888Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MAN · NW Grade **C**
+# MAN · NW Grade **D+**
 
-Ethereum/the-open-network-network token; NW grade C liquidity; transfer is partial (some venues frozen).
+Ethereum/the-open-network-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x3c3a81…f354` (partial)
@@ -25,30 +25,31 @@ Ethereum/the-open-network-network token; NW grade C liquidity; transfer is parti
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: D-
-- [[kucoin]]: C
-- [[mexc]]: F
+- [[gateio]]: D
+- [[kucoin]]: D+
+- [[mexc]]: D+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
-- [[gateio]]: deposit ✅ / withdraw ❌
+- [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-11 · [[gateio]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-08-08 · [[mexc]] [[man]] withdraw → open · [[event/dw-resume]]
 - 2026-08-08 · [[mexc]] [[man]] deposit → open · [[event/dw-resume]]
 - 2026-08-08 · [[mexc]] [[man]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-08 · [[mexc]] [[man]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-03 · [[gateio]] [[man]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-03 · [[gateio]] [[man]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc
-- [[gateio]]: closed:ethereum,ethereum,man,man
+- [[gateio]]: open:man | closed:ethereum,ethereum,man
 - [[kucoin]]: open:man
 - [[mexc]]: open:man
 - Suspended now: [[bitget]]
+- Recently reopened (48h): [[gateio]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-11T03:58:37.189545Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-12T03:58:02.805888Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

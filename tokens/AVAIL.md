@@ -3,14 +3,14 @@ token: AVAIL
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xeeb4d8400aeefafc1b2953e0094134a887c76bd8" }
 exchanges: [bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-11T03:52:42.767654Z
+updated: 2026-08-12T03:52:16.479724Z
 source: nightwatch-kg
 ---
 
@@ -24,11 +24,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: B+
+- [[bithumb]]: A-
 - [[bybit]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: F
-- [[mexc]]: A+
+- [[kucoin]]: A
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -40,6 +40,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-11 · [[gateio]] [[avail]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[avl]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[avl]] deposit → closed · [[event/dw-freeze]]
@@ -48,7 +49,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bitget]]: closed:avl,ethereum
 - [[bithumb]]: open:avail
 - [[bybit]]: open:avail
-- [[gateio]]: open:avail,avail,ethereum,ethereum
+- [[gateio]]: open:avail,ethereum,ethereum | closed:avail
 - [[htx]]: open:avail
 - [[kucoin]]: open:avail
 - [[mexc]]: open:avail
@@ -61,17 +62,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-4 shadow trades · realized net **+11.16 USD** · win rate 100% (4 settled)
+8 shadow trades · realized net **+18.06 USD** · win rate 100% (8 settled)
 
-- 2026-08-07 · livescan · [[kucoin]]→[[gateio]] · +0.60 USD
-- 2026-08-07 · livescan · [[kucoin]]→[[gateio]] · +3.62 USD
-- 2026-07-28 · woncarry · [[bithumb]]→[[bybit]] · +6.57 USD · _held_
+- 2026-08-12 · livescan · [[mexc]]→[[kucoin]] · +1.20 USD · _beat_
+- 2026-08-11 · woncarry · [[bybit]]→[[bithumb]] · +1.98 USD · _held_
+- 2026-08-11 · livescan · [[gateio]]→[[kucoin]] · +0.46 USD · _cost_drag_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-11T03:52:42.767654Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-12T03:52:16.479724Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

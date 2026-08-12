@@ -9,8 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xb30fe1cf884b48a22a50d22a9282004f2c5e9406" }
 exchanges: [bybit, coinbase, kucoin, mexc]
 transfer: partial
-lifecycle: delisted
-updated: 2026-08-11T03:56:39.599735Z
+updated: 2026-08-12T03:56:01.505288Z
 source: nightwatch-kg
 ---
 
@@ -39,7 +38,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-08-10 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-13 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-12 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bybit]]: open:ethereum
@@ -63,8 +61,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-11T03:56:39.599735Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-12T03:56:01.505288Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

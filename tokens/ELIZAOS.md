@@ -2,29 +2,29 @@
 token: ELIZAOS
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-11T03:55:23.005564Z
+updated: 2026-08-12T03:54:50.793961Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ELIZAOS · NW Grade **A+**
+# ELIZAOS · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xea17df…2478` (verified_same)
 - Listed on: [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bybit]]: A+
-- [[gateio]]: A+
+- [[bybit]]: A
+- [[gateio]]: A
 - [[kucoin]]: B-
 - [[mexc]]: B+
 
@@ -57,8 +57,9 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **-2.86 USD** · win rate 50% (2 settled)
+3 shadow trades · realized net **-3.11 USD** · win rate 33.3% (3 settled)
 
+- 2026-08-11 · livescan · [[bybit]]→[[gateio]] · -0.25 USD · _mixed_
 - 2026-08-08 · livescan · [[bybit]]→[[kucoin]] · +7.37 USD · _beat_
 - 2026-07-15 · livescan · [[gateio]]→[[bybit]] · -10.24 USD
 
@@ -66,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-11T03:55:23.005564Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-12T03:54:50.793961Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
