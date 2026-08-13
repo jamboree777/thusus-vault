@@ -2,22 +2,22 @@
 token: MAN
 type: token
 tier: free
-nw_grade: D+
-nw_grade_worst: D
+nw_grade: B-
+nw_grade_worst: D+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x3c3a81e81dc49a522a592e7622a7e711c06bf354" }
   - { chain: the-open-network, address: "eqb6ql1je7hq0juroplyschcu-wnt2vmmwf2-8memrk68njn" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-12T03:58:02.805888Z
+updated: 2026-08-13T03:57:06.612127Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# MAN · NW Grade **D+**
+# MAN · NW Grade **B-**
 
-Ethereum/the-open-network-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
+Ethereum/the-open-network-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x3c3a81…f354` (partial)
@@ -25,8 +25,8 @@ Ethereum/the-open-network-network token; NW grade D+ liquidity; transfer is part
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: D
-- [[kucoin]]: D+
+- [[gateio]]: C-
+- [[kucoin]]: B-
 - [[mexc]]: D+
 
 ## Deposit / Withdrawal
@@ -36,12 +36,12 @@ Ethereum/the-open-network-network token; NW grade D+ liquidity; transfer is part
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-13 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-11 · [[gateio]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-08-08 · [[mexc]] [[man]] withdraw → open · [[event/dw-resume]]
 - 2026-08-08 · [[mexc]] [[man]] deposit → open · [[event/dw-resume]]
 - 2026-08-08 · [[mexc]] [[man]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-08 · [[mexc]] [[man]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-03 · [[gateio]] [[man]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-12T03:58:02.805888Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-13T03:57:06.612127Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
