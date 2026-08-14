@@ -3,13 +3,13 @@ token: FORTH
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x77fba179c79de5b7653f68b5039af940ada60ce0" }
 exchanges: [coinbase, kucoin]
 transfer: partial
-updated: 2026-08-13T03:54:44.231827Z
+updated: 2026-08-14T03:54:58.389904Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Grade by exchange
 - [[coinbase]]: A
-- [[kucoin]]: B-
+- [[kucoin]]: B+
 
 ## Deposit / Withdrawal
 - [[coinbase]]: deposit ✅ / withdraw ✅
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-13T03:54:44.231827Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-14T03:54:58.389904Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,30 +2,30 @@
 token: LINGO
 type: token
 tier: free
-nw_grade: B
-nw_grade_worst: F
+nw_grade: C
+nw_grade_worst: D+
 identity: partial
 contracts:
   - { chain: base, address: "0xfb42da273158b0f642f59f2ba7cc1d5457481677" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-08-13T03:56:33.599240Z
+updated: 2026-08-14T03:56:54.586511Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# LINGO · NW Grade **B**
+# LINGO · NW Grade **C**
 
-Base-network token; NW grade B liquidity; transfer is open on at least one venue.
+Base-network token; NW grade C liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[base]] `0xfb42da…1677` (partial)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B
+- [[gateio]]: D+
 - [[kucoin]]: C-
-- [[mexc]]: F
+- [[mexc]]: C
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -55,7 +55,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-13T03:56:33.599240Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-14T03:56:54.586511Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

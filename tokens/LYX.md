@@ -2,28 +2,28 @@
 token: LYX
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: B+
 identity: native
 contracts:
   - { chain: ethereum, address: "0xc210b2cb65ed3484892167f5e05f7ab496ab0598" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-13T03:57:02.205372Z
+updated: 2026-08-14T03:57:17.397356Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# LYX · NW Grade **A+**
+# LYX · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xc210b2…0598` (native)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A+
+- [[gateio]]: A-
 - [[kucoin]]: A
 - [[mexc]]: B+
 
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-13T03:57:02.205372Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-14T03:57:17.397356Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

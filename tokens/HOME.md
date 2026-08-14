@@ -3,14 +3,14 @@ token: HOME
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-13T03:55:41.987440Z
+updated: 2026-08-14T03:55:58.490887Z
 source: nightwatch-kg
 ---
 
@@ -26,11 +26,11 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A+
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: A+
+- [[kucoin]]: A
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
@@ -79,17 +79,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-14 shadow trades · realized net **+93.81 USD** · win rate 85.7% (14 settled)
+16 shadow trades · realized net **+100.90 USD** · win rate 87.5% (16 settled)
 
+- 2026-08-13 · woncarry · [[bithumb]]→[[binance]] · +2.77 USD · _held_
+- 2026-08-13 · woncarry · [[bithumb]]→[[binance]] · +4.32 USD · _held_
 - 2026-08-05 · woncarry · [[bithumb]]→[[binance]] · +8.89 USD · _held_
-- 2026-08-05 · woncarry · [[bithumb]]→[[binance]] · +9.19 USD · _held_
-- 2026-08-05 · woncarry · [[bithumb]]→[[binance]] · +13.11 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-13T03:55:41.987440Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-14T03:55:58.490887Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

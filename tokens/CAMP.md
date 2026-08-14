@@ -2,22 +2,22 @@
 token: CAMP
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: F
+nw_grade: A+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-08-13T03:52:35.706489Z
+updated: 2026-08-14T03:52:44.463040Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CAMP · NW Grade **A**
+# CAMP · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x84eaac…71fc` (verified_same)
@@ -25,11 +25,11 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 
 ## Grade by exchange
 - [[bitget]]: B+
-- [[bithumb]]: A
-- [[bybit]]: A
-- [[gateio]]: B+
+- [[bithumb]]: A+
+- [[bybit]]: B+
+- [[gateio]]: A
 - [[kucoin]]: A
-- [[mexc]]: F
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -72,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-13T03:52:35.706489Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-14T03:52:44.463040Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

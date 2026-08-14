@@ -2,30 +2,30 @@
 token: CHO
 type: token
 tier: free
-nw_grade: C
+nw_grade: C-
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbba39fd2935d5769116ce38d46a71bde9cf03099" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-08-13T03:52:55.878214Z
+updated: 2026-08-14T03:53:04.672155Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHO · NW Grade **C**
+# CHO · NW Grade **C-**
 
-Ethereum-network token; NW grade C liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade C- liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xbba39f…3099` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: D
-- [[kucoin]]: F
-- [[mexc]]: C
+- [[gateio]]: C-
+- [[kucoin]]: D
+- [[mexc]]: F
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -56,7 +56,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-13T03:52:55.878214Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-14T03:53:04.672155Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

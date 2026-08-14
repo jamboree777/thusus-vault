@@ -10,7 +10,7 @@ contracts:
 exchanges: [bybit, gateio, hyperliquid, kucoin, mexc, okx]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-13T03:52:40.103948Z
+updated: 2026-08-14T03:52:53.132149Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[bybit]]: A+
 - [[gateio]]: A
-- [[kucoin]]: B+
+- [[kucoin]]: A
 - [[mexc]]: B+
 - [[okx]]: A+
 
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-13T03:52:40.103948Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-14T03:52:53.132149Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

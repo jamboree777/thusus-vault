@@ -2,31 +2,31 @@
 token: KARRAT
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: D
+nw_grade: A
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xacd2c239012d17beb128b0944d49015104113650" }
 exchanges: [coinbase, gateio, kucoin, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-13T03:56:11.283159Z
+updated: 2026-08-14T03:56:30.489377Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# KARRAT · NW Grade **B+**
+# KARRAT · NW Grade **A**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xacd2c2…3650` (verified_same)
 - Listed on: [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[coinbase]]: B+
+- [[coinbase]]: A
 - [[gateio]]: D
-- [[kucoin]]: C+
+- [[kucoin]]: D-
 - [[mexc]]: C-
 
 ## Deposit / Withdrawal
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-13T03:56:11.283159Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-14T03:56:30.489377Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
