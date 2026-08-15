@@ -2,21 +2,21 @@
 token: COMMON
 type: token
 tier: free
-nw_grade: A
+nw_grade: B+
 nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xa43ca4e5abdf9917eade63c2837eeee321897dad" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-14T03:53:06.875243Z
+updated: 2026-08-15T03:53:49.694180Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# COMMON · NW Grade **A**
+# COMMON · NW Grade **B+**
 
-Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xa43ca4…7dad` (verified_same)
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 
 ## Grade by exchange
 - [[gateio]]: B+
-- [[kucoin]]: A
+- [[kucoin]]: B+
 - [[mexc]]: C-
 
 ## Deposit / Withdrawal
@@ -55,15 +55,16 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+3.62 USD** · win rate 100% (1 settled)
+2 shadow trades · realized net **+6.22 USD** · win rate 100% (2 settled)
 
+- 2026-08-14 · livescan · [[kucoin]]→[[gateio]] · +2.60 USD
 - 2026-08-06 · livescan · [[kucoin]]→[[gateio]] · +3.62 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-14T03:53:06.875243Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-15T03:53:49.694180Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

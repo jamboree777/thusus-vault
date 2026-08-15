@@ -2,29 +2,30 @@
 token: JOC
 type: token
 tier: free
-nw_grade: C+
-nw_grade_worst: D-
+nw_grade: D+
+nw_grade_worst: D
 identity: native
 contracts:
   - { chain: harmony-shard-0, address: "0x22fb638a010e922d53fd2671a598a3334c228b62" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-08-14T03:56:26.087687Z
+lifecycle: delisted
+updated: 2026-08-15T03:57:12.783158Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# JOC · NW Grade **C+**
+# JOC · NW Grade **D+**
 
-Harmony-shard-0-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Harmony-shard-0-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[harmony-shard-0]] `0x22fb63…8b62` (native)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: D-
-- [[mexc]]: C+
+- [[gateio]]: D
+- [[mexc]]: D+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -32,6 +33,7 @@ Harmony-shard-0-network token; NW grade C+ liquidity; transfer is partial (some 
 
 ## Events
 - 2026-08-14 · [[mexc]] [[joc]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[gateio]]: open:joc,joc
@@ -54,8 +56,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-14T03:56:26.087687Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-15T03:57:12.783158Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

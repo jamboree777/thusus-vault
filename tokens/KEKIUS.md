@@ -2,29 +2,29 @@
 token: KEKIUS
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: A
+nw_grade: B+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x26e550ac11b26f78a04489d5f20f24e3559f7dd9" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-08-14T03:56:32.692718Z
+updated: 2026-08-15T03:57:24.789476Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# KEKIUS · NW Grade **A**
+# KEKIUS · NW Grade **B+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x26e550…7dd9` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[mexc]]: A
+- [[gateio]]: B+
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-14T03:56:32.692718Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-15T03:57:24.789476Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

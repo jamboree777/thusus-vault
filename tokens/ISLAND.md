@@ -2,30 +2,30 @@
 token: ISLAND
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: F
+nw_grade: A-
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x157a6df6b74f4e5e45af4e4615fde7b49225a662" }
 exchanges: [gateio, hyperliquid, kucoin]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-14T03:56:21.691844Z
+updated: 2026-08-15T03:56:55.878129Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ISLAND · NW Grade **B-**
+# ISLAND · NW Grade **A-**
 
-Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x157a6d…a662` (verified_same)
 - Listed on: [[gateio]], [[hyperliquid]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: B-
-- [[kucoin]]: F
+- [[gateio]]: A-
+- [[kucoin]]: D-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -52,15 +52,16 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+2.63 USD** · win rate 100% (1 settled)
+2 shadow trades · realized net **-4.23 USD** · win rate 50% (2 settled)
 
+- 2026-08-14 · livescan · [[kucoin]]→[[gateio]] · -6.86 USD · _mixed_
 - 2026-08-09 · livescan · [[kucoin]]→[[gateio]] · +2.63 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-14T03:56:21.691844Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-15T03:56:55.878129Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

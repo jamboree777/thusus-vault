@@ -2,21 +2,21 @@
 token: GAIA
 type: token
 tier: free
-nw_grade: B+
+nw_grade: C+
 nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x2ee7097bfdd98fce2ac08a1896038a7cd9aaed81" }
 exchanges: [bitget, kucoin, mexc]
 transfer: partial
-updated: 2026-08-14T03:55:07.193351Z
+updated: 2026-08-15T03:55:42.490065Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GAIA · NW Grade **B+**
+# GAIA · NW Grade **C+**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x2ee709…ed81` (verified_same)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[bitget]]: D-
-- [[kucoin]]: B+
+- [[kucoin]]: C+
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
@@ -55,8 +55,9 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+1.14 USD** · win rate 100% (2 settled)
+3 shadow trades · realized net **+2.33 USD** · win rate 100% (3 settled)
 
+- 2026-08-14 · livescan · [[bitget]]→[[kucoin]] · +1.19 USD · _beat_
 - 2026-07-22 · livescan · [[kucoin]]→[[bitget]] · +1.01 USD · _beat_
 - 2026-07-17 · bigspike · [[bitget]]→[[kucoin]] · +0.14 USD · _price_drift_
 
@@ -64,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-14T03:55:07.193351Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-15T03:55:42.490065Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

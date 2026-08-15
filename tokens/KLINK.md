@@ -2,37 +2,33 @@
 token: KLINK
 type: token
 tier: free
-nw_grade: C-
-nw_grade_worst: D
+nw_grade: A+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x76e9b54b49739837be8ad10c3687fc6b543de852" }
 exchanges: [gateio, kucoin]
 transfer: open
-lifecycle: suspended
-updated: 2026-08-14T03:56:39.289144Z
+updated: 2026-08-15T03:57:33.598012Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# KLINK · NW Grade **C-**
+# KLINK · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade C- liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x76e9b5…e852` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: D
-- [[kucoin]]: C-
+- [[gateio]]: A+
+- [[kucoin]]: F
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-
-## Events
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:bsc,bsc
@@ -55,8 +51,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-14T03:56:39.289144Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-15T03:57:33.598012Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

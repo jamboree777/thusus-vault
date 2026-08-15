@@ -3,46 +3,52 @@ token: AVL
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C-
+nw_grade_worst: C+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x5c8d0c48810fd37a0a824d074ee290e64f7a8fa2" }
 exchanges: [bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-14T03:51:36.854961Z
+transfer: partial
+lifecycle: delisted
+updated: 2026-08-15T03:52:14.951478Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AVL · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x5c8d0c…8fa2` (partial)
 - Listed on: [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[gateio]]: A+
-- [[mexc]]: C-
+- [[mexc]]: C+
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
+
+## Events
+- 2026-08-14 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:bsc,ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[htx]]: open:avl
-- [[mexc]]: open:ethereum
+- [[mexc]]: closed:ethereum
 - [[toobit]]: open:ethereum
 
 ## Backers & Project
@@ -61,8 +67,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-14T03:51:36.854961Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-15T03:52:14.951478Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

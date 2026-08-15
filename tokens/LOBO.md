@@ -2,33 +2,37 @@
 token: LOBO
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: B+
+nw_grade: C
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ordinals, address: "840000:35" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-08-14T03:57:03.402263Z
+lifecycle: suspended
+updated: 2026-08-15T03:58:02.003861Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# LOBO · NW Grade **A-**
+# LOBO · NW Grade **C**
 
-Ordinals-network token; NW grade A- liquidity; transfer is open on at least one venue.
+Ordinals-network token; NW grade C liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ordinals]] `840000:35` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[mexc]]: A-
+- [[gateio]]: D+
+- [[mexc]]: C
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+
+## Events
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:btcrunes,btcrunes
@@ -51,8 +55,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-14T03:57:03.402263Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-15T03:58:02.003861Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
