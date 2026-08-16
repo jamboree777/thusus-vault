@@ -1,69 +1,64 @@
 ---
-token: B3
+token: C
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
-  - { chain: base, address: "0xb3b32f9f8827d4634fe7d973fa1034ec9fddb3b3" }
-exchanges: [bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
-korean_exchanges: [bithumb, upbit]
+  - { chain: binance-smart-chain, address: "0xc32cc70741c3a8433dcbcb5ade071c299b55ffc8" }
+exchanges: [binance, bitget, bithumb, gateio, kucoin, mexc]
+korean_exchanges: [bithumb]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-16T03:52:38.211781Z
+updated: 2026-08-16T03:53:42.682863Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# B3 · NW Grade **A+**
+# C · NW Grade **A+**
 
-Base-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[base]] `0xb3b32f…b3b3` (verified_same)
-- Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[upbit]]
+- Contract: [[binance-smart-chain]] `0xc32cc7…ffc8` (verified_same)
+- Listed on: [[binance]], [[bitget]], [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: A+
-- [[kucoin]]: C+
-- [[mexc]]: B+
-- [[upbit]]: A+
+- [[binance]]: A+
+- [[bitget]]: A
+- [[bithumb]]: A
+- [[gateio]]: B+
+- [[kucoin]]: B+
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
+- [[binance]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
+- [[lbank]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[orangex]]: deposit ✅ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-05 · [[lbank]] [[base mainnet]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[base mainnet]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-31 · [[bithumb]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-07-31 · [[bithumb]] [[base]] deposit → open · [[event/dw-resume]]
-- 2026-07-31 · [[bithumb]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-31 · [[bithumb]] [[base]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
+- [[binance]]: open:base,bsc
+- [[bitget]]: open:base
 - [[bithumb]]: open:base
-- [[bybit]]: open:base
-- [[coinbase]]: open:base
 - [[gateio]]: open:base,baseevm
 - [[kucoin]]: open:base
 - [[lbank]]: closed:base mainnet
 - [[mexc]]: open:base
 - [[orangex]]: open:base
 - [[toobit]]: open:base
-- [[upbit]]: open:base,base
+- Suspended now: [[lbank]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,21 +68,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+1.32 USD** · win rate 50% (2 settled)
+1 shadow trade · realized net **-8.87 USD** · win rate 0% (1 settled)
 
-- 2026-07-28 · woncarry · [[bithumb]]→[[bybit]] · +2.03 USD · _held_
-- 2026-07-15 · livescan · [[gateio]]→[[bybit]] · -0.71 USD
+- 2026-08-15 · woncarry · [[bithumb]]→[[binance]] · -8.87 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-16T03:52:38.211781Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-16T03:53:42.682863Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/B3.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/C.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

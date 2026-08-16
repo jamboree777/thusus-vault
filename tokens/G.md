@@ -3,7 +3,7 @@ token: G
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x9c7beba8f6ef6643abd725e45a4e8387ef260649" }
@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-15T03:55:40.286823Z
+updated: 2026-08-16T03:56:32.484534Z
 source: nightwatch-kg
 ---
 
@@ -32,7 +32,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: B+
+- [[kucoin]]: F
 - [[mexc]]: C
 - [[okx]]: A+
 - [[upbit]]: A+
@@ -84,7 +84,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-15T03:55:40.286823Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-16T03:56:32.484534Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

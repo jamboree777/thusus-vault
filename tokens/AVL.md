@@ -10,8 +10,8 @@ contracts:
 exchanges: [bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-lifecycle: delisted
-updated: 2026-08-15T03:52:14.951478Z
+lifecycle: suspended
+updated: 2026-08-16T03:52:22.222673Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[gateio]]: A+
 - [[mexc]]: C+
@@ -40,7 +40,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Events
 - 2026-08-14 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -68,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-15T03:52:14.951478Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-16T03:52:22.222673Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
