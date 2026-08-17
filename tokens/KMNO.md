@@ -7,10 +7,10 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "kmno3njsbxfcpjtvhzcxlw7rmtwtt4gvfe7suubo9ss" }
-exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx]
-korean_exchanges: [bithumb]
+exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
+korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-16T03:58:24.692987Z
+updated: 2026-08-17T03:57:59.684301Z
 source: nightwatch-kg
 ---
 
@@ -21,7 +21,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 
 ## Identity
 - Contract: [[solana]] `kmno3njs…o9ss` (verified_same)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]]
+- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]], [[upbit]]
 
 ## Grade by exchange
 - [[binance]]: A+
@@ -33,6 +33,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - [[kucoin]]: B+
 - [[mexc]]: A
 - [[okx]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -81,7 +82,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-16T03:58:24.692987Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-17T03:57:59.684301Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

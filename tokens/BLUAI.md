@@ -2,21 +2,21 @@
 token: BLUAI
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B+
+nw_grade: A
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-16T03:53:04.577974Z
+updated: 2026-08-17T03:52:55.591992Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLUAI · NW Grade **A+**
+# BLUAI · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xed9ae3…9aad` (verified_same)
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - [[bitget]]: B+
-- [[gateio]]: A+
+- [[gateio]]: B-
 - [[kucoin]]: A
 - [[mexc]]: A
 
@@ -35,18 +35,19 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-16 · [[gateio]] [[sui]] withdraw → open · [[event/dw-resume]]
+- 2026-08-16 · [[gateio]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-13 · [[gateio]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-08-13 · [[gateio]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-12 · [[gateio]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-08-11 · [[gateio]] [[sui]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-31 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
-- 2026-07-31 · [[mexc]] [[sui]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: open:bsc
 - [[gateio]]: closed:bsc,bsc,sui,sui,suinew,suinew
 - [[kucoin]]: open:bsc
 - [[mexc]]: open:bsc,sui
+- Recently reopened (48h): [[gateio]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -57,7 +58,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-16T03:53:04.577974Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-17T03:52:55.591992Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -1,57 +1,55 @@
 ---
-token: FORT
+token: DRV
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: B
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29" }
-exchanges: [bithumb, bybit, coinbase, gateio, kucoin, mexc]
-korean_exchanges: [bithumb]
+  - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
+exchanges: [bithumb, coinbase, gateio, hyperliquid, mexc, upbit]
+korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-17T03:56:00.485565Z
+updated: 2026-08-17T03:55:04.002855Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FORT · NW Grade **A+**
+# DRV · NW Grade **A+**
 
 Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[ethereum]] `0x41545f…ec29` (verified_same)
-- Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
+- Contract: [[ethereum]] `0xb1d1ea…71be` (verified_same)
+- Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[hyperliquid]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
 - [[bithumb]]: B+
-- [[bybit]]: A+
-- [[coinbase]]: A
-- [[gateio]]: B+
-- [[kucoin]]: B+
-- [[mexc]]: B+
+- [[coinbase]]: A+
+- [[gateio]]: A
+- [[hyperliquid]]: A
+- [[mexc]]: B
+- [[upbit]]: B+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ✅ / withdraw ❌
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-05 · [[orangex]] [[eth]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-15 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-07-14 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum
 - [[bithumb]]: open:ethereum
-- [[bybit]]: open:ethereum
-- [[coinbase]]: open:ethereum
-- [[gateio]]: open:ethereum,ethereum,polygon,polygon
-- [[kucoin]]: open:ethereum
+- [[coinbase]]: open:base
+- [[gateio]]: open:ethereum,ethereum
 - [[mexc]]: open:ethereum
+- [[orangex]]: closed:ethereum
 - [[upbit]]: open:ethereum
 
 ## Backers & Project
@@ -62,21 +60,22 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+8.28 USD** · win rate 100% (2 settled)
+6 shadow trades · realized net **+23.11 USD** · win rate 100% (6 settled)
 
-- 2026-07-25 · woncarry · [[bithumb]]→[[bybit]] · +1.76 USD · _held_
-- 2026-07-21 · woncarry · [[bithumb]]→[[bybit]] · +6.52 USD · _held_
+- 2026-08-17 · woncarry · [[bithumb]]→[[gateio]] · +6.23 USD
+- 2026-08-16 · woncarry · [[bithumb]]→[[gateio]] · +3.58 USD
+- 2026-08-16 · woncarry · [[bithumb]]→[[gateio]] · +2.10 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-17T03:56:00.485565Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-17T03:55:04.002855Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/FORT.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/DRV.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

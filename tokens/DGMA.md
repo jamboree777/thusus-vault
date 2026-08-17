@@ -2,28 +2,28 @@
 token: DGMA
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B-
+nw_grade: B-
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x4bdfa27ce379d7601da1d15bd637a1cf895ff8fb" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-08-16T03:54:45.259587Z
+updated: 2026-08-17T03:54:57.403266Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DGMA · NW Grade **A+**
+# DGMA · NW Grade **B-**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade B- liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x4bdfa2…f8fb` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A+
+- [[gateio]]: D+
 - [[mexc]]: B-
 
 ## Deposit / Withdrawal
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-16T03:54:45.259587Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-17T03:54:57.403266Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

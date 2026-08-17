@@ -2,7 +2,7 @@
 token: KARRAT
 type: token
 tier: free
-nw_grade: A-
+nw_grade: B+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,28 +10,28 @@ contracts:
 exchanges: [coinbase, gateio, kucoin, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-16T03:58:12.890553Z
+updated: 2026-08-17T03:57:44.884797Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# KARRAT · NW Grade **A-**
+# KARRAT · NW Grade **B+**
 
-Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xacd2c2…3650` (verified_same)
 - Listed on: [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[coinbase]]: A-
-- [[gateio]]: D
-- [[kucoin]]: F
+- [[coinbase]]: B+
+- [[gateio]]: F
+- [[kucoin]]: B
 - [[mexc]]: C-
 
 ## Deposit / Withdrawal
 - [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
@@ -43,7 +43,7 @@ Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - [[coinbase]]: open:ethereum
-- [[gateio]]: open:ethereum | closed:ethereum
+- [[gateio]]: closed:ethereum,ethereum
 - [[kucoin]]: open:ethereum
 - [[mexc]]: closed:ethereum
 
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-16T03:58:12.890553Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-17T03:57:44.884797Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

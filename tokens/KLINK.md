@@ -2,7 +2,7 @@
 token: KLINK
 type: token
 tier: free
-nw_grade: B+
+nw_grade: F
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,21 +10,21 @@ contracts:
 exchanges: [gateio, kucoin]
 transfer: open
 lifecycle: suspended
-updated: 2026-08-16T03:58:22.301374Z
+updated: 2026-08-17T03:57:57.091940Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# KLINK · NW Grade **B+**
+# KLINK · NW Grade **F**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade F liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x76e9b5…e852` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: B+
+- [[gateio]]: F
 - [[kucoin]]: F
 
 ## Deposit / Withdrawal
@@ -56,7 +56,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-16T03:58:22.301374Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-17T03:57:57.091940Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
