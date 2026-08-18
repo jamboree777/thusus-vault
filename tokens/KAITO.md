@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-17T03:57:42.198726Z
+updated: 2026-08-18T03:57:13.383716Z
 source: nightwatch-kg
 ---
 
@@ -86,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-17T03:57:42.198726Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-18T03:57:13.383716Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

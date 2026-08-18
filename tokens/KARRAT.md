@@ -10,7 +10,7 @@ contracts:
 exchanges: [coinbase, gateio, kucoin, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-17T03:57:44.884797Z
+updated: 2026-08-18T03:57:15.679588Z
 source: nightwatch-kg
 ---
 
@@ -25,8 +25,8 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[coinbase]]: B+
-- [[gateio]]: F
-- [[kucoin]]: B
+- [[gateio]]: D-
+- [[kucoin]]: F
 - [[mexc]]: C-
 
 ## Deposit / Withdrawal
@@ -36,6 +36,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-17 · [[gateio]] [[eth]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-12 · [[gateio]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-23 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: delist scheduled (1787108400) · [[event/delisting]]
@@ -63,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-17T03:57:44.884797Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-18T03:57:15.679588Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

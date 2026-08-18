@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xe7c6bf469e97eeb0bfb74c8dbff5bd47d4c1c98a" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-08-17T03:57:19.777157Z
+updated: 2026-08-18T03:56:51.575363Z
 source: nightwatch-kg
 ---
 
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-17T03:57:19.777157Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-18T03:56:51.575363Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [gateio, kucoin]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-17T03:55:48.896701Z
+updated: 2026-08-18T03:55:29.884925Z
 source: nightwatch-kg
 ---
 
@@ -33,6 +33,7 @@ Ethereum-network token; NW grade F liquidity; transfer is partial (some venues f
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-17 · [[kucoin]] [[arbitrum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-07 · [[mexc]] [[arbitrum]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
@@ -57,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-17T03:55:48.896701Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-18T03:55:29.884925Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

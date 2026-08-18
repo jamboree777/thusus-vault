@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-17T03:57:06.580263Z
+updated: 2026-08-18T03:56:38.101022Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bitget]]: A
+- [[bitget]]: A+
 - [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: B+
@@ -34,7 +34,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
+- [[binance]]: deposit ❌ / withdraw ✅
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
@@ -47,15 +47,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[toobit]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-18 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-17 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
+- 2026-08-17 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-11 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-11 · [[binance]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-10 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-09 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-08-09 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:ethereum | closed:bsc
+- [[binance]]: closed:bsc,ethereum
 - [[bitget]]: closed:ethereum
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:ethereum
@@ -66,6 +66,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[lbank]]: closed:ethereum
 - [[mexc]]: open:bsc,ethereum
 - [[toobit]]: closed:ethereum
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -85,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-17T03:57:06.580263Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-18T03:56:38.101022Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

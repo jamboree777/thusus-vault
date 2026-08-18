@@ -3,13 +3,13 @@ token: BLUAI
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-17T03:52:55.591992Z
+updated: 2026-08-18T03:52:49.493130Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 
 ## Grade by exchange
 - [[bitget]]: B+
-- [[gateio]]: B-
+- [[gateio]]: A
 - [[kucoin]]: A
 - [[mexc]]: A
 
@@ -35,12 +35,12 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-17 · [[gateio]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-16 · [[gateio]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-08-16 · [[gateio]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-13 · [[gateio]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-08-13 · [[gateio]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-12 · [[gateio]] [[sui]] withdraw → open · [[event/dw-resume]]
-- 2026-08-11 · [[gateio]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:bsc
@@ -58,7 +58,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-17T03:52:55.591992Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-18T03:52:49.493130Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
