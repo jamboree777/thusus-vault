@@ -2,30 +2,29 @@
 token: FLT
 type: token
 tier: free
-nw_grade: C+
-nw_grade_worst: D
+nw_grade: B+
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x236501327e701692a281934230af0b6be8df3353" }
 exchanges: [gateio, mexc]
 transfer: partial
-lifecycle: suspended
-updated: 2026-08-18T03:55:38.685711Z
+updated: 2026-08-19T03:55:55.179883Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FLT · NW Grade **C+**
+# FLT · NW Grade **B+**
 
-Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x236501…3353` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C+
-- [[mexc]]: D
+- [[gateio]]: C-
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[bybit]]: deposit ❌ / withdraw ✅
@@ -34,7 +33,6 @@ Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues 
 
 ## Events
 - 2026-07-12 · [[bybit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bybit]]: closed:ethereum
@@ -58,8 +56,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-18T03:55:38.685711Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-19T03:55:55.179883Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,23 +3,25 @@ token: HOME
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A+
 identity: verified_same
 contracts:
+  - { chain: base, address: "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f" }
   - { chain: binance-smart-chain, address: "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-18T03:56:49.111045Z
+updated: 2026-08-19T03:57:07.175282Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # HOME · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
+- Contract: [[base]] `0x4bfaa7…714f` (verified_same)
 - Contract: [[binance-smart-chain]] `0x4bfaa7…714f` (verified_same)
 - Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[upbit]]
 
@@ -31,7 +33,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: A+
-- [[mexc]]: A
+- [[mexc]]: A+
 - [[upbit]]: A+
 
 ## Deposit / Withdrawal
@@ -50,20 +52,20 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-19 · [[gateio]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-19 · [[binance]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-17 · [[mexc]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-17 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-08-17 · [[bitget]] [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-16 · [[gateio]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-08-15 · [[gateio]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-10 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:base,bsc,solana
+- [[binance]]: open:bsc,solana | closed:base
 - [[bitget]]: open:base,bsc | closed:solana
 - [[bithumb]]: open:base
 - [[bybit]]: open:base,bsc,solana
 - [[coinbase]]: open:base
-- [[gateio]]: open:base,baseevm,bsc,bsc
+- [[gateio]]: open:baseevm,bsc,bsc | closed:base
 - [[htx]]: open:home
 - [[kucoin]]: open:base
 - [[lbank]]: closed:base mainnet,bep20(bsc),solana
@@ -71,7 +73,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[orangex]]: open:base,bsc,solana
 - [[toobit]]: open:bsc
 - [[upbit]]: open:base
-- Recently reopened (48h): [[bitget]], [[gateio]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -91,7 +93,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-18T03:56:49.111045Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-19T03:57:07.175282Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,30 +2,30 @@
 token: AL
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: A
+nw_grade: B+
+nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x6c3ea9036406852006290770bedfcaba0e23a0e8" }
 exchanges: [bitget, bithumb]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-18T03:51:31.489666Z
+updated: 2026-08-19T03:51:51.523300Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **A**
+# AL · NW Grade **B+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
 - Listed on: [[bitget]], [[bithumb]]
 
 ## Grade by exchange
-- [[bitget]]: A
-- [[bithumb]]: A
+- [[bitget]]: F
+- [[bithumb]]: B+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-18T03:51:31.489666Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-19T03:51:51.523300Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

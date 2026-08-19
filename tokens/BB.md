@@ -1,26 +1,26 @@
 ---
-token: BMT
+token: BB
 type: token
 tier: free
 nw_grade: A+
 nw_grade_worst: A
-identity: verified_same
+identity: native
 contracts:
-  - { chain: binance-smart-chain, address: "0x7d814b9ed370ec0a502edc3267393bf62d891b62" }
+  - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-19T03:53:19.398880Z
+updated: 2026-08-19T03:52:48.698379Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BMT · NW Grade **A+**
+# BB · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[binance-smart-chain]] `0x7d814b…1b62` (verified_same)
+- Contract: [[ethereum]] `0xd459ec…73a3` (native)
 - Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
@@ -28,8 +28,8 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bitget]]: A
 - [[bithumb]]: A+
 - [[bybit]]: A+
-- [[gateio]]: A+
-- [[kucoin]]: A+
+- [[gateio]]: A
+- [[kucoin]]: A
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -42,27 +42,29 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
+- [[orangex]]: deposit ❌ / withdraw ❌
 
 ## Events
-- 2026-08-13 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-08-10 · [[kucoin]] [[sol]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-10 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-05 · [[lbank]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-01 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-07-31 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-17 · [[mexc]] [[bouncebit]] deposit → open · [[event/dw-resume]]
+- 2026-08-17 · [[mexc]] [[bouncebit]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-11 · [[mexc]] [[bouncebit]] withdraw → open · [[event/dw-resume]]
+- 2026-08-11 · [[mexc]] [[bouncebit]] deposit → open · [[event/dw-resume]]
+- 2026-08-11 · [[mexc]] [[bouncebit]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-11 · [[mexc]] [[bouncebit]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:bsc,solana
-- [[bitget]]: open:solana
-- [[bithumb]]: open:solana
-- [[bybit]]: open:solana
-- [[gateio]]: open:bsc,bsc,solana,solana
-- [[htx]]: open:solbmt
-- [[kucoin]]: open:bsc | closed:solana
-- [[lbank]]: closed:solana
-- [[mexc]]: open:bsc,solana
-- [[toobit]]: open:solana
+- [[binance]]: open:bb
+- [[bitget]]: open:bb
+- [[bithumb]]: open:bb
+- [[bybit]]: open:bouncebit
+- [[gateio]]: open:bb,bb
+- [[htx]]: open:bb
+- [[kucoin]]: open:bouncebit
+- [[lbank]]: closed:bbscan,ethereum,polygon
+- [[mexc]]: open:bouncebit
+- [[orangex]]: closed:bb
+- Suspended now: [[orangex]]
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -72,21 +74,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **-13.10 USD** · win rate 0% (2 settled)
+1 shadow trade · realized net **-1.46 USD** · win rate 0% (1 settled)
 
-- 2026-08-17 · woncarry · [[bithumb]]→[[binance]] · -3.47 USD · _held_
-- 2026-08-15 · woncarry · [[bithumb]]→[[binance]] · -9.63 USD · _held_
+- 2026-08-18 · livescan · [[mexc]]→[[kucoin]] · -1.46 USD · _mixed_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-19T03:53:19.398880Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-19T03:52:48.698379Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BMT.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BB.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

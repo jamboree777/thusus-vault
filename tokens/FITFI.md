@@ -3,15 +3,15 @@ token: FITFI
 type: token
 tier: free
 nw_grade: A-
-nw_grade_worst: D
+nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x7588df009c3d82378be6ab81f2108fa963c10fc8" }
 exchanges: [bithumb, gateio]
 korean_exchanges: [bithumb]
 transfer: blocked
-lifecycle: suspended
-updated: 2026-08-18T03:55:36.484613Z
+lifecycle: delisted
+updated: 2026-08-19T03:55:52.994931Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is currently 
 
 ## Grade by exchange
 - [[bithumb]]: A-
-- [[gateio]]: D
+- [[gateio]]: F
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -37,13 +37,13 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is currently 
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-18 · [[gateio]] [[fitfi]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-10 · [[gateio]] [[avax_c]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-10 · [[gateio]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-10 · [[gateio]] [[fitfi]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-03 · [[kucoin]] [[avax c-chain]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-17 · [[bithumb]] [[avax]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[mexc]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: delist scheduled (1787108400) · [[event/delisting]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -73,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-18T03:55:36.484613Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-19T03:55:52.994931Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

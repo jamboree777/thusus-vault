@@ -11,7 +11,7 @@ exchanges: [binance, bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-18T03:53:21.992147Z
+updated: 2026-08-19T03:53:45.113926Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[gateio]]: B+
 - [[kucoin]]: B+
 - [[mexc]]: A
@@ -68,8 +68,9 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **-8.93 USD** · win rate 0% (2 settled)
+3 shadow trades · realized net **-9.10 USD** · win rate 0% (3 settled)
 
+- 2026-08-19 · woncarry · [[bithumb]]→[[binance]] · -0.17 USD · _held_
 - 2026-08-17 · woncarry · [[bithumb]]→[[binance]] · -0.06 USD · _held_
 - 2026-08-15 · woncarry · [[bithumb]]→[[binance]] · -8.87 USD · _held_
 
@@ -77,7 +78,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-18T03:53:21.992147Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-19T03:53:45.113926Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
