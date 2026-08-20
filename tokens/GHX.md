@@ -2,7 +2,7 @@
 token: GHX
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B
 identity: verified_same
 contracts:
@@ -10,21 +10,21 @@ contracts:
 exchanges: [bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-19T03:56:13.800612Z
+updated: 2026-08-20T03:56:34.908682Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GHX · NW Grade **A**
+# GHX · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x728f30…387d` (verified_same)
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[gateio]]: A-
 - [[kucoin]]: B
 - [[mexc]]: A
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-19T03:56:13.800612Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-20T03:56:34.908682Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
