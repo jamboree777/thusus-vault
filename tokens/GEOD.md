@@ -3,14 +3,14 @@ token: GEOD
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A-
 identity: partial
 contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
 exchanges: [bithumb, coinbase, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-20T03:56:32.707016Z
+updated: 2026-08-21T03:56:28.593547Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 
 ## Grade by exchange
 - [[bithumb]]: A+
-- [[coinbase]]: B+
+- [[coinbase]]: A+
 - [[gateio]]: A-
 - [[mexc]]: A
 - [[upbit]]: A
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-20T03:56:32.707016Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-21T03:56:28.593547Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

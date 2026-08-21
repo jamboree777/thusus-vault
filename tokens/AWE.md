@@ -3,14 +3,14 @@ token: AWE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: base, address: "0x1b4617734c43f6159f3a70b7e06d883647512778" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-20T03:52:29.511547Z
+updated: 2026-08-21T03:52:34.497918Z
 source: nightwatch-kg
 ---
 
@@ -27,9 +27,9 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[binance]]: A+
 - [[bitget]]: A
 - [[bithumb]]: A+
-- [[coinbase]]: A-
+- [[coinbase]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: A
+- [[kucoin]]: B-
 - [[mexc]]: B+
 - [[upbit]]: A+
 
@@ -75,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-20T03:52:29.511547Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-21T03:52:34.497918Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

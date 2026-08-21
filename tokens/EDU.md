@@ -3,14 +3,14 @@ token: EDU
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x26aad156ba8efa501b32b42ffcdc8413f90e9c99" }
 exchanges: [binance, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-20T03:55:25.712043Z
+updated: 2026-08-21T03:55:31.002158Z
 source: nightwatch-kg
 ---
 
@@ -24,10 +24,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[binance]], [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[binance]]: A+
+- [[binance]]: A
 - [[bithumb]]: A+
 - [[gateio]]: A
-- [[kucoin]]: B+
+- [[kucoin]]: F
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
@@ -67,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-20T03:55:25.712043Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-21T03:55:31.002158Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

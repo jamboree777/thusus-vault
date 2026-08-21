@@ -2,30 +2,30 @@
 token: CHIRP
 type: token
 tier: free
-nw_grade: C-
-nw_grade_worst: D-
+nw_grade: C
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::chirp" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-08-20T03:54:15.818731Z
+updated: 2026-08-21T03:54:09.099234Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHIRP · NW Grade **C-**
+# CHIRP · NW Grade **C**
 
-Sui-network token; NW grade C- liquidity; transfer is open on at least one venue.
+Sui-network token; NW grade C liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[sui]] `0x1ef4c0…hirp` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C-
-- [[kucoin]]: D+
-- [[mexc]]: D-
+- [[gateio]]: D+
+- [[kucoin]]: C
+- [[mexc]]: D
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -33,17 +33,18 @@ Sui-network token; NW grade C- liquidity; transfer is open on at least one venue
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-20 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
+- 2026-08-20 · [[mexc]] [[sui]] deposit → open · [[event/dw-resume]]
+- 2026-08-20 · [[mexc]] [[sui]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-20 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-31 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-07-31 · [[mexc]] [[sui]] deposit → open · [[event/dw-resume]]
-- 2026-07-31 · [[mexc]] [[sui]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-31 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[suinew]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[suinew]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
 - [[kucoin]]: open:sui
 - [[mexc]]: open:sui
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-20T03:54:15.818731Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-21T03:54:09.099234Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
