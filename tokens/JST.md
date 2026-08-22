@@ -3,14 +3,14 @@ token: JST
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: tron, address: "tcfll5dx5zjdknwuesxxi1vpwjlvmwzzy9" }
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-21T03:57:57.294165Z
+updated: 2026-08-22T03:58:16.418474Z
 source: nightwatch-kg
 ---
 
@@ -31,7 +31,7 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[gateio]]: A+
 - [[kucoin]]: A+
 - [[mexc]]: A+
-- [[upbit]]: B+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -85,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-21T03:57:57.294165Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-22T03:58:16.418474Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, coinbase, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-21T03:56:28.593547Z
+updated: 2026-08-22T03:56:45.194965Z
 source: nightwatch-kg
 ---
 
@@ -24,11 +24,11 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[coinbase]]: A+
 - [[gateio]]: A-
 - [[mexc]]: A
-- [[upbit]]: A
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -39,20 +39,21 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-22 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-08-19 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[orangex]] [[matic]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-29 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[mexc]] [[polygon]] deposit → open · [[event/dw-resume]]
 - 2026-07-29 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-29 · [[mexc]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bithumb]]: open:solana
 - [[coinbase]]: open:solana
 - [[gateio]]: open:polygon,polygon
-- [[mexc]]: open:polygon | closed:solana
+- [[mexc]]: open:polygon,solana
 - [[orangex]]: closed:polygon
 - [[upbit]]: open:solana
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-21T03:56:28.593547Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-22T03:56:45.194965Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
