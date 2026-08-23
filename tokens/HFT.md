@@ -3,15 +3,14 @@ token: HFT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb3999f658c0391d94a37f7ff328f3fec942bcadc" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-lifecycle: delisted
-updated: 2026-08-22T03:57:20.291314Z
+updated: 2026-08-23T03:56:17.196747Z
 source: nightwatch-kg
 ---
 
@@ -30,8 +29,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
-- [[gateio]]: A
-- [[kucoin]]: B+
+- [[gateio]]: B-
+- [[kucoin]]: D+
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
@@ -54,7 +53,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-08-11 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-11 · [[binance]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-10 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[binance]]: closed:bsc,ethereum
@@ -86,8 +84,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-22T03:57:20.291314Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-23T03:56:17.196747Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

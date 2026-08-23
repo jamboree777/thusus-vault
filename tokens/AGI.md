@@ -2,33 +2,33 @@
 token: AGI
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: F
+nw_grade: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x7da2641000cbb407c329310c461b2cb9c70c3046" }
 exchanges: [bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-08-22T03:51:47.601085Z
+updated: 2026-08-23T03:50:28.524081Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AGI · NW Grade **A+**
+# AGI · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x7da264…3046` (verified_same)
 - Listed on: [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
-- [[bybit]]: A
-- [[gateio]]: A
+- [[bithumb]]: A
+- [[bybit]]: B+
+- [[gateio]]: B+
 - [[kucoin]]: B+
-- [[mexc]]: F
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -54,15 +54,16 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+0.26 USD** · win rate 100% (1 settled)
+2 shadow trades · realized net **+3.36 USD** · win rate 100% (2 settled)
 
+- 2026-08-22 · livescan · [[bybit]]→[[gateio]] · +3.09 USD
 - 2026-07-21 · livescan · [[bybit]]→[[kucoin]] · +0.26 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-22T03:51:47.601085Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-23T03:50:28.524081Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

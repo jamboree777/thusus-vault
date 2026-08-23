@@ -9,7 +9,8 @@ contracts:
   - { chain: ethereum, address: "0x8cb8c4263eb26b2349d74ea2cb1b27bc40709e12" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-08-22T03:56:00.694263Z
+lifecycle: suspended
+updated: 2026-08-23T03:55:08.210299Z
 source: nightwatch-kg
 ---
 
@@ -34,6 +35,7 @@ Ethereum-network token; NW grade F liquidity; transfer is partial (some venues f
 ## Events
 - 2026-08-17 · [[kucoin]] [[arbitrum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-07 · [[mexc]] [[arbitrum]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:arbevm,arbone
@@ -55,8 +57,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-22T03:56:00.694263Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-23T03:55:08.210299Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

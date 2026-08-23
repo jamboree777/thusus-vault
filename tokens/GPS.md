@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-22T03:56:58.393587Z
+updated: 2026-08-23T03:55:51.998641Z
 source: nightwatch-kg
 ---
 
@@ -45,15 +45,15 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-22 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-21 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-08-21 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-18 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-08-17 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[base mainnet]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-05 · [[lbank]] [[base mainnet]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:base,bsc
+- [[binance]]: open:base | closed:bsc
 - [[bitget]]: open:base
 - [[bithumb]]: open:base
 - [[bybit]]: open:base,bsc
@@ -74,15 +74,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+3.66 USD** · win rate 100% (1 settled)
+3 shadow trades · realized net **+6.11 USD** · win rate 100% (3 settled)
 
+- 2026-08-22 · woncarry · [[bithumb]]→[[binance]] · +0.09 USD · _held_
+- 2026-08-22 · woncarry · [[bithumb]]→[[binance]] · +2.35 USD · _held_
 - 2026-08-21 · woncarry · [[bithumb]]→[[binance]] · +3.66 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-22T03:56:58.393587Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-23T03:55:51.998641Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

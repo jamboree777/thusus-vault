@@ -2,22 +2,21 @@
 token: ELP
 type: token
 tier: free
-nw_grade: A+
+nw_grade: B+
 nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbbcdc8eb044bf661eabfa07b93909a76ebdb1100" }
 exchanges: [gateio, kucoin]
 transfer: partial
-lifecycle: suspended
-updated: 2026-08-22T03:55:37.982319Z
+updated: 2026-08-23T03:54:47.284603Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ELP · NW Grade **A+**
+# ELP · NW Grade **B+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xbbcdc8…1100` (verified_same)
@@ -25,7 +24,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: C
-- [[kucoin]]: A+
+- [[kucoin]]: B+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -34,7 +33,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Events
 - 2026-07-12 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:ethereum,ethereum
@@ -56,8 +54,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-22T03:55:37.982319Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-23T03:54:47.284603Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

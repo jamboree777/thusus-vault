@@ -2,46 +2,50 @@
 token: IMT
 type: token
 tier: free
-nw_grade: D
-nw_grade_worst: D-
+nw_grade: C+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xe2616122ed554bd693335e9143c47df187a86ef3" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-08-22T03:57:42.233952Z
+lifecycle: delisted
+updated: 2026-08-23T03:56:38.195561Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# IMT · NW Grade **D**
+# IMT · NW Grade **C+**
 
-Ethereum-network token; NW grade D liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xe26161…6ef3` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: D
-- [[mexc]]: D-
+- [[gateio]]: C+
+- [[mexc]]: D+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-22 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[kucoin]]: closed:ethereum
-- [[mexc]]: open:ethereum
+- [[mexc]]: closed:ethereum
 - Suspended now: [[kucoin]]
 
 ## Backers & Project
@@ -52,8 +56,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-22T03:57:42.233952Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
+_Live from the NightWatch Knowledge Graph · 2026-08-23T03:56:38.195561Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
