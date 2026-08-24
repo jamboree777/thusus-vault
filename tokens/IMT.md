@@ -2,29 +2,29 @@
 token: IMT
 type: token
 tier: free
-nw_grade: C+
+nw_grade: A
 nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xe2616122ed554bd693335e9143c47df187a86ef3" }
 exchanges: [gateio, mexc]
 transfer: partial
-lifecycle: delisted
-updated: 2026-08-23T03:56:38.195561Z
+lifecycle: suspended
+updated: 2026-08-24T03:56:17.798045Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# IMT · NW Grade **C+**
+# IMT · NW Grade **A**
 
-Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xe26161…6ef3` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C+
+- [[gateio]]: A
 - [[mexc]]: D+
 
 ## Deposit / Withdrawal
@@ -38,7 +38,6 @@ Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues 
 - 2026-07-12 · [[kucoin]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -57,7 +56,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-08-23T03:56:38.195561Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-24T03:56:17.798045Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
