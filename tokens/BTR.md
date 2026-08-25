@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0x6c76de483f1752ac8473e2b4983a873991e70da7" }
 exchanges: [bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-08-24T03:52:33.298387Z
+transfer: partial
+updated: 2026-08-25T03:54:16.600105Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BTR · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c76de…0da7` (partial)
@@ -31,7 +31,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
@@ -39,13 +39,14 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-24 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-22 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-17 · [[bitget]] [[erc20]] deposit → open · [[event/dw-resume]]
 - 2026-08-05 · [[mexc]] [[bitlayer]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:ethereum
+- [[bitget]]: closed:ethereum
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,btrbtc,btrbtc
 - [[kucoin]]: open:bitlayer
@@ -61,7 +62,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-24T03:52:33.298387Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-25T03:54:16.600105Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

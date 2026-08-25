@@ -2,31 +2,30 @@
 token: HONEY
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: F
+nw_grade: A
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: solana, address: "4vmsout2bwatfweudnqm1xedrlfjgj7hswhcpz4xgbty" }
 exchanges: [coinbase, gateio, kucoin]
 transfer: partial
-lifecycle: suspended
-updated: 2026-08-24T03:56:12.484214Z
+updated: 2026-08-25T03:58:08.602548Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# HONEY · NW Grade **A+**
+# HONEY · NW Grade **A**
 
-Solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `4vmsout2…gbty` (verified_same)
 - Listed on: [[coinbase]], [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[coinbase]]: A+
-- [[gateio]]: F
-- [[kucoin]]: F
+- [[coinbase]]: A
+- [[gateio]]: C
+- [[kucoin]]: D
 
 ## Deposit / Withdrawal
 - [[coinbase]]: deposit ✅ / withdraw ✅
@@ -36,7 +35,6 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 
 ## Events
 - 2026-07-23 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[coinbase]]: open:solana
@@ -59,8 +57,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-24T03:56:12.484214Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-25T03:58:08.602548Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

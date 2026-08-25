@@ -3,13 +3,13 @@ token: BRN
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C-
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x926ecc7687fcfb296e97a2b4501f41a6f5f8c214" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-08-24T03:52:28.895335Z
+updated: 2026-08-25T03:54:12.199732Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - [[gateio]]: A+
-- [[mexc]]: C-
+- [[mexc]]: A-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -57,7 +57,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-24T03:52:28.895335Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-25T03:54:12.199732Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

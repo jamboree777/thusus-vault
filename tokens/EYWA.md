@@ -3,14 +3,14 @@ token: EYWA
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: D
+nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x8cb8c4263eb26b2349d74ea2cb1b27bc40709e12" }
 exchanges: [gateio, kucoin]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-24T03:54:49.391228Z
+updated: 2026-08-25T03:56:26.692812Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: D
+- [[gateio]]: F
 - [[kucoin]]: B+
 
 ## Deposit / Withdrawal
@@ -58,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-24T03:54:49.391228Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-25T03:56:26.692812Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

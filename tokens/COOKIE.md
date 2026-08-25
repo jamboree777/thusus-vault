@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-24T03:53:11.441711Z
+updated: 2026-08-25T03:54:49.887233Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[binance]]: A
 - [[bitget]]: A
-- [[bithumb]]: A+
+- [[bithumb]]: B+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
@@ -36,7 +36,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
 - [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
+- [[bithumb]]: deposit ❌ / withdraw ❌
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -48,17 +48,17 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-25 · [[bithumb]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-25 · [[bithumb]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-17 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-14 · [[mexc]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-08-12 · [[gateio]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-08-11 · [[gateio]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-10 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-08-07 · [[gateio]] [[base]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:bsc
 - [[bitget]]: open:bsc | closed:base
-- [[bithumb]]: open:bsc
+- [[bithumb]]: closed:bsc
 - [[bybit]]: open:base,bsc
 - [[coinbase]]: open:base
 - [[gateio]]: open:base,baseevm,bsc,bsc
@@ -68,6 +68,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: open:base,bsc
 - [[orangex]]: open:bsc
 - [[toobit]]: open:bsc
+- Suspended now: [[bithumb]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -77,8 +78,9 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **-0.67 USD** · win rate 50% (2 settled)
+3 shadow trades · realized net **+1.17 USD** · win rate 66.7% (3 settled)
 
+- 2026-08-25 · woncarry · [[bithumb]]→[[binance]] · +1.84 USD · _held_
 - 2026-08-23 · woncarry · [[bithumb]]→[[binance]] · -1.65 USD · _held_
 - 2026-08-22 · woncarry · [[bithumb]]→[[binance]] · +0.98 USD · _held_
 
@@ -86,7 +88,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-24T03:53:11.441711Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-25T03:54:49.887233Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

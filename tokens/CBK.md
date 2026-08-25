@@ -3,14 +3,14 @@ token: CBK
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd85a6ae55a7f33b0ee113c234d2ee308edeaf7fd" }
 exchanges: [bitget, bithumb, bybit, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-24T03:52:52.134293Z
+updated: 2026-08-25T03:54:32.009976Z
 source: nightwatch-kg
 ---
 
@@ -27,8 +27,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bitget]]: D+
 - [[bithumb]]: A
 - [[bybit]]: A
-- [[gateio]]: C-
-- [[mexc]]: A
+- [[gateio]]: B+
+- [[mexc]]: D
 - [[upbit]]: A+
 
 ## Deposit / Withdrawal
@@ -42,21 +42,21 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-24 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-24 · [[bitget]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-29 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[mexc]] [[polygon]] deposit → open · [[event/dw-resume]]
-- 2026-07-29 · [[bybit]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-07-29 · [[bybit]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:ethereum,polygon
+- [[bitget]]: open:ethereum | closed:polygon
 - [[bithumb]]: open:ethereum
 - [[bybit]]: closed:polygon
 - [[gateio]]: open:ethereum,ethereum,polygon,polygon
 - [[htx]]: open:cbk
 - [[lbank]]: closed:ethereum,polygon
-- [[mexc]]: open:ethereum,polygon
+- [[mexc]]: open:polygon | closed:ethereum
 - [[upbit]]: open:ethereum
 
 ## Backers & Project
@@ -75,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-24T03:52:52.134293Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-25T03:54:32.009976Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,14 @@ token: CUDIS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1" }
 exchanges: [bitget, bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-24T03:53:26.809291Z
+updated: 2026-08-25T03:55:06.191864Z
 source: nightwatch-kg
 ---
 
@@ -26,8 +26,8 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[bitget]]: A+
 - [[bithumb]]: A-
-- [[bybit]]: C-
-- [[gateio]]: D+
+- [[bybit]]: D
+- [[gateio]]: A+
 - [[mexc]]: A-
 
 ## Deposit / Withdrawal
@@ -41,12 +41,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-24 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-24 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-08-24 · [[gateio]] [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-23 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-23 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-08-22 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-22 · [[gateio]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-22 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: open:bsc
@@ -77,7 +77,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-24T03:53:26.809291Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-25T03:55:06.191864Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
