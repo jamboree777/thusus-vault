@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-25T03:58:21.896624Z
+updated: 2026-08-26T03:58:19.403916Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Iota-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[gateio]]: A
 - [[kucoin]]: A
 - [[mexc]]: B+
@@ -77,7 +77,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-25T03:58:21.896624Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-26T03:58:19.403916Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
