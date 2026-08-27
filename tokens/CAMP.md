@@ -2,40 +2,39 @@
 token: CAMP
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: D-
+nw_grade: A+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-lifecycle: delisted
-updated: 2026-08-26T03:54:17.384124Z
+transfer: partial
+updated: 2026-08-27T03:53:20.518862Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CAMP · NW Grade **A**
+# CAMP · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x84eaac…71fc` (verified_same)
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A
-- [[bithumb]]: A
+- [[bitget]]: D+
+- [[bithumb]]: A+
 - [[bybit]]: A-
-- [[gateio]]: C
-- [[kucoin]]: A
-- [[mexc]]: D-
+- [[gateio]]: C+
+- [[kucoin]]: A-
+- [[mexc]]: D+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
+- [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
@@ -43,16 +42,18 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-26 · [[bybit]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[bybit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[bybit]] [[camp]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[camp]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
-- [[bitget]]: open:ethereum
+- [[bitget]]: open:ethereum,ethereum
 - [[bithumb]]: open:ethereum
-- [[bybit]]: open:camp,ethereum
+- [[bybit]]: closed:camp,ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[htx]]: open:camp
-- [[kucoin]]: open:ethereum | closed:camp
+- [[kucoin]]: open:ethereum,ethereum | closed:camp,camp
 - [[mexc]]: open:camp,ethereum
 - [[toobit]]: open:ethereum
 
@@ -64,7 +65,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-8 shadow trades · realized net **+18.20 USD** · win rate 87.5% (8 settled)
+6 shadow trades · realized net **+9.42 USD** · win rate 83.3% (6 settled)
 
 - 2026-08-18 · livescan · [[kucoin]]→[[bitget]] · -0.76 USD · _price_drift_
 - 2026-08-09 · livescan · [[bybit]]→[[bitget]] · +1.45 USD · _depth_shrink_
@@ -73,8 +74,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:54:17.384124Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:53:20.518862Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

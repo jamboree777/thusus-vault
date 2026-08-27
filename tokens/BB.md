@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-26T03:53:08.832971Z
+updated: 2026-08-27T03:52:16.015384Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A+
+- [[bithumb]]: B+
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[kucoin]]: A
@@ -36,7 +36,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[binance]]: deposit ❌ / withdraw ❌
 - [[bitget]]: deposit ❌ / withdraw ❌
 - [[bithumb]]: deposit ❌ / withdraw ❌
-- [[bybit]]: deposit ✅ / withdraw ✅
+- [[bybit]]: deposit ❌ / withdraw ❌
 - [[gateio]]: deposit ❌ / withdraw ❌
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
@@ -45,25 +45,25 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[orangex]]: deposit ❌ / withdraw ❌
 
 ## Events
+- 2026-08-26 · [[kucoin]] [[bb]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[kucoin]] [[bb]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[bybit]] [[bouncebit]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[bybit]] [[bouncebit]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-24 · [[bitget]] [[bb]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-24 · [[bitget]] [[bb]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-24 · [[kucoin]] [[bouncebit]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-24 · [[kucoin]] [[bouncebit]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-24 · [[gateio]] [[bb]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-24 · [[gateio]] [[bb]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: closed:bb
-- [[bitget]]: closed:bb
+- [[bitget]]: closed:bb,bb
 - [[bithumb]]: closed:bb
-- [[bybit]]: open:bouncebit
+- [[bybit]]: closed:bouncebit
 - [[gateio]]: closed:bb,bb
 - [[htx]]: open:bb
-- [[kucoin]]: closed:bouncebit
+- [[kucoin]]: closed:bb,bouncebit
 - [[lbank]]: closed:bbscan,ethereum,polygon
 - [[mexc]]: closed:bouncebit
 - [[orangex]]: closed:bb
-- Suspended now: [[binance]], [[bitget]], [[bithumb]], [[gateio]], [[kucoin]], [[mexc]], [[orangex]]
+- Suspended now: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]], [[orangex]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:53:08.832971Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:52:16.015384Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

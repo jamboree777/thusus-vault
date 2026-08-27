@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x3597bfd533a99c9aa083587b074434e61eb0a258" }
 exchanges: [binance, gateio, kucoin]
 transfer: partial
-updated: 2026-08-26T03:55:17.802808Z
+updated: 2026-08-27T03:54:23.357935Z
 source: nightwatch-kg
 ---
 
@@ -33,12 +33,13 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - [[kucoin]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-26 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum
+- [[bitget]]: closed:ethereum,ethereum
 - [[gateio]]: open:ethereum,ethereum
-- [[kucoin]]: open:ethereum
+- [[kucoin]]: open:ethereum,ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:55:17.802808Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:54:23.357935Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

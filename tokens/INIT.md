@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-26T03:58:17.206947Z
+updated: 2026-08-27T03:57:04.875554Z
 source: nightwatch-kg
 ---
 
@@ -53,12 +53,12 @@ Initia-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 
 ## Transfer map
 - [[binance]]: open:init
-- [[bitget]]: open:init
+- [[bitget]]: open:init,init
 - [[bithumb]]: open:init
 - [[bybit]]: open:init
 - [[gateio]]: open:init,init
 - [[htx]]: open:init
-- [[kucoin]]: open:initia
+- [[kucoin]]: open:init,initia
 - [[lbank]]: closed:initia
 - [[mexc]]: open:initia
 - [[upbit]]: open:init
@@ -79,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:58:17.206947Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:57:04.875554Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

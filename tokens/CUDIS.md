@@ -10,8 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-lifecycle: delisted
-updated: 2026-08-26T03:55:06.813897Z
+updated: 2026-08-27T03:54:05.014516Z
 source: nightwatch-kg
 ---
 
@@ -25,16 +24,16 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A+
-- [[bithumb]]: A
+- [[bitget]]: A
+- [[bithumb]]: A+
 - [[bybit]]: D+
-- [[gateio]]: C+
+- [[gateio]]: D+
 - [[mexc]]: A-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
+- [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
@@ -42,24 +41,22 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-26 · [[bybit]] [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[bybit]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[bybit]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-24 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-24 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-08-24 · [[gateio]] [[sol]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-23 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-23 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-08-22 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
-- [[bitget]]: open:bsc
+- [[bitget]]: open:bsc,bsc
 - [[bithumb]]: closed:solana
-- [[bybit]]: open:bsc,solana
+- [[bybit]]: closed:bsc,solana
 - [[gateio]]: open:bsc,bsc | closed:solana,solana
 - [[htx]]: open:solcudis
 - [[mexc]]: open:bsc | closed:solana
 - [[orangex]]: open:solana
 - [[toobit]]: open:bsc
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,8 +75,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:55:06.813897Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:54:05.014516Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

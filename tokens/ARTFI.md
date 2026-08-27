@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::artfi" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-08-26T03:52:29.881645Z
+updated: 2026-08-27T03:51:35.713883Z
 source: nightwatch-kg
 ---
 
@@ -41,9 +41,9 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 - 2026-07-12 · [[bitget]] [[sui]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:sui
+- [[bitget]]: closed:sui,sui
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
-- [[kucoin]]: open:sui
+- [[kucoin]]: open:sui,sui
 - [[mexc]]: closed:sui
 
 ## Backers & Project
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:52:29.881645Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:51:35.713883Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

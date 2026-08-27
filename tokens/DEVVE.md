@@ -5,7 +5,7 @@ tier: free
 nw_grade: null
 identity: verified_same
 transfer: blocked
-updated: 2026-08-26T03:55:20.010581Z
+updated: 2026-08-27T03:54:25.529944Z
 source: nightwatch-kg
 ---
 
@@ -23,13 +23,14 @@ Transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-26 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-22 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-03 · [[gateio]] [[eth]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-29 · [[gateio]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum
+- [[bitget]]: closed:ethereum,ethereum
 - [[gateio]]: closed:ethereum,ethereum
 - [[mexc]]: closed:ethereum
 
@@ -51,7 +52,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:55:20.010581Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:54:25.529944Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

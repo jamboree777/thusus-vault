@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-26T03:58:31.181172Z
+updated: 2026-08-27T03:57:19.196256Z
 source: nightwatch-kg
 ---
 
@@ -57,12 +57,12 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Transfer map
 - [[binance]]: open:bsc,tron
-- [[bitget]]: open:tron
+- [[bitget]]: open:tron,tron
 - [[bithumb]]: open:tron
 - [[bybit]]: open:tron
 - [[gateio]]: open:tron,tron
 - [[htx]]: open:jst
-- [[kucoin]]: open:tron
+- [[kucoin]]: open:tron,tron
 - [[lbank]]: closed:tron
 - [[mexc]]: open:tron
 - [[orangex]]: open:tron
@@ -85,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:58:31.181172Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:57:19.196256Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-26T03:52:53.425940Z
+updated: 2026-08-27T03:51:58.921913Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[binance]]: A+
 - [[bitget]]: A
 - [[bithumb]]: A+
-- [[coinbase]]: A
+- [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: B-
 - [[mexc]]: B+
@@ -48,12 +48,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 
 ## Transfer map
 - [[binance]]: open:base
-- [[bitget]]: open:base
+- [[bitget]]: open:base,base
 - [[bithumb]]: open:base
 - [[coinbase]]: open:base
 - [[gateio]]: open:base,baseevm
 - [[htx]]: open:awe
-- [[kucoin]]: open:base
+- [[kucoin]]: open:base,base
 - [[mexc]]: open:base
 - [[orangex]]: open:base
 - [[toobit]]: open:base
@@ -75,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:52:53.425940Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:51:58.921913Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

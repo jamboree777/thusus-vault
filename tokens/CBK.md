@@ -2,7 +2,7 @@
 token: CBK
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-26T03:54:23.984492Z
+updated: 2026-08-27T03:53:27.291448Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CBK · NW Grade **A+**
+# CBK · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xd85a6a…f7fd` (verified_same)
@@ -27,9 +27,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bitget]]: D+
 - [[bithumb]]: A-
 - [[bybit]]: A
-- [[gateio]]: A
+- [[gateio]]: D+
 - [[mexc]]: F
-- [[upbit]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -50,7 +50,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-07-29 · [[mexc]] [[polygon]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: open:ethereum | closed:polygon
+- [[bitget]]: open:ethereum,ethereum | closed:polygon
 - [[bithumb]]: open:ethereum
 - [[bybit]]: closed:polygon
 - [[gateio]]: open:ethereum,ethereum,polygon,polygon
@@ -75,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:54:23.984492Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:53:27.291448Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

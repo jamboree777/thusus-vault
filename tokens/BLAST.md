@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-08-26T03:53:30.538574Z
+updated: 2026-08-27T03:52:33.804088Z
 source: nightwatch-kg
 ---
 
@@ -25,9 +25,9 @@ Blast-network token; NW grade A+ liquidity; transfer is open on at least one ven
 
 ## Grade by exchange
 - [[bitget]]: B
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
-- [[coinbase]]: A+
+- [[coinbase]]: A
 - [[gateio]]: A
 - [[kucoin]]: B
 - [[mexc]]: B+
@@ -52,13 +52,13 @@ Blast-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - 2026-07-12 · [[upbit]] [[blastnet]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:blast
+- [[bitget]]: open:blast,blast
 - [[bithumb]]: open:blast
 - [[bybit]]: open:blast
 - [[coinbase]]: open:blast
 - [[gateio]]: open:blast,blasteth
 - [[htx]]: open:blast
-- [[kucoin]]: open:blast
+- [[kucoin]]: open:blast,blast
 - [[mexc]]: open:blast
 - [[orangex]]: open:blast
 - [[upbit]]: open:blastnet
@@ -84,7 +84,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:53:30.538574Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:52:33.804088Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

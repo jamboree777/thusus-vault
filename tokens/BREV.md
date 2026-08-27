@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-26T03:53:55.736076Z
+updated: 2026-08-27T03:53:02.709390Z
 source: nightwatch-kg
 ---
 
@@ -59,13 +59,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - [[binance]]: open:base,bsc,ethereum
-- [[bitget]]: open:ethereum
+- [[bitget]]: open:ethereum,ethereum
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,ethereum,ethereum
 - [[htx]]: open:erc20brev
-- [[kucoin]]: open:ethereum
+- [[kucoin]]: open:ethereum,ethereum
 - [[lbank]]: closed:base mainnet,bep20(bsc),ethereum
 - [[mexc]]: open:base,bsc,ethereum
 - [[okx]]: open:ethereum
@@ -82,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:53:55.736076Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:53:02.709390Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

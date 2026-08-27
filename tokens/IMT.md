@@ -2,7 +2,7 @@
 token: IMT
 type: token
 tier: free
-nw_grade: C
+nw_grade: C-
 nw_grade_worst: D+
 identity: verified_same
 contracts:
@@ -10,21 +10,21 @@ contracts:
 exchanges: [gateio, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-26T03:58:10.601106Z
+updated: 2026-08-27T03:56:57.798951Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# IMT · NW Grade **C**
+# IMT · NW Grade **C-**
 
-Ethereum-network token; NW grade C liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xe26161…6ef3` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C
+- [[gateio]]: C-
 - [[mexc]]: D+
 
 ## Deposit / Withdrawal
@@ -34,16 +34,18 @@ Ethereum-network token; NW grade C liquidity; transfer is partial (some venues f
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-26 · [[kucoin]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[kucoin]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-22 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[kucoin]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum
+- [[bitget]]: closed:ethereum,ethereum
 - [[gateio]]: open:ethereum,ethereum
-- [[kucoin]]: closed:ethereum
+- [[kucoin]]: closed:ethereum,ethereum
 - [[mexc]]: closed:ethereum
 - Suspended now: [[kucoin]]
 
@@ -56,7 +58,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:58:10.601106Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:56:57.798951Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,29 +2,29 @@
 token: GAIA
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: C+
+nw_grade: C+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x2ee7097bfdd98fce2ac08a1896038a7cd9aaed81" }
 exchanges: [bitget, kucoin, mexc]
 transfer: partial
-updated: 2026-08-26T03:56:49.583070Z
+updated: 2026-08-27T03:55:49.444014Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GAIA · NW Grade **B-**
+# GAIA · NW Grade **C+**
 
-Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x2ee709…ed81` (verified_same)
 - Listed on: [[bitget]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B-
-- [[kucoin]]: C+
+- [[bitget]]: D+
+- [[kucoin]]: D
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
@@ -42,9 +42,9 @@ Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues 
 - 2026-07-12 · [[mexc]] [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:ethereum
+- [[bitget]]: open:ethereum,ethereum
 - [[gateio]]: closed:polygon,polygon
-- [[kucoin]]: open:ethereum
+- [[kucoin]]: open:ethereum,ethereum
 - [[mexc]]: closed:base,bsc,ethereum
 
 ## Backers & Project
@@ -55,17 +55,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-3 shadow trades · realized net **+2.33 USD** · win rate 100% (3 settled)
+5 shadow trades · realized net **+3.10 USD** · win rate 80% (5 settled)
 
+- 2026-08-26 · livescan · [[bitget]]→[[kucoin]] · -0.39 USD · _mixed_
+- 2026-08-26 · livescan · [[bitget]]→[[kucoin]] · +1.17 USD · _depth_shrink_
 - 2026-08-14 · livescan · [[bitget]]→[[kucoin]] · +1.19 USD · _beat_
-- 2026-07-22 · livescan · [[kucoin]]→[[bitget]] · +1.01 USD · _beat_
-- 2026-07-17 · bigspike · [[bitget]]→[[kucoin]] · +0.14 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:56:49.583070Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:55:49.444014Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

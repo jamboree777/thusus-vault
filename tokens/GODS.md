@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97" }
 exchanges: [bybit, coinbase, kucoin, mexc, okx]
 transfer: partial
-updated: 2026-08-26T03:57:19.687948Z
+updated: 2026-08-27T03:56:07.321533Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bybit]], [[coinbase]], [[kucoin]], [[mexc]], [[okx]]
 
 ## Grade by exchange
-- [[bybit]]: A+
+- [[bybit]]: A
 - [[coinbase]]: A+
 - [[kucoin]]: A+
 - [[mexc]]: A-
@@ -38,15 +38,16 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[okx]]: deposit ❌ / withdraw ❌
 
 ## Events
+- 2026-08-26 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-18 · [[okx]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-07 · [[okx]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum
+- [[bitget]]: closed:ethereum,ethereum
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
-- [[kucoin]]: open:ethereum
+- [[kucoin]]: open:ethereum,ethereum
 - [[mexc]]: open:ethereum
 - [[okx]]: closed:ethereum
 - Suspended now: [[okx]]
@@ -68,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:57:19.687948Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:56:07.321533Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-26T03:55:58.808014Z
+updated: 2026-08-27T03:54:57.689616Z
 source: nightwatch-kg
 ---
 
@@ -30,24 +30,24 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
+- [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-26 · [[bybit]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-26 · [[bitget]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-22 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-08-05 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-08-05 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bitget]] [[sol]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:solana
-- [[bybit]]: open:solana
+- [[bitget]]: closed:solana,solana
+- [[bybit]]: closed:solana
 - [[gateio]]: open:solana,solana
-- [[kucoin]]: open:solana
+- [[kucoin]]: open:solana,solana
 - [[mexc]]: open:solana | closed:bsc
 
 ## Backers & Project
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-26T03:55:58.808014Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-27T03:54:57.689616Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
