@@ -2,7 +2,7 @@
 token: CUDIS
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: D+
 identity: verified_same
 contracts:
@@ -10,22 +10,23 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-27T03:54:05.014516Z
+lifecycle: delisted
+updated: 2026-08-28T03:55:06.224496Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CUDIS · NW Grade **A+**
+# CUDIS · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xc1353d…9cb1` (verified_same)
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A
-- [[bithumb]]: A+
+- [[bitget]]: C
+- [[bithumb]]: A
 - [[bybit]]: D+
 - [[gateio]]: D+
 - [[mexc]]: A-
@@ -36,17 +37,18 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 - [[orangex]]: deposit ✅ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-27 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-27 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bybit]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bybit]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bybit]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-24 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-24 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-08-24 · [[gateio]] [[sol]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: open:bsc,bsc
@@ -54,7 +56,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bybit]]: closed:bsc,solana
 - [[gateio]]: open:bsc,bsc | closed:solana,solana
 - [[htx]]: open:solcudis
-- [[mexc]]: open:bsc | closed:solana
+- [[mexc]]: closed:bsc,solana
 - [[orangex]]: open:solana
 - [[toobit]]: open:bsc
 
@@ -75,8 +77,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-27T03:54:05.014516Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-28T03:55:06.224496Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

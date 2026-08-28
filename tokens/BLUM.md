@@ -9,7 +9,8 @@ contracts:
   - { chain: binance-smart-chain, address: "0xfdc8cd47848c0c67df66f7120f4e3371181cfa5e" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-27T03:52:38.205536Z
+lifecycle: delisted
+updated: 2026-08-28T03:53:36.603974Z
 source: nightwatch-kg
 ---
 
@@ -24,28 +25,29 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - [[gateio]]: A+
-- [[kucoin]]: D+
+- [[kucoin]]: B
 - [[mexc]]: F
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-28 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-08-27 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-27 · [[mexc]] [[ton]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[kucoin]] [[ton2]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[mexc]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-07-29 · [[mexc]] [[ton]] deposit → open · [[event/dw-resume]]
-- 2026-07-29 · [[mexc]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-29 · [[mexc]] [[ton]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:ton,ton
 - [[gateio]]: open:ton,ton
 - [[kucoin]]: open:ton | closed:ton,ton2
-- [[mexc]]: open:ton
+- [[mexc]]: closed:ton
 - Recently reopened (48h): [[kucoin]]
 
 ## Backers & Project
@@ -64,8 +66,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-27T03:52:38.205536Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-28T03:53:36.603974Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

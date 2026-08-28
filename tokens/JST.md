@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-27T03:57:19.196256Z
+updated: 2026-08-28T03:59:24.281367Z
 source: nightwatch-kg
 ---
 
@@ -48,16 +48,16 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-28 · [[bitget]] [[tron]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-18 · [[bithumb]] [[tron]] withdraw → open · [[event/dw-resume]]
 - 2026-08-18 · [[bithumb]] [[tron]] deposit → open · [[event/dw-resume]]
 - 2026-08-16 · [[bithumb]] [[tron]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-16 · [[bithumb]] [[tron]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[trc20]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-23 · [[binance]] [[tron]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:bsc,tron
-- [[bitget]]: open:tron,tron
+- [[bitget]]: open:tron | closed:tron
 - [[bithumb]]: open:tron
 - [[bybit]]: open:tron
 - [[gateio]]: open:tron,tron
@@ -85,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-27T03:57:19.196256Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-28T03:59:24.281367Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

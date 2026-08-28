@@ -2,7 +2,7 @@
 token: ISLAND
 type: token
 tier: free
-nw_grade: D
+nw_grade: B
 nw_grade_worst: D
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [gateio, hyperliquid, kucoin]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-27T03:57:12.277104Z
+updated: 2026-08-28T03:59:17.684082Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ISLAND · NW Grade **D**
+# ISLAND · NW Grade **B**
 
-Ethereum-network token; NW grade D liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x157a6d…a662` (verified_same)
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade D liquidity; transfer is partial (some venues f
 
 ## Grade by exchange
 - [[gateio]]: D
-- [[kucoin]]: D
+- [[kucoin]]: B
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-27T03:57:12.277104Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-28T03:59:17.684082Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
