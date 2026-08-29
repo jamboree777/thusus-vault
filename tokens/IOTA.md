@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-28T03:59:13.204526Z
+updated: 2026-08-29T03:58:21.386827Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Iota-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bithumb]]: A+
+- [[bithumb]]: A-
 - [[gateio]]: A
 - [[kucoin]]: A
 - [[mexc]]: B+
@@ -44,19 +44,19 @@ Iota-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-29 · [[kucoin]] [[iotamainnet]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-27 · [[binance]] [[iota]] withdraw → open · [[event/dw-resume]]
 - 2026-08-27 · [[binance]] [[iota]] deposit → open · [[event/dw-resume]]
 - 2026-08-26 · [[binance]] [[iota]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[binance]] [[iota]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[bep20(bsc)]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-15 · [[binance]] [[iota]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:bsc,iota
 - [[bithumb]]: open:iota
 - [[gateio]]: open:bsc,bsc,iota,iota
 - [[htx]]: open:iota2
-- [[kucoin]]: open:iota,iotamainnet
+- [[kucoin]]: open:iota | closed:iotamainnet
 - [[lbank]]: closed:bep20(bsc)
 - [[mexc]]: open:bsc
 - [[okx]]: open:iota stardust
@@ -79,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-28T03:59:13.204526Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-29T03:58:21.386827Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

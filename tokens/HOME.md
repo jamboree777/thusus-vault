@@ -3,7 +3,7 @@ token: HOME
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x4bfaa776991e85e5f8b1255461cbbd216cfc714f" }
@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-28T03:58:48.922330Z
+updated: 2026-08-29T03:58:00.606792Z
 source: nightwatch-kg
 ---
 
@@ -33,7 +33,7 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is parti
 - [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: A+
-- [[mexc]]: A
+- [[mexc]]: A+
 - [[upbit]]: A+
 
 ## Deposit / Withdrawal
@@ -52,16 +52,16 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is parti
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-29 · [[bitget]] [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-08-29 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bybit]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bybit]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bitget]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-24 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-20 · [[gateio]] [[base]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:base,bsc,solana
-- [[bitget]]: open:base,base | closed:bsc,bsc,solana,solana
+- [[bitget]]: open:base,solana | closed:base,bsc,bsc,solana
 - [[bithumb]]: open:base
 - [[bybit]]: open:base | closed:bsc,solana
 - [[coinbase]]: open:base
@@ -73,6 +73,7 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is parti
 - [[orangex]]: open:base,bsc,solana
 - [[toobit]]: open:bsc
 - [[upbit]]: open:base
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -82,17 +83,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-21 shadow trades · realized net **+109.73 USD** · win rate 90.5% (21 settled)
+22 shadow trades · realized net **+107.45 USD** · win rate 86.4% (22 settled)
 
+- 2026-08-29 · woncarry · [[bithumb]]→[[binance]] · -2.28 USD · _held_
 - 2026-08-27 · woncarry · [[bithumb]]→[[binance]] · +1.25 USD · _decayed_
 - 2026-08-16 · woncarry · [[bithumb]]→[[binance]] · +3.04 USD · _held_
-- 2026-08-16 · woncarry · [[bithumb]]→[[binance]] · +2.32 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-28T03:58:48.922330Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-29T03:58:00.606792Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

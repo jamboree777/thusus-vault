@@ -2,7 +2,7 @@
 token: IMT
 type: token
 tier: free
-nw_grade: C-
+nw_grade: D+
 nw_grade_worst: D+
 identity: verified_same
 contracts:
@@ -10,21 +10,21 @@ contracts:
 exchanges: [gateio, mexc]
 transfer: partial
 lifecycle: suspended
-updated: 2026-08-28T03:59:02.077660Z
+updated: 2026-08-29T03:58:10.019303Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# IMT · NW Grade **C-**
+# IMT · NW Grade **D+**
 
-Ethereum-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xe26161…6ef3` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C-
+- [[gateio]]: D+
 - [[mexc]]: D+
 
 ## Deposit / Withdrawal
@@ -58,7 +58,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-08-28T03:59:02.077660Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-29T03:58:10.019303Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

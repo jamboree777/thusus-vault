@@ -2,7 +2,7 @@
 token: CBK
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,15 +10,15 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-lifecycle: delisted
-updated: 2026-08-28T03:54:32.285741Z
+lifecycle: suspended
+updated: 2026-08-29T03:54:04.211993Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CBK · NW Grade **A+**
+# CBK · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xd85a6a…f7fd` (verified_same)
@@ -26,11 +26,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[bitget]]: D+
-- [[bithumb]]: A
+- [[bithumb]]: A-
 - [[bybit]]: A
 - [[gateio]]: B-
 - [[mexc]]: F
-- [[upbit]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -49,7 +49,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-08-24 · [[bitget]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -78,7 +77,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-28T03:54:32.285741Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-29T03:54:04.211993Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
