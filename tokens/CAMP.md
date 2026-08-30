@@ -2,22 +2,22 @@
 token: CAMP
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B
+nw_grade: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-29T03:53:50.697845Z
+updated: 2026-08-30T03:53:36.200703Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CAMP · NW Grade **A+**
+# CAMP · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x84eaac…71fc` (verified_same)
@@ -27,8 +27,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bitget]]: B+
 - [[bithumb]]: A-
 - [[bybit]]: A-
-- [[gateio]]: B
-- [[kucoin]]: A+
+- [[gateio]]: B+
+- [[kucoin]]: A-
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -58,7 +58,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[kucoin]]: open:ethereum,ethereum | closed:camp,camp
 - [[mexc]]: open:ethereum | closed:camp
 - [[toobit]]: open:ethereum
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-6 shadow trades · realized net **+9.42 USD** · win rate 83.3% (6 settled)
+5 shadow trades · realized net **+3.54 USD** · win rate 80% (5 settled)
 
 - 2026-08-18 · livescan · [[kucoin]]→[[bitget]] · -0.76 USD · _price_drift_
 - 2026-08-09 · livescan · [[bybit]]→[[bitget]] · +1.45 USD · _depth_shrink_
@@ -78,7 +77,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-29T03:53:50.697845Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-30T03:53:36.200703Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,34 +2,34 @@
 token: DRV
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: D-
+nw_grade: A+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
 exchanges: [bithumb, coinbase, gateio, hyperliquid, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-29T03:55:09.293657Z
+updated: 2026-08-30T03:54:52.022877Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DRV · NW Grade **A**
+# DRV · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xb1d1ea…71be` (verified_same)
 - Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[hyperliquid]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[coinbase]]: B+
+- [[bithumb]]: A-
+- [[coinbase]]: A+
 - [[gateio]]: A
 - [[hyperliquid]]: A
-- [[mexc]]: D-
-- [[upbit]]: A
+- [[mexc]]: B
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -60,17 +60,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-45 shadow trades · realized net **+136.97 USD** · win rate 100% (45 settled)
+47 shadow trades · realized net **+141.14 USD** · win rate 100% (47 settled)
 
+- 2026-08-29 · woncarry · [[upbit]]→[[gateio]] · +2.32 USD
+- 2026-08-29 · woncarry · [[upbit]]→[[gateio]] · +1.85 USD
 - 2026-08-27 · woncarry · [[upbit]]→[[gateio]] · +2.24 USD
-- 2026-08-27 · woncarry · [[upbit]]→[[gateio]] · +1.38 USD
-- 2026-08-27 · woncarry · [[upbit]]→[[gateio]] · +2.33 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-29T03:55:09.293657Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-30T03:54:52.022877Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

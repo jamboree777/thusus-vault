@@ -2,30 +2,30 @@
 token: ALPH
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: B
+nw_grade: A-
+nw_grade_worst: D-
 identity: native
 contracts:
   - { chain: ethereum, address: "0x590f820444fa3638e022776752c5eef34e2f89a6" }
 exchanges: [bitget, gateio, mexc]
 transfer: open
-updated: 2026-08-29T03:51:51.389771Z
+updated: 2026-08-30T03:51:35.620855Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ALPH · NW Grade **A**
+# ALPH · NW Grade **A-**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A- liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x590f82…89a6` (native)
 - Listed on: [[bitget]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A
-- [[gateio]]: B
-- [[mexc]]: B
+- [[bitget]]: D-
+- [[gateio]]: A-
+- [[mexc]]: A-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -53,7 +53,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-29T03:51:51.389771Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-30T03:51:35.620855Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
