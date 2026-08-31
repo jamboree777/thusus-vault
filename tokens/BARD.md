@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-30T03:52:20.341502Z
+updated: 2026-08-31T03:52:22.508311Z
 source: nightwatch-kg
 ---
 
@@ -52,12 +52,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-30 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-08-30 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-29 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-08-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[bep20(bsc)]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
@@ -74,7 +74,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[orangex]]: open:ethereum
 - [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[mexc]]
+- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -85,7 +85,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-30T03:52:20.341502Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-31T03:52:22.508311Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

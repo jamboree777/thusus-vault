@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-30T03:55:24.390689Z
+updated: 2026-08-31T03:55:37.841023Z
 source: nightwatch-kg
 ---
 
@@ -25,12 +25,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bitget]]: A+
+- [[bitget]]: A
 - [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
-- [[kucoin]]: A
+- [[kucoin]]: A+
 - [[mexc]]: A+
 - [[upbit]]: A+
 
@@ -50,12 +50,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-30 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-08-30 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-22 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-07-22 · [[binance]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-07-22 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-22 · [[binance]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
@@ -71,6 +71,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[orangex]]: open:ethereum
 - [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
+- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,8 +81,9 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-2 shadow trades · realized net **+35.86 USD** · win rate 50% (2 settled)
+3 shadow trades · realized net **+31.84 USD** · win rate 33.3% (3 settled)
 
+- 2026-08-30 · livescan · [[mexc]]→[[bitget]] · -4.02 USD · _mixed_
 - 2026-08-07 · livescan · [[mexc]]→[[kucoin]] · -2.11 USD · _mixed_
 - 2026-07-22 · livescan · [[mexc]]→[[binance]] · +37.96 USD · _beat_
 
@@ -89,7 +91,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-30T03:55:24.390689Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-31T03:55:37.841023Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

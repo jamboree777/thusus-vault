@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-08-30T03:55:14.785071Z
+updated: 2026-08-31T03:55:27.368780Z
 source: nightwatch-kg
 ---
 
@@ -33,14 +33,14 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-30 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-30 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bybit]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bitget]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-22 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-05 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-08-05 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
@@ -48,7 +48,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bybit]]: closed:solana
 - [[gateio]]: open:solana,solana
 - [[kucoin]]: open:solana,solana
-- [[mexc]]: open:solana | closed:bsc
+- [[mexc]]: closed:bsc,solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-30T03:55:14.785071Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-31T03:55:27.368780Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

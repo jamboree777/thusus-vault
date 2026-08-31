@@ -2,31 +2,29 @@
 token: BLUM
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: F
+nw_grade: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xfdc8cd47848c0c67df66f7120f4e3371181cfa5e" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [gateio, kucoin]
 transfer: partial
-lifecycle: delisted
-updated: 2026-08-30T03:52:53.703942Z
+updated: 2026-08-31T03:52:54.157744Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLUM · NW Grade **A+**
+# BLUM · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xfdc8cd…fa5e` (verified_same)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: A+
+- [[gateio]]: B+
 - [[kucoin]]: A
-- [[mexc]]: F
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -35,13 +33,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-30 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-08-30 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-30 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-08-29 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-28 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-08-28 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-28 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-08-27 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-27 · [[mexc]] [[ton]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:ton,ton
@@ -66,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-30T03:52:53.703942Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-08-31T03:52:54.157744Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

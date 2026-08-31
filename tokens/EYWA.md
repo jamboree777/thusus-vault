@@ -2,22 +2,22 @@
 token: EYWA
 type: token
 tier: free
-nw_grade: A+
+nw_grade: D-
 nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x8cb8c4263eb26b2349d74ea2cb1b27bc40709e12" }
 exchanges: [gateio, kucoin]
-transfer: partial
+transfer: blocked
 lifecycle: suspended
-updated: 2026-08-30T03:55:42.082892Z
+updated: 2026-08-31T03:55:51.094992Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# EYWA · NW Grade **A+**
+# EYWA · NW Grade **D-**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade D- liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[ethereum]] `0x8cb8c4…9e12` (partial)
@@ -25,10 +25,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[gateio]]: F
-- [[kucoin]]: A+
+- [[kucoin]]: D-
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
@@ -40,7 +40,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[gateio]]: open:arbevm | closed:arbone
+- [[gateio]]: closed:arbevm,arbone
 - [[kucoin]]: closed:arbitrum,arbitrum
 - [[mexc]]: closed:arbitrum
 
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-30T03:55:42.082892Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-31T03:55:51.094992Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

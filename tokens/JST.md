@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-30T03:57:48.497861Z
+updated: 2026-08-31T03:58:11.307034Z
 source: nightwatch-kg
 ---
 
@@ -35,7 +35,7 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -48,16 +48,16 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-30 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-08-30 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-30 · [[bitget]] [[tron]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-30 · [[bitget]] [[tron]] withdraw → open · [[event/dw-resume]]
 - 2026-08-28 · [[bitget]] [[tron]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-18 · [[bithumb]] [[tron]] withdraw → open · [[event/dw-resume]]
-- 2026-08-18 · [[bithumb]] [[tron]] deposit → open · [[event/dw-resume]]
-- 2026-08-16 · [[bithumb]] [[tron]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-16 · [[bithumb]] [[tron]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,tron
-- [[bitget]]: open:tron,tron
+- [[bitget]]: closed:tron,tron
 - [[bithumb]]: open:tron
 - [[bybit]]: open:tron
 - [[gateio]]: open:tron,tron
@@ -68,7 +68,7 @@ Tron-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[orangex]]: open:tron
 - [[toobit]]: open:tron
 - [[upbit]]: open:tron
-- Recently reopened (48h): [[bitget]]
+- Recently reopened (48h): [[binance]], [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -86,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-30T03:57:48.497861Z_
+_Live from the NightWatch Knowledge Graph · 2026-08-31T03:58:11.307034Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
