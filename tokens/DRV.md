@@ -2,33 +2,33 @@
 token: DRV
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: A-
+nw_grade: A
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
 exchanges: [bithumb, coinbase, gateio, hyperliquid, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-08-31T03:55:07.388853Z
+updated: 2026-09-01T03:55:01.599361Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DRV · NW Grade **A+**
+# DRV · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xb1d1ea…71be` (verified_same)
 - Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[hyperliquid]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[coinbase]]: A+
+- [[bithumb]]: A-
+- [[coinbase]]: B+
 - [[gateio]]: A
 - [[hyperliquid]]: A
-- [[mexc]]: A-
+- [[mexc]]: C
 - [[upbit]]: A
 
 ## Deposit / Withdrawal
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-31T03:55:07.388853Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-01T03:55:01.599361Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

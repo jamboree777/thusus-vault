@@ -2,22 +2,21 @@
 token: EYWA
 type: token
 tier: free
-nw_grade: D-
+nw_grade: F
 nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x8cb8c4263eb26b2349d74ea2cb1b27bc40709e12" }
 exchanges: [gateio, kucoin]
 transfer: blocked
-lifecycle: suspended
-updated: 2026-08-31T03:55:51.094992Z
+updated: 2026-09-01T03:55:50.703769Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# EYWA · NW Grade **D-**
+# EYWA · NW Grade **F**
 
-Ethereum-network token; NW grade D- liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Ethereum-network token; NW grade F liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[ethereum]] `0x8cb8c4…9e12` (partial)
@@ -25,7 +24,7 @@ Ethereum-network token; NW grade D- liquidity; transfer is currently blocked (de
 
 ## Grade by exchange
 - [[gateio]]: F
-- [[kucoin]]: D-
+- [[kucoin]]: F
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ❌ / withdraw ✅
@@ -33,11 +32,11 @@ Ethereum-network token; NW grade D- liquidity; transfer is currently blocked (de
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-31 · [[gateio]] [[arbevm]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[gateio]] [[arbone]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-17 · [[kucoin]] [[arbitrum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-07 · [[mexc]] [[arbitrum]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: delist scheduled (1788318000) · [[event/delisting]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: closed:arbevm,arbone
@@ -60,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-31T03:55:51.094992Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-01T03:55:50.703769Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

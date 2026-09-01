@@ -3,14 +3,14 @@ token: GRAM
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: native
 contracts:
   - { chain: the-open-network, address: "eqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaam9c" }
 exchanges: [binance, bithumb, bybit, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-31T03:56:46.379780Z
+updated: 2026-09-01T03:56:38.094431Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bithumb]]: B+
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[mexc]]: A+
 - [[okx]]: A+
@@ -46,12 +46,12 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-01 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-08-31 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-31 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-08-31 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-30 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-08-30 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-29 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-08-28 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-28 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-08-28 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:ton | closed:tonmemo
@@ -85,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-31T03:56:46.379780Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-01T03:56:38.094431Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

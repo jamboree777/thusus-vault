@@ -1,38 +1,38 @@
 ---
-token: CYBRO
+token: HINT
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B+
+nw_grade_worst: C-
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0xd58826d2c0babf1a60d8b508160b52e9c19aff07" }
+  - { chain: base, address: "0x91da780bc7f4b7cf19abe90411a2a296ec5ff787" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-09-01T03:54:35.105973Z
+updated: 2026-09-01T03:57:19.396071Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CYBRO · NW Grade **A**
+# HINT · NW Grade **A**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Base-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[ethereum]] `0xd58826…ff07` (verified_same)
+- Contract: [[base]] `0x91da78…f787` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
 - [[gateio]]: A
-- [[mexc]]: B+
+- [[mexc]]: C-
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Transfer map
-- [[gateio]]: open:blast,blasteth
-- [[mexc]]: open:blast
+- [[gateio]]: open:base,baseevm
+- [[mexc]]: open:base
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -42,22 +42,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-5 shadow trades · realized net **+3.98 USD** · win rate 100% (5 settled)
+1 shadow trade · realized net **+0.42 USD** · win rate 100% (1 settled)
 
-- 2026-08-21 · livescan · [[mexc]]→[[gateio]] · +1.74 USD · _beat_
-- 2026-08-21 · livescan · [[mexc]]→[[gateio]] · +1.03 USD · _beat_
-- 2026-07-21 · livescan · [[gateio]]→[[mexc]] · +0.70 USD · _in_line_
+- 2026-08-31 · livescan · [[mexc]]→[[gateio]] · +0.42 USD · _cost_drag_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-01T03:54:35.105973Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-01T03:57:19.396071Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/CYBRO.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/HINT.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-08-31T03:53:35.727887Z
+updated: 2026-09-01T03:53:24.593421Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[bitget]]: B+
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[gateio]]: B
 - [[kucoin]]: A+
 - [[mexc]]: B+
@@ -35,23 +35,23 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-08-31 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-31 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-31 · [[mexc]] [[bitlayer]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-24 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-22 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-17 · [[bitget]] [[erc20]] deposit → open · [[event/dw-resume]]
-- 2026-08-05 · [[mexc]] [[bitlayer]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum,ethereum
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,btrbtc,btrbtc
 - [[kucoin]]: open:bitlayer,bitlayer
-- [[mexc]]: open:ethereum | closed:bitlayer,bsc
+- [[mexc]]: closed:bitlayer,bsc,ethereum
 - [[toobit]]: open:bsc
 
 ## Backers & Project
@@ -63,7 +63,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-08-31T03:53:35.727887Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-01T03:53:24.593421Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

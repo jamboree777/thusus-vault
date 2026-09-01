@@ -9,7 +9,7 @@ exchanges: [bithumb]
 korean_exchanges: [bithumb]
 transfer: blocked
 lifecycle: suspended
-updated: 2026-08-31T03:56:03.100368Z
+updated: 2026-09-01T03:55:59.913835Z
 source: nightwatch-kg
 ---
 
@@ -34,12 +34,12 @@ NW grade A- liquidity; transfer is currently blocked (deposit/withdrawal frozen 
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-08-31 · [[kucoin]] [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[kucoin]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-25 · [[gateio]] [[fitfi]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-20 · [[gateio]] [[fitfi]] withdraw → open · [[event/dw-resume]]
 - 2026-08-18 · [[gateio]] [[fitfi]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-10 · [[gateio]] [[avax_c]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-10 · [[gateio]] [[avaxc]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-08-31T03:56:03.100368Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-01T03:55:59.913835Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
