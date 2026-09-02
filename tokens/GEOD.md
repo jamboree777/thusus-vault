@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, coinbase, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-01T03:56:22.195884Z
+updated: 2026-09-02T03:56:02.198837Z
 source: nightwatch-kg
 ---
 
@@ -24,11 +24,11 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A-
 - [[mexc]]: A
-- [[upbit]]: A
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -53,7 +53,6 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - [[mexc]]: open:polygon,solana
 - [[orangex]]: closed:polygon
 - [[upbit]]: open:solana
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-01T03:56:22.195884Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-02T03:56:02.198837Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

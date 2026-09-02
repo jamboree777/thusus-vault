@@ -2,29 +2,29 @@
 token: ALKIMI
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: A
+nw_grade: A
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-09-01T03:51:23.494714Z
+updated: 2026-09-02T03:51:27.738153Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ALKIMI · NW Grade **A+**
+# ALKIMI · NW Grade **A**
 
-Sui-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x1a8f4b…kimi` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[kucoin]]: A+
+- [[gateio]]: B-
+- [[kucoin]]: A
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-01T03:51:23.494714Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-02T03:51:27.738153Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,14 @@ token: ARPA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xba50933c268f567bdc86e1ac131be072c6b0b71a" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-01T03:51:30.188823Z
+updated: 2026-09-02T03:51:34.331346Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[binance]]: A+
 - [[bitget]]: A
 - [[bithumb]]: A+
-- [[coinbase]]: A-
+- [[coinbase]]: A
 - [[gateio]]: A+
 - [[kucoin]]: A+
 - [[mexc]]: A
@@ -63,7 +63,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: open:ethereum
 - [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-01T03:51:30.188823Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-02T03:51:34.331346Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

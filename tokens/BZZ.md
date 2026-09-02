@@ -2,29 +2,29 @@
 token: BZZ
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: D+
+nw_grade: A+
+nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x19062190b1925b5b6689d7073fdfc8c2976ef8cb" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-09-01T03:53:26.797885Z
+updated: 2026-09-02T03:53:19.104408Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BZZ · NW Grade **A**
+# BZZ · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x190621…f8cb` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[mexc]]: D+
+- [[gateio]]: A+
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-01T03:53:26.797885Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-02T03:53:19.104408Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
