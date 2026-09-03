@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-02T03:53:51.407802Z
+updated: 2026-09-03T03:53:33.596511Z
 source: nightwatch-kg
 ---
 
@@ -25,40 +25,40 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Grade by exchange
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[mexc]]: B+
 - [[okx]]: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ❌
 - [[bithumb]]: deposit ❌ / withdraw ❌
 - [[bybit]]: deposit ❌ / withdraw ❌
-- [[gateio]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ❌ / withdraw ❌
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ❌
 - [[okx]]: deposit ❌ / withdraw ❌
 
 ## Events
+- 2026-09-02 · [[gateio]] [[core]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-02 · [[gateio]] [[core]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-01 · [[bitget]] [[coredao]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-01 · [[bitget]] [[coredao]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-01 · [[gateio]] [[core]] withdraw → open · [[event/dw-resume]]
 - 2026-09-01 · [[gateio]] [[core]] deposit → open · [[event/dw-resume]]
-- 2026-09-01 · [[gateio]] [[core]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[gateio]] [[core]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:coredao | closed:coredao
+- [[bitget]]: closed:coredao,coredao
 - [[bithumb]]: closed:core
 - [[bybit]]: closed:core
-- [[gateio]]: open:core | closed:core
+- [[gateio]]: closed:core,core
 - [[htx]]: open:core
 - [[lbank]]: closed:core
 - [[mexc]]: closed:core
 - [[okx]]: closed:core
-- Suspended now: [[bithumb]], [[bybit]], [[mexc]], [[okx]]
+- Suspended now: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[mexc]], [[okx]]
 - Recently reopened (48h): [[bitget]], [[gateio]]
 
 ## Backers & Project
@@ -79,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-02T03:53:51.407802Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-03T03:53:33.596511Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -4,13 +4,13 @@ type: token
 tier: free
 nw_grade: A+
 nw_grade_worst: B+
-identity: native
+identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-02T03:52:19.032043Z
+updated: 2026-09-03T03:51:44.396426Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +20,7 @@ source: nightwatch-kg
 Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[ethereum]] `0xd459ec…73a3` (native)
+- Contract: [[ethereum]] `0xd459ec…73a3` (verified_same)
 - Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
@@ -33,37 +33,38 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ❌ / withdraw ❌
-- [[bitget]]: deposit ❌ / withdraw ❌
+- [[binance]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ❌ / withdraw ❌
 - [[bybit]]: deposit ❌ / withdraw ❌
-- [[gateio]]: deposit ❌ / withdraw ❌
+- [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
 - [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ❌
+- [[mexc]]: deposit ✅ / withdraw ✅
 - [[orangex]]: deposit ❌ / withdraw ❌
 
 ## Events
-- 2026-09-01 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[bitget]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-31 · [[gateio]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-31 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-02 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-02 · [[gateio]] [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-02 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-09-02 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-02 · [[mexc]] [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-09-02 · [[bitget]] [[bsc]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[binance]]: closed:bb
-- [[bitget]]: closed:bb,bb,bsc
+- [[binance]]: open:bsc | closed:bb
+- [[bitget]]: closed:bb,bb,bsc,bsc
 - [[bithumb]]: closed:bb
 - [[bybit]]: closed:bouncebit
-- [[gateio]]: closed:bb,bb,bsc
+- [[gateio]]: open:bsc,bsc | closed:bb,bb
 - [[htx]]: open:bb
 - [[kucoin]]: closed:bb,bouncebit
 - [[lbank]]: closed:bbscan,ethereum,polygon
-- [[mexc]]: closed:bouncebit,bsc
+- [[mexc]]: open:bsc | closed:bouncebit
 - [[orangex]]: closed:bb
-- Suspended now: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]], [[orangex]]
+- Suspended now: [[bithumb]], [[bybit]], [[kucoin]], [[orangex]]
+- Recently reopened (48h): [[bitget]], [[gateio]], [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +82,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-02T03:52:19.032043Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-03T03:51:44.396426Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

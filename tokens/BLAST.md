@@ -9,15 +9,15 @@ contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-09-02T03:52:37.454980Z
+transfer: partial
+updated: 2026-09-03T03:52:06.449097Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BLAST · NW Grade **A+**
 
-Blast-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Blast-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[blast]] `0xb1a570…e2ad` (verified_same)
@@ -25,16 +25,16 @@ Blast-network token; NW grade A+ liquidity; transfer is open on at least one ven
 
 ## Grade by exchange
 - [[bitget]]: B
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[coinbase]]: A
 - [[gateio]]: A
 - [[kucoin]]: B
 - [[mexc]]: B
-- [[upbit]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
@@ -46,13 +46,15 @@ Blast-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-02 · [[bitget]] [[blast]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-02 · [[bitget]] [[blast]] deposit → open · [[event/dw-resume]]
+- 2026-09-02 · [[bitget]] [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-13 · [[upbit]] [[blastnet]] withdraw → open · [[event/dw-resume]]
 - 2026-07-13 · [[upbit]] [[blastnet]] deposit → open · [[event/dw-resume]]
 - 2026-07-12 · [[upbit]] [[blastnet]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[upbit]] [[blastnet]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:blast,blast
+- [[bitget]]: closed:blast,blast
 - [[bithumb]]: open:blast
 - [[bybit]]: open:blast
 - [[coinbase]]: open:blast
@@ -62,6 +64,7 @@ Blast-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - [[mexc]]: open:blast
 - [[orangex]]: open:blast
 - [[upbit]]: open:blastnet
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -84,7 +87,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-02T03:52:37.454980Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-03T03:52:06.449097Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

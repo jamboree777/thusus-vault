@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0d37af9d8ae74f35f3a38bd2a08fcb29890ca6d2" }
 exchanges: [binance, bitget, bybit, gateio, kucoin, mexc, okx]
-transfer: open
-updated: 2026-09-02T03:51:21.133497Z
+transfer: partial
+updated: 2026-09-03T03:50:35.518992Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AIXBT · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x0d37af…a6d2` (verified_same)
@@ -33,16 +33,19 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[okx]]: deposit ✅ / withdraw ✅
 
+## Events
+- 2026-09-02 · [[bitget]] [[base]] deposit → closed · [[event/dw-freeze]]
+
 ## Transfer map
 - [[binance]]: open:base
-- [[bitget]]: open:base,base
+- [[bitget]]: closed:base,base
 - [[bybit]]: open:base
 - [[gateio]]: open:base,baseevm
 - [[kucoin]]: open:base,base
@@ -64,8 +67,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-02T03:51:21.133497Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-03T03:50:35.518992Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

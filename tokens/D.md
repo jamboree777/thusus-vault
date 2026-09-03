@@ -2,8 +2,8 @@
 token: D
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: C
+nw_grade: A-
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x33b481cbbf3c24f2b3184ee7cb02daad1c4f49a8" }
@@ -11,14 +11,14 @@ contracts:
 exchanges: [binance, bitget, bithumb, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-02T03:54:22.404328Z
+updated: 2026-09-03T03:54:02.584848Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# D · NW Grade **B+**
+# D · NW Grade **A-**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x33b481…49a8` (verified_same)
@@ -28,8 +28,8 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[binance]]: B+
 - [[bitget]]: B
-- [[bithumb]]: B+
-- [[kucoin]]: C
+- [[bithumb]]: A-
+- [[kucoin]]: F
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -41,12 +41,12 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-02 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-31 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-08-29 · [[kucoin]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-29 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[kucoin]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-08-26 · [[kucoin]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-26 · [[bitget]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: closed:bsc,ethereum
@@ -54,7 +54,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: open:bsc
 - [[gateio]]: closed:bsc,bsc,ethereum,ethereum
 - [[kucoin]]: open:ethereum,ethereum | closed:bsc,bsc
-- [[mexc]]: open:bsc,ethereum
+- [[mexc]]: open:ethereum | closed:bsc
 - Suspended now: [[binance]]
 
 ## Backers & Project
@@ -75,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-02T03:54:22.404328Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-03T03:54:02.584848Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
