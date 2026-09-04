@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-03T03:51:19.490234Z
+updated: 2026-09-04T03:51:23.188773Z
 source: nightwatch-kg
 ---
 
@@ -56,7 +56,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[kucoin]]: open:avail,avail
 - [[mexc]]: open:avail
 - Suspended now: [[bithumb]]
-- Recently reopened (48h): [[kucoin]], [[mexc]]
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-03T03:51:19.490234Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-04T03:51:23.188773Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

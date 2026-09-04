@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-03T03:51:17.289852Z
+updated: 2026-09-04T03:51:20.992929Z
 source: nightwatch-kg
 ---
 
@@ -49,19 +49,19 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[okx]]: deposit ✅ / withdraw ✅
 - [[orangex]]: deposit ✅ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ❌ / withdraw ❌
+- [[upbit]]: deposit ✅ / withdraw ✅
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-03 · [[binance]] [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-09-03 · [[binance]] [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-09-03 · [[upbit]] [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-09-03 · [[upbit]] [[atom]] deposit → open · [[event/dw-resume]]
 - 2026-09-03 · [[bithumb]] [[atom]] withdraw → open · [[event/dw-resume]]
 - 2026-09-03 · [[bithumb]] [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-09-02 · [[kucoin]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-02 · [[kucoin]] [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-09-02 · [[okx]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-02 · [[okx]] [[atom]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[binance]]: open:bsc | closed:atom
+- [[binance]]: open:atom,bsc
 - [[bitget]]: open:atom,atom
 - [[bithumb]]: open:atom
 - [[bybit]]: open:atom
@@ -74,7 +74,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[okx]]: open:atom
 - [[orangex]]: open:atom
 - [[toobit]]: open:atom
-- [[upbit]]: closed:atom
+- [[upbit]]: open:atom
 - [[woox]]: open:atom
 
 ## Backers & Project
@@ -95,7 +95,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-03T03:51:17.289852Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-04T03:51:20.992929Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

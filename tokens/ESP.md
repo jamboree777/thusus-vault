@@ -3,14 +3,14 @@ token: ESP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x031de51f3e8016514bd0963d0b2ab825a591db9a" }
 exchanges: [binance, bithumb, coinbase, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-09-03T03:55:04.895050Z
+updated: 2026-09-04T03:55:08.691031Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[binance]]: A+
 - [[bithumb]]: A
 - [[coinbase]]: A+
-- [[upbit]]: A
+- [[upbit]]: B+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-03T03:55:04.895050Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-04T03:55:08.691031Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

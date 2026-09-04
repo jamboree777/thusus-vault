@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-03T03:56:33.184766Z
+updated: 2026-09-04T03:56:24.282287Z
 source: nightwatch-kg
 ---
 
@@ -38,15 +38,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-03 · [[binance]] [[hemi]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-30 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-08-30 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-28 · [[binance]] [[hemi]] deposit → open · [[event/dw-resume]]
 - 2026-08-24 · [[binance]] [[hemi]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-08-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:bsc,ethereum,hemi
+- [[binance]]: open:bsc,ethereum | closed:hemi
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:bsc,bsc
 - [[lbank]]: closed:bep20(bsc),ethereum,hemi
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-03T03:56:33.184766Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-04T03:56:24.282287Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

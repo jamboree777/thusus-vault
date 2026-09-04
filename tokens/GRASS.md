@@ -7,10 +7,10 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: solana, address: "grass7b4rdkfbcjtkgsqnxkqjwigvqyfbuscujr3xxjs" }
-exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, okx]
+exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-03T03:56:17.795723Z
+updated: 2026-09-04T03:56:04.193704Z
 source: nightwatch-kg
 ---
 
@@ -21,12 +21,13 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 
 ## Identity
 - Contract: [[solana]] `grass7b4…xxjs` (verified_same)
-- Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]], [[okx]]
+- Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]]
 
 ## Grade by exchange
 - [[bitget]]: A
 - [[bithumb]]: A+
 - [[bybit]]: A+
+- [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: A+
 - [[mexc]]: A
@@ -70,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-03T03:56:17.795723Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-04T03:56:04.193704Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
