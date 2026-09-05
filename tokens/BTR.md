@@ -3,14 +3,14 @@ token: BTR
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C-
+nw_grade_worst: B
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x6c76de483f1752ac8473e2b4983a873991e70da7" }
 exchanges: [bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-04T03:52:55.219546Z
+updated: 2026-09-05T03:54:03.003685Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: A+
 - [[gateio]]: B
 - [[kucoin]]: A+
-- [[mexc]]: C-
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -39,21 +39,20 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-04 · [[mexc]] [[none]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-04 · [[mexc]] [[none]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-02 · [[gateio]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-02 · [[gateio]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-31 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-31 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-31 · [[mexc]] [[bitlayer]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-26 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum,ethereum
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,btrbtc,btrbtc
 - [[kucoin]]: open:bitlayer,bitlayer
-- [[mexc]]: closed:bitlayer,bsc,ethereum
+- [[mexc]]: closed:bitlayer,bsc,ethereum,none
 - [[toobit]]: open:bsc
-- Recently reopened (48h): [[gateio]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +63,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-04T03:52:55.219546Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-05T03:54:03.003685Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

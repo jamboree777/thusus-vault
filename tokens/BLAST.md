@@ -3,14 +3,14 @@ token: BLAST
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-04T03:52:10.091577Z
+updated: 2026-09-05T03:53:10.000162Z
 source: nightwatch-kg
 ---
 
@@ -27,9 +27,9 @@ Blast-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - [[bitget]]: B
 - [[bithumb]]: A
 - [[bybit]]: A+
-- [[coinbase]]: A
+- [[coinbase]]: A+
 - [[gateio]]: A
-- [[kucoin]]: B+
+- [[kucoin]]: F
 - [[mexc]]: B
 - [[upbit]]: A+
 
@@ -64,7 +64,6 @@ Blast-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - [[mexc]]: open:blast
 - [[orangex]]: open:blast
 - [[upbit]]: open:blastnet
-- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -87,7 +86,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-04T03:52:10.091577Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-05T03:53:10.000162Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

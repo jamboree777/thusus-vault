@@ -1,43 +1,45 @@
 ---
-token: ELP
+token: FWOG
 type: token
 tier: free
 nw_grade: B+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0xbbcdc8eb044bf661eabfa07b93909a76ebdb1100" }
-exchanges: [gateio, kucoin]
+  - { chain: solana, address: "a8c3xuqscfmylrte3vmtqraq8kgmasius9afnanwpump" }
+exchanges: [kucoin, mexc]
 transfer: partial
-updated: 2026-09-05T03:56:35.978644Z
+updated: 2026-09-05T03:57:42.110289Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ELP · NW Grade **B+**
+# FWOG · NW Grade **B+**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[ethereum]] `0xbbcdc8…1100` (verified_same)
-- Listed on: [[gateio]], [[kucoin]]
+- Contract: [[solana]] `a8c3xuqs…pump` (verified_same)
+- Listed on: [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
 - [[kucoin]]: B+
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-07-12 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-04 · [[kucoin]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[gateio]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[gateio]] [[sol]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[gateio]]: open:ethereum,ethereum
-- [[kucoin]]: open:ethereum,ethereum
-- [[mexc]]: closed:ethereum
+- [[gateio]]: closed:solana,solana
+- [[kucoin]]: open:solana | closed:solana
+- [[mexc]]: open:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -47,20 +49,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+1.74 USD** · win rate 100% (1 settled)
+1 shadow trade · realized net **+2.01 USD** · win rate 100% (1 settled)
 
-- 2026-08-19 · livescan · [[gateio]]→[[kucoin]] · +1.74 USD · _beat_
+- 2026-09-04 · livescan · [[kucoin]]→[[mexc]] · +2.01 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-05T03:56:35.978644Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-05T03:57:42.110289Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/ELP.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/FWOG.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

@@ -9,8 +9,8 @@ contracts:
   - { chain: ethereum, address: "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97" }
 exchanges: [bybit, coinbase, kucoin, mexc, okx]
 transfer: partial
-lifecycle: suspended
-updated: 2026-09-04T03:55:57.589151Z
+lifecycle: delisted
+updated: 2026-09-05T03:58:05.617156Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[bybit]]: C+
 - [[coinbase]]: A+
-- [[kucoin]]: A
+- [[kucoin]]: A+
 - [[mexc]]: A-
 - [[okx]]: B
 
@@ -44,6 +44,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-08-18 · [[okx]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-07 · [[okx]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -72,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-04T03:55:57.589151Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-05T03:58:05.617156Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

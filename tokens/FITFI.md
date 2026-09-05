@@ -9,7 +9,7 @@ exchanges: [bithumb]
 korean_exchanges: [bithumb]
 transfer: blocked
 lifecycle: suspended
-updated: 2026-09-04T03:55:22.401493Z
+updated: 2026-09-05T03:57:26.799061Z
 source: nightwatch-kg
 ---
 
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-04T03:55:22.401493Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-05T03:57:26.799061Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
