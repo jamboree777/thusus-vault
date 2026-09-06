@@ -3,14 +3,14 @@ token: HFT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb3999f658c0391d94a37f7ff328f3fec942bcadc" }
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-05T03:59:00.090424Z
+updated: 2026-09-06T03:56:56.201102Z
 source: nightwatch-kg
 ---
 
@@ -25,12 +25,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
-- [[coinbase]]: A+
+- [[coinbase]]: A
 - [[gateio]]: B-
-- [[kucoin]]: B
-- [[mexc]]: A
+- [[kucoin]]: C+
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ❌ / withdraw ✅
@@ -73,18 +73,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-4 shadow trades · realized net **+60.25 USD** · win rate 75% (4 settled)
-
-- 2026-08-07 · livescan · [[bitget]]→[[mexc]] · -1.37 USD · _price_drift_
-- 2026-08-07 · livescan · [[bitget]]→[[mexc]] · +15.84 USD · _beat_
-- 2026-08-07 · woncarry · [[bithumb]]→[[binance]] · +42.27 USD · _held_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-05T03:59:00.090424Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-09-06T03:56:56.201102Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

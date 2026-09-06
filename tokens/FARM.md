@@ -2,21 +2,22 @@
 token: FARM
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B+
+nw_grade: B+
+nw_grade_worst: B
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xa0246c9032bc3a600820415ae600c6388619a14d" }
 exchanges: [coinbase, gateio, mexc]
 transfer: partial
-updated: 2026-09-05T03:57:17.427108Z
+lifecycle: delisted
+updated: 2026-09-06T03:55:44.170744Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FARM · NW Grade **A+**
+# FARM · NW Grade **B+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xa0246c…a14d` (partial)
@@ -24,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[coinbase]]: B+
-- [[gateio]]: A+
+- [[gateio]]: B
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -32,22 +33,23 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-05 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-01 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-01 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-08-01 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-01 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-27 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[binance]]: closed:ethereum
 - [[bitget]]: closed:hype,hype
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
-- [[mexc]]: open:ethereum | closed:bsc
+- [[mexc]]: closed:bsc,ethereum
 - Suspended now: [[binance]]
 
 ## Backers & Project
@@ -65,8 +67,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-05T03:57:17.427108Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-06T03:55:44.170744Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
