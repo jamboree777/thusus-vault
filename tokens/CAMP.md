@@ -3,14 +3,14 @@ token: CAMP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-07T03:53:16.898160Z
+updated: 2026-09-08T03:53:37.104885Z
 source: nightwatch-kg
 ---
 
@@ -24,12 +24,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B+
-- [[bithumb]]: A
+- [[bitget]]: F
+- [[bithumb]]: A-
 - [[bybit]]: A-
-- [[gateio]]: B
-- [[kucoin]]: A+
-- [[mexc]]: A
+- [[gateio]]: B-
+- [[kucoin]]: D
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -38,16 +38,16 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ✅ / withdraw ❌
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-07 · [[mexc]] [[camp]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-07 · [[mexc]] [[camp]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-07 · [[kucoin]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-04 · [[kucoin]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-04 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-02 · [[bitget]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[mexc]] [[camp]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum,ethereum
@@ -56,7 +56,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[gateio]]: open:ethereum,ethereum
 - [[htx]]: open:camp
 - [[kucoin]]: open:camp,camp | closed:ethereum,ethereum
-- [[mexc]]: open:camp | closed:ethereum
+- [[mexc]]: closed:camp,ethereum
 - [[toobit]]: open:ethereum
 
 ## Backers & Project
@@ -77,7 +77,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-07T03:53:16.898160Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-08T03:53:37.104885Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
