@@ -2,29 +2,29 @@
 token: GMRX
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: A+
+nw_grade: B-
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x998305efdc264b9674178899fffbb44a47134a76" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-09-08T03:56:57.779848Z
+updated: 2026-09-09T03:56:27.200941Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GMRX · NW Grade **A+**
+# GMRX · NW Grade **B-**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x998305…4a76` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: A+
-- [[kucoin]]: A+
+- [[gateio]]: C-
+- [[kucoin]]: B-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-08T03:56:57.779848Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-09T03:56:27.200941Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -6,20 +6,22 @@ nw_grade: A+
 nw_grade_worst: B
 identity: verified_same
 contracts:
+  - { chain: binance-smart-chain, address: "0x235b6fe22b4642ada16d311855c49ce7de260841" }
   - { chain: ethereum, address: "0x24a3d725c37a8d1a66eb87f0e5d07fe67c120035" }
 exchanges: [binance, bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-09-08T03:55:23.190222Z
+updated: 2026-09-09T03:55:08.421519Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # EDEN · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
+- Contract: [[binance-smart-chain]] `0x235b6f…0841` (verified_same)
 - Contract: [[ethereum]] `0x24a3d7…0035` (verified_same)
 - Listed on: [[binance]], [[bitget]], [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
@@ -79,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-08T03:55:23.190222Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-09T03:55:08.421519Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

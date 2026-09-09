@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-08T03:52:56.819862Z
+updated: 2026-09-09T03:52:33.508489Z
 source: nightwatch-kg
 ---
 
@@ -86,7 +86,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-08T03:52:56.819862Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-09T03:52:33.508489Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
