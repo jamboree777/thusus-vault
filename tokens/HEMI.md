@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-09T03:57:01.190902Z
+updated: 2026-09-10T03:59:05.199245Z
 source: nightwatch-kg
 ---
 
@@ -31,28 +31,28 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
+- [[bithumb]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- [[mexc]]: deposit ✅ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-09 · [[binance]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-09 · [[mexc]] [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-09-09 · [[bithumb]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-09 · [[binance]] [[hemi]] withdraw → open · [[event/dw-resume]]
 - 2026-09-09 · [[binance]] [[hemi]] deposit → open · [[event/dw-resume]]
 - 2026-09-09 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-09 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-09 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-09 · [[binance]] [[bsc]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[binance]]: open:bsc,ethereum,hemi
-- [[bithumb]]: open:ethereum
-- [[gateio]]: open:bsc,bsc
+- [[binance]]: open:ethereum,hemi | closed:bsc
+- [[bithumb]]: closed:ethereum
+- [[gateio]]: open:bsc | closed:bsc
 - [[lbank]]: closed:bep20(bsc),ethereum,hemi
-- [[mexc]]: closed:bsc
+- [[mexc]]: open:bsc
 - [[toobit]]: open:bsc
-- Recently reopened (48h): [[binance]]
+- Recently reopened (48h): [[binance]], [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-09T03:57:01.190902Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-10T03:59:05.199245Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

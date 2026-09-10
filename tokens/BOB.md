@@ -2,7 +2,7 @@
 token: BOB
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: B+
 identity: partial
 contracts:
@@ -10,21 +10,21 @@ contracts:
 exchanges: [bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-09-09T03:52:37.977619Z
+updated: 2026-09-10T03:54:05.604256Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BOB · NW Grade **A+**
+# BOB · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xc9746f…cedd` (partial)
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
+- [[bithumb]]: A-
 - [[gateio]]: A
 - [[kucoin]]: B+
 - [[mexc]]: A-
@@ -60,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-09T03:52:37.977619Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-10T03:54:05.604256Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
