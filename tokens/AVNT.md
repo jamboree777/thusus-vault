@@ -3,14 +3,14 @@ token: AVNT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x696f9436b67233384889472cd7cd58a6fb5df4f1" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-10T03:52:47.496143Z
+updated: 2026-09-11T03:52:45.110179Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A
+- [[bithumb]]: B+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
@@ -52,6 +52,10 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-10 · [[binance]] [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-09-10 · [[binance]] [[base]] deposit → open · [[event/dw-resume]]
+- 2026-09-10 · [[binance]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-10 · [[binance]] [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[base mainnet]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[base mainnet]] deposit → closed · [[event/dw-freeze]]
 
@@ -88,7 +92,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-10T03:52:47.496143Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-11T03:52:45.110179Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

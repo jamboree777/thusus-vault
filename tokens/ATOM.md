@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-10T03:52:40.917004Z
+updated: 2026-09-11T03:52:34.780580Z
 source: nightwatch-kg
 ---
 
@@ -53,22 +53,22 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-09 · [[kucoin]] [[atom]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-09 · [[kucoin]] [[atom]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-09 · [[okx]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-09 · [[okx]] [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-09-09 · [[mexc]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-09 · [[mexc]] [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-09-10 · [[kucoin]] [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-09-10 · [[kucoin]] [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-09-10 · [[bitget]] [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-09-10 · [[bitget]] [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-09-10 · [[binance]] [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-09-10 · [[binance]] [[atom]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[binance]]: open:bsc | closed:atom
-- [[bitget]]: open:atom | closed:atom
+- [[binance]]: open:atom,bsc
+- [[bitget]]: open:atom,atom
 - [[bithumb]]: open:atom
 - [[bybit]]: closed:atom
 - [[coinbase]]: open:cosmos
 - [[gateio]]: closed:atom,atom
 - [[htx]]: open:atom1
-- [[kucoin]]: open:atom | closed:atom
+- [[kucoin]]: open:atom,atom
 - [[lbank]]: closed:atom
 - [[mexc]]: open:atom
 - [[okx]]: open:atom
@@ -95,7 +95,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-10T03:52:40.917004Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-11T03:52:34.780580Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

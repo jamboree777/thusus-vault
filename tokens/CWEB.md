@@ -3,13 +3,14 @@ token: CWEB
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: C-
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x505b5eda5e25a67e1c24a2bf1a527ed9eb88bf04" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-10T03:56:35.281918Z
+lifecycle: suspended
+updated: 2026-09-11T03:55:24.225177Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +24,8 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A
-- [[kucoin]]: C-
+- [[gateio]]: D
+- [[kucoin]]: F
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -34,6 +35,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Events
 - 2026-08-14 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:ethereum,ethereum
@@ -55,8 +57,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-10T03:56:35.281918Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-11T03:55:24.225177Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

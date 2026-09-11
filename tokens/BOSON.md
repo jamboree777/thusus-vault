@@ -3,14 +3,13 @@ token: BOSON
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B-
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc477d038d5420c6a9e0b031712f61c5120090de9" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-lifecycle: suspended
-updated: 2026-09-10T03:54:15.211774Z
+updated: 2026-09-11T03:54:04.555046Z
 source: nightwatch-kg
 ---
 
@@ -24,8 +23,8 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B-
-- [[kucoin]]: A
+- [[gateio]]: A
+- [[kucoin]]: B
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -35,7 +34,6 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 
 ## Events
 - 2026-07-12 · [[htx]] [[boson]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:ethereum,ethereum
@@ -59,8 +57,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-10T03:54:15.211774Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-11T03:54:04.555046Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
