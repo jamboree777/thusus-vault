@@ -3,14 +3,15 @@ token: BLAST
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-11T03:53:44.760571Z
+lifecycle: delisted
+updated: 2026-09-12T03:52:17.502093Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +30,7 @@ Blast-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - [[bybit]]: A+
 - [[coinbase]]: B+
 - [[gateio]]: A
-- [[kucoin]]: B+
+- [[kucoin]]: D
 - [[mexc]]: B+
 - [[upbit]]: A+
 
@@ -41,17 +42,18 @@ Blast-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 - [[orangex]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-11 · [[mexc]] [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-02 · [[bitget]] [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-02 · [[bitget]] [[blast]] deposit → open · [[event/dw-resume]]
 - 2026-09-02 · [[bitget]] [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-13 · [[upbit]] [[blastnet]] withdraw → open · [[event/dw-resume]]
 - 2026-07-13 · [[upbit]] [[blastnet]] deposit → open · [[event/dw-resume]]
-- 2026-07-12 · [[upbit]] [[blastnet]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:blast,blast
@@ -61,7 +63,7 @@ Blast-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - [[gateio]]: open:blast,blasteth
 - [[htx]]: open:blast
 - [[kucoin]]: open:blast,blast
-- [[mexc]]: open:blast
+- [[mexc]]: closed:blast
 - [[orangex]]: open:blast
 - [[upbit]]: open:blastnet
 
@@ -85,8 +87,8 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 - [verified] **dw_change** · 2026-07-16 · [source](https://nightwatch-v1-api.onrender.com/kg/BLAST.md) · by thusus-vault-bot
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-11T03:53:44.760571Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-12T03:52:17.502093Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

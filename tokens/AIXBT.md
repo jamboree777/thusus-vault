@@ -3,13 +3,14 @@ token: AIXBT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0d37af9d8ae74f35f3a38bd2a08fcb29890ca6d2" }
 exchanges: [binance, bitget, bybit, gateio, kucoin, mexc, okx]
 transfer: partial
-updated: 2026-09-11T03:52:08.102747Z
+lifecycle: delisted
+updated: 2026-09-12T03:50:40.677890Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bitget]]: A
+- [[bitget]]: B+
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[kucoin]]: A+
@@ -46,6 +47,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-09-10 · [[binance]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-10 · [[binance]] [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-02 · [[bitget]] [[base]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[binance]]: open:base
@@ -72,8 +74,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-11T03:52:08.102747Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-12T03:50:40.677890Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

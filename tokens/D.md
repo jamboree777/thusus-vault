@@ -2,8 +2,8 @@
 token: D
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: F
+nw_grade: A+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x33b481cbbf3c24f2b3184ee7cb02daad1c4f49a8" }
@@ -11,14 +11,14 @@ contracts:
 exchanges: [binance, bitget, bithumb, kucoin]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-11T03:55:36.095783Z
+updated: 2026-09-12T03:54:11.882483Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# D · NW Grade **A**
+# D · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x33b481…49a8` (verified_same)
@@ -28,8 +28,8 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 ## Grade by exchange
 - [[binance]]: B+
 - [[bitget]]: B
-- [[bithumb]]: A
-- [[kucoin]]: F
+- [[bithumb]]: A+
+- [[kucoin]]: B
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ❌ / withdraw ❌
@@ -55,7 +55,6 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - [[kucoin]]: open:ethereum | closed:bsc,bsc,ethereum
 - [[mexc]]: closed:bsc,ethereum
 - Suspended now: [[binance]]
-- Recently reopened (48h): [[kucoin]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-11T03:55:36.095783Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-12T03:54:11.882483Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
