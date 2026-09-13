@@ -7,20 +7,22 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x1151cb3d861920e07a38e03eead12c32178567f6" }
+  - { chain: solana, address: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-12T03:52:37.894614Z
+updated: 2026-09-13T03:52:59.934665Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BONK · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x1151cb…67f6` (verified_same)
+- Contract: [[solana]] `dezxaz8z…b263` (verified_same)
 - Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]], [[upbit]]
 
 ## Grade by exchange
@@ -93,7 +95,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-12T03:52:37.894614Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-13T03:52:59.934665Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
