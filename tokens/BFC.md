@@ -7,10 +7,10 @@ nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0c7d5ae016f806603cb1782bea29ac69471cab9c" }
-exchanges: [bithumb, gateio, kucoin]
-korean_exchanges: [bithumb]
+exchanges: [bithumb, gateio, kucoin, upbit]
+korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-13T03:52:34.193585Z
+updated: 2026-09-14T03:51:59.623046Z
 source: nightwatch-kg
 ---
 
@@ -21,12 +21,13 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Identity
 - Contract: [[ethereum]] `0x0c7d5a…ab9c` (verified_same)
-- Listed on: [[bithumb]], [[gateio]], [[kucoin]]
+- Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[gateio]]: B+
+- [[bithumb]]: B+
+- [[gateio]]: C
 - [[kucoin]]: F
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -58,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-13T03:52:34.193585Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-14T03:51:59.623046Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,8 +2,8 @@
 token: D
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: C+
+nw_grade: A
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x33b481cbbf3c24f2b3184ee7cb02daad1c4f49a8" }
@@ -11,14 +11,14 @@ contracts:
 exchanges: [binance, bitget, bithumb, kucoin]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-13T03:54:32.201278Z
+updated: 2026-09-14T03:53:59.385926Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# D · NW Grade **A-**
+# D · NW Grade **A**
 
-Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x33b481…49a8` (verified_same)
@@ -28,33 +28,34 @@ Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[binance]]: B+
 - [[bitget]]: B
-- [[bithumb]]: A-
-- [[kucoin]]: C+
+- [[bithumb]]: A
+- [[kucoin]]: F
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ❌ / withdraw ❌
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ❌ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
+- [[kucoin]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-14 · [[kucoin]] [[erc20]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-14 · [[kucoin]] [[bep20]] withdraw → open · [[event/dw-resume]]
+- 2026-09-14 · [[kucoin]] [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-09 · [[kucoin]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-09 · [[kucoin]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-09 · [[kucoin]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-05 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-05 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-02 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: closed:bsc,ethereum
 - [[bitget]]: closed:bsc,bsc
 - [[bithumb]]: open:bsc
 - [[gateio]]: closed:bsc,bsc,ethereum,ethereum
-- [[kucoin]]: open:ethereum | closed:bsc,bsc,ethereum
+- [[kucoin]]: closed:bsc,bsc,ethereum,ethereum
 - [[mexc]]: closed:bsc,ethereum
 - Suspended now: [[binance]]
+- Recently reopened (48h): [[kucoin]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-13T03:54:32.201278Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-14T03:53:59.385926Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

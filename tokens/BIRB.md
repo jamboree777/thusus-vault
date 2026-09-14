@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-13T03:52:38.602306Z
+updated: 2026-09-14T03:52:05.233196Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - [[coinbase]]: A+
 - [[kucoin]]: B+
 - [[mexc]]: B+
-- [[upbit]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -77,7 +77,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-13T03:52:38.602306Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-14T03:52:05.233196Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
