@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-14T03:52:16.227690Z
+updated: 2026-09-15T03:53:13.311867Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: A+
@@ -46,12 +46,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-15 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-11 · [[binance]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-09-11 · [[binance]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-11 · [[binance]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-11 · [[binance]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-30 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-08-30 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,solana
@@ -62,7 +62,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[htx]]: open:solbmt
 - [[kucoin]]: open:bsc,bsc,solana,solana
 - [[lbank]]: closed:solana
-- [[mexc]]: open:bsc,solana
+- [[mexc]]: open:bsc | closed:solana
 - [[toobit]]: open:solana
 - [[upbit]]: open:solana
 
@@ -74,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-7 shadow trades · realized net **-14.80 USD** · win rate 14.3% (7 settled)
+6 shadow trades · realized net **-5.17 USD** · win rate 16.7% (6 settled)
 
 - 2026-08-26 · woncarry · [[bithumb]]→[[binance]] · -0.08 USD · _held_
 - 2026-08-25 · woncarry · [[bithumb]]→[[binance]] · -1.30 USD · _held_
@@ -84,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-14T03:52:16.227690Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-15T03:53:13.311867Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

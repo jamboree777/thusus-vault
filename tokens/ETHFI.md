@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-14T03:55:04.607294Z
+updated: 2026-09-15T03:56:20.661466Z
 source: nightwatch-kg
 ---
 
@@ -41,7 +41,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ❌ / withdraw ✅
+- [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[lbank]]: deposit ❌ / withdraw ✅
@@ -53,12 +53,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-11 · [[gateio]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-11 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-11 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-11 · [[binance]] [[arbitrum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-11 · [[binance]] [[arbitrum]] deposit → open · [[event/dw-resume]]
-- 2026-09-11 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-15 · [[gateio]] [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-15 · [[binance]] [[arbone]] withdraw → open · [[event/dw-resume]]
+- 2026-09-15 · [[binance]] [[arbone]] deposit → open · [[event/dw-resume]]
+- 2026-09-15 · [[binance]] [[arbitrum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-15 · [[binance]] [[arbitrum]] deposit → open · [[event/dw-resume]]
+- 2026-09-14 · [[binance]] [[arbone]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:arbitrum,arbone,ethereum
@@ -66,7 +66,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:ethereum
-- [[gateio]]: closed:ethereum,ethereum
+- [[gateio]]: open:ethereum | closed:ethereum
 - [[htx]]: open:ethfi
 - [[kucoin]]: open:ethereum,ethereum
 - [[lbank]]: closed:ethereum
@@ -86,7 +86,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-14T03:55:04.607294Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-15T03:56:20.661466Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

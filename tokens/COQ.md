@@ -9,7 +9,7 @@ contracts:
   - { chain: avalanche, address: "0x420fca0121dc28039145009570975747295f2329" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-14T03:53:26.818643Z
+updated: 2026-09-15T03:54:32.821986Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Avalanche-network token; NW grade A+ liquidity; transfer is partial (some venues
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A-
+- [[gateio]]: B+
 - [[kucoin]]: A+
 - [[mexc]]: B+
 
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-14T03:53:26.818643Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-15T03:54:32.821986Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

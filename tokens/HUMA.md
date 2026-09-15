@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-14T03:57:02.409021Z
+updated: 2026-09-15T03:58:16.120362Z
 source: nightwatch-kg
 ---
 
@@ -48,12 +48,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-15 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-11 · [[binance]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-09-11 · [[binance]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-11 · [[binance]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-11 · [[binance]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-30 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-08-30 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,solana
@@ -63,7 +63,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[gateio]]: open:solana,solana
 - [[kucoin]]: open:solana,solana
 - [[lbank]]: closed:bep20(bsc),solana
-- [[mexc]]: open:bsc,solana
+- [[mexc]]: open:bsc | closed:solana
 - [[okx]]: open:solana
 - [[orangex]]: open:solana
 - [[toobit]]: open:solana
@@ -85,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-14T03:57:02.409021Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-15T03:58:16.120362Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

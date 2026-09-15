@@ -3,20 +3,20 @@ token: FWOG
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: C+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: solana, address: "a8c3xuqscfmylrte3vmtqraq8kgmasius9afnanwpump" }
 exchanges: [kucoin, mexc]
-transfer: partial
-updated: 2026-09-14T03:55:37.686744Z
+transfer: blocked
+updated: 2026-09-15T03:56:49.397602Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # FWOG · NW Grade **B+**
 
-Solana-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade B+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[solana]] `a8c3xuqs…pump` (verified_same)
@@ -24,14 +24,15 @@ Solana-network token; NW grade B+ liquidity; transfer is partial (some venues fr
 
 ## Grade by exchange
 - [[kucoin]]: B+
-- [[mexc]]: C+
+- [[mexc]]: C
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-15 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-07 · [[kucoin]] [[sol]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-04 · [[kucoin]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[solana]] deposit → closed · [[event/dw-freeze]]
@@ -40,7 +41,7 @@ Solana-network token; NW grade B+ liquidity; transfer is partial (some venues fr
 ## Transfer map
 - [[gateio]]: closed:solana,solana
 - [[kucoin]]: closed:solana,solana
-- [[mexc]]: open:solana
+- [[mexc]]: closed:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -59,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-14T03:55:37.686744Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-15T03:56:49.397602Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
