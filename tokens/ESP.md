@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, coinbase, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-09-15T03:56:18.477503Z
+updated: 2026-09-16T03:56:47.327084Z
 source: nightwatch-kg
 ---
 
@@ -44,10 +44,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Events
 - 2026-09-15 · [[binance]] [[arbone]] withdraw → open · [[event/dw-resume]]
 - 2026-09-15 · [[binance]] [[arbone]] deposit → open · [[event/dw-resume]]
+- 2026-09-15 · [[binance]] [[arbone]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-15 · [[binance]] [[arbone]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-15 · [[binance]] [[arbitrum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-15 · [[binance]] [[arbitrum]] deposit → open · [[event/dw-resume]]
-- 2026-09-14 · [[binance]] [[arbone]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-14 · [[binance]] [[arbone]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:arbitrum,arbone,ethereum
@@ -71,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-15T03:56:18.477503Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-16T03:56:47.327084Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,30 +2,32 @@
 token: AL
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: C
+nw_grade: A+
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x6c3ea9036406852006290770bedfcaba0e23a0e8" }
+  - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [bitget, bithumb]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-15T03:51:09.684423Z
+updated: 2026-09-16T03:52:22.348212Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **A**
+# AL · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
+- Contract: [[solana]] `2u1tszse…jgwh` (partial)
 - Listed on: [[bitget]], [[bithumb]]
 
 ## Grade by exchange
-- [[bitget]]: C
-- [[bithumb]]: A
+- [[bitget]]: B+
+- [[bithumb]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -52,7 +54,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-15T03:51:09.684423Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-16T03:52:22.348212Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

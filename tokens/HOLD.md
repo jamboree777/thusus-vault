@@ -3,13 +3,13 @@ token: HOLD
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: D-
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: zksync, address: "0xed4040fd47629e7c8fbb7da76bb50b3e7695f0f2" }
 exchanges: [bitget, gateio, hyperliquid, kucoin]
 transfer: partial
-updated: 2026-09-15T03:58:01.000693Z
+updated: 2026-09-16T03:59:02.482873Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Zksync-network token; NW grade A liquidity; transfer is partial (some venues fro
 
 ## Grade by exchange
 - [[bitget]]: A-
-- [[gateio]]: D-
+- [[gateio]]: D
 - [[hyperliquid]]: D
 - [[kucoin]]: A
 
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-15T03:58:01.000693Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-16T03:59:02.482873Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

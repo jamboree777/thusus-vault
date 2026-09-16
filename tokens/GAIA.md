@@ -2,21 +2,21 @@
 token: GAIA
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: C
+nw_grade: C+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x2ee7097bfdd98fce2ac08a1896038a7cd9aaed81" }
 exchanges: [bitget, kucoin, mexc]
 transfer: partial
-updated: 2026-09-15T03:56:54.699067Z
+updated: 2026-09-16T03:57:38.584880Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GAIA · NW Grade **B-**
+# GAIA · NW Grade **C+**
 
-Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x2ee709…ed81` (verified_same)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[bitget]]: C
-- [[kucoin]]: B-
+- [[kucoin]]: D
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
@@ -54,9 +54,18 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+6 shadow trades · realized net **-2.62 USD** · win rate 66.7% (6 settled)
+
+- 2026-08-28 · livescan · [[kucoin]]→[[bitget]] · -5.73 USD · _price_drift_
+- 2026-08-26 · livescan · [[bitget]]→[[kucoin]] · -0.39 USD · _mixed_
+- 2026-08-26 · livescan · [[bitget]]→[[kucoin]] · +1.17 USD · _depth_shrink_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-15T03:56:54.699067Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-16T03:57:38.584880Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

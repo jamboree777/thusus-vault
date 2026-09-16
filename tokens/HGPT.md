@@ -3,13 +3,13 @@ token: HGPT
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: B+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x529c79f6918665ebe250f32eeeaa1d410a0798c6" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-09-15T03:57:52.201690Z
+updated: 2026-09-16T03:58:52.189137Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
+- [[gateio]]: D+
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -56,7 +56,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-15T03:57:52.201690Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-16T03:58:52.189137Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
