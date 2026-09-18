@@ -2,7 +2,7 @@
 token: CHECK
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: C
 identity: partial
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [bithumb, coinbase, gateio, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-09-17T03:53:22.508083Z
+updated: 2026-09-18T03:55:25.719003Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHECK · NW Grade **A**
+# CHECK · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x912623…86eb` (partial)
@@ -25,8 +25,8 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 
 ## Grade by exchange
 - [[bithumb]]: A
-- [[coinbase]]: A
-- [[gateio]]: A
+- [[coinbase]]: A+
+- [[gateio]]: C
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
@@ -59,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-17T03:53:22.508083Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-18T03:55:25.719003Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

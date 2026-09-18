@@ -9,7 +9,8 @@ contracts:
   - { chain: binance-smart-chain, address: "0x0c78d4605c2972e5f989de9019de1fb00c5d3462" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-17T03:53:20.300850Z
+lifecycle: delisted
+updated: 2026-09-18T03:55:23.512109Z
 source: nightwatch-kg
 ---
 
@@ -25,24 +26,26 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[bitget]]: A-
 - [[gateio]]: A+
-- [[kucoin]]: B
+- [[kucoin]]: A+
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-17 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-02 · [[bitget]] [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-02 · [[bitget]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc,bsc
 - [[gateio]]: open:bsc,bsc
 - [[kucoin]]: open:bsc,bsc
-- [[mexc]]: open:bsc
+- [[mexc]]: closed:bsc
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-17T03:53:20.300850Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-18T03:55:23.512109Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

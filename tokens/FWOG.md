@@ -2,21 +2,21 @@
 token: FWOG
 type: token
 tier: free
-nw_grade: A+
+nw_grade: B+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "a8c3xuqscfmylrte3vmtqraq8kgmasius9afnanwpump" }
 exchanges: [kucoin, mexc]
 transfer: partial
-updated: 2026-09-17T03:56:07.250552Z
+updated: 2026-09-18T03:58:10.111940Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FWOG · NW Grade **A+**
+# FWOG · NW Grade **B+**
 
-Solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `a8c3xuqs…pump` (verified_same)
@@ -24,7 +24,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 
 ## Grade by exchange
 - [[kucoin]]: B+
-- [[mexc]]: A+
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ❌ / withdraw ✅
@@ -43,7 +43,6 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - [[gateio]]: closed:solana,solana
 - [[kucoin]]: closed:solana,solana
 - [[mexc]]: open:solana
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -62,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-17T03:56:07.250552Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-18T03:58:10.111940Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
