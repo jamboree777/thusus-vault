@@ -11,7 +11,7 @@ exchanges: [binance, bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
 lifecycle: suspended
-updated: 2026-09-19T03:54:11.290486Z
+updated: 2026-09-20T03:53:26.220843Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[gateio]]: B+
 - [[kucoin]]: B+
 - [[mexc]]: A
@@ -73,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-09-19T03:54:11.290486Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-20T03:53:26.220843Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

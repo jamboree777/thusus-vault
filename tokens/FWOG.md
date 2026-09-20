@@ -2,21 +2,21 @@
 token: FWOG
 type: token
 tier: free
-nw_grade: A-
+nw_grade: B+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "a8c3xuqscfmylrte3vmtqraq8kgmasius9afnanwpump" }
 exchanges: [kucoin, mexc]
 transfer: partial
-updated: 2026-09-19T03:57:21.590476Z
+updated: 2026-09-20T03:56:54.064648Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FWOG · NW Grade **A-**
+# FWOG · NW Grade **B+**
 
-Solana-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `a8c3xuqs…pump` (verified_same)
@@ -24,7 +24,7 @@ Solana-network token; NW grade A- liquidity; transfer is partial (some venues fr
 
 ## Grade by exchange
 - [[kucoin]]: B+
-- [[mexc]]: A-
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ❌ / withdraw ✅
@@ -51,9 +51,17 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+2 shadow trades · realized net **+2.44 USD** · win rate 100% (2 settled)
+
+- 2026-09-06 · livescan · [[kucoin]]→[[mexc]] · +0.43 USD · _in_line_
+- 2026-09-04 · livescan · [[kucoin]]→[[mexc]] · +2.01 USD · _in_line_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-19T03:57:21.590476Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-20T03:56:54.064648Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

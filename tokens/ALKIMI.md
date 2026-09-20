@@ -2,29 +2,30 @@
 token: ALKIMI
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: D+
+nw_grade: D
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-09-19T03:52:12.920871Z
+lifecycle: suspended
+updated: 2026-09-20T03:51:13.710574Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ALKIMI · NW Grade **A**
+# ALKIMI · NW Grade **D**
 
-Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade D liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x1a8f4b…kimi` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: D+
-- [[kucoin]]: A
+- [[gateio]]: F
+- [[kucoin]]: D
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -38,6 +39,7 @@ Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen
 - 2026-07-31 · [[mexc]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[gateio]] [[suinew]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
@@ -61,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-19T03:52:12.920871Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-20T03:51:13.710574Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
