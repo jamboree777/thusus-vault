@@ -2,28 +2,28 @@
 token: HINT
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: base, address: "0x91da780bc7f4b7cf19abe90411a2a296ec5ff787" }
 exchanges: [gateio, mexc]
 transfer: open
-updated: 2026-09-20T03:58:11.290749Z
+updated: 2026-09-21T03:57:15.935195Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# HINT · NW Grade **A+**
+# HINT · NW Grade **A**
 
-Base-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[base]] `0x91da78…f787` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A+
+- [[gateio]]: A
 - [[mexc]]: F
 
 ## Deposit / Withdrawal
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-20T03:58:11.290749Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-21T03:57:15.935195Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

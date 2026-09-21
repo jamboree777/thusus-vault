@@ -10,15 +10,15 @@ contracts:
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-09-20T03:56:56.207593Z
+transfer: partial
+updated: 2026-09-21T03:56:14.802395Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # G · NW Grade **A+**
 
-Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x9c7beb…0649` (verified_same)
@@ -27,15 +27,15 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bitget]]: A
+- [[bitget]]: B
 - [[bithumb]]: A+
 - [[bybit]]: A
-- [[coinbase]]: A+
+- [[coinbase]]: B+
 - [[gateio]]: A+
-- [[kucoin]]: A-
+- [[kucoin]]: C+
 - [[mexc]]: C
-- [[okx]]: A+
-- [[upbit]]: A
+- [[okx]]: A
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -47,18 +47,18 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
+- [[okx]]: deposit ✅ / withdraw ❌
 - [[orangex]]: deposit ✅ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-20 · [[okx]] [[gravity alpha mainnet]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-18 · [[okx]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-16 · [[gateio]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-16 · [[gateio]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-16 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-16 · [[gateio]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-10 · [[gateio]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
@@ -70,7 +70,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - [[htx]]: open:g
 - [[kucoin]]: open:ethereum,ethereum | closed:gravity,gravity
 - [[mexc]]: open:ethereum | closed:gravity
-- [[okx]]: open:gravity alpha mainnet | closed:ethereum
+- [[okx]]: closed:ethereum,gravity alpha mainnet
 - [[orangex]]: open:bsc,ethereum
 - [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
@@ -84,7 +84,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-20T03:56:56.207593Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-21T03:56:14.802395Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

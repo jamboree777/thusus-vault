@@ -3,7 +3,7 @@ token: D
 type: token
 tier: free
 nw_grade: A-
-nw_grade_worst: F
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x33b481cbbf3c24f2b3184ee7cb02daad1c4f49a8" }
@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, kucoin]
 korean_exchanges: [bithumb]
 transfer: blocked
-updated: 2026-09-20T03:54:58.081918Z
+updated: 2026-09-21T03:54:25.995986Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Ethereum-network token; NW grade A- liquidity; transfer is currently blocked (de
 - [[binance]]: B+
 - [[bitget]]: B
 - [[bithumb]]: A-
-- [[kucoin]]: F
+- [[kucoin]]: C
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ❌ / withdraw ❌
@@ -74,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-20T03:54:58.081918Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-21T03:54:25.995986Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
