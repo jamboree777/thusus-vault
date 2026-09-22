@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x9558a9254890b2a8b057a789f413631b9084f4a3" }
 exchanges: [bitget, gateio, kucoin, mexc]
-transfer: partial
-updated: 2026-09-21T03:50:48.087923Z
+transfer: blocked
+updated: 2026-09-22T03:50:32.099584Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AIN · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x9558a9…f4a3` (verified_same)
@@ -25,29 +25,28 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[bitget]]: B+
 - [[gateio]]: A+
-- [[kucoin]]: A
+- [[kucoin]]: A+
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-21 · [[bitget]] [[bep20]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-21 · [[kucoin]] [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-19 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-19 · [[mexc]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-09-18 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-18 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-18 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-17 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: open:bsc | closed:bsc
+- [[bitget]]: closed:bsc,bsc
 - [[gateio]]: closed:bsc,bsc
 - [[kucoin]]: closed:bsc,bsc
 - [[mexc]]: closed:bsc
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-21T03:50:48.087923Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-22T03:50:32.099584Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

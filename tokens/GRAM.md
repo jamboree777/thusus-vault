@@ -3,14 +3,14 @@ token: GRAM
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A+
+nw_grade_worst: A
 identity: native
 contracts:
   - { chain: the-open-network, address: "eqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaam9c" }
 exchanges: [binance, bithumb, bybit, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-21T03:56:45.995039Z
+updated: 2026-09-22T03:56:53.835152Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 
 ## Grade by exchange
 - [[binance]]: A+
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[mexc]]: A+
 - [[okx]]: A+
@@ -46,12 +46,12 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-21 · [[kucoin]] [[ton2]] deposit → open · [[event/dw-resume]]
+- 2026-09-21 · [[kucoin]] [[ton2]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-21 · [[kucoin]] [[ton]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-14 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-14 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-09-13 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-13 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-09-12 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-12 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:ton | closed:tonmemo
@@ -67,6 +67,7 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 - [[orangex]]: open:ton
 - [[upbit]]: open:gram
 - [[woox]]: open:ton
+- Recently reopened (48h): [[kucoin]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,16 +76,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-1 shadow trade · realized net **+0.92 USD** · win rate 100% (1 settled)
-
-- 2026-08-22 · woncarry · [[bithumb]]→[[binance]] · +0.92 USD · _held_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-21T03:56:45.995039Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-09-22T03:56:53.835152Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

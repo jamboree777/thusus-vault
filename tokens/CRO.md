@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-21T03:54:12.820388Z
+updated: 2026-09-22T03:54:08.095588Z
 source: nightwatch-kg
 ---
 
@@ -45,23 +45,24 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-21 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-21 · [[gateio]] [[cro]] withdraw → open · [[event/dw-resume]]
+- 2026-09-21 · [[gateio]] [[cro]] deposit → open · [[event/dw-resume]]
+- 2026-09-21 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-21 · [[bitget]] [[cronoschain]] withdraw → open · [[event/dw-resume]]
 - 2026-09-18 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-18 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-15 · [[bitget]] [[cronos]] withdraw → open · [[event/dw-resume]]
-- 2026-09-14 · [[mexc]] [[cronos]] withdraw → open · [[event/dw-resume]]
-- 2026-09-14 · [[mexc]] [[cronos]] deposit → open · [[event/dw-resume]]
-- 2026-09-14 · [[mexc]] [[crc20]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:cronos,cronoschain,ethereum,ethereum
 - [[bithumb]]: open:cro
 - [[coinbase]]: open:ethereum
-- [[gateio]]: open:cro,cro,ethereum,ethereum
+- [[gateio]]: open:cro,cro,ethereum | closed:ethereum
 - [[kucoin]]: open:ethereum,ethereum,kcc,kcc
 - [[lbank]]: closed:cronos,ethereum
 - [[mexc]]: open:crc20,cro,cronos | closed:ethereum
 - [[okx]]: open:cronos,cronos pos
 - [[upbit]]: open:cro
+- Recently reopened (48h): [[bitget]], [[gateio]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +82,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-21T03:54:12.820388Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-22T03:54:08.095588Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
