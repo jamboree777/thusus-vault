@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-22T03:51:25.117119Z
+updated: 2026-09-23T03:53:24.098045Z
 source: nightwatch-kg
 ---
 
@@ -39,39 +39,39 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[binance]]: deposit ✅ / withdraw ✅
 - [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ❌ / withdraw ❌
-- [[bybit]]: deposit ✅ / withdraw ✅
+- [[bybit]]: deposit ❌ / withdraw ❌
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
+- [[mexc]]: deposit ❌ / withdraw ❌
+- [[okx]]: deposit ❌ / withdraw ❌
 - [[orangex]]: deposit ✅ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ❌ / withdraw ❌
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-21 · [[bitget]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-21 · [[bitget]] [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-09-21 · [[kucoin]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-21 · [[kucoin]] [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-09-21 · [[bybit]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-21 · [[bybit]] [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-09-23 · [[kucoin]] [[atom]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-23 · [[kucoin]] [[atom]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-23 · [[kucoin]] [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-09-23 · [[kucoin]] [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-09-22 · [[kucoin]] [[atom]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-22 · [[kucoin]] [[atom]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc | closed:atom
-- [[bitget]]: open:atom,atom
+- [[bitget]]: open:atom | closed:atom
 - [[bithumb]]: closed:atom
-- [[bybit]]: open:atom
+- [[bybit]]: closed:atom
 - [[coinbase]]: open:cosmos
-- [[gateio]]: open:atom,atom
+- [[gateio]]: open:atom | closed:atom
 - [[htx]]: open:atom1
-- [[kucoin]]: open:atom,atom
+- [[kucoin]]: open:atom | closed:atom
 - [[lbank]]: closed:atom
-- [[mexc]]: open:atom
-- [[okx]]: open:atom
+- [[mexc]]: closed:atom
+- [[okx]]: closed:atom
 - [[orangex]]: open:atom
 - [[toobit]]: open:atom
 - [[upbit]]: closed:atom
@@ -94,7 +94,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:51:25.117119Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:53:24.098045Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

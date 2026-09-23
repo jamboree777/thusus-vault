@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-22T03:55:24.500260Z
+updated: 2026-09-23T03:57:18.396390Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[binance]]: A+
 - [[bithumb]]: A+
 - [[gateio]]: A
-- [[kucoin]]: B
+- [[kucoin]]: A-
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
@@ -40,12 +40,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-22 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-22 · [[binance]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-30 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-08-30 · [[binance]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-26 · [[bitget]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-25 · [[bithumb]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-08-25 · [[bithumb]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-08-25 · [[bithumb]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc
@@ -55,6 +55,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[kucoin]]: open:bsc,bsc
 - [[mexc]]: open:bsc
 - [[toobit]]: open:bsc
+- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:55:24.500260Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:57:18.396390Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-09-22T03:50:21.107823Z
+updated: 2026-09-23T03:52:23.838882Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A+
-- [[bithumb]]: A+
+- [[bithumb]]: B+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
@@ -48,12 +48,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-22 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-22 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-30 · [[gateio]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-07-29 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:ethereum
@@ -67,6 +67,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[mexc]]: open:ethereum
 - [[okx]]: open:ethereum
 - [[toobit]]: open:ethereum
+- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -77,7 +78,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:50:21.107823Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:52:23.838882Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

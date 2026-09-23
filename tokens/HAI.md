@@ -2,22 +2,22 @@
 token: HAI
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B-
+nw_grade: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x514910771af9ca656af840dff83e8264ecf986ca" }
   - { chain: ethereum, address: "0x6403af1267cacc0714c1bd916b12f80e179c0558" }
 exchanges: [gateio, kucoin, mexc]
 transfer: open
-updated: 2026-09-22T03:57:09.695462Z
+updated: 2026-09-23T03:59:28.444391Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# HAI · NW Grade **A+**
+# HAI · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x514910…86ca` (verified_same)
@@ -25,9 +25,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A+
-- [[kucoin]]: A-
-- [[mexc]]: B-
+- [[gateio]]: A
+- [[kucoin]]: B+
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -65,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:57:09.695462Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:59:28.444391Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,37 +2,33 @@
 token: AZUR
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: C+
+nw_grade: C
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x9e6be44cc1236eef7e1f197418592d363bedcd5a" }
 exchanges: [gateio, mexc]
 transfer: open
-lifecycle: suspended
-updated: 2026-09-22T03:51:38.426006Z
+updated: 2026-09-23T03:53:48.693432Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AZUR · NW Grade **B-**
+# AZUR · NW Grade **C**
 
-Ethereum-network token; NW grade B- liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade C liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x9e6be4…cd5a` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: C+
-- [[mexc]]: B-
+- [[gateio]]: D+
+- [[mexc]]: C
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
-
-## Events
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:ethereum,ethereum
@@ -53,8 +49,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:51:38.426006Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:53:48.693432Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

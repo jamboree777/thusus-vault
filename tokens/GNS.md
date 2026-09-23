@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [binance, gateio, mexc]
 transfer: partial
-updated: 2026-09-22T03:56:33.405312Z
+updated: 2026-09-23T03:58:28.986593Z
 source: nightwatch-kg
 ---
 
@@ -35,20 +35,21 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-15 · [[binance]] [[arbone]] withdraw → open · [[event/dw-resume]]
-- 2026-09-15 · [[binance]] [[arbone]] deposit → open · [[event/dw-resume]]
-- 2026-09-15 · [[binance]] [[arbone]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-15 · [[binance]] [[arbone]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-15 · [[binance]] [[arbitrum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-15 · [[binance]] [[arbitrum]] deposit → open · [[event/dw-resume]]
+- 2026-09-22 · [[gateio]] [[arbone]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-22 · [[binance]] [[arbone]] withdraw → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[arbone]] deposit → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[arbitrum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[arbitrum]] deposit → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:arbitrum,arbone | closed:polygon
 - [[bitget]]: closed:polygon,polygon
-- [[gateio]]: open:arbevm,arbone,polygon,polygon
+- [[gateio]]: open:arbevm,polygon,polygon | closed:arbone
 - [[kucoin]]: closed:arbitrum,arbitrum,polygon,polygon
 - [[mexc]]: open:arbitrum | closed:none,polygon
 - Suspended now: [[kucoin]]
+- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -59,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:56:33.405312Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:58:28.986593Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

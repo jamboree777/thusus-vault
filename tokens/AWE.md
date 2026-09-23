@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-09-22T03:51:36.124323Z
+updated: 2026-09-23T03:53:46.313583Z
 source: nightwatch-kg
 ---
 
@@ -47,10 +47,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-22 · [[binance]] [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[base]] deposit → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-22 · [[binance]] [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-10 · [[binance]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-09-10 · [[binance]] [[base]] deposit → open · [[event/dw-resume]]
-- 2026-09-10 · [[binance]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-10 · [[binance]] [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:base
@@ -64,6 +66,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[orangex]]: open:base
 - [[toobit]]: open:base
 - [[upbit]]: open:base,base
+- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:51:36.124323Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:53:46.313583Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

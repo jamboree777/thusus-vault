@@ -3,14 +3,13 @@ token: ANTFUN
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-lifecycle: suspended
-updated: 2026-09-22T03:50:47.502285Z
+updated: 2026-09-23T03:53:05.102568Z
 source: nightwatch-kg
 ---
 
@@ -24,9 +23,9 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[kucoin]]: A+
-- [[mexc]]: B-
+- [[gateio]]: B
+- [[kucoin]]: C+
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -40,7 +39,6 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - 2026-09-15 · [[mexc]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-15 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-27 · [[gateio]] [[sol]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[gateio]]: open:solana | closed:solana
@@ -62,8 +60,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:50:47.502285Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:53:05.102568Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

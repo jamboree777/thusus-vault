@@ -11,7 +11,7 @@ exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
 lifecycle: suspended
-updated: 2026-09-22T03:50:45.293406Z
+updated: 2026-09-23T03:53:02.902581Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: B+
-- [[bithumb]]: B+
+- [[bithumb]]: A
 - [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: B+
@@ -46,12 +46,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-22 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-22 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-22 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-07-16 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-07-16 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-16 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -65,6 +65,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[lbank]]: closed:ethereum
 - [[mexc]]: open:ethereum
 - [[toobit]]: open:ethereum
+- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-09-22T03:50:45.293406Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-23T03:53:02.902581Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
