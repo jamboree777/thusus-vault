@@ -2,28 +2,28 @@
 token: BLUM
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A+
 nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xfdc8cd47848c0c67df66f7120f4e3371181cfa5e" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-09-23T03:54:28.189836Z
+updated: 2026-09-24T03:52:13.912907Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLUM · NW Grade **B+**
+# BLUM · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xfdc8cd…fa5e` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: B+
+- [[gateio]]: A+
 - [[kucoin]]: B
 
 ## Deposit / Withdrawal
@@ -33,12 +33,12 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-23 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-09-23 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-23 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-09-23 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-21 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-09-14 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-09 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-09-08 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-08 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-09-07 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: closed:ton,ton
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-23T03:54:28.189836Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-24T03:52:13.912907Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

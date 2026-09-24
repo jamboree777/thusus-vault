@@ -3,14 +3,14 @@ token: AVAIL
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xeeb4d8400aeefafc1b2953e0094134a887c76bd8" }
 exchanges: [bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-23T03:53:28.500605Z
+updated: 2026-09-24T03:51:22.783744Z
 source: nightwatch-kg
 ---
 
@@ -24,10 +24,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: A-
 - [[bybit]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: B
+- [[kucoin]]: A+
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
@@ -40,12 +40,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-23 · [[gateio]] [[avail]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-23 · [[gateio]] [[avail]] withdraw → open · [[event/dw-resume]]
 - 2026-09-22 · [[gateio]] [[avail]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-22 · [[gateio]] [[avail]] withdraw → open · [[event/dw-resume]]
 - 2026-09-21 · [[gateio]] [[avail]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-14 · [[bithumb]] [[avail]] withdraw → open · [[event/dw-resume]]
-- 2026-09-14 · [[bithumb]] [[avail]] deposit → open · [[event/dw-resume]]
-- 2026-09-02 · [[mexc]] [[avail]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:avl,avl,ethereum,ethereum
@@ -75,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-23T03:53:28.500605Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-24T03:51:22.783744Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

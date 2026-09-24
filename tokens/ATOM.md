@@ -3,14 +3,14 @@ token: ATOM
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: native
 contracts:
   - { chain: binance-smart-chain, address: "0x0eb3a705fc54725037cc9e008bdede697f62f335" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-23T03:53:24.098045Z
+updated: 2026-09-24T03:51:17.611292Z
 source: nightwatch-kg
 ---
 
@@ -57,8 +57,8 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - 2026-09-23 · [[kucoin]] [[atom]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-23 · [[kucoin]] [[atom]] withdraw → open · [[event/dw-resume]]
 - 2026-09-23 · [[kucoin]] [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-09-22 · [[kucoin]] [[atom]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-22 · [[kucoin]] [[atom]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-23 · [[kucoin]] [[atom]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-23 · [[kucoin]] [[atom]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc | closed:atom
@@ -94,7 +94,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-23T03:53:24.098045Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-24T03:51:17.611292Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
