@@ -11,7 +11,7 @@ exchanges: [bitget, bithumb, bybit, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
 lifecycle: suspended
-updated: 2026-09-24T03:53:10.498873Z
+updated: 2026-09-25T03:54:17.722652Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - [[bybit]]: A
 - [[gateio]]: D-
 - [[mexc]]: F
-- [[upbit]]: A-
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -43,16 +43,16 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-21 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-18 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-09-14 · [[gateio]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-08 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-01 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[bitget]]: open:ethereum,ethereum | closed:polygon
+- [[bitget]]: open:ethereum | closed:ethereum,polygon
 - [[bithumb]]: open:ethereum
 - [[bybit]]: closed:polygon
 - [[gateio]]: open:ethereum,ethereum,polygon,polygon
@@ -78,7 +78,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-24T03:53:10.498873Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-25T03:54:17.722652Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

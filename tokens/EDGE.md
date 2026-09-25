@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-24T03:55:07.987642Z
+updated: 2026-09-25T03:56:09.985215Z
 source: nightwatch-kg
 ---
 
@@ -49,10 +49,11 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[base mainnet]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:ethereum,ethereum
+- [[bitget]]: open:ethereum | closed:ethereum
 - [[bithumb]]: open:base
 - [[bybit]]: open:ethereum
 - [[coinbase]]: open:base
@@ -74,17 +75,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-5 shadow trades · realized net **+19.10 USD** · win rate 100% (5 settled)
+8 shadow trades · realized net **+20.72 USD** · win rate 87.5% (8 settled)
 
-- 2026-09-22 · woncarry · [[bithumb]]→[[gateio]] · +3.03 USD · _held_
-- 2026-09-19 · woncarry · [[bithumb]]→[[gateio]] · +1.71 USD · _flipped_
-- 2026-09-19 · woncarry · [[bithumb]]→[[gateio]] · +1.67 USD · _flipped_
+- 2026-09-25 · woncarry · [[bithumb]]→[[gateio]] · +1.36 USD · _held_
+- 2026-09-24 · woncarry · [[bithumb]]→[[gateio]] · -0.87 USD · _held_
+- 2026-09-24 · woncarry · [[bithumb]]→[[gateio]] · +1.12 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-24T03:55:07.987642Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-25T03:56:09.985215Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

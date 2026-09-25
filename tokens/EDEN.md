@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-09-24T03:55:05.597192Z
+updated: 2026-09-25T03:56:07.419038Z
 source: nightwatch-kg
 ---
 
@@ -45,24 +45,24 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-24 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-22 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-22 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-22 · [[binance]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-22 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
-- [[bitget]]: open:ethereum,ethereum
+- [[bitget]]: open:ethereum | closed:ethereum
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,ethereum,ethereum
 - [[kucoin]]: open:ethereum,ethereum
-- [[mexc]]: open:bsc | closed:ethereum
+- [[mexc]]: open:bsc,ethereum
 - [[orangex]]: open:bsc,ethereum
 - [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[binance]]
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-24T03:55:05.597192Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-25T03:56:07.419038Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

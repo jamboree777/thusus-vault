@@ -3,14 +3,14 @@ token: CTSI
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-09-24T03:53:59.624071Z
+updated: 2026-09-25T03:54:58.477929Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: A+
@@ -42,23 +42,22 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-22 · [[binance]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-22 · [[binance]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
-- [[bitget]]: open:ethereum,ethereum
+- [[bitget]]: open:ethereum | closed:ethereum
 - [[bithumb]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[htx]]: open:ctsi
 - [[kucoin]]: open:ethereum,ethereum | closed:bsc,bsc
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[binance]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-24T03:53:59.624071Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-25T03:54:58.477929Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

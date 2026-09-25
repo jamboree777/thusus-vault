@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-24T03:52:35.812200Z
+updated: 2026-09-25T03:53:26.470108Z
 source: nightwatch-kg
 ---
 
@@ -55,16 +55,16 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-24 · [[bitget]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-22 · [[binance]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-09-22 · [[binance]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-22 · [[binance]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-22 · [[binance]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:solana | closed:bsc
-- [[bitget]]: open:solana,solana
+- [[bitget]]: open:solana | closed:solana
 - [[bithumb]]: open:solana
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
@@ -88,7 +88,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-24T03:52:35.812200Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-25T03:53:26.470108Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

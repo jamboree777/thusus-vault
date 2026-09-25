@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, kucoin, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-24T03:50:25.836587Z
+updated: 2026-09-25T03:51:24.403745Z
 source: nightwatch-kg
 ---
 
@@ -41,15 +41,15 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-24 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-25 · [[bithumb]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-08-25 · [[bithumb]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-08-25 · [[bithumb]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-25 · [[bithumb]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-05 · [[lbank]] [[bep20(bsc)]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-05 · [[lbank]] [[bep20(bsc)]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:bsc,bsc
+- [[bitget]]: open:bsc | closed:bsc
 - [[bithumb]]: open:bsc
 - [[gateio]]: open:bsc,bsc
 - [[kucoin]]: open:bsc,bsc
@@ -69,7 +69,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-24T03:50:25.836587Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-25T03:51:24.403745Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
