@@ -2,30 +2,30 @@
 token: DTEC
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: C+
+nw_grade: A+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [bitget, gateio, mexc]
 transfer: partial
-updated: 2026-09-25T03:56:00.627984Z
+updated: 2026-09-26T03:55:19.964916Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DTEC · NW Grade **B+**
+# DTEC · NW Grade **A+**
 
-Polygon-pos-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[polygon-pos]] `0xd87af7…115f` (verified_same)
 - Listed on: [[bitget]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: C+
-- [[gateio]]: B+
-- [[mexc]]: B-
+- [[bitget]]: C
+- [[gateio]]: A
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-25T03:56:00.627984Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-26T03:55:19.964916Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

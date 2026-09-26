@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-25T03:54:39.982682Z
+updated: 2026-09-26T03:54:03.582806Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Grade by exchange
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: B+
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[mexc]]: B+
@@ -43,11 +43,11 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Events
 - 2026-09-25 · [[bitget]] [[coredao]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-25 · [[bitget]] [[coredao]] withdraw → open · [[event/dw-resume]]
+- 2026-09-25 · [[bitget]] [[coredao]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-14 · [[gateio]] [[core]] withdraw → open · [[event/dw-resume]]
 - 2026-09-14 · [[gateio]] [[core]] deposit → open · [[event/dw-resume]]
 - 2026-09-12 · [[bitget]] [[coredao]] withdraw → open · [[event/dw-resume]]
-- 2026-09-12 · [[bitget]] [[coredao]] deposit → open · [[event/dw-resume]]
-- 2026-09-12 · [[bitget]] [[coredao]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:coredao | closed:coredao
@@ -59,6 +59,7 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[mexc]]: open:core
 - [[okx]]: open:core
 - Suspended now: [[bithumb]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-25T03:54:39.982682Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-26T03:54:03.582806Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

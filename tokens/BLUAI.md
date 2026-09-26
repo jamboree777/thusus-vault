@@ -3,13 +3,13 @@ token: BLUAI
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-25T03:53:11.810006Z
+updated: 2026-09-26T03:52:31.899888Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - Listed on: [[bitget]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B+
+- [[bitget]]: C-
 - [[gateio]]: A+
 - [[kucoin]]: A
 - [[mexc]]: A
@@ -57,7 +57,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-25T03:53:11.810006Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-26T03:52:31.899888Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

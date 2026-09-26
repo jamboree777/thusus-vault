@@ -3,14 +3,14 @@ token: GHX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x728f30fa2f100742c7949d1961804fa8e0b1387d" }
 exchanges: [bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-25T03:57:34.603774Z
+updated: 2026-09-26T03:56:39.314504Z
 source: nightwatch-kg
 ---
 
@@ -24,8 +24,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A-
-- [[gateio]]: A
+- [[bithumb]]: A+
+- [[gateio]]: B
 - [[kucoin]]: B+
 - [[mexc]]: A+
 
@@ -57,7 +57,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-25T03:57:34.603774Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-26T03:56:39.314504Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
