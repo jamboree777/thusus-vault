@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc" }
 exchanges: [bitget, gateio, mexc]
 transfer: open
-updated: 2026-09-26T03:50:50.134081Z
+updated: 2026-09-27T03:51:37.985421Z
 source: nightwatch-kg
 ---
 
@@ -33,10 +33,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-27 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-26 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-24 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-22 · [[gateio]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-08-21 · [[gateio]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-21 · [[gateio]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-08-21 · [[gateio]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-21 · [[gateio]] [[bsc]] withdraw → open · [[event/dw-resume]]
 
@@ -44,6 +44,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - [[bitget]]: open:sui | closed:sui
 - [[gateio]]: open:bsc,bsc,sui,sui | closed:suinew,suinew
 - [[mexc]]: open:sui | closed:bsc
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -53,17 +54,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-9 shadow trades · realized net **+46.98 USD** · win rate 100% (9 settled)
+15 shadow trades · realized net **+72.53 USD** · win rate 100% (15 settled)
 
-- 2026-09-26 · livescan · [[bitget]]→[[gateio]] · +1.70 USD
-- 2026-09-26 · livescan · [[bitget]]→[[gateio]] · +5.15 USD
-- 2026-09-26 · livescan · [[bitget]]→[[gateio]] · +6.36 USD
+- 2026-09-27 · livescan · [[bitget]]→[[gateio]] · +4.09 USD
+- 2026-09-27 · livescan · [[bitget]]→[[gateio]] · +4.37 USD
+- 2026-09-27 · livescan · [[bitget]]→[[gateio]] · +3.74 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-26T03:50:50.134081Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-27T03:51:37.985421Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

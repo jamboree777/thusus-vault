@@ -1,68 +1,56 @@
 ---
-token: DBR
+token: DRIFT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: C-
 identity: verified_same
 contracts:
-  - { chain: solana, address: "dbridgjamsm95motzjs7m9lnkgerpbv9v6cur1dxnuu5" }
-exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
-korean_exchanges: [bithumb]
-transfer: partial
-updated: 2026-09-27T03:55:17.519670Z
+  - { chain: solana, address: "driftupjyltosbwon8kombeysx54afavlddwsbksjwg7" }
+exchanges: [bitget, bybit, coinbase, gateio, kucoin, mexc]
+transfer: open
+updated: 2026-09-27T03:55:44.715931Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DBR · NW Grade **A+**
+# DRIFT · NW Grade **A+**
 
-Solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[solana]] `dbridgja…nuu5` (verified_same)
-- Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
+- Contract: [[solana]] `driftupj…jwg7` (verified_same)
+- Listed on: [[bitget]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A+
-- [[bithumb]]: A+
+- [[bitget]]: C-
 - [[bybit]]: A+
 - [[coinbase]]: A+
-- [[gateio]]: B-
+- [[gateio]]: B+
 - [[kucoin]]: B+
-- [[mexc]]: A
+- [[mexc]]: B+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
 - 2026-09-24 · [[bitget]] [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-23 · [[bitget]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-15 · [[mexc]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-15 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-05 · [[lbank]] [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:solana | closed:solana
-- [[bithumb]]: open:solana
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
 - [[gateio]]: open:solana,solana
-- [[htx]]: open:dbr
 - [[kucoin]]: open:solana,solana
-- [[lbank]]: closed:solana
 - [[mexc]]: open:solana
-- [[orangex]]: open:solana
-- [[toobit]]: open:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,14 +59,21 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **+7.02 USD** · win rate 100% (1 settled)
+
+- 2026-09-26 · livescan · [[bitget]]→[[gateio]] · +7.02 USD
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:55:17.519670Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-27T03:55:44.715931Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/DBR.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/DRIFT.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes

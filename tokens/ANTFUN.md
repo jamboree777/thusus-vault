@@ -2,28 +2,28 @@
 token: ANTFUN
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A-
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-26T03:51:09.941165Z
+updated: 2026-09-27T03:51:57.786905Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ANTFUN · NW Grade **B+**
+# ANTFUN · NW Grade **A-**
 
-Solana-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `cwz6bsdn…4cmt` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
+- [[gateio]]: A-
 - [[kucoin]]: B+
 - [[mexc]]: B+
 
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-26T03:51:09.941165Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-27T03:51:57.786905Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
