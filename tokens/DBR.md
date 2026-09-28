@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-27T03:55:17.519670Z
+updated: 2026-09-28T03:55:18.988383Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A+
+- [[bitget]]: A
 - [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
@@ -33,7 +33,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
@@ -52,7 +52,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - 2026-08-05 · [[lbank]] [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:solana | closed:solana
+- [[bitget]]: closed:solana,solana
 - [[bithumb]]: open:solana
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
@@ -73,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:55:17.519670Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:55:18.988383Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

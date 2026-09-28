@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, bybit, hyperliquid-perp, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-27T03:57:49.382900Z
+updated: 2026-09-28T03:57:26.084592Z
 source: nightwatch-kg
 ---
 
@@ -33,7 +33,7 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -47,16 +47,16 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · [[kucoin]] [[ton]] deposit → open · [[event/dw-resume]]
+- 2026-09-27 · [[bitget]] [[ton]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-27 · [[bitget]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-09-26 · [[bitget]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-26 · [[bitget]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-09-26 · [[bitget]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-26 · [[bitget]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-09-25 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-25 · [[kucoin]] [[ton]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:ton | closed:tonmemo
-- [[bitget]]: open:ton | closed:ton
+- [[bitget]]: closed:ton,ton
 - [[bithumb]]: open:ton
 - [[bybit]]: open:ton
 - [[gateio]]: open:ton,ton
@@ -79,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:57:49.382900Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:57:26.084592Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

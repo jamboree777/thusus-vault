@@ -3,14 +3,14 @@ token: AVNT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: base, address: "0x696f9436b67233384889472cd7cd58a6fb5df4f1" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-27T03:52:31.490589Z
+updated: 2026-09-28T03:52:42.779280Z
 source: nightwatch-kg
 ---
 
@@ -33,7 +33,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[kucoin]]: A+
 - [[mexc]]: A
 - [[okx]]: A+
-- [[upbit]]: A
+- [[upbit]]: A-
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -85,7 +85,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:52:31.490589Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:52:42.779280Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

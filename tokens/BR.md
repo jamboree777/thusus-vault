@@ -9,15 +9,15 @@ contracts:
   - { chain: binance-smart-chain, address: "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41" }
   - { chain: ethereum, address: "0x9b61879e91a0b1322f3d61c23aaf936231882096" }
 exchanges: [bitget, bybit, gateio, kucoin, mexc]
-transfer: open
-updated: 2026-09-27T03:53:40.543750Z
+transfer: partial
+updated: 2026-09-28T03:53:47.459714Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BR · NW Grade **A+**
 
-Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xff7d6a…6b41` (verified_same)
@@ -32,7 +32,7 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - [[mexc]]: D
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
@@ -42,7 +42,7 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - 2026-09-24 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:bsc | closed:bsc
+- [[bitget]]: closed:bsc,bsc
 - [[bybit]]: open:bsc
 - [[gateio]]: open:bsc,bsc
 - [[kucoin]]: open:bsc,bsc
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:53:40.543750Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:53:47.459714Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

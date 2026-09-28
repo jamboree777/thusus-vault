@@ -2,37 +2,37 @@
 token: FORT
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B+
+nw_grade: A-
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29" }
 exchanges: [bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-27T03:57:05.754862Z
+updated: 2026-09-28T03:56:51.385418Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FORT · NW Grade **A+**
+# FORT · NW Grade **A-**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x41545f…ec29` (verified_same)
 - Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: A-
 - [[bybit]]: A-
-- [[coinbase]]: A+
+- [[coinbase]]: B+
 - [[gateio]]: B+
-- [[kucoin]]: B+
-- [[mexc]]: B+
+- [[kucoin]]: D
+- [[mexc]]: D
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
@@ -55,6 +55,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[kucoin]]: open:ethereum,ethereum
 - [[mexc]]: open:ethereum
 - [[upbit]]: open:ethereum
+- Suspended now: [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +66,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:57:05.754862Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:56:51.385418Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

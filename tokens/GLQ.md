@@ -2,30 +2,30 @@
 token: GLQ
 type: token
 tier: free
-nw_grade: A-
+nw_grade: D+
 nw_grade_worst: F
 identity: native
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-27T03:57:37.688410Z
+updated: 2026-09-28T03:57:13.339516Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GLQ · NW Grade **A-**
+# GLQ · NW Grade **D+**
 
-Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x9f9c8e…4d24` (native)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A-
+- [[gateio]]: F
 - [[kucoin]]: D+
-- [[mexc]]: F
+- [[mexc]]: D-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:57:37.688410Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:57:13.339516Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

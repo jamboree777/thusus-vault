@@ -2,47 +2,47 @@
 token: ANTFUN
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: B+
+nw_grade: B+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
 exchanges: [gateio, kucoin, mexc]
-transfer: partial
-updated: 2026-09-27T03:51:57.786905Z
+transfer: blocked
+updated: 2026-09-28T03:52:09.088112Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ANTFUN · NW Grade **A-**
+# ANTFUN · NW Grade **B+**
 
-Solana-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade B+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[solana]] `cwz6bsdn…4cmt` (verified_same)
 - Listed on: [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: A-
-- [[kucoin]]: B+
+- [[gateio]]: B+
+- [[kucoin]]: D+
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
+- [[gateio]]: deposit ❌ / withdraw ✅
+- [[kucoin]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[gateio]] [[sol]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-28 · [[kucoin]] [[sol]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-21 · [[kucoin]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-21 · [[gateio]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-21 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-15 · [[mexc]] [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-09-15 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-27 · [[gateio]] [[sol]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[gateio]]: open:solana | closed:solana
-- [[kucoin]]: open:solana | closed:solana
+- [[gateio]]: closed:solana,solana
+- [[kucoin]]: closed:solana,solana
 - [[mexc]]: closed:solana
 
 ## Backers & Project
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:51:57.786905Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:52:09.088112Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

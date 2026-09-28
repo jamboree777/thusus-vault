@@ -2,32 +2,32 @@
 token: BCCOIN
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: D
+nw_grade: C+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x450593bf7f2d7e559e38496cfb06bdce5e963795" }
 exchanges: [gateio, mexc]
 transfer: partial
-updated: 2026-09-27T03:53:01.468773Z
+updated: 2026-09-28T03:53:02.588479Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BCCOIN · NW Grade **B+**
+# BCCOIN · NW Grade **C+**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x450593…3795` (verified_same)
 - Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[mexc]]: D
+- [[gateio]]: F
+- [[mexc]]: C+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
@@ -40,6 +40,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - [[bitget]]: closed:bsc,bsc
 - [[gateio]]: open:bsc,bsc
 - [[mexc]]: open:bsc
+- Suspended now: [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -57,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:53:01.468773Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:53:02.588479Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

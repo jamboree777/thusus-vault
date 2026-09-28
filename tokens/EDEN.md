@@ -10,15 +10,15 @@ contracts:
   - { chain: ethereum, address: "0x24a3d725c37a8d1a66eb87f0e5d07fe67c120035" }
 exchanges: [binance, bitget, bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
-transfer: open
-updated: 2026-09-27T03:56:04.151203Z
+transfer: partial
+updated: 2026-09-28T03:56:01.073669Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # EDEN · NW Grade **A+**
 
-Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x235b6f…0841` (verified_same)
@@ -35,7 +35,7 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
@@ -54,7 +54,7 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
-- [[bitget]]: open:ethereum | closed:ethereum
+- [[bitget]]: closed:ethereum,ethereum
 - [[bithumb]]: open:ethereum
 - [[gateio]]: open:bsc,bsc,ethereum,ethereum
 - [[kucoin]]: open:ethereum,ethereum
@@ -72,7 +72,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:56:04.151203Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:56:01.073669Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

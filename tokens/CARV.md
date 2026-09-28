@@ -10,15 +10,15 @@ contracts:
   - { chain: ethereum, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-09-27T03:54:10.387169Z
+transfer: partial
+updated: 2026-09-28T03:54:14.064074Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CARV · NW Grade **A+**
 
-Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[base]] `0xc08cd2…aa8c` (verified_same)
@@ -35,7 +35,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - [[upbit]]: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -53,7 +53,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - 2026-07-12 · [[kucoin]] [[arbitrum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:base | closed:base
+- [[bitget]]: closed:base,base
 - [[bithumb]]: open:base
 - [[bybit]]: open:base
 - [[gateio]]: open:base,baseevm
@@ -74,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:54:10.387169Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:54:14.064074Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

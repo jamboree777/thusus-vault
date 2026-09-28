@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-09-27T03:51:33.586664Z
+updated: 2026-09-28T03:51:44.904738Z
 source: nightwatch-kg
 ---
 
@@ -25,9 +25,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 
 ## Grade by exchange
 - [[bithumb]]: A+
-- [[bybit]]: A
+- [[bybit]]: A+
 - [[gateio]]: D+
-- [[kucoin]]: B+
+- [[kucoin]]: A
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -38,10 +38,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - [[mexc]]: deposit ✅ / withdraw ✅
 - [[toobit]]: deposit ✅ / withdraw ✅
 
+## Events
+- 2026-09-27 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+
 ## Transfer map
 - [[bithumb]]: open:ethereum
 - [[bybit]]: open:ethereum
-- [[gateio]]: open:bsc,bsc,ethereum,ethereum
+- [[gateio]]: open:bsc,bsc | closed:ethereum,ethereum
 - [[kucoin]]: open:ethereum,ethereum
 - [[mexc]]: open:ethereum
 - [[toobit]]: open:ethereum
@@ -62,8 +65,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:51:33.586664Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:51:44.904738Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

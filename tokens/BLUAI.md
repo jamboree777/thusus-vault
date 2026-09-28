@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-27T03:53:19.099784Z
+updated: 2026-09-28T03:53:23.135622Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[mexc]]: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
@@ -43,7 +43,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - 2026-08-17 · [[gateio]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:bsc | closed:bsc
+- [[bitget]]: closed:bsc,bsc
 - [[gateio]]: closed:bsc,bsc,sui,sui,suinew,suinew
 - [[kucoin]]: open:bsc,bsc
 - [[mexc]]: open:bsc,sui
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:53:19.099784Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:53:23.135622Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

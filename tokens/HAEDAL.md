@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-27T03:58:02.594281Z
+updated: 2026-09-28T03:57:41.078039Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A+
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: A
@@ -34,7 +34,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -56,7 +56,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Transfer map
 - [[binance]]: open:bsc,sui
-- [[bitget]]: open:bsc,sui | closed:bsc,sui
+- [[bitget]]: closed:bsc,bsc,sui,sui
 - [[bithumb]]: open:sui
 - [[bybit]]: open:sui
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
@@ -67,7 +67,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[orangex]]: open:bsc,sui
 - [[toobit]]: open:sui
 - [[upbit]]: open:sui
-- Recently reopened (48h): [[binance]], [[bitget]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,7 +78,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:58:02.594281Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:57:41.078039Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

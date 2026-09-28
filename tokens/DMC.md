@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::dmc" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-27T03:55:35.918949Z
+updated: 2026-09-28T03:55:34.825678Z
 source: nightwatch-kg
 ---
 
@@ -29,21 +29,21 @@ Sui-network token; NW grade B+ liquidity; transfer is partial (some venues froze
 - [[mexc]]: D+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-27 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-26 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-26 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-24 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-20 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
-- 2026-08-20 · [[mexc]] [[sui]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: open:sui | closed:sui
+- [[bitget]]: closed:sui,sui
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
 - [[kucoin]]: open:sui,sui
 - [[mexc]]: closed:sui
@@ -57,17 +57,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-6 shadow trades · realized net **+24.97 USD** · win rate 100% (6 settled)
+7 shadow trades · realized net **+31.09 USD** · win rate 100% (7 settled)
 
+- 2026-09-27 · livescan · [[bitget]]→[[kucoin]] · +6.11 USD · _beat_
 - 2026-09-27 · livescan · [[bitget]]→[[kucoin]] · +3.16 USD · _beat_
 - 2026-09-27 · livescan · [[bitget]]→[[kucoin]] · +7.32 USD · _beat_
-- 2026-09-26 · livescan · [[bitget]]→[[kucoin]] · +5.13 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:55:35.918949Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:55:34.825678Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

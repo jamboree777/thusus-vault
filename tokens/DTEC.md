@@ -3,46 +3,46 @@ token: DTEC
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [bitget, gateio, mexc]
-transfer: partial
-updated: 2026-09-27T03:55:57.544714Z
+transfer: blocked
+updated: 2026-09-28T03:55:53.482447Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # DTEC · NW Grade **A+**
 
-Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Polygon-pos-network token; NW grade A+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[polygon-pos]] `0xd87af7…115f` (verified_same)
 - Listed on: [[bitget]], [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: C
+- [[bitget]]: B+
 - [[gateio]]: A
 - [[mexc]]: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
+- [[gateio]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[gateio]] [[matic]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-25 · [[gateio]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[mexc]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-13 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-08-13 · [[mexc]] [[polygon]] deposit → open · [[event/dw-resume]]
-- 2026-08-13 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:polygon | closed:polygon
-- [[gateio]]: open:polygon | closed:polygon
+- [[bitget]]: closed:polygon,polygon
+- [[gateio]]: closed:polygon,polygon
 - [[mexc]]: closed:polygon
 
 ## Backers & Project
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:55:57.544714Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:55:53.482447Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

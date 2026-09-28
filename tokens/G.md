@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-27T03:57:17.725499Z
+updated: 2026-09-28T03:57:04.542031Z
 source: nightwatch-kg
 ---
 
@@ -39,7 +39,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ❌ / withdraw ❌
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
@@ -62,7 +62,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
-- [[bitget]]: open:ethereum | closed:ethereum,gravity,gravity
+- [[bitget]]: closed:ethereum,ethereum,gravity,gravity
 - [[bithumb]]: closed:g
 - [[bybit]]: open:bsc,ethereum
 - [[coinbase]]: open:ethereum
@@ -85,7 +85,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:57:17.725499Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:57:04.542031Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,32 +2,33 @@
 token: GMRX
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: B-
+nw_grade: A-
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x998305efdc264b9674178899fffbb44a47134a76" }
 exchanges: [gateio, kucoin]
 transfer: partial
-updated: 2026-09-27T03:57:40.211648Z
+lifecycle: suspended
+updated: 2026-09-28T03:57:17.276334Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GMRX · NW Grade **B+**
+# GMRX · NW Grade **A-**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x998305…4a76` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[kucoin]]: B-
+- [[gateio]]: A-
+- [[kucoin]]: D
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
+- [[bitget]]: deposit ❌ / withdraw ❌
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
@@ -39,6 +40,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - 2026-07-12 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bybit]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[bitget]] [[bep20]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:bsc,bsc
@@ -46,6 +48,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - [[gateio]]: open:bsc,bsc
 - [[kucoin]]: open:bsc,bsc
 - [[mexc]]: closed:bsc
+- Suspended now: [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -62,8 +65,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:57:40.211648Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:57:17.276334Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

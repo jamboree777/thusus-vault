@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-27T03:54:46.816405Z
+updated: 2026-09-28T03:54:48.980628Z
 source: nightwatch-kg
 ---
 
@@ -25,14 +25,14 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Grade by exchange
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A-
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[mexc]]: B+
 - [[okx]]: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ❌ / withdraw ❌
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -50,7 +50,7 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - 2026-09-14 · [[gateio]] [[core]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: open:coredao | closed:coredao
+- [[bitget]]: closed:coredao,coredao
 - [[bithumb]]: closed:core
 - [[bybit]]: open:core
 - [[gateio]]: open:core,core
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-27T03:54:46.816405Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-28T03:54:48.980628Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
