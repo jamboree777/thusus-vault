@@ -11,7 +11,7 @@ contracts:
 exchanges: [bitget, bithumb]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-28T03:51:58.268513Z
+updated: 2026-09-29T03:51:59.599163Z
 source: nightwatch-kg
 ---
 
@@ -30,21 +30,25 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 - [[bithumb]]: B+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 - [[orangex]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-28 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-07 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · [[htx]] [[al]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:ethereum | closed:ethereum
+- [[bitget]]: closed:ethereum,ethereum
 - [[bithumb]]: open:ethereum
 - [[mexc]]: closed:ethereum
 - [[orangex]]: open:ethereum
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -55,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:51:58.268513Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:51:59.599163Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

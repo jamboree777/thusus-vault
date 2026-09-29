@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-28T03:52:30.601007Z
+updated: 2026-09-29T03:52:32.246439Z
 source: nightwatch-kg
 ---
 
@@ -38,8 +38,8 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
 - [[bitget]]: deposit ❌ / withdraw ❌
-- [[bithumb]]: deposit ❌ / withdraw ❌
-- [[bybit]]: deposit ❌ / withdraw ❌
+- [[bithumb]]: deposit ✅ / withdraw ✅
+- [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
@@ -53,18 +53,18 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-29 · [[bithumb]] [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-09-29 · [[bithumb]] [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-09-28 · [[bybit]] [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · [[bybit]] [[atom]] deposit → open · [[event/dw-resume]]
 - 2026-09-25 · [[okx]] [[atom]] withdraw → open · [[event/dw-resume]]
 - 2026-09-25 · [[okx]] [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-09-25 · [[kucoin]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-25 · [[kucoin]] [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-09-25 · [[mexc]] [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-09-25 · [[mexc]] [[atom]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:atom,bsc
 - [[bitget]]: closed:atom,atom
-- [[bithumb]]: closed:atom
-- [[bybit]]: closed:atom
+- [[bithumb]]: open:atom
+- [[bybit]]: open:atom
 - [[coinbase]]: open:cosmos
 - [[gateio]]: open:atom,atom
 - [[htx]]: open:atom1
@@ -94,7 +94,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:52:30.601007Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:52:32.246439Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

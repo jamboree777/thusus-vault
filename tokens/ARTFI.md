@@ -9,8 +9,7 @@ contracts:
   - { chain: sui, address: "0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::artfi" }
 exchanges: [gateio, kucoin]
 transfer: partial
-lifecycle: suspended
-updated: 2026-09-28T03:52:17.890360Z
+updated: 2026-09-29T03:52:19.396554Z
 source: nightwatch-kg
 ---
 
@@ -40,7 +39,6 @@ Sui-network token; NW grade D liquidity; transfer is partial (some venues frozen
 - 2026-08-20 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-08-20 · [[mexc]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-31 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[bitget]]: closed:sui,sui
@@ -48,7 +46,6 @@ Sui-network token; NW grade D liquidity; transfer is partial (some venues frozen
 - [[kucoin]]: open:sui,sui
 - [[mexc]]: closed:sui
 - Suspended now: [[bitget]]
-- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:52:17.890360Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:52:19.396554Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

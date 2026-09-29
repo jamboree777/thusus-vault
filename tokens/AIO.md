@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-28T03:51:53.688643Z
+updated: 2026-09-29T03:51:51.955951Z
 source: nightwatch-kg
 ---
 
@@ -29,21 +29,21 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[gateio]]: deposit ❌ / withdraw ✅
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-17 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-16 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-08-16 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-13 · [[gateio]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-08-13 · [[gateio]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:bsc | closed:bsc
+- [[bitget]]: closed:bsc,bsc
 - [[gateio]]: closed:bsc,bsc
 - [[kucoin]]: open:bsc,bsc
 - [[mexc]]: open:bsc
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:51:53.688643Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:51:51.955951Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

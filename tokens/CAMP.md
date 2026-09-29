@@ -2,7 +2,7 @@
 token: CAMP
 type: token
 tier: free
-nw_grade: A-
+nw_grade: A
 nw_grade_worst: C
 identity: verified_same
 contracts:
@@ -10,30 +10,29 @@ contracts:
 exchanges: [bithumb, bybit, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-lifecycle: delisted
-updated: 2026-09-28T03:54:11.866107Z
+updated: 2026-09-29T03:54:50.094511Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CAMP · NW Grade **A-**
+# CAMP · NW Grade **A**
 
-Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x84eaac…71fc` (verified_same)
 - Listed on: [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A-
+- [[bithumb]]: A
 - [[bybit]]: A-
-- [[gateio]]: C
-- [[kucoin]]: C+
+- [[gateio]]: B
+- [[kucoin]]: C
 - [[mexc]]: B
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
-- [[bithumb]]: deposit ✅ / withdraw ✅
+- [[bithumb]]: deposit ❌ / withdraw ✅
 - [[bybit]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[htx]]: deposit ✅ / withdraw ✅
@@ -42,17 +41,16 @@ Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues 
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-29 · [[bithumb]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-28 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-27 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-13 · [[kucoin]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-11 · [[mexc]] [[camp]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-11 · [[mexc]] [[camp]] withdraw → open · [[event/dw-resume]]
-- 2026-09-09 · [[kucoin]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum,ethereum
-- [[bithumb]]: open:ethereum
+- [[bithumb]]: closed:ethereum
 - [[bybit]]: closed:camp,ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[htx]]: open:camp
@@ -78,8 +76,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:54:11.866107Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:54:50.094511Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

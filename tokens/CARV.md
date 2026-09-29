@@ -11,7 +11,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-28T03:54:14.064074Z
+updated: 2026-09-29T03:54:56.210062Z
 source: nightwatch-kg
 ---
 
@@ -31,7 +31,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[kucoin]]: A+
-- [[mexc]]: A
+- [[mexc]]: A-
 - [[upbit]]: A+
 
 ## Deposit / Withdrawal
@@ -47,6 +47,8 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[mexc]] [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · [[mexc]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-26 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-26 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-09-24 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
@@ -63,7 +65,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 - [[orangex]]: open:base
 - [[toobit]]: open:base
 - [[upbit]]: open:base,base
-- Recently reopened (48h): [[bitget]]
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:54:14.064074Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:54:56.210062Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

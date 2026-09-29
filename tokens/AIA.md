@@ -3,20 +3,20 @@ token: AIA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc" }
 exchanges: [bitget, gateio, mexc]
-transfer: open
-updated: 2026-09-28T03:51:49.276832Z
+transfer: partial
+updated: 2026-09-29T03:51:47.548047Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AIA · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x53ec33…55cc` (verified_same)
@@ -25,23 +25,23 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - [[bitget]]: A
 - [[gateio]]: A+
-- [[mexc]]: A
+- [[mexc]]: A-
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-27 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-27 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-27 · [[gateio]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-27 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-27 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-27 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:sui | closed:sui
+- [[bitget]]: closed:sui,sui
 - [[gateio]]: open:sui,sui | closed:bsc,bsc,suinew,suinew
 - [[mexc]]: open:bsc,sui
 - Recently reopened (48h): [[bitget]], [[mexc]]
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:51:49.276832Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:51:47.548047Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

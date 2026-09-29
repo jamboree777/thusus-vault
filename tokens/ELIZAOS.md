@@ -3,13 +3,13 @@ token: ELIZAOS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-28T03:56:09.867431Z
+updated: 2026-09-29T03:58:58.710132Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[bybit]]: A
 - [[gateio]]: A+
-- [[kucoin]]: B+
+- [[kucoin]]: B
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -36,12 +36,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[bitget]] [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[bitget]] [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-15 · [[mexc]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-15 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-04 · [[mexc]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-04 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:solana,solana
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:56:09.867431Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:58:58.710132Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

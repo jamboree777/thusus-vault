@@ -2,7 +2,7 @@
 token: BFC
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,24 +10,24 @@ contracts:
 exchanges: [bithumb, gateio, kucoin, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-28T03:53:13.838602Z
+updated: 2026-09-29T03:53:23.110981Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BFC · NW Grade **A+**
+# BFC · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x0c7d5a…ab9c` (verified_same)
 - Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: B+
 - [[gateio]]: C
 - [[kucoin]]: F
-- [[upbit]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -59,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:53:13.838602Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:53:23.110981Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

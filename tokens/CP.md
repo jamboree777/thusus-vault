@@ -10,15 +10,15 @@ contracts:
   - { chain: internet-computer, address: "ryjl3-tyaaa-aaaaa-aaaba-cai" }
 exchanges: [bitget, bithumb, coinbase, kucoin, okx, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: open
-updated: 2026-09-28T03:54:58.764034Z
+transfer: partial
+updated: 2026-09-29T03:57:18.116680Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CP · NW Grade **A+**
 
-Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base/internet-computer-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[base]] `0x001aad…3f77` (verified_same)
@@ -33,7 +33,7 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - [[upbit]]: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bitget]]: deposit ✅ / withdraw ❌
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -43,15 +43,15 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-28 · [[mexc]] [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · [[mexc]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-25 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-25 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-09-25 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-07 · [[gateio]] [[baseevm]] withdraw → open · [[event/dw-resume]]
-- 2026-09-07 · [[kucoin]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-09-07 · [[kucoin]] [[base]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:base | closed:base
+- [[bitget]]: closed:base,base
 - [[bithumb]]: open:base
 - [[coinbase]]: open:base
 - [[gateio]]: open:base,baseevm
@@ -59,6 +59,7 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - [[mexc]]: open:base
 - [[okx]]: open:base
 - [[upbit]]: open:base
+- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +77,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-28T03:54:58.764034Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-29T03:57:18.116680Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
