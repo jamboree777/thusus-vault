@@ -2,7 +2,7 @@
 token: GEOD
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B+
 identity: partial
 contracts:
@@ -10,21 +10,21 @@ contracts:
 exchanges: [bithumb, coinbase, gateio, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-29T04:00:05.671442Z
+updated: 2026-09-30T03:57:24.212001Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GEOD · NW Grade **A**
+# GEOD · NW Grade **A+**
 
-Polygon-pos-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[polygon-pos]] `0xac0f66…9adb` (partial)
 - Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[coinbase]]: B+
 - [[gateio]]: A-
 - [[mexc]]: A
@@ -39,18 +39,18 @@ Polygon-pos-network token; NW grade A liquidity; transfer is partial (some venue
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-29 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-09-29 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-09-29 · [[mexc]] [[polygon]] deposit → open · [[event/dw-resume]]
+- 2026-09-29 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-29 · [[mexc]] [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-26 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-26 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-25 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-25 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bithumb]]: open:solana
 - [[coinbase]]: open:solana
 - [[gateio]]: open:polygon,polygon
-- [[mexc]]: open:polygon | closed:solana
+- [[mexc]]: open:polygon,solana
 - [[orangex]]: closed:polygon
 - [[upbit]]: open:solana
 - Recently reopened (48h): [[mexc]]
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-29T04:00:05.671442Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-30T03:57:24.212001Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

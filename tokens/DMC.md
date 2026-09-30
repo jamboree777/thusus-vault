@@ -2,28 +2,28 @@
 token: DMC
 type: token
 tier: free
-nw_grade: B-
+nw_grade: A-
 nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::dmc" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-29T03:58:18.616473Z
+updated: 2026-09-30T03:55:42.931473Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DMC · NW Grade **B-**
+# DMC · NW Grade **A-**
 
-Sui-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x4c981f…:dmc` (verified_same)
 - Listed on: [[bitget]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: C
+- [[bitget]]: A-
 - [[gateio]]: D-
 - [[kucoin]]: B-
 - [[mexc]]: D+
@@ -47,7 +47,6 @@ Sui-network token; NW grade B- liquidity; transfer is partial (some venues froze
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
 - [[kucoin]]: open:sui,sui
 - [[mexc]]: closed:sui
-- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-29T03:58:18.616473Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-30T03:55:42.931473Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

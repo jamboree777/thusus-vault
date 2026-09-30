@@ -5,7 +5,7 @@ tier: free
 nw_grade: null
 identity: verified_same
 transfer: blocked
-updated: 2026-09-29T03:58:01.383283Z
+updated: 2026-09-30T03:55:36.369865Z
 source: nightwatch-kg
 ---
 
@@ -54,7 +54,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-29T03:58:01.383283Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-30T03:55:36.369865Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

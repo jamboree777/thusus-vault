@@ -3,7 +3,7 @@ token: D
 type: token
 tier: free
 nw_grade: A-
-nw_grade_worst: D-
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x33b481cbbf3c24f2b3184ee7cb02daad1c4f49a8" }
@@ -11,7 +11,8 @@ contracts:
 exchanges: [binance, bitget, bithumb, kucoin]
 korean_exchanges: [bithumb]
 transfer: blocked
-updated: 2026-09-29T03:57:47.691735Z
+lifecycle: suspended
+updated: 2026-09-30T03:55:17.110828Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +30,7 @@ Ethereum-network token; NW grade A- liquidity; transfer is currently blocked (de
 - [[binance]]: B+
 - [[bitget]]: B
 - [[bithumb]]: A-
-- [[kucoin]]: D-
+- [[kucoin]]: F
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ❌ / withdraw ❌
@@ -46,6 +47,7 @@ Ethereum-network token; NW grade A- liquidity; transfer is currently blocked (de
 - 2026-09-24 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-18 · [[bithumb]] [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-14 · [[kucoin]] [[erc20]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - [[binance]]: closed:bsc,ethereum
@@ -74,8 +76,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-29T03:57:47.691735Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-09-30T03:55:17.110828Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,34 +2,34 @@
 token: FORT
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: B
+nw_grade: A+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29" }
 exchanges: [bithumb, bybit, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-09-29T03:59:47.432290Z
+updated: 2026-09-30T03:56:56.386178Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FORT · NW Grade **A**
+# FORT · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x41545f…ec29` (verified_same)
 - Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[bybit]]: A
+- [[bithumb]]: B+
+- [[bybit]]: A+
 - [[coinbase]]: B+
 - [[gateio]]: B+
-- [[kucoin]]: B
-- [[mexc]]: B+
+- [[kucoin]]: B+
+- [[mexc]]: D
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-29T03:59:47.432290Z_
+_Live from the NightWatch Knowledge Graph · 2026-09-30T03:56:56.386178Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
