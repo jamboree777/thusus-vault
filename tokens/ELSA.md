@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, bybit, coinbase, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-09-30T03:56:21.635355Z
+updated: 2026-10-01T03:55:04.891561Z
 source: nightwatch-kg
 ---
 
@@ -42,8 +42,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-28 · [[mexc]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-01 · [[bithumb]] [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · [[bithumb]] [[base]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · [[upbit]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · [[upbit]] [[base]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-30 · [[bithumb]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · [[bithumb]] [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bithumb]]: open:base
@@ -55,8 +59,8 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[mexc]]: open:base
 - [[orangex]]: open:base
 - [[toobit]]: open:base
-- [[upbit]]: open:base,base
-- Recently reopened (48h): [[mexc]]
+- [[upbit]]: open:base | closed:base
+- Recently reopened (48h): [[bithumb]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-30T03:56:21.635355Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-01T03:55:04.891561Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

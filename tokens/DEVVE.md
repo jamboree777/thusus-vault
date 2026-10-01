@@ -2,20 +2,27 @@
 token: DEVVE
 type: token
 tier: free
-nw_grade: null
+nw_grade: D
+nw_grade_worst: D
 identity: verified_same
+exchanges: [gateio]
 transfer: blocked
-updated: 2026-09-30T03:55:36.369865Z
+lifecycle: delisted
+updated: 2026-10-01T03:54:07.504583Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DEVVE
+# DEVVE · NW Grade **D**
 
-Transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+NW grade D liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
+- Listed on: [[gateio]]
 - Identity verdict: verified_same
+
+## Grade by exchange
+- [[gateio]]: D
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ✅
@@ -29,12 +36,12 @@ Transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 - 2026-09-18 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-18 · [[mexc]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-08-26 · [[bitget]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum,ethereum
 - [[gateio]]: closed:ethereum,ethereum
 - [[mexc]]: closed:ethereum
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -53,8 +60,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · nw_exchange_contracts (dep/wd) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-30T03:55:36.369865Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
+_Live from the NightWatch Knowledge Graph · 2026-10-01T03:54:07.504583Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: open
-updated: 2026-09-30T03:53:19.524098Z
+updated: 2026-10-01T03:52:13.950727Z
 source: nightwatch-kg
 ---
 
@@ -37,12 +37,12 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - [[toobit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-09-30 · [[bithumb]] [[bob]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · [[bithumb]] [[bob]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · [[bithumb]] [[bob]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · [[bithumb]] [[bob]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[mexc]] [[bob]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[mexc]] [[bob]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-24 · [[mexc]] [[bob]] withdraw → open · [[event/dw-resume]]
-- 2026-09-24 · [[mexc]] [[bob]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bithumb]]: open:bob
@@ -50,7 +50,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - [[kucoin]]: open:bob,gobob
 - [[mexc]]: open:bob,bsc
 - [[toobit]]: open:bsc
-- Recently reopened (48h): [[mexc]]
+- Recently reopened (48h): [[bithumb]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +61,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-30T03:53:19.524098Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-01T03:52:13.950727Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,21 +2,21 @@
 token: COQ
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: D-
+nw_grade: A
+nw_grade_worst: B
 identity: partial
 contracts:
   - { chain: avalanche, address: "0x420fca0121dc28039145009570975747295f2329" }
 exchanges: [gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-30T03:54:44.551558Z
+updated: 2026-10-01T03:53:25.780580Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# COQ · NW Grade **A-**
+# COQ · NW Grade **A**
 
-Avalanche-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Avalanche-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[avalanche]] `0x420fca…2329` (partial)
@@ -24,8 +24,8 @@ Avalanche-network token; NW grade A- liquidity; transfer is partial (some venues
 
 ## Grade by exchange
 - [[gateio]]: B
-- [[kucoin]]: A-
-- [[mexc]]: D-
+- [[kucoin]]: A
+- [[mexc]]: A-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ❌ / withdraw ❌
@@ -49,7 +49,6 @@ Avalanche-network token; NW grade A- liquidity; transfer is partial (some venues
 - [[kucoin]]: open:avaxc,avax c-chain
 - [[mexc]]: open:avaxc
 - Suspended now: [[bitget]]
-- Recently reopened (48h): [[mexc]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-30T03:54:44.551558Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-01T03:53:25.780580Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

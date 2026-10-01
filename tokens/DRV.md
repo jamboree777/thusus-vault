@@ -10,7 +10,7 @@ contracts:
 exchanges: [bithumb, coinbase, gateio, hyperliquid, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-30T03:55:54.080123Z
+updated: 2026-10-01T03:54:31.896384Z
 source: nightwatch-kg
 ---
 
@@ -24,12 +24,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[hyperliquid]], [[mexc]], [[upbit]]
 
 ## Grade by exchange
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[coinbase]]: A+
 - [[gateio]]: A
 - [[hyperliquid]]: A
 - [[mexc]]: C
-- [[upbit]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -40,12 +40,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-03 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-05 · [[orangex]] [[eth]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-15 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-07-14 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · [[upbit]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · [[upbit]] [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · [[upbit]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · [[upbit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bithumb]]: open:ethereum
@@ -54,7 +54,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: closed:ethereum
 - [[orangex]]: closed:ethereum
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[mexc]]
+- Recently reopened (48h): [[bithumb]], [[upbit]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-30T03:55:54.080123Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-01T03:54:31.896384Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

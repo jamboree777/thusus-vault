@@ -2,7 +2,7 @@
 token: BFC
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [bithumb, gateio, kucoin, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-09-30T03:52:59.619591Z
+updated: 2026-10-01T03:51:51.934090Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BFC · NW Grade **A+**
+# BFC · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x0c7d5a…ab9c` (verified_same)
@@ -27,7 +27,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: A
 - [[gateio]]: C
 - [[kucoin]]: F
-- [[upbit]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
 - [[bithumb]]: deposit ✅ / withdraw ✅
@@ -38,9 +38,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-07 · [[kucoin]] [[erc20]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-04 · [[kucoin]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-30 · [[upbit]] [[bfc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · [[upbit]] [[bfc]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · [[bithumb]] [[bfc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · [[bithumb]] [[bfc]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · [[upbit]] [[bfc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · [[upbit]] [[bfc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bithumb]]: open:bfc
@@ -49,6 +52,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[kucoin]]: closed:ethereum,ethereum
 - [[mexc]]: closed:solana
 - [[upbit]]: open:bfc
+- Recently reopened (48h): [[bithumb]], [[upbit]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -59,7 +63,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-09-30T03:52:59.619591Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-01T03:51:51.934090Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

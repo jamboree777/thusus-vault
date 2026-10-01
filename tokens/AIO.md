@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x81a7da4074b8e0ed51bea40f9dcbdf4d9d4832b4" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-09-30T03:51:23.235395Z
+updated: 2026-10-01T03:50:33.854330Z
 source: nightwatch-kg
 ---
 
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-09-30T03:51:23.235395Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-01T03:50:33.854330Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
