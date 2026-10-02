@@ -7,10 +7,10 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
-exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc]
+exchanges: [binance, bitget, bithumb, bybit, gateio, hyperliquid-xyz, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-01T03:51:40.966918Z
+updated: 2026-10-02T03:54:03.908660Z
 source: nightwatch-kg
 ---
 
@@ -21,7 +21,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xd459ec…73a3` (verified_same)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[hyperliquid-xyz]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
 - [[binance]]: A+
@@ -29,6 +29,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: A
 - [[bybit]]: A+
 - [[gateio]]: A
+- [[hyperliquid-xyz]]: A+
 - [[kucoin]]: A
 - [[mexc]]: B+
 
@@ -84,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-01T03:51:40.966918Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-02T03:54:03.908660Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

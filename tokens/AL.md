@@ -2,32 +2,34 @@
 token: AL
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: B
+nw_grade: A+
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x6c3ea9036406852006290770bedfcaba0e23a0e8" }
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
-exchanges: [bitget, bithumb]
+exchanges: [bitget, bithumb, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-01T03:50:38.268757Z
+lifecycle: delisted
+updated: 2026-10-02T03:52:01.658362Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **B+**
+# AL · NW Grade **A+**
 
-Ethereum/solana-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
 - Contract: [[solana]] `2u1tszse…jgwh` (partial)
-- Listed on: [[bitget]], [[bithumb]]
+- Listed on: [[bitget]], [[bithumb]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B
+- [[bitget]]: A
 - [[bithumb]]: B+
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ❌
@@ -42,6 +44,7 @@ Ethereum/solana-network token; NW grade B+ liquidity; transfer is partial (some 
 - 2026-09-30 · [[bithumb]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - [[bitget]]: closed:ethereum,ethereum
@@ -58,8 +61,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-01T03:50:38.268757Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
+_Live from the NightWatch Knowledge Graph · 2026-10-02T03:52:01.658362Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

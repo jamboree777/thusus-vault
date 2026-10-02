@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, bybit, hyperliquid-perp, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-01T03:56:27.200977Z
+updated: 2026-10-02T04:00:32.787889Z
 source: nightwatch-kg
 ---
 
@@ -41,18 +41,18 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
+- [[okx]]: deposit ❌ / withdraw ❌
 - [[orangex]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[okx]] [[the open network (ton)]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · [[okx]] [[the open network (ton)]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-01 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · [[upbit]] [[gram]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[gram]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ton]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:ton | closed:tonmemo
@@ -64,10 +64,11 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 - [[kucoin]]: open:ton | closed:ton,ton2
 - [[lbank]]: closed:ton,toncoin
 - [[mexc]]: open:ton
-- [[okx]]: open:the open network (ton)
+- [[okx]]: closed:the open network (ton)
 - [[orangex]]: open:ton
 - [[upbit]]: open:gram
 - [[woox]]: open:ton
+- Suspended now: [[okx]]
 - Recently reopened (48h): [[bithumb]], [[kucoin]], [[upbit]]
 
 ## Backers & Project
@@ -79,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-01T03:56:27.200977Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-02T04:00:32.787889Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

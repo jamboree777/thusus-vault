@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-10-01T03:56:06.753814Z
+updated: 2026-10-02T04:00:10.340328Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - [[bitget]]: B
 - [[bithumb]]: A
 - [[bybit]]: A+
-- [[coinbase]]: B+
+- [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: C+
 - [[mexc]]: C
@@ -53,17 +53,17 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[bithumb]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · [[bithumb]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-30 · [[upbit]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · [[upbit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-29 · [[okx]] [[gravity alpha mainnet]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[okx]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
 - [[bitget]]: closed:ethereum,ethereum,gravity,gravity
-- [[bithumb]]: closed:g
+- [[bithumb]]: closed:ethereum,g
 - [[bybit]]: open:bsc,ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum,g | closed:g
@@ -75,7 +75,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
 - Suspended now: [[bithumb]]
-- Recently reopened (48h): [[okx]], [[upbit]]
+- Recently reopened (48h): [[upbit]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -86,7 +86,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-01T03:56:06.753814Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-02T04:00:10.340328Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

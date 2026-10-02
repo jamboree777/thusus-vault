@@ -1,47 +1,45 @@
 ---
-token: BTW
+token: BID
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: B+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
-  - { chain: ethereum, address: "0x3a63de3572c69a1307ff08394f3ee7702c16d25d" }
-exchanges: [bitget, mexc]
-transfer: partial
-updated: 2026-10-02T03:55:30.505237Z
+  - { chain: binance-smart-chain, address: "0xa1832f7f4e534ae557f9b5ab76de54b1873e498b" }
+exchanges: [gateio, mexc]
+transfer: open
+updated: 2026-10-02T03:54:33.697846Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BTW · NW Grade **B+**
+# BID · NW Grade **B+**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B+ liquidity; transfer is open on at least one venue.
 
 ## Identity
-- Contract: [[ethereum]] `0x3a63de…d25d` (verified_same)
-- Listed on: [[bitget]], [[mexc]]
+- Contract: [[binance-smart-chain]] `0xa1832f…498b` (verified_same)
+- Listed on: [[gateio]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B+
-- [[mexc]]: B+
+- [[gateio]]: B+
+- [[mexc]]: D+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ❌
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
 - 2026-09-28 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-24 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-22 · [[mexc]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-22 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[gateio]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[gateio]] [[base]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[gateio]] [[baseevm]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · [[gateio]] [[baseevm]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:bsc,bsc
-- [[gateio]]: open:bsc,bsc | closed:ethereum,ethereum
+- [[gateio]]: open:bsc,bsc | closed:base,baseevm
 - [[mexc]]: open:bsc
 
 ## Backers & Project
@@ -52,22 +50,20 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-13 shadow trades · realized net **+54.56 USD** · win rate 100% (13 settled)
+1 shadow trade · realized net **+1.27 USD** · win rate 100% (1 settled)
 
-- 2026-09-26 · livescan · [[bitget]]→[[mexc]] · +4.51 USD
-- 2026-09-26 · livescan · [[bitget]]→[[mexc]] · +3.99 USD
-- 2026-09-26 · livescan · [[bitget]]→[[mexc]] · +8.01 USD · _beat_
+- 2026-10-01 · livescan · [[mexc]]→[[gateio]] · +1.27 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T03:55:30.505237Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-02T03:54:33.697846Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
 
-_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BTW.md`). Do not hand-edit inside these markers._
+_Machine region — rewritten by the sync bot from the live wiki (`https://nightwatch-v1-api.onrender.com/kg/BID.md`). Do not hand-edit inside these markers._
 <!-- nw:auto:end -->
 
 ## Notes
