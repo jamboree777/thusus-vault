@@ -9,15 +9,15 @@ contracts:
   - { chain: base, address: "0x1b4617734c43f6159f3a70b7e06d883647512778" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: partial
-updated: 2026-10-02T03:53:46.643915Z
+transfer: open
+updated: 2026-10-03T03:52:27.185008Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AWE · NW Grade **A+**
 
-Base-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Base-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[base]] `0x1b4617…2778` (verified_same)
@@ -35,7 +35,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ❌
+- [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -47,16 +47,16 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · [[upbit]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · [[upbit]] [[base]] deposit → open · [[event/dw-resume]]
 - 2026-10-01 · [[bithumb]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · [[bithumb]] [[base]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[binance]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[binance]] [[base]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:base
-- [[bitget]]: closed:base,base
+- [[bitget]]: open:base | closed:base
 - [[bithumb]]: open:base
 - [[coinbase]]: open:base
 - [[gateio]]: open:base,baseevm
@@ -66,7 +66,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - [[orangex]]: open:base
 - [[toobit]]: open:base
 - [[upbit]]: open:base,base
-- Recently reopened (48h): [[binance]], [[bithumb]], [[upbit]]
+- Recently reopened (48h): [[bitget]], [[upbit]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -84,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T03:53:46.643915Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:52:27.185008Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

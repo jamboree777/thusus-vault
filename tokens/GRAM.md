@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bithumb, bybit, hyperliquid-perp, mexc, okx]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-02T04:00:32.787889Z
+updated: 2026-10-03T03:57:51.723876Z
 source: nightwatch-kg
 ---
 
@@ -33,7 +33,7 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ❌
+- [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -41,22 +41,22 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 - [[kucoin]]: deposit ✅ / withdraw ✅
 - [[lbank]]: deposit ❌ / withdraw ✅
 - [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ❌ / withdraw ❌
+- [[okx]]: deposit ✅ / withdraw ✅
 - [[orangex]]: deposit ✅ / withdraw ✅
 - [[upbit]]: deposit ✅ / withdraw ✅
 - [[woox]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[okx]] [[the open network (ton)]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · [[okx]] [[the open network (ton)]] deposit → open · [[event/dw-resume]]
+- 2026-10-02 · [[bitget]] [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · [[okx]] [[the open network (ton)]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-02 · [[okx]] [[the open network (ton)]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-01 · [[kucoin]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[kucoin]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[upbit]] [[gram]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[gram]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:ton | closed:tonmemo
-- [[bitget]]: closed:ton,ton
+- [[bitget]]: open:ton | closed:ton
 - [[bithumb]]: open:ton
 - [[bybit]]: open:ton
 - [[gateio]]: open:ton,ton
@@ -64,12 +64,11 @@ The-open-network-network token; NW grade A+ liquidity; transfer is partial (some
 - [[kucoin]]: open:ton | closed:ton,ton2
 - [[lbank]]: closed:ton,toncoin
 - [[mexc]]: open:ton
-- [[okx]]: closed:the open network (ton)
+- [[okx]]: open:the open network (ton)
 - [[orangex]]: open:ton
 - [[upbit]]: open:gram
 - [[woox]]: open:ton
-- Suspended now: [[okx]]
-- Recently reopened (48h): [[bithumb]], [[kucoin]], [[upbit]]
+- Recently reopened (48h): [[bitget]], [[kucoin]], [[okx]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T04:00:32.787889Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:57:51.723876Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, coinbase, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-10-02T03:54:36.992178Z
+updated: 2026-10-03T03:53:12.191787Z
 source: nightwatch-kg
 ---
 
@@ -33,7 +33,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - [[upbit]]: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ❌
+- [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
@@ -47,15 +47,15 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[bitget]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[upbit]] [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:solana,solana
+- [[bitget]]: open:solana | closed:solana
 - [[bithumb]]: open:solana
 - [[bybit]]: open:solana
 - [[coinbase]]: open:solana
@@ -67,7 +67,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - [[orangex]]: open:solana
 - [[toobit]]: open:solana
 - [[upbit]]: open:solana
-- Recently reopened (48h): [[bithumb]], [[upbit]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,7 +78,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T03:54:36.992178Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:53:12.191787Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

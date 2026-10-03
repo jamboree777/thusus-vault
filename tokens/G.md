@@ -10,15 +10,15 @@ contracts:
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: partial
-updated: 2026-10-02T04:00:10.340328Z
+transfer: open
+updated: 2026-10-03T03:57:31.926263Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # G · NW Grade **A+**
 
-Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x9c7beb…0649` (verified_same)
@@ -39,8 +39,8 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ❌
-- [[bithumb]]: deposit ❌ / withdraw ❌
+- [[bitget]]: deposit ✅ / withdraw ✅
+- [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -53,17 +53,17 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · [[bithumb]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-02 · [[bithumb]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-30 · [[upbit]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[upbit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
-- [[bitget]]: closed:ethereum,ethereum,gravity,gravity
-- [[bithumb]]: closed:ethereum,g
+- [[bitget]]: open:ethereum | closed:ethereum,gravity,gravity
+- [[bithumb]]: open:ethereum | closed:g
 - [[bybit]]: open:bsc,ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum,g | closed:g
@@ -74,8 +74,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - [[orangex]]: open:bsc,ethereum
 - [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
-- Suspended now: [[bithumb]]
-- Recently reopened (48h): [[upbit]]
+- Recently reopened (48h): [[bitget]], [[bithumb]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -86,7 +85,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T04:00:10.340328Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:57:31.926263Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

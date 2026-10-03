@@ -7,26 +7,28 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
+  - { chain: polygon-pos, address: "0x4f7cc8ef14f3dc76ee2fb60028749e1b61cea162" }
 exchanges: [binance, bitget, bithumb, bybit, gateio, hyperliquid-xyz, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-02T03:54:03.908660Z
+updated: 2026-10-03T03:52:42.600437Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BB · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xd459ec…73a3` (verified_same)
+- Contract: [[polygon-pos]] `0x4f7cc8…a162` (verified_same)
 - Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[hyperliquid-xyz]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[hyperliquid-xyz]]: A+
@@ -65,7 +67,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: open:bsc | closed:bouncebit
 - [[orangex]]: closed:bb
 - Suspended now: [[orangex]]
-- Recently reopened (48h): [[bithumb]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -85,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T03:54:03.908660Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:52:42.600437Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

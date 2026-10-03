@@ -3,21 +3,21 @@ token: CTSI
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin]
 korean_exchanges: [bithumb]
-transfer: partial
-updated: 2026-10-02T03:57:31.379958Z
+transfer: open
+updated: 2026-10-03T03:55:00.138061Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CTSI · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x491604…6b5d` (verified_same)
@@ -29,11 +29,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[bithumb]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A+
-- [[kucoin]]: A
+- [[kucoin]]: A-
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ❌
+- [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[coinbase]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -42,23 +42,23 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[upbit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
-- [[bitget]]: closed:ethereum,ethereum
+- [[bitget]]: open:ethereum | closed:ethereum
 - [[bithumb]]: open:ethereum
 - [[coinbase]]: open:ethereum
 - [[gateio]]: open:ethereum,ethereum
 - [[htx]]: open:ctsi
 - [[kucoin]]: open:ethereum,ethereum | closed:bsc,bsc
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[bithumb]], [[upbit]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +69,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T03:57:31.379958Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:55:00.138061Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

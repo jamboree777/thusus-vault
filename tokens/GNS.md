@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [binance, gateio, mexc]
 transfer: partial
-updated: 2026-10-02T04:00:23.592044Z
+updated: 2026-10-03T03:57:45.118009Z
 source: nightwatch-kg
 ---
 
@@ -29,18 +29,18 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ❌ / withdraw ❌
+- [[bitget]]: deposit ❌ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
 - [[kucoin]]: deposit ❌ / withdraw ❌
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[mexc]] [[arbitrum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[mexc]] [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-28 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-28 · [[gateio]] [[arbevm]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-27 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-09-26 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:arbitrum,arbone | closed:polygon
@@ -48,7 +48,8 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - [[gateio]]: open:polygon,polygon | closed:arbevm,arbone
 - [[kucoin]]: closed:arbitrum,arbitrum,polygon,polygon
 - [[mexc]]: open:arbitrum | closed:none,polygon
-- Suspended now: [[bitget]], [[kucoin]]
+- Suspended now: [[kucoin]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -59,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T04:00:23.592044Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:57:45.118009Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

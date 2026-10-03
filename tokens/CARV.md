@@ -10,15 +10,15 @@ contracts:
   - { chain: ethereum, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
-transfer: partial
-updated: 2026-10-02T03:55:56.701071Z
+transfer: open
+updated: 2026-10-03T03:54:07.794434Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CARV · NW Grade **A+**
 
-Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[base]] `0xc08cd2…aa8c` (verified_same)
@@ -31,11 +31,11 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[kucoin]]: A+
-- [[mexc]]: A
-- [[upbit]]: A+
+- [[mexc]]: A+
+- [[upbit]]: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ❌
+- [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[bybit]]: deposit ✅ / withdraw ✅
 - [[gateio]]: deposit ✅ / withdraw ✅
@@ -55,7 +55,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 - 2026-09-30 · [[upbit]] [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:base,base
+- [[bitget]]: open:base | closed:base
 - [[bithumb]]: open:base
 - [[bybit]]: open:base
 - [[gateio]]: open:base,baseevm
@@ -65,7 +65,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 - [[orangex]]: open:base
 - [[toobit]]: open:base
 - [[upbit]]: open:base,base
-- Recently reopened (48h): [[bithumb]], [[upbit]]
+- Recently reopened (48h): [[upbit]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T03:55:56.701071Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:54:07.794434Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

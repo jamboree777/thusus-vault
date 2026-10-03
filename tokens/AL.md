@@ -2,56 +2,53 @@
 token: AL
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B+
+nw_grade: A-
+nw_grade_worst: A-
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x6c3ea9036406852006290770bedfcaba0e23a0e8" }
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
-exchanges: [bitget, bithumb, mexc]
+exchanges: [bitget, bithumb]
 korean_exchanges: [bithumb]
 transfer: partial
-lifecycle: delisted
-updated: 2026-10-02T03:52:01.658362Z
+updated: 2026-10-03T03:51:40.272784Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **A+**
+# AL · NW Grade **A-**
 
-Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
 - Contract: [[solana]] `2u1tszse…jgwh` (partial)
-- Listed on: [[bitget]], [[bithumb]], [[mexc]]
+- Listed on: [[bitget]], [[bithumb]]
 
 ## Grade by exchange
-- [[bitget]]: A
-- [[bithumb]]: B+
-- [[mexc]]: A+
+- [[bitget]]: A-
+- [[bithumb]]: A-
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ❌
+- [[bitget]]: deposit ✅ / withdraw ✅
 - [[bithumb]]: deposit ✅ / withdraw ✅
 - [[mexc]]: deposit ❌ / withdraw ✅
 - [[orangex]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum,ethereum
+- [[bitget]]: open:ethereum | closed:ethereum
 - [[bithumb]]: open:ethereum
 - [[mexc]]: closed:ethereum
 - [[orangex]]: open:ethereum
-- Recently reopened (48h): [[bithumb]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,8 +58,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-10-02T03:52:01.658362Z_
+nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
+_Live from the NightWatch Knowledge Graph · 2026-10-03T03:51:40.272784Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
