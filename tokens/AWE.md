@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-10-03T03:52:27.185008Z
+updated: 2026-10-04T03:53:22.828110Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[binance]]: A+
 - [[bitget]]: A
 - [[bithumb]]: A+
-- [[coinbase]]: B+
+- [[coinbase]]: A+
 - [[gateio]]: A+
 - [[kucoin]]: B+
 - [[mexc]]: B+
@@ -47,12 +47,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-03 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-02 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · [[upbit]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · [[upbit]] [[base]] deposit → open · [[event/dw-resume]]
 - 2026-10-01 · [[bithumb]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[bithumb]] [[base]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[binance]]: open:base
@@ -66,7 +66,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - [[orangex]]: open:base
 - [[toobit]]: open:base
 - [[upbit]]: open:base,base
-- Recently reopened (48h): [[bitget]], [[upbit]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -84,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-03T03:52:27.185008Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-04T03:53:22.828110Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

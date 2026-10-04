@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::dmc" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-10-03T03:55:44.038705Z
+updated: 2026-10-04T03:56:37.428160Z
 source: nightwatch-kg
 ---
 
@@ -35,18 +35,19 @@ Sui-network token; NW grade B liquidity; transfer is partial (some venues frozen
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-03 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-27 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-26 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-26 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-24 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-24 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:sui | closed:sui
 - [[gateio]]: open:sui,sui | closed:suinew,suinew
 - [[kucoin]]: open:sui,sui
 - [[mexc]]: closed:sui
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-03T03:55:44.038705Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-04T03:56:37.428160Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "dog1viwbb2vwdper5frj4yfg6gq6xuyfohue9txn65u" }
 exchanges: [bitget, gateio, mexc]
 transfer: partial
-updated: 2026-10-03T03:55:48.432671Z
+updated: 2026-10-04T03:56:43.847694Z
 source: nightwatch-kg
 ---
 
@@ -33,12 +33,12 @@ Solana-network token; NW grade A liquidity; transfer is partial (some venues fro
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-04 · [[bitget]] [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-03 · [[bitget]] [[btcrunes]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · [[bitget]] [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-02 · [[bitget]] [[btcrunes]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[bitget]] [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-27 · [[bitget]] [[btcrunes]] withdraw → open · [[event/dw-resume]]
-- 2026-09-26 · [[bitget]] [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-26 · [[bitget]] [[btcrunes]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: closed:btcrunes,btcrunes
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-03T03:55:48.432671Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-04T03:56:43.847694Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

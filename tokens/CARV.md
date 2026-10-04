@@ -11,7 +11,7 @@ contracts:
 exchanges: [bitget, bithumb, bybit, gateio, kucoin, mexc, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-10-03T03:54:07.794434Z
+updated: 2026-10-04T03:55:04.860442Z
 source: nightwatch-kg
 ---
 
@@ -31,8 +31,8 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[kucoin]]: A+
-- [[mexc]]: A+
-- [[upbit]]: A
+- [[mexc]]: A
+- [[upbit]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -47,12 +47,12 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-03 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · [[upbit]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · [[upbit]] [[base]] deposit → open · [[event/dw-resume]]
 - 2026-10-01 · [[bithumb]] [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · [[bithumb]] [[base]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[upbit]] [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[bitget]]: open:base | closed:base
@@ -65,7 +65,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - [[orangex]]: open:base
 - [[toobit]]: open:base
 - [[upbit]]: open:base,base
-- Recently reopened (48h): [[upbit]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-03T03:54:07.794434Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-04T03:55:04.860442Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
