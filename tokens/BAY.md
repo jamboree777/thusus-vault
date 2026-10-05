@@ -2,28 +2,28 @@
 token: BAY
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xa7bef5abd9265ab97ee43d2fc4a56e0ba25aca25" }
 exchanges: [bitget, mexc]
 transfer: open
-updated: 2026-10-05T03:53:39.447373Z
+updated: 2026-10-05T09:30:43.404163Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BAY · NW Grade **A+**
+# BAY · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xa7bef5…ca25` (verified_same)
 - Listed on: [[bitget]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: A+
+- [[bitget]]: A
 - [[mexc]]: B+
 
 ## Deposit / Withdrawal
@@ -31,6 +31,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-05 · [[bitget]] [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · [[bitget]] [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[bitget]] [[bep20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
@@ -38,6 +39,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 ## Transfer map
 - [[bitget]]: open:bsc,bsc
 - [[mexc]]: open:bsc
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -55,7 +57,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T03:53:39.447373Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T09:30:43.404163Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

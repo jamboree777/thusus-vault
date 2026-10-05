@@ -2,7 +2,7 @@
 token: AL
 type: token
 tier: free
-nw_grade: A-
+nw_grade: A+
 nw_grade_worst: A-
 identity: partial
 contracts:
@@ -11,14 +11,14 @@ contracts:
 exchanges: [bitget, bithumb]
 korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-05T03:52:27.205223Z
+updated: 2026-10-05T09:29:42.594874Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **A-**
+# AL · NW Grade **A+**
 
-Ethereum/solana-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
@@ -27,7 +27,7 @@ Ethereum/solana-network token; NW grade A- liquidity; transfer is partial (some 
 
 ## Grade by exchange
 - [[bitget]]: A-
-- [[bithumb]]: A-
+- [[bithumb]]: A+
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -36,18 +36,19 @@ Ethereum/solana-network token; NW grade A- liquidity; transfer is partial (some 
 - [[orangex]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-05 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: open:ethereum,ethereum
 - [[bithumb]]: open:ethereum
 - [[mexc]]: closed:ethereum
 - [[orangex]]: open:ethereum
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T03:52:27.205223Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T09:29:42.594874Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x8cb8c4263eb26b2349d74ea2cb1b27bc40709e12" }
 exchanges: [kucoin]
 transfer: blocked
-updated: 2026-10-05T03:57:30.360461Z
+updated: 2026-10-05T09:34:43.708828Z
 source: nightwatch-kg
 ---
 
@@ -59,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T03:57:30.360461Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T09:34:43.708828Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

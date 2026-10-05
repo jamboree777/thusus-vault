@@ -2,21 +2,21 @@
 token: DTEC
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B-
+nw_grade: A
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [bitget, gateio, mexc]
 transfer: open
-updated: 2026-10-05T03:56:45.678453Z
+updated: 2026-10-05T09:33:58.694884Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DTEC · NW Grade **A+**
+# DTEC · NW Grade **A**
 
-Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Polygon-pos-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[polygon-pos]] `0xd87af7…115f` (verified_same)
@@ -24,8 +24,8 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 
 ## Grade by exchange
 - [[bitget]]: B
-- [[gateio]]: B-
-- [[mexc]]: A+
+- [[gateio]]: C-
+- [[mexc]]: A
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -33,18 +33,18 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-05 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-05 · [[gateio]] [[matic]] deposit → open · [[event/dw-resume]]
 - 2026-10-05 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-04 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-10-04 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-03 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-03 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: open:polygon,polygon
 - [[gateio]]: open:polygon,polygon
 - [[mexc]]: open:polygon
-- Recently reopened (48h): [[bitget]]
+- Recently reopened (48h): [[bitget]], [[gateio]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T03:56:45.678453Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T09:33:58.694884Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

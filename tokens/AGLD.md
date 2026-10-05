@@ -10,7 +10,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-10-05T03:52:16.200210Z
+updated: 2026-10-05T09:29:31.601769Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A+
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A
@@ -51,12 +51,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[upbit]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-05 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[upbit]] [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:ethereum
@@ -72,6 +72,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[okx]]: open:ethereum
 - [[orangex]]: open:ethereum
 - [[upbit]]: open:ethereum
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -82,7 +83,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T03:52:16.200210Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T09:29:31.601769Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

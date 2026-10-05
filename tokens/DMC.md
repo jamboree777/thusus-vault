@@ -2,28 +2,28 @@
 token: DMC
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A
 nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::dmc" }
 exchanges: [bitget, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-10-05T03:56:30.260246Z
+updated: 2026-10-05T09:33:42.998834Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DMC · NW Grade **B+**
+# DMC · NW Grade **A**
 
-Sui-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x4c981f…:dmc` (verified_same)
 - Listed on: [[bitget]], [[gateio]], [[kucoin]], [[mexc]]
 
 ## Grade by exchange
-- [[bitget]]: B+
+- [[bitget]]: A
 - [[gateio]]: D-
 - [[kucoin]]: B-
 - [[mexc]]: D+
@@ -35,12 +35,12 @@ Sui-network token; NW grade B+ liquidity; transfer is partial (some venues froze
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-05 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-04 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-10-04 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-03 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[bitget]] [[sui]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-27 · [[bitget]] [[sui]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - [[bitget]]: open:sui,sui
@@ -67,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T03:56:30.260246Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T09:33:42.998834Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

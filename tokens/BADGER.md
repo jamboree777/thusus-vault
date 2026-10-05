@@ -2,21 +2,21 @@
 token: BADGER
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x3472a5a71965499acd81997a54bba8d852c6e53d" }
 exchanges: [coinbase, gateio, mexc]
 transfer: partial
-updated: 2026-10-05T03:53:32.817201Z
+updated: 2026-10-05T09:30:36.811370Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BADGER · NW Grade **A+**
+# BADGER · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x3472a5…e53d` (verified_same)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[coinbase]]: B+
-- [[gateio]]: A+
+- [[gateio]]: A
 - [[mexc]]: D+
 
 ## Deposit / Withdrawal
@@ -36,12 +36,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[mexc]]: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-05 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[coinbase]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-28 · [[coinbase]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-26 · [[kucoin]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: closed:ethereum
@@ -51,6 +51,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[kucoin]]: closed:ethereum,ethereum
 - [[mexc]]: closed:ethereum
 - Suspended now: [[binance]], [[coinbase]], [[kucoin]]
+- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T03:53:32.817201Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T09:30:36.811370Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
