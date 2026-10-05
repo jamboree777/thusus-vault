@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x9b61879e91a0b1322f3d61c23aaf936231882096" }
 exchanges: [bitget, bybit, gateio, kucoin, mexc]
 transfer: open
-updated: 2026-10-04T03:54:40.602098Z
+updated: 2026-10-05T03:54:39.534970Z
 source: nightwatch-kg
 ---
 
@@ -46,12 +46,11 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - 2026-09-24 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:bsc | closed:bsc
+- [[bitget]]: open:bsc,bsc
 - [[bybit]]: open:bsc
 - [[gateio]]: open:bsc,bsc
 - [[kucoin]]: open:bsc,bsc
 - [[mexc]]: open:bsc
-- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-04T03:54:40.602098Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T03:54:39.534970Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

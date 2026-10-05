@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [binance, gateio, mexc]
 transfer: partial
-updated: 2026-10-04T03:58:24.387078Z
+updated: 2026-10-05T03:58:11.214710Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 ## Grade by exchange
 - [[binance]]: A+
 - [[gateio]]: B
-- [[mexc]]: A
+- [[mexc]]: A+
 
 ## Deposit / Withdrawal
 - [[binance]]: deposit ✅ / withdraw ✅
@@ -35,12 +35,12 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - [[mexc]]: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-05 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-10-04 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-02 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[mexc]] [[arbitrum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · [[mexc]] [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[gateio]] [[arbevm]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - [[binance]]: open:arbitrum,arbone | closed:polygon
@@ -60,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-04T03:58:24.387078Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T03:58:11.214710Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

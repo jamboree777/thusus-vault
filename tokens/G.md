@@ -11,7 +11,7 @@ contracts:
 exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
 korean_exchanges: [bithumb, upbit]
 transfer: open
-updated: 2026-10-04T03:58:10.251509Z
+updated: 2026-10-05T03:57:55.506382Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: B
-- [[bithumb]]: A
+- [[bithumb]]: A+
 - [[bybit]]: A+
 - [[coinbase]]: A+
 - [[gateio]]: A+
@@ -62,7 +62,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 
 ## Transfer map
 - [[binance]]: open:bsc,ethereum
-- [[bitget]]: open:ethereum | closed:ethereum,gravity,gravity
+- [[bitget]]: open:ethereum,ethereum | closed:gravity,gravity
 - [[bithumb]]: open:ethereum | closed:g
 - [[bybit]]: open:bsc,ethereum
 - [[coinbase]]: open:ethereum
@@ -74,7 +74,6 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - [[orangex]]: open:bsc,ethereum
 - [[toobit]]: open:ethereum
 - [[upbit]]: open:ethereum
-- Recently reopened (48h): [[bitget]], [[bithumb]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -85,7 +84,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-04T03:58:10.251509Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T03:57:55.506382Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

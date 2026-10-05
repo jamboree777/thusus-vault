@@ -11,7 +11,7 @@ exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
 korean_exchanges: [bithumb]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-04T03:52:44.724474Z
+updated: 2026-10-05T03:52:50.377711Z
 source: nightwatch-kg
 ---
 
@@ -65,7 +65,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[lbank]]: closed:ethereum
 - [[mexc]]: open:ethereum
 - [[toobit]]: open:ethereum
-- Recently reopened (48h): [[bitget]]
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +75,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-10-04T03:52:44.724474Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-05T03:52:50.377711Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
