@@ -9,9 +9,8 @@ contracts:
   - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
   - { chain: polygon-pos, address: "0x4f7cc8ef14f3dc76ee2fb60028749e1b61cea162" }
 exchanges: [binance, bitget, bithumb, bybit, gateio, hyperliquid-xyz, kucoin, mexc]
-korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-05T09:30:45.748529Z
+updated: 2026-10-06T03:52:24.800327Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +27,7 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 ## Grade by exchange
 - [[binance]]: A+
 - [[bitget]]: A
-- [[bithumb]]: A+
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[hyperliquid-xyz]]: A+
@@ -78,15 +77,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 6 shadow trades · realized net **+3.93 USD** · win rate 66.7% (6 settled)
 
-- 2026-09-24 · woncarry · [[bithumb]]→[[binance]] · +1.02 USD · _held_
-- 2026-09-18 · woncarry · [[bithumb]]→[[binance]] · -0.18 USD · _held_
-- 2026-09-17 · woncarry · [[bithumb]]→[[binance]] · +3.94 USD · _held_
+- 2026-09-24 · carry-A · [[bithumb]]→[[binance]] · +1.02 USD · _held_
+- 2026-09-18 · carry-A · [[bithumb]]→[[binance]] · -0.18 USD · _held_
+- 2026-09-17 · carry-A · [[bithumb]]→[[binance]] · +3.94 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:30:45.748529Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:24.800327Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

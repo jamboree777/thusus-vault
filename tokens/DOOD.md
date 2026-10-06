@@ -8,9 +8,8 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9" }
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
-korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-10-05T09:33:49.618978Z
+updated: 2026-10-06T03:55:31.547255Z
 source: nightwatch-kg
 ---
 
@@ -83,13 +82,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **+0.00 USD** · win rate 100% (1 settled)
 
-- 2026-09-18 · woncarry · [[bithumb]]→[[okx]] · +0.00 USD · _held_
+- 2026-09-18 · carry-A · [[bithumb]]→[[okx]] · +0.00 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:33:49.618978Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:31.547255Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

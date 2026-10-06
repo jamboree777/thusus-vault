@@ -3,14 +3,13 @@ token: ATH
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b" }
 exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
-korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-10-05T09:30:15.793414Z
+updated: 2026-10-06T03:51:53.682183Z
 source: nightwatch-kg
 ---
 
@@ -32,7 +31,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - [[kucoin]]: A
 - [[mexc]]: A
 - [[okx]]: A+
-- [[upbit]]: A
+- [[upbit]]: A-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -81,8 +80,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:30:15.793414Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:51:53.682183Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

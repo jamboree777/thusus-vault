@@ -8,9 +8,8 @@ identity: verified_same
 contracts:
   - { chain: solana, address: "g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg" }
 exchanges: [bitget, bithumb, bybit, coinbase, kucoin, mexc, upbit]
-korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-10-05T09:31:16.298080Z
+updated: 2026-10-06T03:52:42.395505Z
 source: nightwatch-kg
 ---
 
@@ -77,8 +76,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:31:16.298080Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:42.395505Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

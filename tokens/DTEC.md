@@ -2,21 +2,21 @@
 token: DTEC
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: C-
+nw_grade: A+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [bitget, gateio, mexc]
 transfer: open
-updated: 2026-10-05T09:33:58.694884Z
+updated: 2026-10-06T03:55:40.343344Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DTEC · NW Grade **A**
+# DTEC · NW Grade **A+**
 
-Polygon-pos-network token; NW grade A liquidity; transfer is open on at least one venue.
+Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[polygon-pos]] `0xd87af7…115f` (verified_same)
@@ -24,8 +24,8 @@ Polygon-pos-network token; NW grade A liquidity; transfer is open on at least on
 
 ## Grade by exchange
 - [[bitget]]: B
-- [[gateio]]: C-
-- [[mexc]]: A
+- [[gateio]]: A+
+- [[mexc]]: A-
 
 ## Deposit / Withdrawal
 - [[bitget]]: deposit ✅ / withdraw ✅
@@ -63,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:33:58.694884Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:40.343344Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -8,9 +8,8 @@ identity: native
 contracts:
   - { chain: core, address: "0x191e94fa59739e188dce837f7f6978d84727ad01" }
 exchanges: [bitget, bithumb, bybit, gateio, mexc, okx]
-korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-05T09:32:41.920193Z
+updated: 2026-10-06T03:54:22.999504Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +24,7 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Grade by exchange
 - [[bitget]]: A+
-- [[bithumb]]: A-
+- [[bithumb]]: A
 - [[bybit]]: A+
 - [[gateio]]: A
 - [[mexc]]: B+
@@ -69,8 +68,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:32:41.920193Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:22.999504Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

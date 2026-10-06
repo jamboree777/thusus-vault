@@ -8,10 +8,9 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xff20817765cb7f73d4bde2e66e067e58d11095c2" }
 exchanges: [binance, bitget, bithumb, coinbase, gateio, kucoin, mexc]
-korean_exchanges: [bithumb]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-05T09:29:51.400705Z
+updated: 2026-10-06T03:51:31.080952Z
 source: nightwatch-kg
 ---
 
@@ -75,8 +74,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:29:51.400705Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:51:31.080952Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

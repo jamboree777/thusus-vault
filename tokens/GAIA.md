@@ -2,21 +2,21 @@
 token: GAIA
 type: token
 tier: free
-nw_grade: A-
+nw_grade: A
 nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x2ee7097bfdd98fce2ac08a1896038a7cd9aaed81" }
 exchanges: [bitget, kucoin, mexc]
 transfer: partial
-updated: 2026-10-05T09:35:25.895877Z
+updated: 2026-10-06T03:56:59.352999Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GAIA · NW Grade **A-**
+# GAIA · NW Grade **A**
 
-Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x2ee709…ed81` (verified_same)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - [[bitget]]: A-
-- [[kucoin]]: B
+- [[kucoin]]: A
 - [[mexc]]: C+
 
 ## Deposit / Withdrawal
@@ -65,8 +65,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:35:25.895877Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:56:59.352999Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

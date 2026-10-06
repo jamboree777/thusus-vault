@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [bybit, gateio, kucoin, mexc]
 transfer: partial
-updated: 2026-10-05T09:34:17.703611Z
+updated: 2026-10-06T03:55:55.741321Z
 source: nightwatch-kg
 ---
 
@@ -59,17 +59,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-6 shadow trades · realized net **-14.09 USD** · win rate 50% (6 settled)
+8 shadow trades · realized net **-12.20 USD** · win rate 62.5% (8 settled)
 
+- 2026-10-06 · livescan · [[kucoin]]→[[mexc]] · +0.97 USD · _price_drift_
+- 2026-10-05 · livescan · [[gateio]]→[[kucoin]] · +0.92 USD · _beat_
 - 2026-08-13 · livescan · [[kucoin]]→[[gateio]] · -11.18 USD · _mixed_
-- 2026-08-13 · livescan · [[kucoin]]→[[bybit]] · +0.02 USD · _mixed_
-- 2026-08-12 · livescan · [[bybit]]→[[kucoin]] · +0.19 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:34:17.703611Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:55.741321Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

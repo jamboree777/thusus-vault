@@ -8,9 +8,8 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x277add739c6e0477616948357af9e79fe1ec9b80" }
 exchanges: [bithumb, kucoin, mexc, okx]
-korean_exchanges: [bithumb]
 transfer: partial
-updated: 2026-10-05T09:29:27.245411Z
+updated: 2026-10-06T03:51:04.580658Z
 source: nightwatch-kg
 ---
 
@@ -69,8 +68,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:29:27.245411Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:51:04.580658Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

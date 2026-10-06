@@ -8,9 +8,8 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
 exchanges: [bithumb, coinbase, gateio, hyperliquid, mexc, upbit]
-korean_exchanges: [bithumb, upbit]
 transfer: partial
-updated: 2026-10-05T09:33:54.036604Z
+updated: 2026-10-06T03:55:35.940120Z
 source: nightwatch-kg
 ---
 
@@ -65,15 +64,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 17 shadow trades · realized net **+38.82 USD** · win rate 100% (17 settled)
 
-- 2026-09-23 · woncarry · [[upbit]]→[[gateio]] · +2.90 USD
-- 2026-09-23 · woncarry · [[bithumb]]→[[gateio]] · +1.19 USD
-- 2026-09-21 · woncarry · [[bithumb]]→[[gateio]] · +1.44 USD
+- 2026-09-23 · carry-A · [[upbit]]→[[gateio]] · +2.90 USD
+- 2026-09-23 · carry-A · [[bithumb]]→[[gateio]] · +1.19 USD
+- 2026-09-21 · carry-A · [[bithumb]]→[[gateio]] · +1.44 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:33:54.036604Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:35.940120Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

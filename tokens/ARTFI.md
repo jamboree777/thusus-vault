@@ -2,7 +2,7 @@
 token: ARTFI
 type: token
 tier: free
-nw_grade: C+
+nw_grade: D
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,21 +10,21 @@ contracts:
 exchanges: [gateio, kucoin]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-05T09:30:02.780223Z
+updated: 2026-10-06T03:51:42.087748Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ARTFI · NW Grade **C+**
+# ARTFI · NW Grade **D**
 
-Sui-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade D liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x706fa7…rtfi` (verified_same)
 - Listed on: [[gateio]], [[kucoin]]
 
 ## Grade by exchange
-- [[gateio]]: C+
+- [[gateio]]: D
 - [[kucoin]]: F
 
 ## Deposit / Withdrawal
@@ -65,8 +65,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-nw_contract_verify sweep · scan_aggregate (NW grade) · nw_exchange_contracts (dep/wd) · tokens (listings) · nw_dw_status_log (events) · tokens.lifecycle/tags (lifecycle) · nw_paper_trades + nw_woncarry_shadow (Thusus track record)
-_Live from the NightWatch Knowledge Graph · 2026-10-05T09:30:02.780223Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-06T03:51:42.087748Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
