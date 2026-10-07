@@ -3,13 +3,13 @@ token: BDX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D+
+nw_grade_worst: C
 identity: native
 contracts:
   - { chain: ethereum, address: "0x6ad12e761b438bea3ea09f6c6266556bb24c2181" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:52:31.394165Z
+updated: 2026-10-07T03:52:38.994072Z
 source: nightwatch-kg
 ---
 
@@ -20,30 +20,30 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x6ad12e…2181` (native)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- [[gateio]]: D+
-- [[kucoin]]: A
-- [[mexc]]: A+
+- VQ: C
+- YZ: A
+- VK: A+
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ❌ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- VQ: deposit ❌ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-23 · [[mexc]] [[bdx]] withdraw → open · [[event/dw-resume]]
-- 2026-09-23 · [[mexc]] [[bdx]] deposit → open · [[event/dw-resume]]
-- 2026-09-23 · [[mexc]] [[bdx]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-23 · [[mexc]] [[bdx]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-02 · [[mexc]] [[bdx]] withdraw → open · [[event/dw-resume]]
-- 2026-08-02 · [[mexc]] [[bdx]] deposit → open · [[event/dw-resume]]
+- 2026-09-23 · VK [[bdx]] withdraw → open · [[event/dw-resume]]
+- 2026-09-23 · VK [[bdx]] deposit → open · [[event/dw-resume]]
+- 2026-09-23 · VK [[bdx]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-23 · VK [[bdx]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-02 · VK [[bdx]] withdraw → open · [[event/dw-resume]]
+- 2026-08-02 · VK [[bdx]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[gateio]]: closed:bdx,bdx
-- [[kucoin]]: open:bdx,bdx
-- [[mexc]]: open:bdx
+- VQ: closed:bdx,bdx
+- YZ: open:bdx,bdx
+- VK: open:bdx
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -55,13 +55,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **-18.13 USD** · win rate 0% (1 settled)
 
-- 2026-08-16 · livescan · [[mexc]]→[[kucoin]] · -18.13 USD · _price_drift_
+- 2026-08-16 · livescan · VK→YZ · -18.13 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:31.394165Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:38.994072Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

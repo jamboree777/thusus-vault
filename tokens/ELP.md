@@ -7,10 +7,10 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbbcdc8eb044bf661eabfa07b93909a76ebdb1100" }
-exchanges: [gateio, kucoin]
+exchanges: [VQ, YZ]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-06T03:55:57.938332Z
+updated: 2026-10-07T03:56:14.431188Z
 source: nightwatch-kg
 ---
 
@@ -21,27 +21,27 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xbbcdc8…1100` (verified_same)
-- Listed on: [[gateio]], [[kucoin]]
+- Listed on: VQ, YZ
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[kucoin]]: B+
+- VQ: B+
+- YZ: B+
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-28 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[gateio]]: open:ethereum,ethereum
-- [[kucoin]]: open:ethereum,ethereum
-- [[mexc]]: closed:ethereum
+- VQ: open:ethereum,ethereum
+- YZ: open:ethereum,ethereum
+- VK: closed:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -53,13 +53,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **+1.74 USD** · win rate 100% (1 settled)
 
-- 2026-08-19 · livescan · [[gateio]]→[[kucoin]] · +1.74 USD · _beat_
+- 2026-08-19 · livescan · VQ→YZ · +1.74 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:57.938332Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:14.431188Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

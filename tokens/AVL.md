@@ -7,9 +7,9 @@ nw_grade_worst: A
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x5c8d0c48810fd37a0a824d074ee290e64f7a8fa2" }
-exchanges: [bithumb, bybit, gateio, mexc]
+exchanges: [SU, QK, VQ, VK]
 transfer: partial
-updated: 2026-10-06T03:52:02.464507Z
+updated: 2026-10-07T03:52:11.360511Z
 source: nightwatch-kg
 ---
 
@@ -20,36 +20,36 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x5c8d0c…8fa2` (partial)
-- Listed on: [[bithumb]], [[bybit]], [[gateio]], [[mexc]]
+- Listed on: SU, QK, VQ, VK
 
 ## Grade by exchange
-- [[bithumb]]: A+
-- [[bybit]]: A+
-- [[gateio]]: A+
-- [[mexc]]: A
+- SU: A
+- QK: A+
+- VQ: A+
+- VK: A
 
 ## Deposit / Withdrawal
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-14 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · SU [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-14 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bithumb]]: open:ethereum
-- [[bybit]]: open:bsc,ethereum
-- [[gateio]]: open:ethereum,ethereum
-- [[htx]]: open:avl
-- [[mexc]]: closed:ethereum
-- [[toobit]]: open:ethereum
+- SU: open:ethereum
+- QK: open:bsc,ethereum
+- VQ: open:ethereum,ethereum
+- ST: open:avl
+- VK: closed:ethereum
+- CJ: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:02.464507Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:11.360511Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

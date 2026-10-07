@@ -7,9 +7,9 @@ nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
-exchanges: [bitget, gateio, mexc]
+exchanges: [WV, VQ, VK]
 transfer: open
-updated: 2026-10-06T03:55:40.343344Z
+updated: 2026-10-07T03:55:56.809252Z
 source: nightwatch-kg
 ---
 
@@ -20,31 +20,31 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 
 ## Identity
 - Contract: [[polygon-pos]] `0xd87af7…115f` (verified_same)
-- Listed on: [[bitget]], [[gateio]], [[mexc]]
+- Listed on: WV, VQ, VK
 
 ## Grade by exchange
-- [[bitget]]: B
-- [[gateio]]: A+
-- [[mexc]]: A-
+- WV: B
+- VQ: A+
+- VK: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-05 · [[gateio]] [[matic]] deposit → open · [[event/dw-resume]]
-- 2026-10-05 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-04 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-05 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-05 · VQ [[matic]] deposit → open · [[event/dw-resume]]
+- 2026-10-05 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-03 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: open:polygon,polygon
-- [[gateio]]: open:polygon,polygon
-- [[mexc]]: open:polygon
-- Recently reopened (48h): [[bitget]], [[gateio]]
+- WV: open:polygon,polygon
+- VQ: open:polygon,polygon
+- VK: open:polygon
+- Recently reopened (48h): WV, VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -56,15 +56,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 9 shadow trades · realized net **+3.88 USD** · win rate 100% (9 settled)
 
-- 2026-08-29 · livescan · [[mexc]]→[[gateio]] · +0.44 USD · _beat_
-- 2026-08-07 · livescan · [[mexc]]→[[gateio]] · +0.62 USD · _beat_
-- 2026-08-07 · livescan · [[mexc]]→[[bitget]] · +0.61 USD · _in_line_
+- 2026-08-29 · livescan · VK→VQ · +0.44 USD · _beat_
+- 2026-08-07 · livescan · VK→VQ · +0.62 USD · _beat_
+- 2026-08-07 · livescan · VK→WV · +0.61 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:40.343344Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:55:56.809252Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

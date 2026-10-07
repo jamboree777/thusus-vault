@@ -2,50 +2,50 @@
 token: ASP
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xad8c787992428cd158e451aab109f724b6bc36de" }
-exchanges: [gateio, kucoin, mexc, okx]
+exchanges: [VQ, YZ, VK, DL]
 transfer: partial
-updated: 2026-10-06T03:51:51.634452Z
+updated: 2026-10-07T03:52:00.369828Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ASP · NW Grade **A+**
+# ASP · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xad8c78…36de` (verified_same)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]], [[okx]]
+- Listed on: VQ, YZ, VK, DL
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[kucoin]]: A+
-- [[mexc]]: B+
-- [[okx]]: A+
+- VQ: B+
+- YZ: A-
+- VK: B+
+- DL: A
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-04 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-20 · [[gateio]] [[sol]] withdraw → open · [[event/dw-resume]]
-- 2026-07-14 · [[gateio]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-07-14 · [[gateio]] [[sol]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-13 · [[gateio]] [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-04 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-20 · VQ [[sol]] withdraw → open · [[event/dw-resume]]
+- 2026-07-14 · VQ [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-07-14 · VQ [[sol]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-13 · VQ [[solana]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[gateio]]: open:bsc,bsc,solana,solana
-- [[kucoin]]: open:bsc,bsc
-- [[mexc]]: closed:solana
-- [[okx]]: open:solana
+- VQ: open:bsc,bsc,solana,solana
+- YZ: open:bsc,bsc
+- VK: closed:solana
+- DL: open:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -57,14 +57,14 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 2 shadow trades · realized net **+10.27 USD** · win rate 100% (2 settled)
 
-- 2026-07-18 · livescan · [[okx]]→[[gateio]] · +3.75 USD · _beat_
-- 2026-07-18 · livescan · [[gateio]]→[[okx]] · +6.52 USD · _beat_
+- 2026-07-18 · livescan · DL→VQ · +3.75 USD · _beat_
+- 2026-07-18 · livescan · VQ→DL · +6.52 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:51:51.634452Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:00.369828Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

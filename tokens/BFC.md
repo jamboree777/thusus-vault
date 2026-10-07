@@ -2,55 +2,55 @@
 token: BFC
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0c7d5ae016f806603cb1782bea29ac69471cab9c" }
-exchanges: [bithumb, gateio, kucoin, upbit]
+exchanges: [SU, VQ, YZ, ZU]
 transfer: partial
-updated: 2026-10-06T03:52:35.811495Z
+updated: 2026-10-07T03:52:43.388954Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BFC · NW Grade **A+**
+# BFC · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x0c7d5a…ab9c` (verified_same)
-- Listed on: [[bithumb]], [[gateio]], [[kucoin]], [[upbit]]
+- Listed on: SU, VQ, YZ, ZU
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[gateio]]: C
-- [[kucoin]]: F
-- [[upbit]]: A+
+- SU: A
+- VQ: C
+- YZ: F
+- ZU: A
 
 ## Deposit / Withdrawal
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-30 · [[upbit]] [[bfc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[bfc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[bfc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[bfc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[bfc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[upbit]] [[bfc]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-30 · ZU [[bfc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[bfc]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[bfc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[bfc]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[bfc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · ZU [[bfc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bithumb]]: open:bfc
-- [[gateio]]: open:ethereum,ethereum
-- [[htx]]: open:bfc1
-- [[kucoin]]: closed:ethereum,ethereum
-- [[mexc]]: closed:solana
-- [[upbit]]: open:bfc
+- SU: open:bfc
+- VQ: open:ethereum,ethereum
+- ST: open:bfc1
+- YZ: closed:ethereum,ethereum
+- VK: closed:solana
+- ZU: open:bfc
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +61,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:35.811495Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:43.388954Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

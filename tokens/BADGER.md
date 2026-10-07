@@ -7,9 +7,9 @@ nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x3472a5a71965499acd81997a54bba8d852c6e53d" }
-exchanges: [coinbase, gateio, mexc]
+exchanges: [XD, VQ, VK]
 transfer: partial
-updated: 2026-10-06T03:52:15.997106Z
+updated: 2026-10-07T03:52:22.368141Z
 source: nightwatch-kg
 ---
 
@@ -20,38 +20,38 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x3472a5…e53d` (verified_same)
-- Listed on: [[coinbase]], [[gateio]], [[mexc]]
+- Listed on: XD, VQ, VK
 
 ## Grade by exchange
-- [[coinbase]]: B+
-- [[gateio]]: B-
-- [[mexc]]: D+
+- XD: B+
+- VQ: C-
+- VK: D+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ❌ / withdraw ❌
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[coinbase]]: deposit ❌ / withdraw ❌
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ❌ / withdraw ❌
-- [[mexc]]: deposit ❌ / withdraw ✅
+- GN: deposit ❌ / withdraw ❌
+- WV: deposit ❌ / withdraw ✅
+- XD: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ❌
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[coinbase]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[coinbase]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · XD [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-28 · XD [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-28 · WV [[erc20]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-24 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: closed:ethereum
-- [[bitget]]: closed:ethereum,ethereum
-- [[coinbase]]: closed:ethereum
-- [[gateio]]: open:ethereum,ethereum
-- [[kucoin]]: closed:ethereum,ethereum
-- [[mexc]]: closed:ethereum
-- Suspended now: [[binance]], [[coinbase]], [[kucoin]]
-- Recently reopened (48h): [[bitget]]
+- GN: closed:ethereum
+- WV: closed:ethereum,ethereum
+- XD: closed:ethereum
+- VQ: open:ethereum,ethereum
+- YZ: closed:ethereum,ethereum
+- VK: closed:ethereum
+- Suspended now: GN, XD, YZ
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -63,15 +63,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 3 shadow trades · realized net **+1.52 USD** · win rate 100% (3 settled)
 
-- 2026-07-22 · livescan · [[mexc]]→[[gateio]] · +0.52 USD
-- 2026-07-22 · livescan · [[mexc]]→[[gateio]] · +0.46 USD
-- 2026-07-20 · livescan · [[mexc]]→[[gateio]] · +0.54 USD
+- 2026-07-22 · livescan · VK→VQ · +0.52 USD
+- 2026-07-22 · livescan · VK→VQ · +0.46 USD
+- 2026-07-20 · livescan · VK→VQ · +0.54 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:15.997106Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:22.368141Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

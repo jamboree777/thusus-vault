@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
   - { chain: polygon-pos, address: "0x4f7cc8ef14f3dc76ee2fb60028749e1b61cea162" }
-exchanges: [binance, bitget, bithumb, bybit, gateio, hyperliquid-xyz, kucoin, mexc]
+exchanges: [GN, WV, SU, QK, VQ, hyperliquid-xyz, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:52:24.800327Z
+updated: 2026-10-07T03:52:32.386297Z
 source: nightwatch-kg
 ---
 
@@ -22,50 +22,45 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 ## Identity
 - Contract: [[ethereum]] `0xd459ec…73a3` (verified_same)
 - Contract: [[polygon-pos]] `0x4f7cc8…a162` (verified_same)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[hyperliquid-xyz]], [[kucoin]], [[mexc]]
+- Listed on: GN, WV, SU, QK, VQ, [[hyperliquid-xyz]], YZ, VK
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[bitget]]: A
-- [[bithumb]]: A
-- [[bybit]]: A+
-- [[gateio]]: A
+- GN: A+
+- WV: A
+- SU: A
+- QK: A+
+- VQ: A
 - [[hyperliquid-xyz]]: A+
-- [[kucoin]]: A
-- [[mexc]]: B+
+- YZ: A
+- VK: B+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ❌
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ❌ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ❌
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-30 · [[bithumb]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[bithumb]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · SU [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:bsc | closed:bb
-- [[bitget]]: closed:bb,bb,bsc,bsc
-- [[bithumb]]: open:bsc | closed:bb
-- [[bybit]]: open:bsc | closed:bouncebit
-- [[gateio]]: open:bsc,bsc | closed:bb,bb
-- [[htx]]: open:bb
-- [[kucoin]]: open:bsc,bsc | closed:bb,bouncebit
-- [[lbank]]: closed:bbscan,ethereum,polygon
-- [[mexc]]: open:bsc | closed:bouncebit
-- [[orangex]]: closed:bb
-- Suspended now: [[orangex]]
+- GN: open:bsc | closed:bb
+- WV: closed:bb,bb,bsc,bsc
+- SU: open:bsc | closed:bb
+- QK: open:bsc | closed:bouncebit
+- VQ: open:bsc,bsc | closed:bb,bb
+- ST: open:bb
+- YZ: open:bsc,bsc | closed:bb,bouncebit
+- VK: open:bsc | closed:bouncebit
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -77,15 +72,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 6 shadow trades · realized net **+3.93 USD** · win rate 66.7% (6 settled)
 
-- 2026-09-24 · carry-A · [[bithumb]]→[[binance]] · +1.02 USD · _held_
-- 2026-09-18 · carry-A · [[bithumb]]→[[binance]] · -0.18 USD · _held_
-- 2026-09-17 · carry-A · [[bithumb]]→[[binance]] · +3.94 USD · _held_
+- 2026-09-24 · carry-A · SU→GN · +1.02 USD · _held_
+- 2026-09-18 · carry-A · SU→GN · -0.18 USD · _held_
+- 2026-09-17 · carry-A · SU→GN · +3.94 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:24.800327Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:32.386297Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

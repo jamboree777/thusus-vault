@@ -7,51 +7,49 @@ nw_grade_worst: A-
 identity: partial
 contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
-exchanges: [bithumb, coinbase, gateio, mexc, upbit]
-transfer: partial
-updated: 2026-10-06T03:57:01.551039Z
+exchanges: [SU, XD, VQ, VK, ZU]
+transfer: open
+updated: 2026-10-07T03:57:28.862117Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # GEOD · NW Grade **A+**
 
-Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[polygon-pos]] `0xac0f66…9adb` (partial)
-- Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[mexc]], [[upbit]]
+- Listed on: SU, XD, VQ, VK, ZU
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[coinbase]]: A+
-- [[gateio]]: A-
-- [[mexc]]: A
-- [[upbit]]: A+
+- SU: A+
+- XD: A+
+- VQ: A-
+- VK: A
+- ZU: A
 
 ## Deposit / Withdrawal
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ❌
-- [[upbit]]: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-04 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · [[mexc]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[mexc]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-01 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[mexc]] [[polygon]] deposit → open · [[event/dw-resume]]
-- 2026-10-01 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · VK [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · VK [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · VK [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-01 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · VK [[polygon]] deposit → open · [[event/dw-resume]]
+- 2026-10-01 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bithumb]]: open:solana
-- [[coinbase]]: open:solana
-- [[gateio]]: open:polygon,polygon
-- [[mexc]]: open:polygon | closed:solana
-- [[orangex]]: closed:polygon
-- [[upbit]]: open:solana
+- SU: open:solana
+- XD: open:solana
+- VQ: open:polygon,polygon
+- VK: open:polygon | closed:solana
+- ZU: open:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -63,13 +61,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **-8.08 USD** · win rate 0% (1 settled)
 
-- 2026-07-28 · livescan · [[gateio]]→[[mexc]] · -8.08 USD · _mixed_
+- 2026-07-28 · livescan · VQ→VK · -8.08 USD · _mixed_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:57:01.551039Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:28.862117Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

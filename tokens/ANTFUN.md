@@ -2,48 +2,48 @@
 token: ANTFUN
 type: token
 tier: free
-nw_grade: D
+nw_grade: B+
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [VQ, YZ, VK]
 transfer: blocked
-updated: 2026-10-06T03:51:33.287957Z
+updated: 2026-10-07T03:51:37.726137Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ANTFUN · NW Grade **D**
+# ANTFUN · NW Grade **B+**
 
-Solana-network token; NW grade D liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Solana-network token; NW grade B+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[solana]] `cwz6bsdn…4cmt` (verified_same)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- [[gateio]]: F
-- [[kucoin]]: D
-- [[mexc]]: F
+- VQ: B+
+- YZ: B
+- VK: F
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ❌ / withdraw ✅
-- [[kucoin]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- VQ: deposit ❌ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-09-28 · [[gateio]] [[sol]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[kucoin]] [[sol]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-21 · [[kucoin]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-21 · [[gateio]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-21 · [[mexc]] [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-15 · [[mexc]] [[solana]] deposit → open · [[event/dw-resume]]
+- 2026-09-28 · VQ [[sol]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-28 · YZ [[sol]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-21 · YZ [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-21 · VQ [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-21 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-15 · VK [[solana]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[gateio]]: closed:solana,solana
-- [[kucoin]]: closed:solana,solana
-- [[mexc]]: closed:solana
+- VQ: closed:solana,solana
+- YZ: closed:solana,solana
+- VK: closed:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -55,13 +55,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **-0.94 USD** · win rate 0% (1 settled)
 
-- 2026-09-21 · livescan · [[gateio]]→[[kucoin]] · -0.94 USD · _price_drift_
+- 2026-09-21 · livescan · VQ→YZ · -0.94 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:51:33.287957Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:51:37.726137Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

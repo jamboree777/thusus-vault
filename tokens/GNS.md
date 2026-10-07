@@ -7,9 +7,9 @@ nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
-exchanges: [binance, gateio, mexc]
+exchanges: [GN, VQ, VK]
 transfer: partial
-updated: 2026-10-06T03:57:10.378311Z
+updated: 2026-10-07T03:57:37.677866Z
 source: nightwatch-kg
 ---
 
@@ -20,36 +20,36 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 
 ## Identity
 - Contract: [[polygon-pos]] `0xe5417a…7896` (verified_same)
-- Listed on: [[binance]], [[gateio]], [[mexc]]
+- Listed on: GN, VQ, VK
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[gateio]]: B
-- [[mexc]]: A+
+- GN: A+
+- VQ: B
+- VK: A+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ❌ / withdraw ❌
-- [[mexc]]: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ❌
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-05 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-04 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[bitget]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · [[bitget]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[arbitrum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-05 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-05 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[arbitrum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[binance]]: open:arbitrum,arbone | closed:polygon
-- [[bitget]]: closed:polygon,polygon
-- [[gateio]]: open:polygon,polygon | closed:arbevm,arbone
-- [[kucoin]]: closed:arbitrum,arbitrum,polygon,polygon
-- [[mexc]]: open:arbitrum | closed:none,polygon
-- Suspended now: [[kucoin]]
-- Recently reopened (48h): [[bitget]]
+- GN: open:arbitrum,arbone | closed:polygon
+- WV: closed:polygon,polygon
+- VQ: open:polygon,polygon | closed:arbevm,arbone
+- YZ: closed:arbitrum,arbitrum,polygon,polygon
+- VK: open:arbitrum | closed:none,polygon
+- Suspended now: YZ
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:57:10.378311Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:37.677866Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

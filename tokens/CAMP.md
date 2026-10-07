@@ -3,13 +3,13 @@ token: CAMP
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: D+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
-exchanges: [bithumb, bybit, gateio, kucoin, mexc]
+exchanges: [SU, QK, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:53:38.304082Z
+updated: 2026-10-07T03:53:48.715731Z
 source: nightwatch-kg
 ---
 
@@ -20,44 +20,44 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Identity
 - Contract: [[ethereum]] `0x84eaac…71fc` (verified_same)
-- Listed on: [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: SU, QK, VQ, YZ, VK
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[bybit]]: A-
-- [[gateio]]: D+
-- [[kucoin]]: A-
-- [[mexc]]: B
+- SU: A-
+- QK: A-
+- VQ: C+
+- YZ: A
+- VK: B
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[bithumb]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ❌
-- [[toobit]]: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- SU: deposit ❌ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ❌
+- CJ: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-06 · QK [[camp]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum,ethereum
-- [[bithumb]]: closed:ethereum
-- [[bybit]]: closed:camp,ethereum
-- [[gateio]]: open:ethereum,ethereum
-- [[htx]]: open:camp
-- [[kucoin]]: open:camp,camp | closed:ethereum,ethereum
-- [[mexc]]: closed:camp,ethereum
-- [[toobit]]: open:ethereum
-- Suspended now: [[mexc]]
-- Recently reopened (48h): [[bitget]]
+- WV: closed:ethereum,ethereum
+- SU: closed:ethereum
+- QK: closed:camp,ethereum
+- VQ: open:ethereum,ethereum
+- ST: open:camp
+- YZ: open:camp,camp | closed:ethereum,ethereum
+- VK: closed:camp,ethereum
+- CJ: open:ethereum
+- Suspended now: QK, VK
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,15 +69,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 5 shadow trades · realized net **+3.54 USD** · win rate 80% (5 settled)
 
-- 2026-08-18 · livescan · [[kucoin]]→[[bitget]] · -0.76 USD · _price_drift_
-- 2026-08-09 · livescan · [[bybit]]→[[bitget]] · +1.45 USD · _depth_shrink_
-- 2026-07-31 · livescan · [[bybit]]→[[bitget]] · +0.38 USD · _cost_drag_
+- 2026-08-18 · livescan · YZ→WV · -0.76 USD · _price_drift_
+- 2026-08-09 · livescan · QK→WV · +1.45 USD · _depth_shrink_
+- 2026-07-31 · livescan · QK→WV · +0.38 USD · _cost_drag_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:53:38.304082Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:53:48.715731Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

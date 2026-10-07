@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x1151cb3d861920e07a38e03eead12c32178567f6" }
   - { chain: solana, address: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263" }
-exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
+exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-06T03:53:08.632141Z
+updated: 2026-10-07T03:53:13.663514Z
 source: nightwatch-kg
 ---
 
@@ -22,61 +22,56 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 ## Identity
 - Contract: [[ethereum]] `0x1151cb…67f6` (verified_same)
 - Contract: [[solana]] `dezxaz8z…b263` (verified_same)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]], [[upbit]]
+- Listed on: GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[bitget]]: A
-- [[bithumb]]: B+
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: A+
-- [[kucoin]]: A+
-- [[mexc]]: A+
-- [[okx]]: A+
-- [[upbit]]: A+
+- GN: A+
+- WV: A
+- SU: B+
+- QK: A+
+- XD: A+
+- VQ: A+
+- YZ: A+
+- VK: A+
+- DL: A+
+- ZU: A+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ❌ / withdraw ✅
-- [[woox]]: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
+- ZU: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[sol]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[bithumb]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[solana]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · SU [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:bsc,solana
-- [[bitget]]: open:solana,solana
-- [[bithumb]]: open:solana
-- [[bybit]]: open:solana
-- [[coinbase]]: open:solana
-- [[gateio]]: open:solana,solana
-- [[htx]]: open:bonk
-- [[kucoin]]: open:solana,solana
-- [[lbank]]: closed:solana
-- [[mexc]]: open:solana
-- [[okx]]: open:solana
-- [[orangex]]: open:solana
-- [[toobit]]: open:solana
-- [[upbit]]: closed:solana
-- [[woox]]: open:solana
+- GN: open:bsc,solana
+- WV: open:solana,solana
+- SU: open:solana
+- QK: open:solana
+- XD: open:solana
+- VQ: open:solana,solana
+- ST: open:bonk
+- YZ: open:solana,solana
+- VK: open:solana
+- DL: open:solana
+- CJ: open:solana
+- ZU: closed:solana
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -87,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:53:08.632141Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:53:13.663514Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

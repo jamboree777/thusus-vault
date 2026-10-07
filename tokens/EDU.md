@@ -7,9 +7,9 @@ nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x26aad156ba8efa501b32b42ffcdc8413f90e9c99" }
-exchanges: [binance, bithumb, gateio, kucoin, mexc]
+exchanges: [GN, SU, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:55:51.337996Z
+updated: 2026-10-07T03:56:07.826072Z
 source: nightwatch-kg
 ---
 
@@ -20,41 +20,41 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x26aad1…9c99` (verified_same)
-- Listed on: [[binance]], [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: GN, SU, VQ, YZ, VK
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[bithumb]]: A+
-- [[gateio]]: A
-- [[kucoin]]: B+
-- [[mexc]]: C+
+- GN: A+
+- SU: A
+- VQ: A
+- YZ: B+
+- VK: C+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[bep20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[bithumb]] [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · SU [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:bsc
-- [[bitget]]: closed:bsc,bsc
-- [[bithumb]]: open:bsc
-- [[gateio]]: open:bsc,bsc
-- [[kucoin]]: open:bsc,bsc
-- [[mexc]]: open:bsc
-- [[toobit]]: open:bsc
-- Recently reopened (48h): [[bitget]]
+- GN: open:bsc
+- WV: closed:bsc,bsc
+- SU: open:bsc
+- VQ: open:bsc,bsc
+- YZ: open:bsc,bsc
+- VK: open:bsc
+- CJ: open:bsc
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,15 +66,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 3 shadow trades · realized net **-0.57 USD** · win rate 33.3% (3 settled)
 
-- 2026-10-06 · carry-A · [[bithumb]]→[[binance]] · -1.14 USD · _held_
-- 2026-10-05 · carry-A · [[bithumb]]→[[binance]] · +0.82 USD · _held_
-- 2026-09-28 · carry-A · [[bithumb]]→[[binance]] · -0.25 USD · _held_
+- 2026-10-06 · carry-A · SU→GN · -1.14 USD · _held_
+- 2026-10-05 · carry-A · SU→GN · +0.82 USD · _held_
+- 2026-09-28 · carry-A · SU→GN · -0.25 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:51.337996Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:07.826072Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

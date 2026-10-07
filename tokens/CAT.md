@@ -7,10 +7,10 @@ nw_grade_worst: D
 identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x6894cde390a3f51155ea41ed24a33a4827d3063d" }
-exchanges: [bybit, gateio, hyperliquid, kucoin, mexc, okx]
+exchanges: [QK, VQ, hyperliquid, YZ, VK, DL]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-06T03:53:56.633003Z
+updated: 2026-10-07T03:53:53.973157Z
 source: nightwatch-kg
 ---
 
@@ -21,39 +21,39 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x6894cd…063d` (partial)
-- Listed on: [[bybit]], [[gateio]], [[hyperliquid]], [[kucoin]], [[mexc]], [[okx]]
+- Listed on: QK, VQ, [[hyperliquid]], YZ, VK, DL
 
 ## Grade by exchange
-- [[bybit]]: A+
-- [[gateio]]: A
+- QK: A+
+- VQ: A
 - [[hyperliquid]]: D
-- [[kucoin]]: B+
-- [[mexc]]: B+
-- [[okx]]: A+
+- YZ: B+
+- VK: B+
+- DL: A+
 
 ## Deposit / Withdrawal
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ❌ / withdraw ❌
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- VQ: deposit ❌ / withdraw ❌
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-28 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[eth]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[eth]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · VQ [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-12 · VQ [[eth]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · VQ [[eth]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[bybit]]: open:bsc
-- [[gateio]]: closed:ethereum,ethereum
-- [[kucoin]]: open:bsc,bsc
-- [[mexc]]: open:bsc
-- [[okx]]: open:bsc
-- Suspended now: [[gateio]]
+- QK: open:bsc
+- VQ: closed:ethereum,ethereum
+- YZ: open:bsc,bsc
+- VK: open:bsc
+- DL: open:bsc
+- Suspended now: VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,13 +65,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **-1.06 USD** · win rate 0% (1 settled)
 
-- 2026-08-08 · livescan · [[okx]]→[[bybit]] · -1.06 USD · _mixed_
+- 2026-08-08 · livescan · DL→QK · -1.06 USD · _mixed_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:53:56.633003Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:53:53.973157Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

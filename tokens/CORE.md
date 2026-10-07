@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: native
 contracts:
   - { chain: core, address: "0x191e94fa59739e188dce837f7f6978d84727ad01" }
-exchanges: [bitget, bithumb, bybit, gateio, mexc, okx]
+exchanges: [WV, SU, QK, VQ, VK, DL]
 transfer: partial
-updated: 2026-10-06T03:54:22.999504Z
+updated: 2026-10-07T03:54:35.257007Z
 source: nightwatch-kg
 ---
 
@@ -20,45 +20,42 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Identity
 - Contract: [[core]] `0x191e94…ad01` (native)
-- Listed on: [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[mexc]], [[okx]]
+- Listed on: WV, SU, QK, VQ, VK, DL
 
 ## Grade by exchange
-- [[bitget]]: A+
-- [[bithumb]]: A
-- [[bybit]]: A+
-- [[gateio]]: A
-- [[mexc]]: B+
-- [[okx]]: A+
+- WV: A+
+- SU: A
+- QK: A+
+- VQ: A
+- VK: B+
+- DL: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ❌ / withdraw ❌
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ❌ / withdraw ❌
+- QK: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-04 · [[bitget]] [[coredao]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[bitget]] [[coredao]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · [[bitget]] [[coredao]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[core]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[core]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-26 · [[bitget]] [[coredao]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · WV [[coredao]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[coredao]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-03 · WV [[coredao]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[core]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[core]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-26 · WV [[coredao]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:coredao,coredao
-- [[bithumb]]: closed:core
-- [[bybit]]: open:core
-- [[gateio]]: open:core,core
-- [[htx]]: open:core
-- [[lbank]]: closed:core
-- [[mexc]]: open:core
-- [[okx]]: open:core
-- Suspended now: [[bithumb]]
-- Recently reopened (48h): [[bitget]]
+- WV: open:coredao,coredao
+- SU: closed:core
+- QK: open:core
+- VQ: open:core,core
+- ST: open:core
+- VK: open:core
+- DL: open:core
+- Suspended now: SU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +66,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:22.999504Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:35.257007Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

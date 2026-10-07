@@ -2,67 +2,65 @@
 token: BLAST
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: C
+nw_grade: A
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
-exchanges: [bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, upbit]
+exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
-updated: 2026-10-06T03:52:44.600334Z
+updated: 2026-10-07T03:52:58.264006Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLAST · NW Grade **A+**
+# BLAST · NW Grade **A**
 
-Blast-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Blast-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[blast]] `0xb1a570…e2ad` (verified_same)
-- Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[upbit]]
+- Listed on: WV, SU, QK, XD, VQ, YZ, VK, ZU
 
 ## Grade by exchange
-- [[bitget]]: C
-- [[bithumb]]: A
-- [[bybit]]: A
-- [[coinbase]]: A
-- [[gateio]]: B+
-- [[kucoin]]: B+
-- [[mexc]]: B+
-- [[upbit]]: A+
+- WV: C
+- SU: B+
+- QK: D
+- XD: B+
+- VQ: B+
+- YZ: D
+- VK: B+
+- ZU: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[bithumb]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ❌ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- SU: deposit ❌ / withdraw ✅
+- QK: deposit ❌ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
+- ZU: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-10-02 · [[upbit]] [[blastnet]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-02 · [[bithumb]] [[blast]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-02 · [[bitget]] [[blast]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[blastnet]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[blastnet]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[blast]] withdraw → open · [[event/dw-resume]]
+- 2026-10-07 · VQ [[blast]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-06 · QK [[blast]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-02 · ZU [[blastnet]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-02 · SU [[blast]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-02 · WV [[blast]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[blastnet]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: closed:blast,blast
-- [[bithumb]]: closed:blast
-- [[bybit]]: open:blast
-- [[coinbase]]: open:blast
-- [[gateio]]: open:blast,blasteth
-- [[htx]]: open:blast
-- [[kucoin]]: open:blast,blast
-- [[mexc]]: closed:blast
-- [[orangex]]: open:blast
-- [[upbit]]: closed:blastnet
+- WV: closed:blast,blast
+- SU: closed:blast
+- QK: closed:blast
+- XD: open:blast
+- VQ: open:blasteth | closed:blast
+- ST: open:blast
+- YZ: open:blast,blast
+- VK: closed:blast
+- ZU: closed:blastnet
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,7 +76,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:44.600334Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:58.264006Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

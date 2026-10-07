@@ -7,67 +7,60 @@ nw_grade_worst: A+
 identity: native
 contracts:
   - { chain: the-open-network, address: "eqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaam9c" }
-exchanges: [binance, bithumb, bybit, hyperliquid-perp, mexc, okx]
-transfer: partial
-updated: 2026-10-06T03:57:16.960918Z
+exchanges: [GN, SU, QK, hyperliquid-perp, VK, DL]
+transfer: open
+updated: 2026-10-07T03:57:44.269076Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # GRAM · NW Grade **A+**
 
-The-open-network-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+The-open-network-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[the-open-network]] `eqaaaaaa…am9c` (native)
-- Listed on: [[binance]], [[bithumb]], [[bybit]], [[hyperliquid-perp]], [[mexc]], [[okx]]
+- Listed on: GN, SU, QK, [[hyperliquid-perp]], VK, DL
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[bithumb]]: A+
-- [[bybit]]: A+
+- GN: A+
+- SU: A+
+- QK: A+
 - [[hyperliquid-perp]]: A+
-- [[mexc]]: A+
-- [[okx]]: A+
+- VK: A+
+- DL: A+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
-- [[woox]]: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-04 · [[bitget]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[binance]] [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[binance]] [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-04 · [[binance]] [[ton]] deposit → open · [[event/dw-resume]]
-- 2026-10-04 · [[binance]] [[ton]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-04 · [[bitget]] [[ton]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · WV [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · GN [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · GN [[ton]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · GN [[ton]] deposit → open · [[event/dw-resume]]
+- 2026-10-04 · GN [[ton]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-04 · WV [[ton]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:ton | closed:tonmemo
-- [[bitget]]: open:ton,ton
-- [[bithumb]]: open:ton
-- [[bybit]]: open:ton
-- [[gateio]]: open:ton,ton
-- [[htx]]: open:ton
-- [[kucoin]]: open:ton | closed:ton,ton2
-- [[lbank]]: closed:ton,toncoin
-- [[mexc]]: open:ton
-- [[okx]]: open:the open network (ton)
-- [[orangex]]: open:ton
-- [[upbit]]: open:gram
-- [[woox]]: open:ton
-- Recently reopened (48h): [[binance]], [[bitget]]
+- GN: open:ton | closed:tonmemo
+- WV: open:ton,ton
+- SU: open:ton
+- QK: open:ton
+- VQ: open:ton,ton
+- ST: open:ton
+- YZ: open:ton | closed:ton,ton2
+- VK: open:ton
+- DL: open:the open network (ton)
+- ZU: open:gram
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:57:16.960918Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:44.269076Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

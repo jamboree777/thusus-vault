@@ -7,74 +7,69 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc00e94cb662c3520282e6f5717214004a7f26888" }
-exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
-transfer: partial
-updated: 2026-10-06T03:54:16.400063Z
+exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
+transfer: open
+updated: 2026-10-07T03:54:28.688570Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # COMP · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xc00e94…6888` (verified_same)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]], [[upbit]]
+- Listed on: GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[bitget]]: A
-- [[bithumb]]: A+
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: A
-- [[kucoin]]: A
-- [[mexc]]: A+
-- [[okx]]: A+
-- [[upbit]]: A+
+- GN: A+
+- WV: A
+- SU: A+
+- QK: A+
+- XD: A+
+- VQ: A
+- YZ: A
+- VK: A+
+- DL: A+
+- ZU: A+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
-- [[woox]]: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[binance]]: open:bsc,ethereum
-- [[bitget]]: open:ethereum,ethereum
-- [[bithumb]]: open:ethereum
-- [[bybit]]: open:ethereum
-- [[coinbase]]: open:ethereum
-- [[gateio]]: open:ethereum,ethereum
-- [[htx]]: open:comp
-- [[kucoin]]: open:ethereum,ethereum,kcc,kcc
-- [[lbank]]: closed:ethereum
-- [[mexc]]: open:ethereum
-- [[okx]]: open:ethereum
-- [[orangex]]: open:ethereum
-- [[toobit]]: open:ethereum
-- [[upbit]]: open:ethereum
-- [[woox]]: open:ethereum
+- GN: open:bsc,ethereum
+- WV: open:ethereum,ethereum
+- SU: open:ethereum
+- QK: open:ethereum
+- XD: open:ethereum
+- VQ: open:ethereum,ethereum
+- ST: open:comp
+- YZ: open:ethereum,ethereum,kcc,kcc
+- VK: open:ethereum
+- DL: open:ethereum
+- CJ: open:ethereum
+- ZU: open:ethereum
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -85,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:16.400063Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:28.688570Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

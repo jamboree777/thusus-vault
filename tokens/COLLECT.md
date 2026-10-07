@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x4b3d30992f003c8167699735f5ab2831b2a087d3" }
-exchanges: [bitget, mexc]
+exchanges: [WV, VK]
 transfer: partial
-updated: 2026-10-06T03:54:11.995520Z
+updated: 2026-10-07T03:54:24.301795Z
 source: nightwatch-kg
 ---
 
@@ -20,31 +20,31 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x4b3d30…87d3` (partial)
-- Listed on: [[bitget]], [[mexc]]
+- Listed on: WV, VK
 
 ## Grade by exchange
-- [[bitget]]: A+
-- [[mexc]]: B+
+- WV: A+
+- VK: B+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ❌ / withdraw ❌
-- [[mexc]]: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- VQ: deposit ❌ / withdraw ❌
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[bep20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · [[bitget]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:bsc,bsc
-- [[gateio]]: closed:ethereum,ethereum
-- [[mexc]]: open:bsc
-- Suspended now: [[gateio]]
-- Recently reopened (48h): [[bitget]]
+- WV: open:bsc,bsc
+- VQ: closed:ethereum,ethereum
+- VK: open:bsc
+- Suspended now: VQ
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -56,15 +56,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 11 shadow trades · realized net **+51.14 USD** · win rate 100% (11 settled)
 
-- 2026-09-26 · livescan · [[bitget]]→[[mexc]] · +1.60 USD · _depth_shrink_
-- 2026-09-26 · livescan · [[bitget]]→[[mexc]] · +3.05 USD · _in_line_
-- 2026-09-26 · livescan · [[bitget]]→[[mexc]] · +1.60 USD · _in_line_
+- 2026-09-26 · livescan · WV→VK · +1.60 USD · _depth_shrink_
+- 2026-09-26 · livescan · WV→VK · +3.05 USD · _in_line_
+- 2026-09-26 · livescan · WV→VK · +1.60 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:11.995520Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:24.301795Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

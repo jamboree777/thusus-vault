@@ -7,9 +7,9 @@ nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
-exchanges: [bithumb, coinbase, gateio, hyperliquid, mexc, upbit]
+exchanges: [SU, XD, VQ, hyperliquid, VK, ZU]
 transfer: partial
-updated: 2026-10-06T03:55:35.940120Z
+updated: 2026-10-07T03:55:52.420707Z
 source: nightwatch-kg
 ---
 
@@ -20,39 +20,37 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xb1d1ea…71be` (verified_same)
-- Listed on: [[bithumb]], [[coinbase]], [[gateio]], [[hyperliquid]], [[mexc]], [[upbit]]
+- Listed on: SU, XD, VQ, [[hyperliquid]], VK, ZU
 
 ## Grade by exchange
-- [[bithumb]]: A
-- [[coinbase]]: A+
-- [[gateio]]: A
+- SU: A+
+- XD: A+
+- VQ: A
 - [[hyperliquid]]: A
-- [[mexc]]: C
-- [[upbit]]: A+
+- VK: C
+- ZU: A+
 
 ## Deposit / Withdrawal
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ❌
-- [[upbit]]: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-30 · [[upbit]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[upbit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-30 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bithumb]]: open:ethereum
-- [[coinbase]]: open:base
-- [[gateio]]: open:ethereum,ethereum
-- [[mexc]]: closed:ethereum
-- [[orangex]]: closed:ethereum
-- [[upbit]]: open:ethereum
+- SU: open:ethereum
+- XD: open:base
+- VQ: open:ethereum,ethereum
+- VK: closed:ethereum
+- ZU: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -62,17 +60,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-17 shadow trades · realized net **+38.82 USD** · win rate 100% (17 settled)
+16 shadow trades · realized net **+37.64 USD** · win rate 100% (16 settled)
 
-- 2026-09-23 · carry-A · [[upbit]]→[[gateio]] · +2.90 USD
-- 2026-09-23 · carry-A · [[bithumb]]→[[gateio]] · +1.19 USD
-- 2026-09-21 · carry-A · [[bithumb]]→[[gateio]] · +1.44 USD
+- 2026-09-23 · carry-A · ZU→VQ · +2.90 USD
+- 2026-09-23 · carry-A · SU→VQ · +1.19 USD
+- 2026-09-21 · carry-A · SU→VQ · +1.44 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:35.940120Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:55:52.420707Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -7,9 +7,9 @@ nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb30fe1cf884b48a22a50d22a9282004f2c5e9406" }
-exchanges: [bybit, coinbase, kucoin, mexc]
+exchanges: [QK, XD, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:57:21.363837Z
+updated: 2026-10-07T03:57:48.683357Z
 source: nightwatch-kg
 ---
 
@@ -20,33 +20,33 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xb30fe1…9406` (verified_same)
-- Listed on: [[bybit]], [[coinbase]], [[kucoin]], [[mexc]]
+- Listed on: QK, XD, YZ, VK
 
 ## Grade by exchange
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[kucoin]]: B+
-- [[mexc]]: B-
+- QK: A+
+- XD: A+
+- YZ: B+
+- VK: B-
 
 ## Deposit / Withdrawal
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-09-07 · [[bybit]] [[mantle]] withdraw → closed · [[event/dw-freeze]]
-- 2026-08-14 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-14 · [[mexc]] [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-08-10 · [[mexc]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-13 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-07-12 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-07 · QK [[mantle]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-14 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-14 · VK [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-08-10 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-13 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-07-12 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bybit]]: open:ethereum | closed:mantle
-- [[coinbase]]: open:ethereum
-- [[kucoin]]: open:ethereum,ethereum
-- [[mexc]]: closed:ethereum
+- QK: open:ethereum | closed:mantle
+- XD: open:ethereum
+- YZ: open:ethereum,ethereum
+- VK: closed:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,15 +58,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 3 shadow trades · realized net **+17.70 USD** · win rate 100% (3 settled)
 
-- 2026-08-25 · livescan · [[kucoin]]→[[bybit]] · +15.96 USD · _beat_
-- 2026-08-03 · livescan · [[mexc]]→[[coinbase]] · +1.40 USD · _in_line_
-- 2026-07-25 · livescan · [[kucoin]]→[[coinbase]] · +0.35 USD · _price_drift_
+- 2026-08-25 · livescan · YZ→QK · +15.96 USD · _beat_
+- 2026-08-03 · livescan · VK→XD · +1.40 USD · _in_line_
+- 2026-07-25 · livescan · YZ→XD · +0.35 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:57:21.363837Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:48.683357Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

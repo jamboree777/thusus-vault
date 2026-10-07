@@ -3,77 +3,72 @@ token: AVNT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: base, address: "0x696f9436b67233384889472cd7cd58a6fb5df4f1" }
-exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
-transfer: partial
-updated: 2026-10-06T03:52:04.666757Z
+exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
+transfer: open
+updated: 2026-10-07T03:52:13.561841Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AVNT · NW Grade **A+**
 
-Base-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Base-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[base]] `0x696f94…f4f1` (verified_same)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]], [[upbit]]
+- Listed on: GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[bitget]]: A
-- [[bithumb]]: A-
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: A
-- [[kucoin]]: A+
-- [[mexc]]: A
-- [[okx]]: A+
-- [[upbit]]: A
+- GN: A+
+- WV: A
+- SU: A
+- QK: A+
+- XD: A+
+- VQ: A
+- YZ: A+
+- VK: A
+- DL: A+
+- ZU: A
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ❌
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-03 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[upbit]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[upbit]] [[base]] deposit → open · [[event/dw-resume]]
-- 2026-10-01 · [[bithumb]] [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · WV [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-10-01 · SU [[base]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[binance]]: open:base
-- [[bitget]]: open:base,base
-- [[bithumb]]: open:base
-- [[bybit]]: open:base
-- [[coinbase]]: open:base
-- [[gateio]]: open:base,baseevm
-- [[htx]]: open:avnt
-- [[kucoin]]: open:base,base
-- [[lbank]]: closed:base mainnet
-- [[mexc]]: open:base
-- [[okx]]: open:base
-- [[orangex]]: open:base
-- [[toobit]]: open:base
-- [[upbit]]: open:base,base
-- Suspended now: [[lbank]]
+- GN: open:base
+- WV: open:base,base
+- SU: open:base
+- QK: open:base
+- XD: open:base
+- VQ: open:base,baseevm
+- ST: open:avnt
+- YZ: open:base,base
+- VK: open:base
+- DL: open:base
+- CJ: open:base
+- ZU: open:base,base
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -84,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:04.666757Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:13.561841Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

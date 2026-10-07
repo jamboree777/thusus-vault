@@ -8,9 +8,9 @@ identity: partial
 contracts:
   - { chain: bitlayer, address: "0x0e4cf4affdb72b39ea91fa726d291781cbd020bf" }
   - { chain: ethereum, address: "0x6c76de483f1752ac8473e2b4983a873991e70da7" }
-exchanges: [bitget, bithumb, gateio, kucoin, mexc]
+exchanges: [WV, SU, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:53:27.288105Z
+updated: 2026-10-07T03:53:37.713378Z
 source: nightwatch-kg
 ---
 
@@ -22,39 +22,39 @@ Bitlayer/ethereum-network token; NW grade A+ liquidity; transfer is partial (som
 ## Identity
 - Contract: [[bitlayer]] `0x0e4cf4…20bf` (partial)
 - Contract: [[ethereum]] `0x6c76de…0da7` (partial)
-- Listed on: [[bitget]], [[bithumb]], [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: WV, SU, VQ, YZ, VK
 
 ## Grade by exchange
-- [[bitget]]: B+
-- [[bithumb]]: A+
-- [[gateio]]: B
-- [[kucoin]]: A+
-- [[mexc]]: A
+- WV: B+
+- SU: A+
+- VQ: B
+- YZ: A+
+- VK: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-10-05 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[mexc]] [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-10-05 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · VK [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum,ethereum
-- [[bithumb]]: open:ethereum
-- [[gateio]]: open:bsc,bsc,btrbtc,btrbtc
-- [[kucoin]]: open:bitlayer,bitlayer
-- [[mexc]]: open:bsc,ethereum | closed:bitlayer,none
-- [[toobit]]: open:bsc
-- Recently reopened (48h): [[bitget]], [[mexc]]
+- WV: closed:ethereum,ethereum
+- SU: open:ethereum
+- VQ: open:bsc,bsc,btrbtc,btrbtc
+- YZ: open:bitlayer,bitlayer
+- VK: open:bsc,ethereum | closed:bitlayer,none
+- CJ: open:bsc
+- Recently reopened (48h): WV, VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +65,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:53:27.288105Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:53:37.713378Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

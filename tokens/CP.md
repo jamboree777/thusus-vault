@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: base, address: "0x001aad84c21a5cd4d696c56d44866e9703c43f77" }
   - { chain: internet-computer, address: "ryjl3-tyaaa-aaaaa-aaaba-cai" }
-exchanges: [bitget, bithumb, coinbase, kucoin, okx, upbit]
+exchanges: [WV, SU, XD, YZ, DL, ZU]
 transfer: open
-updated: 2026-10-06T03:54:36.830209Z
+updated: 2026-10-07T03:54:44.004150Z
 source: nightwatch-kg
 ---
 
@@ -22,43 +22,42 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 ## Identity
 - Contract: [[base]] `0x001aad…3f77` (verified_same)
 - Contract: [[internet-computer]] `ryjl3-ty…-cai` (verified_same)
-- Listed on: [[bitget]], [[bithumb]], [[coinbase]], [[kucoin]], [[okx]], [[upbit]]
+- Listed on: WV, SU, XD, YZ, DL, ZU
 
 ## Grade by exchange
-- [[bithumb]]: A+
-- [[coinbase]]: A+
-- [[kucoin]]: B+
-- [[okx]]: A+
-- [[upbit]]: A
+- SU: A+
+- XD: A+
+- YZ: B+
+- DL: A+
+- ZU: A
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-04 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[upbit]] [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · WV [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · ZU [[base]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: open:base,base
-- [[bithumb]]: open:base
-- [[coinbase]]: open:base
-- [[gateio]]: open:base,baseevm
-- [[kucoin]]: open:base,base
-- [[mexc]]: open:base
-- [[okx]]: open:base
-- [[upbit]]: open:base
-- Recently reopened (48h): [[bitget]]
+- WV: open:base,base
+- SU: open:base
+- XD: open:base
+- VQ: open:base,baseevm
+- YZ: open:base,base
+- VK: open:base
+- DL: open:base
+- ZU: open:base
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,13 +69,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **+0.92 USD** · win rate 100% (1 settled)
 
-- 2026-09-20 · carry-A · [[bithumb]]→[[okx]] · +0.92 USD · _held_
+- 2026-09-20 · carry-A · SU→DL · +0.92 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:36.830209Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:44.004150Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

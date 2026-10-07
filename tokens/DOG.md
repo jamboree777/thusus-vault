@@ -7,10 +7,10 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "dog1viwbb2vwdper5frj4yfg6gq6xuyfohue9txn65u" }
-exchanges: [bitget, gateio, mexc]
+exchanges: [WV, VQ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-06T03:55:29.337456Z
+updated: 2026-10-07T03:55:28.691307Z
 source: nightwatch-kg
 ---
 
@@ -21,32 +21,32 @@ Solana-network token; NW grade A liquidity; transfer is partial (some venues fro
 
 ## Identity
 - Contract: [[solana]] `dog1viwb…n65u` (verified_same)
-- Listed on: [[bitget]], [[gateio]], [[mexc]]
+- Listed on: WV, VQ, VK
 
 ## Grade by exchange
-- [[bitget]]: B+
-- [[gateio]]: A
-- [[mexc]]: B+
+- WV: B+
+- VQ: A
+- VK: B+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[btcrunes]] withdraw → open · [[event/dw-resume]]
-- 2026-10-05 · [[bitget]] [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-04 · [[bitget]] [[btcrunes]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[bitget]] [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · [[bitget]] [[btcrunes]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[btcrunes]] withdraw → open · [[event/dw-resume]]
+- 2026-10-05 · WV [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · WV [[btcrunes]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-03 · WV [[btcrunes]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[bitget]]: closed:btcrunes,btcrunes
-- [[gateio]]: open:btcrunes,btcrunes
-- [[mexc]]: open:btcrunes
-- Recently reopened (48h): [[bitget]]
+- WV: closed:btcrunes,btcrunes
+- VQ: open:btcrunes,btcrunes
+- VK: open:btcrunes
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,13 +58,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **+1.76 USD** · win rate 100% (1 settled)
 
-- 2026-07-27 · livescan · [[gateio]]→[[bitget]] · +1.76 USD · _mixed_
+- 2026-07-27 · livescan · VQ→WV · +1.76 USD · _mixed_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:29.337456Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:55:28.691307Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

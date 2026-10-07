@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406" }
-exchanges: [gateio, kucoin]
+exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-06T03:52:29.197443Z
+updated: 2026-10-07T03:52:36.811100Z
 source: nightwatch-kg
 ---
 
@@ -20,31 +20,32 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xbef26b…c406` (verified_same)
-- Listed on: [[gateio]], [[kucoin]]
+- Listed on: VQ, YZ
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[kucoin]]: B+
+- VQ: B+
+- YZ: B+
 
 ## Deposit / Withdrawal
-- [[bybit]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-10-01 · [[bybit]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[bybit]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-01 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-29 · [[mexc]] [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-09-29 · [[mexc]] [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-06 · QK [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-01 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · QK [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-01 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bybit]]: closed:ethereum,polygon
-- [[gateio]]: open:ethereum,ethereum | closed:polygon,polygon
-- [[kucoin]]: open:ethereum,ethereum
-- [[mexc]]: closed:polygon
+- QK: closed:ethereum,polygon
+- VQ: open:ethereum,ethereum | closed:polygon,polygon
+- YZ: open:ethereum,ethereum
+- VK: closed:polygon
+- Suspended now: QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -56,15 +57,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 4 shadow trades · realized net **-35.25 USD** · win rate 0% (4 settled)
 
-- 2026-07-24 · livescan · [[gateio]]→[[kucoin]] · -22.49 USD · _price_drift_
-- 2026-07-23 · livescan · [[kucoin]]→[[gateio]] · -2.03 USD · _depth_shrink_
-- 2026-07-21 · livescan · [[kucoin]]→[[gateio]] · -7.10 USD · _mixed_
+- 2026-07-24 · livescan · VQ→YZ · -22.49 USD · _price_drift_
+- 2026-07-23 · livescan · YZ→VQ · -2.03 USD · _depth_shrink_
+- 2026-07-21 · livescan · YZ→VQ · -7.10 USD · _mixed_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:52:29.197443Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:36.811100Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

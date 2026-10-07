@@ -3,13 +3,13 @@ token: DGMA
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x4bdfa27ce379d7601da1d15bd637a1cf895ff8fb" }
-exchanges: [gateio, mexc]
+exchanges: [VQ, VK]
 transfer: open
-updated: 2026-10-06T03:55:09.984092Z
+updated: 2026-10-07T03:55:22.102263Z
 source: nightwatch-kg
 ---
 
@@ -20,19 +20,19 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 
 ## Identity
 - Contract: [[ethereum]] `0x4bdfa2…f8fb` (verified_same)
-- Listed on: [[gateio]], [[mexc]]
+- Listed on: VQ, VK
 
 ## Grade by exchange
-- [[gateio]]: B+
-- [[mexc]]: A
+- VQ: A
+- VK: A
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Transfer map
-- [[gateio]]: open:ethereum,ethereum
-- [[mexc]]: open:ethereum
+- VQ: open:ethereum,ethereum
+- VK: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -44,13 +44,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **-0.12 USD** · win rate 0% (1 settled)
 
-- 2026-08-11 · livescan · [[mexc]]→[[gateio]] · -0.12 USD · _price_drift_
+- 2026-08-11 · livescan · VK→VQ · -0.12 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:09.984092Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:55:22.102263Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

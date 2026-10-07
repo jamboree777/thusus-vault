@@ -7,10 +7,10 @@ nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97" }
-exchanges: [bybit, coinbase, kucoin, mexc, okx]
+exchanges: [QK, XD, YZ, VK, DL]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-06T03:57:12.551910Z
+updated: 2026-10-07T03:57:39.866048Z
 source: nightwatch-kg
 ---
 
@@ -21,41 +21,41 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xccc8cb…fd97` (verified_same)
-- Listed on: [[bybit]], [[coinbase]], [[kucoin]], [[mexc]], [[okx]]
+- Listed on: QK, XD, YZ, VK, DL
 
 ## Grade by exchange
-- [[bybit]]: C+
-- [[coinbase]]: A+
-- [[kucoin]]: A+
-- [[mexc]]: B+
-- [[okx]]: B
+- QK: C+
+- XD: A+
+- YZ: A+
+- VK: B+
+- DL: B
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ❌ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ❌ / withdraw ❌
+- WV: deposit ❌ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
+- XD: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ❌ / withdraw ❌
 
 ## Events
-- 2026-10-05 · [[bitget]] [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[bitget]] [[erc20]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-24 · [[bitget]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-28 · WV [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[bitget]]: closed:ethereum,ethereum
-- [[bybit]]: closed:ethereum
-- [[coinbase]]: open:ethereum
-- [[kucoin]]: open:ethereum,ethereum
-- [[mexc]]: open:ethereum
-- [[okx]]: closed:ethereum
-- Suspended now: [[okx]]
-- Recently reopened (48h): [[bitget]]
+- WV: closed:ethereum,ethereum
+- QK: closed:ethereum
+- XD: open:ethereum
+- YZ: open:ethereum,ethereum
+- VK: open:ethereum
+- DL: closed:ethereum
+- Suspended now: QK, DL
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,14 +67,14 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 2 shadow trades · realized net **-2.32 USD** · win rate 50% (2 settled)
 
-- 2026-08-01 · livescan · [[bybit]]→[[okx]] · -2.42 USD · _price_drift_
-- 2026-07-31 · livescan · [[okx]]→[[bybit]] · +0.10 USD · _price_drift_
+- 2026-08-01 · livescan · QK→DL · -2.42 USD · _price_drift_
+- 2026-07-31 · livescan · DL→QK · +0.10 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:57:12.551910Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:39.866048Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

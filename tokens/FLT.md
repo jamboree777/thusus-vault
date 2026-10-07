@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x236501327e701692a281934230af0b6be8df3353" }
-exchanges: [gateio, mexc]
+exchanges: [VQ, VK]
 transfer: partial
-updated: 2026-10-06T03:56:36.040550Z
+updated: 2026-10-07T03:56:52.511758Z
 source: nightwatch-kg
 ---
 
@@ -20,26 +20,28 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x236501…3353` (verified_same)
-- Listed on: [[gateio]], [[mexc]]
+- Listed on: VQ, VK
 
 ## Grade by exchange
-- [[gateio]]: A+
-- [[mexc]]: B+
+- VQ: A+
+- VK: B+
 
 ## Deposit / Withdrawal
-- [[bybit]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bybit]] [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-28 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · QK [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bybit]]: closed:ethereum
-- [[gateio]]: open:ethereum,ethereum
-- [[mexc]]: open:ethereum
+- QK: closed:ethereum
+- VQ: open:ethereum,ethereum
+- VK: open:ethereum
+- Suspended now: QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -51,15 +53,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 3 shadow trades · realized net **+4.31 USD** · win rate 66.7% (3 settled)
 
-- 2026-07-28 · livescan · [[mexc]]→[[gateio]] · -1.85 USD · _price_drift_
-- 2026-07-27 · livescan · [[mexc]]→[[gateio]] · +5.71 USD · _beat_
-- 2026-07-16 · livescan · [[mexc]]→[[gateio]] · +0.46 USD · _beat_
+- 2026-07-28 · livescan · VK→VQ · -1.85 USD · _price_drift_
+- 2026-07-27 · livescan · VK→VQ · +5.71 USD · _beat_
+- 2026-07-16 · livescan · VK→VQ · +0.46 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:56:36.040550Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:52.511758Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

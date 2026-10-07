@@ -7,66 +7,64 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: solana, address: "grass7b4rdkfbcjtkgsqnxkqjwigvqyfbuscujr3xxjs" }
-exchanges: [bitget, bithumb, bybit, coinbase, gateio, hyperliquid-perp, kucoin, mexc, okx]
-transfer: partial
-updated: 2026-10-06T03:57:19.157335Z
+exchanges: [WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL]
+transfer: open
+updated: 2026-10-07T03:57:46.474052Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # GRASS · NW Grade **A+**
 
-Solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[solana]] `grass7b4…xxjs` (verified_same)
-- Listed on: [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[hyperliquid-perp]], [[kucoin]], [[mexc]], [[okx]]
+- Listed on: WV, SU, QK, XD, VQ, [[hyperliquid-perp]], YZ, VK, DL
 
 ## Grade by exchange
-- [[bitget]]: A
-- [[bithumb]]: A+
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: A+
+- WV: A
+- SU: A+
+- QK: A+
+- XD: A+
+- VQ: A+
 - [[hyperliquid-perp]]: A+
-- [[kucoin]]: A+
-- [[mexc]]: A
-- [[okx]]: A+
+- YZ: A+
+- VK: A
+- DL: A+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[sol]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[bithumb]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[solana]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · SU [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: open:solana,solana
-- [[bithumb]]: open:solana
-- [[bybit]]: open:solana
-- [[coinbase]]: open:solana
-- [[gateio]]: open:solana,solana
-- [[htx]]: open:grass
-- [[kucoin]]: open:solana,solana
-- [[lbank]]: closed:solana
-- [[mexc]]: open:solana
-- [[okx]]: open:solana
-- [[toobit]]: open:solana
-- Recently reopened (48h): [[bitget]]
+- WV: open:solana,solana
+- SU: open:solana
+- QK: open:solana
+- XD: open:solana
+- VQ: open:solana,solana
+- ST: open:grass
+- YZ: open:solana,solana
+- VK: open:solana
+- DL: open:solana
+- CJ: open:solana
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -77,7 +75,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:57:19.157335Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:46.474052Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

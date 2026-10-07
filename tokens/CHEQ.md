@@ -2,40 +2,40 @@
 token: CHEQ
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: D
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [VQ, YZ, VK]
 transfer: open
-updated: 2026-10-06T03:54:05.586773Z
+updated: 2026-10-07T03:54:16.836143Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHEQ · NW Grade **A+**
+# CHEQ · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x70edf1…4de7` (partial)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- [[gateio]]: D
-- [[kucoin]]: B
-- [[mexc]]: A+
+- VQ: C
+- YZ: D
+- VK: A
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Transfer map
-- [[gateio]]: open:cheq,cheq
-- [[kucoin]]: open:cheqd,cheqd
-- [[mexc]]: open:cheq
+- VQ: open:cheq,cheq
+- YZ: open:cheqd,cheqd
+- VK: open:cheq
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -47,15 +47,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 3 shadow trades · realized net **+0.37 USD** · win rate 66.7% (3 settled)
 
-- 2026-07-22 · livescan · [[gateio]]→[[mexc]] · -0.32 USD · _price_drift_
-- 2026-07-21 · livescan · [[gateio]]→[[mexc]] · +0.39 USD · _in_line_
-- 2026-07-20 · livescan · [[gateio]]→[[mexc]] · +0.29 USD · _beat_
+- 2026-07-22 · livescan · VQ→VK · -0.32 USD · _price_drift_
+- 2026-07-21 · livescan · VQ→VK · +0.39 USD · _in_line_
+- 2026-07-20 · livescan · VQ→VK · +0.29 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:05.586773Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:16.836143Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

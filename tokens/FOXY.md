@@ -2,48 +2,48 @@
 token: FOXY
 type: token
 tier: free
-nw_grade: A-
+nw_grade: A
 nw_grade_worst: D+
 identity: partial
 contracts:
   - { chain: linea, address: "0x5fbdf89403270a1846f5ae7d113a989f850d1566" }
-exchanges: [gateio, kucoin]
+exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-06T03:56:42.636862Z
+updated: 2026-10-07T03:56:59.153609Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FOXY · NW Grade **A-**
+# FOXY · NW Grade **A**
 
-Linea-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Linea-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[linea]] `0x5fbdf8…1566` (partial)
-- Listed on: [[gateio]], [[kucoin]]
+- Listed on: VQ, YZ
 
 ## Grade by exchange
-- [[gateio]]: A-
-- [[kucoin]]: D+
+- VQ: A
+- YZ: D+
 
 ## Deposit / Withdrawal
-- [[bybit]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ❌ / withdraw ❌
+- QK: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ❌
 
 ## Events
-- 2026-09-02 · [[kucoin]] [[linea]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-02 · [[kucoin]] [[linea]] withdraw → open · [[event/dw-resume]]
-- 2026-09-02 · [[kucoin]] [[linea]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-02 · [[kucoin]] [[linea]] withdraw → open · [[event/dw-resume]]
-- 2026-09-01 · [[kucoin]] [[linea]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-01 · [[kucoin]] [[linea]] withdraw → open · [[event/dw-resume]]
+- 2026-10-06 · QK [[linea]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-02 · YZ [[linea]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-02 · YZ [[linea]] withdraw → open · [[event/dw-resume]]
+- 2026-09-02 · YZ [[linea]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-02 · YZ [[linea]] withdraw → open · [[event/dw-resume]]
+- 2026-09-01 · YZ [[linea]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bybit]]: closed:linea
-- [[gateio]]: open:linea,lineaeth
-- [[kucoin]]: closed:linea,linea
-- Suspended now: [[kucoin]]
+- QK: closed:linea
+- VQ: open:linea,lineaeth
+- YZ: closed:linea,linea
+- Suspended now: QK, YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -55,15 +55,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 3 shadow trades · realized net **+3.00 USD** · win rate 66.7% (3 settled)
 
-- 2026-07-19 · livescan · [[gateio]]→[[kucoin]] · -2.83 USD · _price_drift_
-- 2026-07-15 · bigspike · [[gateio]]→[[kucoin]] · +4.64 USD
-- 2026-07-15 · bigspike · [[gateio]]→[[kucoin]] · +1.19 USD
+- 2026-07-19 · livescan · VQ→YZ · -2.83 USD · _price_drift_
+- 2026-07-15 · bigspike · VQ→YZ · +4.64 USD
+- 2026-07-15 · bigspike · VQ→YZ · +1.19 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:56:42.636862Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:59.153609Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

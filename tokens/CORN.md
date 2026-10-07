@@ -7,9 +7,9 @@ nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x44f49ff0da2498bcb1d3dc7c0f999578f67fd8c6" }
-exchanges: [bybit, gateio, mexc]
+exchanges: [QK, VQ, VK]
 transfer: open
-updated: 2026-10-06T03:54:25.209363Z
+updated: 2026-10-07T03:54:37.395931Z
 source: nightwatch-kg
 ---
 
@@ -20,28 +20,28 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 
 ## Identity
 - Contract: [[ethereum]] `0x44f49f…d8c6` (verified_same)
-- Listed on: [[bybit]], [[gateio]], [[mexc]]
+- Listed on: QK, VQ, VK
 
 ## Grade by exchange
-- [[bybit]]: A+
-- [[gateio]]: A
-- [[mexc]]: C+
+- QK: A+
+- VQ: A
+- VK: C+
 
 ## Deposit / Withdrawal
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bybit]] [[corn]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[bybit]] [[corn]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-28 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · QK [[corn]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · QK [[corn]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bybit]]: open:ethereum | closed:corn
-- [[gateio]]: open:ethereum,ethereum
-- [[mexc]]: open:ethereum
+- QK: open:ethereum | closed:corn
+- VQ: open:ethereum,ethereum
+- VK: open:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -53,13 +53,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **-0.12 USD** · win rate 0% (1 settled)
 
-- 2026-08-23 · livescan · [[mexc]]→[[gateio]] · -0.12 USD · _depth_shrink_
+- 2026-08-23 · livescan · VK→VQ · -0.12 USD · _depth_shrink_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:25.209363Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:37.395931Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

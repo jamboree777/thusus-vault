@@ -7,9 +7,9 @@ nw_grade_worst: A
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c" }
-exchanges: [binance, bitget, bithumb, bybit, gateio, kucoin, mexc, okx]
+exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL]
 transfer: partial
-updated: 2026-10-06T03:56:08.954524Z
+updated: 2026-10-07T03:56:18.821629Z
 source: nightwatch-kg
 ---
 
@@ -20,56 +20,54 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xf629cb…3b9c` (partial)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[gateio]], [[kucoin]], [[mexc]], [[okx]]
+- Listed on: GN, WV, SU, QK, VQ, YZ, VK, DL
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[bitget]]: A
-- [[bithumb]]: A+
-- [[bybit]]: A+
-- [[gateio]]: A+
-- [[kucoin]]: A
-- [[mexc]]: A+
-- [[okx]]: A+
+- GN: A+
+- WV: A
+- SU: A+
+- QK: A+
+- VQ: A+
+- YZ: A
+- VK: A
+- DL: A+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ❌ / withdraw ❌
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ❌
-- [[upbit]]: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ❌
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-02 · [[bitget]] [[enj]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[enj]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[enj]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[enj]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[enj]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[enj]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · WV [[enj]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[enj]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[enj]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[enj]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[enj]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[enj]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[binance]]: open:enj | closed:ethereum
-- [[bitget]]: open:enj,enj
-- [[bithumb]]: open:enj
-- [[bybit]]: open:enjin | closed:ethereum
-- [[coinbase]]: closed:ethereum
-- [[gateio]]: open:enj,enj | closed:ethereum,ethereum
-- [[htx]]: open:enj1
-- [[kucoin]]: open:enj,enjin
-- [[lbank]]: closed:relay
-- [[mexc]]: open:enj
-- [[okx]]: open:enjin relay chain
-- [[toobit]]: closed:ethereum
-- [[upbit]]: open:enj
-- Suspended now: [[coinbase]]
+- GN: open:enj | closed:ethereum
+- WV: open:enj,enj
+- SU: open:enj
+- QK: open:enjin | closed:ethereum
+- XD: closed:ethereum
+- VQ: open:enj,enj | closed:ethereum,ethereum
+- ST: open:enj1
+- YZ: open:enj,enjin
+- VK: open:enj
+- DL: open:enjin relay chain
+- CJ: closed:ethereum
+- ZU: open:enj
+- Suspended now: XD
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +78,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:56:08.954524Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:18.821629Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

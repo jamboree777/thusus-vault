@@ -2,47 +2,47 @@
 token: ALKIMI
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: A+
+nw_grade: A-
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
-exchanges: [gateio, kucoin]
+exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-06T03:51:24.366980Z
+updated: 2026-10-07T03:51:30.979974Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ALKIMI · NW Grade **A+**
+# ALKIMI · NW Grade **A-**
 
-Sui-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x1a8f4b…kimi` (verified_same)
-- Listed on: [[gateio]], [[kucoin]]
+- Listed on: VQ, YZ
 
 ## Grade by exchange
-- [[gateio]]: A+
-- [[kucoin]]: A+
+- VQ: B-
+- YZ: A-
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-08-20 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
-- 2026-08-20 · [[mexc]] [[sui]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-31 · [[mexc]] [[sui]] withdraw → open · [[event/dw-resume]]
-- 2026-07-31 · [[mexc]] [[sui]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[mexc]] [[sui]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · [[gateio]] [[suinew]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-20 · VK [[sui]] withdraw → open · [[event/dw-resume]]
+- 2026-08-20 · VK [[sui]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-31 · VK [[sui]] withdraw → open · [[event/dw-resume]]
+- 2026-07-31 · VK [[sui]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-12 · VK [[sui]] deposit → closed · [[event/dw-freeze]]
+- 2026-07-12 · VQ [[suinew]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[gateio]]: open:sui,sui | closed:suinew,suinew
-- [[kucoin]]: open:sui,sui
-- [[mexc]]: closed:sui
+- VQ: open:sui,sui | closed:suinew,suinew
+- YZ: open:sui,sui
+- VK: closed:sui
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -54,15 +54,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 13 shadow trades · realized net **-1.66 USD** · win rate 84.6% (13 settled)
 
-- 2026-07-25 · livescan · [[gateio]]→[[kucoin]] · -1.71 USD · _price_drift_
-- 2026-07-20 · livescan · [[gateio]]→[[kucoin]] · -6.07 USD · _mixed_
-- 2026-07-19 · livescan · [[gateio]]→[[kucoin]] · +0.57 USD · _cost_drag_
+- 2026-07-25 · livescan · VQ→YZ · -1.71 USD · _price_drift_
+- 2026-07-20 · livescan · VQ→YZ · -6.07 USD · _mixed_
+- 2026-07-19 · livescan · VQ→YZ · +0.57 USD · _cost_drag_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:51:24.366980Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:51:30.979974Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

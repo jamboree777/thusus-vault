@@ -2,47 +2,47 @@
 token: ECHO
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: C-
+nw_grade: B
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x06238c1b8e618abedf17669228dc95fb2d2e210b" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:55:44.738749Z
+updated: 2026-10-07T03:56:01.223817Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ECHO · NW Grade **B+**
+# ECHO · NW Grade **B**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x06238c…210b` (verified_same)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- [[gateio]]: B-
-- [[kucoin]]: B+
-- [[mexc]]: C-
+- VQ: F
+- YZ: B
+- VK: C-
 
 ## Deposit / Withdrawal
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-08-27 · [[mexc]] [[aptos]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-27 · [[mexc]] [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-24 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-28 · [[mexc]] [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-07-20 · [[mexc]] [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-08-27 · VK [[aptos]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-27 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-08-24 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-07-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-07-20 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[gateio]]: open:aptos,aptos
-- [[kucoin]]: open:aptos,aptos
-- [[mexc]]: closed:aptos,bsc
+- VQ: open:aptos,aptos
+- YZ: open:aptos,aptos
+- VK: closed:aptos,bsc
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -54,13 +54,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **+0.23 USD** · win rate 100% (1 settled)
 
-- 2026-07-23 · livescan · [[mexc]]→[[kucoin]] · +0.23 USD · _in_line_
+- 2026-07-23 · livescan · VK→YZ · +0.23 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:44.738749Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:01.223817Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

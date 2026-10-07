@@ -7,9 +7,9 @@ nw_grade_worst: F
 identity: native
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:57:05.958341Z
+updated: 2026-10-07T03:57:33.267314Z
 source: nightwatch-kg
 ---
 
@@ -20,33 +20,33 @@ Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x9f9c8e…4d24` (native)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- [[gateio]]: D
-- [[kucoin]]: D+
-- [[mexc]]: F
+- VQ: D+
+- YZ: D+
+- VK: F
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ❌
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ❌ / withdraw ❌
-- [[mexc]]: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ❌
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-09-28 · [[mexc]] [[glq]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[glq]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-21 · [[kucoin]] [[glq]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-16 · [[mexc]] [[glq]] deposit → open · [[event/dw-resume]]
-- 2026-09-16 · [[mexc]] [[glq]] withdraw → open · [[event/dw-resume]]
-- 2026-09-11 · [[gateio]] [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-28 · VK [[glq]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[glq]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-21 · YZ [[glq]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-16 · VK [[glq]] deposit → open · [[event/dw-resume]]
+- 2026-09-16 · VK [[glq]] withdraw → open · [[event/dw-resume]]
+- 2026-09-11 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:glq,glq
-- [[gateio]]: open:glq,glq | closed:ethereum,ethereum
-- [[kucoin]]: closed:glq,glq
-- [[mexc]]: open:glq
-- Suspended now: [[bitget]], [[kucoin]]
+- WV: closed:glq,glq
+- VQ: open:glq,glq | closed:ethereum,ethereum
+- YZ: closed:glq,glq
+- VK: open:glq
+- Suspended now: WV, YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,15 +58,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 6 shadow trades · realized net **+8.49 USD** · win rate 83.3% (6 settled)
 
-- 2026-07-30 · livescan · [[gateio]]→[[kucoin]] · -0.95 USD · _price_drift_
-- 2026-07-30 · livescan · [[mexc]]→[[kucoin]] · +1.73 USD · _in_line_
-- 2026-07-29 · livescan · [[mexc]]→[[kucoin]] · +1.32 USD · _beat_
+- 2026-07-30 · livescan · VQ→YZ · -0.95 USD · _price_drift_
+- 2026-07-30 · livescan · VK→YZ · +1.73 USD · _in_line_
+- 2026-07-29 · livescan · VK→YZ · +1.32 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:57:05.958341Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:33.267314Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

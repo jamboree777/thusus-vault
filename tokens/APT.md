@@ -7,75 +7,70 @@ nw_grade_worst: C+
 identity: native
 contracts:
   - { chain: aptos, address: "0x1::aptos_coin::aptoscoin" }
-exchanges: [binance, bitget, bithumb, bybit, coinbase, gateio, kucoin, mexc, okx, upbit]
-transfer: partial
+exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
+transfer: open
 lifecycle: suspended
-updated: 2026-10-06T03:51:35.482761Z
+updated: 2026-10-07T03:51:39.743581Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # APT · NW Grade **A+**
 
-Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Aptos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[aptos]] `0x1::apt…coin` (native)
-- Listed on: [[binance]], [[bitget]], [[bithumb]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]], [[okx]], [[upbit]]
+- Listed on: GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU
 
 ## Grade by exchange
-- [[binance]]: A+
-- [[bitget]]: A
-- [[bithumb]]: A+
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: A
-- [[kucoin]]: A
-- [[mexc]]: A
-- [[okx]]: A+
-- [[upbit]]: A+
+- GN: A+
+- WV: A
+- SU: A+
+- QK: A+
+- XD: A+
+- VQ: A
+- YZ: A
+- VK: A
+- DL: A+
+- ZU: A+
 
 ## Deposit / Withdrawal
-- [[binance]]: deposit ✅ / withdraw ✅
-- [[bitget]]: deposit ✅ / withdraw ✅
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[lbank]]: deposit ❌ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[okx]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-04 · [[bitget]] [[aptos]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[bitget]] [[aptos]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · [[bitget]] [[aptos]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[aptos]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[aptos]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[bithumb]] [[aptos]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[aptos]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[aptos]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · WV [[aptos]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[aptos]] withdraw → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[aptos]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · SU [[aptos]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- [[binance]]: open:aptos
-- [[bitget]]: open:aptos,aptos
-- [[bithumb]]: open:aptos
-- [[bybit]]: open:aptos
-- [[coinbase]]: open:aptos
-- [[gateio]]: open:aptos,aptos
-- [[htx]]: open:aptos
-- [[kucoin]]: open:aptos,aptos
-- [[lbank]]: closed:aptos
-- [[mexc]]: open:aptos
-- [[okx]]: open:aptos
-- [[orangex]]: open:aptos
-- [[toobit]]: open:aptos
-- [[upbit]]: open:aptos
-- Recently reopened (48h): [[bitget]]
+- GN: open:aptos
+- WV: open:aptos,aptos
+- SU: open:aptos
+- QK: open:aptos
+- XD: open:aptos
+- VQ: open:aptos,aptos
+- ST: open:aptos
+- YZ: open:aptos,aptos
+- VK: open:aptos
+- DL: open:aptos
+- CJ: open:aptos
+- ZU: open:aptos
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -87,15 +82,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 3 shadow trades · realized net **+2.85 USD** · win rate 100% (3 settled)
 
-- 2026-09-21 · carry-A · [[bithumb]]→[[binance]] · +0.88 USD
-- 2026-09-19 · carry-A · [[bithumb]]→[[binance]] · +0.89 USD
-- 2026-09-18 · carry-A · [[bithumb]]→[[binance]] · +1.08 USD
+- 2026-09-21 · carry-A · SU→GN · +0.88 USD
+- 2026-09-19 · carry-A · SU→GN · +0.89 USD
+- 2026-09-18 · carry-A · SU→GN · +1.08 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:51:35.482761Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:51:39.743581Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

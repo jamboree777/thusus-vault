@@ -7,9 +7,9 @@ nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x29cc30f9d113b356ce408667aa6433589cecbdca" }
-exchanges: [bithumb, bybit, coinbase, upbit]
+exchanges: [SU, QK, XD, ZU]
 transfer: open
-updated: 2026-10-06T03:56:03.824297Z
+updated: 2026-10-07T03:56:16.610628Z
 source: nightwatch-kg
 ---
 
@@ -20,45 +20,43 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 
 ## Identity
 - Contract: [[base]] `0x29cc30…bdca` (verified_same)
-- Listed on: [[bithumb]], [[bybit]], [[coinbase]], [[upbit]]
+- Listed on: SU, QK, XD, ZU
 
 ## Grade by exchange
-- [[bithumb]]: A+
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[upbit]]: A+
+- SU: A+
+- QK: A+
+- XD: A+
+- ZU: A+
 
 ## Deposit / Withdrawal
-- [[bithumb]]: deposit ✅ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[htx]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
-- [[orangex]]: deposit ✅ / withdraw ✅
-- [[toobit]]: deposit ✅ / withdraw ✅
-- [[upbit]]: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- ST: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
+- CJ: deposit ✅ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-01 · [[upbit]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[upbit]] [[base]] deposit → open · [[event/dw-resume]]
-- 2026-10-01 · [[bithumb]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · [[bithumb]] [[base]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · [[upbit]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · [[upbit]] [[base]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-01 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-10-01 · SU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-01 · SU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-09-30 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-30 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bithumb]]: open:base
-- [[bybit]]: open:base,mantle
-- [[coinbase]]: open:base
-- [[gateio]]: open:base,baseevm
-- [[htx]]: open:baseelsa
-- [[kucoin]]: open:base,base
-- [[mexc]]: open:base
-- [[orangex]]: open:base
-- [[toobit]]: open:base
-- [[upbit]]: open:base,base
+- SU: open:base
+- QK: open:base,mantle
+- XD: open:base
+- VQ: open:base,baseevm
+- ST: open:baseelsa
+- YZ: open:base,base
+- VK: open:base
+- CJ: open:base
+- ZU: open:base,base
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:56:03.824297Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:16.610628Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

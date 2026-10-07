@@ -2,53 +2,53 @@
 token: COMMON
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: C-
+nw_grade: C-
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xa43ca4e5abdf9917eade63c2837eeee321897dad" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:54:14.303541Z
+updated: 2026-10-07T03:54:26.400363Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# COMMON · NW Grade **A-**
+# COMMON · NW Grade **C-**
 
-Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xa43ca4…7dad` (verified_same)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- [[gateio]]: A-
-- [[kucoin]]: C
-- [[mexc]]: C-
+- VQ: D+
+- YZ: F
+- VK: C-
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ❌ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-10-04 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-03 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · [[bitget]] [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-06 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-06 · QK [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-04 · WV [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-04 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-03 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:base,base
-- [[bybit]]: closed:base,solana
-- [[gateio]]: open:base,baseevm
-- [[kucoin]]: open:base,base
-- [[mexc]]: closed:base
-- Recently reopened (48h): [[bitget]]
+- WV: closed:base,base
+- QK: closed:base,solana
+- VQ: open:base,baseevm
+- YZ: open:base,base
+- VK: closed:base
+- Suspended now: QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,15 +60,15 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 5 shadow trades · realized net **+10.91 USD** · win rate 100% (5 settled)
 
-- 2026-10-02 · livescan · [[gateio]]→[[kucoin]] · +1.48 USD · _beat_
-- 2026-09-02 · livescan · [[gateio]]→[[kucoin]] · +2.65 USD · _in_line_
-- 2026-09-01 · livescan · [[gateio]]→[[kucoin]] · +0.55 USD · _in_line_
+- 2026-10-02 · livescan · VQ→YZ · +1.48 USD · _beat_
+- 2026-09-02 · livescan · VQ→YZ · +2.65 USD · _in_line_
+- 2026-09-01 · livescan · VQ→YZ · +0.55 USD · _in_line_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:14.303541Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:26.400363Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

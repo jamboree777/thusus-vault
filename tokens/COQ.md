@@ -3,13 +3,13 @@ token: COQ
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: C+
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: avalanche, address: "0x420fca0121dc28039145009570975747295f2329" }
-exchanges: [gateio, kucoin, mexc]
+exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:54:20.794761Z
+updated: 2026-10-07T03:54:33.019074Z
 source: nightwatch-kg
 ---
 
@@ -20,34 +20,35 @@ Avalanche-network token; NW grade A liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[avalanche]] `0x420fca…2329` (partial)
-- Listed on: [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- [[gateio]]: C+
-- [[kucoin]]: A
-- [[mexc]]: B+
+- VQ: A
+- YZ: A
+- VK: B+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ❌ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-02 · [[bitget]] [[avaxc-chain]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[avaxc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[mexc]] [[avaxc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-24 · [[bitget]] [[avaxc-chain]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-23 · [[kucoin]] [[avaxc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-23 · [[kucoin]] [[avaxc]] deposit → open · [[event/dw-resume]]
+- 2026-10-06 · QK [[avaxc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-02 · WV [[avaxc-chain]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[avaxc]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · VK [[avaxc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-24 · WV [[avaxc-chain]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-23 · YZ [[avaxc]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- [[bitget]]: closed:avaxc-chain,avaxc-chain
-- [[bybit]]: closed:avaxc
-- [[gateio]]: open:avaxc,avax_c
-- [[kucoin]]: open:avaxc,avax c-chain
-- [[mexc]]: open:avaxc
+- WV: closed:avaxc-chain,avaxc-chain
+- QK: closed:avaxc
+- VQ: open:avaxc,avax_c
+- YZ: open:avaxc,avax c-chain
+- VK: open:avaxc
+- Suspended now: QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -59,13 +60,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **-0.74 USD** · win rate 0% (1 settled)
 
-- 2026-09-02 · livescan · [[gateio]]→[[mexc]] · -0.74 USD · _price_drift_
+- 2026-09-02 · livescan · VQ→VK · -0.74 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:54:20.794761Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:33.019074Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

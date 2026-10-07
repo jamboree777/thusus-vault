@@ -3,13 +3,13 @@ token: DRIFT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: solana, address: "driftupjyltosbwon8kombeysx54afavlddwsbksjwg7" }
-exchanges: [bitget, bybit, coinbase, gateio, kucoin, mexc]
+exchanges: [WV, QK, XD, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-06T03:55:33.742844Z
+updated: 2026-10-07T03:55:46.349352Z
 source: nightwatch-kg
 ---
 
@@ -20,40 +20,40 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 
 ## Identity
 - Contract: [[solana]] `driftupj…jwg7` (verified_same)
-- Listed on: [[bitget]], [[bybit]], [[coinbase]], [[gateio]], [[kucoin]], [[mexc]]
+- Listed on: WV, QK, XD, VQ, YZ, VK
 
 ## Grade by exchange
-- [[bitget]]: B+
-- [[bybit]]: A+
-- [[coinbase]]: A+
-- [[gateio]]: B+
-- [[kucoin]]: B+
-- [[mexc]]: B+
+- WV: B+
+- QK: A+
+- XD: A+
+- VQ: B+
+- YZ: B+
+- VK: C+
 
 ## Deposit / Withdrawal
-- [[bitget]]: deposit ❌ / withdraw ✅
-- [[bybit]]: deposit ✅ / withdraw ✅
-- [[coinbase]]: deposit ✅ / withdraw ✅
-- [[gateio]]: deposit ✅ / withdraw ✅
-- [[kucoin]]: deposit ✅ / withdraw ✅
-- [[mexc]]: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
+- XD: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · [[bitget]] [[sol]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · [[bitget]] [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · [[bitget]] [[sol]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-28 · [[bitget]] [[sol]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-24 · [[bitget]] [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-23 · [[bitget]] [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
+- 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-09-28 · WV [[sol]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-28 · WV [[sol]] deposit → closed · [[event/dw-freeze]]
+- 2026-09-24 · WV [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-09-23 · WV [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- [[bitget]]: closed:solana,solana
-- [[bybit]]: open:solana
-- [[coinbase]]: open:solana
-- [[gateio]]: open:solana,solana
-- [[kucoin]]: open:solana,solana
-- [[mexc]]: open:solana
-- Recently reopened (48h): [[bitget]]
+- WV: closed:solana,solana
+- QK: open:solana
+- XD: open:solana
+- VQ: open:solana,solana
+- YZ: open:solana,solana
+- VK: open:solana
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,13 +65,13 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 ## Thusus shadow-fund track record
 1 shadow trade · realized net **+7.02 USD** · win rate 100% (1 settled)
 
-- 2026-09-26 · livescan · [[bitget]]→[[gateio]] · +7.02 USD
+- 2026-09-26 · livescan · WV→VQ · +7.02 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-06T03:55:33.742844Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-07T03:55:46.349352Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
