@@ -2,29 +2,28 @@
 token: GMRX
 type: token
 tier: free
-nw_grade: B-
+nw_grade: C-
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x998305efdc264b9674178899fffbb44a47134a76" }
 exchanges: [VQ, YZ]
 transfer: partial
-lifecycle: suspended
-updated: 2026-10-07T03:57:35.464869Z
+updated: 2026-10-08T03:58:15.722700Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GMRX · NW Grade **B-**
+# GMRX · NW Grade **C-**
 
-Binance-smart-chain-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x998305…4a76` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: B-
+- VQ: C-
 - YZ: F
 
 ## Deposit / Withdrawal
@@ -41,7 +40,6 @@ Binance-smart-chain-network token; NW grade B- liquidity; transfer is partial (s
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:bsc,bsc
@@ -50,7 +48,6 @@ Binance-smart-chain-network token; NW grade B- liquidity; transfer is partial (s
 - YZ: open:bsc | closed:bsc
 - VK: closed:bsc
 - Suspended now: QK
-- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,8 +64,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:35.464869Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:58:15.722700Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0xa43ca4e5abdf9917eade63c2837eeee321897dad" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-07T03:54:26.400363Z
+updated: 2026-10-08T03:55:22.587697Z
 source: nightwatch-kg
 ---
 
@@ -29,18 +29,18 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
-- QK: deposit ❌ / withdraw ❌
+- QK: deposit ❌ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-07 · QK [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-07 · QK [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-06 · QK [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-04 · WV [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-04 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-03 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:base,base
@@ -48,7 +48,7 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 - VQ: open:base,baseevm
 - YZ: open:base,base
 - VK: closed:base
-- Suspended now: QK
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:26.400363Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:55:22.587697Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

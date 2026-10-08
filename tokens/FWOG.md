@@ -2,21 +2,21 @@
 token: FWOG
 type: token
 tier: free
-nw_grade: A-
+nw_grade: A
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "a8c3xuqscfmylrte3vmtqraq8kgmasius9afnanwpump" }
 exchanges: [YZ, VK]
 transfer: partial
-updated: 2026-10-07T03:57:03.521495Z
+updated: 2026-10-08T03:58:02.516606Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FWOG · NW Grade **A-**
+# FWOG · NW Grade **A**
 
-Solana-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `a8c3xuqs…pump` (verified_same)
@@ -24,7 +24,7 @@ Solana-network token; NW grade A- liquidity; transfer is partial (some venues fr
 
 ## Grade by exchange
 - YZ: B+
-- VK: A-
+- VK: A
 
 ## Deposit / Withdrawal
 - VQ: deposit ❌ / withdraw ✅
@@ -32,12 +32,12 @@ Solana-network token; NW grade A- liquidity; transfer is partial (some venues fr
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-07 · YZ [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-15 · VK [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-15 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-07 · YZ [[sol]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-04 · YZ [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · VQ [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-07-12 · VQ [[sol]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - VQ: closed:solana,solana
@@ -51,9 +51,17 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+2 shadow trades · realized net **+2.44 USD** · win rate 100% (2 settled)
+
+- 2026-09-06 · livescan · YZ→VK · +0.43 USD · _in_line_
+- 2026-09-04 · livescan · YZ→VK · +2.01 USD · _in_line_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:03.521495Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:58:02.516606Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

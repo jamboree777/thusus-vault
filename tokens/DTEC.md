@@ -3,13 +3,13 @@ token: DTEC
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [WV, VQ, VK]
 transfer: open
-updated: 2026-10-07T03:55:56.809252Z
+updated: 2026-10-08T03:56:42.542825Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +23,8 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - Listed on: WV, VQ, VK
 
 ## Grade by exchange
-- WV: B
-- VQ: A+
+- WV: D+
+- VQ: A
 - VK: A+
 
 ## Deposit / Withdrawal
@@ -44,7 +44,6 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - WV: open:polygon,polygon
 - VQ: open:polygon,polygon
 - VK: open:polygon
-- Recently reopened (48h): WV, VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:55:56.809252Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:56:42.542825Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

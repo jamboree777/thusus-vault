@@ -2,50 +2,50 @@
 token: BCUT
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A-
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-07T03:52:36.811100Z
+updated: 2026-10-08T03:53:46.110828Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BCUT · NW Grade **B+**
+# BCUT · NW Grade **A-**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xbef26b…c406` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: B+
+- VQ: A-
 - YZ: B+
 
 ## Deposit / Withdrawal
-- QK: deposit ❌ / withdraw ❌
+- QK: deposit ❌ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-07 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-10-07 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-01 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · QK [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-01 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - QK: closed:ethereum,polygon
 - VQ: open:ethereum,ethereum | closed:polygon,polygon
 - YZ: open:ethereum,ethereum
 - VK: closed:polygon
-- Suspended now: QK
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:36.811100Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:53:46.110828Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

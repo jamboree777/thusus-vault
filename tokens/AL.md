@@ -2,7 +2,7 @@
 token: AL
 type: token
 tier: free
-nw_grade: A
+nw_grade: A-
 nw_grade_worst: C-
 identity: partial
 contracts:
@@ -10,14 +10,14 @@ contracts:
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [WV, SU]
 transfer: partial
-updated: 2026-10-07T03:51:26.676759Z
+updated: 2026-10-08T03:52:39.420507Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **A**
+# AL · NW Grade **A-**
 
-Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
@@ -26,7 +26,7 @@ Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some v
 
 ## Grade by exchange
 - WV: C-
-- SU: A
+- SU: A-
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -45,7 +45,6 @@ Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some v
 - WV: open:ethereum,ethereum
 - SU: open:ethereum
 - VK: closed:ethereum
-- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -56,7 +55,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:51:26.676759Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:52:39.420507Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

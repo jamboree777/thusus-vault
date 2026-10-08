@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-07T03:55:30.903136Z
+updated: 2026-10-08T03:56:30.590157Z
 source: nightwatch-kg
 ---
 
@@ -66,7 +66,6 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - DL: open:solana
 - CJ: open:solana
 - ZU: open:solana
-- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,9 +74,16 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **+0.00 USD** · win rate 100% (1 settled)
+
+- 2026-09-18 · carry-A · SU→DL · +0.00 USD · _held_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:55:30.903136Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:56:30.590157Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

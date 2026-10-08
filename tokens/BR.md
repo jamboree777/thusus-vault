@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x9b61879e91a0b1322f3d61c23aaf936231882096" }
 exchanges: [WV, QK, VQ, YZ, VK]
 transfer: open
-updated: 2026-10-07T03:53:26.725328Z
+updated: 2026-10-08T03:54:31.321738Z
 source: nightwatch-kg
 ---
 
@@ -54,7 +54,6 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - VQ: open:bsc,bsc
 - YZ: open:bsc,bsc
 - VK: open:bsc
-- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:53:26.725328Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:54:31.321738Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

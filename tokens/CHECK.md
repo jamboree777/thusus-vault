@@ -3,13 +3,13 @@ token: CHECK
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: B-
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x9126236476efba9ad8ab77855c60eb5bf37586eb" }
 exchanges: [SU, XD, VQ, VK]
 transfer: open
-updated: 2026-10-07T03:54:00.583639Z
+updated: 2026-10-08T03:55:11.587273Z
 source: nightwatch-kg
 ---
 
@@ -23,9 +23,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - Listed on: SU, XD, VQ, VK
 
 ## Grade by exchange
-- SU: A
+- SU: A-
 - XD: A+
-- VQ: C
+- VQ: A
 - VK: B-
 
 ## Deposit / Withdrawal
@@ -57,9 +57,17 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+2 shadow trades · realized net **+5.14 USD** · win rate 100% (2 settled)
+
+- 2026-09-29 · carry-A · SU→VK · +1.45 USD · _held_
+- 2026-09-13 · carry-A · SU→VK · +3.69 USD · _held_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:54:00.583639Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:55:11.587273Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

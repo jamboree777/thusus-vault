@@ -2,21 +2,21 @@
 token: BLAST
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: D
+nw_grade: A+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
-updated: 2026-10-07T03:52:58.264006Z
+updated: 2026-10-08T03:54:09.292867Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLAST · NW Grade **A**
+# BLAST · NW Grade **A+**
 
-Blast-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Blast-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[blast]] `0xb1a570…e2ad` (verified_same)
@@ -25,12 +25,12 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 ## Grade by exchange
 - WV: C
 - SU: B+
-- QK: D
-- XD: B+
-- VQ: B+
-- YZ: D
+- QK: A
+- XD: A+
+- VQ: B-
+- YZ: B
 - VK: B+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -44,12 +44,12 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-08 · YZ [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-07 · VQ [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-06 · QK [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-02 · ZU [[blastnet]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-02 · SU [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-02 · WV [[blast]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · ZU [[blastnet]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: closed:blast,blast
@@ -58,7 +58,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - XD: open:blast
 - VQ: open:blasteth | closed:blast
 - ST: open:blast
-- YZ: open:blast,blast
+- YZ: open:blast | closed:blast
 - VK: closed:blast
 - ZU: closed:blastnet
 
@@ -76,7 +76,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:58.264006Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:54:09.292867Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

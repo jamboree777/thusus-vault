@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [QK, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-07T03:56:12.394920Z
+updated: 2026-10-08T03:56:57.935696Z
 source: nightwatch-kg
 ---
 
@@ -30,18 +30,18 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
-- QK: deposit ❌ / withdraw ❌
+- QK: deposit ❌ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-07 · QK [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · WV [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · WV [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-15 · VK [[solana]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: closed:solana,solana
@@ -49,8 +49,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: open:solana,solana
 - YZ: open:solana,solana
 - VK: open:solana | closed:bsc
-- Suspended now: QK
-- Recently reopened (48h): WV
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:12.394920Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:56:57.935696Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

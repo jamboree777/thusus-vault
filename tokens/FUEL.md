@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c" }
 exchanges: [WV, QK, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-07T03:57:01.313183Z
+updated: 2026-10-08T03:57:47.056585Z
 source: nightwatch-kg
 ---
 
@@ -31,18 +31,18 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
-- QK: deposit ❌ / withdraw ❌
+- QK: deposit ❌ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-07 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[fuel]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[fuel]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-03 · WV [[fuel]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: open:ethereum,ethereum,fuel,fuel
@@ -50,8 +50,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: open:ethereum,ethereum,fuel,fuel
 - YZ: open:ethereum,ethereum
 - VK: open:ethereum | closed:fuel
-- Suspended now: QK
-- Recently reopened (48h): WV
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,17 +59,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-2 shadow trades · realized net **+2.96 USD** · win rate 100% (2 settled)
-
-- 2026-09-25 · livescan · YZ→VQ · +2.02 USD
-- 2026-07-23 · livescan · YZ→VQ · +0.93 USD
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:57:01.313183Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:57:47.056585Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

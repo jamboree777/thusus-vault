@@ -10,7 +10,7 @@ contracts:
   - { chain: polygon-pos, address: "0x4f7cc8ef14f3dc76ee2fb60028749e1b61cea162" }
 exchanges: [GN, WV, SU, QK, VQ, hyperliquid-xyz, YZ, VK]
 transfer: partial
-updated: 2026-10-07T03:52:32.386297Z
+updated: 2026-10-08T03:53:41.894478Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A
+- SU: A+
 - QK: A+
 - VQ: A
 - [[hyperliquid-xyz]]: A+
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:52:32.386297Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:53:41.894478Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

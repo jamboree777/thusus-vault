@@ -10,7 +10,7 @@ contracts:
 exchanges: [QK, VQ, hyperliquid, YZ, VK, DL]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-07T03:53:53.973157Z
+updated: 2026-10-08T03:54:58.479758Z
 source: nightwatch-kg
 ---
 
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:53:53.973157Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:54:58.479758Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

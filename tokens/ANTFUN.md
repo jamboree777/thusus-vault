@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
 exchanges: [VQ, YZ, VK]
 transfer: blocked
-updated: 2026-10-07T03:51:37.726137Z
+updated: 2026-10-08T03:52:50.421998Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Solana-network token; NW grade B+ liquidity; transfer is currently blocked (depo
 
 ## Grade by exchange
 - VQ: B+
-- YZ: B
+- YZ: F
 - VK: F
 
 ## Deposit / Withdrawal
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:51:37.726137Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:52:50.421998Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

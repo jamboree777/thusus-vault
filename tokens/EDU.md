@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x26aad156ba8efa501b32b42ffcdc8413f90e9c99" }
 exchanges: [GN, SU, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-07T03:56:07.826072Z
+updated: 2026-10-08T03:56:53.541274Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - GN: A+
-- SU: A
+- SU: A+
 - VQ: A
 - YZ: B+
 - VK: C+
@@ -54,7 +54,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: open:bsc,bsc
 - VK: open:bsc
 - CJ: open:bsc
-- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,17 +63,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-3 shadow trades · realized net **-0.57 USD** · win rate 33.3% (3 settled)
+4 shadow trades · realized net **-0.78 USD** · win rate 25% (4 settled)
 
+- 2026-10-07 · carry-A · SU→GN · -0.21 USD · _held_
 - 2026-10-06 · carry-A · SU→GN · -1.14 USD · _held_
 - 2026-10-05 · carry-A · SU→GN · +0.82 USD · _held_
-- 2026-09-28 · carry-A · SU→GN · -0.25 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-07T03:56:07.826072Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-08T03:56:53.541274Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
