@@ -2,7 +2,7 @@
 token: ES
 type: token
 tier: free
-nw_grade: A
+nw_grade: B+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -11,14 +11,14 @@ contracts:
 exchanges: [SU, QK, VQ, YZ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-08T03:57:10.827117Z
+updated: 2026-10-09T03:56:50.909627Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ES · NW Grade **A**
+# ES · NW Grade **B+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x43415e…1c4e` (verified_same)
@@ -28,8 +28,8 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 ## Grade by exchange
 - SU: B+
 - QK: F
-- VQ: A
-- YZ: B-
+- VQ: C+
+- YZ: F
 - VK: F
 
 ## Deposit / Withdrawal
@@ -76,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-08T03:57:10.827117Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-09T03:56:50.909627Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

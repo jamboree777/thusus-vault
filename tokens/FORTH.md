@@ -2,29 +2,29 @@
 token: FORTH
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: D+
+nw_grade: A+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x77fba179c79de5b7653f68b5039af940ada60ce0" }
 exchanges: [XD, YZ]
 transfer: partial
-updated: 2026-10-08T03:57:42.638422Z
+updated: 2026-10-09T03:57:17.301440Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FORTH · NW Grade **A**
+# FORTH · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x77fba1…0ce0` (verified_same)
 - Listed on: XD, YZ
 
 ## Grade by exchange
-- XD: A
-- YZ: D+
+- XD: A+
+- YZ: D
 
 ## Deposit / Withdrawal
 - XD: deposit ✅ / withdraw ✅
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-08T03:57:42.638422Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-09T03:57:17.301440Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

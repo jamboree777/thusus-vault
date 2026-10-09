@@ -3,14 +3,14 @@ token: DYDX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: partial
 contracts:
   - { chain: cosmos, address: "ibc/831f0b1bbb1d08a2b75311892876d71565478c532967545476df4c2d7492e48c" }
   - { chain: ethereum, address: "0x92d6c1e31e14520e676a687f0a93788b716beff5" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL]
 transfer: open
-updated: 2026-10-08T03:56:44.756098Z
+updated: 2026-10-09T03:56:19.393888Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is open on at lea
 ## Grade by exchange
 - GN: A+
 - WV: A+
-- SU: A-
+- SU: A
 - QK: A+
 - VQ: A
 - YZ: A
@@ -75,7 +75,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-08T03:56:44.756098Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-09T03:56:19.393888Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
