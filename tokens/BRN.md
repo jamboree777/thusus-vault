@@ -2,29 +2,29 @@
 token: BRN
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: B+
+nw_grade: A+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x926ecc7687fcfb296e97a2b4501f41a6f5f8c214" }
 exchanges: [VQ, VK]
 transfer: partial
-updated: 2026-10-09T03:54:07.068475Z
+updated: 2026-10-10T03:53:54.325646Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BRN · NW Grade **B+**
+# BRN · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x926ecc…c214` (verified_same)
 - Listed on: VQ, VK
 
 ## Grade by exchange
-- VQ: B+
-- VK: B+
+- VQ: A+
+- VK: C
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:54:07.068475Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:53:54.325646Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

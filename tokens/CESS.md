@@ -2,21 +2,21 @@
 token: CESS
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c78d4605c2972e5f989de9019de1fb00c5d3462" }
 exchanges: [WV, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-09T03:54:47.256572Z
+updated: 2026-10-10T03:54:20.539969Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CESS · NW Grade **A**
+# CESS · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x0c78d4…3462` (verified_same)
@@ -24,8 +24,8 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 
 ## Grade by exchange
 - WV: A-
-- VQ: B+
-- YZ: A
+- VQ: A+
+- YZ: A+
 - VK: C+
 
 ## Deposit / Withdrawal
@@ -55,17 +55,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-2 shadow trades · realized net **-5.06 USD** · win rate 50% (2 settled)
-
-- 2026-07-20 · livescan · VQ→YZ · -5.82 USD · _mixed_
-- 2026-07-19 · livescan · WV→YZ · +0.77 USD · _in_line_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:54:47.256572Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:54:20.539969Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

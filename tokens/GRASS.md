@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "grass7b4rdkfbcjtkgsqnxkqjwigvqyfbuscujr3xxjs" }
 exchanges: [WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL]
 transfer: open
-updated: 2026-10-09T03:58:01.441176Z
+updated: 2026-10-10T03:57:58.633188Z
 source: nightwatch-kg
 ---
 
@@ -74,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:58:01.441176Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:57:58.633188Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,21 +2,21 @@
 token: BLAST
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
-updated: 2026-10-09T03:53:38.406714Z
+updated: 2026-10-10T03:53:20.437281Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLAST · NW Grade **A**
+# BLAST · NW Grade **A+**
 
-Blast-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Blast-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[blast]] `0xb1a570…e2ad` (verified_same)
@@ -24,13 +24,13 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 
 ## Grade by exchange
 - WV: C
-- SU: A
-- QK: C-
-- XD: C-
-- VQ: B+
-- YZ: D-
+- SU: A+
+- QK: F
+- XD: B+
+- VQ: D+
+- YZ: C-
 - VK: B+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -76,7 +76,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:53:38.406714Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:53:20.437281Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

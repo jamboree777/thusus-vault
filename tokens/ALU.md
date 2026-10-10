@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x8263cd1601fe73c066bf49cc09841f35348e3be0" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-09T03:52:05.306430Z
+updated: 2026-10-10T03:51:57.676050Z
 source: nightwatch-kg
 ---
 
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:52:05.306430Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:51:57.676050Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

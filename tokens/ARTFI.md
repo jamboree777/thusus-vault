@@ -2,30 +2,29 @@
 token: ARTFI
 type: token
 tier: free
-nw_grade: C+
-nw_grade_worst: F
+nw_grade: C-
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::artfi" }
 exchanges: [VQ, YZ]
 transfer: partial
-lifecycle: suspended
-updated: 2026-10-09T03:52:18.610294Z
+updated: 2026-10-10T03:52:17.913346Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ARTFI · NW Grade **C+**
+# ARTFI · NW Grade **C-**
 
-Sui-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x706fa7…rtfi` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: C+
-- YZ: F
+- VQ: C-
+- YZ: C-
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -40,7 +39,6 @@ Sui-network token; NW grade C+ liquidity; transfer is partial (some venues froze
 - 2026-10-02 · WV [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-02 · WV [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-09-26 · WV [[sui]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:sui,sui
@@ -64,8 +62,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:52:18.610294Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:52:17.913346Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

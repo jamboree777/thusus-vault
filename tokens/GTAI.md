@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x003d87d02a2a01e9e8a20f507c83e15dd83a33d1" }
 exchanges: [QK, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-09T03:58:07.189962Z
+updated: 2026-10-10T03:58:03.061554Z
 source: nightwatch-kg
 ---
 
@@ -49,7 +49,6 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VQ: open:bsc,bsc
 - YZ: open:bsc,bsc
 - VK: open:bsc
-- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:58:07.189962Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:58:03.061554Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

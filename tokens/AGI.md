@@ -9,8 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x7da2641000cbb407c329310c461b2cb9c70c3046" }
 exchanges: [SU, QK, VQ, YZ, VK]
 transfer: partial
-lifecycle: delisted
-updated: 2026-10-09T03:51:34.648776Z
+updated: 2026-10-10T03:51:35.648625Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - SU: A+
 - QK: A
 - VQ: D+
-- YZ: A-
+- YZ: A
 - VK: B-
 
 ## Deposit / Withdrawal
@@ -45,7 +44,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · SU [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - SU: open:ethereum
@@ -71,8 +69,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:51:34.648776Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:51:35.648625Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

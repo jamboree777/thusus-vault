@@ -2,31 +2,31 @@
 token: CUDIS
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1" }
 exchanges: [WV, SU, QK, VQ, VK]
 transfer: partial
-updated: 2026-10-09T03:55:34.152688Z
+updated: 2026-10-10T03:55:20.587271Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CUDIS · NW Grade **A+**
+# CUDIS · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xc1353d…9cb1` (verified_same)
 - Listed on: WV, SU, QK, VQ, VK
 
 ## Grade by exchange
-- WV: A+
+- WV: A
 - SU: A
 - QK: D+
-- VQ: B-
+- VQ: A
 - VK: A-
 
 ## Deposit / Withdrawal
@@ -39,22 +39,21 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-09 · VQ [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-07 · QK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:bsc,bsc
 - SU: closed:solana
 - QK: closed:bsc,solana
-- VQ: open:bsc,bsc,solana,solana
+- VQ: open:bsc,bsc,solana | closed:solana
 - ST: open:solcudis
 - VK: closed:bsc,solana
 - CJ: open:bsc
-- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:55:34.152688Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:55:20.587271Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

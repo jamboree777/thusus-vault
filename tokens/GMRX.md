@@ -2,28 +2,28 @@
 token: GMRX
 type: token
 tier: free
-nw_grade: B+
+nw_grade: D
 nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x998305efdc264b9674178899fffbb44a47134a76" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-09T03:57:50.437956Z
+updated: 2026-10-10T03:57:47.619805Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GMRX · NW Grade **B+**
+# GMRX · NW Grade **D**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade D liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x998305…4a76` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: B+
+- VQ: D
 - YZ: D
 
 ## Deposit / Withdrawal
@@ -65,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:57:50.437956Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:57:47.619805Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

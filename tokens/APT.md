@@ -7,10 +7,10 @@ nw_grade_worst: C+
 identity: native
 contracts:
   - { chain: aptos, address: "0x1::aptos_coin::aptoscoin" }
-exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
+exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
 transfer: open
 lifecycle: suspended
-updated: 2026-10-09T03:52:11.912468Z
+updated: 2026-10-10T03:52:11.312611Z
 source: nightwatch-kg
 ---
 
@@ -21,7 +21,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 
 ## Identity
 - Contract: [[aptos]] `0x1::apt…coin` (native)
-- Listed on: GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU
+- Listed on: GN, WV, SU, QK, XD, VQ, [[hyperliquid-perp]], YZ, VK, DL, ZU
 
 ## Grade by exchange
 - GN: A+
@@ -30,6 +30,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - QK: A+
 - XD: A+
 - VQ: A
+- [[hyperliquid-perp]]: A+
 - YZ: A
 - VK: A
 - DL: A+
@@ -90,7 +91,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-09T03:52:11.912468Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-10T03:52:11.312611Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
