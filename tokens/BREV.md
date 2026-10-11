@@ -3,13 +3,13 @@ token: BREV
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x086f405146ce90135750bbec9a063a8b20a8bffb" }
 exchanges: [GN, WV, SU, QK, XD, VK, DL, ZU]
 transfer: open
-updated: 2026-10-10T03:53:49.913825Z
+updated: 2026-10-11T03:52:52.350025Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: B+
+- SU: A
 - QK: A+
 - XD: A+
 - VK: A-
@@ -77,7 +77,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:53:49.913825Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:52:52.350025Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

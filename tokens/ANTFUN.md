@@ -3,14 +3,13 @@ token: ANTFUN
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
-exchanges: [VQ, YZ, VK]
+exchanges: [VQ, YZ]
 transfer: blocked
-lifecycle: delisted
-updated: 2026-10-10T03:52:02.050203Z
+updated: 2026-10-11T03:50:57.090514Z
 source: nightwatch-kg
 ---
 
@@ -21,12 +20,11 @@ Solana-network token; NW grade A+ liquidity; transfer is currently blocked (depo
 
 ## Identity
 - Contract: [[solana]] `cwz6bsdn…4cmt` (verified_same)
-- Listed on: VQ, YZ, VK
+- Listed on: VQ, YZ
 
 ## Grade by exchange
 - VQ: A+
 - YZ: D-
-- VK: F
 
 ## Deposit / Withdrawal
 - VQ: deposit ❌ / withdraw ✅
@@ -40,7 +38,6 @@ Solana-network token; NW grade A+ liquidity; transfer is currently blocked (depo
 - 2026-09-21 · VQ [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-21 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-15 · VK [[solana]] deposit → open · [[event/dw-resume]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - VQ: closed:solana,solana
@@ -62,8 +59,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:52:02.050203Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:50:57.090514Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

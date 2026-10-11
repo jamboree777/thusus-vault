@@ -3,13 +3,13 @@ token: BID
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xa1832f7f4e534ae557f9b5ab76de54b1873e498b" }
 exchanges: [VQ, VK]
 transfer: open
-updated: 2026-10-10T03:53:15.820639Z
+updated: 2026-10-11T03:52:12.169927Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - Listed on: VQ, VK
 
 ## Grade by exchange
-- VQ: B-
+- VQ: B+
 - VK: A+
 
 ## Deposit / Withdrawal
@@ -50,15 +50,16 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+1.27 USD** · win rate 100% (1 settled)
+2 shadow trades · realized net **+2.59 USD** · win rate 100% (2 settled)
 
+- 2026-10-10 · livescan · VK→VQ · +1.33 USD
 - 2026-10-01 · livescan · VK→VQ · +1.27 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:53:15.820639Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:52:12.169927Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

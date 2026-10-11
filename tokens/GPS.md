@@ -3,13 +3,13 @@ token: GPS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x9a4a67721573f2c9209dfff972c52be4e3f6642e" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK]
 transfer: open
-updated: 2026-10-10T03:57:54.222925Z
+updated: 2026-10-11T03:56:44.823518Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - SU: A+
 - QK: A+
 - VQ: A+
-- YZ: B
+- YZ: B+
 - VK: A-
 
 ## Deposit / Withdrawal
@@ -68,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:57:54.222925Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:56:44.823518Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,8 @@ contracts:
   - { chain: binance-smart-chain, address: "0x617cab4aaae1f8dfb3ee138698330776a1e1b324" }
 exchanges: [QK, VQ, VK]
 transfer: partial
-updated: 2026-10-10T03:52:20.377395Z
+lifecycle: suspended
+updated: 2026-10-11T03:51:22.220547Z
 source: nightwatch-kg
 ---
 
@@ -41,6 +42,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:bsc,bsc
@@ -65,8 +67,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:52:20.377395Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:51:22.220547Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

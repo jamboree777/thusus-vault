@@ -10,7 +10,7 @@ contracts:
 exchanges: [GN, WV, SU, XD, VQ, YZ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-10T03:51:59.852301Z
+updated: 2026-10-11T03:50:54.911728Z
 source: nightwatch-kg
 ---
 
@@ -72,7 +72,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:51:59.852301Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:50:54.911728Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

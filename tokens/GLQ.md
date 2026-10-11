@@ -2,30 +2,30 @@
 token: GLQ
 type: token
 tier: free
-nw_grade: C+
-nw_grade_worst: D+
+nw_grade: D+
+nw_grade_worst: F
 identity: native
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-10T03:57:45.431243Z
+updated: 2026-10-11T03:56:35.606000Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GLQ · NW Grade **C+**
+# GLQ · NW Grade **D+**
 
-Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x9f9c8e…4d24` (native)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: C
+- VQ: F
 - YZ: D+
-- VK: C+
+- VK: D
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ❌
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:57:45.431243Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:56:35.606000Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

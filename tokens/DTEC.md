@@ -3,13 +3,13 @@ token: DTEC
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [WV, VQ, VK]
 transfer: open
-updated: 2026-10-10T03:56:15.020108Z
+updated: 2026-10-11T03:54:58.403581Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +23,8 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - Listed on: WV, VQ, VK
 
 ## Grade by exchange
-- WV: D+
-- VQ: A
+- WV: A
+- VQ: A+
 - VK: A+
 
 ## Deposit / Withdrawal
@@ -53,17 +53,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-10 shadow trades · realized net **+4.42 USD** · win rate 100% (10 settled)
+11 shadow trades · realized net **+4.85 USD** · win rate 100% (11 settled)
 
+- 2026-10-10 · livescan · VK→VQ · +0.43 USD · _in_line_
 - 2026-10-09 · livescan · VK→VQ · +0.54 USD · _depth_shrink_
 - 2026-08-29 · livescan · VK→VQ · +0.44 USD · _beat_
-- 2026-08-07 · livescan · VK→VQ · +0.62 USD · _beat_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:56:15.020108Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:54:58.403581Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

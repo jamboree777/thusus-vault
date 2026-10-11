@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0xed6e000def95780fb89734c07ee2ce9f6dcaf110" }
 exchanges: [WV, SU, QK, XD, VQ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-10T03:56:23.802729Z
+updated: 2026-10-11T03:55:09.065073Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 
 ## Grade by exchange
 - WV: A+
-- SU: A-
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: F
@@ -84,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:56:23.802729Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:55:09.065073Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

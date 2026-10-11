@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
 exchanges: [SU, XD, VQ, hyperliquid, VK, ZU]
 transfer: partial
-updated: 2026-10-10T03:56:10.649575Z
+updated: 2026-10-11T03:54:54.012764Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: SU, XD, VQ, [[hyperliquid]], VK, ZU
 
 ## Grade by exchange
-- SU: A+
+- SU: A-
 - XD: A+
 - VQ: A
 - [[hyperliquid]]: A
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-10T03:56:10.649575Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-11T03:54:54.012764Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
