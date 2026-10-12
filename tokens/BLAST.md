@@ -9,7 +9,7 @@ contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
-updated: 2026-10-11T03:52:22.267964Z
+updated: 2026-10-12T03:52:51.416681Z
 source: nightwatch-kg
 ---
 
@@ -24,43 +24,44 @@ Blast-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 
 ## Grade by exchange
 - WV: C
-- SU: A+
+- SU: A
 - QK: F
-- XD: B+
-- VQ: C
-- YZ: B
+- XD: A+
+- VQ: B+
+- YZ: B+
 - VK: B+
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
-- WV: deposit ❌ / withdraw ✅
+- WV: deposit ❌ / withdraw ❌
 - SU: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
-- VQ: deposit ✅ / withdraw ✅
+- VQ: deposit ❌ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
-- YZ: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-12 · VQ [[blasteth]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-10 · WV [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-08 · YZ [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-07 · VQ [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-06 · QK [[blast]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-02 · ZU [[blastnet]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-02 · SU [[blast]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:blast,blast
 - SU: closed:blast
 - QK: closed:blast
 - XD: open:blast
-- VQ: open:blasteth | closed:blast
+- VQ: closed:blast,blasteth
 - ST: open:blast
-- YZ: open:blast | closed:blast
+- YZ: closed:blast,blast
 - VK: closed:blast
 - ZU: closed:blastnet
+- Suspended now: WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +77,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-11T03:52:22.267964Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-12T03:52:51.416681Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

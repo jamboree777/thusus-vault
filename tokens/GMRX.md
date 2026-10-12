@@ -2,49 +2,49 @@
 token: GMRX
 type: token
 tier: free
-nw_grade: D+
-nw_grade_worst: D+
+nw_grade: A+
+nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x998305efdc264b9674178899fffbb44a47134a76" }
 exchanges: [VQ]
 transfer: partial
-updated: 2026-10-11T03:56:38.014659Z
+updated: 2026-10-12T03:57:14.441364Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GMRX · NW Grade **D+**
+# GMRX · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x998305…4a76` (verified_same)
 - Listed on: VQ
 
 ## Grade by exchange
-- VQ: D+
+- VQ: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ❌
 - VQ: deposit ✅ / withdraw ✅
-- YZ: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-12 · YZ [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-06 · YZ [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · QK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:bsc,bsc
 - QK: closed:bsc
 - VQ: open:bsc,bsc
-- YZ: open:bsc | closed:bsc
+- YZ: closed:bsc,bsc
 - VK: closed:bsc
 - Suspended now: QK
 
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-11T03:56:38.014659Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-12T03:57:14.441364Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

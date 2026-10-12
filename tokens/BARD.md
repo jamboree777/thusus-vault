@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-11T03:51:51.046735Z
+updated: 2026-10-12T03:52:14.913330Z
 source: nightwatch-kg
 ---
 
@@ -49,12 +49,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-11 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:bsc,ethereum
@@ -65,7 +65,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - VQ: open:ethereum,ethereum
 - ST: open:bard
 - YZ: open:ethereum,ethereum
-- VK: open:bsc,ethereum
+- VK: open:bsc | closed:ethereum
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
@@ -79,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-11T03:51:51.046735Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-12T03:52:14.913330Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

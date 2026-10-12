@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [GN, VQ, VK]
 transfer: partial
-updated: 2026-10-11T03:56:40.283558Z
+updated: 2026-10-12T03:57:16.606544Z
 source: nightwatch-kg
 ---
 
@@ -35,17 +35,17 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-12 · VQ [[arbevm]] withdraw → open · [[event/dw-resume]]
 - 2026-10-10 · VQ [[arbone]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-04 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-10-04 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:arbitrum,arbone | closed:polygon
 - WV: closed:polygon,polygon
-- VQ: open:arbone,polygon,polygon | closed:arbevm
+- VQ: open:arbevm,arbone,polygon,polygon
 - YZ: closed:arbitrum,arbitrum,polygon,polygon
 - VK: open:arbitrum | closed:none,polygon
 - Suspended now: YZ
@@ -60,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-11T03:56:40.283558Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-12T03:57:16.606544Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

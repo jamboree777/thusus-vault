@@ -3,13 +3,13 @@ token: DEGEN
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xfee293840d23b0b2de8c55e1cf7a9f01c157767c" }
 exchanges: [QK, XD, VQ, YZ, VK, DL]
 transfer: partial
-updated: 2026-10-11T03:54:31.993292Z
+updated: 2026-10-12T03:55:07.717999Z
 source: nightwatch-kg
 ---
 
@@ -26,9 +26,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: A+
 - XD: A+
 - VQ: A
-- YZ: A
-- VK: B-
-- DL: A+
+- YZ: D
+- VK: A-
+- DL: A
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-11T03:54:31.993292Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-12T03:55:07.717999Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

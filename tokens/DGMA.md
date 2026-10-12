@@ -2,29 +2,29 @@
 token: DGMA
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: A-
+nw_grade: D
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x4bdfa27ce379d7601da1d15bd637a1cf895ff8fb" }
 exchanges: [VQ, VK]
 transfer: open
-updated: 2026-10-11T03:54:40.982358Z
+updated: 2026-10-12T03:55:16.513356Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DGMA · NW Grade **A**
+# DGMA · NW Grade **D**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade D liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x4bdfa2…f8fb` (verified_same)
 - Listed on: VQ, VK
 
 ## Grade by exchange
-- VQ: A
-- VK: A-
+- VQ: F
+- VK: D
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-11T03:54:40.982358Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-12T03:55:16.513356Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x0c7d5ae016f806603cb1782bea29ac69471cab9c" }
 exchanges: [SU, VQ, YZ, ZU]
 transfer: partial
-updated: 2026-10-11T03:52:07.712666Z
+updated: 2026-10-12T03:52:42.771768Z
 source: nightwatch-kg
 ---
 
@@ -26,23 +26,23 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - SU: A+
 - VQ: C
 - YZ: F
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
-- YZ: deposit ❌ / withdraw ✅
+- YZ: deposit ❌ / withdraw ❌
 - VK: deposit ❌ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-12 · YZ [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-07 · YZ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · ZU [[bfc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · ZU [[bfc]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bfc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bfc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · ZU [[bfc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - SU: open:bfc
@@ -51,6 +51,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: closed:ethereum,ethereum
 - VK: closed:solana
 - ZU: open:bfc
+- Suspended now: YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +62,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-11T03:52:07.712666Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-12T03:52:42.771768Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
