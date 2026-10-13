@@ -3,13 +3,13 @@ token: DSYNC
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: A
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf94e7d0710709388bce3161c32b4eea56d3f91cc" }
 exchanges: [VQ, YZ, VK]
 transfer: open
-updated: 2026-10-12T03:55:42.347734Z
+updated: 2026-10-13T03:55:00.884401Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 ## Grade by exchange
 - VQ: A
 - YZ: A
-- VK: A
+- VK: A-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -58,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-12T03:55:42.347734Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-13T03:55:00.884401Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,21 +2,21 @@
 token: ELIZAOS
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [QK, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-12T03:55:59.969923Z
+updated: 2026-10-13T03:55:31.822148Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ELIZAOS · NW Grade **A**
+# ELIZAOS · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xea17df…2478` (verified_same)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Grade by exchange
 - QK: A
-- VQ: A
+- VQ: A+
 - YZ: B
 - VK: B+
 
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-12T03:55:59.969923Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-13T03:55:31.822148Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

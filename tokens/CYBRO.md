@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xd58826d2c0babf1a60d8b508160b52e9c19aff07" }
 exchanges: [VQ, VK]
 transfer: partial
-updated: 2026-10-12T03:54:55.089382Z
+updated: 2026-10-13T03:54:19.728218Z
 source: nightwatch-kg
 ---
 
@@ -31,17 +31,18 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - VK: deposit ❌ / withdraw ❌
 
 ## Events
+- 2026-10-12 · VQ [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-10-12 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-12 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-12 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · VQ [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-09 · VQ [[blast]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-08 · VK [[none]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-08 · VK [[none]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-08 · VK [[blast]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- VQ: open:blasteth | closed:blast,bsc
-- VK: closed:blast,none
+- VQ: open:blasteth | closed:blast,bsc,bsc
+- VK: closed:blast,bsc,none
 - Suspended now: VK
+- Recently reopened (48h): VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-12T03:54:55.089382Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-13T03:54:19.728218Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

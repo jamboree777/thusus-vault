@@ -2,28 +2,28 @@
 token: ECHO
 type: token
 tier: free
-nw_grade: C-
-nw_grade_worst: D-
+nw_grade: B
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x06238c1b8e618abedf17669228dc95fb2d2e210b" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-12T03:55:48.900104Z
+updated: 2026-10-13T03:55:20.567091Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ECHO · NW Grade **C-**
+# ECHO · NW Grade **B**
 
-Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x06238c…210b` (verified_same)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: D-
+- VQ: B
 - YZ: C-
 - VK: C-
 
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-12T03:55:48.900104Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-13T03:55:20.567091Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

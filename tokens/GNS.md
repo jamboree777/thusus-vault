@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [GN, VQ, VK]
 transfer: partial
-updated: 2026-10-12T03:57:16.606544Z
+updated: 2026-10-13T03:56:38.527986Z
 source: nightwatch-kg
 ---
 
@@ -60,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-12T03:57:16.606544Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-13T03:56:38.527986Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

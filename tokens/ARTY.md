@@ -3,14 +3,14 @@ token: ARTY
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: F
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x617cab4aaae1f8dfb3ee138698330776a1e1b324" }
 exchanges: [QK, VQ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-12T03:51:40.048909Z
+updated: 2026-10-13T03:51:11.320053Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - QK: B+
-- VQ: F
+- VQ: D-
 - VK: D-
 
 ## Deposit / Withdrawal
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-12T03:51:40.048909Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-13T03:51:11.320053Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

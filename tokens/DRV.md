@@ -3,20 +3,20 @@ token: DRV
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
 exchanges: [SU, XD, VQ, hyperliquid, VK, ZU]
-transfer: partial
-updated: 2026-10-12T03:55:40.155985Z
+transfer: open
+updated: 2026-10-13T03:54:58.472447Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # DRV · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xb1d1ea…71be` (verified_same)
@@ -27,30 +27,31 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - XD: A+
 - VQ: A
 - [[hyperliquid]]: A
-- VK: C
+- VK: C-
 - ZU: A+
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
-- VK: deposit ❌ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-12 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-12 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-12 · VK [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - SU: open:ethereum
 - XD: open:base
 - VQ: open:ethereum,ethereum
-- VK: closed:ethereum
+- VK: open:ethereum
 - ZU: open:ethereum
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-12T03:55:40.155985Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-13T03:54:58.472447Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
