@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [GN, VQ, VK]
 transfer: partial
-updated: 2026-10-13T03:56:38.527986Z
+updated: 2026-10-14T03:57:50.766988Z
 source: nightwatch-kg
 ---
 
@@ -49,7 +49,6 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - YZ: closed:arbitrum,arbitrum,polygon,polygon
 - VK: open:arbitrum | closed:none,polygon
 - Suspended now: YZ
-- Recently reopened (48h): VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-13T03:56:38.527986Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-14T03:57:50.766988Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

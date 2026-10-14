@@ -3,13 +3,13 @@ token: GROVE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb30fe1cf884b48a22a50d22a9282004f2c5e9406" }
 exchanges: [QK, XD, YZ, VK]
 transfer: partial
-updated: 2026-10-13T03:56:54.515174Z
+updated: 2026-10-14T03:58:05.119055Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - QK: A+
 - XD: A+
-- YZ: B+
+- YZ: C+
 - VK: B-
 
 ## Deposit / Withdrawal
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-13T03:56:54.515174Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-14T03:58:05.119055Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

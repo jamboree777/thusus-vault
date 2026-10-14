@@ -8,7 +8,7 @@ identity: partial
 exchanges: [SU]
 transfer: blocked
 lifecycle: suspended
-updated: 2026-10-13T03:56:05.794998Z
+updated: 2026-10-14T03:57:03.803125Z
 source: nightwatch-kg
 ---
 
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-13T03:56:05.794998Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-14T03:57:03.803125Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

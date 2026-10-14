@@ -10,7 +10,7 @@ contracts:
 exchanges: [WV, SU, XD, VQ, YZ, VK, DL, ZU]
 transfer: open
 lifecycle: delisted
-updated: 2026-10-13T03:54:08.757535Z
+updated: 2026-10-14T03:55:14.033782Z
 source: nightwatch-kg
 ---
 
@@ -44,12 +44,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-14 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-13 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-08 · VK [[cronos]] deposit → open · [[event/dw-resume]]
 - 2026-10-08 · VK [[crc20]] deposit → open · [[event/dw-resume]]
 - 2026-10-08 · VK [[crc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-08 · VK [[cronos]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-05 · WV [[cronoschain]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
@@ -61,6 +61,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - VK: open:crc20,cro,cronos | closed:ethereum
 - DL: open:cronos,cronos pos
 - ZU: open:cro
+- Recently reopened (48h): VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-13T03:54:08.757535Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-14T03:55:14.033782Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,21 +2,21 @@
 token: BLUAI
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xed9ae3def8d6f052971bb8b6d1975ff267cf9aad" }
 exchanges: [WV, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-13T03:52:25.578586Z
+updated: 2026-10-14T03:53:33.970362Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLUAI · NW Grade **A+**
+# BLUAI · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xed9ae3…9aad` (verified_same)
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - WV: B+
-- VQ: A+
+- VQ: A
 - YZ: A
 - VK: A
 
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-13T03:52:25.578586Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-14T03:53:33.970362Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
