@@ -9,7 +9,7 @@ contracts:
   - { chain: osmosis, address: "ibc/7ed954cfffc06ee8419387f3fc688837ff64ef264de14219935f724eeedbf8d3" }
 exchanges: [GN, SU, VQ, VK]
 transfer: open
-updated: 2026-10-14T03:55:16.232537Z
+updated: 2026-10-15T03:55:20.142654Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Osmosis-network token; NW grade A+ liquidity; transfer is open on at least one v
 
 ## Grade by exchange
 - GN: A+
-- SU: A
+- SU: A-
 - VQ: A
 - VK: B-
 
@@ -49,7 +49,6 @@ Osmosis-network token; NW grade A+ liquidity; transfer is open on at least one v
 - VQ: open:bsc,bsc,ctk,ctk
 - VK: open:bsc
 - CJ: open:bsc
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-14T03:55:16.232537Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-15T03:55:20.142654Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

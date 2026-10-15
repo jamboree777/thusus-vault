@@ -2,28 +2,29 @@
 token: ECHO
 type: token
 tier: free
-nw_grade: B-
+nw_grade: C-
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x06238c1b8e618abedf17669228dc95fb2d2e210b" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-14T03:56:14.801454Z
+lifecycle: suspended
+updated: 2026-10-15T03:56:18.783053Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ECHO · NW Grade **B-**
+# ECHO · NW Grade **C-**
 
-Binance-smart-chain-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x06238c…210b` (verified_same)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: B-
+- VQ: F
 - YZ: F
 - VK: C-
 
@@ -33,16 +34,20 @@ Binance-smart-chain-network token; NW grade B- liquidity; transfer is partial (s
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-14 · VK [[aptos]] withdraw → open · [[event/dw-resume]]
+- 2026-10-14 · VK [[aptos]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-14 · VQ [[aptos]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-14 · YZ [[aptos]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-27 · VK [[aptos]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-27 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-24 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-07-20 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: delist scheduled (1792551600) · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- VQ: open:aptos,aptos
-- YZ: open:aptos,aptos
+- VQ: open:aptos | closed:aptos
+- YZ: open:aptos | closed:aptos
 - VK: closed:aptos,bsc
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -59,8 +64,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-14T03:56:14.801454Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-15T03:56:18.783053Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

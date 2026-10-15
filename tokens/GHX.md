@@ -3,13 +3,13 @@ token: GHX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x728f30fa2f100742c7949d1961804fa8e0b1387d" }
 exchanges: [SU, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-14T03:57:30.489651Z
+updated: 2026-10-15T03:57:29.799932Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +23,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: SU, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: A+
-- VQ: A+
+- SU: A-
+- VQ: D-
 - YZ: A+
 - VK: A
 
@@ -59,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-14T03:57:30.489651Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-15T03:57:29.799932Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

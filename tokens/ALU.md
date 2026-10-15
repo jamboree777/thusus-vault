@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x8263cd1601fe73c066bf49cc09841f35348e3be0" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-14T03:52:04.991109Z
+updated: 2026-10-15T03:51:36.382115Z
 source: nightwatch-kg
 ---
 
@@ -54,16 +54,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-1 shadow trade · realized net **-2.40 USD** · win rate 0% (1 settled)
-
-- 2026-10-08 · livescan · VK→YZ · -2.40 USD · _price_drift_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-14T03:52:04.991109Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-15T03:51:36.382115Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

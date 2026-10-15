@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd58826d2c0babf1a60d8b508160b52e9c19aff07" }
 exchanges: [VQ, VK]
-transfer: partial
-updated: 2026-10-14T03:55:32.679841Z
+transfer: open
+updated: 2026-10-15T03:55:28.912918Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CYBRO · NW Grade **A**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xd58826…ff07` (verified_same)
@@ -28,21 +28,20 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
-- VK: deposit ❌ / withdraw ❌
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-14 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-10-14 · VK [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-10-12 · VQ [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-12 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-12 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-12 · VQ [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-09 · VQ [[blast]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - VQ: open:blasteth | closed:blast,bsc,bsc
-- VK: closed:blast,bsc,none
-- Suspended now: VK
-- Recently reopened (48h): VQ
+- VK: open:bsc | closed:blast,none
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -62,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-14T03:55:32.679841Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-15T03:55:28.912918Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

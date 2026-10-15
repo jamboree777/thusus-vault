@@ -9,7 +9,8 @@ contracts:
   - { chain: binance-smart-chain, address: "0x617cab4aaae1f8dfb3ee138698330776a1e1b324" }
 exchanges: [QK, VQ, VK]
 transfer: partial
-updated: 2026-10-14T03:52:31.666450Z
+lifecycle: suspended
+updated: 2026-10-15T03:52:08.998154Z
 source: nightwatch-kg
 ---
 
@@ -25,29 +26,31 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 ## Grade by exchange
 - QK: B+
 - VQ: F
-- VK: D
+- VK: D+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - YZ: deposit ❌ / withdraw ❌
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-14 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-14 · VQ [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-07 · QK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: delist scheduled (1792551600) · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:bsc,bsc
 - QK: closed:bsc
-- VQ: open:bsc,bsc
+- VQ: open:bsc | closed:bsc
 - YZ: closed:bsc,bsc
-- VK: open:bsc
+- VK: closed:bsc
 - Suspended now: YZ
 
 ## Backers & Project
@@ -65,8 +68,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-14T03:52:31.666450Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-15T03:52:08.998154Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

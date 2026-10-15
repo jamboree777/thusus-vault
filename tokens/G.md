@@ -10,7 +10,7 @@ contracts:
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-14T03:57:19.196286Z
+updated: 2026-10-15T03:57:23.248025Z
 source: nightwatch-kg
 ---
 
@@ -27,9 +27,9 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - GN: A+
 - WV: B
-- SU: A+
+- SU: A
 - QK: A+
-- XD: A+
+- XD: A
 - VQ: A+
 - YZ: C+
 - VK: C
@@ -51,18 +51,18 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-15 · QK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · SU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,ethereum
 - WV: open:ethereum,ethereum | closed:gravity,gravity
 - SU: open:ethereum | closed:g
-- QK: open:bsc,ethereum
+- QK: open:ethereum | closed:bsc
 - XD: open:ethereum
 - VQ: open:ethereum,ethereum,g | closed:g
 - ST: open:g
@@ -81,7 +81,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-14T03:57:19.196286Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-15T03:57:23.248025Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
