@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "dog1viwbb2vwdper5frj4yfg6gq6xuyfohue9txn65u" }
 exchanges: [WV, VQ, VK]
 transfer: partial
-updated: 2026-10-15T03:56:00.616802Z
+updated: 2026-10-16T03:56:11.615456Z
 source: nightwatch-kg
 ---
 
@@ -33,12 +33,12 @@ Solana-network token; NW grade A liquidity; transfer is partial (some venues fro
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-15 · WV [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[btcrunes]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-04 · WV [[btcrunes]] withdraw → open · [[event/dw-resume]]
 - 2026-10-04 · WV [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-03 · WV [[btcrunes]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[btcrunes]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:btcrunes,btcrunes
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-15T03:56:00.616802Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-16T03:56:11.615456Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,29 +2,29 @@
 token: BST
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: C-
+nw_grade: A+
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a" }
 exchanges: [VQ, VK]
 transfer: open
-updated: 2026-10-15T03:54:00.795281Z
+updated: 2026-10-16T03:54:03.330341Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BST · NW Grade **A**
+# BST · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x509a38…7f4a` (verified_same)
 - Listed on: VQ, VK
 
 ## Grade by exchange
-- VQ: A
-- VK: C-
+- VQ: A+
+- VK: D-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -54,7 +54,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-15T03:54:00.795281Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-16T03:54:03.330341Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

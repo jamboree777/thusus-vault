@@ -10,7 +10,7 @@ contracts:
 exchanges: [QK, VQ, hyperliquid, YZ, VK, DL]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-15T03:54:21.506795Z
+updated: 2026-10-16T03:54:26.353333Z
 source: nightwatch-kg
 ---
 
@@ -54,7 +54,6 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VK: open:bsc
 - DL: open:bsc
 - Suspended now: VQ
-- Recently reopened (48h): DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -72,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-15T03:54:21.506795Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-16T03:54:26.353333Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,7 +2,7 @@
 token: D
 type: token
 tier: free
-nw_grade: A
+nw_grade: B+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
   - { chain: ethereum, address: "0xdac17f958d2ee523a2206206994597c13d831ec7" }
 exchanges: [GN, WV, SU, YZ]
 transfer: blocked
-updated: 2026-10-15T03:55:37.039190Z
+updated: 2026-10-16T03:55:51.827269Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# D · NW Grade **A**
+# D · NW Grade **B+**
 
-Ethereum-network token; NW grade A liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Ethereum-network token; NW grade B+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[ethereum]] `0x33b481…49a8` (verified_same)
@@ -27,7 +27,7 @@ Ethereum-network token; NW grade A liquidity; transfer is currently blocked (dep
 ## Grade by exchange
 - GN: B+
 - WV: B
-- SU: A
+- SU: B+
 - YZ: F
 
 ## Deposit / Withdrawal
@@ -73,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-15T03:55:37.039190Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-16T03:55:51.827269Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

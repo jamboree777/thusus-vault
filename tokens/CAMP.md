@@ -2,30 +2,30 @@
 token: CAMP
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [SU, QK, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-15T03:54:14.907841Z
+updated: 2026-10-16T03:54:19.770755Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CAMP · NW Grade **A**
+# CAMP · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x84eaac…71fc` (verified_same)
 - Listed on: SU, QK, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: B+
+- SU: A
 - QK: A-
-- VQ: B+
+- VQ: A+
 - YZ: A
 - VK: B
 
@@ -57,7 +57,6 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - VK: closed:camp,ethereum
 - CJ: open:ethereum
 - Suspended now: VK
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -77,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-15T03:54:14.907841Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-16T03:54:19.770755Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,8 +9,8 @@ contracts:
   - { chain: ethereum, address: "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97" }
 exchanges: [QK, XD, YZ, VK, DL]
 transfer: partial
-lifecycle: suspended
-updated: 2026-10-15T03:57:39.566022Z
+lifecycle: delisted
+updated: 2026-10-16T03:58:18.237501Z
 source: nightwatch-kg
 ---
 
@@ -35,16 +35,17 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: deposit ❌ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 - DL: deposit ❌ / withdraw ❌
 
 ## Events
+- 2026-10-15 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-07 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -52,7 +53,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: closed:ethereum
 - XD: open:ethereum
 - YZ: open:ethereum,ethereum
-- VK: open:ethereum
+- VK: closed:ethereum
 - DL: closed:ethereum
 - Suspended now: DL
 
@@ -73,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-15T03:57:39.566022Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-16T03:58:18.237501Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

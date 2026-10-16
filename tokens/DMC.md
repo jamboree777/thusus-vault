@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::dmc" }
 exchanges: [WV, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-15T03:55:52.686946Z
+updated: 2026-10-16T03:56:07.219686Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Sui-network token; NW grade B+ liquidity; transfer is partial (some venues froze
 ## Grade by exchange
 - WV: B+
 - VQ: D-
-- YZ: B
+- YZ: B-
 - VK: D+
 
 ## Deposit / Withdrawal
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-15T03:55:52.686946Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-16T03:56:07.219686Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
