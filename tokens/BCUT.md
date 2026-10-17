@@ -2,29 +2,30 @@
 token: BCUT
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: C-
+nw_grade: C
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-16T03:52:57.543759Z
+lifecycle: suspended
+updated: 2026-10-17T03:53:15.234932Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BCUT · NW Grade **B-**
+# BCUT · NW Grade **C**
 
-Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xbef26b…c406` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: C-
-- YZ: B-
+- VQ: C
+- YZ: D
 
 ## Deposit / Withdrawal
 - QK: deposit ❌ / withdraw ✅
@@ -39,6 +40,7 @@ Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues 
 - 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-01 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - QK: closed:ethereum,polygon
@@ -63,8 +65,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-16T03:52:57.543759Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-17T03:53:15.234932Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

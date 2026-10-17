@@ -2,29 +2,29 @@
 token: GAIA
 type: token
 tier: free
-nw_grade: B
-nw_grade_worst: C-
+nw_grade: C+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x2ee7097bfdd98fce2ac08a1896038a7cd9aaed81" }
 exchanges: [WV, YZ, VK]
 transfer: partial
-updated: 2026-10-16T03:57:51.416280Z
+updated: 2026-10-17T03:58:06.762702Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GAIA · NW Grade **B**
+# GAIA · NW Grade **C+**
 
-Ethereum-network token; NW grade B liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x2ee709…ed81` (verified_same)
 - Listed on: WV, YZ, VK
 
 ## Grade by exchange
-- WV: C-
-- YZ: B
+- WV: C+
+- YZ: C+
 - VK: C+
 
 ## Deposit / Withdrawal
@@ -65,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-16T03:57:51.416280Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-17T03:58:06.762702Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

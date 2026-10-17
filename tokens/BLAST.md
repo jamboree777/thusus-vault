@@ -2,7 +2,7 @@
 token: BLAST
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-16T03:53:16.873572Z
+updated: 2026-10-17T03:53:30.605505Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLAST · NW Grade **A**
+# BLAST · NW Grade **A+**
 
-Blast-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Blast-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[blast]] `0xb1a570…e2ad` (verified_same)
@@ -27,8 +27,8 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - WV: C
 - SU: A-
 - QK: F
-- XD: A-
-- VQ: B
+- XD: A+
+- VQ: A-
 - YZ: F
 - VK: B+
 - ZU: A
@@ -41,16 +41,16 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - VQ: deposit ❌ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ❌ / withdraw ✅
-- VK: deposit ❌ / withdraw ✅
+- VK: deposit ❌ / withdraw ❌
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-16 · VK [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-15 · VQ [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-15 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-13 · VQ [[blast]] withdraw → open · [[event/dw-resume]]
 - 2026-10-13 · VQ [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · VQ [[blasteth]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-10 · WV [[blast]] withdraw → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -63,6 +63,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - YZ: closed:blast,blast
 - VK: closed:blast
 - ZU: closed:blastnet
+- Suspended now: VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,9 +72,14 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Community intel
+_Sourced contributions from the vault claim intake. [verified] passed review; [community-reported, unverified] are pending and NOT facts._
+
+- [verified] **dw_change** · 2026-07-16 · [source](https://nightwatch-v1-api.onrender.com/kg/BLAST.md) · by thusus-vault-bot
+
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-16T03:53:16.873572Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-17T03:53:30.605505Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

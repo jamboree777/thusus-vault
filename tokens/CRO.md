@@ -3,14 +3,14 @@ token: CRO
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C-
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b" }
 exchanges: [WV, SU, XD, VQ, YZ, VK, DL, ZU]
 transfer: open
 lifecycle: delisted
-updated: 2026-10-16T03:55:33.346591Z
+updated: 2026-10-17T03:55:32.201579Z
 source: nightwatch-kg
 ---
 
@@ -24,14 +24,14 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - Listed on: WV, SU, XD, VQ, YZ, VK, DL, ZU
 
 ## Grade by exchange
-- WV: C-
+- WV: D+
 - SU: A+
 - XD: A+
 - VQ: A
 - YZ: A
 - VK: A
 - DL: A+
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -61,7 +61,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - VK: open:crc20,cro,cronos,ethereum
 - DL: open:cronos,cronos pos
 - ZU: open:cro
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-16T03:55:33.346591Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-17T03:55:32.201579Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

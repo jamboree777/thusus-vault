@@ -2,7 +2,7 @@
 token: ECHO
 type: token
 tier: free
-nw_grade: C
+nw_grade: C-
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [VQ, YZ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-16T03:56:44.716523Z
+updated: 2026-10-17T03:56:40.060405Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ECHO · NW Grade **C**
+# ECHO · NW Grade **C-**
 
-Binance-smart-chain-network token; NW grade C liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x06238c…210b` (verified_same)
@@ -25,7 +25,7 @@ Binance-smart-chain-network token; NW grade C liquidity; transfer is partial (so
 
 ## Grade by exchange
 - VQ: F
-- YZ: C
+- YZ: F
 - VK: C-
 
 ## Deposit / Withdrawal
@@ -47,7 +47,6 @@ Binance-smart-chain-network token; NW grade C liquidity; transfer is partial (so
 - VQ: open:aptos | closed:aptos
 - YZ: open:aptos | closed:aptos
 - VK: closed:aptos,bsc
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-16T03:56:44.716523Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-17T03:56:40.060405Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-16T03:51:58.788051Z
+updated: 2026-10-17T03:52:17.312928Z
 source: nightwatch-kg
 ---
 
@@ -27,10 +27,10 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - QK: A+
 - VQ: A
-- YZ: A
+- YZ: A+
 - VK: A
 - DL: A+
 - ZU: A+
@@ -49,12 +49,12 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-16 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-15 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-15 · GN [[arbone]] deposit → open · [[event/dw-resume]]
 - 2026-10-15 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-15 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-15 · GN [[arbitrum]] deposit → open · [[event/dw-resume]]
-- 2026-10-15 · VQ [[arbone]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:arbitrum,arbone,ethereum
@@ -64,11 +64,11 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - VQ: open:arbone,ethereum | closed:arbevm,ethereum
 - ST: open:arbianime
 - YZ: open:arbitrum,arbitrum | closed:ethereum,ethereum
-- VK: open:arbitrum | closed:ethereum
+- VK: open:arbitrum,ethereum
 - DL: closed:arbitrum,arbone,ethereum
 - CJ: open:ethereum
 - ZU: open:arbitrum
-- Recently reopened (48h): GN, VQ
+- Recently reopened (48h): GN, VQ, VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -86,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-16T03:51:58.788051Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-17T03:52:17.312928Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

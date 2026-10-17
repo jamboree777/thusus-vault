@@ -2,21 +2,21 @@
 token: BCCOIN
 type: token
 tier: free
-nw_grade: F
+nw_grade: B+
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x450593bf7f2d7e559e38496cfb06bdce5e963795" }
 exchanges: [VQ, VK]
 transfer: partial
-updated: 2026-10-16T03:52:55.399178Z
+updated: 2026-10-17T03:53:09.245163Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BCCOIN · NW Grade **F**
+# BCCOIN · NW Grade **B+**
 
-Binance-smart-chain-network token; NW grade F liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x450593…3795` (verified_same)
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade F liquidity; transfer is partial (so
 
 ## Grade by exchange
 - VQ: F
-- VK: F
+- VK: B+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-16T03:52:55.399178Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-17T03:53:09.245163Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

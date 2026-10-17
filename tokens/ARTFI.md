@@ -2,29 +2,29 @@
 token: ARTFI
 type: token
 tier: free
-nw_grade: D
-nw_grade_worst: D
+nw_grade: D+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x706fa7723231e13e8d37dad56da55c027f3163094aa31c867ca254ba0e0dc79f::artfi::artfi" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-16T03:52:12.008119Z
+updated: 2026-10-17T03:52:28.340746Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ARTFI · NW Grade **D**
+# ARTFI · NW Grade **D+**
 
-Sui-network token; NW grade D liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x706fa7…rtfi` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: D
-- YZ: D
+- VQ: D+
+- YZ: F
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-16T03:52:12.008119Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-17T03:52:28.340746Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
