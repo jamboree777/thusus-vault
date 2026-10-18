@@ -9,7 +9,7 @@ contracts:
   - { chain: the-open-network, address: "eqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaam9c" }
 exchanges: [GN, SU, QK, hyperliquid-perp, VK, DL]
 transfer: open
-updated: 2026-10-17T03:58:26.334427Z
+updated: 2026-10-18T03:58:49.433600Z
 source: nightwatch-kg
 ---
 
@@ -61,7 +61,6 @@ The-open-network-network token; NW grade A+ liquidity; transfer is open on at le
 - VK: open:ton
 - DL: open:the open network (ton)
 - ZU: open:gram
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -72,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-17T03:58:26.334427Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-18T03:58:49.433600Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

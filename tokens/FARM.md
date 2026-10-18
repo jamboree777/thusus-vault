@@ -2,29 +2,29 @@
 token: FARM
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: B+
+nw_grade: A+
+nw_grade_worst: B
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xa0246c9032bc3a600820415ae600c6388619a14d" }
 exchanges: [XD, VQ, VK]
 transfer: partial
-updated: 2026-10-17T03:57:22.702595Z
+updated: 2026-10-18T03:57:48.588139Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FARM · NW Grade **A**
+# FARM · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xa0246c…a14d` (partial)
 - Listed on: XD, VQ, VK
 
 ## Grade by exchange
-- XD: A
-- VQ: B+
+- XD: A+
+- VQ: B
 - VK: B+
 
 ## Deposit / Withdrawal
@@ -57,9 +57,16 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **+0.59 USD** · win rate 100% (1 settled)
+
+- 2026-07-15 · livescan · VK→VQ · +0.59 USD
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-17T03:57:22.702595Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-18T03:57:48.588139Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

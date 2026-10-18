@@ -2,28 +2,28 @@
 token: ANTFUN
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A-
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
 exchanges: [VQ, YZ]
 transfer: blocked
-updated: 2026-10-17T03:52:19.532138Z
+updated: 2026-10-18T03:52:12.027023Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ANTFUN · NW Grade **B+**
+# ANTFUN · NW Grade **A-**
 
-Solana-network token; NW grade B+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Solana-network token; NW grade A- liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[solana]] `cwz6bsdn…4cmt` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: B+
+- VQ: A-
 - YZ: F
 
 ## Deposit / Withdrawal
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-17T03:52:19.532138Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-18T03:52:12.027023Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
