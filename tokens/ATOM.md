@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x0eb3a705fc54725037cc9e008bdede697f62f335" }
 exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-18T03:52:33.113825Z
+updated: 2026-10-19T03:53:04.533845Z
 source: nightwatch-kg
 ---
 
@@ -50,12 +50,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · ZU [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[atom]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · ZU [[atom]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-04 · WV [[atom]] withdraw → open · [[event/dw-resume]]
 - 2026-10-04 · WV [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-10-04 · WV [[atom]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-04 · WV [[atom]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-03 · WV [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-10-03 · WV [[atom]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:atom,bsc
@@ -70,6 +70,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - DL: open:atom
 - CJ: open:atom
 - ZU: open:atom
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -79,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-5 shadow trades · realized net **+3.17 USD** · win rate 80% (5 settled)
+4 shadow trades · realized net **+2.26 USD** · win rate 75% (4 settled)
 
 - 2026-10-10 · carry-A · SU→GN · +0.79 USD
 - 2026-10-09 · carry-A · SU→GN · +1.29 USD
@@ -89,7 +90,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:52:33.113825Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:53:04.533845Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,28 +2,28 @@
 token: GMRX
 type: token
 tier: free
-nw_grade: F
-nw_grade_worst: F
+nw_grade: C
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x998305efdc264b9674178899fffbb44a47134a76" }
 exchanges: [VQ]
 transfer: partial
-updated: 2026-10-18T03:58:22.314982Z
+updated: 2026-10-19T03:57:56.706212Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GMRX · NW Grade **F**
+# GMRX · NW Grade **C**
 
-Binance-smart-chain-network token; NW grade F liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade C liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x998305…4a76` (verified_same)
 - Listed on: VQ
 
 ## Grade by exchange
-- VQ: F
+- VQ: C
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -55,9 +55,16 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **-3.21 USD** · win rate 0% (1 settled)
+
+- 2026-07-29 · livescan · VQ→YZ · -3.21 USD · _price_drift_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:58:22.314982Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:57:56.706212Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

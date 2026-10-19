@@ -2,7 +2,7 @@
 token: BLAST
 type: token
 tier: free
-nw_grade: A-
+nw_grade: A
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-18T03:53:41.902632Z
+updated: 2026-10-19T03:54:00.220936Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLAST · NW Grade **A-**
+# BLAST · NW Grade **A**
 
-Blast-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Blast-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[blast]] `0xb1a570…e2ad` (verified_same)
@@ -27,34 +27,34 @@ Blast-network token; NW grade A- liquidity; transfer is partial (some venues fro
 - WV: C
 - SU: A-
 - QK: F
-- XD: A-
+- XD: F
 - VQ: B+
 - YZ: F
 - VK: B+
-- ZU: A-
+- ZU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ❌
 - SU: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
-- VQ: deposit ❌ / withdraw ✅
+- VQ: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ❌ / withdraw ✅
 - VK: deposit ❌ / withdraw ❌
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-19 · VQ [[blasteth]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-19 · ZU [[blastnet]] withdraw → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[blastnet]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-17 · VK [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-17 · VK [[blast]] withdraw → open · [[event/dw-resume]]
 - 2026-10-16 · VK [[blast]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-15 · VQ [[blast]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-15 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-13 · VQ [[blast]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- WV: closed:blast,blast,ethereum
+- WV: closed:blast,blast,ethereum,ethereum
 - SU: closed:blast
 - QK: closed:blast
 - XD: open:blast
@@ -63,8 +63,8 @@ Blast-network token; NW grade A- liquidity; transfer is partial (some venues fro
 - YZ: closed:blast,blast
 - VK: closed:blast
 - ZU: closed:blastnet
-- Suspended now: VK
-- Recently reopened (48h): VK
+- Suspended now: VQ, VK
+- Recently reopened (48h): VK, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:53:41.902632Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:54:00.220936Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

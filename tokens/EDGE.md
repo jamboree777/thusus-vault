@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0xed6e000def95780fb89734c07ee2ce9f6dcaf110" }
 exchanges: [WV, SU, QK, XD, VQ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-18T03:56:50.600313Z
+updated: 2026-10-19T03:56:43.007146Z
 source: nightwatch-kg
 ---
 
@@ -24,13 +24,13 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 
 ## Grade by exchange
 - WV: A+
-- SU: A
+- SU: B+
 - QK: A+
 - XD: A+
 - VQ: B-
 - VK: C
 - DL: A+
-- ZU: A
+- ZU: B+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -46,12 +46,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-10-01 · SU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · SU [[base]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: open:ethereum,ethereum
@@ -65,6 +65,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - DL: open:ethereum
 - CJ: open:base
 - ZU: open:base,base
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,9 +74,18 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+23 shadow trades · realized net **+48.90 USD** · win rate 78.3% (23 settled)
+
+- 2026-10-09 · carry-A · SU→VQ · -2.05 USD · _flipped_
+- 2026-10-08 · carry-A · SU→VQ · +0.50 USD · _held_
+- 2026-10-07 · carry-A · SU→VQ · -2.41 USD · _held_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:56:50.600313Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:56:43.007146Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

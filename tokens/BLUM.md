@@ -2,28 +2,28 @@
 token: BLUM
 type: token
 tier: free
-nw_grade: B
-nw_grade_worst: F
+nw_grade: B+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xfdc8cd47848c0c67df66f7120f4e3371181cfa5e" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-18T03:53:55.544946Z
+updated: 2026-10-19T03:54:04.693683Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLUM · NW Grade **B**
+# BLUM · NW Grade **B+**
 
-Binance-smart-chain-network token; NW grade B liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xfdc8cd…fa5e` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: F
+- VQ: B+
 - YZ: B
 
 ## Deposit / Withdrawal
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:53:55.544946Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:54:04.693683Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

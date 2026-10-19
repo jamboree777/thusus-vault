@@ -8,16 +8,16 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x617cab4aaae1f8dfb3ee138698330776a1e1b324" }
 exchanges: [QK, VQ, VK]
-transfer: partial
+transfer: blocked
 lifecycle: suspended
-updated: 2026-10-18T03:52:25.839014Z
+updated: 2026-10-19T03:52:57.969728Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ARTY · NW Grade **B+**
 
-Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x617cab…b324` (verified_same)
@@ -31,7 +31,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ✅
-- VQ: deposit ✅ / withdraw ✅
+- VQ: deposit ❌ / withdraw ✅
 - YZ: deposit ❌ / withdraw ❌
 - VK: deposit ❌ / withdraw ✅
 
@@ -48,7 +48,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (s
 ## Transfer map
 - WV: closed:bsc,bsc
 - QK: closed:bsc
-- VQ: open:bsc | closed:bsc
+- VQ: closed:bsc,bsc
 - YZ: closed:bsc,bsc
 - VK: closed:bsc
 - Suspended now: YZ
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:52:25.839014Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:52:57.969728Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,13 +3,13 @@ token: BZZ
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x19062190b1925b5b6689d7073fdfc8c2976ef8cb" }
 exchanges: [VQ, VK]
 transfer: open
-updated: 2026-10-18T03:54:30.113364Z
+updated: 2026-10-19T03:54:38.417245Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +23,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - Listed on: VQ, VK
 
 ## Grade by exchange
-- VQ: A+
-- VK: A
+- VQ: B+
+- VK: A+
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -54,7 +54,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:54:30.113364Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:54:38.417245Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

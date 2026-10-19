@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x42bbfa2e77757c645eeaad1655e0911a7553efbc" }
 exchanges: [SU, QK, XD, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-18T03:54:06.026207Z
+updated: 2026-10-19T03:54:14.028395Z
 source: nightwatch-kg
 ---
 
@@ -23,9 +23,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: SU, QK, XD, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: A+
+- SU: A
 - QK: A+
-- XD: A
+- XD: A-
 - VQ: A
 - YZ: A
 - VK: B+
@@ -41,12 +41,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · YZ [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-06 · YZ [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-30 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - SU: open:ethereum
@@ -57,6 +57,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: closed:boba,boba,ethereum,ethereum
 - VK: open:ethereum
 - ZU: closed:ethereum
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:54:06.026207Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:54:14.028395Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

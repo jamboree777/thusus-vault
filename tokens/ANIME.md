@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-18T03:52:09.812832Z
+updated: 2026-10-19T03:52:39.027533Z
 source: nightwatch-kg
 ---
 
@@ -49,26 +49,26 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-16 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-15 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-15 · GN [[arbone]] deposit → open · [[event/dw-resume]]
-- 2026-10-15 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-15 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-15 · GN [[arbitrum]] deposit → open · [[event/dw-resume]]
+- 2026-10-19 · VQ [[eth]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · VQ [[arbevm]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[arbitrum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[arbitrum]] deposit → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · ZU [[arbitrum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:arbitrum,arbone,ethereum
 - WV: open:ethereum,ethereum | closed:arbitrum,arbone
 - SU: open:arbitrum
 - QK: open:arbone | closed:ethereum
-- VQ: open:arbone,ethereum | closed:arbevm,ethereum
+- VQ: open:arbevm,arbone,ethereum,ethereum
 - ST: open:arbianime
 - YZ: open:arbitrum,arbitrum | closed:ethereum,ethereum
 - VK: open:arbitrum,ethereum
 - DL: closed:arbitrum,arbone,ethereum
 - CJ: open:ethereum
 - ZU: open:arbitrum
-- Recently reopened (48h): VK
+- Recently reopened (48h): VQ, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -86,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:52:09.812832Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:52:39.027533Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

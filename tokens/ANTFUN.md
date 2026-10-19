@@ -2,28 +2,28 @@
 token: ANTFUN
 type: token
 tier: free
-nw_grade: A-
+nw_grade: A+
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
 exchanges: [VQ, YZ]
 transfer: blocked
-updated: 2026-10-18T03:52:12.027023Z
+updated: 2026-10-19T03:52:41.264691Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ANTFUN · NW Grade **A-**
+# ANTFUN · NW Grade **A+**
 
-Solana-network token; NW grade A- liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Solana-network token; NW grade A+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[solana]] `cwz6bsdn…4cmt` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: A-
+- VQ: A+
 - YZ: F
 
 ## Deposit / Withdrawal
@@ -32,17 +32,18 @@ Solana-network token; NW grade A- liquidity; transfer is currently blocked (depo
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-19 · VK [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-18 · VK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-28 · VQ [[sol]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · YZ [[sol]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-21 · YZ [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-21 · VQ [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-21 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-15 · VK [[solana]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - VQ: closed:solana,solana
 - YZ: closed:solana,solana
 - VK: closed:solana
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:52:12.027023Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:52:41.264691Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

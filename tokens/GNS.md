@@ -3,13 +3,13 @@ token: GNS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xe5417af564e4bfda1c483642db72007871397896" }
 exchanges: [GN, VQ, VK]
 transfer: partial
-updated: 2026-10-18T03:58:38.700460Z
+updated: 2026-10-19T03:58:00.612031Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 
 ## Grade by exchange
 - GN: A+
-- VQ: D+
+- VQ: C+
 - VK: A+
 
 ## Deposit / Withdrawal
@@ -35,17 +35,17 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · VQ [[arbevm]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · VQ [[arbone]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · VQ [[arbevm]] withdraw → open · [[event/dw-resume]]
 - 2026-10-10 · VQ [[arbone]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-04 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:arbitrum,arbone | closed:polygon
 - WV: closed:polygon,polygon
-- VQ: open:arbevm,arbone,polygon,polygon
+- VQ: open:polygon,polygon | closed:arbevm,arbone
 - YZ: closed:arbitrum,arbitrum,polygon,polygon
 - VK: open:arbitrum | closed:none,polygon
 - Suspended now: YZ
@@ -59,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:58:38.700460Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:58:00.612031Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

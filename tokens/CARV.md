@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
 exchanges: [WV, SU, QK, VQ, YZ, VK, ZU]
 transfer: open
-updated: 2026-10-18T03:54:44.399649Z
+updated: 2026-10-19T03:54:50.409360Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - SU: A+
 - QK: A+
 - VQ: A
-- YZ: A
+- YZ: A+
 - VK: A
 - ZU: A+
 
@@ -45,12 +45,12 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-10-01 · SU [[base]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: open:base,base
@@ -62,6 +62,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - VK: open:base
 - CJ: open:base
 - ZU: open:base,base
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -79,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:54:44.399649Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:54:50.409360Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

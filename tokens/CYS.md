@@ -3,20 +3,20 @@ token: CYS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c69199c1562233640e0db5ce2c399a88eb507c7" }
 exchanges: [WV, SU, VQ, YZ, VK]
-transfer: open
-updated: 2026-10-18T03:56:01.037453Z
+transfer: partial
+updated: 2026-10-19T03:55:56.042062Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CYS · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x0c6919…07c7` (verified_same)
@@ -24,34 +24,35 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 
 ## Grade by exchange
 - WV: A
-- SU: A
+- SU: B+
 - VQ: A
 - YZ: A+
 - VK: A
 
 ## Deposit / Withdrawal
-- WV: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
-- VQ: deposit ✅ / withdraw ✅
-- YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VQ: deposit ❌ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-10-19 · YZ [[bep20]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-19 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-18 · VQ [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:bsc,bsc
+- WV: closed:bsc,bsc
 - SU: open:bsc
-- VQ: open:bsc,bsc
-- YZ: open:bsc,bsc
-- VK: open:bsc
+- VQ: closed:bsc,bsc
+- YZ: closed:bsc,bsc
+- VK: closed:bsc
 - ZU: open:base
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:56:01.037453Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:55:56.042062Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

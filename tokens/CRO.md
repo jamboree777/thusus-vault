@@ -10,7 +10,7 @@ contracts:
 exchanges: [WV, SU, XD, VQ, YZ, VK, DL, ZU]
 transfer: open
 lifecycle: delisted
-updated: 2026-10-18T03:55:40.813503Z
+updated: 2026-10-19T03:55:40.627300Z
 source: nightwatch-kg
 ---
 
@@ -31,7 +31,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - YZ: A
 - VK: A
 - DL: A+
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -44,12 +44,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-19 · ZU [[cro]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[cro]] deposit → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[cro]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · ZU [[cro]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-14 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-14 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-13 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-08 · VK [[cronos]] deposit → open · [[event/dw-resume]]
-- 2026-10-08 · VK [[crc20]] deposit → open · [[event/dw-resume]]
-- 2026-10-08 · VK [[crc20]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
@@ -58,9 +58,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - XD: open:ethereum
 - VQ: open:cro,cro,ethereum,ethereum
 - YZ: open:ethereum,ethereum,kcc,kcc
-- VK: open:crc20,cro,cronos,ethereum
+- VK: open:crc20,cro,cronos | closed:ethereum
 - DL: open:cronos,cronos pos
 - ZU: open:cro
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:55:40.813503Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:55:40.627300Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

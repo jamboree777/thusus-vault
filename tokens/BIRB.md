@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg" }
 exchanges: [WV, SU, QK, XD, YZ, VK, ZU]
 transfer: open
-updated: 2026-10-18T03:53:39.739467Z
+updated: 2026-10-19T03:53:55.848759Z
 source: nightwatch-kg
 ---
 
@@ -44,12 +44,12 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[solana]] deposit → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · ZU [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[solana]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: open:solana,solana
@@ -62,6 +62,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - VK: open:solana
 - CJ: open:solana
 - ZU: open:solana
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -72,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:53:39.739467Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:53:55.848759Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

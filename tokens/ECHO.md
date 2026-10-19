@@ -8,16 +8,15 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x06238c1b8e618abedf17669228dc95fb2d2e210b" }
 exchanges: [VQ, YZ, VK]
-transfer: partial
-lifecycle: suspended
-updated: 2026-10-18T03:56:46.216669Z
+transfer: blocked
+updated: 2026-10-19T03:56:38.730361Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ECHO · NW Grade **C-**
 
-Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade C- liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x06238c…210b` (verified_same)
@@ -25,27 +24,26 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 
 ## Grade by exchange
 - VQ: F
-- YZ: D
+- YZ: F
 - VK: C-
 
 ## Deposit / Withdrawal
-- VQ: deposit ✅ / withdraw ✅
-- YZ: deposit ✅ / withdraw ✅
+- VQ: deposit ❌ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-19 · YZ [[apt]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-14 · VK [[aptos]] withdraw → open · [[event/dw-resume]]
 - 2026-10-14 · VK [[aptos]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-14 · VQ [[aptos]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-14 · YZ [[aptos]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-27 · VK [[aptos]] deposit → closed · [[event/dw-freeze]]
-- 2026-08-27 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: delist scheduled (1792551600) · [[event/delisting]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- VQ: open:aptos | closed:aptos
-- YZ: open:aptos | closed:aptos
+- VQ: closed:aptos,aptos
+- YZ: closed:aptos,aptos
 - VK: closed:aptos,bsc
 
 ## Backers & Project
@@ -64,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:56:46.216669Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:56:38.730361Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

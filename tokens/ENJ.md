@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL]
 transfer: partial
-updated: 2026-10-18T03:57:22.051769Z
+updated: 2026-10-19T03:57:00.548327Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A
+- SU: A+
 - QK: A+
 - VQ: A+
 - YZ: A
@@ -47,12 +47,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · ZU [[enj]] withdraw → open · [[event/dw-resume]]
+- 2026-10-19 · ZU [[enj]] deposit → open · [[event/dw-resume]]
+- 2026-10-18 · ZU [[enj]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-18 · ZU [[enj]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-09 · GN [[enj]] withdraw → open · [[event/dw-resume]]
 - 2026-10-09 · GN [[enj]] deposit → open · [[event/dw-resume]]
-- 2026-10-09 · GN [[enj]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-09 · GN [[enj]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-02 · WV [[enj]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · ZU [[enj]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:enj | closed:ethereum
@@ -68,6 +68,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: closed:ethereum
 - ZU: open:enj
 - Suspended now: XD
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-18T03:57:22.051769Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-19T03:57:00.548327Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
