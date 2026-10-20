@@ -2,31 +2,30 @@
 token: GLQ
 type: token
 tier: free
-nw_grade: D+
-nw_grade_worst: F
+nw_grade: B+
+nw_grade_worst: D-
 identity: native
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-lifecycle: suspended
-updated: 2026-10-19T03:57:54.524360Z
+updated: 2026-10-20T03:59:05.429070Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GLQ · NW Grade **D+**
+# GLQ · NW Grade **B+**
 
-Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x9f9c8e…4d24` (native)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: F
+- VQ: B+
 - YZ: D+
-- VK: F
+- VK: D-
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ❌
@@ -42,7 +41,6 @@ Ethereum-network token; NW grade D+ liquidity; transfer is partial (some venues 
 - 2026-09-16 · VK [[glq]] deposit → open · [[event/dw-resume]]
 - 2026-09-16 · VK [[glq]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: delist scheduled (1792551600) · [[event/delisting]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:glq,glq
@@ -69,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-19T03:57:54.524360Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-20T03:59:05.429070Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

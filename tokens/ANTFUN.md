@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "cwz6bsdnjkdvtgkml6bgbjxxig6ceef12kvygqw14cmt" }
 exchanges: [VQ, YZ]
 transfer: blocked
-updated: 2026-10-19T03:52:41.264691Z
+updated: 2026-10-20T03:52:57.110508Z
 source: nightwatch-kg
 ---
 
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-19T03:52:41.264691Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-20T03:52:57.110508Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

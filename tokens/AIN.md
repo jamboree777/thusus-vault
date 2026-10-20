@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x9558a9254890b2a8b057a789f413631b9084f4a3" }
 exchanges: [WV, VQ, YZ, VK]
-transfer: blocked
-updated: 2026-10-19T03:52:17.637107Z
+transfer: partial
+updated: 2026-10-20T03:52:31.619467Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AIN · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x9558a9…f4a3` (verified_same)
@@ -31,22 +31,23 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is currently 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
 - VQ: deposit ❌ / withdraw ✅
-- YZ: deposit ❌ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-19 · YZ [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-10-05 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · VK [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · WV [[bep20]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-24 · WV [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:bsc,bsc
 - VQ: closed:bsc,bsc
-- YZ: closed:bsc,bsc
+- YZ: open:bsc | closed:bsc
 - VK: closed:bsc
+- Recently reopened (48h): YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-19T03:52:17.637107Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-20T03:52:31.619467Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

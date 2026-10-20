@@ -3,13 +3,13 @@ token: FWOG
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: B+
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: solana, address: "a8c3xuqscfmylrte3vmtqraq8kgmasius9afnanwpump" }
 exchanges: [YZ, VK]
 transfer: partial
-updated: 2026-10-19T03:57:40.832077Z
+updated: 2026-10-20T03:58:50.918458Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Solana-network token; NW grade B+ liquidity; transfer is partial (some venues fr
 
 ## Grade by exchange
 - YZ: B+
-- VK: B+
+- VK: B-
 
 ## Deposit / Withdrawal
 - VQ: deposit ❌ / withdraw ✅
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-19T03:57:40.832077Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-20T03:58:50.918458Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

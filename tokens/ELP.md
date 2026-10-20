@@ -10,7 +10,7 @@ contracts:
 exchanges: [VQ, YZ]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-19T03:56:51.759666Z
+updated: 2026-10-20T03:57:57.389886Z
 source: nightwatch-kg
 ---
 
@@ -59,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-19T03:56:51.759666Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-20T03:57:57.389886Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

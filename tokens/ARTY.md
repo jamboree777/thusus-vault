@@ -10,7 +10,7 @@ contracts:
 exchanges: [QK, VQ, VK]
 transfer: blocked
 lifecycle: suspended
-updated: 2026-10-19T03:52:57.969728Z
+updated: 2026-10-20T03:53:11.391052Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is currently 
 ## Grade by exchange
 - QK: B+
 - VQ: F
-- VK: F
+- VK: C+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-19T03:52:57.969728Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-20T03:53:11.391052Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

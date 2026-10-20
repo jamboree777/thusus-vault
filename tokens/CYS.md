@@ -3,13 +3,13 @@ token: CYS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c69199c1562233640e0db5ce2c399a88eb507c7" }
 exchanges: [WV, SU, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-19T03:55:56.042062Z
+updated: 2026-10-20T03:56:58.721284Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - WV: A
-- SU: B+
+- SU: A
 - VQ: A
 - YZ: A+
 - VK: A
@@ -38,12 +38,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · WV [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · YZ [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · ZU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-10-18 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-18 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-18 · VQ [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:bsc,bsc
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-19T03:55:56.042062Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-20T03:56:58.721284Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

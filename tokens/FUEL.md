@@ -3,13 +3,13 @@ token: FUEL
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C-
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c" }
 exchanges: [WV, QK, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-19T03:57:38.624348Z
+updated: 2026-10-20T03:58:48.668178Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - WV: B+
 - QK: A+
 - VQ: C+
-- YZ: C-
+- YZ: A
 - VK: B+
 
 ## Deposit / Withdrawal
@@ -37,12 +37,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-19 · WV [[fuel]] withdraw → open · [[event/dw-resume]]
 - 2026-10-14 · WV [[fuel]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-14 · VK [[fuel]] withdraw → open · [[event/dw-resume]]
 - 2026-10-07 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-05 · WV [[fuel]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: open:ethereum,ethereum,fuel,fuel
@@ -50,6 +50,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: open:ethereum,ethereum,fuel,fuel
 - YZ: open:ethereum,ethereum
 - VK: open:ethereum,fuel
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-19T03:57:38.624348Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-20T03:58:48.668178Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
