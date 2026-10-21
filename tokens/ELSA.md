@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0x29cc30f9d113b356ce408667aa6433589cecbdca" }
 exchanges: [SU, QK, XD, ZU]
 transfer: open
-updated: 2026-10-20T03:57:59.578775Z
+updated: 2026-10-21T03:55:28.040474Z
 source: nightwatch-kg
 ---
 
@@ -23,10 +23,10 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - Listed on: SU, QK, XD, ZU
 
 ## Grade by exchange
-- SU: A+
+- SU: A
 - QK: A+
 - XD: A+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -57,7 +57,6 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - VK: open:base
 - CJ: open:base
 - ZU: open:base,base
-- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-20T03:57:59.578775Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-21T03:55:28.040474Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

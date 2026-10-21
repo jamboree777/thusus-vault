@@ -10,7 +10,7 @@ contracts:
   - { chain: internet-computer, address: "ryjl3-tyaaa-aaaaa-aaaba-cai" }
 exchanges: [WV, SU, XD, YZ, DL, ZU]
 transfer: open
-updated: 2026-10-20T03:56:41.111056Z
+updated: 2026-10-21T03:54:00.010710Z
 source: nightwatch-kg
 ---
 
@@ -58,7 +58,6 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - VK: open:base
 - DL: open:base
 - ZU: open:base
-- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-20T03:56:41.111056Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-21T03:54:00.010710Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

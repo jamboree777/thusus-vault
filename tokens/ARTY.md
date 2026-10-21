@@ -9,8 +9,8 @@ contracts:
   - { chain: binance-smart-chain, address: "0x617cab4aaae1f8dfb3ee138698330776a1e1b324" }
 exchanges: [QK, VQ, VK]
 transfer: blocked
-lifecycle: suspended
-updated: 2026-10-20T03:53:11.391052Z
+lifecycle: delisted
+updated: 2026-10-21T03:51:13.304260Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is currently 
 ## Grade by exchange
 - QK: B+
 - VQ: F
-- VK: C+
+- VK: F
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -42,7 +42,7 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is currently 
 - 2026-10-06 · QK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: delist scheduled (1792551600) · [[event/delisting]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-20T03:53:11.391052Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-21T03:51:13.304260Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

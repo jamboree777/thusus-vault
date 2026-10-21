@@ -10,7 +10,7 @@ contracts:
 exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
 transfer: open
 lifecycle: suspended
-updated: 2026-10-20T03:52:59.240145Z
+updated: 2026-10-21T03:50:59.243257Z
 source: nightwatch-kg
 ---
 
@@ -72,7 +72,6 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - DL: open:aptos
 - CJ: open:aptos
 - ZU: open:aptos
-- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -82,15 +81,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+0.88 USD** · win rate 100% (1 settled)
+3 shadow trades · realized net **+5.66 USD** · win rate 100% (3 settled)
 
+- 2026-10-20 · carry-A · SU→GN · +2.84 USD
+- 2026-10-20 · carry-A · SU→GN · +1.94 USD
 - 2026-09-21 · carry-A · SU→GN · +0.88 USD
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-20T03:52:59.240145Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-21T03:50:59.243257Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

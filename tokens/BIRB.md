@@ -3,13 +3,13 @@ token: BIRB
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: solana, address: "g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg" }
-exchanges: [WV, SU, QK, XD, YZ, VK, ZU]
+exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: open
-updated: 2026-10-20T03:54:05.908844Z
+updated: 2026-10-21T03:52:11.975597Z
 source: nightwatch-kg
 ---
 
@@ -20,15 +20,16 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 
 ## Identity
 - Contract: [[solana]] `g7vqwurm…knwg` (verified_same)
-- Listed on: WV, SU, QK, XD, YZ, VK, ZU
+- Listed on: WV, SU, QK, XD, VQ, YZ, VK, ZU
 
 ## Grade by exchange
 - WV: A
 - SU: A+
 - QK: A+
 - XD: A+
+- VQ: B+
 - YZ: B+
-- VK: B+
+- VK: D
 - ZU: A+
 
 ## Deposit / Withdrawal
@@ -62,7 +63,6 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - VK: open:solana
 - CJ: open:solana
 - ZU: open:solana
-- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-20T03:54:05.908844Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-21T03:52:11.975597Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -7,9 +7,9 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc00e94cb662c3520282e6f5717214004a7f26888" }
-exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
+exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-20T03:56:21.625187Z
+updated: 2026-10-21T03:53:43.623192Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +20,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 
 ## Identity
 - Contract: [[ethereum]] `0xc00e94…6888` (verified_same)
-- Listed on: GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU
+- Listed on: GN, WV, SU, QK, XD, VQ, [[hyperliquid-perp]], YZ, VK, DL, ZU
 
 ## Grade by exchange
 - GN: A+
@@ -29,6 +29,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - QK: A+
 - XD: A+
 - VQ: A
+- [[hyperliquid-perp]]: A+
 - YZ: A
 - VK: A+
 - DL: A+
@@ -69,7 +70,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
-- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-20T03:56:21.625187Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-21T03:53:43.623192Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

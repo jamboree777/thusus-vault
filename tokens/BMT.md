@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x7d814b9ed370ec0a502edc3267393bf62d891b62" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK]
 transfer: open
-updated: 2026-10-20T03:54:57.446293Z
+updated: 2026-10-21T03:52:26.012946Z
 source: nightwatch-kg
 ---
 
@@ -44,12 +44,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-20 · VQ [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-20 · VQ [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · ZU [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-10-18 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-18 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:bsc,solana
@@ -62,7 +62,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - VK: open:bsc,solana
 - CJ: open:solana
 - ZU: open:solana
-- Recently reopened (48h): ZU
+- Recently reopened (48h): VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -72,15 +72,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-1 shadow trade · realized net **+0.71 USD** · win rate 100% (1 settled)
+3 shadow trades · realized net **+8.41 USD** · win rate 100% (3 settled)
 
+- 2026-10-20 · carry-A · SU→GN · +1.90 USD · _held_
+- 2026-10-20 · carry-A · SU→GN · +5.80 USD · _held_
 - 2026-09-21 · carry-A · SU→GN · +0.71 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-20T03:54:57.446293Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-21T03:52:26.012946Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

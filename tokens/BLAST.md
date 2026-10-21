@@ -9,8 +9,8 @@ contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
-lifecycle: suspended
-updated: 2026-10-20T03:54:11.489881Z
+lifecycle: delisted
+updated: 2026-10-21T03:52:14.291031Z
 source: nightwatch-kg
 ---
 
@@ -27,44 +27,45 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - WV: C
 - SU: A-
 - QK: F
-- XD: A
-- VQ: B-
+- XD: B+
+- VQ: B
 - YZ: F
 - VK: B+
 - ZU: A
 
 ## Deposit / Withdrawal
-- WV: deposit ✅ / withdraw ❌
+- WV: deposit ✅ / withdraw ✅
 - SU: deposit ❌ / withdraw ❌
-- QK: deposit ❌ / withdraw ✅
-- XD: deposit ✅ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
+- XD: deposit ❌ / withdraw ❌
 - VQ: deposit ❌ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ❌ / withdraw ✅
-- VK: deposit ❌ / withdraw ❌
+- VK: deposit ❌ / withdraw ✅
 - ZU: deposit ❌ / withdraw ❌
 
 ## Events
-- 2026-10-19 · SU [[blast]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-19 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-19 · VQ [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-19 · ZU [[blastnet]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-19 · WV [[erc20]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-20 · XD [[blast]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-20 · XD [[blast]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-20 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-20 · VK [[none]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-20 · VK [[none]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-20 · QK [[blast]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- WV: closed:blast,blast,ethereum,ethereum
+- WV: open:ethereum | closed:blast,blast,ethereum
 - SU: closed:blast
 - QK: closed:blast
-- XD: open:blast
+- XD: closed:blast
 - VQ: closed:blast,blasteth,ethereum
 - ST: open:blast
 - YZ: closed:blast,blast
-- VK: closed:blast
+- VK: closed:blast,ethereum,none
 - ZU: closed:blastnet
-- Suspended now: SU, VK, ZU
-- Recently reopened (48h): VQ, ZU
+- Suspended now: SU, QK, XD, ZU
+- Recently reopened (48h): WV, VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +81,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-20T03:54:11.489881Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-21T03:52:14.291031Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
