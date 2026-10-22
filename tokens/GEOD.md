@@ -8,48 +8,50 @@ identity: partial
 contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
 exchanges: [SU, XD, VQ, VK, ZU]
-transfer: open
-updated: 2026-10-21T03:56:26.105137Z
+transfer: partial
+updated: 2026-10-22T03:57:05.002266Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # GEOD · NW Grade **A+**
 
-Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[polygon-pos]] `0xac0f66…9adb` (partial)
 - Listed on: SU, XD, VQ, VK, ZU
 
 ## Grade by exchange
-- SU: A
+- SU: A+
 - XD: A+
 - VQ: A-
 - VK: A
 - ZU: A+
 
 ## Deposit / Withdrawal
-- SU: deposit ✅ / withdraw ✅
+- SU: deposit ❌ / withdraw ❌
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-19 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-10-18 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-18 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-15 · VK [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · VK [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-21 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-21 · ZU [[solana]] deposit → open · [[event/dw-resume]]
+- 2026-10-21 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-21 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-21 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-21 · SU [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- SU: open:solana
+- SU: closed:solana
 - XD: open:solana
 - VQ: open:polygon,polygon
 - VK: open:polygon,solana
 - ZU: open:solana
+- Suspended now: SU
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-21T03:56:26.105137Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-22T03:57:05.002266Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

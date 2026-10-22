@@ -9,8 +9,8 @@ contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
-lifecycle: delisted
-updated: 2026-10-21T03:52:14.291031Z
+lifecycle: suspended
+updated: 2026-10-22T03:53:00.340180Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - SU: A-
 - QK: F
 - XD: B+
-- VQ: B
+- VQ: A
 - YZ: F
 - VK: B+
 - ZU: A
@@ -51,7 +51,6 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - 2026-10-20 · VK [[none]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-20 · VK [[none]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-20 · QK [[blast]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -65,7 +64,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - VK: closed:blast,ethereum,none
 - ZU: closed:blastnet
 - Suspended now: SU, QK, XD, ZU
-- Recently reopened (48h): WV, VQ
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-21T03:52:14.291031Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-22T03:53:00.340180Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

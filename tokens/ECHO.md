@@ -2,7 +2,7 @@
 token: ECHO
 type: token
 tier: free
-nw_grade: C+
+nw_grade: C-
 nw_grade_worst: F
 identity: verified_same
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [VQ, YZ, VK]
 transfer: blocked
 lifecycle: delisted
-updated: 2026-10-21T03:55:06.718133Z
+updated: 2026-10-22T03:55:53.407424Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ECHO · NW Grade **C+**
+# ECHO · NW Grade **C-**
 
-Binance-smart-chain-network token; NW grade C+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Binance-smart-chain-network token; NW grade C- liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x06238c…210b` (verified_same)
@@ -25,7 +25,7 @@ Binance-smart-chain-network token; NW grade C+ liquidity; transfer is currently 
 
 ## Grade by exchange
 - VQ: F
-- YZ: C+
+- YZ: F
 - VK: C-
 
 ## Deposit / Withdrawal
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-21T03:55:06.718133Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-22T03:55:53.407424Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

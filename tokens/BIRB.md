@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: solana, address: "g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
-transfer: open
-updated: 2026-10-21T03:52:11.975597Z
+transfer: partial
+updated: 2026-10-22T03:52:58.170424Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BIRB · NW Grade **A+**
 
-Solana-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `g7vqwurm…knwg` (verified_same)
@@ -26,7 +26,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - WV: A
 - SU: A+
 - QK: A+
-- XD: A+
+- XD: A
 - VQ: B+
 - YZ: B+
 - VK: D
@@ -34,7 +34,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
-- SU: deposit ✅ / withdraw ✅
+- SU: deposit ❌ / withdraw ❌
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -45,16 +45,16 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-19 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-10-18 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-18 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-21 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-21 · ZU [[solana]] deposit → open · [[event/dw-resume]]
+- 2026-10-21 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-21 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-21 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-21 · SU [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:solana,solana
-- SU: open:solana
+- SU: closed:solana
 - QK: open:solana
 - XD: open:solana
 - VQ: open:solana,solana
@@ -63,6 +63,8 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - VK: open:solana
 - CJ: open:solana
 - ZU: open:solana
+- Suspended now: SU
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +75,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-21T03:52:11.975597Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-22T03:52:58.170424Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
