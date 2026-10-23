@@ -10,7 +10,7 @@ contracts:
   - { chain: solana, address: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-22T03:53:19.033577Z
+updated: 2026-10-23T03:54:01.024377Z
 source: nightwatch-kg
 ---
 
@@ -39,7 +39,7 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
-- SU: deposit ❌ / withdraw ❌
+- SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -51,17 +51,17 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-22 · SU [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-22 · SU [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-10-21 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-21 · SU [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[solana]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:bsc,solana
 - WV: open:solana,solana
-- SU: closed:solana
+- SU: open:solana
 - QK: open:solana
 - XD: open:solana
 - VQ: open:solana,solana
@@ -71,7 +71,7 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 - DL: open:solana
 - CJ: open:solana
 - ZU: closed:solana
-- Suspended now: SU
+- Recently reopened (48h): SU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -82,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:53:19.033577Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:54:01.024377Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

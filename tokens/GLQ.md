@@ -10,7 +10,7 @@ contracts:
 exchanges: [VQ, YZ, VK]
 transfer: partial
 lifecycle: delisted
-updated: 2026-10-22T03:57:09.433728Z
+updated: 2026-10-23T03:57:55.322583Z
 source: nightwatch-kg
 ---
 
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:57:09.433728Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:57:55.322583Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

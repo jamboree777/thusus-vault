@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "driftupjyltosbwon8kombeysx54afavlddwsbksjwg7" }
 exchanges: [WV, QK, XD, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-22T03:55:42.392336Z
+updated: 2026-10-23T03:56:26.610332Z
 source: nightwatch-kg
 ---
 
@@ -36,15 +36,15 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-22 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · WV [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-28 · WV [[sol]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-24 · WV [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-23 · WV [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:solana,solana
@@ -52,7 +52,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - XD: open:solana
 - VQ: open:solana,solana
 - YZ: open:solana,solana
-- VK: open:solana
+- VK: closed:solana
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:55:42.392336Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:56:26.610332Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

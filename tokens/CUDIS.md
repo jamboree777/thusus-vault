@@ -10,7 +10,7 @@ contracts:
 exchanges: [WV, SU, QK, VQ, VK]
 transfer: partial
 lifecycle: delisted
-updated: 2026-10-22T03:54:58.452684Z
+updated: 2026-10-23T03:55:44.311320Z
 source: nightwatch-kg
 ---
 
@@ -27,12 +27,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - WV: F
 - SU: A+
 - QK: D+
-- VQ: C+
+- VQ: A
 - VK: A-
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
-- SU: deposit ❌ / withdraw ❌
+- SU: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
@@ -40,12 +40,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-22 · SU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-21 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-19 · VQ [[sol]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-14 · VQ [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-12 · VQ [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-09 · VQ [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-07 · QK [[bsc]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
@@ -56,7 +56,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ST: open:solcudis
 - VK: closed:bsc,solana
 - CJ: open:bsc
-- Suspended now: SU
+- Recently reopened (48h): SU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:54:58.452684Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:55:44.311320Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

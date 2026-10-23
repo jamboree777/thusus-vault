@@ -3,13 +3,13 @@ token: CARDS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "cardsccumfkoprzxt5vt3ksubxefecnz3h2pd3dkxyjp" }
 exchanges: [YZ, VK, DL]
 transfer: open
-updated: 2026-10-22T03:53:53.157434Z
+updated: 2026-10-23T03:54:42.002922Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 
 ## Grade by exchange
 - YZ: B+
-- VK: B
+- VK: B+
 - DL: A+
 
 ## Deposit / Withdrawal
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:53:53.157434Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:54:42.002922Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

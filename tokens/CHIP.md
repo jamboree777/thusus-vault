@@ -9,7 +9,7 @@ contracts:
   - { chain: arbitrum-one, address: "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e" }
 exchanges: [GN, SU, QK, XD, hyperliquid-perp, DL, ZU]
 transfer: open
-updated: 2026-10-22T03:54:16.894835Z
+updated: 2026-10-23T03:55:01.298632Z
 source: nightwatch-kg
 ---
 
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:54:16.894835Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:55:01.298632Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

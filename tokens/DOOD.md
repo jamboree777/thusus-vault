@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x722294f6c97102fb0ddb5b907c8d16bdeab3f6d9" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-22T03:55:38.187842Z
+updated: 2026-10-23T03:56:21.296806Z
 source: nightwatch-kg
 ---
 
@@ -24,19 +24,19 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - WV: B+
-- SU: B+
+- SU: A+
 - QK: A+
 - XD: A+
 - VQ: A
 - YZ: A
-- VK: A+
+- VK: A
 - DL: A+
 - ZU: A+
 
 ## Deposit / Withdrawal
 - GN: deposit ❌ / withdraw ✅
 - WV: deposit ❌ / withdraw ✅
-- SU: deposit ❌ / withdraw ❌
+- SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -47,17 +47,17 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-22 · SU [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-10-22 · SU [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-10-21 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-21 · ZU [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-10-21 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-21 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-21 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-21 · SU [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: closed:bsc
 - WV: closed:solana,solana
-- SU: closed:solana
+- SU: open:solana
 - QK: open:solana
 - XD: open:solana
 - VQ: open:solana,solana
@@ -66,8 +66,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - DL: open:solana
 - CJ: open:solana
 - ZU: open:solana
-- Suspended now: SU
-- Recently reopened (48h): ZU
+- Recently reopened (48h): SU, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,7 +77,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:55:38.187842Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:56:21.296806Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

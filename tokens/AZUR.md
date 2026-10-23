@@ -2,29 +2,29 @@
 token: AZUR
 type: token
 tier: free
-nw_grade: C+
-nw_grade_worst: C
+nw_grade: B+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x9e6be44cc1236eef7e1f197418592d363bedcd5a" }
 exchanges: [VQ, VK]
 transfer: open
-updated: 2026-10-22T03:52:20.010261Z
+updated: 2026-10-23T03:53:05.401185Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AZUR · NW Grade **C+**
+# AZUR · NW Grade **B+**
 
-Ethereum-network token; NW grade C+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x9e6be4…cd5a` (verified_same)
 - Listed on: VQ, VK
 
 ## Grade by exchange
-- VQ: C+
-- VK: C
+- VQ: F
+- VK: B+
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -56,7 +56,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:52:20.010261Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:53:05.401185Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

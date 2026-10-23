@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-22T03:51:43.716666Z
+updated: 2026-10-23T03:52:25.245328Z
 source: nightwatch-kg
 ---
 
@@ -49,16 +49,16 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-22 · WV [[arbone]] deposit → open · [[event/dw-resume]]
+- 2026-10-22 · WV [[arbone]] withdraw → open · [[event/dw-resume]]
 - 2026-10-21 · WV [[arbone]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-21 · VQ [[arbone]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-19 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · VQ [[eth]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · VQ [[arbevm]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[arbitrum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:arbitrum,arbone,ethereum
-- WV: open:ethereum,ethereum | closed:arbitrum,arbone
+- WV: open:arbone,ethereum,ethereum | closed:arbitrum
 - SU: open:arbitrum
 - QK: open:arbone,ethereum
 - VQ: open:arbevm,ethereum,ethereum | closed:arbone
@@ -68,6 +68,7 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - DL: closed:arbitrum,arbone,ethereum
 - CJ: open:ethereum
 - ZU: open:arbitrum
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -87,7 +88,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:51:43.716666Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:52:25.245328Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -8,16 +8,16 @@ identity: native
 contracts:
   - { chain: aptos, address: "0x1::aptos_coin::aptoscoin" }
 exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
-transfer: open
+transfer: partial
 lifecycle: suspended
-updated: 2026-10-22T03:51:48.103698Z
+updated: 2026-10-23T03:52:29.619806Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # APT · NW Grade **A+**
 
-Aptos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[aptos]] `0x1::apt…coin` (native)
@@ -40,7 +40,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
-- QK: deposit ✅ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
@@ -51,19 +51,19 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-23 · QK [[aptos]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-23 · QK [[aptos]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[aptos]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · ZU [[aptos]] deposit → open · [[event/dw-resume]]
 - 2026-10-18 · ZU [[aptos]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-18 · ZU [[aptos]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-14 · VK [[aptos]] withdraw → open · [[event/dw-resume]]
-- 2026-10-14 · VK [[aptos]] deposit → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - GN: open:aptos
 - WV: open:aptos,aptos
 - SU: open:aptos
-- QK: open:aptos
+- QK: closed:aptos
 - XD: open:aptos
 - VQ: open:aptos,aptos
 - ST: open:aptos
@@ -72,6 +72,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - DL: open:aptos
 - CJ: open:aptos
 - ZU: open:aptos
+- Suspended now: QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -90,7 +91,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-22T03:51:48.103698Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-23T03:52:29.619806Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
