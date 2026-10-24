@@ -3,14 +3,13 @@ token: CUDIS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1" }
 exchanges: [WV, SU, QK, VQ, VK]
 transfer: partial
-lifecycle: delisted
-updated: 2026-10-23T03:55:44.311320Z
+updated: 2026-10-24T03:54:28.292407Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +23,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - Listed on: WV, SU, QK, VQ, VK
 
 ## Grade by exchange
-- WV: F
+- WV: A+
 - SU: A+
 - QK: D+
 - VQ: A
@@ -46,7 +45,6 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - 2026-10-14 · VQ [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-12 · VQ [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-09 · VQ [[solana]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - WV: open:bsc,bsc
@@ -75,8 +73,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-23T03:55:44.311320Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-24T03:54:28.292407Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

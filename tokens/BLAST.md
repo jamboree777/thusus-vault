@@ -2,7 +2,7 @@
 token: BLAST
 type: token
 tier: free
-nw_grade: A
+nw_grade: A-
 nw_grade_worst: F
 identity: partial
 contracts:
@@ -10,14 +10,14 @@ contracts:
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-23T03:53:44.102743Z
+updated: 2026-10-24T03:52:28.087877Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLAST · NW Grade **A**
+# BLAST · NW Grade **A-**
 
-Blast-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Blast-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[blast]] `0xb1a570…e2ad` (partial)
@@ -28,29 +28,29 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - SU: A-
 - QK: F
 - XD: B+
-- VQ: C
+- VQ: F
 - YZ: F
 - VK: B+
-- ZU: A
+- ZU: B+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
-- SU: deposit ❌ / withdraw ❌
+- SU: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ❌
 - XD: deposit ❌ / withdraw ❌
 - VQ: deposit ❌ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ❌ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
-- ZU: deposit ❌ / withdraw ❌
+- ZU: deposit ❌ / withdraw ✅
 
 ## Events
-- 2026-10-20 · XD [[blast]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-20 · XD [[blast]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-20 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-20 · VK [[none]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-20 · VK [[none]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-20 · QK [[blast]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-23 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-23 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-23 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-23 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-23 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-23 · SU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -62,8 +62,9 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - ST: open:blast
 - YZ: closed:blast,blast
 - VK: closed:blast,ethereum,none
-- ZU: closed:blastnet
-- Suspended now: SU, QK, XD, ZU
+- ZU: closed:blastnet,ethereum
+- Suspended now: QK, XD
+- Recently reopened (48h): SU, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -79,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-23T03:53:44.102743Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-24T03:52:28.087877Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

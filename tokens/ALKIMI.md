@@ -2,29 +2,29 @@
 token: ALKIMI
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: D
+nw_grade: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-23T03:52:16.418683Z
+updated: 2026-10-24T03:50:58.770918Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ALKIMI · NW Grade **B+**
+# ALKIMI · NW Grade **A**
 
-Sui-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x1a8f4b…kimi` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: B+
-- YZ: D
+- VQ: A
+- YZ: B+
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-23T03:52:16.418683Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-24T03:50:58.770918Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

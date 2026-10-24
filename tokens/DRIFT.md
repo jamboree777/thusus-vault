@@ -9,7 +9,8 @@ contracts:
   - { chain: solana, address: "driftupjyltosbwon8kombeysx54afavlddwsbksjwg7" }
 exchanges: [WV, QK, XD, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-23T03:56:26.610332Z
+lifecycle: delisted
+updated: 2026-10-24T03:55:20.653016Z
 source: nightwatch-kg
 ---
 
@@ -45,6 +46,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - 2026-09-28 · WV [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-28 · WV [[sol]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-24 · WV [[solana]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - WV: closed:solana,solana
@@ -69,8 +71,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-23T03:56:26.610332Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-24T03:55:20.653016Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
