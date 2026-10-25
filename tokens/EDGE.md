@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0xed6e000def95780fb89734c07ee2ce9f6dcaf110" }
 exchanges: [WV, SU, QK, XD, VQ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-24T03:55:36.798578Z
+updated: 2026-10-25T03:56:33.409194Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 
 ## Grade by exchange
 - WV: A+
-- SU: B+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: B+
@@ -74,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-19 shadow trades · realized net **+31.64 USD** · win rate 73.7% (19 settled)
+16 shadow trades · realized net **+30.02 USD** · win rate 75% (16 settled)
 
 - 2026-10-09 · carry-A · SU→VQ · -2.05 USD · _flipped_
 - 2026-10-08 · carry-A · SU→VQ · +0.50 USD · _held_
@@ -84,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-24T03:55:36.798578Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-25T03:56:33.409194Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

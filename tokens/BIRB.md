@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: open
-updated: 2026-10-24T03:52:23.608532Z
+updated: 2026-10-25T03:52:47.490647Z
 source: nightwatch-kg
 ---
 
@@ -23,14 +23,14 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - Listed on: WV, SU, QK, XD, VQ, YZ, VK, ZU
 
 ## Grade by exchange
-- WV: A
-- SU: A
+- WV: B+
+- SU: A+
 - QK: A+
-- XD: A-
+- XD: A
 - VQ: B+
 - YZ: B+
 - VK: B+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -63,7 +63,6 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - VK: open:solana
 - CJ: open:solana
 - ZU: open:solana
-- Recently reopened (48h): SU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-24T03:52:23.608532Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-25T03:52:47.490647Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

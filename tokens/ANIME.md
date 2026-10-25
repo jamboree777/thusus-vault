@@ -3,14 +3,14 @@ token: ANIME
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: arbitrum-one, address: "0x37a645648df29205c6261289983fb04ecd70b4b3" }
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-24T03:51:07.554224Z
+updated: 2026-10-25T03:51:17.338760Z
 source: nightwatch-kg
 ---
 
@@ -31,7 +31,7 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - QK: A+
 - VQ: A
 - YZ: A+
-- VK: A
+- VK: B-
 - DL: A+
 - ZU: A+
 
@@ -39,36 +39,36 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
-- QK: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ❌
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
-- DL: deposit ✅ / withdraw ❌
+- DL: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-25 · DL [[arbone]] withdraw → open · [[event/dw-resume]]
+- 2026-10-24 · QK [[arbone]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-24 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-24 · GN [[arbone]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-24 · GN [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-24 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-22 · WV [[arbone]] deposit → open · [[event/dw-resume]]
-- 2026-10-22 · WV [[arbone]] withdraw → open · [[event/dw-resume]]
-- 2026-10-21 · WV [[arbone]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-21 · VQ [[arbone]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-19 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:arbitrum,arbone,ethereum
+- GN: open:ethereum | closed:arbitrum,arbone
 - WV: open:arbone,ethereum,ethereum | closed:arbitrum
 - SU: open:arbitrum
-- QK: open:arbone,ethereum
+- QK: closed:arbone,ethereum
 - VQ: open:arbevm,ethereum | closed:arbone,ethereum
 - ST: open:arbianime
 - YZ: open:arbitrum,arbitrum | closed:ethereum,ethereum
 - VK: open:arbitrum,ethereum
-- DL: closed:arbitrum,arbone,ethereum
+- DL: open:arbitrum,arbone | closed:ethereum
 - CJ: open:ethereum
 - ZU: open:arbitrum
-- Recently reopened (48h): WV
+- Recently reopened (48h): DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -77,18 +77,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-4 shadow trades · realized net **+9.09 USD** · win rate 75% (4 settled)
-
-- 2026-10-20 · carry-A · SU→GN · +4.92 USD · _held_
-- 2026-10-20 · carry-A · SU→GN · +2.80 USD · _decayed_
-- 2026-10-20 · carry-A · SU→GN · +1.47 USD · _decayed_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-24T03:51:07.554224Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-25T03:51:17.338760Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

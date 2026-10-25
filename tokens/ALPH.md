@@ -2,21 +2,21 @@
 token: ALPH
 type: token
 tier: free
-nw_grade: C-
+nw_grade: A+
 nw_grade_worst: F
 identity: native
 contracts:
   - { chain: ethereum, address: "0x590f820444fa3638e022776752c5eef34e2f89a6" }
 exchanges: [WV, VQ, VK]
 transfer: partial
-updated: 2026-10-24T03:51:01.002061Z
+updated: 2026-10-25T03:51:10.695446Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ALPH · NW Grade **C-**
+# ALPH · NW Grade **A+**
 
-Ethereum-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x590f82…89a6` (native)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade C- liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - WV: F
-- VQ: C-
+- VQ: A+
 - VK: F
 
 ## Deposit / Withdrawal
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-24T03:51:01.002061Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-25T03:51:10.695446Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

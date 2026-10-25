@@ -3,13 +3,13 @@ token: BARD
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-24T03:51:58.906534Z
+updated: 2026-10-25T03:52:21.201249Z
 source: nightwatch-kg
 ---
 
@@ -25,11 +25,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - GN: A+
 - WV: A+
-- SU: B+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: A
-- YZ: B+
+- YZ: D+
 - VK: A+
 - DL: A+
 - ZU: A
@@ -69,7 +69,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-24T03:51:58.906534Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-25T03:52:21.201249Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

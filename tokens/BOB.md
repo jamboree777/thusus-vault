@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xc9746f73cc33a36c2cd55b8aefd732586946cedd" }
 exchanges: [SU, VQ, YZ, VK]
 transfer: open
-updated: 2026-10-24T03:52:39.941230Z
+updated: 2026-10-25T03:53:11.593079Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - Listed on: SU, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: A
+- SU: B+
 - VQ: A
 - YZ: A
 - VK: C
@@ -36,18 +36,18 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-24 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · SU [[bob]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bob]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bob]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · SU [[bob]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · VK [[bob]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - SU: open:bob
 - VQ: open:bob,bob
 - YZ: open:bob,gobob
-- VK: open:bob,bsc
+- VK: open:bob | closed:bsc
 - CJ: open:bsc
 
 ## Backers & Project
@@ -59,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-24T03:52:39.941230Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-25T03:53:11.593079Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
