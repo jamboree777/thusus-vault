@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x7d814b9ed370ec0a502edc3267393bf62d891b62" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-25T03:53:09.389964Z
+updated: 2026-10-26T03:53:12.939018Z
 source: nightwatch-kg
 ---
 
@@ -33,7 +33,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
-- WV: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ❌
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -44,19 +44,19 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-25 · VQ [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-24 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-24 · QK [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-24 · GN [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-24 · VQ [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-24 · GN [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-24 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,solana
-- WV: open:solana | closed:solana
+- WV: closed:solana,solana
 - SU: open:solana
 - QK: open:solana
-- VQ: open:bsc,solana,solana | closed:bsc
+- VQ: open:bsc,bsc,solana,solana
 - ST: open:solbmt
 - YZ: open:bsc,bsc | closed:solana,solana
 - VK: closed:bsc,solana
@@ -82,7 +82,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-25T03:53:09.389964Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-26T03:53:12.939018Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

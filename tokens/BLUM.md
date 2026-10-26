@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0xfdc8cd47848c0c67df66f7120f4e3371181cfa5e" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-25T03:53:05.031481Z
+updated: 2026-10-26T03:53:08.567798Z
 source: nightwatch-kg
 ---
 
@@ -42,7 +42,7 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 
 ## Transfer map
 - WV: closed:ton,ton
-- VQ: open:ton,ton | closed:gram
+- VQ: open:ton,ton | closed:gram,gram
 - YZ: closed:ton,ton,ton2
 - VK: closed:ton
 - Suspended now: YZ
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-25T03:53:05.031481Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-26T03:53:08.567798Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

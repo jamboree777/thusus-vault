@@ -10,7 +10,7 @@ contracts:
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-25T03:57:37.734826Z
+updated: 2026-10-26T03:57:05.675685Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - GN: A+
 - WV: B
-- SU: A+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: A+
@@ -51,18 +51,18 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-26 · QK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · DL [[gravity alpha mainnet]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-19 · DL [[gravity alpha mainnet]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-18 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-18 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,ethereum
 - WV: open:ethereum,ethereum | closed:gravity,gravity
 - SU: open:ethereum | closed:g
-- QK: open:ethereum | closed:bsc
+- QK: open:bsc,ethereum
 - XD: open:ethereum
 - VQ: open:ethereum,ethereum,g | closed:g
 - ST: open:g
@@ -71,6 +71,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - DL: open:ethereum | closed:gravity alpha mainnet
 - CJ: open:ethereum
 - ZU: open:ethereum
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-25T03:57:37.734826Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-26T03:57:05.675685Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

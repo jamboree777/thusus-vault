@@ -2,21 +2,21 @@
 token: ASP
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xad8c787992428cd158e451aab109f724b6bc36de" }
 exchanges: [VQ, YZ, VK, DL]
 transfer: partial
-updated: 2026-10-25T03:51:51.859525Z
+updated: 2026-10-26T03:52:05.909558Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ASP · NW Grade **A**
+# ASP · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xad8c78…36de` (verified_same)
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 - VQ: B+
 - YZ: A
 - VK: B+
-- DL: A
+- DL: A+
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-25T03:51:51.859525Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-26T03:52:05.909558Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

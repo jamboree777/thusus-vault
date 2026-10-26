@@ -3,13 +3,13 @@ token: DOG
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B+
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: solana, address: "dog1viwbb2vwdper5frj4yfg6gq6xuyfohue9txn65u" }
 exchanges: [WV, VQ, VK]
 transfer: partial
-updated: 2026-10-25T03:55:50.054319Z
+updated: 2026-10-26T03:55:40.729246Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Solana-network token; NW grade A liquidity; transfer is partial (some venues fro
 ## Grade by exchange
 - WV: B+
 - VQ: A
-- VK: B+
+- VK: B-
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-25T03:55:50.054319Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-26T03:55:40.729246Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

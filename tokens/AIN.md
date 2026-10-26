@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x9558a9254890b2a8b057a789f413631b9084f4a3" }
 exchanges: [WV, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-25T03:50:57.531751Z
+updated: 2026-10-26T03:51:20.614664Z
 source: nightwatch-kg
 ---
 
@@ -35,18 +35,19 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-26 · YZ [[bep20]] deposit → open · [[event/dw-resume]]
 - 2026-10-21 · VK [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-10-19 · YZ [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-10-05 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · VK [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: closed:bsc,bsc
 - VQ: closed:bsc,bsc
-- YZ: open:bsc | closed:bsc
+- YZ: open:bsc,bsc
 - VK: open:bsc
+- Recently reopened (48h): YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-25T03:50:57.531751Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-26T03:51:20.614664Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
 transfer: open
 lifecycle: suspended
-updated: 2026-10-25T03:51:40.828870Z
+updated: 2026-10-26T03:51:47.604146Z
 source: nightwatch-kg
 ---
 
@@ -72,7 +72,6 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - DL: open:aptos
 - CJ: open:aptos
 - ZU: open:aptos
-- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -91,7 +90,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-25T03:51:40.828870Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-26T03:51:47.604146Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

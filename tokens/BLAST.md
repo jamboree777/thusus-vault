@@ -9,8 +9,8 @@ contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
-lifecycle: suspended
-updated: 2026-10-25T03:52:49.771721Z
+lifecycle: delisted
+updated: 2026-10-26T03:53:03.834505Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - SU: A-
 - QK: F
 - XD: B+
-- VQ: D+
+- VQ: D-
 - YZ: F
 - VK: B+
 - ZU: A
@@ -40,31 +40,31 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - XD: deposit ❌ / withdraw ❌
 - VQ: deposit ❌ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
-- YZ: deposit ❌ / withdraw ✅
+- YZ: deposit ❌ / withdraw ❌
 - VK: deposit ❌ / withdraw ✅
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-26 · VQ [[eth]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-26 · YZ [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-23 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-23 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-23 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-23 · SU [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- WV: open:ethereum | closed:blast,blast,ethereum
+- WV: open:ethereum,ethereum | closed:blast,blast
 - SU: closed:blast,ethereum
 - QK: closed:blast
 - XD: closed:blast
-- VQ: closed:blast,blasteth,ethereum
+- VQ: closed:blast,blasteth,ethereum,ethereum
 - ST: open:blast
 - YZ: closed:blast,blast
 - VK: closed:blast,ethereum,none
 - ZU: closed:blastnet,ethereum
-- Suspended now: QK, XD
-- Recently reopened (48h): SU, ZU
+- Suspended now: QK, XD, YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-25T03:52:49.771721Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-26T03:53:03.834505Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
