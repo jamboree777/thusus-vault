@@ -3,13 +3,13 @@ token: CUDIS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D-
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1" }
 exchanges: [WV, SU, QK, VQ, VK]
 transfer: partial
-updated: 2026-10-26T03:55:04.046392Z
+updated: 2026-10-27T03:55:35.858067Z
 source: nightwatch-kg
 ---
 
@@ -23,10 +23,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - Listed on: WV, SU, QK, VQ, VK
 
 ## Grade by exchange
-- WV: D-
-- SU: A+
+- WV: A+
+- SU: B+
 - QK: D+
-- VQ: B-
+- VQ: C
 - VK: A-
 
 ## Deposit / Withdrawal
@@ -39,12 +39,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-27 · WV [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-10-26 · WV [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-10-26 · VQ [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-22 · SU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-21 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-19 · VQ [[sol]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-14 · VQ [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-12 · VQ [[sol]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-09 · VQ [[solana]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:bsc,bsc
@@ -54,6 +54,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ST: open:solcudis
 - VK: closed:bsc,solana
 - CJ: open:bsc
+- Recently reopened (48h): WV, VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:55:04.046392Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:55:35.858067Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

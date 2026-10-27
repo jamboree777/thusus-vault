@@ -3,13 +3,13 @@ token: DBR
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: solana, address: "dbridgjamsm95motzjs7m9lnkgerpbv9v6cur1dxnuu5" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK]
 transfer: open
-updated: 2026-10-26T03:55:15.524393Z
+updated: 2026-10-27T03:55:51.396013Z
 source: nightwatch-kg
 ---
 
@@ -24,10 +24,10 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 
 ## Grade by exchange
 - WV: A+
-- SU: B+
+- SU: A+
 - QK: A+
 - XD: A+
-- VQ: B-
+- VQ: C+
 - YZ: B+
 - VK: A-
 
@@ -78,7 +78,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:55:15.524393Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:55:51.396013Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

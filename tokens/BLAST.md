@@ -4,13 +4,13 @@ type: token
 tier: free
 nw_grade: A
 nw_grade_worst: F
-identity: partial
+identity: verified_same
 contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
-lifecycle: delisted
-updated: 2026-10-26T03:53:03.834505Z
+lifecycle: suspended
+updated: 2026-10-27T03:53:34.738215Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +20,7 @@ source: nightwatch-kg
 Blast-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
-- Contract: [[blast]] `0xb1a570…e2ad` (partial)
+- Contract: [[blast]] `0xb1a570…e2ad` (verified_same)
 - Listed on: WV, SU, QK, XD, VQ, YZ, VK, ZU
 
 ## Grade by exchange
@@ -28,7 +28,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - SU: A-
 - QK: F
 - XD: B+
-- VQ: D-
+- VQ: B
 - YZ: F
 - VK: B+
 - ZU: A
@@ -45,13 +45,12 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-26 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-26 · VQ [[eth]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-26 · YZ [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-23 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-23 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -65,6 +64,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - VK: closed:blast,ethereum,none
 - ZU: closed:blastnet,ethereum
 - Suspended now: QK, XD, YZ
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:53:03.834505Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:53:34.738215Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

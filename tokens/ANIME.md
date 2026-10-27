@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-26T03:51:43.296067Z
+updated: 2026-10-27T03:52:18.420109Z
 source: nightwatch-kg
 ---
 
@@ -33,7 +33,7 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - YZ: A+
 - VK: B-
 - DL: A+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -44,31 +44,31 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
-- DL: deposit ✅ / withdraw ✅
+- DL: deposit ✅ / withdraw ❌
 - CJ: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-26 · DL [[arbone]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-26 · DL [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-26 · WV [[arbitrumone]] deposit → open · [[event/dw-resume]]
 - 2026-10-26 · VQ [[eth]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-26 · VQ [[arbevm]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-26 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-25 · GN [[arbitrum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-25 · GN [[arbone]] withdraw → open · [[event/dw-resume]]
-- 2026-10-25 · DL [[arbitrum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:arbitrum,arbone,ethereum
-- WV: open:arbone,ethereum,ethereum | closed:arbitrum
+- WV: open:arbitrum,arbone,ethereum,ethereum
 - SU: open:arbitrum
 - QK: open:ethereum | closed:arbone
 - VQ: closed:arbevm,arbone,ethereum,ethereum
 - ST: open:arbianime
 - YZ: open:arbitrum,arbitrum | closed:ethereum,ethereum
 - VK: open:arbitrum,ethereum
-- DL: open:arbitrum,arbone | closed:ethereum
+- DL: closed:arbitrum,arbone,ethereum
 - CJ: open:ethereum
 - ZU: open:arbitrum
-- Recently reopened (48h): GN, QK, DL
+- Recently reopened (48h): GN, WV, QK, DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -88,7 +88,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:51:43.296067Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:52:18.420109Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

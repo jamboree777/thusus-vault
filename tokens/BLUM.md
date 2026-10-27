@@ -2,28 +2,28 @@
 token: BLUM
 type: token
 tier: free
-nw_grade: A
+nw_grade: B+
 nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xfdc8cd47848c0c67df66f7120f4e3371181cfa5e" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-10-26T03:53:08.567798Z
+updated: 2026-10-27T03:53:42.143014Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BLUM · NW Grade **A**
+# BLUM · NW Grade **B+**
 
-Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xfdc8cd…fa5e` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: A
+- VQ: B+
 - YZ: B
 
 ## Deposit / Withdrawal
@@ -33,12 +33,12 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-26 · VQ [[ton]] withdraw → open · [[event/dw-resume]]
+- 2026-10-26 · VQ [[ton]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · VQ [[gram]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-07 · YZ [[ton]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[ton]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[ton]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-04 · WV [[ton]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · WV [[ton]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:ton,ton
@@ -46,6 +46,7 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 - YZ: closed:ton,ton,ton2
 - VK: closed:ton
 - Suspended now: YZ
+- Recently reopened (48h): VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:53:08.567798Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:53:42.143014Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

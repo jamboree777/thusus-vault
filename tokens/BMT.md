@@ -7,9 +7,9 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x7d814b9ed370ec0a502edc3267393bf62d891b62" }
-exchanges: [GN, WV, SU, QK, VQ, YZ, VK]
+exchanges: [GN, WV, SU, QK, VQ, YZ, VK, ZU]
 transfer: partial
-updated: 2026-10-26T03:53:12.939018Z
+updated: 2026-10-27T03:53:48.990741Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +20,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x7d814b…1b62` (verified_same)
-- Listed on: GN, WV, SU, QK, VQ, YZ, VK
+- Listed on: GN, WV, SU, QK, VQ, YZ, VK, ZU
 
 ## Grade by exchange
 - GN: A+
@@ -30,6 +30,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VQ: A+
 - YZ: A+
 - VK: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -44,12 +45,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-26 · YZ [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-26 · WV [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-25 · VQ [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-24 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-24 · QK [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-24 · GN [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-10-24 · VQ [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-10-24 · GN [[solana]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,solana
@@ -58,11 +59,11 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - QK: open:solana
 - VQ: open:bsc,bsc,solana,solana
 - ST: open:solbmt
-- YZ: open:bsc,bsc | closed:solana,solana
+- YZ: open:bsc | closed:bsc,solana,solana
 - VK: closed:bsc,solana
 - CJ: open:solana
 - ZU: open:solana
-- Recently reopened (48h): GN, QK, VQ
+- Recently reopened (48h): VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -72,17 +73,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-9 shadow trades · realized net **+122.82 USD** · win rate 88.9% (9 settled)
+10 shadow trades · realized net **+121.25 USD** · win rate 80% (10 settled)
 
+- 2026-10-26 · carry-A · SU→GN · -1.57 USD · _flipped_
 - 2026-10-24 · carry-A · SU→GN · +17.87 USD · _held_
 - 2026-10-24 · carry-A · SU→GN · +24.80 USD · _held_
-- 2026-10-24 · carry-A · SU→GN · +19.32 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:53:12.939018Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:53:48.990741Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

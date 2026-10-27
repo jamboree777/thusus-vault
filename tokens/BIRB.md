@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg" }
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: open
-updated: 2026-10-26T03:52:58.877992Z
+updated: 2026-10-27T03:53:32.526896Z
 source: nightwatch-kg
 ---
 
@@ -24,13 +24,13 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 
 ## Grade by exchange
 - WV: B+
-- SU: A+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: B+
 - YZ: B+
 - VK: B+
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -71,9 +71,16 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **+1.84 USD** · win rate 100% (1 settled)
+
+- 2026-10-26 · carry-A · SU→QK · +1.84 USD · _held_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:52:58.877992Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:53:32.526896Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

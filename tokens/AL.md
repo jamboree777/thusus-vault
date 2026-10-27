@@ -3,14 +3,14 @@ token: AL
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: C+
+nw_grade_worst: D-
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x6c3ea9036406852006290770bedfcaba0e23a0e8" }
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [WV, SU]
 transfer: partial
-updated: 2026-10-26T03:51:27.214752Z
+updated: 2026-10-27T03:52:03.707797Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some v
 - Listed on: WV, SU
 
 ## Grade by exchange
-- WV: C+
+- WV: D-
 - SU: A
 
 ## Deposit / Withdrawal
@@ -34,15 +34,15 @@ Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some v
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-27 · WV [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-16 · SU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:ethereum,ethereum
+- WV: open:ethereum | closed:ethereum
 - SU: closed:ethereum
 - VK: closed:ethereum
 
@@ -55,7 +55,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:51:27.214752Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:52:03.707797Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

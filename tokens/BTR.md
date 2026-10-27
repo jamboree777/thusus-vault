@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x6c76de483f1752ac8473e2b4983a873991e70da7" }
 exchanges: [WV, SU, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-26T03:53:42.766040Z
+updated: 2026-10-27T03:54:15.908935Z
 source: nightwatch-kg
 ---
 
@@ -40,19 +40,19 @@ Bitlayer/ethereum-network token; NW grade A+ liquidity; transfer is partial (som
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-26 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-01 · VK [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: closed:ethereum,ethereum
 - SU: open:ethereum
 - VQ: open:bsc,bsc,btrbtc,btrbtc
 - YZ: open:bitlayer,bitlayer
-- VK: open:bsc,ethereum | closed:bitlayer,none
+- VK: open:ethereum | closed:bitlayer,bsc,none
 - CJ: open:bsc
 
 ## Backers & Project
@@ -64,7 +64,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-26T03:53:42.766040Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-27T03:54:15.908935Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
