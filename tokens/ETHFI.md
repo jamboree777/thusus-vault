@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: open
-updated: 2026-10-27T03:57:08.869901Z
+updated: 2026-10-28T03:56:23.931629Z
 source: nightwatch-kg
 ---
 
@@ -86,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-27T03:57:08.869901Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-28T03:56:23.931629Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

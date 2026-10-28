@@ -10,7 +10,7 @@ contracts:
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-27T03:53:34.738215Z
+updated: 2026-10-28T03:52:50.828065Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - SU: A-
 - QK: F
 - XD: B+
-- VQ: B
+- VQ: A
 - YZ: F
 - VK: B+
 - ZU: A
@@ -80,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-27T03:53:34.738215Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-28T03:52:50.828065Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
