@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xd58826d2c0babf1a60d8b508160b52e9c19aff07" }
 exchanges: [VQ, VK]
 transfer: open
-updated: 2026-10-28T03:54:57.505877Z
+updated: 2026-10-29T03:56:58.712939Z
 source: nightwatch-kg
 ---
 
@@ -37,6 +37,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - 2026-10-12 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-12 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: delist scheduled (1794366000) · [[event/delisting]]
 
 ## Transfer map
 - VQ: open:blasteth | closed:blast,bsc,bsc
@@ -59,8 +60,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:54:57.505877Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:56:58.712939Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

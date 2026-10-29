@@ -11,7 +11,7 @@ contracts:
 exchanges: [SU, QK, VQ, YZ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-28T03:56:13.766555Z
+updated: 2026-10-29T03:58:15.956344Z
 source: nightwatch-kg
 ---
 
@@ -28,8 +28,8 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - SU: B+
 - QK: F
-- VQ: B
-- YZ: C
+- VQ: B+
+- YZ: B+
 - VK: F
 
 ## Deposit / Withdrawal
@@ -41,12 +41,12 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-10-28 · WV [[eclipse]] withdraw → open · [[event/dw-resume]]
 - 2026-10-27 · WV [[eclipse]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-27 · WV [[eclipse]] withdraw → open · [[event/dw-resume]]
 - 2026-10-27 · WV [[eclipse]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-27 · QK [[eclipse]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-07 · QK [[eclipse]] withdraw → open · [[event/dw-resume]]
-- 2026-10-07 · QK [[solana]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -76,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:56:13.766555Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:58:15.956344Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

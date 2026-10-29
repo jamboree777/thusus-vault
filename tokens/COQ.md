@@ -9,7 +9,7 @@ contracts:
   - { chain: avalanche, address: "0x420fca0121dc28039145009570975747295f2329" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-28T03:54:30.306405Z
+updated: 2026-10-29T03:56:25.558461Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Avalanche-network token; NW grade A liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - VQ: C-
 - YZ: A
-- VK: A-
+- VK: B+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -65,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:54:30.306405Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:56:25.558461Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

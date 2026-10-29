@@ -10,8 +10,7 @@ contracts:
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [WV, SU]
 transfer: partial
-lifecycle: delisted
-updated: 2026-10-28T03:51:19.869203Z
+updated: 2026-10-29T03:51:25.650055Z
 source: nightwatch-kg
 ---
 
@@ -41,7 +40,6 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - WV: open:ethereum | closed:ethereum
@@ -56,8 +54,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:51:19.869203Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:51:25.650055Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

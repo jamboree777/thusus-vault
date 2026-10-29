@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xf17e65822b568b3903685a7c9f496cf7656cc6c2" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL]
 transfer: open
-updated: 2026-10-28T03:52:39.732404Z
+updated: 2026-10-29T03:54:06.398741Z
 source: nightwatch-kg
 ---
 
@@ -25,9 +25,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - QK: A+
-- XD: A
+- XD: A+
 - VQ: A
 - YZ: A
 - VK: A+
@@ -48,12 +48,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-10-18 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-18 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:ethereum
@@ -68,6 +68,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -87,7 +88,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:52:39.732404Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:54:06.398741Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,29 +2,29 @@
 token: EYWA
 type: token
 tier: free
-nw_grade: D+
-nw_grade_worst: D+
+nw_grade: F
+nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x8cb8c4263eb26b2349d74ea2cb1b27bc40709e12" }
 exchanges: [YZ]
 transfer: blocked
 lifecycle: suspended
-updated: 2026-10-28T03:56:28.309825Z
+updated: 2026-10-29T03:58:27.152679Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# EYWA · NW Grade **D+**
+# EYWA · NW Grade **F**
 
-Ethereum-network token; NW grade D+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Ethereum-network token; NW grade F liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[ethereum]] `0x8cb8c4…9e12` (partial)
 - Listed on: YZ
 
 ## Grade by exchange
-- YZ: D+
+- YZ: F
 
 ## Deposit / Withdrawal
 - VQ: deposit ❌ / withdraw ✅
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:56:28.309825Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:58:27.152679Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

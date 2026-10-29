@@ -10,7 +10,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0xa7440029eca41deabd8775ef1d6086b37d4df8d6" }
 exchanges: [WV, SU, QK, VQ, YZ]
 transfer: open
-updated: 2026-10-28T03:53:17.856522Z
+updated: 2026-10-29T03:55:10.309813Z
 source: nightwatch-kg
 ---
 
@@ -41,15 +41,15 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is open 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-28 · WV [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · ZU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-10-18 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-18 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · ZU [[base]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- WV: open:base,base
+- WV: open:base | closed:base
 - SU: open:base
 - QK: open:base
 - VQ: open:base,baseevm
@@ -73,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:53:17.856522Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:55:10.309813Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

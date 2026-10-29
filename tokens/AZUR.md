@@ -2,30 +2,28 @@
 token: AZUR
 type: token
 tier: free
-nw_grade: B+
+nw_grade: C-
 nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x9e6be44cc1236eef7e1f197418592d363bedcd5a" }
-exchanges: [VQ, VK]
+exchanges: [VQ]
 transfer: partial
-lifecycle: delisted
-updated: 2026-10-28T03:52:13.319784Z
+updated: 2026-10-29T03:53:00.703473Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AZUR · NW Grade **B+**
+# AZUR · NW Grade **C-**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x9e6be4…cd5a` (verified_same)
-- Listed on: VQ, VK
+- Listed on: VQ
 
 ## Grade by exchange
 - VQ: C-
-- VK: B+
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -37,8 +35,6 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - 2026-10-07 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: open:ethereum,ethereum
@@ -59,8 +55,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:52:13.319784Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:53:00.703473Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

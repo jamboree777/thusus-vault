@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xde4ee8057785a7e8e800db58f9784845a5c2cbd6" }
 exchanges: [GN, SU, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-28T03:55:21.599525Z
+updated: 2026-10-29T03:57:20.414400Z
 source: nightwatch-kg
 ---
 
@@ -38,12 +38,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · YZ [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-17 · YZ [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · SU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,ethereum
@@ -52,6 +52,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ST: closed:dexe
 - YZ: open:bsc,bsc,ethereum,ethereum
 - VK: open:ethereum
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-28T03:55:21.599525Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-29T03:57:20.414400Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
