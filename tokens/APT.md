@@ -8,16 +8,16 @@ identity: native
 contracts:
   - { chain: aptos, address: "0x1::aptos_coin::aptoscoin" }
 exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
-transfer: open
+transfer: partial
 lifecycle: suspended
-updated: 2026-10-29T03:52:04.808155Z
+updated: 2026-10-30T03:51:23.038488Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # APT · NW Grade **A+**
 
-Aptos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[aptos]] `0x1::apt…coin` (native)
@@ -37,7 +37,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - ZU: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -51,16 +51,16 @@ Aptos-network token; NW grade A+ liquidity; transfer is open on at least one ven
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[aptos]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · QK [[aptos]] withdraw → open · [[event/dw-resume]]
 - 2026-10-23 · QK [[aptos]] deposit → open · [[event/dw-resume]]
 - 2026-10-23 · QK [[aptos]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · QK [[aptos]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[aptos]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[aptos]] deposit → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- GN: open:aptos
+- GN: closed:aptos
 - WV: open:aptos,aptos
 - SU: open:aptos
 - QK: open:aptos
@@ -90,7 +90,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:52:04.808155Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:51:23.038488Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

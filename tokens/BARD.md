@@ -3,20 +3,20 @@ token: BARD
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
-transfer: open
-updated: 2026-10-29T03:53:19.089840Z
+transfer: partial
+updated: 2026-10-30T03:52:10.993937Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BARD · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xf0db65…9754` (verified_same)
@@ -29,13 +29,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - QK: A+
 - XD: A+
 - VQ: A
-- YZ: C+
+- YZ: B+
 - VK: A+
 - DL: A+
 - ZU: A
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -49,15 +49,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-22 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:bsc,ethereum
+- GN: closed:bsc,ethereum
 - WV: open:ethereum,ethereum
 - SU: open:ethereum
 - QK: open:ethereum
@@ -80,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:53:19.089840Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:52:10.993937Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

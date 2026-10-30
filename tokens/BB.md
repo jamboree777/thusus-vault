@@ -10,7 +10,7 @@ contracts:
   - { chain: polygon-pos, address: "0x4f7cc8ef14f3dc76ee2fb60028749e1b61cea162" }
 exchanges: [GN, WV, SU, QK, VQ, hyperliquid-xyz, YZ, VK]
 transfer: partial
-updated: 2026-10-29T03:53:33.112376Z
+updated: 2026-10-30T03:52:15.616331Z
 source: nightwatch-kg
 ---
 
@@ -35,7 +35,7 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 - VK: B+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ❌
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -45,15 +45,15 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · SU [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: open:bsc | closed:bb
+- GN: closed:bb,bsc
 - WV: closed:bb,bb,bsc,bsc
 - SU: open:bsc | closed:bb
 - QK: open:bsc | closed:bouncebit
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:53:33.112376Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:52:15.616331Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

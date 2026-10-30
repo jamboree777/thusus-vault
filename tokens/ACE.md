@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [GN, WV, SU, VQ, YZ, VK, DL]
-transfer: open
-updated: 2026-10-29T03:50:55.549134Z
+transfer: partial
+updated: 2026-10-30T03:50:35.573176Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ACE · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xc27a71…def4` (verified_same)
@@ -29,10 +29,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - VQ: A-
 - YZ: B+
 - VK: A+
-- DL: A+
+- DL: A
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -43,15 +43,15 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[endurance]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · SU [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: open:bsc,endurance
+- GN: closed:bsc,endurance
 - WV: open:bsc,bsc | closed:esc,esc
 - SU: open:bsc
 - VQ: open:bsc,bsc
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:50:55.549134Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:50:35.573176Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

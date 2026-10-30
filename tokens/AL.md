@@ -2,7 +2,7 @@
 token: AL
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: F
 identity: partial
 contracts:
@@ -10,14 +10,14 @@ contracts:
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [WV, SU]
 transfer: partial
-updated: 2026-10-29T03:51:25.650055Z
+updated: 2026-10-30T03:50:57.547352Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **A+**
+# AL · NW Grade **A**
 
-Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
@@ -26,7 +26,7 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 
 ## Grade by exchange
 - WV: F
-- SU: A+
+- SU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -55,7 +55,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:51:25.650055Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:50:57.547352Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

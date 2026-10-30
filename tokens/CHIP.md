@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: arbitrum-one, address: "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e" }
 exchanges: [GN, SU, QK, XD, hyperliquid-perp, DL, ZU]
-transfer: open
-updated: 2026-10-29T03:56:08.669130Z
+transfer: partial
+updated: 2026-10-30T03:53:57.899577Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CHIP · NW Grade **A+**
 
-Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Arbitrum-one-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[arbitrum-one]] `0x0c1c1c…1f6e` (verified_same)
@@ -32,7 +32,7 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 - ZU: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -45,15 +45,15 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[arbone]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-30 · GN [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[arbitrum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-19 · ZU [[arbitrum]] deposit → open · [[event/dw-resume]]
 - 2026-10-18 · ZU [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-18 · ZU [[arbitrum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-30 · ZU [[arbitrum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · ZU [[arbitrum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:arbitrum,arbone
+- GN: closed:arbitrum,arbone
 - SU: open:arbitrum
 - QK: open:arbone
 - XD: open:base
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:56:08.669130Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:53:57.899577Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

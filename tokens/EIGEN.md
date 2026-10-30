@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xec53bf9167f50cdeb3ae105f56099aaab9061f83" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL]
-transfer: open
-updated: 2026-10-29T03:57:59.308780Z
+transfer: partial
+updated: 2026-10-30T03:55:43.810036Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # EIGEN · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xec53bf…1f83` (verified_same)
@@ -34,7 +34,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - DL: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -47,15 +47,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:ethereum
+- GN: closed:ethereum
 - WV: open:ethereum,ethereum
 - SU: open:ethereum
 - QK: open:ethereum
@@ -77,7 +77,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:57:59.308780Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:55:43.810036Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

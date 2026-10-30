@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x3aee7602b612de36088f3ffed8c8f10e86ebf2bf" }
 exchanges: [GN, WV, SU, VQ, VK]
-transfer: open
-updated: 2026-10-29T03:53:15.667934Z
+transfer: partial
+updated: 2026-10-30T03:52:08.730454Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BANK · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x3aee76…f2bf` (verified_same)
@@ -27,10 +27,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - WV: B+
 - SU: A+
 - VQ: A+
-- VK: A
+- VK: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -40,15 +40,15 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-30 · SU [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: open:bsc
+- GN: closed:bsc
 - WV: open:bsc,bsc
 - SU: open:bsc
 - VQ: open:bsc,bsc
@@ -73,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:53:15.667934Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:52:08.730454Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d" }
 exchanges: [GN, WV, SU, XD, VQ, YZ]
-transfer: open
-updated: 2026-10-29T03:56:50.733526Z
+transfer: partial
+updated: 2026-10-30T03:54:35.809734Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CTSI · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x491604…6b5d` (verified_same)
@@ -31,7 +31,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - YZ: A
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -41,15 +41,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:bsc,ethereum
+- GN: closed:bsc,ethereum
 - WV: open:ethereum,ethereum
 - SU: open:ethereum
 - XD: open:ethereum
@@ -68,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:56:50.733526Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:54:35.809734Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

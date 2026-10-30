@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x152649ea73beab28c5b49b26eb48f7ead6d4c898" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK]
-transfer: open
-updated: 2026-10-29T03:55:44.005087Z
+transfer: partial
+updated: 2026-10-30T03:53:31.339637Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CAKE · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x152649…c898` (verified_same)
@@ -33,7 +33,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - VK: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -45,15 +45,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-30 · GN [[aptos]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:aptos,bsc,ethereum
+- GN: closed:aptos,bsc,ethereum
 - WV: open:bsc,bsc
 - SU: open:bsc
 - QK: open:bsc
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:55:44.005087Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:53:31.339637Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

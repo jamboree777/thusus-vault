@@ -10,7 +10,7 @@ contracts:
 exchanges: [GN, WV, SU, XD, VQ, YZ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-29T03:51:54.178741Z
+updated: 2026-10-30T03:51:16.596717Z
 source: nightwatch-kg
 ---
 
@@ -27,13 +27,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - GN: A+
 - WV: B+
 - SU: B+
-- XD: A+
+- XD: A
 - VQ: A+
 - YZ: B+
 - VK: B+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ❌ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -44,16 +44,16 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- GN: open:ethereum
+- GN: closed:ethereum
 - WV: closed:ethereum,ethereum
 - SU: open:ethereum
 - XD: open:ethereum
@@ -73,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:51:54.178741Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:51:16.596717Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

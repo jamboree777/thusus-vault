@@ -9,15 +9,15 @@ contracts:
   - { chain: binance-smart-chain, address: "0x235b6fe22b4642ada16d311855c49ce7de260841" }
   - { chain: ethereum, address: "0x24a3d725c37a8d1a66eb87f0e5d07fe67c120035" }
 exchanges: [GN, WV, SU, VQ, YZ, VK]
-transfer: open
-updated: 2026-10-29T03:57:52.702084Z
+transfer: partial
+updated: 2026-10-30T03:55:35.920481Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # EDEN · NW Grade **A+**
 
-Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x235b6f…0841` (verified_same)
@@ -33,7 +33,7 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - VK: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -43,20 +43,20 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:bsc,ethereum
+- GN: closed:bsc,ethereum
 - WV: open:ethereum,ethereum
 - SU: open:ethereum
 - VQ: open:bsc,bsc,ethereum,ethereum
 - YZ: open:ethereum,ethereum
-- VK: open:bsc,ethereum
+- VK: open:bsc | closed:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
 - Recently reopened (48h): GN
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-29T03:57:52.702084Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-30T03:55:35.920481Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
