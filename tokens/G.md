@@ -10,7 +10,7 @@ contracts:
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-10-30T03:56:42.995717Z
+updated: 2026-10-31T03:58:37.521703Z
 source: nightwatch-kg
 ---
 
@@ -28,12 +28,12 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - GN: A+
 - WV: B
 - SU: A+
-- QK: A
-- XD: A-
+- QK: A+
+- XD: A+
 - VQ: A+
 - YZ: C+
 - VK: C
-- DL: A
+- DL: A+
 - ZU: A+
 
 ## Deposit / Withdrawal
@@ -71,7 +71,6 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - DL: open:ethereum | closed:gravity alpha mainnet
 - CJ: open:ethereum
 - ZU: open:ethereum
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -82,7 +81,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-30T03:56:42.995717Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-31T03:58:37.521703Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

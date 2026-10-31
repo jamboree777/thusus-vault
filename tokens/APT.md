@@ -10,7 +10,7 @@ contracts:
 exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
 transfer: partial
 lifecycle: suspended
-updated: 2026-10-30T03:51:23.038488Z
+updated: 2026-10-31T03:52:43.136058Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: A
@@ -90,7 +90,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-30T03:51:23.038488Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-31T03:52:43.136058Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

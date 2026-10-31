@@ -8,15 +8,15 @@ identity: native
 contracts:
   - { chain: ethereum, address: "0x590f820444fa3638e022776752c5eef34e2f89a6" }
 exchanges: [WV, VQ, VK]
-transfer: partial
-updated: 2026-10-30T03:51:04.512907Z
+transfer: open
+updated: 2026-10-31T03:52:29.533751Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ALPH · NW Grade **A-**
 
-Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x590f82…89a6` (native)
@@ -30,20 +30,21 @@ Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
-- VK: deposit ❌ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-10-30 · VK [[alph]] deposit → open · [[event/dw-resume]]
 - 2026-10-25 · VK [[alph]] withdraw → open · [[event/dw-resume]]
 - 2026-10-18 · VK [[alph]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-18 · VK [[alph]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-02 · WV [[alph]] withdraw → open · [[event/dw-resume]]
 - 2026-09-24 · WV [[alph]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-09 · VK [[alph]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: open:alph,alph
 - VQ: open:alph,alph
-- VK: closed:alph
+- VK: open:alph
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-30T03:51:04.512907Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-31T03:52:29.533751Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

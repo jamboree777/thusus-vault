@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x152649ea73beab28c5b49b26eb48f7ead6d4c898" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-30T03:53:31.339637Z
+updated: 2026-10-31T03:54:54.691574Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: A
@@ -63,7 +63,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: open:bsc,bsc
 - VK: open:bsc
 - CJ: open:bsc
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-30T03:53:31.339637Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-31T03:54:54.691574Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

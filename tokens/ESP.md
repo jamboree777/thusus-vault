@@ -3,13 +3,13 @@ token: ESP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x031de51f3e8016514bd0963d0b2ab825a591db9a" }
 exchanges: [GN, SU, XD, ZU]
 transfer: partial
-updated: 2026-10-30T03:56:07.580506Z
+updated: 2026-10-31T03:57:52.229317Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: A+
 - SU: A
-- XD: A-
+- XD: A+
 - ZU: A
 
 ## Deposit / Withdrawal
@@ -57,7 +57,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: open:arbitrum,ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-30T03:56:07.580506Z_
+_Live from the NightWatch Knowledge Graph · 2026-10-31T03:57:52.229317Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
