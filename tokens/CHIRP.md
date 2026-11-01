@@ -2,21 +2,22 @@
 token: CHIRP
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: D+
+nw_grade: B-
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::chirp" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-10-31T03:55:25.820018Z
+lifecycle: suspended
+updated: 2026-11-01T03:55:16.367383Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHIRP · NW Grade **A+**
+# CHIRP · NW Grade **B-**
 
-Sui-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x1ef4c0…hirp` (verified_same)
@@ -24,8 +25,8 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 
 ## Grade by exchange
 - VQ: C-
-- YZ: A+
-- VK: D+
+- YZ: B-
+- VK: D-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -39,6 +40,7 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 - 2026-08-20 · VK [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-20 · VK [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-31 · VK [[sui]] withdraw → open · [[event/dw-resume]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: open:sui,sui | closed:suinew,suinew
@@ -60,8 +62,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-10-31T03:55:25.820018Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-01T03:55:16.367383Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

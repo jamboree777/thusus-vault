@@ -2,7 +2,7 @@
 token: AL
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: F
 identity: partial
 contracts:
@@ -10,14 +10,15 @@ contracts:
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [WV, SU]
 transfer: partial
-updated: 2026-10-31T03:52:22.971757Z
+lifecycle: delisted
+updated: 2026-11-01T03:52:21.616852Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **A**
+# AL · NW Grade **A+**
 
-Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
@@ -26,7 +27,7 @@ Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some v
 
 ## Grade by exchange
 - WV: F
-- SU: A
+- SU: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -40,6 +41,8 @@ Ethereum/solana-network token; NW grade A liquidity; transfer is partial (some v
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: open:ethereum | closed:ethereum
@@ -54,8 +57,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-10-31T03:52:22.971757Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
+_Live from the NightWatch Knowledge Graph · 2026-11-01T03:52:21.616852Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
