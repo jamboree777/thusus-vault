@@ -10,7 +10,7 @@ contracts:
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-11-01T03:58:16.435295Z
+updated: 2026-11-02T03:58:48.882865Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - WV: B
 - SU: A+
 - QK: A+
-- XD: A
+- XD: A+
 - VQ: A+
 - YZ: C+
 - VK: C
@@ -38,7 +38,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ❌
-- WV: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ❌
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -51,16 +51,16 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-02 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: closed:bsc,ethereum
-- WV: open:ethereum,ethereum | closed:gravity,gravity
+- WV: closed:ethereum,ethereum,gravity,gravity
 - SU: open:ethereum | closed:g
 - QK: open:bsc,ethereum
 - XD: open:ethereum
@@ -81,7 +81,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-01T03:58:16.435295Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-02T03:58:48.882865Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

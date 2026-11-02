@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xddb3422497e61e13543bea06989c0789117555c5" }
 exchanges: [GN, WV, SU, XD, VQ, YZ, VK]
 transfer: partial
-updated: 2026-11-01T03:55:37.921942Z
+updated: 2026-11-02T03:56:12.589338Z
 source: nightwatch-kg
 ---
 
@@ -38,17 +38,17 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
-- YZ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ❌
 - VK: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-02 · YZ [[coti]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-02 · YZ [[coti]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-30 · YZ [[cotievm]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · YZ [[cotievm]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-29 · YZ [[cotievm]] withdraw → open · [[event/dw-resume]]
-- 2026-10-29 · YZ [[cotievm]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: closed:bsc,ethereum
@@ -57,7 +57,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - XD: open:ethereum
 - VQ: open:coti,coti,ethereum,ethereum
 - ST: open:erc20coti
-- YZ: open:coti | closed:cotievm,ethereum,ethereum
+- YZ: closed:coti,cotievm,ethereum,ethereum
 - VK: open:coti | closed:bsc,ethereum
 - CJ: open:ethereum
 
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-01T03:55:37.921942Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-02T03:56:12.589338Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

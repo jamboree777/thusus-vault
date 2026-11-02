@@ -9,7 +9,7 @@ contracts:
   - { chain: core, address: "0x191e94fa59739e188dce837f7f6978d84727ad01" }
 exchanges: [WV, SU, QK, VQ, VK, DL]
 transfer: partial
-updated: 2026-11-01T03:55:32.393257Z
+updated: 2026-11-02T03:56:08.232584Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: WV, SU, QK, VQ, VK, DL
 
 ## Grade by exchange
-- WV: A+
+- WV: A
 - SU: A
 - QK: A+
 - VQ: A
@@ -31,10 +31,10 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - DL: A+
 
 ## Deposit / Withdrawal
-- WV: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ❌
 - SU: deposit ❌ / withdraw ❌
 - QK: deposit ❌ / withdraw ❌
-- VQ: deposit ✅ / withdraw ✅
+- VQ: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
 - VK: deposit ❌ / withdraw ❌
 - DL: deposit ❌ / withdraw ❌
@@ -48,14 +48,14 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - 2026-10-31 · VK [[core]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:coredao | closed:coredao
+- WV: closed:coredao,coredao
 - SU: closed:core
 - QK: closed:core
-- VQ: open:core | closed:core
+- VQ: closed:core,core
 - ST: open:core
 - VK: closed:core
 - DL: closed:core
-- Suspended now: SU, QK, VK, DL
+- Suspended now: WV, SU, QK, VQ, VK, DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,7 +66,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-01T03:55:32.393257Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-02T03:56:08.232584Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

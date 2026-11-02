@@ -2,21 +2,21 @@
 token: CHEQ
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: D+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7" }
 exchanges: [VQ, YZ, VK]
 transfer: open
-updated: 2026-11-01T03:55:09.785672Z
+updated: 2026-11-02T03:55:29.386816Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHEQ · NW Grade **A**
+# CHEQ · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x70edf1…4de7` (partial)
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 ## Grade by exchange
 - VQ: D+
 - YZ: B+
-- VK: A
+- VK: A+
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -44,18 +44,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-3 shadow trades · realized net **+0.37 USD** · win rate 66.7% (3 settled)
-
-- 2026-07-22 · livescan · VQ→VK · -0.32 USD · _price_drift_
-- 2026-07-21 · livescan · VQ→VK · +0.39 USD · _in_line_
-- 2026-07-20 · livescan · VQ→VK · +0.29 USD · _beat_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-01T03:55:09.785672Z_
+contract verification sweep · NW grade · dep/wd status · listings
+_Live from the NightWatch Knowledge Graph · 2026-11-02T03:55:29.386816Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

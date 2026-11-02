@@ -9,15 +9,15 @@ contracts:
   - { chain: base, address: "0x532f27101965dd16442e59d40670faf5ebb142e4" }
   - { chain: binance-smart-chain, address: "0xa7440029eca41deabd8775ef1d6086b37d4df8d6" }
 exchanges: [WV, SU, QK, VQ, YZ]
-transfer: open
-updated: 2026-11-01T03:54:19.827955Z
+transfer: partial
+updated: 2026-11-02T03:54:30.692957Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BRETT · NW Grade **A+**
 
-Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[base]] `0x532f27…42e4` (verified_same)
@@ -26,13 +26,13 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is open 
 
 ## Grade by exchange
 - WV: A+
-- SU: A+
+- SU: A
 - QK: A+
 - VQ: A+
 - YZ: A
 
 ## Deposit / Withdrawal
-- WV: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -49,7 +49,7 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is open 
 - 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- WV: open:base | closed:base
+- WV: closed:base,base
 - SU: open:base
 - QK: open:base
 - VQ: open:base,baseevm
@@ -73,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-01T03:54:19.827955Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-02T03:54:30.692957Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
