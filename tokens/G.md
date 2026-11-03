@@ -10,7 +10,7 @@ contracts:
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-11-02T03:58:48.882865Z
+updated: 2026-11-03T03:57:14.317790Z
 source: nightwatch-kg
 ---
 
@@ -38,7 +38,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ❌
-- WV: deposit ✅ / withdraw ❌
+- WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -51,16 +51,16 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-03 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-02 · WV [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-02 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: closed:bsc,ethereum
-- WV: closed:ethereum,ethereum,gravity,gravity
+- WV: open:ethereum | closed:ethereum,gravity,gravity
 - SU: open:ethereum | closed:g
 - QK: open:bsc,ethereum
 - XD: open:ethereum
@@ -71,6 +71,7 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is partial (s
 - DL: open:ethereum | closed:gravity alpha mainnet
 - CJ: open:ethereum
 - ZU: open:ethereum
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-02T03:58:48.882865Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-03T03:57:14.317790Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

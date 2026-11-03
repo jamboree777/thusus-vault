@@ -9,16 +9,16 @@ contracts:
   - { chain: ethereum, address: "0x6c3ea9036406852006290770bedfcaba0e23a0e8" }
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [WV, SU]
-transfer: partial
+transfer: blocked
 lifecycle: delisted
-updated: 2026-11-02T03:51:51.057030Z
+updated: 2026-11-03T03:51:06.963893Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AL · NW Grade **A+**
 
-Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum/solana-network token; NW grade A+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[ethereum]] `0x6c3ea9…a0e8` (partial)
@@ -30,22 +30,22 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 - SU: A+
 
 ## Deposit / Withdrawal
-- WV: deposit ✅ / withdraw ✅
+- WV: deposit ❌ / withdraw ✅
 - SU: deposit ❌ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-02 · WV [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-27 · WV [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-16 · SU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] deposit → open · [[event/dw-resume]]
 - Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- WV: open:ethereum | closed:ethereum
+- WV: closed:ethereum,ethereum
 - SU: closed:ethereum
 - VK: closed:ethereum
 
@@ -58,7 +58,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-02T03:51:51.057030Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-03T03:51:06.963893Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
