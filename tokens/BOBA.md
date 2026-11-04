@@ -2,29 +2,29 @@
 token: BOBA
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x42bbfa2e77757c645eeaad1655e0911a7553efbc" }
 exchanges: [SU, QK, XD, VQ, YZ, VK]
 transfer: partial
-updated: 2026-11-03T03:53:16.834175Z
+updated: 2026-11-04T03:52:51.412641Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BOBA · NW Grade **A**
+# BOBA · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x42bbfa…efbc` (verified_same)
 - Listed on: SU, QK, XD, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: A
-- QK: A
+- SU: A+
+- QK: A+
 - XD: B+
 - VQ: A
 - YZ: A
@@ -67,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-03T03:53:16.834175Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-04T03:52:51.412641Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: core, address: "0x191e94fa59739e188dce837f7f6978d84727ad01" }
 exchanges: [WV, SU, QK, VQ, VK, DL]
 transfer: partial
-updated: 2026-11-03T03:54:43.283509Z
+updated: 2026-11-04T03:54:31.309794Z
 source: nightwatch-kg
 ---
 
@@ -26,13 +26,13 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - WV: A+
 - SU: A
 - QK: A+
-- VQ: A
+- VQ: A+
 - VK: B+
 - DL: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ❌
-- SU: deposit ❌ / withdraw ❌
+- SU: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ❌
 - VQ: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
@@ -40,12 +40,12 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - DL: deposit ❌ / withdraw ❌
 
 ## Events
+- 2026-11-03 · SU [[core]] withdraw → open · [[event/dw-resume]]
 - 2026-10-31 · WV [[coredao]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-31 · WV [[coredao]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-31 · DL [[core]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-31 · DL [[core]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-31 · VK [[core]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-31 · VK [[core]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:coredao,coredao
@@ -55,7 +55,8 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - ST: open:core
 - VK: closed:core
 - DL: closed:core
-- Suspended now: WV, SU, QK, VQ, VK, DL
+- Suspended now: WV, QK, VQ, VK, DL
+- Recently reopened (48h): SU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-03T03:54:43.283509Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-04T03:54:31.309794Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

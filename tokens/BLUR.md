@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x5283d291dbcf85356a21ba090e6db59121208b44" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-11-03T03:53:09.778314Z
+updated: 2026-11-04T03:52:44.785841Z
 source: nightwatch-kg
 ---
 
@@ -26,16 +26,16 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - GN: A+
 - WV: B-
 - SU: A+
-- QK: A+
+- QK: A
 - XD: A+
 - VQ: A+
-- YZ: A+
+- YZ: A
 - VK: A
 - DL: A+
 - ZU: A
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ❌ / withdraw ✅
 - SU: deposit ❌ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -49,15 +49,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-03 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-03 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-03 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: closed:ethereum
+- GN: open:ethereum
 - WV: closed:ethereum,ethereum
 - SU: closed:ethereum
 - QK: open:ethereum
@@ -69,6 +69,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: closed:ethereum
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -79,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-03T03:53:09.778314Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-04T03:52:44.785841Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

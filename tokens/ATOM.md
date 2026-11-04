@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x0eb3a705fc54725037cc9e008bdede697f62f335" }
 exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-11-03T03:51:57.698420Z
+updated: 2026-11-04T03:51:40.902521Z
 source: nightwatch-kg
 ---
 
@@ -44,18 +44,18 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ❌
 - DL: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-04 · VK [[atom]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-31 · ZU [[atom]] withdraw → open · [[event/dw-resume]]
 - 2026-10-31 · ZU [[atom]] deposit → open · [[event/dw-resume]]
 - 2026-10-31 · ZU [[atom]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-31 · ZU [[atom]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[atom]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: closed:atom,bsc
@@ -66,7 +66,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VQ: open:atom,atom
 - ST: open:atom1
 - YZ: open:atom,atom
-- VK: open:atom
+- VK: closed:atom
 - DL: open:atom
 - CJ: open:atom
 - ZU: open:atom
@@ -89,7 +89,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-03T03:51:57.698420Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-04T03:51:40.902521Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x152649ea73beab28c5b49b26eb48f7ead6d4c898" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK]
-transfer: partial
-updated: 2026-11-03T03:53:56.398374Z
+transfer: open
+updated: 2026-11-04T03:53:25.364114Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CAKE · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x152649…c898` (verified_same)
@@ -33,7 +33,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -45,15 +45,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-04 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-04 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-03 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-02 · GN [[aptos]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[aptos]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: closed:aptos,bsc,ethereum
+- GN: open:bsc | closed:aptos,ethereum
 - WV: open:bsc,bsc
 - SU: open:bsc
 - QK: open:bsc
@@ -63,6 +63,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: open:bsc,bsc
 - VK: open:bsc
 - CJ: open:bsc
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,16 +72,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-1 shadow trade · realized net **+0.79 USD** · win rate 100% (1 settled)
-
-- 2026-10-22 · carry-A · SU→GN · +0.79 USD · _held_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-03T03:53:56.398374Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-11-04T03:53:25.364114Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

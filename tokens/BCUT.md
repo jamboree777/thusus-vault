@@ -3,13 +3,13 @@ token: BCUT
 type: token
 tier: free
 nw_grade: C
-nw_grade_worst: C
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406" }
 exchanges: [VQ, YZ]
 transfer: partial
-updated: 2026-11-03T03:52:34.538366Z
+updated: 2026-11-04T03:52:14.229530Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Ethereum-network token; NW grade C liquidity; transfer is partial (some venues f
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: C
+- VQ: F
 - YZ: C
 
 ## Deposit / Withdrawal
@@ -33,18 +33,19 @@ Ethereum-network token; NW grade C liquidity; transfer is partial (some venues f
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-03 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-11-03 · YZ [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-03 · QK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-07 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-10-07 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-06 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-01 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - QK: closed:ethereum,polygon
 - VQ: open:ethereum,ethereum | closed:polygon,polygon
-- YZ: open:ethereum,ethereum
+- YZ: open:ethereum | closed:ethereum
 - VK: closed:polygon
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-03T03:52:34.538366Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-04T03:52:14.229530Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
