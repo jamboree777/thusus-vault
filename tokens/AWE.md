@@ -3,13 +3,13 @@ token: AWE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: base, address: "0x1b4617734c43f6159f3a70b7e06d883647512778" }
 exchanges: [GN, WV, SU, XD, VQ, YZ, VK, ZU]
 transfer: open
-updated: 2026-11-04T03:51:51.851312Z
+updated: 2026-11-05T03:53:13.806973Z
 source: nightwatch-kg
 ---
 
@@ -29,8 +29,8 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - XD: A+
 - VQ: A+
 - YZ: A
-- VK: B
-- ZU: A+
+- VK: C
+- ZU: A
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-04T03:51:51.851312Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-05T03:53:13.806973Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

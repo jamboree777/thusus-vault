@@ -2,30 +2,30 @@
 token: CHIRP
 type: token
 tier: free
-nw_grade: C-
-nw_grade_worst: D+
+nw_grade: C
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::chirp" }
 exchanges: [VQ, YZ, VK]
 transfer: open
-updated: 2026-11-04T03:54:03.138545Z
+updated: 2026-11-05T03:55:38.010400Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHIRP · NW Grade **C-**
+# CHIRP · NW Grade **C**
 
-Sui-network token; NW grade C- liquidity; transfer is open on at least one venue.
+Sui-network token; NW grade C liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[sui]] `0x1ef4c0…hirp` (verified_same)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: D+
-- YZ: C-
-- VK: C-
+- VQ: C
+- YZ: C
+- VK: C
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -44,7 +44,6 @@ Sui-network token; NW grade C- liquidity; transfer is open on at least one venue
 - VQ: open:sui,sui | closed:suinew,suinew
 - YZ: open:sui,sui
 - VK: open:sui
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -53,16 +52,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-1 shadow trade · realized net **-0.10 USD** · win rate 0% (1 settled)
-
-- 2026-07-21 · livescan · YZ→VK · -0.10 USD · _price_drift_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-04T03:54:03.138545Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-11-05T03:55:38.010400Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

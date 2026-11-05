@@ -3,13 +3,13 @@ token: FLT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x236501327e701692a281934230af0b6be8df3353" }
 exchanges: [VQ, VK]
 transfer: partial
-updated: 2026-11-04T03:57:01.452647Z
+updated: 2026-11-05T03:58:25.738793Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - VQ: A+
-- VK: C
+- VK: B+
 
 ## Deposit / Withdrawal
 - QK: deposit ❌ / withdraw ✅
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-04T03:57:01.452647Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-05T03:58:25.738793Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

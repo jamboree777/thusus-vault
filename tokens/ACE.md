@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [GN, WV, SU, VQ, YZ, VK, DL]
 transfer: partial
-updated: 2026-11-04T03:50:26.698985Z
+updated: 2026-11-05T03:51:44.304263Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VQ: A-
 - YZ: B+
 - VK: A+
-- DL: A+
+- DL: A
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ❌
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-04T03:50:26.698985Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-05T03:51:44.304263Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,21 +2,21 @@
 token: BFC
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x0c7d5ae016f806603cb1782bea29ac69471cab9c" }
 exchanges: [SU, VQ, YZ, ZU]
 transfer: partial
-updated: 2026-11-04T03:52:22.958087Z
+updated: 2026-11-05T03:53:49.302289Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BFC · NW Grade **A**
+# BFC · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x0c7d5a…ab9c` (verified_same)
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - SU: A
 - VQ: B+
 - YZ: F
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -62,7 +62,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-04T03:52:22.958087Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-05T03:53:49.302289Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
