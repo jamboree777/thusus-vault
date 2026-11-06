@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [WV, VQ, VK]
 transfer: open
-updated: 2026-11-05T03:57:30.095609Z
+updated: 2026-11-06T03:57:13.513241Z
 source: nightwatch-kg
 ---
 
@@ -33,17 +33,18 @@ Polygon-pos-network token; NW grade B+ liquidity; transfer is open on at least o
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-05 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-05 · VQ [[matic]] deposit → open · [[event/dw-resume]]
-- 2026-10-05 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-04 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-11-05 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-11-05 · WV [[polygon]] deposit → open · [[event/dw-resume]]
+- 2026-11-05 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-11-05 · VK [[polygon]] deposit → open · [[event/dw-resume]]
+- 2026-11-05 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-05 · VK [[polygon]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:polygon,polygon
 - VQ: open:polygon,polygon
 - VK: open:polygon
+- Recently reopened (48h): WV, VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -63,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-05T03:57:30.095609Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-06T03:57:13.513241Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

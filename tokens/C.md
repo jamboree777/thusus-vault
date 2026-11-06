@@ -10,7 +10,7 @@ contracts:
 exchanges: [GN, WV, SU, VQ, YZ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-05T03:55:07.300783Z
+updated: 2026-11-06T03:54:56.795889Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A
+- SU: A+
 - VQ: B+
 - YZ: B+
 - VK: A
@@ -41,12 +41,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-30 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · SU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-01 · SU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · GN [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[base]] deposit → open · [[event/dw-resume]]
+- 2026-11-05 · GN [[base]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-05 · SU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-05 · SU [[base]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -57,6 +57,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - YZ: open:base,base
 - VK: open:base
 - CJ: open:base
+- Recently reopened (48h): GN, SU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-05T03:55:07.300783Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-06T03:54:56.795889Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

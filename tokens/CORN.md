@@ -2,30 +2,30 @@
 token: CORN
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B-
+nw_grade: A
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x44f49ff0da2498bcb1d3dc7c0f999578f67fd8c6" }
 exchanges: [QK, VQ, VK]
 transfer: open
-updated: 2026-11-05T03:56:10.185902Z
+updated: 2026-11-06T03:55:53.016363Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CORN · NW Grade **A+**
+# CORN · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x44f49f…d8c6` (verified_same)
 - Listed on: QK, VQ, VK
 
 ## Grade by exchange
-- QK: A+
+- QK: A
 - VQ: A
-- VK: B-
+- VK: A-
 
 ## Deposit / Withdrawal
 - QK: deposit ✅ / withdraw ✅
@@ -59,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-05T03:56:10.185902Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-06T03:55:53.016363Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

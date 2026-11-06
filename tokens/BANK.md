@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x3aee7602b612de36088f3ffed8c8f10e86ebf2bf" }
 exchanges: [GN, WV, SU, VQ, VK]
-transfer: partial
-updated: 2026-11-05T03:53:31.747875Z
+transfer: open
+updated: 2026-11-06T03:53:28.770905Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BANK · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x3aee76…f2bf` (verified_same)
@@ -30,7 +30,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VK: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -40,15 +40,15 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-05 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: closed:bsc
+- GN: open:bsc
 - WV: open:bsc,bsc
 - SU: open:bsc
 - VQ: open:bsc,bsc
@@ -56,6 +56,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - YZ: open:bsc,bsc
 - VK: open:bsc
 - CJ: open:bsc
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-05T03:53:31.747875Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-06T03:53:28.770905Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

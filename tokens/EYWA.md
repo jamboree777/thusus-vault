@@ -9,8 +9,8 @@ contracts:
   - { chain: ethereum, address: "0x8cb8c4263eb26b2349d74ea2cb1b27bc40709e12" }
 exchanges: [YZ]
 transfer: blocked
-lifecycle: suspended
-updated: 2026-11-05T03:58:10.198019Z
+lifecycle: delisted
+updated: 2026-11-06T03:57:57.646912Z
 source: nightwatch-kg
 ---
 
@@ -38,6 +38,7 @@ Ethereum-network token; NW grade F liquidity; transfer is currently blocked (dep
 - 2026-08-26 · VQ [[arbone]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-17 · YZ [[arbitrum]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-07 · VK [[arbitrum]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -61,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-05T03:58:10.198019Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-06T03:57:57.646912Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

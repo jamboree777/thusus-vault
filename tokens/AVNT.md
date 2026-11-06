@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: base, address: "0x696f9436b67233384889472cd7cd58a6fb5df4f1" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
-transfer: partial
-updated: 2026-11-05T03:53:11.621912Z
+transfer: open
+updated: 2026-11-06T03:53:17.452322Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # AVNT · NW Grade **A+**
 
-Base-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Base-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[base]] `0x696f94…f4f1` (verified_same)
@@ -35,7 +35,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - ZU: A
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -49,15 +49,15 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-10-30 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-19 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-10-18 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-18 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-03 · WV [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · GN [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[base]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: closed:base
+- GN: open:base
 - WV: open:base,base
 - SU: open:base
 - QK: open:base
@@ -68,7 +68,8 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - VK: open:base
 - DL: open:base
 - CJ: open:base
-- ZU: open:base,base
+- ZU: open:base | closed:base
+- Recently reopened (48h): GN, SU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -79,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-05T03:53:11.621912Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-06T03:53:17.452322Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

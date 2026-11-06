@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x031de51f3e8016514bd0963d0b2ab825a591db9a" }
 exchanges: [GN, SU, XD, ZU]
 transfer: partial
-updated: 2026-11-05T03:58:03.645650Z
+updated: 2026-11-06T03:57:50.904337Z
 source: nightwatch-kg
 ---
 
@@ -35,17 +35,17 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ❌
 - CJ: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-06 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-05 · VK [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[arbone]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: closed:arbitrum,arbone,ethereum
@@ -54,7 +54,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: open:arbevm,arbone,ethereum,ethereum
 - ST: open:esp
 - YZ: open:ethereum,ethereum
-- VK: open:arbitrum,ethereum
+- VK: closed:arbitrum,ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
 
@@ -67,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-05T03:58:03.645650Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-06T03:57:50.904337Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

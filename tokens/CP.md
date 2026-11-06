@@ -9,15 +9,15 @@ contracts:
   - { chain: base, address: "0x001aad84c21a5cd4d696c56d44866e9703c43f77" }
   - { chain: internet-computer, address: "ryjl3-tyaaa-aaaaa-aaaba-cai" }
 exchanges: [WV, SU, XD, YZ, DL, ZU]
-transfer: open
-updated: 2026-11-05T03:56:16.773693Z
+transfer: partial
+updated: 2026-11-06T03:56:11.350473Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CP · NW Grade **A+**
 
-Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base/internet-computer-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[base]] `0x001aad…3f77` (verified_same)
@@ -29,7 +29,7 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - XD: A+
 - YZ: B+
 - DL: A+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -39,15 +39,15 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 - DL: deposit ✅ / withdraw ✅
-- ZU: deposit ✅ / withdraw ✅
+- ZU: deposit ❌ / withdraw ❌
 
 ## Events
-- 2026-10-19 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-10-18 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-18 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-04 · WV [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-04 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-11-05 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-05 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-05 · SU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-05 · SU [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:base,base
@@ -57,7 +57,9 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - YZ: open:base,base
 - VK: open:base
 - DL: open:base
-- ZU: open:base
+- ZU: closed:base
+- Suspended now: ZU
+- Recently reopened (48h): SU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-05T03:56:16.773693Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-06T03:56:11.350473Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
