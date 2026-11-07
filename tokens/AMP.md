@@ -10,7 +10,7 @@ contracts:
 exchanges: [GN, WV, SU, XD, VQ, YZ, VK]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-06T03:52:27.234105Z
+updated: 2026-11-07T03:51:46.723454Z
 source: nightwatch-kg
 ---
 
@@ -26,14 +26,14 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: A+
 - WV: B+
-- SU: B+
-- XD: A
+- SU: A
+- XD: A+
 - VQ: A+
 - YZ: B+
 - VK: B+
 
 ## Deposit / Withdrawal
-- GN: deposit ❌ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ❌ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -44,16 +44,16 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-03 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- GN: closed:ethereum
+- GN: open:ethereum
 - WV: closed:ethereum,ethereum
 - SU: open:ethereum
 - XD: open:ethereum
@@ -62,7 +62,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: open:ethereum,ethereum
 - VK: open:ethereum
 - CJ: open:ethereum
-- Suspended now: GN
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:52:27.234105Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:51:46.723454Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

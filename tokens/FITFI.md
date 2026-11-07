@@ -8,7 +8,7 @@ identity: partial
 exchanges: [SU]
 transfer: blocked
 lifecycle: suspended
-updated: 2026-11-06T03:58:06.892541Z
+updated: 2026-11-07T03:58:06.902835Z
 source: nightwatch-kg
 ---
 
@@ -33,12 +33,12 @@ NW grade A- liquidity; transfer is currently blocked (deposit/withdrawal frozen 
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-06 · VK [[avaxc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · VK [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-02 · WV [[avaxc-chain]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[avaxc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-24 · WV [[avaxc-chain]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-23 · WV [[avaxc-chain]] withdraw → open · [[event/dw-resume]]
-- 2026-09-23 · VK [[avaxc]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -49,6 +49,7 @@ NW grade A- liquidity; transfer is currently blocked (deposit/withdrawal frozen 
 - YZ: closed:avaxc,avax c-chain
 - VK: closed:avaxc
 - Suspended now: QK
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:58:06.892541Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:58:06.902835Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

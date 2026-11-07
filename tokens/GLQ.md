@@ -2,30 +2,28 @@
 token: GLQ
 type: token
 tier: free
-nw_grade: C+
+nw_grade: D+
 nw_grade_worst: D+
 identity: native
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
-exchanges: [YZ, VK]
+exchanges: [YZ]
 transfer: blocked
-lifecycle: delisted
-updated: 2026-11-06T03:58:37.851441Z
+updated: 2026-11-07T03:58:46.405836Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# GLQ · NW Grade **C+**
+# GLQ · NW Grade **D+**
 
-Ethereum-network token; NW grade C+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Ethereum-network token; NW grade D+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[ethereum]] `0x9f9c8e…4d24` (native)
-- Listed on: YZ, VK
+- Listed on: YZ
 
 ## Grade by exchange
 - YZ: D+
-- VK: C+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ❌
@@ -40,7 +38,6 @@ Ethereum-network token; NW grade C+ liquidity; transfer is currently blocked (de
 - 2026-09-28 · VK [[glq]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-21 · YZ [[glq]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-16 · VK [[glq]] deposit → open · [[event/dw-resume]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - WV: closed:glq,glq
@@ -66,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:58:37.851441Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:58:46.405836Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

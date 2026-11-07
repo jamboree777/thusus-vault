@@ -10,7 +10,7 @@ contracts:
 exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-06T03:54:04.214579Z
+updated: 2026-11-07T03:53:21.411040Z
 source: nightwatch-kg
 ---
 
@@ -36,7 +36,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ❌ / withdraw ✅
-- QK: deposit ❌ / withdraw ❌
+- QK: deposit ❌ / withdraw ✅
 - XD: deposit ❌ / withdraw ❌
 - VQ: deposit ❌ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
@@ -45,26 +45,26 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-06 · QK [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-26 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-26 · VQ [[eth]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-26 · YZ [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-23 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-23 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: delist scheduled (1794366000) · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: open:ethereum,ethereum | closed:blast,blast
 - SU: closed:blast,ethereum
-- QK: closed:blast
+- QK: closed:blast,ethereum
 - XD: closed:blast
 - VQ: closed:blast,blasteth,ethereum,ethereum
 - ST: open:blast
 - YZ: closed:blast,blast
 - VK: closed:blast,ethereum,none
 - ZU: closed:blastnet,ethereum
-- Suspended now: QK, XD, YZ
+- Suspended now: XD, YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:54:04.214579Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:53:21.411040Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x086f405146ce90135750bbec9a063a8b20a8bffb" }
 exchanges: [GN, WV, SU, QK, XD, VK, DL, ZU]
 transfer: open
-updated: 2026-11-06T03:54:41.430132Z
+updated: 2026-11-07T03:54:03.638256Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - QK: A+
 - XD: A+
 - VK: B+
@@ -47,15 +47,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · GN [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · GN [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-05 · GN [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-05 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-03 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:bsc | closed:base,ethereum
+- GN: open:base,bsc,ethereum
 - WV: open:ethereum,ethereum
 - SU: open:ethereum
 - QK: open:ethereum
@@ -78,7 +78,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:54:41.430132Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:03.638256Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

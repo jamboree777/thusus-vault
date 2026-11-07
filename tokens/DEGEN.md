@@ -7,9 +7,10 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xfee293840d23b0b2de8c55e1cf7a9f01c157767c" }
-exchanges: [QK, XD, VQ, YZ, VK, DL]
+exchanges: [QK, XD, VQ, BU, YZ, VK, DL]
 transfer: partial
-updated: 2026-11-06T03:56:37.953759Z
+lifecycle: suspended
+updated: 2026-11-07T03:56:12.496646Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +21,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xfee293…767c` (verified_same)
-- Listed on: QK, XD, VQ, YZ, VK, DL
+- Listed on: QK, XD, VQ, BU, YZ, VK, DL
 
 ## Grade by exchange
 - QK: A+
@@ -28,32 +29,37 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: A
 - YZ: B+
 - VK: A+
-- DL: A-
+- DL: A
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
+- BU: deposit ❌ / withdraw ❌
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 - DL: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · BU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · BU [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-28 · WV [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-07-12 · WV [[base]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:base
 - QK: open:base
 - XD: open:base
 - VQ: open:base,baseevm
+- BU: closed:base
 - YZ: open:base,base
 - VK: open:base
 - DL: open:base
+- Suspended now: BU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,8 +76,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:56:37.953759Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:56:12.496646Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-11-06T03:52:29.436647Z
+updated: 2026-11-07T03:51:48.921580Z
 source: nightwatch-kg
 ---
 
@@ -49,26 +49,26 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-07 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · VQ [[arbevm]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-05 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · DL [[arbone]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · DL [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · VQ [[arbone]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:arbitrum,arbone | closed:ethereum
+- GN: open:arbitrum,arbone,ethereum
 - WV: open:arbitrum,arbone,ethereum,ethereum
 - SU: open:arbitrum
 - QK: open:arbone | closed:ethereum
-- VQ: open:arbone | closed:arbevm,ethereum,ethereum
+- VQ: open:arbevm,arbone,ethereum | closed:ethereum
 - ST: open:arbianime
 - YZ: open:arbitrum,arbitrum | closed:ethereum,ethereum
 - VK: open:arbitrum,ethereum
 - DL: closed:arbitrum,arbone,ethereum
 - CJ: open:ethereum
 - ZU: open:arbitrum
-- Recently reopened (48h): VQ
+- Recently reopened (48h): GN, VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -88,7 +88,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:52:29.436647Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:51:48.921580Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,21 +2,21 @@
 token: FWOG
 type: token
 tier: free
-nw_grade: A-
+nw_grade: B+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "a8c3xuqscfmylrte3vmtqraq8kgmasius9afnanwpump" }
 exchanges: [YZ, VK]
 transfer: partial
-updated: 2026-11-06T03:58:24.027799Z
+updated: 2026-11-07T03:58:35.018602Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FWOG · NW Grade **A-**
+# FWOG · NW Grade **B+**
 
-Solana-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Solana-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `a8c3xuqs…pump` (verified_same)
@@ -24,7 +24,7 @@ Solana-network token; NW grade A- liquidity; transfer is partial (some venues fr
 
 ## Grade by exchange
 - YZ: B+
-- VK: A-
+- VK: B+
 
 ## Deposit / Withdrawal
 - VQ: deposit ❌ / withdraw ✅
@@ -32,18 +32,19 @@ Solana-network token; NW grade A- liquidity; transfer is partial (some venues fr
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · VK [[solana]] deposit → open · [[event/dw-resume]]
+- 2026-11-06 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-12 · YZ [[sol]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-07 · YZ [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-15 · VK [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-09-15 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-07 · YZ [[sol]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-04 · YZ [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - VQ: closed:solana,solana
 - YZ: closed:solana,solana
 - VK: open:solana
 - Suspended now: YZ
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -62,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:58:24.027799Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:58:35.018602Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

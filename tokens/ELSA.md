@@ -7,20 +7,21 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: base, address: "0x29cc30f9d113b356ce408667aa6433589cecbdca" }
-exchanges: [SU, QK, XD, ZU]
-transfer: open
-updated: 2026-11-06T03:57:39.946848Z
+exchanges: [SU, QK, XD, BU, ZU]
+transfer: partial
+lifecycle: suspended
+updated: 2026-11-07T03:57:36.733322Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ELSA · NW Grade **A+**
 
-Base-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[base]] `0x29cc30…bdca` (verified_same)
-- Listed on: SU, QK, XD, ZU
+- Listed on: SU, QK, XD, BU, ZU
 
 ## Grade by exchange
 - SU: A
@@ -33,6 +34,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
+- BU: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
@@ -40,24 +42,27 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · BU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · BU [[base]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-05 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-05 · SU [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · SU [[base]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - SU: open:base
 - QK: open:base,mantle
 - XD: open:base
 - VQ: open:base,baseevm
+- BU: closed:base
 - ST: open:baseelsa
 - YZ: open:base,base
 - VK: open:base
 - CJ: open:base
-- ZU: open:base | closed:base
-- Recently reopened (48h): SU
+- ZU: open:base,base
+- Suspended now: BU
+- Recently reopened (48h): SU, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,9 +71,16 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **-3.23 USD** · win rate 0% (1 settled)
+
+- 2026-11-06 · carry-A · SU→QK · -3.23 USD · _held_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:57:39.946848Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:36.733322Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

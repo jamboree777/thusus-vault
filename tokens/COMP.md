@@ -7,9 +7,10 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc00e94cb662c3520282e6f5717214004a7f26888" }
-exchanges: [GN, WV, SU, QK, XD, VQ, hyperliquid-perp, YZ, VK, DL, ZU]
+exchanges: [GN, WV, SU, QK, XD, VQ, BU, hyperliquid-perp, YZ, VK, DL, ZU]
 transfer: partial
-updated: 2026-11-06T03:55:43.182213Z
+lifecycle: suspended
+updated: 2026-11-07T03:55:03.775674Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +21,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0xc00e94…6888` (verified_same)
-- Listed on: GN, WV, SU, QK, XD, VQ, [[hyperliquid-perp]], YZ, VK, DL, ZU
+- Listed on: GN, WV, SU, QK, XD, VQ, BU, [[hyperliquid-perp]], YZ, VK, DL, ZU
 
 ## Grade by exchange
 - GN: A+
@@ -42,6 +43,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
+- BU: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
@@ -50,12 +52,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · BU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · BU [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - GN: closed:bsc,ethereum
@@ -64,12 +67,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: open:ethereum
 - XD: open:ethereum
 - VQ: open:ethereum,ethereum
+- BU: closed:ethereum
 - ST: open:comp
 - YZ: open:ethereum,ethereum,kcc,kcc
 - VK: open:ethereum
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
+- Suspended now: BU
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -79,8 +85,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:55:43.182213Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:55:03.775674Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,13 +3,13 @@ token: CHIP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: A+
 identity: verified_same
 contracts:
   - { chain: arbitrum-one, address: "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e" }
 exchanges: [GN, SU, QK, XD, hyperliquid-perp, DL, ZU]
 transfer: open
-updated: 2026-11-06T03:55:26.298021Z
+updated: 2026-11-07T03:54:47.604978Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 
 ## Grade by exchange
 - GN: A+
-- SU: A
+- SU: A+
 - QK: A+
 - XD: A+
 - [[hyperliquid-perp]]: A+
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:55:26.298021Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:47.604978Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

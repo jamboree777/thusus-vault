@@ -3,14 +3,15 @@ token: BRETT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x532f27101965dd16442e59d40670faf5ebb142e4" }
   - { chain: binance-smart-chain, address: "0xa7440029eca41deabd8775ef1d6086b37d4df8d6" }
 exchanges: [WV, SU, QK, VQ, YZ]
 transfer: partial
-updated: 2026-11-06T03:54:39.349007Z
+lifecycle: delisted
+updated: 2026-11-07T03:54:01.395887Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +26,7 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is parti
 - Listed on: WV, SU, QK, VQ, YZ
 
 ## Grade by exchange
-- WV: A+
+- WV: B+
 - SU: A+
 - QK: A+
 - VQ: A+
@@ -41,12 +42,13 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is parti
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-05 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-05 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-05 · SU [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · SU [[base]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - WV: closed:base,base
@@ -55,8 +57,8 @@ Base/binance-smart-chain-network token; NW grade A+ liquidity; transfer is parti
 - VQ: open:base,baseevm
 - ST: open:brett
 - YZ: open:base,base
-- ZU: open:base | closed:base
-- Recently reopened (48h): SU
+- ZU: open:base,base
+- Recently reopened (48h): SU, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,8 +75,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:54:39.349007Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:01.395887Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

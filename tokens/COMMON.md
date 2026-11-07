@@ -9,8 +9,8 @@ contracts:
   - { chain: binance-smart-chain, address: "0xa43ca4e5abdf9917eade63c2837eeee321897dad" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-lifecycle: delisted
-updated: 2026-11-06T03:55:40.184582Z
+lifecycle: suspended
+updated: 2026-11-07T03:55:01.593702Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: F
+- VQ: D
 - YZ: F
 - VK: C-
 
@@ -32,7 +32,7 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 - WV: deposit ❌ / withdraw ✅
 - QK: deposit ❌ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
-- YZ: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
@@ -42,14 +42,13 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 - 2026-10-07 · QK [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-07 · QK [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:base,base
 - QK: closed:base,solana
 - VQ: open:base,baseevm
-- YZ: open:base | closed:base
+- YZ: closed:base,base
 - VK: closed:base
 - Recently reopened (48h): YZ
 
@@ -71,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:55:40.184582Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:55:01.593702Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

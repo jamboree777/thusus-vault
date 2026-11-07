@@ -2,30 +2,30 @@
 token: BRISE
 type: token
 tier: free
-nw_grade: A-
+nw_grade: A
 nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf2b2f7b47715256ce4ea43363a867fdce9353e3a" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-11-06T03:54:43.593422Z
+updated: 2026-11-07T03:54:05.796393Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BRISE · NW Grade **A-**
+# BRISE · NW Grade **A**
 
-Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xf2b2f7…3e3a` (verified_same)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: A-
+- VQ: A
 - YZ: A-
-- VK: A-
+- VK: A
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -65,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:54:43.593422Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:05.796393Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
   - { chain: sui, address: "0x99cc0e7834326ec6ac571421e9b8e042e9eb63062771c77ac592bd194180b5da::deagent_token::deagent_token" }
 exchanges: [WV, SU, VQ, VK]
 transfer: open
-updated: 2026-11-06T03:52:07.093734Z
+updated: 2026-11-07T03:51:26.823387Z
 source: nightwatch-kg
 ---
 
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:52:07.093734Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:51:26.823387Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

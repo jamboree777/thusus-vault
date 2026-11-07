@@ -3,13 +3,13 @@ token: COQ
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: D-
+nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: avalanche, address: "0x420fca0121dc28039145009570975747295f2329" }
 exchanges: [VQ, YZ, VK]
 transfer: partial
-updated: 2026-11-06T03:55:48.034410Z
+updated: 2026-11-07T03:55:08.219192Z
 source: nightwatch-kg
 ---
 
@@ -23,9 +23,9 @@ Avalanche-network token; NW grade A liquidity; transfer is partial (some venues 
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: B+
+- VQ: B
 - YZ: A
-- VK: D-
+- VK: F
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -35,12 +35,12 @@ Avalanche-network token; NW grade A liquidity; transfer is partial (some venues 
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · VK [[avaxc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · VK [[avaxc]] deposit → open · [[event/dw-resume]]
+- 2026-11-06 · VK [[avaxc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · VK [[avaxc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-07 · QK [[avaxc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[avaxc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-02 · WV [[avaxc-chain]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · VK [[avaxc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · VK [[avaxc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-24 · WV [[avaxc-chain]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:avaxc-chain,avaxc-chain
@@ -48,6 +48,7 @@ Avalanche-network token; NW grade A liquidity; transfer is partial (some venues 
 - VQ: open:avaxc,avax_c
 - YZ: open:avaxc,avax c-chain
 - VK: open:avaxc
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -65,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:55:48.034410Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:55:08.219192Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

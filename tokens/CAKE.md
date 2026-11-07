@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x152649ea73beab28c5b49b26eb48f7ead6d4c898" }
 exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK]
 transfer: open
-updated: 2026-11-06T03:55:01.232678Z
+updated: 2026-11-07T03:54:23.403957Z
 source: nightwatch-kg
 ---
 
@@ -45,15 +45,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-04 · GN [[aptos]] deposit → open · [[event/dw-resume]]
 - 2026-11-04 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-04 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-03 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-02 · GN [[aptos]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: open:bsc | closed:aptos,ethereum
+- GN: open:bsc,ethereum | closed:aptos
 - WV: open:bsc,bsc
 - SU: open:bsc
 - QK: open:bsc
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:55:01.232678Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:23.403957Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -7,9 +7,10 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x42bbfa2e77757c645eeaad1655e0911a7553efbc" }
-exchanges: [SU, QK, XD, VQ, YZ, VK]
+exchanges: [SU, QK, XD, VQ, BU, YZ, VK]
 transfer: partial
-updated: 2026-11-06T03:54:17.394160Z
+lifecycle: suspended
+updated: 2026-11-07T03:53:35.898335Z
 source: nightwatch-kg
 ---
 
@@ -20,12 +21,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x42bbfa…efbc` (verified_same)
-- Listed on: SU, QK, XD, VQ, YZ, VK
+- Listed on: SU, QK, XD, VQ, BU, YZ, VK
 
 ## Grade by exchange
 - SU: A+
 - QK: A+
-- XD: A
+- XD: A-
 - VQ: A
 - YZ: A
 - VK: B+
@@ -35,28 +36,32 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
+- BU: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ❌ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-06 · BU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · BU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-18 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · YZ [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-06 · YZ [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-09-30 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - SU: open:ethereum
 - QK: open:ethereum
 - XD: open:ethereum
 - VQ: open:bobaevm,bobaevm,ethereum,ethereum
+- BU: closed:ethereum
 - ST: open:boba
 - YZ: closed:boba,boba,ethereum,ethereum
 - VK: open:ethereum
 - ZU: closed:ethereum
+- Suspended now: BU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,8 +71,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:54:17.394160Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:53:35.898335Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

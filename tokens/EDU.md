@@ -7,9 +7,10 @@ nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x26aad156ba8efa501b32b42ffcdc8413f90e9c99" }
-exchanges: [GN, SU, VQ, YZ, VK]
+exchanges: [GN, SU, VQ, BU, YZ, VK]
 transfer: partial
-updated: 2026-11-06T03:57:24.804880Z
+lifecycle: suspended
+updated: 2026-11-07T03:57:14.391520Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +21,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x26aad1…9c99` (verified_same)
-- Listed on: GN, SU, VQ, YZ, VK
+- Listed on: GN, SU, VQ, BU, YZ, VK
 
 ## Grade by exchange
 - GN: A+
@@ -34,26 +35,30 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - WV: deposit ❌ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
+- BU: deposit ❌ / withdraw ❌
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · BU [[open campus]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · BU [[open campus]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-03 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - GN: open:bsc
 - WV: closed:bsc,bsc
 - SU: open:bsc
 - VQ: open:bsc,bsc
+- BU: closed:open campus
 - YZ: open:bsc,bsc
 - VK: open:bsc
 - CJ: open:bsc
+- Suspended now: BU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -63,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-5 shadow trades · realized net **+5.04 USD** · win rate 60% (5 settled)
+4 shadow trades · realized net **+5.25 USD** · win rate 75% (4 settled)
 
 - 2026-10-20 · carry-A · SU→GN · +3.85 USD · _held_
 - 2026-10-20 · carry-A · SU→GN · +1.82 USD · _held_
@@ -72,8 +77,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:57:24.804880Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:14.391520Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

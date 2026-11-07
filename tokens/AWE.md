@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0x1b4617734c43f6159f3a70b7e06d883647512778" }
 exchanges: [GN, WV, SU, XD, VQ, YZ, VK, ZU]
 transfer: open
-updated: 2026-11-06T03:53:19.546438Z
+updated: 2026-11-07T03:52:34.332486Z
 source: nightwatch-kg
 ---
 
@@ -45,12 +45,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-05 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · GN [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:base
@@ -62,8 +62,8 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - YZ: open:base,base
 - VK: open:base
 - CJ: open:base
-- ZU: open:base | closed:base
-- Recently reopened (48h): GN, SU
+- ZU: open:base,base
+- Recently reopened (48h): GN, SU, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:53:19.546438Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:52:34.332486Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

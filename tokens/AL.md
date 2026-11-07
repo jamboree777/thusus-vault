@@ -2,29 +2,29 @@
 token: AL
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: B+
+nw_grade: A+
+nw_grade_worst: A+
 identity: partial
 contracts:
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [WV, SU]
 transfer: blocked
 lifecycle: delisted
-updated: 2026-11-06T03:52:15.890981Z
+updated: 2026-11-07T03:51:35.585893Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AL · NW Grade **B+**
+# AL · NW Grade **A+**
 
-Solana-network token; NW grade B+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
+Solana-network token; NW grade A+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
 - Contract: [[solana]] `2u1tszse…jgwh` (partial)
 - Listed on: WV, SU
 
 ## Grade by exchange
-- SU: B+
+- SU: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -39,7 +39,6 @@ Solana-network token; NW grade B+ liquidity; transfer is currently blocked (depo
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: **DELISTED** · [[event/delisting]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:ethereum,ethereum
@@ -55,7 +54,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:52:15.890981Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:51:35.585893Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -7,21 +7,21 @@ nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b" }
-exchanges: [WV, SU, XD, VQ, YZ, VK, DL, ZU]
-transfer: open
+exchanges: [WV, SU, XD, VQ, BU, YZ, VK, DL, ZU]
+transfer: partial
 lifecycle: delisted
-updated: 2026-11-06T03:56:15.682579Z
+updated: 2026-11-07T03:55:45.635630Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CRO · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xa0b73e…450b` (verified_same)
-- Listed on: WV, SU, XD, VQ, YZ, VK, DL, ZU
+- Listed on: WV, SU, XD, VQ, BU, YZ, VK, DL, ZU
 
 ## Grade by exchange
 - WV: D+
@@ -38,29 +38,33 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - SU: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
+- BU: deposit ❌ / withdraw ❌
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 - DL: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-06 · BU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-06 · BU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-26 · VK [[crc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-26 · VK [[crc20]] deposit → open · [[event/dw-resume]]
 - 2026-10-22 · VK [[crc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-22 · VK [[crc20]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-19 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-19 · ZU [[cro]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: **DELISTED** · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:cronos,cronoschain,ethereum,ethereum
 - SU: open:cro
 - XD: open:ethereum
 - VQ: open:cro,cro,ethereum,ethereum
+- BU: closed:ethereum
 - YZ: open:ethereum,ethereum,kcc,kcc
 - VK: open:crc20,cro,cronos | closed:ethereum
 - DL: open:cronos,cronos pos
 - ZU: open:cro
+- Suspended now: BU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:56:15.682579Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:55:45.635630Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

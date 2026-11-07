@@ -2,53 +2,49 @@
 token: CESS
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: F
+nw_grade: A
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c78d4605c2972e5f989de9019de1fb00c5d3462" }
-exchanges: [WV, VQ, YZ, VK]
+exchanges: [WV, VQ, VK]
 transfer: partial
-lifecycle: delisted
-updated: 2026-11-06T03:55:18.950876Z
+updated: 2026-11-07T03:54:40.906462Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CESS · NW Grade **A-**
+# CESS · NW Grade **A**
 
-Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x0c78d4…3462` (verified_same)
-- Listed on: WV, VQ, YZ, VK
+- Listed on: WV, VQ, VK
 
 ## Grade by exchange
 - WV: A-
-- VQ: B
-- YZ: F
+- VQ: A
 - VK: C+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
-- YZ: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-06 · YZ [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-03 · YZ [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-09-28 · WV [[bep20]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:bsc,bsc
 - VQ: open:bsc,bsc
-- YZ: open:bsc | closed:bsc
+- YZ: closed:bsc,bsc
 - VK: closed:bsc
 
 ## Backers & Project
@@ -67,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-06T03:55:18.950876Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:40.906462Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
