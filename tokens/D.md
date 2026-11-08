@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x33b481cbbf3c24f2b3184ee7cb02daad1c4f49a8" }
   - { chain: ethereum, address: "0xdac17f958d2ee523a2206206994597c13d831ec7" }
-exchanges: [GN, WV, SU]
+exchanges: [BNCE, BGET, BTHM]
 transfer: blocked
-updated: 2026-11-07T03:56:05.897725Z
+updated: 2026-11-08T03:56:02.952318Z
 source: nightwatch-kg
 ---
 
@@ -47,10 +47,10 @@ Ethereum-network token; NW grade A- liquidity; transfer is currently blocked (de
 
 ## Transfer map
 - GN: closed:bsc,ethereum
-- WV: closed:bsc,bsc
+- WV: closed:bsc
 - SU: closed:bsc
-- VQ: closed:bsc,bsc,ethereum,ethereum
-- YZ: closed:bsc,bsc,ethereum,ethereum
+- VQ: closed:bsc,ethereum
+- YZ: closed:bsc,ethereum
 - VK: closed:bsc,ethereum
 - Suspended now: GN
 
@@ -72,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:56:05.897725Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:02.952318Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

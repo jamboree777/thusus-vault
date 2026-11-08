@@ -3,13 +3,13 @@ token: COQ
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: F
+nw_grade_worst: B-
 identity: partial
 contracts:
   - { chain: avalanche, address: "0x420fca0121dc28039145009570975747295f2329" }
-exchanges: [VQ, YZ, VK]
+exchanges: [GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-07T03:55:08.219192Z
+updated: 2026-11-08T03:55:14.306742Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Avalanche-network token; NW grade A liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - VQ: B
 - YZ: A
-- VK: F
+- VK: B-
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -43,7 +43,7 @@ Avalanche-network token; NW grade A liquidity; transfer is partial (some venues 
 - 2026-10-06 · QK [[avaxc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: closed:avaxc-chain,avaxc-chain
+- WV: closed:avaxc-chain
 - QK: closed:avaxc
 - VQ: open:avaxc,avax_c
 - YZ: open:avaxc,avax c-chain
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:55:08.219192Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:55:14.306742Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

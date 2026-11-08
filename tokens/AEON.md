@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x277add739c6e0477616948357af9e79fe1ec9b80" }
-exchanges: [SU, YZ, VK, DL]
+exchanges: [BTHM, KUCN, MEXC, OKX]
 transfer: open
-updated: 2026-11-07T03:51:16.180684Z
+updated: 2026-11-08T03:51:29.885819Z
 source: nightwatch-kg
 ---
 
@@ -46,10 +46,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - 2026-09-30 · SU [[bsc]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:bsc,bsc
+- WV: open:bsc
 - SU: open:bsc
-- VQ: open:bsc,bsc
-- YZ: open:bsc,bsc
+- VQ: open:bsc
+- YZ: open:bsc
 - VK: open:bsc | closed:base
 - DL: open:bsc
 - CJ: open:bsc
@@ -72,7 +72,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:51:16.180684Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:51:29.885819Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

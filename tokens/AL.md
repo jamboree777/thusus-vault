@@ -7,10 +7,9 @@ nw_grade_worst: A+
 identity: partial
 contracts:
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
-exchanges: [WV, SU]
+exchanges: [BTHM]
 transfer: blocked
-lifecycle: delisted
-updated: 2026-11-07T03:51:35.585893Z
+updated: 2026-11-08T03:51:46.433128Z
 source: nightwatch-kg
 ---
 
@@ -21,7 +20,7 @@ Solana-network token; NW grade A+ liquidity; transfer is currently blocked (depo
 
 ## Identity
 - Contract: [[solana]] `2u1tszse…jgwh` (partial)
-- Listed on: WV, SU
+- Listed on: SU
 
 ## Grade by exchange
 - SU: A+
@@ -38,10 +37,9 @@ Solana-network token; NW grade A+ liquidity; transfer is currently blocked (depo
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
-- WV: closed:ethereum,ethereum
+- WV: closed:ethereum
 - SU: closed:ethereum
 - VK: closed:ethereum
 
@@ -53,8 +51,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:51:35.585893Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:51:46.433128Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -7,9 +7,9 @@ nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::dmc" }
-exchanges: [WV, VQ, YZ, VK]
+exchanges: [BGET, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-07T03:56:25.733330Z
+updated: 2026-11-08T03:56:20.686390Z
 source: nightwatch-kg
 ---
 
@@ -43,9 +43,9 @@ Sui-network token; NW grade B+ liquidity; transfer is partial (some venues froze
 - 2026-09-28 · WV [[sui]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:sui,sui
-- VQ: open:sui,sui | closed:suinew,suinew
-- YZ: open:sui,sui
+- WV: open:sui
+- VQ: open:sui | closed:suinew
+- YZ: open:sui
 - VK: closed:sui
 
 ## Backers & Project
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:56:25.733330Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:20.686390Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x235b6fe22b4642ada16d311855c49ce7de260841" }
   - { chain: ethereum, address: "0x24a3d725c37a8d1a66eb87f0e5d07fe67c120035" }
-exchanges: [GN, WV, SU, VQ, YZ, VK]
+exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-07T03:57:08.692476Z
+updated: 2026-11-08T03:56:50.752126Z
 source: nightwatch-kg
 ---
 
@@ -52,10 +52,10 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is p
 
 ## Transfer map
 - GN: closed:bsc,ethereum
-- WV: open:ethereum,ethereum
+- WV: open:ethereum
 - SU: open:ethereum
-- VQ: open:bsc,bsc,ethereum,ethereum
-- YZ: open:ethereum,ethereum
+- VQ: open:bsc,ethereum
+- YZ: open:ethereum
 - VK: open:bsc | closed:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:08.692476Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:50.752126Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

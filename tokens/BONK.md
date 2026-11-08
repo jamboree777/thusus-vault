@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x1151cb3d861920e07a38e03eead12c32178567f6" }
   - { chain: solana, address: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263" }
-exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
+exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-07T03:53:38.106667Z
+updated: 2026-11-08T03:53:48.522473Z
 source: nightwatch-kg
 ---
 
@@ -60,13 +60,13 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 
 ## Transfer map
 - GN: open:bsc,solana
-- WV: open:solana,solana
+- WV: open:solana
 - SU: open:solana
 - QK: open:solana
 - XD: open:solana
-- VQ: open:solana,solana
+- VQ: open:solana
 - ST: open:bonk
-- YZ: open:solana,solana
+- YZ: open:solana
 - VK: open:solana
 - DL: open:solana
 - CJ: open:solana
@@ -82,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:53:38.106667Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:53:48.522473Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

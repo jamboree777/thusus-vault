@@ -5,10 +5,10 @@ tier: free
 nw_grade: A-
 nw_grade_worst: A-
 identity: partial
-exchanges: [SU]
+exchanges: [BTHM]
 transfer: blocked
 lifecycle: suspended
-updated: 2026-11-07T03:58:06.902835Z
+updated: 2026-11-08T03:57:41.890429Z
 source: nightwatch-kg
 ---
 
@@ -42,10 +42,10 @@ NW grade A- liquidity; transfer is currently blocked (deposit/withdrawal frozen 
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- WV: closed:avaxc-chain,avaxc-chain
+- WV: closed:avaxc-chain
 - SU: closed:avax
 - QK: closed:avaxc,step
-- VQ: closed:avaxc,avax_c,fitfi,fitfi
+- VQ: closed:avaxc,avax_c,fitfi
 - YZ: closed:avaxc,avax c-chain
 - VK: closed:avaxc
 - Suspended now: QK
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:58:06.902835Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:41.890429Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

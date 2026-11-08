@@ -7,10 +7,10 @@ nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x6894cde390a3f51155ea41ed24a33a4827d3063d" }
-exchanges: [QK, VQ, hyperliquid, YZ, VK, DL]
+exchanges: [BYBT, GATE, hyperliquid, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-07T03:54:33.627608Z
+updated: 2026-11-08T03:54:42.687231Z
 source: nightwatch-kg
 ---
 
@@ -49,8 +49,8 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Transfer map
 - QK: open:bsc
-- VQ: closed:ethereum,ethereum
-- YZ: open:bsc,bsc
+- VQ: closed:ethereum
+- YZ: open:bsc
 - VK: open:bsc
 - DL: open:bsc
 - Suspended now: VQ
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:33.627608Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:54:42.687231Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

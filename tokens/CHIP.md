@@ -3,13 +3,13 @@ token: CHIP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: arbitrum-one, address: "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e" }
-exchanges: [GN, SU, QK, XD, hyperliquid-perp, DL, ZU]
+exchanges: [BNCE, BTHM, BYBT, CB, hyperliquid-perp, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-07T03:54:47.604978Z
+updated: 2026-11-08T03:54:58.951320Z
 source: nightwatch-kg
 ---
 
@@ -20,7 +20,7 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 
 ## Identity
 - Contract: [[arbitrum-one]] `0x0c1c1c…1f6e` (verified_same)
-- Listed on: GN, SU, QK, XD, [[hyperliquid-perp]], DL, ZU
+- Listed on: GN, SU, QK, XD, [[hyperliquid-perp]], VK, DL, ZU
 
 ## Grade by exchange
 - GN: A+
@@ -28,6 +28,7 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 - QK: A+
 - XD: A+
 - [[hyperliquid-perp]]: A+
+- VK: B+
 - DL: A+
 - ZU: A+
 
@@ -59,7 +60,7 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 - XD: open:base
 - VQ: open:arbevm,arbone
 - ST: open:chip
-- YZ: open:arbitrum,arbitrum
+- YZ: open:arbitrum
 - VK: open:arbitrum
 - DL: open:arbitrum,arbone
 - CJ: open:arbitrum
@@ -81,7 +82,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:47.604978Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:54:58.951320Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

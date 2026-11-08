@@ -5,7 +5,7 @@ tier: free
 nw_grade: null
 identity: partial
 transfer: blocked
-updated: 2026-11-07T03:57:56.148909Z
+updated: 2026-11-08T03:57:32.406546Z
 source: nightwatch-kg
 ---
 
@@ -32,7 +32,7 @@ Transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Transfer map
 - VQ: closed:arbevm,arbone
-- YZ: closed:arbitrum,arbitrum
+- YZ: closed:arbitrum
 - VK: closed:arbitrum
 
 ## Backers & Project
@@ -51,7 +51,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · dep/wd status · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:56.148909Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:32.406546Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

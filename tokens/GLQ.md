@@ -7,9 +7,9 @@ nw_grade_worst: D+
 identity: native
 contracts:
   - { chain: ethereum, address: "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24" }
-exchanges: [YZ]
+exchanges: [KUCN]
 transfer: blocked
-updated: 2026-11-07T03:58:46.405836Z
+updated: 2026-11-08T03:58:10.601111Z
 source: nightwatch-kg
 ---
 
@@ -40,9 +40,9 @@ Ethereum-network token; NW grade D+ liquidity; transfer is currently blocked (de
 - 2026-09-16 · VK [[glq]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- WV: closed:glq,glq
-- VQ: closed:ethereum,ethereum,glq,glq
-- YZ: closed:glq,glq
+- WV: closed:glq
+- VQ: closed:ethereum,glq
+- YZ: closed:glq
 - VK: closed:glq
 - Suspended now: WV, YZ
 
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:58:46.405836Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:58:10.601111Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

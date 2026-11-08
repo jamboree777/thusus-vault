@@ -2,28 +2,28 @@
 token: FORTH
 type: token
 tier: free
-nw_grade: C+
+nw_grade: A
 nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x77fba179c79de5b7653f68b5039af940ada60ce0" }
-exchanges: [XD, YZ]
+exchanges: [CB, KUCN]
 transfer: partial
-updated: 2026-11-07T03:58:13.503551Z
+updated: 2026-11-08T03:57:48.409163Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FORTH · NW Grade **C+**
+# FORTH · NW Grade **A**
 
-Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x77fba1…0ce0` (verified_same)
 - Listed on: XD, YZ
 
 ## Grade by exchange
-- XD: C+
+- XD: A
 - YZ: D
 
 ## Deposit / Withdrawal
@@ -42,8 +42,8 @@ Ethereum-network token; NW grade C+ liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - XD: open:ethereum
-- VQ: closed:ethereum,ethereum
-- YZ: closed:ethereum,ethereum
+- VQ: closed:ethereum
+- YZ: closed:ethereum
 - VK: closed:ethereum
 
 ## Backers & Project
@@ -53,9 +53,17 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+2 shadow trades · realized net **-3.63 USD** · win rate 0% (2 settled)
+
+- 2026-07-26 · livescan · YZ→VK · -1.84 USD · _mixed_
+- 2026-07-20 · livescan · VK→YZ · -1.79 USD · _mixed_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:58:13.503551Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:48.409163Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

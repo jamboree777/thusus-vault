@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x9c7beba8f6ef6643abd725e45a4e8387ef260649" }
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
-exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
+exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-07T03:58:37.122815Z
+updated: 2026-11-08T03:57:57.918742Z
 source: nightwatch-kg
 ---
 
@@ -60,13 +60,13 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 
 ## Transfer map
 - GN: open:bsc,ethereum
-- WV: open:ethereum,ethereum | closed:gravity,gravity
+- WV: open:ethereum | closed:gravity
 - SU: open:ethereum | closed:g
 - QK: open:bsc,ethereum
 - XD: open:ethereum
-- VQ: open:ethereum,ethereum,g | closed:g
+- VQ: open:ethereum,g
 - ST: open:g
-- YZ: open:ethereum,ethereum | closed:gravity,gravity
+- YZ: open:ethereum | closed:gravity
 - VK: open:ethereum | closed:gravity
 - DL: open:ethereum | closed:gravity alpha mainnet
 - CJ: open:ethereum
@@ -82,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:58:37.122815Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:57.918742Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

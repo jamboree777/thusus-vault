@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
-exchanges: [GN, WV, SU, VQ, YZ, VK, DL]
+exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC, OKX]
 transfer: partial
-updated: 2026-11-07T03:51:09.700220Z
+updated: 2026-11-08T03:51:23.244596Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A-
+- SU: A
 - VQ: A-
 - YZ: B+
 - VK: A+
@@ -52,11 +52,11 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Transfer map
 - GN: closed:bsc,endurance
-- WV: open:bsc,bsc | closed:esc,esc
+- WV: open:bsc | closed:esc
 - SU: open:bsc
-- VQ: open:bsc,bsc
+- VQ: open:bsc
 - ST: open:ace
-- YZ: open:bsc,bsc | closed:ethereum
+- YZ: open:bsc | closed:ethereum
 - VK: open:bsc
 - DL: open:endurance smart chain
 - CJ: open:bsc
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:51:09.700220Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:51:23.244596Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

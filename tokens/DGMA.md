@@ -7,9 +7,9 @@ nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x4bdfa27ce379d7601da1d15bd637a1cf895ff8fb" }
-exchanges: [VQ, VK]
+exchanges: [GATE, MEXC]
 transfer: open
-updated: 2026-11-07T03:56:23.557426Z
+updated: 2026-11-08T03:56:18.325157Z
 source: nightwatch-kg
 ---
 
@@ -31,7 +31,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - VK: deposit ✅ / withdraw ✅
 
 ## Transfer map
-- VQ: open:ethereum,ethereum
+- VQ: open:ethereum
 - VK: open:ethereum
 
 ## Backers & Project
@@ -50,7 +50,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:56:23.557426Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:18.325157Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

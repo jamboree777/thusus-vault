@@ -8,9 +8,9 @@ identity: partial
 contracts:
   - { chain: bitlayer, address: "0x0e4cf4affdb72b39ea91fa726d291781cbd020bf" }
   - { chain: ethereum, address: "0x6c76de483f1752ac8473e2b4983a873991e70da7" }
-exchanges: [WV, SU, VQ, YZ, VK]
+exchanges: [BGET, BTHM, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-07T03:54:12.411743Z
+updated: 2026-11-08T03:54:22.090201Z
 source: nightwatch-kg
 ---
 
@@ -48,10 +48,10 @@ Bitlayer/ethereum-network token; NW grade A+ liquidity; transfer is partial (som
 - 2026-09-30 · SU [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- WV: closed:ethereum,ethereum
+- WV: closed:ethereum
 - SU: open:ethereum
-- VQ: open:bsc,bsc,btrbtc,btrbtc
-- YZ: open:bitlayer,bitlayer
+- VQ: open:bsc,btrbtc
+- YZ: open:bitlayer
 - VK: open:ethereum | closed:bitlayer,bsc,none
 - CJ: open:bsc
 
@@ -64,7 +64,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:12.411743Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:54:22.090201Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

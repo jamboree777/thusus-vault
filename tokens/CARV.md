@@ -8,16 +8,16 @@ identity: verified_same
 contracts:
   - { chain: base, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
   - { chain: ethereum, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
-exchanges: [WV, SU, QK, VQ, YZ, VK, ZU]
-transfer: open
-updated: 2026-11-07T03:54:31.270791Z
+exchanges: [BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
+transfer: partial
+updated: 2026-11-08T03:54:40.488218Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CARV · NW Grade **A+**
 
-Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[base]] `0xc08cd2…aa8c` (verified_same)
@@ -26,11 +26,11 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 
 ## Grade by exchange
 - WV: B
-- SU: A
+- SU: A+
 - QK: A+
 - VQ: A
-- YZ: A
-- VK: B+
+- YZ: A+
+- VK: A
 - ZU: A+
 
 ## Deposit / Withdrawal
@@ -40,29 +40,29 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ❌
 - CJ: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-07 · VK [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-05 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:base,base
+- WV: open:base
 - SU: open:base
 - QK: open:base
 - VQ: open:base,baseevm
 - ST: open:basecarv
-- YZ: open:base,base | closed:arbitrum,arbitrum
-- VK: open:base
+- YZ: open:base | closed:arbitrum
+- VK: closed:base
 - CJ: open:base
-- ZU: open:base,base
-- Recently reopened (48h): SU, ZU
+- ZU: open:base
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:54:31.270791Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:54:40.488218Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,13 +3,13 @@ token: CTSI
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d" }
-exchanges: [GN, WV, SU, XD, VQ, YZ]
+exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN]
 transfer: partial
-updated: 2026-11-07T03:55:50.113410Z
+updated: 2026-11-08T03:55:38.417804Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - SU: A
 - XD: A+
 - VQ: A+
-- YZ: A-
+- YZ: A
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ❌
@@ -50,12 +50,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - GN: closed:bsc,ethereum
-- WV: open:ethereum,ethereum
+- WV: open:ethereum
 - SU: open:ethereum
 - XD: open:ethereum
-- VQ: open:ethereum,ethereum
+- VQ: open:ethereum
 - ST: open:ctsi
-- YZ: open:ethereum,ethereum | closed:bsc,bsc
+- YZ: open:ethereum | closed:bsc
 - ZU: open:ethereum
 - Recently reopened (48h): GN
 
@@ -68,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:55:50.113410Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:55:38.417804Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

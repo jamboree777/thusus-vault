@@ -8,10 +8,10 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x43415eb6ff9db7e26a15b704e7a3edce97d31c4e" }
   - { chain: ethereum, address: "0x6055dc6ff1077eebe5e6d2ba1a1f53d7ef8430de" }
-exchanges: [SU, QK, VQ, YZ, VK]
+exchanges: [BTHM, BYBT, GATE, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-07T03:57:43.294018Z
+updated: 2026-11-08T03:57:21.396256Z
 source: nightwatch-kg
 ---
 
@@ -23,13 +23,12 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 ## Identity
 - Contract: [[ethereum]] `0x43415e…1c4e` (verified_same)
 - Contract: [[ethereum]] `0x6055dc…30de` (verified_same)
-- Listed on: SU, QK, VQ, YZ, VK
+- Listed on: SU, QK, VQ, VK
 
 ## Grade by exchange
 - SU: B+
 - QK: F
-- VQ: D+
-- YZ: D+
+- VQ: F
 - VK: F
 
 ## Deposit / Withdrawal
@@ -50,11 +49,11 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- WV: closed:eclipse,eclipse
+- WV: closed:eclipse
 - SU: closed:es
 - QK: closed:eclipse,ethereum,solana
-- VQ: open:ethereum,ethereum
-- YZ: closed:eclipse,eclipse,ethereum,ethereum
+- VQ: open:ethereum
+- YZ: closed:eclipse,ethereum
 - VK: closed:eclipse
 - Suspended now: WV
 
@@ -76,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:43.294018Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:21.396256Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

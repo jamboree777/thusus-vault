@@ -7,9 +7,9 @@ nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: base, address: "0xed6e000def95780fb89734c07ee2ce9f6dcaf110" }
-exchanges: [WV, SU, QK, XD, VQ, VK, DL, ZU]
+exchanges: [BGET, BTHM, BYBT, CB, GATE, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-07T03:57:11.889232Z
+updated: 2026-11-08T03:56:53.404629Z
 source: nightwatch-kg
 ---
 
@@ -24,13 +24,13 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 
 ## Grade by exchange
 - WV: A+
-- SU: A
+- SU: B+
 - QK: A+
 - XD: A+
 - VQ: A-
 - VK: C
 - DL: A+
-- ZU: A
+- ZU: B+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -54,18 +54,18 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - 2026-11-05 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:ethereum,ethereum
+- WV: open:ethereum
 - SU: open:base
 - QK: open:ethereum
 - XD: open:base
 - VQ: open:base,baseevm
 - ST: open:edge
-- YZ: open:ethereum,ethereum
+- YZ: open:ethereum
 - VK: open:ethereum
 - DL: open:ethereum
 - CJ: open:base
-- ZU: open:base,base
-- Recently reopened (48h): SU, ZU
+- ZU: open:base
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,7 +75,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-12 shadow trades · realized net **+23.57 USD** · win rate 83.3% (12 settled)
+11 shadow trades · realized net **+23.07 USD** · win rate 81.8% (11 settled)
 
 - 2026-11-06 · carry-A · SU→VQ · +1.75 USD · _held_
 - 2026-11-05 · carry-A · SU→VQ · +13.30 USD · _flipped_
@@ -85,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:11.889232Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:53.404629Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

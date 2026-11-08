@@ -7,10 +7,10 @@ nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
-exchanges: [WV, SU, QK, XD, VQ, YZ, VK, ZU]
+exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-07T03:53:21.411040Z
+updated: 2026-11-08T03:53:31.941549Z
 source: nightwatch-kg
 ---
 
@@ -55,13 +55,13 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- WV: open:ethereum,ethereum | closed:blast,blast
+- WV: open:ethereum | closed:blast
 - SU: closed:blast,ethereum
 - QK: closed:blast,ethereum
 - XD: closed:blast
-- VQ: closed:blast,blasteth,ethereum,ethereum
+- VQ: closed:blast,blasteth,ethereum
 - ST: open:blast
-- YZ: closed:blast,blast
+- YZ: closed:blast
 - VK: closed:blast,ethereum,none
 - ZU: closed:blastnet,ethereum
 - Suspended now: XD, YZ
@@ -80,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:53:21.411040Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:53:31.941549Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,14 @@ token: ELSA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x29cc30f9d113b356ce408667aa6433589cecbdca" }
-exchanges: [SU, QK, XD, BU, ZU]
+exchanges: [BTHM, BYBT, CB, GPX, MEXC, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-07T03:57:36.733322Z
+updated: 2026-11-08T03:57:05.431013Z
 source: nightwatch-kg
 ---
 
@@ -21,12 +21,13 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 
 ## Identity
 - Contract: [[base]] `0x29cc30…bdca` (verified_same)
-- Listed on: SU, QK, XD, BU, ZU
+- Listed on: SU, QK, XD, BU, VK, ZU
 
 ## Grade by exchange
 - SU: A
 - QK: A+
 - XD: A+
+- VK: B+
 - ZU: A
 
 ## Deposit / Withdrawal
@@ -57,12 +58,12 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - VQ: open:base,baseevm
 - BU: closed:base
 - ST: open:baseelsa
-- YZ: open:base,base
+- YZ: open:base
 - VK: open:base
 - CJ: open:base
-- ZU: open:base,base
+- ZU: open:base
 - Suspended now: BU
-- Recently reopened (48h): SU, ZU
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:36.733322Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:05.431013Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

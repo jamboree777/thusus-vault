@@ -3,13 +3,13 @@ token: AWE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: base, address: "0x1b4617734c43f6159f3a70b7e06d883647512778" }
-exchanges: [GN, WV, SU, XD, VQ, YZ, VK, ZU]
+exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-07T03:52:34.332486Z
+updated: 2026-11-08T03:52:50.682972Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - XD: A+
 - VQ: A+
 - YZ: A
-- VK: B+
+- VK: B-
 - ZU: A+
 
 ## Deposit / Withdrawal
@@ -54,16 +54,16 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 
 ## Transfer map
 - GN: open:base
-- WV: open:base,base
+- WV: open:base
 - SU: open:base
 - XD: open:base
 - VQ: open:base,baseevm
 - ST: open:awe
-- YZ: open:base,base
+- YZ: open:base
 - VK: open:base
 - CJ: open:base
-- ZU: open:base,base
-- Recently reopened (48h): GN, SU, ZU
+- ZU: open:base
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:52:34.332486Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:52:50.682972Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

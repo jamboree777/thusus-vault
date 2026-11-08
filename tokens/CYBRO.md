@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd58826d2c0babf1a60d8b508160b52e9c19aff07" }
-exchanges: [VQ, VK]
+exchanges: [GATE, MEXC]
 transfer: open
-updated: 2026-11-07T03:56:01.498522Z
+updated: 2026-11-08T03:55:58.653566Z
 source: nightwatch-kg
 ---
 
@@ -40,7 +40,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - Lifecycle: delist scheduled (1794366000) · [[event/delisting]]
 
 ## Transfer map
-- VQ: open:blasteth | closed:blast,bsc,bsc
+- VQ: open:blasteth | closed:blast,bsc
 - VK: open:bsc | closed:blast,none
 
 ## Backers & Project
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:56:01.498522Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:55:58.653566Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

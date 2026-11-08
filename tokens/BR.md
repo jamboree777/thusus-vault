@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41" }
   - { chain: ethereum, address: "0x9b61879e91a0b1322f3d61c23aaf936231882096" }
-exchanges: [WV, SU, QK, VQ, YZ, VK]
+exchanges: [BGET, BTHM, BYBT, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-07T03:53:59.249001Z
+updated: 2026-11-08T03:53:55.598157Z
 source: nightwatch-kg
 ---
 
@@ -49,11 +49,11 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - 2026-09-24 · WV [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:bsc,bsc
+- WV: open:bsc
 - SU: open:bsc
 - QK: open:bsc
-- VQ: open:bsc,bsc
-- YZ: open:bsc,bsc
+- VQ: open:bsc
+- YZ: open:bsc
 - VK: open:bsc
 
 ## Backers & Project
@@ -74,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:53:59.249001Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:53:55.598157Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

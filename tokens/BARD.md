@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754" }
-exchanges: [GN, WV, SU, QK, XD, VQ, YZ, VK, DL, ZU]
+exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-07T03:52:45.422440Z
+updated: 2026-11-08T03:53:01.701345Z
 source: nightwatch-kg
 ---
 
@@ -49,23 +49,23 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-07 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: closed:bsc,ethereum
-- WV: open:ethereum,ethereum
+- WV: open:ethereum
 - SU: open:ethereum
 - QK: open:ethereum
 - XD: open:ethereum
-- VQ: open:ethereum,ethereum
+- VQ: open:ethereum
 - ST: open:bard
-- YZ: open:ethereum,ethereum
-- VK: open:bsc,ethereum
+- YZ: open:ethereum
+- VK: open:bsc | closed:ethereum
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
@@ -80,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:52:45.422440Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:53:01.701345Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

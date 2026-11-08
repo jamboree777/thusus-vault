@@ -3,14 +3,14 @@ token: EDU
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x26aad156ba8efa501b32b42ffcdc8413f90e9c99" }
-exchanges: [GN, SU, VQ, BU, YZ, VK]
+exchanges: [BNCE, BTHM, GATE, GPX, KUCN, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-07T03:57:14.391520Z
+updated: 2026-11-08T03:56:56.482354Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - GN: A+
 - SU: A+
 - VQ: A
-- YZ: C+
+- YZ: C
 - VK: B+
 
 ## Deposit / Withdrawal
@@ -51,11 +51,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - GN: open:bsc
-- WV: closed:bsc,bsc
+- WV: closed:bsc
 - SU: open:bsc
-- VQ: open:bsc,bsc
+- VQ: open:bsc
 - BU: closed:open campus
-- YZ: open:bsc,bsc
+- YZ: open:bsc
 - VK: open:bsc
 - CJ: open:bsc
 - Suspended now: BU
@@ -68,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-4 shadow trades · realized net **+5.25 USD** · win rate 75% (4 settled)
+3 shadow trades · realized net **+7.11 USD** · win rate 100% (3 settled)
 
 - 2026-10-20 · carry-A · SU→GN · +3.85 USD · _held_
 - 2026-10-20 · carry-A · SU→GN · +1.82 USD · _held_
@@ -78,7 +78,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:14.391520Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:56.482354Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

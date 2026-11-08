@@ -7,9 +7,9 @@ nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: solana, address: "dbridgjamsm95motzjs7m9lnkgerpbv9v6cur1dxnuu5" }
-exchanges: [WV, SU, QK, XD, VQ, YZ, VK]
+exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-07T03:56:08.100477Z
+updated: 2026-11-08T03:56:05.113765Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 
 ## Grade by exchange
 - WV: A+
-- SU: B+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: C+
@@ -51,13 +51,13 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - 2026-10-21 · SU [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:solana,solana
+- WV: open:solana
 - SU: open:solana
 - QK: open:solana
 - XD: open:solana
-- VQ: open:solana,solana
+- VQ: open:solana
 - ST: open:dbr
-- YZ: open:solana,solana
+- YZ: open:solana
 - VK: open:solana
 - CJ: open:solana
 - Recently reopened (48h): VK
@@ -79,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:56:08.100477Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:05.113765Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

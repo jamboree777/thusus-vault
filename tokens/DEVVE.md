@@ -5,7 +5,7 @@ tier: free
 nw_grade: null
 identity: verified_same
 transfer: blocked
-updated: 2026-11-07T03:56:19.279256Z
+updated: 2026-11-08T03:56:13.938279Z
 source: nightwatch-kg
 ---
 
@@ -31,8 +31,8 @@ Transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 - 2026-09-18 · VK [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- WV: closed:ethereum,ethereum
-- VQ: closed:ethereum,ethereum
+- WV: closed:ethereum
+- VQ: closed:ethereum
 - VK: closed:ethereum
 
 ## Backers & Project
@@ -53,7 +53,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · dep/wd status · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:56:19.279256Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:13.938279Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

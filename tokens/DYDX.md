@@ -3,14 +3,14 @@ token: DYDX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: partial
 contracts:
   - { chain: cosmos, address: "ibc/831f0b1bbb1d08a2b75311892876d71565478c532967545476df4c2d7492e48c" }
   - { chain: ethereum, address: "0x92d6c1e31e14520e676a687f0a93788b716beff5" }
-exchanges: [GN, WV, SU, QK, VQ, YZ, VK, DL]
+exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, OKX]
 transfer: partial
-updated: 2026-11-07T03:57:02.713851Z
+updated: 2026-11-08T03:56:45.716472Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is partial (some 
 ## Grade by exchange
 - GN: A+
 - WV: A+
-- SU: B+
+- SU: A
 - QK: A+
 - VQ: A
 - YZ: A
@@ -56,16 +56,15 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is partial (some 
 
 ## Transfer map
 - GN: closed:dydx
-- WV: open:dydx,dydx
+- WV: open:dydx
 - SU: open:dydx
 - QK: open:dydx
-- VQ: open:dydx,dydx | closed:ethereum,ethereum
+- VQ: open:dydx | closed:ethereum
 - ST: open:dydx1
-- YZ: open:dydx,dydx
+- YZ: open:dydx
 - VK: open:dydx
 - DL: open:dydx
 - CJ: open:dydx
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +75,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:57:02.713851Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:45.716472Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

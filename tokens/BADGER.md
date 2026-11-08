@@ -2,21 +2,21 @@
 token: BADGER
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A-
 nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x3472a5a71965499acd81997a54bba8d852c6e53d" }
-exchanges: [XD, VQ, VK]
+exchanges: [CB, GATE, MEXC]
 transfer: partial
-updated: 2026-11-07T03:52:40.945199Z
+updated: 2026-11-08T03:52:57.198348Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BADGER · NW Grade **B+**
+# BADGER · NW Grade **A-**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x3472a5…e53d` (verified_same)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - XD: B+
-- VQ: C
+- VQ: A-
 - VK: D+
 
 ## Deposit / Withdrawal
@@ -45,10 +45,10 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Transfer map
 - GN: closed:ethereum
-- WV: closed:ethereum,ethereum
+- WV: closed:ethereum
 - XD: closed:ethereum
-- VQ: open:ethereum,ethereum
-- YZ: closed:ethereum,ethereum
+- VQ: open:ethereum
+- YZ: closed:ethereum
 - VK: closed:ethereum
 - Suspended now: GN, XD, YZ
 
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:52:40.945199Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:52:57.198348Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

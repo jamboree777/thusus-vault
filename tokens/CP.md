@@ -8,9 +8,9 @@ identity: verified_same
 contracts:
   - { chain: base, address: "0x001aad84c21a5cd4d696c56d44866e9703c43f77" }
   - { chain: internet-computer, address: "ryjl3-tyaaa-aaaaa-aaaba-cai" }
-exchanges: [WV, SU, XD, YZ, DL, ZU]
+exchanges: [BGET, BTHM, CB, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-07T03:55:40.424644Z
+updated: 2026-11-08T03:55:29.630300Z
 source: nightwatch-kg
 ---
 
@@ -22,12 +22,13 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 ## Identity
 - Contract: [[base]] `0x001aad…3f77` (verified_same)
 - Contract: [[internet-computer]] `ryjl3-ty…-cai` (verified_same)
-- Listed on: WV, SU, XD, YZ, DL, ZU
+- Listed on: WV, SU, XD, YZ, VK, DL, ZU
 
 ## Grade by exchange
 - SU: A+
 - XD: A+
 - YZ: B+
+- VK: B+
 - DL: A+
 - ZU: A
 
@@ -50,15 +51,15 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - 2026-11-05 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:base,base
+- WV: open:base
 - SU: open:base
 - XD: open:base
 - VQ: open:base,baseevm
-- YZ: open:base,base
+- YZ: open:base
 - VK: open:base
 - DL: open:base
 - ZU: open:base
-- Recently reopened (48h): SU, ZU
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:55:40.424644Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:55:29.630300Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

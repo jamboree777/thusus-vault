@@ -7,9 +7,9 @@ nw_grade_worst: C+
 identity: native
 contracts:
   - { chain: ethereum, address: "0x590f820444fa3638e022776752c5eef34e2f89a6" }
-exchanges: [WV, VQ, VK]
+exchanges: [BGET, GATE, MEXC]
 transfer: open
-updated: 2026-11-07T03:51:42.225244Z
+updated: 2026-11-08T03:51:57.395239Z
 source: nightwatch-kg
 ---
 
@@ -41,8 +41,8 @@ Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one 
 - 2026-09-24 · WV [[alph]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: open:alph,alph
-- VQ: open:alph,alph
+- WV: open:alph
+- VQ: open:alph
 - VK: open:alph
 
 ## Backers & Project
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:51:42.225244Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:51:57.395239Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

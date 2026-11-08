@@ -7,9 +7,9 @@ nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: solana, address: "driftupjyltosbwon8kombeysx54afavlddwsbksjwg7" }
-exchanges: [WV, QK, XD, VQ, YZ, VK]
+exchanges: [BGET, BYBT, CB, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-07T03:56:37.300725Z
+updated: 2026-11-08T03:56:36.896436Z
 source: nightwatch-kg
 ---
 
@@ -47,11 +47,11 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - 2026-09-24 · WV [[solana]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- WV: closed:solana,solana
+- WV: closed:solana
 - QK: open:solana
 - XD: open:solana
-- VQ: open:solana,solana
-- YZ: open:solana,solana
+- VQ: open:solana
+- YZ: open:solana
 - VK: closed:solana
 
 ## Backers & Project
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-07T03:56:37.300725Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:36.896436Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
