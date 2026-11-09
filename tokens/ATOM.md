@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x0eb3a705fc54725037cc9e008bdede697f62f335" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-08T03:52:28.492398Z
+updated: 2026-11-09T03:52:00.125907Z
 source: nightwatch-kg
 ---
 
@@ -37,7 +37,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ❌
-- WV: deposit ✅ / withdraw ✅
+- WV: deposit ✅ / withdraw ❌
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -50,16 +50,16 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[atom]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[atom]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · WV [[atom]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · WV [[atom]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-04 · VK [[atom]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-31 · ZU [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-10-31 · ZU [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-10-31 · ZU [[atom]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: closed:atom,bsc
-- WV: open:atom
+- WV: closed:atom
 - SU: open:atom
 - QK: open:atom
 - XD: open:cosmos
@@ -70,7 +70,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - DL: open:atom
 - CJ: open:atom
 - ZU: open:atom
-- Recently reopened (48h): WV
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,17 +80,16 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-4 shadow trades · realized net **+2.26 USD** · win rate 75% (4 settled)
+2 shadow trades · realized net **+0.05 USD** · win rate 50% (2 settled)
 
 - 2026-10-10 · carry-A · SU→GN · +0.79 USD
-- 2026-10-09 · carry-A · SU→GN · +1.29 USD
-- 2026-10-09 · carry-A · SU→GN · +0.92 USD
+- 2026-07-17 · livescan · GN→YZ · -0.73 USD · _price_drift_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:52:28.492398Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:52:00.125907Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

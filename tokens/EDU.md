@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BTHM, GATE, GPX, KUCN, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-08T03:56:56.482354Z
+updated: 2026-11-09T03:56:41.991081Z
 source: nightwatch-kg
 ---
 
@@ -31,7 +31,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: B+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ✅ / withdraw ❌
 - WV: deposit ❌ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -50,7 +50,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- GN: open:bsc
+- GN: closed:bsc
 - WV: closed:bsc
 - SU: open:bsc
 - VQ: open:bsc
@@ -78,7 +78,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:56.482354Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:56:41.991081Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

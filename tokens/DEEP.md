@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::deep" }
 exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-08T03:56:07.318364Z
+updated: 2026-11-09T03:55:52.887982Z
 source: nightwatch-kg
 ---
 
@@ -44,12 +44,12 @@ Sui-network token; NW grade A+ liquidity; transfer is open on at least one venue
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[sui]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[sui]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[sui]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-07 · QK [[sui]] withdraw → open · [[event/dw-resume]]
 - 2026-11-07 · QK [[sui]] deposit → open · [[event/dw-resume]]
-- 2026-11-07 · QK [[sui]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-07 · QK [[sui]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-19 · ZU [[sui]] withdraw → open · [[event/dw-resume]]
-- 2026-10-19 · ZU [[sui]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: open:sui
@@ -61,7 +61,7 @@ Sui-network token; NW grade A+ liquidity; transfer is open on at least one venue
 - VK: open:sui
 - CJ: open:sui
 - ZU: open:sui
-- Recently reopened (48h): QK
+- Recently reopened (48h): QK, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:07.318364Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:55:52.887982Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

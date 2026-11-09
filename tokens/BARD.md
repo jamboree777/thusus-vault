@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
-transfer: partial
-updated: 2026-11-08T03:53:01.701345Z
+transfer: open
+updated: 2026-11-09T03:52:40.379185Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BARD · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xf0db65…9754` (verified_same)
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: A+
 - WV: A+
-- SU: A
+- SU: B+
 - QK: A+
 - XD: A+
 - VQ: A
@@ -35,7 +35,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: A
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -49,15 +49,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-08 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-07 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: closed:bsc,ethereum
+- GN: open:ethereum | closed:bsc
 - WV: open:ethereum
 - SU: open:ethereum
 - QK: open:ethereum
@@ -69,7 +69,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
-- Recently reopened (48h): GN
+- Recently reopened (48h): GN, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:53:01.701345Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:52:40.379185Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x3aee7602b612de36088f3ffed8c8f10e86ebf2bf" }
 exchanges: [BNCE, BGET, BTHM, GATE, MEXC]
 transfer: open
-updated: 2026-11-08T03:52:59.405200Z
+updated: 2026-11-09T03:52:23.733895Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - WV: B+
 - SU: A+
 - VQ: A+
-- VK: A-
+- VK: B+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -64,16 +64,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-1 shadow trade · realized net **-0.80 USD** · win rate 0% (1 settled)
-
-- 2026-07-19 · livescan · GN→WV · -0.80 USD · _price_drift_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:52:59.405200Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:52:23.733895Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

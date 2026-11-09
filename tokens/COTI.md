@@ -3,13 +3,13 @@ token: COTI
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xddb3422497e61e13543bea06989c0789117555c5" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-08T03:55:24.341758Z
+updated: 2026-11-09T03:55:15.144902Z
 source: nightwatch-kg
 ---
 
@@ -29,10 +29,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - XD: A+
 - VQ: C
 - YZ: A
-- VK: B+
+- VK: D+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ❌ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -43,21 +43,21 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-09 · YZ [[erc20]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · YZ [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · YZ [[coti]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · YZ [[coti]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-02 · YZ [[cotievm]] withdraw → open · [[event/dw-resume]]
-- 2026-11-02 · YZ [[cotievm]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: closed:bsc,ethereum
+- GN: open:ethereum | closed:bsc
 - WV: closed:ethereum
 - SU: open:ethereum
 - XD: open:ethereum
 - VQ: open:coti,ethereum
 - ST: open:erc20coti
-- YZ: open:coti,cotievm | closed:ethereum
+- YZ: open:coti,cotievm,ethereum
 - VK: open:coti | closed:bsc,ethereum
 - CJ: open:ethereum
 - Recently reopened (48h): GN, YZ
@@ -71,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:55:24.341758Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:55:15.144902Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

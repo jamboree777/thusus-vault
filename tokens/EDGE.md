@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0xed6e000def95780fb89734c07ee2ce9f6dcaf110" }
 exchanges: [BGET, BTHM, BYBT, CB, GATE, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-08T03:56:53.404629Z
+updated: 2026-11-09T03:56:34.240582Z
 source: nightwatch-kg
 ---
 
@@ -24,13 +24,13 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 
 ## Grade by exchange
 - WV: A+
-- SU: B+
+- SU: A
 - QK: A+
 - XD: A+
-- VQ: A-
+- VQ: A
 - VK: C
 - DL: A+
-- ZU: B+
+- ZU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -46,12 +46,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-05 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-05 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:ethereum
@@ -75,17 +75,17 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-11 shadow trades · realized net **+23.07 USD** · win rate 81.8% (11 settled)
+12 shadow trades · realized net **+25.08 USD** · win rate 83.3% (12 settled)
 
+- 2026-11-08 · carry-A · SU→VQ · -1.11 USD · _held_
+- 2026-11-08 · carry-A · SU→VQ · +1.06 USD · _held_
 - 2026-11-06 · carry-A · SU→VQ · +1.75 USD · _held_
-- 2026-11-05 · carry-A · SU→VQ · +13.30 USD · _flipped_
-- 2026-11-05 · carry-A · SU→VQ · +3.32 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:53.404629Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:56:34.240582Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

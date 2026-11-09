@@ -9,15 +9,15 @@ contracts:
   - { chain: base, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
   - { chain: ethereum, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
 exchanges: [BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
-transfer: partial
-updated: 2026-11-08T03:54:40.488218Z
+transfer: open
+updated: 2026-11-09T03:54:21.246919Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CARV · NW Grade **A+**
 
-Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[base]] `0xc08cd2…aa8c` (verified_same)
@@ -26,11 +26,11 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 
 ## Grade by exchange
 - WV: B
-- SU: A+
+- SU: A
 - QK: A+
 - VQ: A
 - YZ: A+
-- VK: A
+- VK: A-
 - ZU: A+
 
 ## Deposit / Withdrawal
@@ -40,17 +40,17 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ❌
+- VK: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-08 · VK [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-07 · VK [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-05 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:base
@@ -59,10 +59,10 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some ve
 - VQ: open:base,baseevm
 - ST: open:basecarv
 - YZ: open:base | closed:arbitrum
-- VK: closed:base
+- VK: open:base
 - CJ: open:base
 - ZU: open:base
-- Recently reopened (48h): ZU
+- Recently reopened (48h): VK, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:54:40.488218Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:54:21.246919Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

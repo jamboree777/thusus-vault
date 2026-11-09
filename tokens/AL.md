@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "2u1tszseqz3qbwf3ungpfc8tzmk2tdiwknnrmwgwjgwh" }
 exchanges: [BTHM]
 transfer: blocked
-updated: 2026-11-08T03:51:46.433128Z
+updated: 2026-11-09T03:51:22.633852Z
 source: nightwatch-kg
 ---
 
@@ -52,7 +52,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:51:46.433128Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:51:22.633852Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

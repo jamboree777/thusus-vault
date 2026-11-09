@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xfa1c09fc8b491b6a4d3ff53a10cad29381b3f949" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
 transfer: partial
-updated: 2026-11-08T03:57:36.810367Z
+updated: 2026-11-09T03:57:14.719317Z
 source: nightwatch-kg
 ---
 
@@ -45,12 +45,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: closed:bsc,ethereum
@@ -63,7 +63,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: open:bsc,ethereum
 - CJ: open:bsc
 - ZU: open:ethereum
-- Recently reopened (48h): GN
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:36.810367Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:57:14.719317Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

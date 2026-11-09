@@ -10,7 +10,7 @@ contracts:
 exchanges: [BTHM, BYBT, CB, GPX, MEXC, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-08T03:57:05.431013Z
+updated: 2026-11-09T03:56:50.838698Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: SU, QK, XD, BU, VK, ZU
 
 ## Grade by exchange
-- SU: A
+- SU: A+
 - QK: A+
 - XD: A+
 - VK: B+
@@ -43,12 +43,12 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · BU [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · BU [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:05.431013Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:56:50.838698Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

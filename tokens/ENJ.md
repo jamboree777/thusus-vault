@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, GPX, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-08T03:57:07.431095Z
+updated: 2026-11-09T03:56:52.988150Z
 source: nightwatch-kg
 ---
 
@@ -49,12 +49,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[enj]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[enj]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[enj]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[enj]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · BU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · BU [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[enj]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -72,7 +72,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: closed:ethereum
 - ZU: open:enj
 - Suspended now: XD, BU
-- Recently reopened (48h): GN
+- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -83,7 +83,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:07.431095Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:56:52.988150Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

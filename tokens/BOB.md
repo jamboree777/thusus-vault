@@ -3,13 +3,13 @@ token: BOB
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: C
+nw_grade_worst: D-
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xc9746f73cc33a36c2cd55b8aefd732586946cedd" }
 exchanges: [BTHM, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-08T03:53:43.285068Z
+updated: 2026-11-09T03:53:19.501846Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 - SU: A
 - VQ: A
 - YZ: A
-- VK: C
+- VK: D-
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -59,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:53:43.285068Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:53:19.501846Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

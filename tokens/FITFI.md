@@ -8,7 +8,7 @@ identity: partial
 exchanges: [BTHM]
 transfer: blocked
 lifecycle: suspended
-updated: 2026-11-08T03:57:41.890429Z
+updated: 2026-11-09T03:57:19.161872Z
 source: nightwatch-kg
 ---
 
@@ -49,7 +49,6 @@ NW grade A- liquidity; transfer is currently blocked (deposit/withdrawal frozen 
 - YZ: closed:avaxc,avax c-chain
 - VK: closed:avaxc
 - Suspended now: QK
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:57:41.890429Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:57:19.161872Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, GPX, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-08T03:52:10.396578Z
+updated: 2026-11-09T03:51:44.823266Z
 source: nightwatch-kg
 ---
 
@@ -37,7 +37,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - ZU: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -52,16 +52,16 @@ Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[aptos]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[aptos]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[aptos]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[aptos]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-08 · GN [[aptos]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · BU [[aptos]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-06 · BU [[aptos]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-04 · GN [[aptos]] deposit → open · [[event/dw-resume]]
-- 2026-11-02 · GN [[aptos]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-31 · ZU [[aptos]] withdraw → open · [[event/dw-resume]]
-- 2026-10-31 · ZU [[aptos]] deposit → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- GN: closed:aptos
+- GN: open:aptos
 - WV: open:aptos
 - SU: open:aptos
 - QK: open:aptos
@@ -75,6 +75,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - CJ: open:aptos
 - ZU: open:aptos
 - Suspended now: BU
+- Recently reopened (48h): GN, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -93,7 +94,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:52:10.396578Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:51:44.823266Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

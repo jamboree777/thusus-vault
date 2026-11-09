@@ -3,33 +3,35 @@ token: DEGEN
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: C-
 identity: verified_same
 contracts:
+  - { chain: base, address: "0x4ed4e862860bed51a9570b96d89af5e1b0efefed" }
   - { chain: ethereum, address: "0xfee293840d23b0b2de8c55e1cf7a9f01c157767c" }
 exchanges: [BYBT, CB, GATE, GPX, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-08T03:56:09.539134Z
+updated: 2026-11-09T03:55:55.289098Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # DEGEN · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Base/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
+- Contract: [[base]] `0x4ed4e8…efed` (verified_same)
 - Contract: [[ethereum]] `0xfee293…767c` (verified_same)
 - Listed on: QK, XD, VQ, BU, YZ, VK, DL
 
 ## Grade by exchange
-- QK: A+
-- XD: A
+- QK: A
+- XD: A+
 - VQ: A
 - YZ: B+
-- VK: A
-- DL: A+
+- VK: C-
+- DL: A
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -77,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:56:09.539134Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:55:55.289098Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

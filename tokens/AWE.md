@@ -3,13 +3,13 @@ token: AWE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x1b4617734c43f6159f3a70b7e06d883647512778" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-08T03:52:50.682972Z
+updated: 2026-11-09T03:52:14.640113Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - XD: A+
 - VQ: A+
 - YZ: A
-- VK: B-
+- VK: B+
 - ZU: A+
 
 ## Deposit / Withdrawal
@@ -45,12 +45,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-08 · ZU [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[base]] deposit → open · [[event/dw-resume]]
+- 2026-11-08 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-08 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · SU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · SU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[base]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:base
@@ -81,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-08T03:52:50.682972Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-09T03:52:14.640113Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
