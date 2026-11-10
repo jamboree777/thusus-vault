@@ -9,8 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x13239c268beddd88ad0cb02050d3ff6a9d00de6d" }
 exchanges: [GATE, KUCN]
 transfer: partial
-lifecycle: suspended
-updated: 2026-11-09T03:53:26.132260Z
+updated: 2026-11-10T03:52:54.437385Z
 source: nightwatch-kg
 ---
 
@@ -40,7 +39,6 @@ Ethereum-network token; NW grade C- liquidity; transfer is partial (some venues 
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:ethereum
@@ -63,8 +61,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:53:26.132260Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:52:54.437385Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

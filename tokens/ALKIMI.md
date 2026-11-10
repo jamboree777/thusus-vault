@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-09T03:51:27.032239Z
+updated: 2026-11-10T03:50:55.540665Z
 source: nightwatch-kg
 ---
 
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:51:27.032239Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:50:55.540665Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

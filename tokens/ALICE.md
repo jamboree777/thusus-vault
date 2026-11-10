@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xac51066d7bec65dc4589368da368b212745d63e8" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC]
-transfer: partial
-updated: 2026-11-09T03:51:24.842649Z
+transfer: open
+updated: 2026-11-10T03:50:53.350367Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ALICE · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xac5106…63e8` (verified_same)
@@ -32,7 +32,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: B+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
@@ -43,15 +43,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-09 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-28 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-28 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: closed:bsc,ethereum
+- GN: open:ethereum | closed:bsc
 - WV: open:bsc,ethereum
 - SU: open:ethereum
 - XD: open:ethereum
@@ -60,6 +60,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: open:bsc,ethereum
 - VK: open:bsc,ethereum
 - CJ: open:ethereum
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:51:24.842649Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:50:53.350367Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

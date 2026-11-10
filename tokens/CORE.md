@@ -3,13 +3,13 @@ token: CORE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: F
 identity: native
 contracts:
   - { chain: core, address: "0x191e94fa59739e188dce837f7f6978d84727ad01" }
 exchanges: [BGET, BTHM, BYBT, GATE, MEXC, OKX]
 transfer: partial
-updated: 2026-11-09T03:55:10.694226Z
+updated: 2026-11-10T03:54:26.942188Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +23,8 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: WV, SU, QK, VQ, VK, DL
 
 ## Grade by exchange
-- WV: A+
-- SU: A
+- WV: F
+- SU: A-
 - QK: A+
 - VQ: A+
 - VK: B+
@@ -66,7 +66,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:55:10.694226Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:54:26.942188Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

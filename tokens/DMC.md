@@ -2,21 +2,21 @@
 token: DMC
 type: token
 tier: free
-nw_grade: B+
+nw_grade: A-
 nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x4c981f3ff786cdb9e514da897ab8a953647dae2ace9679e8358eec1e3e8871ac::dmc::dmc" }
 exchanges: [BGET, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-09T03:56:06.415232Z
+updated: 2026-11-10T03:55:31.496928Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# DMC · NW Grade **B+**
+# DMC · NW Grade **A-**
 
-Sui-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x4c981f…:dmc` (verified_same)
@@ -25,7 +25,7 @@ Sui-network token; NW grade B+ liquidity; transfer is partial (some venues froze
 ## Grade by exchange
 - WV: C-
 - VQ: D-
-- YZ: B+
+- YZ: A-
 - VK: D+
 
 ## Deposit / Withdrawal
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:56:06.415232Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:55:31.496928Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

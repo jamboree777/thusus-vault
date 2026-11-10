@@ -2,21 +2,21 @@
 token: FARM
 type: token
 tier: free
-nw_grade: A
+nw_grade: A-
 nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xa0246c9032bc3a600820415ae600c6388619a14d" }
 exchanges: [CB, GATE, MEXC]
 transfer: partial
-updated: 2026-11-09T03:57:12.528596Z
+updated: 2026-11-10T03:56:35.903239Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FARM · NW Grade **A**
+# FARM · NW Grade **A-**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xa0246c…a14d` (partial)
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Grade by exchange
 - XD: B+
-- VQ: A
+- VQ: A-
 - VK: B+
 
 ## Deposit / Withdrawal
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:57:12.528596Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:56:35.903239Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

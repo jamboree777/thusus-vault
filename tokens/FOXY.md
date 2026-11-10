@@ -2,28 +2,28 @@
 token: FOXY
 type: token
 tier: free
-nw_grade: C+
-nw_grade_worst: D+
+nw_grade: D+
+nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: linea, address: "0x5fbdf89403270a1846f5ae7d113a989f850d1566" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-09T03:57:27.920296Z
+updated: 2026-11-10T03:57:09.410658Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# FOXY · NW Grade **C+**
+# FOXY · NW Grade **D+**
 
-Linea-network token; NW grade C+ liquidity; transfer is partial (some venues frozen).
+Linea-network token; NW grade D+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[linea]] `0x5fbdf8…1566` (partial)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: C+
+- VQ: F
 - YZ: D+
 
 ## Deposit / Withdrawal
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:57:27.920296Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:57:09.410658Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "dog1viwbb2vwdper5frj4yfg6gq6xuyfohue9txn65u" }
 exchanges: [BGET, GATE, MEXC]
 transfer: partial
-updated: 2026-11-09T03:56:10.812412Z
+updated: 2026-11-10T03:55:35.965470Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Solana-network token; NW grade A liquidity; transfer is partial (some venues fro
 ## Grade by exchange
 - WV: B+
 - VQ: A
-- VK: A-
+- VK: A
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:56:10.812412Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:55:35.965470Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

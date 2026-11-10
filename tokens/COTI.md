@@ -3,13 +3,13 @@ token: COTI
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xddb3422497e61e13543bea06989c0789117555c5" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-09T03:55:15.144902Z
+updated: 2026-11-10T03:54:31.306438Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - XD: A+
 - VQ: C
 - YZ: A
-- VK: D+
+- VK: A-
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -71,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:55:15.144902Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:54:31.306438Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

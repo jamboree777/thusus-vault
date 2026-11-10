@@ -10,7 +10,7 @@ contracts:
 exchanges: [BTHM, BYBT, CB, GATE, GPX, KUCN, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-09T03:53:21.722977Z
+updated: 2026-11-10T03:52:49.992461Z
 source: nightwatch-kg
 ---
 
@@ -43,12 +43,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-09 · YZ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · BU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · BU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-19 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-10-18 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -73,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:53:21.722977Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:52:49.992461Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

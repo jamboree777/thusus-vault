@@ -10,7 +10,7 @@ contracts:
 exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-09T03:53:04.403593Z
+updated: 2026-11-10T03:52:29.291466Z
 source: nightwatch-kg
 ---
 
@@ -80,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-09T03:53:04.403593Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-10T03:52:29.291466Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
