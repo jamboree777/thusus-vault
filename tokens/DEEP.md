@@ -3,13 +3,13 @@ token: DEEP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: sui, address: "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::deep" }
 exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-10T03:55:00.464625Z
+updated: 2026-11-11T03:55:48.072618Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Sui-network token; NW grade A+ liquidity; transfer is open on at least one venue
 - XD: A+
 - VQ: A
 - YZ: A-
-- VK: A
+- VK: B+
 - ZU: A-
 
 ## Deposit / Withdrawal
@@ -61,7 +61,6 @@ Sui-network token; NW grade A+ liquidity; transfer is open on at least one venue
 - VK: open:sui
 - CJ: open:sui
 - ZU: open:sui
-- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-10T03:55:00.464625Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-11T03:55:48.072618Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

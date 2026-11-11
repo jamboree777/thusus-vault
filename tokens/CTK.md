@@ -9,7 +9,7 @@ contracts:
   - { chain: osmosis, address: "ibc/7ed954cfffc06ee8419387f3fc688837ff64ef264de14219935f724eeedbf8d3" }
 exchanges: [BNCE, BTHM, GATE, MEXC]
 transfer: partial
-updated: 2026-11-10T03:54:42.293134Z
+updated: 2026-11-11T03:55:26.683713Z
 source: nightwatch-kg
 ---
 
@@ -66,7 +66,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-10T03:54:42.293134Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-11T03:55:26.683713Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,14 @@ token: BB
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
   - { chain: polygon-pos, address: "0x4f7cc8ef14f3dc76ee2fb60028749e1b61cea162" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, hyperliquid-xyz, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-10T03:52:07.089874Z
+updated: 2026-11-11T03:52:59.829125Z
 source: nightwatch-kg
 ---
 
@@ -32,7 +32,7 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 - VQ: A
 - [[hyperliquid-xyz]]: A+
 - YZ: A
-- VK: F
+- VK: B+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ❌
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-6 shadow trades · realized net **+10.67 USD** · win rate 83.3% (6 settled)
+5 shadow trades · realized net **+6.17 USD** · win rate 80% (5 settled)
 
 - 2026-10-21 · carry-A · SU→GN · +0.92 USD · _held_
 - 2026-10-20 · carry-A · SU→GN · +3.16 USD · _held_
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-10T03:52:07.089874Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-11T03:52:59.829125Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

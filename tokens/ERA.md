@@ -3,13 +3,13 @@ token: ERA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xe2ad0bf751834f2fbdc62a41014f84d67ca1de2a" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
 transfer: partial
-updated: 2026-11-10T03:56:17.687749Z
+updated: 2026-11-11T03:56:50.717088Z
 source: nightwatch-kg
 ---
 
@@ -25,13 +25,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: A+
 - WV: A+
-- SU: A+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: A
 - YZ: A+
 - VK: A+
-- ZU: A+
+- ZU: B+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ❌
@@ -66,7 +66,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: closed:bsc,ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
-- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -86,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-10T03:56:17.687749Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-11T03:56:50.717088Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

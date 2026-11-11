@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0x696f9436b67233384889472cd7cd58a6fb5df4f1" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-10T03:51:46.291889Z
+updated: 2026-11-11T03:52:40.460899Z
 source: nightwatch-kg
 ---
 
@@ -69,7 +69,6 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - DL: open:base
 - CJ: open:base
 - ZU: open:base
-- Recently reopened (48h): ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -80,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-10T03:51:46.291889Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-11T03:52:40.460899Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

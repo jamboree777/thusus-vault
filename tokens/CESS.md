@@ -3,13 +3,13 @@ token: CESS
 type: token
 tier: free
 nw_grade: A-
-nw_grade_worst: C+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c78d4605c2972e5f989de9019de1fb00c5d3462" }
 exchanges: [BGET, GATE, MEXC]
 transfer: partial
-updated: 2026-11-10T03:53:55.851092Z
+updated: 2026-11-11T03:54:39.966364Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (s
 
 ## Grade by exchange
 - WV: A-
-- VQ: A-
+- VQ: D
 - VK: C+
 
 ## Deposit / Withdrawal
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-10T03:53:55.851092Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-11T03:54:39.966364Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

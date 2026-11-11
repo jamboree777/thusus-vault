@@ -9,8 +9,8 @@ contracts:
   - { chain: blast, address: "0xb1a5700fa2358173fe465e6ea4ff52e36e88e2ad" }
 exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
 transfer: partial
-lifecycle: suspended
-updated: 2026-11-10T03:52:29.291466Z
+lifecycle: delisted
+updated: 2026-11-11T03:53:23.596662Z
 source: nightwatch-kg
 ---
 
@@ -51,7 +51,7 @@ Blast-network token; NW grade A liquidity; transfer is partial (some venues froz
 - 2026-10-26 · YZ [[blast]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-23 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: delist scheduled (1794366000) · [[event/delisting]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -80,7 +80,7 @@ _Sourced contributions from the vault claim intake. [verified] passed review; [c
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-10T03:52:29.291466Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-11T03:53:23.596662Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

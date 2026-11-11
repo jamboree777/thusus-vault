@@ -3,14 +3,14 @@ token: ENJ
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, GPX, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-10T03:56:15.500252Z
+updated: 2026-11-11T03:56:48.500288Z
 source: nightwatch-kg
 ---
 
@@ -30,49 +30,49 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: A+
 - VQ: A+
 - YZ: A
-- VK: A-
+- VK: B+
 - DL: A+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
-- SU: deposit ❌ / withdraw ❌
-- QK: deposit ✅ / withdraw ❌
+- SU: deposit ✅ / withdraw ✅
+- QK: deposit ✅ / withdraw ✅
 - XD: deposit ❌ / withdraw ❌
 - VQ: deposit ✅ / withdraw ✅
 - BU: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
-- DL: deposit ❌ / withdraw ❌
+- DL: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ❌
-- ZU: deposit ❌ / withdraw ❌
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-11-09 · WV [[enj]] withdraw → open · [[event/dw-resume]]
-- 2026-11-09 · WV [[enj]] deposit → open · [[event/dw-resume]]
-- 2026-11-09 · WV [[enj]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-09 · WV [[enj]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-09 · QK [[enjin]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-09 · QK [[enjin]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-10 · SU [[enj]] withdraw → open · [[event/dw-resume]]
+- 2026-11-10 · SU [[enj]] deposit → open · [[event/dw-resume]]
+- 2026-11-10 · ZU [[enj]] withdraw → open · [[event/dw-resume]]
+- 2026-11-10 · ZU [[enj]] deposit → open · [[event/dw-resume]]
+- 2026-11-10 · QK [[enjin]] withdraw → open · [[event/dw-resume]]
+- 2026-11-10 · QK [[enjin]] deposit → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - GN: closed:enj,ethereum
 - WV: open:enj
-- SU: closed:enj
-- QK: closed:enjin,ethereum
+- SU: open:enj
+- QK: open:enjin | closed:ethereum
 - XD: closed:ethereum
 - VQ: open:enj | closed:ethereum
 - BU: closed:ethereum
 - ST: open:enj1
 - YZ: open:enj,enjin
 - VK: open:enj
-- DL: closed:enjin relay chain
+- DL: open:enjin relay chain
 - CJ: closed:ethereum
-- ZU: closed:enj
-- Suspended now: SU, XD, BU, DL, ZU
-- Recently reopened (48h): WV, ZU
+- ZU: open:enj
+- Suspended now: XD, BU
+- Recently reopened (48h): GN, WV, SU, QK, DL, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -83,7 +83,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-10T03:56:15.500252Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-11T03:56:48.500288Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
