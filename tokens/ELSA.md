@@ -10,7 +10,7 @@ contracts:
 exchanges: [BTHM, BYBT, CB, GPX, MEXC, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-11T03:56:46.387090Z
+updated: 2026-11-12T03:57:12.441910Z
 source: nightwatch-kg
 ---
 
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-11T03:56:46.387090Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-12T03:57:12.441910Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

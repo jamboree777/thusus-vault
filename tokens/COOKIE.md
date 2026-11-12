@@ -9,15 +9,15 @@ contracts:
   - { chain: binance-smart-chain, address: "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f" }
   - { chain: ethereum, address: "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC]
-transfer: partial
-updated: 2026-11-11T03:55:05.609215Z
+transfer: open
+updated: 2026-11-12T03:55:34.107057Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # COOKIE · NW Grade **A+**
 
-Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xc0041e…265f` (verified_same)
@@ -35,7 +35,7 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is p
 - VK: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -47,15 +47,15 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is p
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-04 · QK [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: closed:bsc
+- GN: open:bsc
 - WV: open:bsc | closed:base
 - SU: open:bsc
 - QK: open:base,bsc
@@ -65,6 +65,7 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is p
 - YZ: open:bsc
 - VK: open:base,bsc
 - CJ: open:bsc
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-11T03:55:05.609215Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-12T03:55:34.107057Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

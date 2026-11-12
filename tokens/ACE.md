@@ -3,14 +3,13 @@ token: ACE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC, OKX]
 transfer: open
-lifecycle: suspended
-updated: 2026-11-11T03:51:27.840287Z
+updated: 2026-11-12T03:51:54.279735Z
 source: nightwatch-kg
 ---
 
@@ -26,9 +25,9 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A-
+- SU: A
 - VQ: A-
-- YZ: C+
+- YZ: B+
 - VK: A+
 - DL: A+
 
@@ -44,16 +43,15 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-10 · GN [[endurance]] withdraw → open · [[event/dw-resume]]
 - 2026-10-30 · GN [[endurance]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- GN: open:endurance | closed:bsc
+- GN: open:bsc,endurance
 - WV: open:bsc | closed:esc
 - SU: open:bsc
 - VQ: open:bsc
@@ -72,8 +70,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-11T03:51:27.840287Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-11-12T03:51:54.279735Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

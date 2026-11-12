@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x0eb3a705fc54725037cc9e008bdede697f62f335" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-11T03:52:30.115474Z
+updated: 2026-11-12T03:52:56.713913Z
 source: nightwatch-kg
 ---
 
@@ -36,7 +36,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -50,15 +50,15 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-11 · GN [[atom]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-11 · GN [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-09 · WV [[atom]] withdraw → open · [[event/dw-resume]]
 - 2026-11-09 · WV [[atom]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[atom]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-08 · ZU [[atom]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: closed:atom,bsc
+- GN: open:bsc | closed:atom
 - WV: open:atom
 - SU: open:atom
 - QK: open:atom
@@ -70,7 +70,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - DL: open:atom
 - CJ: open:atom
 - ZU: open:atom
-- Recently reopened (48h): WV
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -88,7 +88,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-11T03:52:30.115474Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-12T03:52:56.713913Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,15 +9,15 @@ contracts:
   - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
   - { chain: polygon-pos, address: "0x4f7cc8ef14f3dc76ee2fb60028749e1b61cea162" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, hyperliquid-xyz, KUCN, MEXC]
-transfer: partial
-updated: 2026-11-11T03:52:59.829125Z
+transfer: open
+updated: 2026-11-12T03:53:27.951071Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BB · NW Grade **A+**
 
-Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xd459ec…73a3` (verified_same)
@@ -35,7 +35,7 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 - VK: B+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ❌
+- GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
@@ -45,15 +45,15 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-11-06 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-30 · SU [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-30 · SU [[bsc]] deposit → open · [[event/dw-resume]]
-- 2026-09-30 · SU [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: closed:bb,bsc
+- GN: open:bsc | closed:bb
 - WV: open:bsc | closed:bb
 - SU: open:bsc | closed:bb
 - QK: open:bsc | closed:bouncebit
@@ -61,6 +61,7 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is partial (
 - ST: open:bb
 - YZ: open:bsc | closed:bb,bouncebit
 - VK: open:bsc | closed:bouncebit
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-5 shadow trades · realized net **+6.17 USD** · win rate 80% (5 settled)
+4 shadow trades · realized net **+5.79 USD** · win rate 75% (4 settled)
 
 - 2026-10-21 · carry-A · SU→GN · +0.92 USD · _held_
 - 2026-10-20 · carry-A · SU→GN · +3.16 USD · _held_
@@ -80,7 +81,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-11T03:52:59.829125Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-12T03:53:27.951071Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

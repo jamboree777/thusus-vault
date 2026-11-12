@@ -3,13 +3,13 @@ token: CUDIS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1" }
 exchanges: [BGET, BTHM, BYBT, GATE, MEXC]
 transfer: partial
-updated: 2026-11-11T03:55:31.090789Z
+updated: 2026-11-12T03:55:59.698832Z
 source: nightwatch-kg
 ---
 
@@ -24,9 +24,9 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - WV: A+
-- SU: A
+- SU: A-
 - QK: D+
-- VQ: B+
+- VQ: D
 - VK: A-
 
 ## Deposit / Withdrawal
@@ -73,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-11T03:55:31.090789Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-12T03:55:59.698832Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
