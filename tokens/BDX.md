@@ -3,14 +3,13 @@ token: BDX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D-
+nw_grade_worst: B
 identity: native
 contracts:
   - { chain: ethereum, address: "0x6ad12e761b438bea3ea09f6c6266556bb24c2181" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: partial
-lifecycle: suspended
-updated: 2026-11-12T03:53:36.499925Z
+updated: 2026-11-13T03:52:27.082874Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +23,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: D-
+- VQ: B
 - YZ: A
 - VK: A+
 
@@ -40,7 +39,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-11-11 · YZ [[bdx]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-11 · VK [[bdx]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-04 · VK [[bdx]] deposit → open · [[event/dw-resume]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: closed:bdx
@@ -63,8 +61,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:53:36.499925Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:52:27.082874Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

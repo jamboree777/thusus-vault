@@ -3,13 +3,13 @@ token: DEXE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xde4ee8057785a7e8e800db58f9784845a5c2cbd6" }
 exchanges: [BNCE, BTHM, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-12T03:56:25.105446Z
+updated: 2026-11-13T03:55:08.978907Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - SU: A+
 - VQ: A
 - YZ: B+
-- VK: F
+- VK: D
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:56:25.105446Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:55:08.978907Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

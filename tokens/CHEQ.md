@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-12T03:55:12.796746Z
+updated: 2026-11-13T03:53:58.553391Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 
 ## Grade by exchange
 - VQ: F
-- YZ: A
+- YZ: B
 - VK: A
 
 ## Deposit / Withdrawal
@@ -55,7 +55,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:55:12.796746Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:53:58.553391Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

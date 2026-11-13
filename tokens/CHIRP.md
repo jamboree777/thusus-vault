@@ -2,30 +2,30 @@
 token: CHIRP
 type: token
 tier: free
-nw_grade: B-
-nw_grade_worst: D+
+nw_grade: D-
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::chirp" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-12T03:55:18.500179Z
+updated: 2026-11-13T03:54:03.584230Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHIRP · NW Grade **B-**
+# CHIRP · NW Grade **D-**
 
-Sui-network token; NW grade B- liquidity; transfer is open on at least one venue.
+Sui-network token; NW grade D- liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[sui]] `0x1ef4c0…hirp` (verified_same)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: B-
-- YZ: C-
-- VK: D+
+- VQ: D-
+- YZ: D-
+- VK: D-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:55:18.500179Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:54:03.584230Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

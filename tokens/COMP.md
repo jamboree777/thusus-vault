@@ -3,14 +3,14 @@ token: COMP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc00e94cb662c3520282e6f5717214004a7f26888" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, GPX, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-12T03:55:31.939739Z
+updated: 2026-11-13T03:54:13.139628Z
 source: nightwatch-kg
 ---
 
@@ -32,7 +32,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: A
 - [[hyperliquid-perp]]: A+
 - YZ: A
-- VK: A
+- VK: B+
 - DL: A+
 - ZU: A+
 
@@ -86,7 +86,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:55:31.939739Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:54:13.139628Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

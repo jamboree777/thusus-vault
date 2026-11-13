@@ -3,14 +3,14 @@ token: ENJ
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: B+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, GPX, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-12T03:57:14.640825Z
+updated: 2026-11-13T03:55:58.706539Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: A+
 - VQ: A+
 - YZ: A
-- VK: A-
+- VK: B+
 - DL: A+
 
 ## Deposit / Withdrawal
@@ -72,7 +72,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: closed:ethereum
 - ZU: open:enj
 - Suspended now: XD, BU
-- Recently reopened (48h): GN, SU, QK, DL, ZU
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -83,7 +83,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:57:14.640825Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:55:58.706539Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

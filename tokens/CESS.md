@@ -2,22 +2,21 @@
 token: CESS
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: D
+nw_grade: A+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c78d4605c2972e5f989de9019de1fb00c5d3462" }
 exchanges: [BGET, GATE, MEXC]
 transfer: partial
-lifecycle: suspended
-updated: 2026-11-12T03:55:08.428759Z
+updated: 2026-11-13T03:53:54.165903Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CESS · NW Grade **A-**
+# CESS · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x0c78d4…3462` (verified_same)
@@ -25,7 +24,7 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (s
 
 ## Grade by exchange
 - WV: A-
-- VQ: D
+- VQ: A+
 - VK: C+
 
 ## Deposit / Withdrawal
@@ -41,7 +40,6 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (s
 - 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:bsc
@@ -65,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:55:08.428759Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:53:54.165903Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

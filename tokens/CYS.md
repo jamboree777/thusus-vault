@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c69199c1562233640e0db5ce2c399a88eb507c7" }
 exchanges: [BGET, BTHM, GATE, KUCN, MEXC]
-transfer: partial
-updated: 2026-11-12T03:56:06.304532Z
+transfer: open
+updated: 2026-11-13T03:54:52.231427Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CYS · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x0c6919…07c7` (verified_same)
@@ -24,34 +24,35 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - WV: A
-- SU: A
+- SU: A+
 - VQ: A
 - YZ: A+
 - VK: B+
 
 ## Deposit / Withdrawal
-- WV: deposit ❌ / withdraw ✅
+- WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
-- VQ: deposit ❌ / withdraw ✅
-- YZ: deposit ❌ / withdraw ✅
-- VK: deposit ❌ / withdraw ✅
+- VQ: deposit ✅ / withdraw ✅
+- YZ: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-12 · VK [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-11-12 · VQ [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-11-12 · YZ [[bsc]] deposit → open · [[event/dw-resume]]
+- 2026-11-12 · WV [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-08 · ZU [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-06 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · ZU [[base]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- WV: closed:bsc
+- WV: open:bsc
 - SU: open:bsc
-- VQ: closed:bsc
-- YZ: closed:bsc
-- VK: closed:bsc
+- VQ: open:bsc
+- YZ: open:bsc
+- VK: open:bsc
 - ZU: open:base
+- Recently reopened (48h): WV, VQ, YZ, VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:56:06.304532Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:54:52.231427Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

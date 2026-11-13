@@ -3,13 +3,13 @@ token: CORE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: B+
 identity: native
 contracts:
   - { chain: core, address: "0x191e94fa59739e188dce837f7f6978d84727ad01" }
 exchanges: [BGET, BTHM, BYBT, GATE, MEXC, OKX]
 transfer: partial
-updated: 2026-11-12T03:55:38.504644Z
+updated: 2026-11-13T03:54:20.715591Z
 source: nightwatch-kg
 ---
 
@@ -23,40 +23,40 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: WV, SU, QK, VQ, VK, DL
 
 ## Grade by exchange
-- WV: A+
-- SU: B+
+- WV: A
+- SU: A
 - QK: A+
 - VQ: A+
-- VK: C
+- VK: B+
 - DL: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ❌
 - SU: deposit ❌ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
-- VQ: deposit ❌ / withdraw ❌
+- VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - VK: deposit ❌ / withdraw ❌
 - DL: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-12 · VQ [[core]] withdraw → open · [[event/dw-resume]]
+- 2026-11-12 · VQ [[core]] deposit → open · [[event/dw-resume]]
 - 2026-11-11 · QK [[core]] withdraw → open · [[event/dw-resume]]
 - 2026-11-11 · QK [[core]] deposit → open · [[event/dw-resume]]
 - 2026-11-11 · DL [[core]] withdraw → open · [[event/dw-resume]]
 - 2026-11-11 · DL [[core]] deposit → open · [[event/dw-resume]]
-- 2026-11-03 · SU [[core]] withdraw → open · [[event/dw-resume]]
-- 2026-10-31 · WV [[coredao]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:coredao
 - SU: closed:core
 - QK: open:core
-- VQ: closed:core
+- VQ: open:core
 - ST: open:core
 - VK: closed:core
 - DL: open:core
-- Suspended now: WV, VQ, VK
-- Recently reopened (48h): QK, DL
+- Suspended now: WV, VK
+- Recently reopened (48h): QK, VQ, DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:55:38.504644Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:54:20.715591Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

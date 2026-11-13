@@ -2,32 +2,32 @@
 token: AGI
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: D-
+nw_grade: A
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x7da2641000cbb407c329310c461b2cb9c70c3046" }
 exchanges: [BTHM, BYBT, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-12T03:52:03.067289Z
+updated: 2026-11-13T03:50:57.416927Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AGI · NW Grade **A+**
+# AGI · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x7da264…3046` (verified_same)
 - Listed on: SU, QK, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: A+
+- SU: A
 - QK: A
 - VQ: D+
-- YZ: A
-- VK: D-
+- YZ: A-
+- VK: C-
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-12T03:52:03.067289Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-13T03:50:57.416927Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
