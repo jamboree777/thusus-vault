@@ -3,13 +3,13 @@ token: BDX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: C
 identity: native
 contracts:
   - { chain: ethereum, address: "0x6ad12e761b438bea3ea09f6c6266556bb24c2181" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-13T03:52:27.082874Z
+updated: 2026-11-14T03:53:25.585364Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: B
+- VQ: C
 - YZ: A
 - VK: A+
 
@@ -44,7 +44,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: closed:bdx
 - YZ: open:bdx
 - VK: closed:bdx
-- Recently reopened (48h): YZ, VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -62,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-13T03:52:27.082874Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-14T03:53:25.585364Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,20 +3,20 @@ token: CYBRO
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd58826d2c0babf1a60d8b508160b52e9c19aff07" }
 exchanges: [GATE, MEXC]
-transfer: open
-updated: 2026-11-13T03:54:49.012688Z
+transfer: partial
+updated: 2026-11-14T03:55:52.661028Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CYBRO · NW Grade **A**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xd58826…ff07` (verified_same)
@@ -24,23 +24,23 @@ Ethereum-network token; NW grade A liquidity; transfer is open on at least one v
 
 ## Grade by exchange
 - VQ: A
-- VK: B-
+- VK: B+
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-13 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-14 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-14 · VK [[bsc]] deposit → open · [[event/dw-resume]]
 - 2026-10-12 · VQ [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-12 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-12 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - VQ: open:blasteth | closed:blast,bsc
-- VK: open:bsc | closed:blast,none
+- VK: closed:blast,bsc,none
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-13T03:54:49.012688Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-14T03:55:52.661028Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

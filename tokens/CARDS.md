@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "cardsccumfkoprzxt5vt3ksubxefecnz3h2pd3dkxyjp" }
 exchanges: [KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-13T03:53:39.293463Z
+updated: 2026-11-14T03:54:40.543101Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - YZ: B+
 - VK: B+
 - DL: A+
-- ZU: A
+- ZU: A-
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-13T03:53:39.293463Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-14T03:54:40.543101Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

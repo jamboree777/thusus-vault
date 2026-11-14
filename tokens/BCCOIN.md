@@ -3,13 +3,14 @@ token: BCCOIN
 type: token
 tier: free
 nw_grade: A-
-nw_grade_worst: D
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x450593bf7f2d7e559e38496cfb06bdce5e963795" }
 exchanges: [GATE, MEXC]
 transfer: partial
-updated: 2026-11-13T03:52:22.682048Z
+lifecycle: suspended
+updated: 2026-11-14T03:53:20.957268Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +24,7 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (s
 - Listed on: VQ, VK
 
 ## Grade by exchange
-- VQ: D
+- VQ: C-
 - VK: A-
 
 ## Deposit / Withdrawal
@@ -38,6 +39,7 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (s
 - 2026-09-28 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-28 · WV [[bep20]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:bsc
@@ -59,8 +61,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-13T03:52:22.682048Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-14T03:53:20.957268Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

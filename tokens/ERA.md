@@ -3,13 +3,13 @@ token: ERA
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xe2ad0bf751834f2fbdc62a41014f84d67ca1de2a" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
 transfer: partial
-updated: 2026-11-13T03:56:00.908936Z
+updated: 2026-11-14T03:57:03.689717Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: A+
 - WV: A+
-- SU: B+
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: A
@@ -47,15 +47,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-13 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-13 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-13 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-12 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-08 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-06 · VQ [[eth]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: open:bsc | closed:ethereum
+- GN: open:bsc,ethereum
 - WV: closed:ethereum
 - SU: open:ethereum
 - QK: open:ethereum
@@ -86,7 +86,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-13T03:56:00.908936Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-14T03:57:03.689717Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC, OKX]
 transfer: open
-updated: 2026-11-13T03:50:48.589302Z
+updated: 2026-11-14T03:51:46.764625Z
 source: nightwatch-kg
 ---
 
@@ -60,7 +60,6 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - VK: open:bsc
 - DL: open:endurance smart chain
 - CJ: open:bsc
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-13T03:50:48.589302Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-14T03:51:46.764625Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
