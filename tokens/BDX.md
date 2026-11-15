@@ -3,13 +3,13 @@ token: BDX
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: D
 identity: native
 contracts:
   - { chain: ethereum, address: "0x6ad12e761b438bea3ea09f6c6266556bb24c2181" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-14T03:53:25.585364Z
+updated: 2026-11-15T03:52:37.529289Z
 source: nightwatch-kg
 ---
 
@@ -23,7 +23,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: C
+- VQ: D
 - YZ: A
 - VK: A+
 
@@ -33,17 +33,18 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-14 · VK [[bdx]] withdraw → open · [[event/dw-resume]]
+- 2026-11-14 · VK [[bdx]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-11 · VK [[bdx]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-11 · YZ [[bdx]] deposit → open · [[event/dw-resume]]
 - 2026-11-11 · VK [[bdx]] deposit → open · [[event/dw-resume]]
 - 2026-11-11 · YZ [[bdx]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-11 · VK [[bdx]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-04 · VK [[bdx]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - VQ: closed:bdx
 - YZ: open:bdx
 - VK: closed:bdx
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-14T03:53:25.585364Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-15T03:52:37.529289Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

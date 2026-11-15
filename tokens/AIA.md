@@ -2,22 +2,22 @@
 token: AIA
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: B-
+nw_grade: A
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x53ec33cd4fa46b9eced9ca3f6db626c5ffcd55cc" }
   - { chain: sui, address: "0x99cc0e7834326ec6ac571421e9b8e042e9eb63062771c77ac592bd194180b5da::deagent_token::deagent_token" }
 exchanges: [BGET, BTHM, GATE, MEXC]
 transfer: open
-updated: 2026-11-14T03:52:01.607224Z
+updated: 2026-11-15T03:51:12.045187Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AIA · NW Grade **A+**
+# AIA · NW Grade **A**
 
-Binance-smart-chain/sui-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain/sui-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x53ec33…55cc` (verified_same)
@@ -26,9 +26,9 @@ Binance-smart-chain/sui-network token; NW grade A+ liquidity; transfer is open o
 
 ## Grade by exchange
 - WV: A
-- SU: A+
-- VQ: B-
-- VK: A
+- SU: A
+- VQ: A
+- VK: A-
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-14T03:52:01.607224Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-15T03:51:12.045187Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
