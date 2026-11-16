@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::chirp" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-15T03:54:20.425832Z
+updated: 2026-11-16T03:55:02.399830Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Sui-network token; NW grade C liquidity; transfer is open on at least one venue.
 
 ## Grade by exchange
 - VQ: C
-- YZ: D
+- YZ: D+
 - VK: D
 
 ## Deposit / Withdrawal
@@ -61,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-15T03:54:20.425832Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-16T03:55:02.399830Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

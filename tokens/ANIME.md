@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-15T03:51:37.777885Z
+updated: 2026-11-16T03:52:02.814790Z
 source: nightwatch-kg
 ---
 
@@ -33,14 +33,14 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - YZ: A+
 - VK: B-
 - DL: A+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
-- VQ: deposit ✅ / withdraw ✅
+- VQ: deposit ✅ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
@@ -61,7 +61,7 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - WV: open:arbitrum,arbone,ethereum
 - SU: open:arbitrum
 - QK: open:arbone,ethereum
-- VQ: open:arbevm | closed:arbone,ethereum
+- VQ: closed:arbevm,arbone,ethereum
 - ST: open:arbianime
 - YZ: open:arbitrum,ethereum
 - VK: open:arbitrum,ethereum
@@ -88,7 +88,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-15T03:51:37.777885Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-16T03:52:02.814790Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

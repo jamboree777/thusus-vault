@@ -2,7 +2,7 @@
 token: BOBA
 type: token
 tier: free
-nw_grade: A
+nw_grade: A+
 nw_grade_worst: B+
 identity: verified_same
 contracts:
@@ -10,21 +10,21 @@ contracts:
 exchanges: [BTHM, BYBT, CB, GATE, GPX, KUCN, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-15T03:53:15.910776Z
+updated: 2026-11-16T03:53:45.233476Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BOBA · NW Grade **A**
+# BOBA · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x42bbfa…efbc` (verified_same)
 - Listed on: SU, QK, XD, VQ, BU, YZ, VK
 
 ## Grade by exchange
-- SU: A
+- SU: A+
 - QK: A
 - XD: A
 - VQ: A
@@ -38,7 +38,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - VQ: deposit ✅ / withdraw ✅
 - BU: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
-- YZ: deposit ❌ / withdraw ✅
+- YZ: deposit ❌ / withdraw ❌
 - VK: deposit ✅ / withdraw ✅
 - ZU: deposit ❌ / withdraw ✅
 
@@ -61,7 +61,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 - YZ: closed:boba,ethereum
 - VK: open:ethereum
 - ZU: closed:ethereum
-- Suspended now: BU
+- Suspended now: BU, YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -72,7 +72,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-15T03:53:15.910776Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-16T03:53:45.233476Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

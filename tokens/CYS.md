@@ -3,13 +3,13 @@ token: CYS
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C+
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x0c69199c1562233640e0db5ce2c399a88eb507c7" }
 exchanges: [BGET, BTHM, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-15T03:55:15.989016Z
+updated: 2026-11-16T03:55:58.305477Z
 source: nightwatch-kg
 ---
 
@@ -24,10 +24,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 
 ## Grade by exchange
 - WV: A
-- SU: A
+- SU: A+
 - VQ: A
 - YZ: A+
-- VK: C+
+- VK: B+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-15T03:55:15.989016Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-16T03:55:58.305477Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

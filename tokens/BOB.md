@@ -2,31 +2,31 @@
 token: BOB
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: F
+nw_grade: A
+nw_grade_worst: C+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0xc9746f73cc33a36c2cd55b8aefd732586946cedd" }
 exchanges: [BTHM, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-15T03:53:13.771455Z
+updated: 2026-11-16T03:53:43.080798Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BOB · NW Grade **A+**
+# BOB · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0xc9746f…cedd` (partial)
 - Listed on: SU, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: A+
-- VQ: A-
-- YZ: B
-- VK: F
+- SU: A
+- VQ: C+
+- YZ: C+
+- VK: C+
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -49,7 +49,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - YZ: open:bob,gobob
 - VK: open:bob,bsc
 - CJ: open:bsc
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -60,7 +59,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-15T03:53:13.771455Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-16T03:53:43.080798Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

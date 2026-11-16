@@ -10,7 +10,7 @@ contracts:
   - { chain: provenance, address: "scope1qrm5d0wjzamyywvjuws6774ljmrqu8kh9x" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-15T03:57:26.737337Z
+updated: 2026-11-16T03:58:01.835578Z
 source: nightwatch-kg
 ---
 
@@ -32,9 +32,9 @@ Ethereum/provenance-network token; NW grade A+ liquidity; transfer is open on at
 - XD: A+
 - VQ: A+
 - YZ: C+
-- VK: B+
+- VK: B
 - DL: A+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -81,7 +81,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-15T03:57:26.737337Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-16T03:58:01.835578Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

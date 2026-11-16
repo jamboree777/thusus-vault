@@ -10,7 +10,7 @@ contracts:
 exchanges: [BTHM, BYBT, CB, GPX, MEXC, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-15T03:56:28.894836Z
+updated: 2026-11-16T03:57:12.814360Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Base-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: SU, QK, XD, BU, VK, ZU
 
 ## Grade by exchange
-- SU: A
+- SU: A+
 - QK: A+
 - XD: A+
 - VK: B+
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-15T03:56:28.894836Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-16T03:57:12.814360Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

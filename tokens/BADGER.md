@@ -3,13 +3,13 @@ token: BADGER
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: D
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x3472a5a71965499acd81997a54bba8d852c6e53d" }
 exchanges: [CB, GATE, MEXC]
 transfer: partial
-updated: 2026-11-15T03:52:21.851140Z
+updated: 2026-11-16T03:52:56.392976Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - XD: B+
-- VQ: D
+- VQ: C
 - VK: D+
 
 ## Deposit / Withdrawal
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-15T03:52:21.851140Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-16T03:52:56.392976Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
