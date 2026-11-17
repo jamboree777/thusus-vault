@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xba50933c268f567bdc86e1ac131be072c6b0b71a" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-16T03:52:09.500972Z
+updated: 2026-11-17T03:52:43.764228Z
 source: nightwatch-kg
 ---
 
@@ -26,9 +26,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - GN: A+
 - WV: B+
 - SU: A+
-- XD: A
+- XD: A+
 - VQ: A+
-- YZ: A-
+- YZ: B+
 - VK: B+
 
 ## Deposit / Withdrawal
@@ -43,16 +43,16 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-16 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-16 · WV [[bep20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-15 · WV [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-09 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,ethereum
-- WV: open:ethereum | closed:bsc
+- WV: open:bsc,ethereum
 - SU: open:ethereum
 - XD: open:ethereum
 - VQ: open:bsc,ethereum
@@ -60,6 +60,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - VK: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-16T03:52:09.500972Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-17T03:52:43.764228Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

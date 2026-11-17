@@ -3,14 +3,14 @@ token: ANIME
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: arbitrum-one, address: "0x37a645648df29205c6261289983fb04ecd70b4b3" }
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-16T03:52:02.814790Z
+updated: 2026-11-17T03:52:36.362513Z
 source: nightwatch-kg
 ---
 
@@ -31,7 +31,7 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - QK: A+
 - VQ: A
 - YZ: A+
-- VK: B-
+- VK: B+
 - DL: A+
 - ZU: A+
 
@@ -49,12 +49,12 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-16 · VQ [[arbevm]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-14 · GN [[arbitrum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-14 · GN [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-11 · VQ [[arbone]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-11 · QK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-10 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-10 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:arbitrum,arbone,ethereum
@@ -68,7 +68,6 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - DL: closed:arbitrum,arbone,ethereum
 - CJ: open:ethereum
 - ZU: open:arbitrum
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -88,7 +87,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-16T03:52:02.814790Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-17T03:52:36.362513Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
   - { chain: internet-computer, address: "ryjl3-tyaaa-aaaaa-aaaba-cai" }
 exchanges: [BGET, BTHM, CB, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-16T03:55:27.853523Z
+updated: 2026-11-17T03:56:06.686469Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - YZ: B+
 - VK: B+
 - DL: A+
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -69,7 +69,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-16T03:55:27.853523Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-17T03:56:06.686469Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

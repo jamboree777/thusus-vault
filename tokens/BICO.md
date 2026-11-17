@@ -3,13 +3,13 @@ token: BICO
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf17e65822b568b3903685a7c9f496cf7656cc6c2" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX]
 transfer: open
-updated: 2026-11-16T03:53:23.844689Z
+updated: 2026-11-17T03:53:58.455367Z
 source: nightwatch-kg
 ---
 
@@ -25,12 +25,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - QK: A+
-- XD: A+
+- XD: A
 - VQ: A
-- YZ: B+
-- VK: A
+- YZ: A
+- VK: A-
 - DL: A+
 
 ## Deposit / Withdrawal
@@ -87,7 +87,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-16T03:53:23.844689Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-17T03:53:58.455367Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

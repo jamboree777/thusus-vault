@@ -2,32 +2,32 @@
 token: CUDIS
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: F
+nw_grade: A+
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc1353d3ee02fdbd4f65f92eee543cfd709049cb1" }
 exchanges: [BGET, BTHM, BYBT, GATE, MEXC]
 transfer: partial
-lifecycle: suspended
-updated: 2026-11-16T03:55:50.653194Z
+lifecycle: delisted
+updated: 2026-11-17T03:56:28.610069Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CUDIS · NW Grade **A-**
+# CUDIS · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xc1353d…9cb1` (verified_same)
 - Listed on: WV, SU, QK, VQ, VK
 
 ## Grade by exchange
-- WV: D+
+- WV: A+
 - SU: B+
 - QK: D+
-- VQ: F
+- VQ: A+
 - VK: A-
 
 ## Deposit / Withdrawal
@@ -46,6 +46,7 @@ Binance-smart-chain-network token; NW grade A- liquidity; transfer is partial (s
 - 2026-10-22 · SU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-21 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-19 · VQ [[sol]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -75,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-16T03:55:50.653194Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-17T03:56:28.610069Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

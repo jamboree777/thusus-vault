@@ -10,7 +10,7 @@ contracts:
 exchanges: [BYBT, GATE, hyperliquid, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-16T03:54:41.191256Z
+updated: 2026-11-17T03:55:19.804658Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[hyperliquid]]: C
 - YZ: A
 - VK: A+
-- DL: A
+- DL: A+
 
 ## Deposit / Withdrawal
 - QK: deposit ✅ / withdraw ✅
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-16T03:54:41.191256Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-17T03:55:19.804658Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

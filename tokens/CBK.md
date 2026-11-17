@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xd85a6ae55a7f33b0ee113c234d2ee308edeaf7fd" }
 exchanges: [BGET, BTHM, BYBT, GATE, MEXC, UPBT]
 transfer: partial
-updated: 2026-11-16T03:54:47.659948Z
+updated: 2026-11-17T03:55:26.627647Z
 source: nightwatch-kg
 ---
 
@@ -37,15 +37,15 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - VK: deposit ❌ / withdraw ❌
-- ZU: deposit ✅ / withdraw ✅
+- ZU: deposit ❌ / withdraw ❌
 
 ## Events
+- 2026-11-17 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-17 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-03 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-11-03 · QK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:ethereum | closed:polygon
@@ -54,8 +54,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: open:ethereum,polygon
 - ST: open:cbk
 - VK: closed:ethereum,polygon
-- ZU: open:ethereum
-- Suspended now: VK
+- ZU: closed:ethereum
+- Suspended now: VK, ZU
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,7 +73,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-16T03:54:47.659948Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-17T03:55:26.627647Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

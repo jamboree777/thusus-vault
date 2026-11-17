@@ -2,28 +2,28 @@
 token: BCUT
 type: token
 tier: free
-nw_grade: C
-nw_grade_worst: F
+nw_grade: A+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-16T03:53:09.700336Z
+updated: 2026-11-17T03:53:48.198194Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BCUT · NW Grade **C**
+# BCUT · NW Grade **A+**
 
-Ethereum-network token; NW grade C liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xbef26b…c406` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: F
+- VQ: A+
 - YZ: C
 
 ## Deposit / Withdrawal
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-16T03:53:09.700336Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-17T03:53:48.198194Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
