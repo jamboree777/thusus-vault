@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC]
 transfer: open
 lifecycle: suspended
-updated: 2026-11-17T03:55:06.640013Z
+updated: 2026-11-18T03:54:41.843950Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A
+- SU: A+
 - VQ: B+
 - YZ: B+
 - VK: A
@@ -74,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:55:06.640013Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:54:41.843950Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

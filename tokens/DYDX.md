@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x92d6c1e31e14520e676a687f0a93788b716beff5" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, OKX]
 transfer: partial
-updated: 2026-11-17T03:57:22.152582Z
+updated: 2026-11-18T03:57:02.535758Z
 source: nightwatch-kg
 ---
 
@@ -35,37 +35,38 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is partial (some 
 - DL: A+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ❌ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
-- SU: deposit ❌ / withdraw ❌
+- SU: deposit ✅ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
-- DL: deposit ✅ / withdraw ✅
+- DL: deposit ❌ / withdraw ❌
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-11-16 · SU [[dydx]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-16 · SU [[dydx]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-11 · GN [[dydx]] withdraw → open · [[event/dw-resume]]
-- 2026-11-05 · GN [[dydx]] deposit → open · [[event/dw-resume]]
-- 2026-11-05 · GN [[dydx]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[dydx]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-18 · SU [[dydx]] withdraw → open · [[event/dw-resume]]
+- 2026-11-18 · SU [[dydx]] deposit → open · [[event/dw-resume]]
+- 2026-11-18 · GN [[dydx]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-17 · VK [[dydx]] withdraw → open · [[event/dw-resume]]
+- 2026-11-17 · VK [[dydx]] deposit → open · [[event/dw-resume]]
+- 2026-11-17 · VK [[dydx]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: open:dydx
+- GN: closed:dydx
 - WV: open:dydx
-- SU: closed:dydx
+- SU: open:dydx
 - QK: open:dydx
 - VQ: open:dydx | closed:ethereum
 - ST: open:dydx1
 - YZ: open:dydx
 - VK: open:dydx
-- DL: open:dydx
+- DL: closed:dydx
 - CJ: open:dydx
-- Suspended now: SU
+- Suspended now: DL
+- Recently reopened (48h): SU, VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -76,7 +77,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:57:22.152582Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:57:02.535758Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

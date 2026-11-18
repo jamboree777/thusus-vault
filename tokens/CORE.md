@@ -9,7 +9,7 @@ contracts:
   - { chain: core, address: "0x191e94fa59739e188dce837f7f6978d84727ad01" }
 exchanges: [BGET, BTHM, BYBT, GATE, MEXC, OKX]
 transfer: partial
-updated: 2026-11-17T03:55:58.156254Z
+updated: 2026-11-18T03:55:41.333985Z
 source: nightwatch-kg
 ---
 
@@ -23,15 +23,15 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - Listed on: WV, SU, QK, VQ, VK, DL
 
 ## Grade by exchange
-- WV: A
-- SU: A+
+- WV: A+
+- SU: A
 - QK: A+
 - VQ: A+
 - VK: B+
 - DL: A+
 
 ## Deposit / Withdrawal
-- WV: deposit ❌ / withdraw ❌
+- WV: deposit ✅ / withdraw ✅
 - SU: deposit ❌ / withdraw ✅
 - QK: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -48,14 +48,13 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - 2026-11-11 · QK [[core]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- WV: closed:coredao
+- WV: open:coredao
 - SU: closed:core
 - QK: open:core
 - VQ: open:core
 - ST: open:core
 - VK: open:core
 - DL: open:core
-- Suspended now: WV
 - Recently reopened (48h): VK
 
 ## Backers & Project
@@ -67,7 +66,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:55:58.156254Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:55:41.333985Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
 exchanges: [BTHM, CB, GATE, hyperliquid, MEXC, UPBT]
 transfer: open
-updated: 2026-11-17T03:57:09.433126Z
+updated: 2026-11-18T03:56:55.932703Z
 source: nightwatch-kg
 ---
 
@@ -61,7 +61,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:57:09.433126Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:56:55.932703Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

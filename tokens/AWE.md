@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0x1b4617734c43f6159f3a70b7e06d883647512778" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-17T03:53:28.567800Z
+updated: 2026-11-18T03:52:46.016151Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - VQ: A+
 - YZ: A
 - VK: B+
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -80,7 +80,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:53:28.567800Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:52:46.016151Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

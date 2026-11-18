@@ -7,19 +7,21 @@ nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x7d814b9ed370ec0a502edc3267393bf62d891b62" }
+  - { chain: solana, address: "fqgtfugbdpfn7pz6ndprzpvldbrpgxxesi4gvu3verhy" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
 transfer: partial
-updated: 2026-11-17T03:54:17.529358Z
+updated: 2026-11-18T03:53:37.491693Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BMT · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x7d814b…1b62` (verified_same)
+- Contract: [[solana]] `fqgtfugb…erhy` (verified_same)
 - Listed on: GN, WV, SU, QK, VQ, YZ, VK, ZU
 
 ## Grade by exchange
@@ -82,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:54:17.529358Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:53:37.491693Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

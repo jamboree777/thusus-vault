@@ -2,28 +2,29 @@
 token: CAMP
 type: token
 tier: free
-nw_grade: A+
+nw_grade: A
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [BTHM, BYBT, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-17T03:55:13.378555Z
+lifecycle: suspended
+updated: 2026-11-18T03:54:48.649475Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CAMP · NW Grade **A+**
+# CAMP · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x84eaac…71fc` (verified_same)
 - Listed on: SU, QK, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: A+
+- SU: A
 - QK: A-
 - VQ: F
 - YZ: F
@@ -46,6 +47,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-10-14 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-13 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-07 · QK [[camp]] withdraw → open · [[event/dw-resume]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:ethereum
@@ -74,8 +76,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:55:13.378555Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:54:48.649475Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

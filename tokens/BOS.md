@@ -2,28 +2,28 @@
 token: BOS
 type: token
 tier: free
-nw_grade: F
+nw_grade: C
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x13239c268beddd88ad0cb02050d3ff6a9d00de6d" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-17T03:54:28.499212Z
+updated: 2026-11-18T03:54:00.726249Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BOS · NW Grade **F**
+# BOS · NW Grade **C**
 
-Ethereum-network token; NW grade F liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x13239c…de6d` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: F
+- VQ: C
 - YZ: F
 
 ## Deposit / Withdrawal
@@ -62,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:54:28.499212Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:54:00.726249Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

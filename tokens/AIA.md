@@ -10,7 +10,7 @@ contracts:
   - { chain: sui, address: "0x99cc0e7834326ec6ac571421e9b8e042e9eb63062771c77ac592bd194180b5da::deagent_token::deagent_token" }
 exchanges: [BGET, BTHM, GATE, MEXC]
 transfer: open
-updated: 2026-11-17T03:52:11.953652Z
+updated: 2026-11-18T03:51:45.777085Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Binance-smart-chain/sui-network token; NW grade A+ liquidity; transfer is open o
 - WV: A
 - SU: A+
 - VQ: A+
-- VK: A+
+- VK: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-17T03:52:11.953652Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-18T03:51:45.777085Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
