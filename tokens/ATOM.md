@@ -8,15 +8,15 @@ identity: native
 contracts:
   - { chain: binance-smart-chain, address: "0x0eb3a705fc54725037cc9e008bdede697f62f335" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
-transfer: open
-updated: 2026-11-18T03:52:35.013547Z
+transfer: partial
+updated: 2026-11-19T03:52:58.308053Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ATOM · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x0eb3a7…f335` (native)
@@ -38,7 +38,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
 - WV: deposit ✅ / withdraw ✅
-- SU: deposit ✅ / withdraw ✅
+- SU: deposit ❌ / withdraw ❌
 - QK: deposit ✅ / withdraw ✅
 - XD: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
@@ -47,20 +47,20 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - VK: deposit ✅ / withdraw ✅
 - DL: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ✅
-- ZU: deposit ✅ / withdraw ✅
+- ZU: deposit ❌ / withdraw ❌
 
 ## Events
-- 2026-11-13 · VK [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-11-12 · GN [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-11-11 · GN [[atom]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-11 · GN [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-09 · WV [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-11-18 · WV [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-11-18 · WV [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-11-18 · YZ [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-11-18 · YZ [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-11-18 · QK [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-11-18 · QK [[atom]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
-- GN: open:atom,bsc
+- GN: open:bsc | closed:atom
 - WV: open:atom
-- SU: open:atom
+- SU: closed:atom
 - QK: open:atom
 - XD: open:cosmos
 - VQ: open:atom
@@ -69,7 +69,9 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - VK: open:atom
 - DL: open:atom
 - CJ: open:atom
-- ZU: open:atom
+- ZU: closed:atom
+- Suspended now: SU, ZU
+- Recently reopened (48h): WV, QK, YZ, DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -87,7 +89,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-18T03:52:35.013547Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-19T03:52:58.308053Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

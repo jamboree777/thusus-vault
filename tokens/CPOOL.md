@@ -9,7 +9,8 @@ contracts:
   - { chain: ethereum, address: "0x66761fa41377003622aee3c7675fc7b5c1c2fac5" }
 exchanges: [BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
 transfer: partial
-updated: 2026-11-18T03:55:54.253505Z
+lifecycle: delisted
+updated: 2026-11-19T03:55:56.411317Z
 source: nightwatch-kg
 ---
 
@@ -24,39 +25,41 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - WV: A
-- SU: A-
+- SU: A
 - QK: A+
 - VQ: B+
 - YZ: A
 - VK: C
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
 - SU: deposit ✅ / withdraw ✅
-- QK: deposit ✅ / withdraw ✅
+- QK: deposit ❌ / withdraw ❌
 - VQ: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ❌ / withdraw ❌
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-18 · QK [[mantle]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-18 · QK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-18 · QK [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-18 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-18 · VQ [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-18 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-18 · VK [[none]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-18 · VK [[none]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-17 · WV [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-16 · YZ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-16 · YZ [[ethereum]] deposit → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: open:ethereum
 - SU: open:ethereum
-- QK: open:ethereum | closed:mantle
+- QK: closed:ethereum,mantle
 - VQ: open:ethereum
 - YZ: open:ethereum
 - VK: closed:ethereum,none
 - ZU: open:ethereum
-- Suspended now: VK
+- Suspended now: QK, VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -73,8 +76,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-18T03:55:54.253505Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-19T03:55:56.411317Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

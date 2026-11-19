@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x92d6c1e31e14520e676a687f0a93788b716beff5" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, OKX]
 transfer: partial
-updated: 2026-11-18T03:57:02.535758Z
+updated: 2026-11-19T03:57:07.641287Z
 source: nightwatch-kg
 ---
 
@@ -43,16 +43,16 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is partial (some 
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
-- DL: deposit ❌ / withdraw ❌
+- DL: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-18 · DL [[dydx]] withdraw → open · [[event/dw-resume]]
+- 2026-11-18 · DL [[dydx]] deposit → open · [[event/dw-resume]]
 - 2026-11-18 · SU [[dydx]] withdraw → open · [[event/dw-resume]]
 - 2026-11-18 · SU [[dydx]] deposit → open · [[event/dw-resume]]
 - 2026-11-18 · GN [[dydx]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-17 · VK [[dydx]] withdraw → open · [[event/dw-resume]]
-- 2026-11-17 · VK [[dydx]] deposit → open · [[event/dw-resume]]
-- 2026-11-17 · VK [[dydx]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: closed:dydx
@@ -63,10 +63,9 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is partial (some 
 - ST: open:dydx1
 - YZ: open:dydx
 - VK: open:dydx
-- DL: closed:dydx
+- DL: open:dydx
 - CJ: open:dydx
-- Suspended now: DL
-- Recently reopened (48h): SU, VK
+- Recently reopened (48h): SU, VK, DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -77,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-18T03:57:02.535758Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-19T03:57:07.641287Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

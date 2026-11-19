@@ -9,7 +9,7 @@ contracts:
   - { chain: core, address: "0x191e94fa59739e188dce837f7f6978d84727ad01" }
 exchanges: [BGET, BTHM, BYBT, GATE, MEXC, OKX]
 transfer: partial
-updated: 2026-11-18T03:55:41.333985Z
+updated: 2026-11-19T03:55:42.316806Z
 source: nightwatch-kg
 ---
 
@@ -55,7 +55,6 @@ Core-network token; NW grade A+ liquidity; transfer is partial (some venues froz
 - ST: open:core
 - VK: open:core
 - DL: open:core
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,7 +65,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-18T03:55:41.333985Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-19T03:55:42.316806Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

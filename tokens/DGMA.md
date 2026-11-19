@@ -9,8 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x4bdfa27ce379d7601da1d15bd637a1cf895ff8fb" }
 exchanges: [GATE, MEXC]
 transfer: open
-lifecycle: suspended
-updated: 2026-11-18T03:56:31.606654Z
+updated: 2026-11-19T03:56:45.598353Z
 source: nightwatch-kg
 ---
 
@@ -31,9 +30,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - VQ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 
-## Events
-- Lifecycle: trading **suspended** · [[event/suspension]]
-
 ## Transfer map
 - VQ: open:ethereum
 - VK: open:ethereum
@@ -53,8 +49,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-18T03:56:31.606654Z_
+contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-19T03:56:45.598353Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,31 +2,30 @@
 token: BDX
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: D-
+nw_grade: A
+nw_grade_worst: F
 identity: native
 contracts:
   - { chain: ethereum, address: "0x6ad12e761b438bea3ea09f6c6266556bb24c2181" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: partial
-lifecycle: suspended
-updated: 2026-11-18T03:53:13.909164Z
+updated: 2026-11-19T03:53:37.907701Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BDX · NW Grade **A+**
+# BDX · NW Grade **A**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x6ad12e…2181` (native)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: D-
+- VQ: F
 - YZ: A
-- VK: A+
+- VK: A
 
 ## Deposit / Withdrawal
 - VQ: deposit ❌ / withdraw ✅
@@ -40,7 +39,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-11-11 · YZ [[bdx]] deposit → open · [[event/dw-resume]]
 - 2026-11-11 · VK [[bdx]] deposit → open · [[event/dw-resume]]
 - 2026-11-11 · YZ [[bdx]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: closed:bdx
@@ -62,8 +60,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-18T03:53:13.909164Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-19T03:53:37.907701Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
