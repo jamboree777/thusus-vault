@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, GPX, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-19T03:52:33.262993Z
+updated: 2026-11-20T03:52:20.628231Z
 source: nightwatch-kg
 ---
 
@@ -83,17 +83,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-2 shadow trades · realized net **+4.78 USD** · win rate 100% (2 settled)
-
-- 2026-10-20 · carry-A · SU→GN · +2.84 USD
-- 2026-10-20 · carry-A · SU→GN · +1.94 USD
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:52:33.262993Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:52:20.628231Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

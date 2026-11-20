@@ -3,13 +3,13 @@ token: CYBRO
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd58826d2c0babf1a60d8b508160b52e9c19aff07" }
 exchanges: [GATE, MEXC]
 transfer: partial
-updated: 2026-11-19T03:56:12.250522Z
+updated: 2026-11-20T03:57:04.514917Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Grade by exchange
 - VQ: A
-- VK: B
+- VK: B-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -60,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:56:12.250522Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:57:04.514917Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

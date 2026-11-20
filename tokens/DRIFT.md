@@ -3,13 +3,13 @@ token: DRIFT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: solana, address: "driftupjyltosbwon8kombeysx54afavlddwsbksjwg7" }
 exchanges: [BGET, BYBT, CB, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-19T03:56:58.803316Z
+updated: 2026-11-20T03:57:55.754049Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Solana-network token; NW grade A+ liquidity; transfer is partial (some venues fr
 - XD: A+
 - VQ: B+
 - YZ: B+
-- VK: C
+- VK: D+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -70,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:56:58.803316Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:57:55.754049Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

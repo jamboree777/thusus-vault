@@ -10,7 +10,7 @@ contracts:
 exchanges: [BYBT, GATE, hyperliquid, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-19T03:54:55.288126Z
+updated: 2026-11-20T03:55:43.418293Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - [[hyperliquid]]: C
 - YZ: A
 - VK: A+
-- DL: A+
+- DL: A-
 
 ## Deposit / Withdrawal
 - QK: deposit ✅ / withdraw ✅
@@ -62,9 +62,16 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **-1.06 USD** · win rate 0% (1 settled)
+
+- 2026-08-08 · livescan · DL→QK · -1.06 USD · _mixed_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:54:55.288126Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:55:43.418293Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,13 +3,13 @@ token: DRV
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D+
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xb1d1eae60eea9525032a6dcb4c1ce336a1de71be" }
 exchanges: [BTHM, CB, GATE, hyperliquid, MEXC, UPBT]
 transfer: open
-updated: 2026-11-19T03:57:01.019598Z
+updated: 2026-11-20T03:57:58.740021Z
 source: nightwatch-kg
 ---
 
@@ -23,11 +23,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - Listed on: SU, XD, VQ, [[hyperliquid]], VK, ZU
 
 ## Grade by exchange
-- SU: A
+- SU: A+
 - XD: A+
 - VQ: A
 - [[hyperliquid]]: A
-- VK: D+
+- VK: A-
 - ZU: A+
 
 ## Deposit / Withdrawal
@@ -61,7 +61,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:57:01.019598Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:57:58.740021Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

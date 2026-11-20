@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC]
 transfer: open
 lifecycle: suspended
-updated: 2026-11-19T03:54:42.305233Z
+updated: 2026-11-20T03:55:20.942025Z
 source: nightwatch-kg
 ---
 
@@ -29,7 +29,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - SU: A
 - VQ: B+
 - YZ: B+
-- VK: A
+- VK: B+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -65,16 +65,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-1 shadow trade · realized net **+2.97 USD** · win rate 100% (1 settled)
-
-- 2026-10-20 · carry-A · SU→GN · +2.97 USD · _held_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:54:42.305233Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:55:20.942025Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

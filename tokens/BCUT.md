@@ -2,28 +2,28 @@
 token: BCUT
 type: token
 tier: free
-nw_grade: C
-nw_grade_worst: F
+nw_grade: A+
+nw_grade_worst: C
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbef26bd568e421d6708cca55ad6e35f8bfa0c406" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-19T03:53:35.758837Z
+updated: 2026-11-20T03:53:52.191466Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BCUT · NW Grade **C**
+# BCUT · NW Grade **A+**
 
-Ethereum-network token; NW grade C liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xbef26b…c406` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: F
+- VQ: A+
 - YZ: C
 
 ## Deposit / Withdrawal
@@ -33,18 +33,19 @@ Ethereum-network token; NW grade C liquidity; transfer is partial (some venues f
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-20 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-11-20 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · YZ [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-05 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
 - 2026-11-05 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-03 · QK [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-11-03 · YZ [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-03 · QK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - QK: closed:ethereum,polygon
 - VQ: open:ethereum | closed:polygon
 - YZ: closed:ethereum
 - VK: closed:polygon
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +65,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:53:35.758837Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:53:52.191466Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

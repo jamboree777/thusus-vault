@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
 exchanges: [BTHM, CB, GATE, MEXC, UPBT]
 transfer: open
-updated: 2026-11-19T03:58:28.799673Z
+updated: 2026-11-20T03:59:59.043301Z
 source: nightwatch-kg
 ---
 
@@ -23,11 +23,11 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - Listed on: SU, XD, VQ, VK, ZU
 
 ## Grade by exchange
-- SU: A
+- SU: A+
 - XD: A+
 - VQ: A-
 - VK: B+
-- ZU: A
+- ZU: A-
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -37,12 +37,12 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-20 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-20 · VK [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-06 · VK [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - SU: open:solana
@@ -67,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:58:28.799673Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:59:59.043301Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

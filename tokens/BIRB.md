@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: solana, address: "g7vqwurmkmmm2du3izpxyftht9biio4f4gzcrwfpknwg" }
 exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
-transfer: open
-updated: 2026-11-19T03:53:50.556650Z
+transfer: partial
+updated: 2026-11-20T03:54:09.897759Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # BIRB · NW Grade **A+**
 
-Solana-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Solana-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[solana]] `g7vqwurm…knwg` (verified_same)
@@ -40,17 +40,17 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - VQ: deposit ✅ / withdraw ✅
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ✅ / withdraw ❌
 - CJ: deposit ✅ / withdraw ✅
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-19 · VK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · VK [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:solana
@@ -60,7 +60,7 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - VQ: open:solana
 - ST: open:birb
 - YZ: open:solana
-- VK: open:solana
+- VK: closed:solana
 - CJ: open:solana
 - ZU: open:solana
 
@@ -82,7 +82,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-19T03:53:50.556650Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-20T03:54:09.897759Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
