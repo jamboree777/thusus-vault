@@ -3,13 +3,13 @@ token: BANK
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x3aee7602b612de36088f3ffed8c8f10e86ebf2bf" }
-exchanges: [BNCE, BGET, BTHM, GATE, MEXC]
+exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-20T03:53:31.181319Z
+updated: 2026-11-21T03:52:47.280086Z
 source: nightwatch-kg
 ---
 
@@ -20,14 +20,15 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x3aee76…f2bf` (verified_same)
-- Listed on: GN, WV, SU, VQ, VK
+- Listed on: GN, WV, SU, VQ, YZ, VK
 
 ## Grade by exchange
 - GN: A
 - WV: B+
 - SU: A+
-- VQ: A+
-- VK: A
+- VQ: A
+- YZ: B+
+- VK: B
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -73,7 +74,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:53:31.181319Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:52:47.280086Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

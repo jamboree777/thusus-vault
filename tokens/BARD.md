@@ -3,13 +3,13 @@ token: BARD
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xf0db65d17e30a966c2ae6a21f6bba71cea6e9754" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-20T03:53:34.686586Z
+updated: 2026-11-21T03:52:49.493124Z
 source: nightwatch-kg
 ---
 
@@ -24,13 +24,13 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 
 ## Grade by exchange
 - GN: A+
-- WV: B+
+- WV: A+
 - SU: A
 - QK: A+
 - XD: A+
 - VQ: A
-- YZ: B+
-- VK: A+
+- YZ: F
+- VK: A
 - DL: A+
 - ZU: A
 
@@ -79,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:53:34.686586Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:52:49.493124Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

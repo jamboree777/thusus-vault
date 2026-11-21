@@ -3,13 +3,13 @@ token: ACE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC, OKX]
 transfer: open
-updated: 2026-11-20T03:51:14.950788Z
+updated: 2026-11-21T03:51:01.644918Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - WV: A
 - SU: A
 - VQ: A-
-- YZ: F
+- YZ: A-
 - VK: A+
 - DL: A+
 
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:51:14.950788Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:51:01.644918Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

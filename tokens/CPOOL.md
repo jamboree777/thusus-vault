@@ -3,14 +3,14 @@ token: CPOOL
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x66761fa41377003622aee3c7675fc7b5c1c2fac5" }
-exchanges: [BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
+exchanges: [BGET, BTHM, BYBT, GATE, KUCN, UPBT]
 transfer: partial
-lifecycle: delisted
-updated: 2026-11-20T03:56:44.676965Z
+lifecycle: suspended
+updated: 2026-11-21T03:55:20.300583Z
 source: nightwatch-kg
 ---
 
@@ -21,7 +21,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Identity
 - Contract: [[ethereum]] `0x66761f…fac5` (verified_same)
-- Listed on: WV, SU, QK, VQ, YZ, VK, ZU
+- Listed on: WV, SU, QK, VQ, YZ, ZU
 
 ## Grade by exchange
 - WV: A
@@ -29,8 +29,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - QK: A+
 - VQ: B+
 - YZ: A
-- VK: C
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -48,7 +47,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-11-18 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-18 · VQ [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-18 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -77,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:56:44.676965Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:55:20.300583Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,30 +2,30 @@
 token: CHEQ
 type: token
 tier: free
-nw_grade: F
+nw_grade: A
 nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-20T03:55:56.031227Z
+updated: 2026-11-21T03:54:40.885712Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHEQ · NW Grade **F**
+# CHEQ · NW Grade **A**
 
-Ethereum-network token; NW grade F liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[ethereum]] `0x70edf1…4de7` (partial)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: F
+- VQ: D
 - YZ: F
-- VK: F
+- VK: A
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -55,7 +55,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:55:56.031227Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:54:40.885712Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

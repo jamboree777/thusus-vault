@@ -3,13 +3,13 @@ token: GEOD
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: A-
 identity: partial
 contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
 exchanges: [BTHM, CB, GATE, MEXC, UPBT]
 transfer: open
-updated: 2026-11-20T03:59:59.043301Z
+updated: 2026-11-21T03:57:54.455748Z
 source: nightwatch-kg
 ---
 
@@ -26,8 +26,8 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - SU: A+
 - XD: A+
 - VQ: A-
-- VK: B+
-- ZU: A-
+- VK: A-
+- ZU: A+
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -37,12 +37,12 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-20 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-11-20 · VK [[polygon]] deposit → open · [[event/dw-resume]]
 - 2026-11-20 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-20 · VK [[polygon]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-08 · ZU [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - SU: open:solana
@@ -50,6 +50,7 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - VQ: open:polygon
 - VK: open:polygon | closed:solana
 - ZU: open:solana
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -67,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:59:59.043301Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:57:54.455748Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

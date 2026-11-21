@@ -3,14 +3,14 @@ token: BMT
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: C
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0x7d814b9ed370ec0a502edc3267393bf62d891b62" }
   - { chain: solana, address: "fqgtfugbdpfn7pz6ndprzpvldbrpgxxesi4gvu3verhy" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-20T03:54:25.265163Z
+updated: 2026-11-21T03:53:28.828334Z
 source: nightwatch-kg
 ---
 
@@ -27,11 +27,11 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - QK: A+
 - VQ: A+
 - YZ: A+
-- VK: C
+- VK: D-
 - ZU: A+
 
 ## Deposit / Withdrawal
@@ -85,7 +85,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:54:25.265163Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:53:28.828334Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

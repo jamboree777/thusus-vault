@@ -9,8 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x6ad12e761b438bea3ea09f6c6266556bb24c2181" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: partial
-lifecycle: suspended
-updated: 2026-11-20T03:53:54.405236Z
+updated: 2026-11-21T03:53:00.480377Z
 source: nightwatch-kg
 ---
 
@@ -34,18 +33,18 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-20 · YZ [[bdx]] withdraw → open · [[event/dw-resume]]
+- 2026-11-20 · YZ [[bdx]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-20 · YZ [[bdx]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-14 · VK [[bdx]] withdraw → open · [[event/dw-resume]]
 - 2026-11-14 · VK [[bdx]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-11 · VK [[bdx]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-11 · YZ [[bdx]] deposit → open · [[event/dw-resume]]
-- 2026-11-11 · VK [[bdx]] deposit → open · [[event/dw-resume]]
-- 2026-11-11 · YZ [[bdx]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: closed:bdx
 - YZ: open:bdx
 - VK: closed:bdx
+- Recently reopened (48h): YZ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -62,8 +61,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:53:54.405236Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:53:00.480377Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

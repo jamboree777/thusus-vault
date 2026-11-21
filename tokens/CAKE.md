@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x152649ea73beab28c5b49b26eb48f7ead6d4c898" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-20T03:55:30.728902Z
+updated: 2026-11-21T03:54:21.050622Z
 source: nightwatch-kg
 ---
 
@@ -45,12 +45,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-20 · GN [[aptos]] withdraw → open · [[event/dw-resume]]
+- 2026-11-20 · GN [[aptos]] deposit → open · [[event/dw-resume]]
+- 2026-11-20 · GN [[aptos]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-20 · GN [[aptos]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-11 · GN [[aptos]] withdraw → open · [[event/dw-resume]]
 - 2026-11-09 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-09 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-06 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:aptos,bsc,ethereum
@@ -63,6 +63,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - YZ: open:bsc
 - VK: open:bsc
 - CJ: open:bsc
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -71,16 +72,9 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
-## Thusus shadow-fund track record
-1 shadow trade · realized net **+0.79 USD** · win rate 100% (1 settled)
-
-- 2026-10-22 · carry-A · SU→GN · +0.79 USD · _held_
-
-_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
-
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:55:30.728902Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:54:21.050622Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

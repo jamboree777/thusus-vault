@@ -8,15 +8,15 @@ identity: verified_same
 contracts:
   - { chain: polygon-pos, address: "0xd87af7b418d64ff2cde48d890285ba64fc6e115f" }
 exchanges: [BGET, GATE, MEXC]
-transfer: partial
-updated: 2026-11-20T03:58:05.896680Z
+transfer: open
+updated: 2026-11-21T03:56:38.217701Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # DTEC · NW Grade **A+**
 
-Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[polygon-pos]] `0xd87af7…115f` (verified_same)
@@ -24,27 +24,27 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is partial (some venu
 
 ## Grade by exchange
 - WV: A+
-- VQ: A
-- VK: A+
+- VQ: A+
+- VK: A
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
-- VK: deposit ❌ / withdraw ❌
+- VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-20 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-11-20 · WV [[polygon]] deposit → open · [[event/dw-resume]]
+- 2026-11-20 · VK [[polygon]] withdraw → open · [[event/dw-resume]]
+- 2026-11-20 · VK [[polygon]] deposit → open · [[event/dw-resume]]
 - 2026-11-20 · VK [[polygon]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-20 · VK [[polygon]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-19 · WV [[polygon]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-19 · WV [[polygon]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-05 · WV [[polygon]] withdraw → open · [[event/dw-resume]]
-- 2026-11-05 · WV [[polygon]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: open:polygon
 - VQ: open:polygon
-- VK: closed:polygon
-- Suspended now: VK
+- VK: open:polygon
+- Recently reopened (48h): WV, VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-20T03:58:05.896680Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-21T03:56:38.217701Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
