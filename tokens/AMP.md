@@ -3,14 +3,14 @@ token: AMP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xff20817765cb7f73d4bde2e66e067e58d11095c2" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-21T03:51:45.128913Z
+updated: 2026-11-22T03:52:38.994184Z
 source: nightwatch-kg
 ---
 
@@ -27,10 +27,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - GN: A+
 - WV: B+
 - SU: B+
-- XD: A+
+- XD: A
 - VQ: A+
 - YZ: B+
-- VK: B+
+- VK: B-
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -72,7 +72,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-21T03:51:45.128913Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-22T03:52:38.994184Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

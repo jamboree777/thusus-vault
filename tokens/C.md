@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC]
 transfer: open
 lifecycle: suspended
-updated: 2026-11-21T03:54:16.669146Z
+updated: 2026-11-22T03:55:16.683740Z
 source: nightwatch-kg
 ---
 
@@ -67,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-21T03:54:16.669146Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-22T03:55:16.683740Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

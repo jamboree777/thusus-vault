@@ -2,29 +2,30 @@
 token: BOS
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: D-
+nw_grade: F
+nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x13239c268beddd88ad0cb02050d3ff6a9d00de6d" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-21T03:53:37.579639Z
+lifecycle: suspended
+updated: 2026-11-22T03:54:30.793470Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BOS · NW Grade **A+**
+# BOS · NW Grade **F**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade F liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x13239c…de6d` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: A+
-- YZ: D-
+- VQ: F
+- YZ: F
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -39,6 +40,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-10-09 · VQ [[ada]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 - 2026-10-02 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - WV: closed:ethereum
@@ -61,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-21T03:53:37.579639Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-22T03:54:30.793470Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,14 @@ token: BB
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xd459eceddafcc1d876a3be7290a2e16e801073a3" }
   - { chain: polygon-pos, address: "0x4f7cc8ef14f3dc76ee2fb60028749e1b61cea162" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, hyperliquid-xyz, KUCN, MEXC]
 transfer: open
-updated: 2026-11-21T03:52:53.912413Z
+updated: 2026-11-22T03:53:45.375854Z
 source: nightwatch-kg
 ---
 
@@ -27,12 +27,12 @@ Ethereum/polygon-pos-network token; NW grade A+ liquidity; transfer is open on a
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - QK: A+
 - VQ: A
 - [[hyperliquid-xyz]]: A+
 - YZ: A
-- VK: A-
+- VK: B+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -78,7 +78,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-21T03:52:53.912413Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-22T03:53:45.375854Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

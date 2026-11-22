@@ -3,14 +3,14 @@ token: CARV
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: F
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: base, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
   - { chain: ethereum, address: "0xc08cd26474722ce93f4d0c34d16201461c10aa8c" }
 exchanges: [BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-21T03:54:27.607604Z
+updated: 2026-11-22T03:55:42.185063Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Base/ethereum-network token; NW grade A+ liquidity; transfer is open on at least
 - QK: A+
 - VQ: A
 - YZ: A+
-- VK: F
+- VK: A-
 - ZU: A
 
 ## Deposit / Withdrawal
@@ -79,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-21T03:54:27.607604Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-22T03:55:42.185063Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

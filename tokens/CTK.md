@@ -3,13 +3,13 @@ token: CTK
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: osmosis, address: "ibc/7ed954cfffc06ee8419387f3fc688837ff64ef264de14219935f724eeedbf8d3" }
 exchanges: [BNCE, BTHM, GATE, MEXC]
 transfer: open
-updated: 2026-11-21T03:55:24.737104Z
+updated: 2026-11-22T03:56:45.436594Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Osmosis-network token; NW grade A+ liquidity; transfer is open on at least one v
 - GN: A+
 - SU: A+
 - VQ: A
-- VK: B+
+- VK: C+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -49,7 +49,6 @@ Osmosis-network token; NW grade A+ liquidity; transfer is open on at least one v
 - VQ: open:bsc,ctk
 - VK: open:bsc
 - CJ: open:bsc
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,9 +57,16 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **+0.16 USD** · win rate 100% (1 settled)
+
+- 2026-10-12 · livescan · GN→VK · +0.16 USD · _price_drift_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-21T03:55:24.737104Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-22T03:56:45.436594Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

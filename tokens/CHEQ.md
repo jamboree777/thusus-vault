@@ -2,40 +2,43 @@
 token: CHEQ
 type: token
 tier: free
-nw_grade: A
+nw_grade: B-
 nw_grade_worst: F
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7" }
 exchanges: [GATE, KUCN, MEXC]
-transfer: open
-updated: 2026-11-21T03:54:40.885712Z
+transfer: partial
+updated: 2026-11-22T03:56:01.432305Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHEQ · NW Grade **A**
+# CHEQ · NW Grade **B-**
 
-Ethereum-network token; NW grade A liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x70edf1…4de7` (partial)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: D
+- VQ: D-
 - YZ: F
-- VK: A
+- VK: B-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
 - YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
+
+## Events
+- 2026-11-21 · VK [[cheq]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - VQ: open:cheq
 - YZ: open:cheqd
-- VK: open:cheq
+- VK: closed:cheq
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -54,8 +57,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-21T03:54:40.885712Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-22T03:56:01.432305Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

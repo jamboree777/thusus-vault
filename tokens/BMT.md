@@ -10,7 +10,7 @@ contracts:
   - { chain: solana, address: "fqgtfugbdpfn7pz6ndprzpvldbrpgxxesi4gvu3verhy" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-21T03:53:28.828334Z
+updated: 2026-11-22T03:54:18.100611Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A
+- SU: A+
 - QK: A+
 - VQ: A+
 - YZ: A+
@@ -65,7 +65,6 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 - VK: open:bsc,solana
 - CJ: open:solana
 - ZU: open:solana
-- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-9 shadow trades · realized net **+121.29 USD** · win rate 77.8% (9 settled)
+8 shadow trades · realized net **+121.68 USD** · win rate 87.5% (8 settled)
 
 - 2026-10-28 · carry-A · SU→GN · +7.74 USD · _held_
 - 2026-10-26 · carry-A · SU→GN · -1.57 USD · _flipped_
@@ -85,7 +84,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-21T03:53:28.828334Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-22T03:54:18.100611Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
