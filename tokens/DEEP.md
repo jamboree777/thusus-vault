@@ -9,7 +9,7 @@ contracts:
   - { chain: sui, address: "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::deep" }
 exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-22T03:57:17.899408Z
+updated: 2026-11-23T03:55:28.813380Z
 source: nightwatch-kg
 ---
 
@@ -71,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-22T03:57:17.899408Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-23T03:55:28.813380Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

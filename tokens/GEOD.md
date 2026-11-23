@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
 exchanges: [BTHM, CB, GATE, MEXC, UPBT]
 transfer: open
-updated: 2026-11-22T03:59:34.324687Z
+updated: 2026-11-23T03:57:21.617267Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +23,8 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - Listed on: SU, XD, VQ, VK, ZU
 
 ## Grade by exchange
-- SU: A+
-- XD: A+
+- SU: A
+- XD: A
 - VQ: A-
 - VK: B+
 - ZU: A+
@@ -50,7 +50,6 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - VQ: open:polygon
 - VK: open:polygon | closed:solana
 - ZU: open:solana
-- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-22T03:59:34.324687Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-23T03:57:21.617267Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

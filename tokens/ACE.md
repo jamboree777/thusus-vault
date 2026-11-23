@@ -3,63 +3,68 @@ token: ACE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
-exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC, OKX]
-transfer: open
-updated: 2026-11-22T03:51:59.507601Z
+exchanges: [BNCE, BGET, BTHM, GATE, hyperliquid-perp, KUCN, MEXC, OKX]
+transfer: partial
+lifecycle: delisted
+updated: 2026-11-23T03:50:29.651264Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # ACE · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at least one venue.
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0xc27a71…def4` (verified_same)
-- Listed on: GN, WV, SU, VQ, YZ, VK, DL
+- Listed on: GN, WV, SU, VQ, [[hyperliquid-perp]], YZ, VK, DL
 
 ## Grade by exchange
 - GN: A+
-- WV: A
+- WV: B+
 - SU: A
-- VQ: A-
-- YZ: A-
-- VK: A+
-- DL: A+
+- VQ: B+
+- [[hyperliquid-perp]]: A+
+- YZ: B+
+- VK: D
+- DL: B+
 
 ## Deposit / Withdrawal
-- GN: deposit ✅ / withdraw ✅
+- GN: deposit ❌ / withdraw ❌
 - WV: deposit ✅ / withdraw ✅
-- SU: deposit ✅ / withdraw ✅
-- VQ: deposit ✅ / withdraw ✅
+- SU: deposit ❌ / withdraw ❌
+- VQ: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
-- YZ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
-- DL: deposit ✅ / withdraw ✅
+- YZ: deposit ❌ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
+- DL: deposit ❌ / withdraw ❌
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-10 · GN [[endurance]] withdraw → open · [[event/dw-resume]]
-- 2026-10-30 · GN [[endurance]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-05 · WV [[bep20]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-23 · SU [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-23 · SU [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-22 · DL [[endurance smart chain]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-22 · DL [[endurance smart chain]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-22 · YZ [[bsc]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-22 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
-- GN: open:bsc,endurance
+- GN: closed:bsc,endurance
 - WV: open:bsc | closed:esc
-- SU: open:bsc
-- VQ: open:bsc
+- SU: closed:bsc
+- VQ: closed:bsc
 - ST: open:ace
-- YZ: open:bsc | closed:ethereum
-- VK: open:bsc
-- DL: open:endurance smart chain
+- YZ: closed:bsc,ethereum
+- VK: closed:bsc
+- DL: closed:endurance smart chain
 - CJ: open:bsc
+- Suspended now: GN, SU, VQ, DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,8 +74,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-22T03:51:59.507601Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
+_Live from the NightWatch Knowledge Graph · 2026-11-23T03:50:29.651264Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

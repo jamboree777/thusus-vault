@@ -3,13 +3,13 @@ token: DENT
 type: token
 tier: free
 nw_grade: B+
-nw_grade_worst: D
+nw_grade_worst: B+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x3597bfd533a99c9aa083587b074434e61eb0a258" }
 exchanges: [BNCE, GATE, KUCN]
 transfer: partial
-updated: 2026-11-22T03:57:23.222537Z
+updated: 2026-11-23T03:55:33.204744Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: B+
 - VQ: B+
-- YZ: D
+- YZ: B+
 
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ✅
@@ -63,7 +63,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-22T03:57:23.222537Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-23T03:55:33.204744Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

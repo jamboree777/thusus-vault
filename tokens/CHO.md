@@ -2,29 +2,29 @@
 token: CHO
 type: token
 tier: free
-nw_grade: F
-nw_grade_worst: F
+nw_grade: B-
+nw_grade_worst: D+
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xbba39fd2935d5769116ce38d46a71bde9cf03099" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-22T03:56:09.037799Z
+updated: 2026-11-23T03:54:19.493907Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHO · NW Grade **F**
+# CHO · NW Grade **B-**
 
-Ethereum-network token; NW grade F liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade B- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xbba39f…3099` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: F
-- YZ: F
+- VQ: B-
+- YZ: D+
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -59,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-22T03:56:09.037799Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-23T03:54:19.493907Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
