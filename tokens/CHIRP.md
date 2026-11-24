@@ -2,31 +2,30 @@
 token: CHIRP
 type: token
 tier: free
-nw_grade: C-
-nw_grade_worst: F
+nw_grade: D+
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1ef4c0b20340b8c6a59438204467ca71e1e7cbe918526f9c2c6c5444517cd5ca::chirp::chirp" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: open
-lifecycle: suspended
-updated: 2026-11-23T03:54:16.719136Z
+updated: 2026-11-24T03:54:36.411699Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHIRP · NW Grade **C-**
+# CHIRP · NW Grade **D+**
 
-Sui-network token; NW grade C- liquidity; transfer is open on at least one venue.
+Sui-network token; NW grade D+ liquidity; transfer is open on at least one venue.
 
 ## Identity
 - Contract: [[sui]] `0x1ef4c0…hirp` (verified_same)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: D+
-- YZ: C-
-- VK: F
+- VQ: D
+- YZ: D+
+- VK: D
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -40,7 +39,6 @@ Sui-network token; NW grade C- liquidity; transfer is open on at least one venue
 - 2026-08-20 · VK [[sui]] deposit → open · [[event/dw-resume]]
 - 2026-08-20 · VK [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-20 · VK [[sui]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: open:sui | closed:suinew
@@ -62,8 +60,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-23T03:54:16.719136Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-24T03:54:36.411699Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

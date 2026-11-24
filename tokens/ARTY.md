@@ -4,12 +4,12 @@ type: token
 tier: free
 nw_grade: B+
 nw_grade_worst: B+
-identity: verified_same
+identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x617cab4aaae1f8dfb3ee138698330776a1e1b324" }
 exchanges: [BYBT]
 transfer: blocked
-updated: 2026-11-23T03:51:34.717704Z
+updated: 2026-11-24T03:51:19.030690Z
 source: nightwatch-kg
 ---
 
@@ -19,7 +19,7 @@ source: nightwatch-kg
 Binance-smart-chain-network token; NW grade B+ liquidity; transfer is currently blocked (deposit/withdrawal frozen on at least one venue).
 
 ## Identity
-- Contract: [[binance-smart-chain]] `0x617cab…b324` (verified_same)
+- Contract: [[binance-smart-chain]] `0x617cab…b324` (partial)
 - Listed on: QK
 
 ## Grade by exchange
@@ -33,12 +33,12 @@ Binance-smart-chain-network token; NW grade B+ liquidity; transfer is currently 
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-23 · VQ [[eth]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-23 · VQ [[eth]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-20 · VQ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-20 · VQ [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-20 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-14 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-14 · VQ [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-07 · QK [[bsc]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: closed:bsc
@@ -64,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-23T03:51:34.717704Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-24T03:51:19.030690Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

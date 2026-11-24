@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, GPX, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-23T03:51:25.744985Z
+updated: 2026-11-24T03:51:10.158429Z
 source: nightwatch-kg
 ---
 
@@ -52,12 +52,12 @@ Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-24 · GN [[aptos]] withdraw → open · [[event/dw-resume]]
+- 2026-11-23 · GN [[aptos]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-20 · GN [[aptos]] withdraw → open · [[event/dw-resume]]
 - 2026-11-20 · GN [[aptos]] deposit → open · [[event/dw-resume]]
 - 2026-11-20 · GN [[aptos]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-20 · GN [[aptos]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-08 · ZU [[aptos]] withdraw → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[aptos]] deposit → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -75,6 +75,7 @@ Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - CJ: open:aptos
 - ZU: open:aptos
 - Suspended now: BU
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -85,7 +86,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-23T03:51:25.744985Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-24T03:51:10.158429Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

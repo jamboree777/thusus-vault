@@ -4,31 +4,31 @@ type: token
 tier: free
 nw_grade: A+
 nw_grade_worst: D+
-identity: verified_same
+identity: collision
 contracts:
   - { chain: ethereum, address: "0xd85a6ae55a7f33b0ee113c234d2ee308edeaf7fd" }
 exchanges: [BGET, BTHM, BYBT, GATE, MEXC, UPBT]
 transfer: partial
-updated: 2026-11-23T03:54:03.588237Z
+updated: 2026-11-24T03:54:21.690342Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
 # CBK · NW Grade **A+**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen); **ticker collision** — same symbol maps to different contracts across exchanges.
 
 ## Identity
-- Contract: [[ethereum]] `0xd85a6a…f7fd` (verified_same)
+- Contract: [[ethereum]] `0xd85a6a…f7fd` (collision)
 - Listed on: WV, SU, QK, VQ, VK, ZU
 
 ## Grade by exchange
 - WV: D+
-- SU: A+
+- SU: B+
 - QK: A
 - VQ: B+
 - VK: A+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -38,6 +38,9 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ST: deposit ✅ / withdraw ✅
 - VK: deposit ❌ / withdraw ❌
 - ZU: deposit ✅ / withdraw ✅
+
+## Related
+[[collision]]
 
 ## Events
 - 2026-11-19 · SU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
@@ -73,7 +76,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-23T03:54:03.588237Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-24T03:54:21.690342Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

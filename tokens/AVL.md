@@ -2,30 +2,30 @@
 token: AVL
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: B
+nw_grade: A+
+nw_grade_worst: A
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x5c8d0c48810fd37a0a824d074ee290e64f7a8fa2" }
 exchanges: [BTHM, BYBT, GATE, MEXC]
 transfer: partial
-updated: 2026-11-23T03:51:52.253106Z
+updated: 2026-11-24T03:51:32.487449Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# AVL · NW Grade **A**
+# AVL · NW Grade **A+**
 
-Ethereum-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x5c8d0c…8fa2` (partial)
 - Listed on: SU, QK, VQ, VK
 
 ## Grade by exchange
-- SU: A
-- QK: B+
-- VQ: B
+- SU: A+
+- QK: A+
+- VQ: A+
 - VK: A
 
 ## Deposit / Withdrawal
@@ -60,7 +60,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-23T03:51:52.253106Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-24T03:51:32.487449Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

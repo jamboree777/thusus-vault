@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "dbridgjamsm95motzjs7m9lnkgerpbv9v6cur1dxnuu5" }
 exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-23T03:55:12.139683Z
+updated: 2026-11-24T03:55:44.225364Z
 source: nightwatch-kg
 ---
 
@@ -23,8 +23,8 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - Listed on: WV, SU, QK, XD, VQ, YZ, VK
 
 ## Grade by exchange
-- WV: A+
-- SU: A-
+- WV: C-
+- SU: A
 - QK: A+
 - XD: A+
 - VQ: C+
@@ -70,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-23T03:55:12.139683Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-24T03:55:44.225364Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

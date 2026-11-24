@@ -10,7 +10,7 @@ contracts:
   - { chain: solana, address: "fqgtfugbdpfn7pz6ndprzpvldbrpgxxesi4gvu3verhy" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-23T03:53:03.186247Z
+updated: 2026-11-24T03:53:05.327573Z
 source: nightwatch-kg
 ---
 
@@ -30,9 +30,9 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 - SU: A+
 - QK: A+
 - VQ: A+
-- YZ: A
+- YZ: A+
 - VK: D-
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -47,12 +47,12 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-23 · WV [[sol]] withdraw → open · [[event/dw-resume]]
 - 2026-11-19 · WV [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-11-09 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-09 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-09 · YZ [[bep20]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[solana]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:bsc,solana
@@ -65,6 +65,7 @@ Binance-smart-chain/solana-network token; NW grade A+ liquidity; transfer is ope
 - VK: open:bsc,solana
 - CJ: open:solana
 - ZU: open:solana
+- Recently reopened (48h): WV
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,17 +75,16 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
 ## Thusus shadow-fund track record
-8 shadow trades · realized net **+121.68 USD** · win rate 87.5% (8 settled)
+2 shadow trades · realized net **+6.17 USD** · win rate 50% (2 settled)
 
 - 2026-10-28 · carry-A · SU→GN · +7.74 USD · _held_
 - 2026-10-26 · carry-A · SU→GN · -1.57 USD · _flipped_
-- 2026-10-24 · carry-A · SU→GN · +17.87 USD · _held_
 
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-23T03:53:03.186247Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-24T03:53:05.327573Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

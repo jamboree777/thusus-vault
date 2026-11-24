@@ -10,7 +10,7 @@ contracts:
   - { chain: solana, address: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-23T03:53:09.744274Z
+updated: 2026-11-24T03:53:19.006526Z
 source: nightwatch-kg
 ---
 
@@ -81,7 +81,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-23T03:53:09.744274Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-24T03:53:19.006526Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
