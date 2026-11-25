@@ -3,14 +3,14 @@ token: ACE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: D-
+nw_grade_worst: D
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc27a719105a987b4c34116223cae8bd8f4b5def4" }
 exchanges: [BNCE, BGET, BTHM, GATE, hyperliquid-perp, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-24T03:50:15.836398Z
+updated: 2026-11-25T03:51:53.412451Z
 source: nightwatch-kg
 ---
 
@@ -25,11 +25,11 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - GN: A+
-- WV: C
+- WV: C-
 - SU: A
 - VQ: B+
 - [[hyperliquid-perp]]: A
-- YZ: D-
+- YZ: D
 - VK: B+
 - DL: B+
 
@@ -40,17 +40,17 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VQ: deposit ❌ / withdraw ❌
 - ST: deposit ✅ / withdraw ✅
 - YZ: deposit ❌ / withdraw ❌
-- VK: deposit ❌ / withdraw ✅
+- VK: deposit ❌ / withdraw ❌
 - DL: deposit ❌ / withdraw ❌
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-24 · WV [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-24 · VK [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-23 · YZ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-23 · WV [[bep20]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-23 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-23 · VQ [[bsc]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-23 · YZ [[bep20]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-23 · YZ [[bep20]] deposit → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -63,7 +63,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 - VK: closed:bsc
 - DL: closed:endurance smart chain
 - CJ: open:bsc
-- Suspended now: GN, SU, VQ, YZ, DL
+- Suspended now: GN, SU, VQ, YZ, VK, DL
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:50:15.836398Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:51:53.412451Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

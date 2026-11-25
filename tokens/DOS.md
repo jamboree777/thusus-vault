@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x951f086a127e280724fd93ccc543f65065afeb5e" }
 exchanges: [BTHM, GATE, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-24T03:56:10.520489Z
+updated: 2026-11-25T03:58:08.814275Z
 source: nightwatch-kg
 ---
 
@@ -39,12 +39,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-24 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-17 · VK [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-14 · WV [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-14 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:ethereum
@@ -64,7 +64,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:56:10.520489Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:58:08.814275Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

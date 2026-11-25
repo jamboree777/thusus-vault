@@ -2,21 +2,22 @@
 token: ALKIMI
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: A
+nw_grade: A
+nw_grade_worst: C-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-24T03:50:42.635483Z
+lifecycle: suspended
+updated: 2026-11-25T03:53:13.846993Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ALKIMI · NW Grade **A+**
+# ALKIMI · NW Grade **A**
 
-Sui-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x1a8f4b…kimi` (verified_same)
@@ -24,7 +25,7 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 
 ## Grade by exchange
 - VQ: A
-- YZ: A+
+- YZ: C-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -38,6 +39,7 @@ Sui-network token; NW grade A+ liquidity; transfer is partial (some venues froze
 - 2026-07-31 · VK [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · VK [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · VQ [[suinew]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: open:sui | closed:suinew
@@ -61,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:50:42.635483Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:53:13.846993Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

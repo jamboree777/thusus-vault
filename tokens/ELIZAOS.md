@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xea17df5cf6d172224892b5477a16acb111182478" }
 exchanges: [BYBT, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-24T03:56:39.901602Z
+updated: 2026-11-25T03:58:55.835693Z
 source: nightwatch-kg
 ---
 
@@ -36,12 +36,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-24 · QK [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-11-24 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-23 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-07 · QK [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-06 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-05 · WV [[sol]] withdraw → open · [[event/dw-resume]]
-- 2026-10-02 · WV [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-09-28 · WV [[sol]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: closed:solana
@@ -49,6 +49,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: open:solana
 - YZ: open:solana
 - VK: closed:bsc,solana
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:56:39.901602Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:58:55.835693Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

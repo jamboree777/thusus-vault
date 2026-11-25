@@ -2,22 +2,21 @@
 token: CAMP
 type: token
 tier: free
-nw_grade: A+
-nw_grade_worst: D-
+nw_grade: A-
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x84eaac1b2dc3f84d92ff84c3ec205b1fa74671fc" }
 exchanges: [BTHM, BYBT, GATE, KUCN, MEXC]
 transfer: partial
-lifecycle: delisted
-updated: 2026-11-24T03:53:52.016718Z
+updated: 2026-11-25T03:56:14.530358Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CAMP · NW Grade **A+**
+# CAMP · NW Grade **A-**
 
-Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x84eaac…71fc` (verified_same)
@@ -26,8 +25,8 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - SU: B+
 - QK: A-
-- VQ: A+
-- YZ: D-
+- VQ: B-
+- YZ: B
 - VK: B
 
 ## Deposit / Withdrawal
@@ -47,7 +46,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - 2026-10-17 · YZ [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-10-14 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-13 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - WV: closed:ethereum
@@ -66,9 +64,18 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+5 shadow trades · realized net **+3.54 USD** · win rate 80% (5 settled)
+
+- 2026-08-18 · livescan · YZ→WV · -0.76 USD · _price_drift_
+- 2026-08-09 · livescan · QK→WV · +1.45 USD · _depth_shrink_
+- 2026-07-31 · livescan · QK→WV · +0.38 USD · _cost_drag_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:53:52.016718Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:56:14.530358Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

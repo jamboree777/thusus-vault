@@ -9,7 +9,7 @@ contracts:
   - { chain: solana, address: "dbridgjamsm95motzjs7m9lnkgerpbv9v6cur1dxnuu5" }
 exchanges: [BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-24T03:55:44.225364Z
+updated: 2026-11-25T03:57:40.390919Z
 source: nightwatch-kg
 ---
 
@@ -23,13 +23,13 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - Listed on: WV, SU, QK, XD, VQ, YZ, VK
 
 ## Grade by exchange
-- WV: C-
+- WV: A+
 - SU: A
 - QK: A+
 - XD: A+
 - VQ: C+
 - YZ: D+
-- VK: A
+- VK: D+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -41,14 +41,15 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - YZ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 - CJ: deposit ✅ / withdraw ✅
+- ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-24 · QK [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-11-24 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · VK [[solana]] deposit → open · [[event/dw-resume]]
 - 2026-11-06 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-22 · SU [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-10-22 · SU [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-10-21 · SU [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-21 · SU [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:solana
@@ -60,6 +61,8 @@ Solana-network token; NW grade A+ liquidity; transfer is open on at least one ve
 - YZ: open:solana
 - VK: open:solana
 - CJ: open:solana
+- ZU: open:solana
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +73,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:55:44.225364Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:57:40.390919Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

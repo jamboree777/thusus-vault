@@ -3,13 +3,13 @@ token: BID
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: F
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xa1832f7f4e534ae557f9b5ab76de54b1873e498b" }
 exchanges: [GATE, MEXC]
 transfer: open
-updated: 2026-11-24T03:52:49.416028Z
+updated: 2026-11-25T03:54:56.029174Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is open on at 
 
 ## Grade by exchange
 - VQ: A
-- VK: F
+- VK: D-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -59,7 +59,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:52:49.416028Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:54:56.029174Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

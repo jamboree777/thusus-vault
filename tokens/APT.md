@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, GPX, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-24T03:51:10.158429Z
+updated: 2026-11-25T03:53:27.105401Z
 source: nightwatch-kg
 ---
 
@@ -86,7 +86,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:51:10.158429Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:53:27.105401Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

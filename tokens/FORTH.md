@@ -9,8 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x77fba179c79de5b7653f68b5039af940ada60ce0" }
 exchanges: [CB, KUCN]
 transfer: blocked
-lifecycle: delisted
-updated: 2026-11-24T03:57:33.850615Z
+updated: 2026-11-25T03:59:40.904726Z
 source: nightwatch-kg
 ---
 
@@ -40,7 +39,6 @@ Ethereum-network token; NW grade C liquidity; transfer is currently blocked (dep
 - 2026-11-09 · YZ [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-12 · YZ [[erc20]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-06 · YZ [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- Lifecycle: **DELISTED** · [[event/delisting]]
 
 ## Transfer map
 - XD: closed:ethereum
@@ -65,8 +63,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:57:33.850615Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:59:40.904726Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,14 +3,14 @@ token: CP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B+
+nw_grade_worst: C+
 identity: verified_same
 contracts:
   - { chain: base, address: "0x001aad84c21a5cd4d696c56d44866e9703c43f77" }
   - { chain: internet-computer, address: "ryjl3-tyaaa-aaaaa-aaaba-cai" }
 exchanges: [BGET, BTHM, CB, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-24T03:55:11.503392Z
+updated: 2026-11-25T03:57:07.983013Z
 source: nightwatch-kg
 ---
 
@@ -28,7 +28,7 @@ Base/internet-computer-network token; NW grade A+ liquidity; transfer is open on
 - SU: A+
 - XD: A+
 - YZ: B+
-- VK: B+
+- VK: C+
 - DL: A+
 - ZU: A+
 
@@ -69,7 +69,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:55:11.503392Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:57:07.983013Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

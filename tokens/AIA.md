@@ -10,7 +10,7 @@ contracts:
   - { chain: sui, address: "0x99cc0e7834326ec6ac571421e9b8e042e9eb63062771c77ac592bd194180b5da::deagent_token::deagent_token" }
 exchanges: [BGET, BTHM, GATE, MEXC]
 transfer: open
-updated: 2026-11-24T03:50:29.352207Z
+updated: 2026-11-25T03:52:39.184862Z
 source: nightwatch-kg
 ---
 
@@ -26,9 +26,9 @@ Binance-smart-chain/sui-network token; NW grade A+ liquidity; transfer is open o
 
 ## Grade by exchange
 - WV: A
-- SU: A
+- SU: A+
 - VQ: A+
-- VK: A
+- VK: A+
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
@@ -37,12 +37,12 @@ Binance-smart-chain/sui-network token; NW grade A+ liquidity; transfer is open o
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-24 · VQ [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-23 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-23 · VQ [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-19 · VQ [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-19 · VQ [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-10-30 · VK [[none]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · VK [[none]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - WV: open:sui
@@ -69,7 +69,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:50:29.352207Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:52:39.184862Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

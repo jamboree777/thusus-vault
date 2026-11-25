@@ -10,7 +10,7 @@ contracts:
 exchanges: [GATE, KUCN, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-24T03:54:51.371419Z
+updated: 2026-11-25T03:56:44.504851Z
 source: nightwatch-kg
 ---
 
@@ -24,7 +24,7 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: F
+- VQ: D
 - YZ: F
 - VK: C-
 
@@ -36,12 +36,12 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-24 · QK [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-11-24 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · YZ [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-06 · YZ [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-03 · YZ [[base]] deposit → closed · [[event/dw-freeze]]
 - 2026-10-07 · QK [[solana]] withdraw → open · [[event/dw-resume]]
-- 2026-10-07 · QK [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-10-06 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -50,6 +50,7 @@ Binance-smart-chain-network token; NW grade C- liquidity; transfer is partial (s
 - VQ: open:base,baseevm
 - YZ: closed:base
 - VK: closed:base
+- Recently reopened (48h): QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +70,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-24T03:54:51.371419Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-25T03:56:44.504851Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
