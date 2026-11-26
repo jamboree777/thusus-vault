@@ -10,7 +10,7 @@ contracts:
   - { chain: solana, address: "dezxaz8z7pnrnrjjz3wxborgixca6xjnb7yab1ppb263" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-25T03:55:17.241476Z
+updated: 2026-11-26T03:54:46.955559Z
 source: nightwatch-kg
 ---
 
@@ -51,12 +51,12 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 - ZU: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[solana]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[solana]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-24 · QK [[solana]] withdraw → open · [[event/dw-resume]]
 - 2026-11-24 · QK [[solana]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-08 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-06 · VK [[solana]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · VK [[solana]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,solana
@@ -71,7 +71,7 @@ Ethereum/solana-network token; NW grade A+ liquidity; transfer is partial (some 
 - DL: open:solana
 - CJ: open:solana
 - ZU: closed:solana
-- Recently reopened (48h): QK
+- Recently reopened (48h): GN, QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -82,7 +82,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:55:17.241476Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:54:46.955559Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

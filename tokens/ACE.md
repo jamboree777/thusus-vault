@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, GATE, hyperliquid-perp, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-25T03:51:53.412451Z
+updated: 2026-11-26T03:52:14.406546Z
 source: nightwatch-kg
 ---
 
@@ -25,13 +25,13 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 
 ## Grade by exchange
 - GN: A+
-- WV: C-
+- WV: D
 - SU: A
 - VQ: B+
 - [[hyperliquid-perp]]: A
-- YZ: D
-- VK: B+
-- DL: B+
+- YZ: C
+- VK: A
+- DL: A-
 
 ## Deposit / Withdrawal
 - GN: deposit ❌ / withdraw ❌
@@ -74,7 +74,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:51:53.412451Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:52:14.406546Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

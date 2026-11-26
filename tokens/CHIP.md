@@ -9,7 +9,7 @@ contracts:
   - { chain: arbitrum-one, address: "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e" }
 exchanges: [BNCE, BTHM, BYBT, CB, hyperliquid-perp, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-25T03:56:34.384321Z
+updated: 2026-11-26T03:55:56.423621Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 - [[hyperliquid-perp]]: A+
 - VK: B+
 - DL: A+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -46,12 +46,12 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[arbitrum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[arbitrum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[arbitrum]] deposit → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[arbitrum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[arbitrum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-03 · GN [[arbone]] withdraw → open · [[event/dw-resume]]
-- 2026-11-03 · GN [[arbitrum]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:arbitrum,arbone
@@ -65,6 +65,7 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 - DL: open:arbitrum,arbone
 - CJ: open:arbitrum
 - ZU: open:arbitrum
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -75,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:56:34.384321Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:55:56.423621Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

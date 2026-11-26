@@ -3,13 +3,13 @@ token: FORT
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B+
+nw_grade_worst: B
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x41545f8b9472d758bb669ed8eaeeecd7a9c4ec29" }
 exchanges: [BTHM, BYBT, CB, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-25T03:59:38.752603Z
+updated: 2026-11-26T03:58:42.863535Z
 source: nightwatch-kg
 ---
 
@@ -24,10 +24,10 @@ Ethereum-network token; NW grade A liquidity; transfer is partial (some venues f
 
 ## Grade by exchange
 - SU: A
-- QK: A
+- QK: B+
 - XD: A
 - VQ: B+
-- YZ: B+
+- YZ: B
 - VK: B+
 
 ## Deposit / Withdrawal
@@ -67,7 +67,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:59:38.752603Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:58:42.863535Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

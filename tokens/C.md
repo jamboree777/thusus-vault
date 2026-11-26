@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, GATE, KUCN, MEXC]
 transfer: open
 lifecycle: suspended
-updated: 2026-11-25T03:56:07.884381Z
+updated: 2026-11-26T03:55:26.786992Z
 source: nightwatch-kg
 ---
 
@@ -26,7 +26,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 ## Grade by exchange
 - GN: A+
 - WV: A
-- SU: A+
+- SU: A
 - VQ: B+
 - YZ: B+
 - VK: B+
@@ -41,12 +41,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-23 · GN [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-23 · GN [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-23 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-23 · GN [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-11 · GN [[base]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -68,7 +68,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:56:07.884381Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:55:26.786992Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

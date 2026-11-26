@@ -3,14 +3,14 @@ token: COMP
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc00e94cb662c3520282e6f5717214004a7f26888" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, GPX, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-25T03:56:46.812222Z
+updated: 2026-11-26T03:56:10.158376Z
 source: nightwatch-kg
 ---
 
@@ -32,7 +32,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: A
 - [[hyperliquid-perp]]: A+
 - YZ: A
-- VK: A-
+- VK: A
 - DL: A+
 - ZU: A+
 
@@ -52,12 +52,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-08 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-08 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -75,6 +75,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: open:ethereum
 - ZU: open:ethereum
 - Suspended now: BU
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -85,7 +86,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:56:46.812222Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:56:10.158376Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

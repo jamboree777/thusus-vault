@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC, UPBT]
 transfer: open
-updated: 2026-11-25T03:57:01.596071Z
+updated: 2026-11-26T03:56:28.004446Z
 source: nightwatch-kg
 ---
 
@@ -44,12 +44,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] deposit → open · [[event/dw-resume]]
 - 2026-11-08 · ZU [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-08 · ZU [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-08 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:ethereum
@@ -61,6 +61,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - YZ: open:ethereum
 - VK: open:ethereum
 - ZU: open:ethereum
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -78,7 +79,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:57:01.596071Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:56:28.004446Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x75d8bb7fbd4782a134211dc350ba5c715197b81d" }
 exchanges: [GATE, MEXC]
 transfer: partial
-updated: 2026-11-25T03:53:53.411151Z
+updated: 2026-11-26T03:53:39.606777Z
 source: nightwatch-kg
 ---
 
@@ -29,9 +29,10 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Deposit / Withdrawal
 - WV: deposit ❌ / withdraw ❌
 - VQ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-25 · VK [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-08-26 · WV [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-08-26 · WV [[bsc]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · WV [[bep20]] withdraw → closed · [[event/dw-freeze]]
@@ -40,7 +41,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (s
 ## Transfer map
 - WV: closed:bsc
 - VQ: open:bsc
-- VK: open:bsc
+- VK: closed:bsc
 - Suspended now: WV
 
 ## Backers & Project
@@ -59,7 +60,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:53:53.411151Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:53:39.606777Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

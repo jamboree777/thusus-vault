@@ -9,7 +9,7 @@ contracts:
   - { chain: binance-smart-chain, address: "0x0eb3a705fc54725037cc9e008bdede697f62f335" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-25T03:53:50.577378Z
+updated: 2026-11-26T03:53:37.433779Z
 source: nightwatch-kg
 ---
 
@@ -50,12 +50,12 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-11-20 · ZU [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-11-20 · ZU [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-11-19 · SU [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-11-19 · SU [[atom]] deposit → open · [[event/dw-resume]]
-- 2026-11-19 · GN [[atom]] withdraw → open · [[event/dw-resume]]
-- 2026-11-19 · GN [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-11-25 · QK [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · QK [[atom]] deposit → open · [[event/dw-resume]]
+- 2026-11-25 · QK [[atom]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · QK [[atom]] deposit → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[atom]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:atom,bsc
@@ -70,6 +70,7 @@ Binance-smart-chain-network token; NW grade A+ liquidity; transfer is open on at
 - DL: open:atom
 - CJ: open:atom
 - ZU: open:atom
+- Recently reopened (48h): GN, QK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -87,7 +88,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:53:50.577378Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:53:37.433779Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

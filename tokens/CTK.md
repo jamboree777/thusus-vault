@@ -9,7 +9,7 @@ contracts:
   - { chain: osmosis, address: "ibc/7ed954cfffc06ee8419387f3fc688837ff64ef264de14219935f724eeedbf8d3" }
 exchanges: [BNCE, BTHM, GATE, MEXC]
 transfer: open
-updated: 2026-11-25T03:57:14.646968Z
+updated: 2026-11-26T03:56:49.243645Z
 source: nightwatch-kg
 ---
 
@@ -36,12 +36,12 @@ Osmosis-network token; NW grade A+ liquidity; transfer is open on at least one v
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[ctk]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[ctk]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-19 · GN [[ctk]] withdraw → open · [[event/dw-resume]]
 - 2026-11-19 · GN [[ctk]] deposit → open · [[event/dw-resume]]
-- 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · VQ [[ctk]] withdraw → open · [[event/dw-resume]]
-- 2026-11-02 · VQ [[ctk]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,ctk
@@ -49,6 +49,7 @@ Osmosis-network token; NW grade A+ liquidity; transfer is open on at least one v
 - VQ: open:bsc,ctk
 - VK: open:bsc
 - CJ: open:bsc
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -66,7 +67,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:57:14.646968Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:56:49.243645Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

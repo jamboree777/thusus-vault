@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667" }
 exchanges: [BNCE, BTHM, CB, GATE, KUCN, MEXC, OKX]
 transfer: partial
-updated: 2026-11-25T03:56:25.722393Z
+updated: 2026-11-26T03:55:47.290996Z
 source: nightwatch-kg
 ---
 
@@ -24,11 +24,11 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 
 ## Grade by exchange
 - GN: A+
-- SU: A+
+- SU: A
 - XD: A+
 - VQ: D
 - YZ: A+
-- VK: B+
+- VK: C
 - DL: A+
 
 ## Deposit / Withdrawal
@@ -42,12 +42,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - DL: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-11 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-08 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[ethereum]] deposit → open · [[event/dw-resume]]
-- 2026-11-06 · GN [[ethereum]] deposit → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,ethereum
@@ -58,6 +58,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: open:ethereum | closed:bsc
 - VK: open:ethereum
 - DL: open:ethereum
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -68,7 +69,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:56:25.722393Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:55:47.290996Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

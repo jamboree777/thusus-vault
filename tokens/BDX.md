@@ -3,13 +3,13 @@ token: BDX
 type: token
 tier: free
 nw_grade: A
-nw_grade_worst: B+
+nw_grade_worst: F
 identity: native
 contracts:
   - { chain: ethereum, address: "0x6ad12e761b438bea3ea09f6c6266556bb24c2181" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: blocked
-updated: 2026-11-25T03:54:47.212411Z
+updated: 2026-11-26T03:54:11.253807Z
 source: nightwatch-kg
 ---
 
@@ -23,27 +23,28 @@ Ethereum-network token; NW grade A liquidity; transfer is currently blocked (dep
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: B+
+- VQ: F
 - YZ: A
 - VK: A-
 
 ## Deposit / Withdrawal
 - VQ: deposit ❌ / withdraw ✅
 - YZ: deposit ❌ / withdraw ✅
-- VK: deposit ❌ / withdraw ✅
+- VK: deposit ❌ / withdraw ❌
 
 ## Events
+- 2026-11-25 · VK [[bdx]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-20 · YZ [[bdx]] withdraw → open · [[event/dw-resume]]
 - 2026-11-20 · YZ [[bdx]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-20 · YZ [[bdx]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-14 · VK [[bdx]] withdraw → open · [[event/dw-resume]]
 - 2026-11-14 · VK [[bdx]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-11 · VK [[bdx]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - VQ: closed:bdx
 - YZ: closed:bdx
 - VK: closed:bdx
+- Suspended now: VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -61,7 +62,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:54:47.212411Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:54:11.253807Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

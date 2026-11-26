@@ -9,7 +9,8 @@ contracts:
   - { chain: linea, address: "0x5fbdf89403270a1846f5ae7d113a989f850d1566" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-25T03:59:43.106530Z
+lifecycle: suspended
+updated: 2026-11-26T03:59:01.598919Z
 source: nightwatch-kg
 ---
 
@@ -38,6 +39,7 @@ Linea-network token; NW grade D+ liquidity; transfer is partial (some venues fro
 - 2026-10-06 · QK [[linea]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-02 · YZ [[linea]] withdraw → closed · [[event/dw-freeze]]
 - 2026-09-02 · YZ [[linea]] withdraw → open · [[event/dw-resume]]
+- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - QK: closed:linea
@@ -52,9 +54,18 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+3 shadow trades · realized net **+3.00 USD** · win rate 66.7% (3 settled)
+
+- 2026-07-19 · livescan · VQ→YZ · -2.83 USD · _price_drift_
+- 2026-07-15 · bigspike · VQ→YZ · +4.64 USD
+- 2026-07-15 · bigspike · VQ→YZ · +1.19 USD
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:59:43.106530Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:59:01.598919Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BTHM, GATE, GPX, KUCN, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-25T03:58:51.305828Z
+updated: 2026-11-26T03:57:55.959243Z
 source: nightwatch-kg
 ---
 
@@ -41,12 +41,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-09 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
 - 2026-11-09 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · BU [[open campus]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-06 · BU [[open campus]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-03 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-10-30 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
@@ -59,6 +59,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: open:bsc
 - CJ: open:bsc
 - Suspended now: BU
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -69,7 +70,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:58:51.305828Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:57:55.959243Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

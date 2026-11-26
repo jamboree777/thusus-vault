@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x086f405146ce90135750bbec9a063a8b20a8bffb" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-25T03:55:28.236880Z
+updated: 2026-11-26T03:55:10.068232Z
 source: nightwatch-kg
 ---
 
@@ -48,12 +48,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
-- 2026-11-23 · GN [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-23 · GN [[base]] deposit → open · [[event/dw-resume]]
-- 2026-11-23 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-23 · GN [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-23 · VQ [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-11-23 · WV [[erc20]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-25 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:base,bsc,ethereum
@@ -68,7 +68,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - DL: open:ethereum
 - CJ: open:ethereum
 - ZU: open:ethereum
-- Recently reopened (48h): GN, VQ
+- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -79,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:55:28.236880Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:55:10.068232Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

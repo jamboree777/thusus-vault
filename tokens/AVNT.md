@@ -9,7 +9,7 @@ contracts:
   - { chain: base, address: "0x696f9436b67233384889472cd7cd58a6fb5df4f1" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-25T03:54:06.397223Z
+updated: 2026-11-26T03:53:46.575608Z
 source: nightwatch-kg
 ---
 
@@ -49,12 +49,12 @@ Base-network token; NW grade A+ liquidity; transfer is open on at least one venu
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-25 · GN [[base]] withdraw → open · [[event/dw-resume]]
+- 2026-11-25 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-23 · GN [[base]] withdraw → open · [[event/dw-resume]]
 - 2026-11-23 · GN [[base]] deposit → open · [[event/dw-resume]]
 - 2026-11-23 · GN [[base]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-23 · GN [[base]] deposit → closed · [[event/dw-freeze]]
-- 2026-11-08 · ZU [[base]] withdraw → open · [[event/dw-resume]]
-- 2026-11-08 · ZU [[base]] deposit → open · [[event/dw-resume]]
 
 ## Transfer map
 - GN: open:base
@@ -80,7 +80,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-25T03:54:06.397223Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-26T03:53:46.575608Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
