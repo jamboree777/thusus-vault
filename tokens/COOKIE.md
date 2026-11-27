@@ -3,14 +3,14 @@ token: COOKIE
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B
+nw_grade_worst: B-
 identity: verified_same
 contracts:
   - { chain: binance-smart-chain, address: "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f" }
   - { chain: ethereum, address: "0xc0041ef357b183448b235a8ea73ce4e4ec8c265f" }
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, KUCN, MEXC]
 transfer: open
-updated: 2026-11-26T03:56:13.310602Z
+updated: 2026-11-27T03:55:39.703600Z
 source: nightwatch-kg
 ---
 
@@ -32,7 +32,7 @@ Binance-smart-chain/ethereum-network token; NW grade A+ liquidity; transfer is o
 - XD: A+
 - VQ: B
 - YZ: B+
-- VK: B+
+- VK: B-
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -76,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-26T03:56:13.310602Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-27T03:55:39.703600Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

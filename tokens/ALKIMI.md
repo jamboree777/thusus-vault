@@ -2,30 +2,29 @@
 token: ALKIMI
 type: token
 tier: free
-nw_grade: F
-nw_grade_worst: F
+nw_grade: A
+nw_grade_worst: D-
 identity: verified_same
 contracts:
   - { chain: sui, address: "0x1a8f4bc33f8ef7fbc851f156857aa65d397a6a6fd27a7ac2ca717b51f2fd9489::alkimi::alkimi" }
 exchanges: [GATE, KUCN]
 transfer: partial
-lifecycle: suspended
-updated: 2026-11-26T03:52:46.893375Z
+updated: 2026-11-27T03:52:08.608097Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# ALKIMI · NW Grade **F**
+# ALKIMI · NW Grade **A**
 
-Sui-network token; NW grade F liquidity; transfer is partial (some venues frozen).
+Sui-network token; NW grade A liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[sui]] `0x1a8f4b…kimi` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: F
-- YZ: F
+- VQ: A
+- YZ: D-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -39,7 +38,6 @@ Sui-network token; NW grade F liquidity; transfer is partial (some venues frozen
 - 2026-07-31 · VK [[sui]] withdraw → closed · [[event/dw-freeze]]
 - 2026-07-12 · VK [[sui]] deposit → closed · [[event/dw-freeze]]
 - 2026-07-12 · VQ [[suinew]] withdraw → closed · [[event/dw-freeze]]
-- Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: open:sui | closed:suinew
@@ -63,8 +61,8 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 _Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
 
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-26T03:52:46.893375Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-27T03:52:08.608097Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

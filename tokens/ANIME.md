@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x4dc26fc5854e7648a064a4abd590bbe71724c277" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, OKX, UPBT]
 transfer: partial
-updated: 2026-11-26T03:53:05.814328Z
+updated: 2026-11-27T03:52:18.129533Z
 source: nightwatch-kg
 ---
 
@@ -33,7 +33,7 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - YZ: A+
 - VK: B+
 - DL: A+
-- ZU: A
+- ZU: A+
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -49,15 +49,15 @@ Arbitrum-one/ethereum-network token; NW grade A+ liquidity; transfer is partial 
 - ZU: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-26 · WV [[arbone]] withdraw → open · [[event/dw-resume]]
+- 2026-11-26 · WV [[arbone]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-26 · GN [[arbone]] withdraw → open · [[event/dw-resume]]
+- 2026-11-26 · GN [[arbitrum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-26 · QK [[arbone]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-25 · WV [[arbone]] withdraw → open · [[event/dw-resume]]
-- 2026-11-25 · VQ [[arbone]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-25 · WV [[arbone]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-25 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
-- 2026-11-25 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
-- GN: open:ethereum | closed:arbitrum,arbone
+- GN: open:arbitrum,arbone,ethereum
 - WV: open:arbitrum,arbone,ethereum
 - SU: open:arbitrum
 - QK: open:ethereum | closed:arbone
@@ -79,7 +79,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-26T03:53:05.814328Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-27T03:52:18.129533Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -3,13 +3,13 @@ token: AVAIL
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: A-
+nw_grade_worst: A
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xeeb4d8400aeefafc1b2953e0094134a887c76bd8" }
 exchanges: [BTHM, BYBT, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-26T03:53:42.220499Z
+updated: 2026-11-27T03:52:47.922717Z
 source: nightwatch-kg
 ---
 
@@ -23,10 +23,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - Listed on: SU, QK, VQ, YZ, VK
 
 ## Grade by exchange
-- SU: A+
+- SU: A
 - QK: A+
 - VQ: A+
-- YZ: A-
+- YZ: A
 - VK: A+
 
 ## Deposit / Withdrawal
@@ -39,12 +39,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-26 · VQ [[avail]] withdraw → open · [[event/dw-resume]]
 - 2026-11-20 · VQ [[avail]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-16 · VQ [[avail]] withdraw → open · [[event/dw-resume]]
 - 2026-11-13 · VQ [[avail]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-19 · WV [[erc20]] withdraw → closed · [[event/dw-freeze]]
 - 2026-10-15 · WV [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-10-05 · WV [[erc20]] withdraw → open · [[event/dw-resume]]
 
 ## Transfer map
 - WV: closed:avl,ethereum
@@ -55,6 +55,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - YZ: open:avail
 - VK: open:avail
 - Suspended now: WV
+- Recently reopened (48h): VQ
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -74,7 +75,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-26T03:53:42.220499Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-27T03:52:47.922717Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

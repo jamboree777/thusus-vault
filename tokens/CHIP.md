@@ -9,7 +9,7 @@ contracts:
   - { chain: arbitrum-one, address: "0x0c1c1c109fe34733fca54b82d7b46b75cfb71f6e" }
 exchanges: [BNCE, BTHM, BYBT, CB, hyperliquid-perp, MEXC, OKX, UPBT]
 transfer: open
-updated: 2026-11-26T03:55:56.423621Z
+updated: 2026-11-27T03:55:12.006515Z
 source: nightwatch-kg
 ---
 
@@ -30,7 +30,7 @@ Arbitrum-one-network token; NW grade A+ liquidity; transfer is open on at least 
 - [[hyperliquid-perp]]: A+
 - VK: B+
 - DL: A+
-- ZU: A+
+- ZU: A
 
 ## Deposit / Withdrawal
 - GN: deposit ✅ / withdraw ✅
@@ -76,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-26T03:55:56.423621Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-27T03:55:12.006515Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

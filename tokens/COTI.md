@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0xddb3422497e61e13543bea06989c0789117555c5" }
 exchanges: [BNCE, BGET, BTHM, CB, GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-26T03:56:25.868558Z
+updated: 2026-11-27T03:55:50.174566Z
 source: nightwatch-kg
 ---
 
@@ -25,7 +25,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 ## Grade by exchange
 - GN: A+
 - WV: B+
-- SU: A+
+- SU: A
 - XD: A+
 - VQ: C
 - YZ: A
@@ -43,12 +43,12 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - CJ: deposit ✅ / withdraw ✅
 
 ## Events
+- 2026-11-26 · VK [[coti]] withdraw → closed · [[event/dw-freeze]]
+- 2026-11-26 · VK [[coti]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-25 · VK [[coti]] deposit → open · [[event/dw-resume]]
 - 2026-11-25 · VK [[coti]] deposit → closed · [[event/dw-freeze]]
 - 2026-11-25 · GN [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-11-25 · GN [[bsc]] withdraw → open · [[event/dw-resume]]
-- 2026-11-25 · GN [[ethereum]] withdraw → closed · [[event/dw-freeze]]
-- 2026-11-25 · GN [[bsc]] withdraw → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - GN: open:bsc,ethereum
@@ -58,7 +58,7 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VQ: open:coti,ethereum
 - ST: open:erc20coti
 - YZ: open:coti,cotievm,ethereum
-- VK: open:coti,ethereum | closed:bsc
+- VK: open:ethereum | closed:bsc,coti
 - CJ: open:ethereum
 - Recently reopened (48h): GN, VK
 
@@ -71,7 +71,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-26T03:56:25.868558Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-27T03:55:50.174566Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

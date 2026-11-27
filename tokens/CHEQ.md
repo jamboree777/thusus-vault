@@ -2,30 +2,30 @@
 token: CHEQ
 type: token
 tier: free
-nw_grade: B+
-nw_grade_worst: F
+nw_grade: C-
+nw_grade_worst: D-
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x70edf1c215d0ce69e7f16fd4e6276ba0d99d4de7" }
 exchanges: [GATE, KUCN, MEXC]
 transfer: partial
-updated: 2026-11-26T03:55:53.927531Z
+updated: 2026-11-27T03:55:09.811813Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CHEQ · NW Grade **B+**
+# CHEQ · NW Grade **C-**
 
-Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade C- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x70edf1…4de7` (partial)
 - Listed on: VQ, YZ, VK
 
 ## Grade by exchange
-- VQ: B+
-- YZ: F
-- VK: C-
+- VQ: C-
+- YZ: D+
+- VK: D-
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
@@ -33,12 +33,15 @@ Ethereum-network token; NW grade B+ liquidity; transfer is partial (some venues 
 - VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-26 · VK [[cheq]] withdraw → open · [[event/dw-resume]]
+- 2026-11-26 · VK [[cheq]] withdraw → closed · [[event/dw-freeze]]
 - 2026-11-21 · VK [[cheq]] deposit → closed · [[event/dw-freeze]]
 
 ## Transfer map
 - VQ: open:cheq
 - YZ: open:cheqd
 - VK: closed:cheq
+- Recently reopened (48h): VK
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -58,7 +61,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-26T03:55:53.927531Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-27T03:55:09.811813Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -10,7 +10,7 @@ contracts:
   - { chain: ethereum, address: "0x92d6c1e31e14520e676a687f0a93788b716beff5" }
 exchanges: [BNCE, BGET, BTHM, BYBT, GATE, KUCN, MEXC, OKX]
 transfer: open
-updated: 2026-11-26T03:57:47.395504Z
+updated: 2026-11-27T03:57:11.097822Z
 source: nightwatch-kg
 ---
 
@@ -27,7 +27,7 @@ Cosmos/ethereum-network token; NW grade A+ liquidity; transfer is open on at lea
 ## Grade by exchange
 - GN: A+
 - WV: A+
-- SU: A
+- SU: A+
 - QK: A+
 - VQ: A
 - YZ: A
@@ -76,7 +76,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-26T03:57:47.395504Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-27T03:57:11.097822Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
