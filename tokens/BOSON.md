@@ -2,28 +2,28 @@
 token: BOSON
 type: token
 tier: free
-nw_grade: A-
-nw_grade_worst: B-
+nw_grade: A+
+nw_grade_worst: A-
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0xc477d038d5420c6a9e0b031712f61c5120090de9" }
 exchanges: [GATE, KUCN]
 transfer: partial
-updated: 2026-11-27T03:54:16.514565Z
+updated: 2026-11-28T03:53:18.748123Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BOSON · NW Grade **A-**
+# BOSON · NW Grade **A+**
 
-Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
+Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0xc477d0…0de9` (verified_same)
 - Listed on: VQ, YZ
 
 ## Grade by exchange
-- VQ: B-
+- VQ: A+
 - YZ: A-
 
 ## Deposit / Withdrawal
@@ -58,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-27T03:54:16.514565Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-28T03:53:18.748123Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

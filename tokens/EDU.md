@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BTHM, GATE, GPX, KUCN, MEXC]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-27T03:57:19.890568Z
+updated: 2026-11-28T03:57:09.503810Z
 source: nightwatch-kg
 ---
 
@@ -59,7 +59,6 @@ Ethereum-network token; NW grade A+ liquidity; transfer is partial (some venues 
 - VK: open:bsc
 - CJ: open:bsc
 - Suspended now: BU
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -70,7 +69,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-27T03:57:19.890568Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-28T03:57:09.503810Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

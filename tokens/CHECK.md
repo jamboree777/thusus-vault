@@ -3,13 +3,13 @@ token: CHECK
 type: token
 tier: free
 nw_grade: A+
-nw_grade_worst: B-
+nw_grade_worst: C+
 identity: partial
 contracts:
   - { chain: ethereum, address: "0x9126236476efba9ad8ab77855c60eb5bf37586eb" }
 exchanges: [BTHM, CB, GATE, MEXC]
 transfer: open
-updated: 2026-11-27T03:55:07.621630Z
+updated: 2026-11-28T03:54:18.785166Z
 source: nightwatch-kg
 ---
 
@@ -23,10 +23,10 @@ Ethereum-network token; NW grade A+ liquidity; transfer is open on at least one 
 - Listed on: SU, XD, VQ, VK
 
 ## Grade by exchange
-- SU: B+
+- SU: A-
 - XD: A+
-- VQ: B-
-- VK: A
+- VQ: C+
+- VK: B+
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -68,7 +68,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-27T03:55:07.621630Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-28T03:54:18.785166Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -9,7 +9,7 @@ contracts:
   - { chain: ethereum, address: "0x3a63de3572c69a1307ff08394f3ee7702c16d25d" }
 exchanges: [BGET, MEXC]
 transfer: open
-updated: 2026-11-27T03:54:34.721061Z
+updated: 2026-11-28T03:53:51.540176Z
 source: nightwatch-kg
 ---
 
@@ -28,6 +28,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one 
 
 ## Deposit / Withdrawal
 - WV: deposit ✅ / withdraw ✅
+- SU: deposit ✅ / withdraw ✅
 - VQ: deposit ✅ / withdraw ✅
 - VK: deposit ✅ / withdraw ✅
 
@@ -41,6 +42,7 @@ Ethereum-network token; NW grade B+ liquidity; transfer is open on at least one 
 
 ## Transfer map
 - WV: open:bsc
+- SU: open:bsc
 - VQ: open:bsc | closed:ethereum
 - VK: open:bsc
 
@@ -62,7 +64,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-27T03:54:34.721061Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-28T03:53:51.540176Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

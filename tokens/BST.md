@@ -2,43 +2,45 @@
 token: BST
 type: token
 tier: free
-nw_grade: F
+nw_grade: A-
 nw_grade_worst: F
 identity: verified_same
 contracts:
   - { chain: ethereum, address: "0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a" }
 exchanges: [GATE, MEXC]
-transfer: open
-lifecycle: suspended
-updated: 2026-11-27T03:54:30.259800Z
+transfer: partial
+lifecycle: delisted
+updated: 2026-11-28T03:53:46.696734Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# BST · NW Grade **F**
+# BST · NW Grade **A-**
 
-Ethereum-network token; NW grade F liquidity; transfer is open on at least one venue.
+Ethereum-network token; NW grade A- liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[ethereum]] `0x509a38…7f4a` (verified_same)
 - Listed on: VQ, VK
 
 ## Grade by exchange
-- VQ: F
+- VQ: A-
 - VK: F
 
 ## Deposit / Withdrawal
 - VQ: deposit ✅ / withdraw ✅
-- VK: deposit ✅ / withdraw ✅
+- VK: deposit ❌ / withdraw ✅
 
 ## Events
+- 2026-11-27 · VK [[ethereum]] deposit → closed · [[event/dw-freeze]]
 - 2026-09-28 · VK [[ethereum]] withdraw → open · [[event/dw-resume]]
 - 2026-09-28 · VK [[ethereum]] withdraw → closed · [[event/dw-freeze]]
+- Lifecycle: **DELISTED** · [[event/delisting]]
 - Lifecycle: trading **suspended** · [[event/suspension]]
 
 ## Transfer map
 - VQ: open:ethereum
-- VK: open:ethereum
+- VK: closed:ethereum
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -56,7 +58,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-27T03:54:30.259800Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-28T03:53:46.696734Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

@@ -2,22 +2,22 @@
 token: CAT
 type: token
 tier: free
-nw_grade: A
-nw_grade_worst: C+
+nw_grade: A+
+nw_grade_worst: B
 identity: partial
 contracts:
   - { chain: binance-smart-chain, address: "0x6894cde390a3f51155ea41ed24a33a4827d3063d" }
 exchanges: [BYBT, GATE, hyperliquid, KUCN, MEXC, OKX]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-27T03:54:58.832408Z
+updated: 2026-11-28T03:54:09.589314Z
 source: nightwatch-kg
 ---
 
 <!-- nw:auto:begin -->
-# CAT · NW Grade **A**
+# CAT · NW Grade **A+**
 
-Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (some venues frozen).
+Binance-smart-chain-network token; NW grade A+ liquidity; transfer is partial (some venues frozen).
 
 ## Identity
 - Contract: [[binance-smart-chain]] `0x6894cd…063d` (partial)
@@ -28,8 +28,8 @@ Binance-smart-chain-network token; NW grade A liquidity; transfer is partial (so
 - VQ: A
 - [[hyperliquid]]: B+
 - YZ: A
-- VK: C+
-- DL: A
+- VK: B
+- DL: A+
 
 ## Deposit / Withdrawal
 - QK: deposit ✅ / withdraw ✅
@@ -71,7 +71,7 @@ _Paper / dry-run track record — trades are simulated with a 5-min simulated tr
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle · Thusus track record
-_Live from the NightWatch Knowledge Graph · 2026-11-27T03:54:58.832408Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-28T03:54:09.589314Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

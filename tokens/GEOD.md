@@ -9,7 +9,7 @@ contracts:
   - { chain: polygon-pos, address: "0xac0f66379a6d7801d7726d5a943356a172549adb" }
 exchanges: [BTHM, CB, GATE, MEXC, UPBT]
 transfer: open
-updated: 2026-11-27T03:58:30.261735Z
+updated: 2026-11-28T03:58:20.841464Z
 source: nightwatch-kg
 ---
 
@@ -23,11 +23,11 @@ Polygon-pos-network token; NW grade A+ liquidity; transfer is open on at least o
 - Listed on: SU, XD, VQ, VK, ZU
 
 ## Grade by exchange
-- SU: A
+- SU: B+
 - XD: A+
 - VQ: A-
 - VK: B+
-- ZU: A-
+- ZU: A+
 
 ## Deposit / Withdrawal
 - SU: deposit ✅ / withdraw ✅
@@ -59,9 +59,16 @@ _Not yet in the KG. Contribute verified backers/team/official links → see /kg 
 Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Price), grade-change alerts, and bulk access require an API key.
 → send header `X-NW-User-Key` (get one at /docs/api). Free tier is rate-limited and ~60s delayed. See /llms.txt.
 
+## Thusus shadow-fund track record
+1 shadow trade · realized net **-8.08 USD** · win rate 0% (1 settled)
+
+- 2026-07-28 · livescan · VQ→VK · -8.08 USD · _mixed_
+
+_Paper / dry-run track record — trades are simulated with a 5-min simulated transfer window; no capital is deployed. See [[Thusus]]._
+
 ## Sources
-contract verification sweep · NW grade · dep/wd status · listings · dep/wd events
-_Live from the NightWatch Knowledge Graph · 2026-11-27T03:58:30.261735Z_
+contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · Thusus track record
+_Live from the NightWatch Knowledge Graph · 2026-11-28T03:58:20.841464Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_

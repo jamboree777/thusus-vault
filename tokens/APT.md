@@ -10,7 +10,7 @@ contracts:
 exchanges: [BNCE, BGET, BTHM, BYBT, CB, GATE, GPX, hyperliquid-perp, KUCN, MEXC, OKX, UPBT]
 transfer: partial
 lifecycle: suspended
-updated: 2026-11-27T03:52:25.164571Z
+updated: 2026-11-28T03:51:14.607683Z
 source: nightwatch-kg
 ---
 
@@ -75,7 +75,6 @@ Aptos-network token; NW grade A+ liquidity; transfer is partial (some venues fro
 - CJ: open:aptos
 - ZU: open:aptos
 - Suspended now: BU
-- Recently reopened (48h): GN
 
 ## Backers & Project
 _Not yet in the KG. Contribute verified backers/team/official links → see /kg (contribution). Convention: `[[backer/<name>]]`._
@@ -86,7 +85,7 @@ Live microstructure & MM detection, on-chain flows, real-time arbitrage (One Pri
 
 ## Sources
 contract verification sweep · NW grade · dep/wd status · listings · dep/wd events · lifecycle
-_Live from the NightWatch Knowledge Graph · 2026-11-27T03:52:25.164571Z_
+_Live from the NightWatch Knowledge Graph · 2026-11-28T03:51:14.607683Z_
 
 ---
 _Clone the full vault: https://github.com/jamboree777/thusus-vault_
